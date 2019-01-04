@@ -315,6 +315,6 @@ def get_score_info_pkuhsc_table_2014(main_url, url, file_path):
 
 
 if __name__ == "__main__":
-    # get_score_info_hit()
+    get_score_info_hit()
     # get_score_info_pku()
-    get_score_info_pkuhsc()
+    # get_score_info_pkuhsc()

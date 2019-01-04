@@ -26,12 +26,12 @@ def read_file_content(file_path):
         return file.readlines()
 
 
-# 获取MySQL表构造表项列表
-def get_insert_mysql_table_tuple(file_path, school):
+# 获取招生计划文档构造表项列表
+def plan_doc_to_mysql_table_tuple(file_path, school):
     file_content = read_file_content(file_path)
-    file_name = file_list[0].split("\\")[-1]
-    year = file_name.split(" ")[0]
-    district = file_name.split(" ")[1]
+    file_name = file_path.split("\\")[-1]
+    year = file_name.split("-")[0]
+    district = file_name.split("-")[1]
     # print("年份：", year, "地区：", district)
     table_content = []
     for i in range(len(file_content)):
@@ -46,18 +46,38 @@ def get_insert_mysql_table_tuple(file_path, school):
         major = item[0]
         classy = item[1]
         numbers = item[2]
-        temp = (school, district, major, year, classy, numbers)
+        temp = (school, district, year, major, classy, numbers)
         mysql_content.append(temp)
     # for item in mysql_content:
     #     print(item)
     return mysql_content
 
 
+# 插入数据库表admission_plan
+def insert_table_admission_plan(mysql_tuple_list):
+    db_name = "university_admission"
+    mydb = MysqlOperation.connect_mysql_with_db(db_name)
+    mycursor = mydb.cursor()
+    sql_string = "INSERT INTO admission_plan(school,district,year,major,classy,numbers) " \
+                 "VALUES (%s,%s,%s,%s,%s,%s)"
+    mycursor.executemany(sql_string, mysql_tuple_list)
+    mydb.commit()
+
+
 if __name__ == "__main__":
     # print(read_all_file_list("Information/九校联盟/哈尔滨工业大学/招生计划"))
-    dir_path = "Information/九校联盟/哈尔滨工业大学/招生计划"
-    school = "哈尔滨工业大学"
+    # dir_path = "Information/九校联盟/哈尔滨工业大学/招生计划"
+    # school = "哈尔滨工业大学"
+    # print(read_all_file_list("Information/九校联盟/北京大学/招生计划"))
+    # dir_path = "Information/九校联盟/北京大学/招生计划"
+    # school = "北京大学"
+    print(read_all_file_list("Information/九校联盟/北京大学/招生计划/医学部"))
+    dir_path = "Information/九校联盟/北京大学/招生计划/医学部"
+    school = "北京大学"
+
     file_list = read_all_file_list(dir_path)
-    mysql_content = get_insert_mysql_table_tuple(file_list[0], school)
-    for item in mysql_content:
-        print(item)
+    for file in file_list:
+        mysql_content = plan_doc_to_mysql_table_tuple(file, school)
+        insert_table_admission_plan(mysql_content)
+        for item in mysql_content:
+            print(item)

@@ -50,7 +50,7 @@ def get_plan_info_hit():
             page_soup = BeautifulSoup(page_source, "lxml")
             page_soup.prettify()
             # 表名
-            table_name = page_soup.find(class_="info_line").string
+            table_name = year+"-"+pro
             print("表名:", table_name)
             # 表头
             table_head = []
@@ -64,6 +64,12 @@ def get_plan_info_hit():
                 for sub_item in item.find_all(name="td"):
                     temp.append(sub_item.string.strip())
                 table_content.append(temp)
+            # 去除统计部分的数据项、无数据的项
+            for item in table_content:
+                if item[0] == "无数据":
+                    table_content.remove(item)
+                elif item[1] == "统计":
+                    table_content.remove(item)
             for item in table_content:
                 print(item)
             # 将表内容写入文本文件
@@ -107,7 +113,7 @@ def get_plan_info_pku():
                 page_soup = BeautifulSoup(page_source, "lxml")
                 page_soup.prettify()
                 # 表名
-                table_name = year + district[i_district]
+                table_name = year + "-" + district[i_district]
                 print("表名:", table_name)
                 # 表内容(原表)
                 source_table_content = []
@@ -116,19 +122,19 @@ def get_plan_info_pku():
                 # 表头
                 table_head = source_table_content[:2]
                 table_head.insert(1, "类别")
-                # print("表头:", table_head)
+                print("表头:", table_head)
                 source_table_content = source_table_content[4:]
                 for i in range(0, len(source_table_content), 2):
                     temp = []
                     temp.append(source_table_content[i])
                     if i_families == 0:
-                        temp.append("文科")
+                        temp.append("文史")
                     else:
-                        temp.append("理科")
+                        temp.append("理工")
                     temp.append(source_table_content[i + 1])
                     table_content.append(temp)
-                # for item in table_content:
-                #     print(item)
+                for item in table_content:
+                    print(item)
             # 将表内容写入文本文件
             file_path = "Information/九校联盟/北京大学/招生计划"
             write_table(file_path, table_name, table_head, table_content)
@@ -174,9 +180,13 @@ def get_plan_info_pkuhsc_2017():
                 # print(sub_item.text.strip())
             temp.pop(0)
             table_content.append(temp)
-        table_name = year + district[i_url]
+        table_name = year + "-" + district[i_url]
         table_head = table_content[0]
+        table_head[1]="类别"
         table_content = table_content[1:]
+        for i in range(len(table_content)):
+            table_content[i][0]+=table_content[i][1]+"年"
+            table_content[i][1]="医科"
         print(table_name)
         print(table_head)
         for item in table_content:
@@ -191,7 +201,7 @@ def get_plan_info_pkuhsc_2016():
     year = "2016"
     # 构造链接
     specific_url = main_url + "/" + year + "/"
-    print(specific_url)
+    # print(specific_url)
     page_source = requests.get(specific_url)
     page_source.encoding = "utf-8"
     page_soup = BeautifulSoup(page_source.text, "lxml")
@@ -218,9 +228,13 @@ def get_plan_info_pkuhsc_2016():
                 temp.append(sub_item.text.strip())
                 # print(sub_item.text.strip())
             table_content.append(temp)
-        table_name = year + district[i_url]
+        table_name = year + "-" + district[i_url]
         table_head = table_content[0]
+        table_head[1] = "类别"
         table_content = table_content[1:]
+        for i in range(len(table_content)):
+            table_content[i][0] += table_content[i][1] + "年"
+            table_content[i][1] = "医科"
         print(table_name)
         print(table_head)
         for item in table_content:
@@ -230,6 +244,8 @@ def get_plan_info_pkuhsc_2016():
 
 
 if __name__ == "__main__":
-    # get_plan_info_hit()
+    print("start...")
+    get_plan_info_hit()
     # get_plan_info_pku()
-    get_plan_info_pkuhsc()
+    # get_plan_info_pkuhsc()
+    print("end...")
