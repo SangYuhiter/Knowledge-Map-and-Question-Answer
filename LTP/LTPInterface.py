@@ -26,7 +26,8 @@ def ltp_segmentor(LTP_DATA_DIR, sentence):
     # 分词模型路径，模型名称为`cws.model`
     cws_model_path = os.path.join(LTP_DATA_DIR, "cws.model")
     segmentor = Segmentor()  # 初始化实例
-    segmentor.load(cws_model_path)  # 加载模型
+    # segmentor.load(cws_model_path)  # 加载模型
+    segmentor.load_with_lexicon(cws_model_path, "ltp_data/dict/school")
     words = segmentor.segment(sentence)  # 分词
     segmentor.release()  # 释放模型
     return words
