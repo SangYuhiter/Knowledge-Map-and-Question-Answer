@@ -29,6 +29,7 @@ if __name__ == "__main__":
     # print(hanlp_nlp_segmentor("2015年哈工大软件工程在河南招多少人？"))
     # print(hanlp_nlp_segmentor("战争动员学的学院"))
     # print(hanlp_nlp_segmentor("内蒙古"))
+    print(hanlp_nlp_segmentor("我是哈工大的一批次医科类考生"))
     logger.debug("*************")
     logger.info("*************")
     logger.warning("*************")

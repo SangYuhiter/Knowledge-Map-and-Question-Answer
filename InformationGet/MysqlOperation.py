@@ -142,6 +142,16 @@ def create_admission_score_major_table():
                      "amount varchar(10) NULL)")
     logger.info("admission_score_major表创建完成！")
 
+
+# mysql 查询语句,返回查询结果
+def mysql_query_sentence(mysql_string):
+    dbname = "university_admission"
+    mydb = connect_mysql_with_db(dbname)
+    mycursor = mydb.cursor()
+    mycursor.execute(mysql_string)
+    myresult = mycursor.fetchall()
+    return myresult
+
 if __name__ == "__main__":
     logger = logging.getLogger(__name__)
     logger.info("begin...")
