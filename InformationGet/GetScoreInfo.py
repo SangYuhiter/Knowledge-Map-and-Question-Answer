@@ -1251,122 +1251,122 @@ def get_score_info_nju():
     # main_page_source = request_url(main_url).text
     # with open(file_path+"/source/html","w",encoding="utf-8")as html:
     #     source_code = html.write(main_page_source)
-    with open(file_path+"/source/html","r",encoding="utf-8")as html:
-        source_code = html.read()
-    main_page_soup = BeautifulSoup(source_code, "lxml")
-    main_page_soup.prettify()
-    for tbody in main_page_soup.find_all("tbody")[1:]:
-        print(tbody)
-        year = tbody.tr.find(text=re.compile("20\d{2}"))
-        print(year)
-        table_name = year + "-" + "pro"
-        table_head = ["地区", "批次", "类别", "分数线"]
-        mylogger.debug("表名：" + table_name)
-        mylogger.debug("表头：" + str(table_head))
-        table_content = []
-        for tr in tbody.find_all("tr")[2:]:
-            info_line = []
-            for td in tr:
-                info_line.append(str(td.text).replace("—",""))
-            if info_line[2] == "":
-                table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
-            else:
-                table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
-                table_content.append([info_line[0][:-1], "一批", "文史", info_line[2]])
-        for item in table_content:
-            print(item)
-        # 将表内容写入文本文件
-        write_table(file_path, table_name, table_head, table_content)
-        mylogger.info("南京大学" + table_name + "分数已存入文件")
+    # with open(file_path+"/source/html","r",encoding="utf-8")as html:
+    #     source_code = html.read()
+    # main_page_soup = BeautifulSoup(source_code, "lxml")
+    # main_page_soup.prettify()
+    # for tbody in main_page_soup.find_all("tbody")[1:]:
+    #     print(tbody)
+    #     year = tbody.tr.find(text=re.compile("20\d{2}"))
+    #     print(year)
+    #     table_name = year + "-" + "pro"
+    #     table_head = ["地区", "批次", "类别", "分数线"]
+    #     mylogger.debug("表名：" + table_name)
+    #     mylogger.debug("表头：" + str(table_head))
+    #     table_content = []
+    #     for tr in tbody.find_all("tr")[2:]:
+    #         info_line = []
+    #         for td in tr:
+    #             info_line.append(str(td.text).replace("—",""))
+    #         if info_line[2] == "":
+    #             table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
+    #         else:
+    #             table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
+    #             table_content.append([info_line[0][:-1], "一批", "文史", info_line[2]])
+    #     for item in table_content:
+    #         print(item)
+    #     # 将表内容写入文本文件
+    #     write_table(file_path, table_name, table_head, table_content)
+    #     mylogger.info("南京大学" + table_name + "分数已存入文件")
 
     # 2017、2018专业录取分数
-    # file_list = read_all_file_list(file_path + "/source")
-    # for item in file_list:
-    #     year = re.findall("\d{4}", item)[0]
-    #     if year == "2017":
-    #         pages = read_pdf_to_tables(item)
-    #         all_lines = []
-    #         for tables in pages:
-    #             for table in tables:
-    #                 for line in table:
-    #                     if line[0] != "":
-    #                         all_lines.append(line)
-    #         all_tables = []
-    #         pro_tables = []
-    #         for line in all_lines:
-    #             if line[1]=="科类":
-    #                 all_tables.append(pro_tables)
-    #                 pro_tables = []
-    #                 pro_tables.append(line)
-    #             else:
-    #                 pro_tables.append(line)
-    #         all_tables.append(pro_tables)
-    #         for pro in all_tables[1:]:
-    #             if pro[0][0]=="黑龙江":
-    #                 district = pro[0][0]
-    #             else:
-    #                 district = pro[0][0][:-1]
-    #             table_name = year + "-" + district + "-" + "major"
-    #             table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
-    #             table_content = []
-    #             for line in pro[2:]:
-    #                 if line[2]!="":
-    #                     classy = line[1]
-    #                     if classy.find("理") != -1:
-    #                         classy = "理工"
-    #                     elif classy.find("文") != -1:
-    #                         classy = "文史"
-    #                     table_content.append([line[0], classy, "", "", line[2], ""])
-    #             mylogger.debug(table_name)
-    #             mylogger.debug(str(table_head))
-    #             for item in table_content:
-    #                 mylogger.debug(str(item))
-    #             # 将表内容写入文本文件
-    #             write_table(file_path, table_name, table_head, table_content)
-    #             mylogger.info("南京大学" + table_name + "分数已存入文件")
-    #     if year == "2018" and item[-3:]=="txt":
-    #         with open(item,"r",encoding="utf-8") as file:
-    #             source_data = file.read()
-    #         source_data_list = source_data.split(" ")
-    #         all_lines = []
-    #         for i_data in range(0,len(source_data_list),4):
-    #             all_lines.append([source_data_list[i_data],source_data_list[i_data+1],
-    #                               source_data_list[i_data+2],source_data_list[i_data+3]])
-    #         all_tables = []
-    #         pro_tables = []
-    #         before_pro = "北京市"
-    #         for line in all_lines[1:]:
-    #             if line[2] == before_pro:
-    #                 pro_tables.append(line)
-    #             else:
-    #                 all_tables.append(pro_tables)
-    #                 pro_tables = []
-    #                 pro_tables.append(line)
-    #                 before_pro = line[2]
-    #         all_tables.append(pro_tables)
-    #         for pro in all_tables:
-    #             if pro[0][2]=="黑龙江":
-    #                 district = pro[0][2]
-    #             else:
-    #                 district = pro[0][2][:-1]
-    #             table_name = year + "-" + district + "-" + "major"
-    #             table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
-    #             table_content = []
-    #             for line in pro:
-    #                 if line[3]!="":
-    #                     classy = line[1]
-    #                     if classy.find("理") != -1:
-    #                         classy = "理工"
-    #                     elif classy.find("文") != -1:
-    #                         classy = "文史"
-    #                     table_content.append([line[0], classy, "", "", line[3], ""])
-    #             mylogger.debug(table_name)
-    #             mylogger.debug(str(table_head))
-    #             for item in table_content:
-    #                 mylogger.debug(str(item))
-    #             # 将表内容写入文本文件
-    #             write_table(file_path, table_name, table_head, table_content)
-    #             mylogger.info("南京大学" + table_name + "分数已存入文件")
+    file_list = read_all_file_list(file_path + "/source")
+    for item in file_list:
+        year = re.findall("\d{4}", item)[0]
+        if year == "2017":
+            pages = read_pdf_to_tables(item)
+            all_lines = []
+            for tables in pages:
+                for table in tables:
+                    for line in table:
+                        if line[0] != "":
+                            all_lines.append(line)
+            all_tables = []
+            pro_tables = []
+            for line in all_lines:
+                if line[1]=="科类":
+                    all_tables.append(pro_tables)
+                    pro_tables = []
+                    pro_tables.append(line)
+                else:
+                    pro_tables.append(line)
+            all_tables.append(pro_tables)
+            for pro in all_tables[1:]:
+                if pro[0][0]=="黑龙江":
+                    district = pro[0][0]
+                else:
+                    district = pro[0][0][:-1]
+                table_name = year + "-" + district + "-" + "major"
+                table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
+                table_content = []
+                for line in pro[2:]:
+                    if line[2]!="":
+                        classy = line[1]
+                        if classy.find("理") != -1:
+                            classy = "理工"
+                        elif classy.find("文") != -1:
+                            classy = "文史"
+                        table_content.append([line[0], classy, "-", "-", line[2], "-"])
+                mylogger.debug(table_name)
+                mylogger.debug(str(table_head))
+                for item in table_content:
+                    mylogger.debug(str(item))
+                # 将表内容写入文本文件
+                write_table(file_path, table_name, table_head, table_content)
+                mylogger.info("南京大学" + table_name + "分数已存入文件")
+        if year == "2018" and item[-3:]=="txt":
+            with open(item,"r",encoding="utf-8") as file:
+                source_data = file.read()
+            source_data_list = source_data.split(" ")
+            all_lines = []
+            for i_data in range(0,len(source_data_list),4):
+                all_lines.append([source_data_list[i_data],source_data_list[i_data+1],
+                                  source_data_list[i_data+2],source_data_list[i_data+3]])
+            all_tables = []
+            pro_tables = []
+            before_pro = "北京市"
+            for line in all_lines[1:]:
+                if line[2] == before_pro:
+                    pro_tables.append(line)
+                else:
+                    all_tables.append(pro_tables)
+                    pro_tables = []
+                    pro_tables.append(line)
+                    before_pro = line[2]
+            all_tables.append(pro_tables)
+            for pro in all_tables:
+                if pro[0][2]=="黑龙江":
+                    district = pro[0][2]
+                else:
+                    district = pro[0][2][:-1]
+                table_name = year + "-" + district + "-" + "major"
+                table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
+                table_content = []
+                for line in pro:
+                    if line[3]!="":
+                        classy = line[1]
+                        if classy.find("理") != -1:
+                            classy = "理工"
+                        elif classy.find("文") != -1:
+                            classy = "文史"
+                        table_content.append([line[0], classy, "-", "-", line[3], "-"])
+                mylogger.debug(table_name)
+                mylogger.debug(str(table_head))
+                for item in table_content:
+                    mylogger.debug(str(item))
+                # 将表内容写入文本文件
+                write_table(file_path, table_name, table_head, table_content)
+                mylogger.info("南京大学" + table_name + "分数已存入文件")
     mylogger.info("南京大学录取分数数据获取完成！")
 
 
