@@ -1277,7 +1277,7 @@ def get_score_info_nju():
 
     # 2017、2018专业录取分数
     file_list = read_all_file_list(file_path + "/source")
-    for item in [file_list[0]]:
+    for item in [file_list[1]]:
         year = re.findall("\d{4}", item)[0]
         tables = read_pdf_to_tables(item)
         print(tables)
