@@ -14,14 +14,8 @@ from FileRead.FileNameRead import read_all_file_list
 from FileRead.XLSRead import read_xls
 from FileRead.PDFRead import read_pdf_to_tables
 from InformationGet.InternetConnect import request_url
-
-import logging
+from Log.Logger import MyLog
 import sys
-
-# 日志格式设置
-LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
-logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT)
 
 
 # 将表内容写入文本文件
@@ -1178,8 +1172,7 @@ def write_score_major_info_tsinghua_2011_2013(store_path, info_path):
 
 # 上海交通大学（包括医学部）录取分数
 def get_score_info_sjtu():
-    logger = logging.getLogger(sys._getframe().f_code.co_name)
-    logger.setLevel(logging.INFO)
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     main_url = "http://zsb.sjtu.edu.cn/web/jdzsb/"
     file_path = "Information/九校联盟/上海交通大学/录取分数"
     # 获取录取分数网页源码
@@ -1207,8 +1200,8 @@ def get_score_info_sjtu():
         page_soup.prettify()
         table_name = year + "-" + "pro"
         table_head = ["地区", "批次", "类别", "分数线"]
-        logger.debug("表名：" + table_name)
-        logger.debug("表头：" + str(table_head))
+        mylogger.debug("表名：" + table_name)
+        mylogger.debug("表头：" + str(table_head))
         table_content_local = []
         table_content_medical = []
         for tr in page_soup.find_all("tr")[2:]:
@@ -1235,26 +1228,26 @@ def get_score_info_sjtu():
                 table_content_local.append(["港澳台侨", "一批", "文史", info_line[1]])
                 table_content_medical.append(["港澳台侨", "一批", "理工", info_line[1]])
         for item in table_content_local:
-            logger.debug(str(item))
+            mylogger.debug(str(item))
         for item in table_content_medical:
-            logger.debug(str(item))
+            mylogger.debug(str(item))
         # 将表内容写入文本文件
         file_path_local = "Information/九校联盟/上海交通大学/录取分数"
         write_table(file_path_local, table_name, table_head, table_content_local)
-        logger.info("上海交通大学" + table_name + "分数已存入文件")
+        mylogger.info("上海交通大学" + table_name + "分数已存入文件")
         file_path_medical = "Information/九校联盟/上海交通大学医学部/录取分数"
         write_table(file_path_medical, table_name, table_head, table_content_medical)
-        logger.info("上海交通大学医学部" + table_name + "分数已存入文件")
+        mylogger.info("上海交通大学医学部" + table_name + "分数已存入文件")
 
 
 # 南京大学录取分数
 def get_score_info_nju():
-    logger = logging.getLogger(sys._getframe().f_code.co_name)
-    logger.setLevel(logging.INFO)
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("开始获取南京大学录取分数数据！")
     file_path = "Information/九校联盟/南京大学/录取分数"
     # 获取网页表格
     # main_url = "http://bkzs.nju.edu.cn/4544/list.htm"
-    # logger.info("开始获取源码")
+    # mylogger.info("开始获取源码")
     # main_page_source = requests.get(main_url).text
     # main_page_soup = BeautifulSoup(main_page_source, "lxml")
     # main_page_soup.prettify()
@@ -1264,8 +1257,8 @@ def get_score_info_nju():
     #     print(year)
     #     table_name = year + "-" + "pro"
     #     table_head = ["地区", "批次", "类别", "分数线"]
-    #     logger.debug("表名：" + table_name)
-    #     logger.debug("表头：" + str(table_head))
+    #     mylogger.debug("表名：" + table_name)
+    #     mylogger.debug("表头：" + str(table_head))
     #     table_content = []
     #     for tr in tbody.find_all("tr")[2:]:
     #         info_line = []
@@ -1280,7 +1273,7 @@ def get_score_info_nju():
     #         print(item)
     #     # 将表内容写入文本文件
     #     write_table(file_path, table_name, table_head, table_content)
-    #     logger.info("南京大学" + table_name + "分数已存入文件")
+    #     mylogger.info("南京大学" + table_name + "分数已存入文件")
 
     # 2017、2018专业录取分数
     file_list = read_all_file_list(file_path + "/source")
@@ -1289,6 +1282,7 @@ def get_score_info_nju():
         tables = read_pdf_to_tables(item)
         print(tables)
         print(item)
+    mylogger.info("南京大学录取分数数据获取完成！")
 
 
 
@@ -1300,12 +1294,12 @@ def get_score_info_nju():
 
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
-    logger.info("start...")
+    mylogger = MyLog(logger=__name__).getlog()
+    mylogger.info("start...")
     # get_score_info_hit()
     # get_score_info_pku()
     # get_score_info_pkuhsc()
     # get_score_info_tsinghua()
     # get_score_info_sjtu()
     get_score_info_nju()
-    logger.info("end...")
+    mylogger.info("end...")
