@@ -179,8 +179,8 @@ def insert_table_admission_score_pro(mysql_tuple_list):
 def insert_all_school_table_admission_score():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
-          "北京大学医学部"]
-    already_get = ["北京大学", "北京大学医学部", "清华大学", "哈尔滨工业大学"]
+          "北京大学医学部","上海交通大学医学部"]
+    already_get = ["北京大学", "北京大学医学部", "清华大学", "哈尔滨工业大学","上海交通大学","上海交通大学医学部"]
     for school in already_get:
         dir_path = "Information/九校联盟/" + school + "/录取分数"
         file_list = read_all_file_list(dir_path)
@@ -201,7 +201,7 @@ if __name__ == "__main__":
     logger = logging.getLogger(__name__)
     logger.info("begin...")
     logger.info("插入所有学校的招生计划数据...")
-    insert_all_school_table_admission_plan()
+    # insert_all_school_table_admission_plan()
     logger.info("插入所有学校的录取分数数据...")
     insert_all_school_table_admission_score()
     logger.info("end...")

@@ -13,6 +13,15 @@ import re
 from FileRead.FileNameRead import read_all_file_list
 from FileRead.XLSRead import read_xls
 from FileRead.PDFRead import read_pdf_to_tables
+from InformationGet.InternetConnect import request_url
+
+import logging
+import sys
+
+# 日志格式设置
+LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
+logging.basicConfig(level=logging.DEBUG, format=LOG_FORMAT, datefmt=DATE_FORMAT)
 
 
 # 将表内容写入文本文件
@@ -658,6 +667,7 @@ def get_score_info_tsinghua():
             write_score_major_info_tsinghua_2011_2013(main_file_path, item)
 
 
+# 清华大学录取分数地区线（2006-2008）
 def get_score_pro_info_tsinghua_2006_2008(info_path):
     year_list = ["2006", "2007", "2008"]
     excel_file = read_xls(info_path)
@@ -691,6 +701,7 @@ def get_score_pro_info_tsinghua_2006_2008(info_path):
     return return_table
 
 
+# 清华大学录取分数地区线（2007-2009）
 def get_score_pro_info_tsinghua_2007_2009(info_path):
     year_list = ["2007", "2008", "2009"]
     excel_file = read_xls(info_path)
@@ -724,6 +735,7 @@ def get_score_pro_info_tsinghua_2007_2009(info_path):
     return return_table
 
 
+# 清华大学录取分数地区线（2008-2010）
 def get_score_pro_info_tsinghua_2008_2010(info_path):
     year_list = ["2008", "2009", "2010"]
     excel_file = read_xls(info_path)
@@ -757,6 +769,7 @@ def get_score_pro_info_tsinghua_2008_2010(info_path):
     return return_table
 
 
+# 清华大学录取分数地区线（2009-2011）
 def get_score_pro_info_tsinghua_2009_2011(info_path):
     year_list = ["2009", "2010", "2011"]
     excel_file = read_xls(info_path)
@@ -792,6 +805,7 @@ def get_score_pro_info_tsinghua_2009_2011(info_path):
     return return_table
 
 
+# 清华大学录取分数地区线（2010-2012）
 def get_score_pro_info_tsinghua_2010_2012(info_path):
     year_list = ["2010", "2011", "2012"]
     excel_file = read_xls(info_path)
@@ -827,6 +841,7 @@ def get_score_pro_info_tsinghua_2010_2012(info_path):
     return return_table
 
 
+# 清华大学录取分数地区线（2011-2013）
 def get_score_pro_info_tsinghua_2011_2013(info_path):
     year_list = ["2011", "2012", "2013"]
     excel_file = read_xls(info_path)
@@ -862,6 +877,7 @@ def get_score_pro_info_tsinghua_2011_2013(info_path):
     return return_table
 
 
+# 清华大学录取分数专业线（2006-2008）
 def write_score_major_info_tsinghua_2006_2008(store_path, info_path):
     year_list = ["2006", "2007", "2008"]
     excel_file = read_xls(info_path)
@@ -909,6 +925,7 @@ def write_score_major_info_tsinghua_2006_2008(store_path, info_path):
                 print("-------------------")
 
 
+# 清华大学录取分数专业线（2007-2009）
 def write_score_major_info_tsinghua_2007_2009(store_path, info_path):
     year_list = ["2007", "2008", "2009"]
     excel_file = read_xls(info_path)
@@ -955,6 +972,7 @@ def write_score_major_info_tsinghua_2007_2009(store_path, info_path):
                 print("-------------------")
 
 
+# 清华大学录取分数专业线（2008-2010）
 def write_score_major_info_tsinghua_2008_2010(store_path, info_path):
     year_list = ["2008", "2009", "2010"]
     print("开始读取")
@@ -1004,6 +1022,7 @@ def write_score_major_info_tsinghua_2008_2010(store_path, info_path):
                 print("-------------------")
 
 
+# 清华大学录取分数专业线（2009-2011）
 def write_score_major_info_tsinghua_2009_2011(store_path, info_path):
     year_list = ["2009", "2010", "2011"]
     excel_file = read_xls(info_path)
@@ -1055,6 +1074,7 @@ def write_score_major_info_tsinghua_2009_2011(store_path, info_path):
             print("-------------------")
 
 
+# 清华大学录取分数专业线（2010-2012）
 def write_score_major_info_tsinghua_2010_2012(store_path, info_path):
     year_list = ["2010", "2011", "2012"]
     excel_file = read_xls(info_path)
@@ -1106,6 +1126,7 @@ def write_score_major_info_tsinghua_2010_2012(store_path, info_path):
             print("-------------------")
 
 
+# 清华大学录取分数专业线（2011-2013）
 def write_score_major_info_tsinghua_2011_2013(store_path, info_path):
     year_list = ["2011", "2012", "2013"]
     excel_file = read_xls(info_path)
@@ -1155,10 +1176,136 @@ def write_score_major_info_tsinghua_2011_2013(store_path, info_path):
             print("-------------------")
 
 
+# 上海交通大学（包括医学部）录取分数
+def get_score_info_sjtu():
+    logger = logging.getLogger(sys._getframe().f_code.co_name)
+    logger.setLevel(logging.INFO)
+    main_url = "http://zsb.sjtu.edu.cn/web/jdzsb/"
+    file_path = "Information/九校联盟/上海交通大学/录取分数"
+    # 获取录取分数网页源码
+    # main_page_source = request_url(main_url + "3810062.htm").text
+    # main_page_soup = BeautifulSoup(main_page_source, "lxml")
+    # main_page_soup.prettify()
+    # for item in main_page_soup.find("ul", class_="infor_right02_cont"):
+    #     year = re.findall("\d{4}", item.a["title"])[0]
+    #     sub_url = main_url+ item.a["href"]
+    #     print(year)
+    #     print(sub_url)
+    #     sub_page_source = request_url(sub_url).text
+    #     sub_page_soup = BeautifulSoup(sub_page_source, "lxml")
+    #     sub_page_soup.prettify()
+    #     with open(file_path + "/" + "source" + "/" + str(year), "w", encoding="utf-8") as file:
+    #         for tr in sub_page_soup.find("tbody"):
+    #             file.write(str(tr))
+    # 开始分析
+    file_list = read_all_file_list(file_path + "/source")
+    for item in file_list:
+        year = re.findall("\d{4}", item)[0]
+        with open(item, "r", encoding="utf-8")as file:
+            source_code = file.read()
+        page_soup = BeautifulSoup(source_code, "lxml")
+        page_soup.prettify()
+        table_name = year + "-" + "pro"
+        table_head = ["地区", "批次", "类别", "分数线"]
+        logger.debug("表名：" + table_name)
+        logger.debug("表头：" + str(table_head))
+        table_content_local = []
+        table_content_medical = []
+        for tr in page_soup.find_all("tr")[2:]:
+            info_line = []
+            for td in tr.find_all("td"):
+                info_line.append(str(td.text).strip().replace("-", ""))
+            # 正常情况
+            if len(info_line) == 4:
+                if info_line[0] == "西藏":
+                    table_content_local.append([info_line[0], "一批", "理工", info_line[1]])
+                else:
+                    table_content_local.append([info_line[0], "一批", "理工", info_line[1]])
+                    table_content_local.append([info_line[0], "一批", "文史", info_line[2]])
+                    table_content_medical.append([info_line[0], "一批", "理工", info_line[3]])
+            elif len(info_line) == 3:
+                if info_line[0] == "西藏":
+                    table_content_local.append([info_line[0], "一批", "理工", info_line[1]])
+                else:
+                    table_content_local.append([info_line[0], "一批", "理工", info_line[1]])
+                    table_content_local.append([info_line[0], "一批", "文史", info_line[1]])
+                    table_content_medical.append([info_line[0], "一批", "理工", info_line[2]])
+            elif len(info_line) == 2:
+                table_content_local.append(["港澳台侨", "一批", "理工", info_line[1]])
+                table_content_local.append(["港澳台侨", "一批", "文史", info_line[1]])
+                table_content_medical.append(["港澳台侨", "一批", "理工", info_line[1]])
+        for item in table_content_local:
+            logger.debug(str(item))
+        for item in table_content_medical:
+            logger.debug(str(item))
+        # 将表内容写入文本文件
+        file_path_local = "Information/九校联盟/上海交通大学/录取分数"
+        write_table(file_path_local, table_name, table_head, table_content_local)
+        logger.info("上海交通大学" + table_name + "分数已存入文件")
+        file_path_medical = "Information/九校联盟/上海交通大学医学部/录取分数"
+        write_table(file_path_medical, table_name, table_head, table_content_medical)
+        logger.info("上海交通大学医学部" + table_name + "分数已存入文件")
+
+
+# 南京大学录取分数
+def get_score_info_nju():
+    logger = logging.getLogger(sys._getframe().f_code.co_name)
+    logger.setLevel(logging.INFO)
+    file_path = "Information/九校联盟/南京大学/录取分数"
+    # 获取网页表格
+    # main_url = "http://bkzs.nju.edu.cn/4544/list.htm"
+    # logger.info("开始获取源码")
+    # main_page_source = requests.get(main_url).text
+    # main_page_soup = BeautifulSoup(main_page_source, "lxml")
+    # main_page_soup.prettify()
+    #
+    # for tbody in main_page_soup.find_all("tbody")[1:]:
+    #     year = tbody.tr.find(text=re.compile("20\d{2}"))
+    #     print(year)
+    #     table_name = year + "-" + "pro"
+    #     table_head = ["地区", "批次", "类别", "分数线"]
+    #     logger.debug("表名：" + table_name)
+    #     logger.debug("表头：" + str(table_head))
+    #     table_content = []
+    #     for tr in tbody.find_all("tr")[2:]:
+    #         info_line = []
+    #         for td in tr:
+    #             info_line.append(str(td.text).replace("—",""))
+    #         if info_line[2]=="":
+    #             table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
+    #         else:
+    #             table_content.append([info_line[0][:-1], "一批", "理工", info_line[1]])
+    #             table_content.append([info_line[0][:-1], "一批", "文史", info_line[2]])
+    #     for item in table_content:
+    #         print(item)
+    #     # 将表内容写入文本文件
+    #     write_table(file_path, table_name, table_head, table_content)
+    #     logger.info("南京大学" + table_name + "分数已存入文件")
+
+    # 2017、2018专业录取分数
+    file_list = read_all_file_list(file_path + "/source")
+    for item in [file_list[0]]:
+        year = re.findall("\d{4}", item)[0]
+        tables = read_pdf_to_tables(item)
+        print(tables)
+        print(item)
+
+
+
+# 复旦大学录取分数
+# 西安交通大学录取分数
+# 浙江大学录取分数
+# 中国科学技术大学录取分数
+
+
+
 if __name__ == "__main__":
-    print("begin...")
-    get_score_info_hit()
+    logger = logging.getLogger(__name__)
+    logger.info("start...")
+    # get_score_info_hit()
     # get_score_info_pku()
     # get_score_info_pkuhsc()
     # get_score_info_tsinghua()
-    print("end...")
+    # get_score_info_sjtu()
+    get_score_info_nju()
+    logger.info("end...")
