@@ -175,7 +175,7 @@ def insert_all_school_table_admission_score():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
           "北京大学医学部","上海交通大学医学部"]
-    already_get = ["北京大学", "北京大学医学部", "清华大学", "哈尔滨工业大学","上海交通大学","上海交通大学医学部","南京大学"]
+    already_get = ["西安交通大学"]
     for school in already_get:
         dir_path = "Information/九校联盟/" + school + "/录取分数"
         file_list = read_all_file_list(dir_path)
@@ -196,8 +196,8 @@ if __name__ == "__main__":
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     mylogger.info("begin...")
     mylogger.info("插入所有学校的招生计划数据...")
-    insert_all_school_table_admission_plan()
+    # insert_all_school_table_admission_plan()
     mylogger.info("插入所有学校的录取分数数据...")
-    # insert_all_school_table_admission_score()
+    insert_all_school_table_admission_score()
     mylogger.info("end...")
     mylogger.debug("**********")

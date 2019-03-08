@@ -881,7 +881,7 @@ def get_plan_info_nju():
     # print(html.text)
 
 
-# 西安交通大学录取分数
+# 西安交通大学招生计划
 def get_plan_info_xjtu():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_path = "Information/九校联盟/西安交通大学/招生计划"

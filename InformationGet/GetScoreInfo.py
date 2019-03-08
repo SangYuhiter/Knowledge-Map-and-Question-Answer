@@ -1371,10 +1371,66 @@ def get_score_info_nju():
 
 
 
-# 复旦大学录取分数
 # 西安交通大学录取分数
+def get_score_info_xjtu():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path = "Information/九校联盟/西安交通大学/录取分数"
+
+    # 直接从官网进行数据查询，使用form提交
+    # 获取可查询的年份和地区
+    main_url = "http://zs.xjtu.edu.cn/bkscx/lnlqcx.htm"
+    main_page_source = request_url(main_url)
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    years = []
+    districts = []
+    for year in main_page_soup.find("select", id="nf").find_all("option"):
+        years.append(year.string)
+    for district in main_page_soup.find("select", id="sf").find_all("option")[1:]:
+        districts.append(district.string)
+    mylogger.debug("可查询的年份" + str(years))
+    mylogger.debug("可查询的省份" + str(districts))
+
+    search_url = "http://zs.xjtu.edu.cn/lnlqjg.jsp?wbtreeid=1167"
+    for year in years:
+        # pro_table_name = year + "-" + "pro"
+        # pro_table_head = ["地区", "批次", "类别", "分数线"]
+        # pro_table_content = []
+        for district in districts:
+            # x,y 是查询按钮点击时的坐标，查询按钮大小x,y(54x22)
+            params = {
+                "nf": year,
+                "sf": district,
+                "x": "27",
+                "y": "11"
+            }
+            return_html = requests.post(search_url, data=params)
+            return_soup = BeautifulSoup(return_html.text, "lxml")
+            return_soup.prettify()
+            all_lines = []
+            for tr in return_soup.find("div", id="fybt").find_all("tr"):
+                line = []
+                for td in tr:
+                    if td.string != "\n":
+                        line.append(str(td.string).strip())
+                all_lines.append(line)
+            major_table_name = year + "-" + district[:-1] + "-major"
+            major_table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
+            major_table_content = []
+            for line in all_lines[2:]:
+                major_table_content.append([line[0], "-", line[1],line[2],line[3],"-"])
+            mylogger.debug(major_table_name)
+            mylogger.debug(str(major_table_head))
+            for line in major_table_content:
+                mylogger.debug(str(line))
+            write_table(file_path, major_table_name, major_table_head, major_table_content)
+            mylogger.info(year + district + "的招生计划已存入文件")
+
+
 # 浙江大学录取分数
 # 中国科学技术大学录取分数
+# 复旦大学录取分数
 
 
 
@@ -1386,5 +1442,6 @@ if __name__ == "__main__":
     # get_score_info_pkuhsc()
     # get_score_info_tsinghua()
     # get_score_info_sjtu()
-    get_score_info_nju()
+    # get_score_info_nju()
+    get_score_info_xjtu()
     mylogger.info("end...")

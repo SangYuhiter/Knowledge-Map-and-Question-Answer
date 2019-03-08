@@ -87,7 +87,7 @@ def create_admission_plan_table():
                      "school VARCHAR(30),"
                      "district VARCHAR(10),"
                      "year INT,"
-                     "major VARCHAR(50),"
+                     "major VARCHAR(100),"
                      "classy varchar(10),"
                      "numbers varchar(10))")
     logger.info("admission_plan表已重新创建！")
@@ -134,7 +134,7 @@ def create_admission_score_major_table():
                      "school VARCHAR(30),"
                      "district VARCHAR(10),"
                      "year INT,"
-                     "major VARCHAR(30),"
+                     "major VARCHAR(100),"
                      "classy varchar(30),"
                      "highest varchar(10) NULL,"
                      "average varchar(10) NULL,"
