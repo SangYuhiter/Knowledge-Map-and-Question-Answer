@@ -8,13 +8,8 @@
 '''
 from InformationGet import MysqlOperation
 from FileRead.FileNameRead import read_all_file_list
-
-import logging
-
-# 日志格式设置
-LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
-logging.basicConfig(level=logging.INFO, format=LOG_FORMAT, datefmt=DATE_FORMAT)
+from Log.Logger import MyLog
+import sys
 
 
 # 读取文档内容
@@ -25,20 +20,20 @@ def read_file_content(file_path):
 
 # 获取招生计划文档构造表项列表
 def plan_doc_to_mysql_table_tuple(file_path, school):
-    logger.setLevel(logging.INFO)
-    logger.info("插入文件"+file_path)
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("插入文件"+file_path)
     file_content = read_file_content(file_path)
     file_name = file_path.split("\\")[-1]
     year = file_name.split("-")[0]
     district = file_name.split("-")[1]
-    logger.debug("年份："+year+"地区："+district)
+    mylogger.debug("年份："+year+"地区："+district)
     table_content = []
     for i in range(len(file_content)):
         file_content[i] = file_content[i].strip()
         temp = file_content[i].split("\t")
         table_content.append(temp)
     table_head = table_content[0]
-    logger.debug("表头："+str(table_head))
+    mylogger.debug("表头："+str(table_head))
     table_content = table_content[1:]
     # 去除统计部分的数据项、无数据的项
     for item in table_content:
@@ -53,9 +48,9 @@ def plan_doc_to_mysql_table_tuple(file_path, school):
         numbers = item[2]
         temp = (school, district, year, major, classy, numbers)
         mysql_content.append(temp)
-    logger.debug("构造后的数据表项如下：")
+    mylogger.debug("构造后的数据表项如下：")
     for item in mysql_content:
-        logger.debug(str(item))
+        mylogger.debug(str(item))
     return mysql_content
 
 
@@ -75,17 +70,17 @@ def insert_all_school_table_admission_plan():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
           "北京大学医学部"]
-    already_get = ["北京大学", "北京大学医学部", "清华大学", "哈尔滨工业大学"]
+    already_get = ["西安交通大学"]
     for school in already_get:
-        logger.info("开始插入"+school+"的招生计划数据...")
+        mylogger.info("开始插入"+school+"的招生计划数据...")
         dir_path = "Information/九校联盟/" + school + "/招生计划"
         file_list = read_all_file_list(dir_path)
         for file in file_list:
-            logger.info("构造数据项元组...")
+            mylogger.info("构造数据项元组...")
             mysql_content = plan_doc_to_mysql_table_tuple(file, school)
-            logger.info("将元组数据插入数据库...")
+            mylogger.info("将元组数据插入数据库...")
             insert_table_admission_plan(mysql_content)
-            logger.info("元组数据插入完成!")
+            mylogger.info("元组数据插入完成!")
 
 
 # 获取录取分数（各专业）文档构造表项列表
@@ -198,11 +193,11 @@ def insert_all_school_table_admission_score():
 
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
-    logger.info("begin...")
-    logger.info("插入所有学校的招生计划数据...")
-    # insert_all_school_table_admission_plan()
-    logger.info("插入所有学校的录取分数数据...")
-    insert_all_school_table_admission_score()
-    logger.info("end...")
-    logger.debug("**********")
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("begin...")
+    mylogger.info("插入所有学校的招生计划数据...")
+    insert_all_school_table_admission_plan()
+    mylogger.info("插入所有学校的录取分数数据...")
+    # insert_all_school_table_admission_score()
+    mylogger.info("end...")
+    mylogger.debug("**********")
