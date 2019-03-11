@@ -886,28 +886,25 @@ def get_plan_info_xjtu():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_path = "Information/九校联盟/西安交通大学/招生计划"
     # 通过获取单个网页获取信息，需要后续处理，很麻烦
-    """
-    mylogger.info("开始获取网页源码...共五个网页")
-    with open(file_path+"/source/page_url_list","w",encoding="utf-8")as url_file:
-        for i in range(1, 6):
-            main_url = "http://zs.xjtu.edu.cn/lmy.jsp?a43639t=5&a43639p=" + str(i) \
-                       + "&a43639c=10&urltype=tree.TreeTempUrl&wbtreeid=1005"
-            # 获取分类信息
-            main_page_source = requests.get(main_url).text
-            main_page_soup = BeautifulSoup(main_page_source, "lxml")
-            main_page_soup.prettify()
-            for item in main_page_soup.find("div", id="fybt").find("ul").find_all("a"):
-                url_file.write(str(item)+"\n")
-    mylogger.info("招生计划页面url获取完成")
-    mylogger.info("开始获取具体页面信息")
-    with open(file_path + "/source/page_url_list", "r", encoding="utf-8")as url_file:
-        url_source = url_file.read()
-    url_soup = BeautifulSoup(url_source,"lxml")
-    url_soup.prettify()
-    for page_url in url_soup.find_all("a"):
-        print(page_url)
-    """
-
+    # mylogger.info("开始获取网页源码...共五个网页")
+    # with open(file_path+"/source/page_url_list","w",encoding="utf-8")as url_file:
+    #     for i in range(1, 6):
+    #         main_url = "http://zs.xjtu.edu.cn/lmy.jsp?a43639t=5&a43639p=" + str(i) \
+    #                    + "&a43639c=10&urltype=tree.TreeTempUrl&wbtreeid=1005"
+    #         # 获取分类信息
+    #         main_page_source = requests.get(main_url).text
+    #         main_page_soup = BeautifulSoup(main_page_source, "lxml")
+    #         main_page_soup.prettify()
+    #         for item in main_page_soup.find("div", id="fybt").find("ul").find_all("a"):
+    #             url_file.write(str(item)+"\n")
+    # mylogger.info("招生计划页面url获取完成")
+    # mylogger.info("开始获取具体页面信息")
+    # with open(file_path + "/source/page_url_list", "r", encoding="utf-8")as url_file:
+    #     url_source = url_file.read()
+    # url_soup = BeautifulSoup(url_source,"lxml")
+    # url_soup.prettify()
+    # for page_url in url_soup.find_all("a"):
+    #     print(page_url)
     # 直接从官网进行数据查询，使用form提交
     # 获取可查询的年份和地区
     main_url = "http://zs.xjtu.edu.cn/bkscx/zsjhcx.htm"
@@ -917,43 +914,42 @@ def get_plan_info_xjtu():
     main_page_soup.prettify()
     years = []
     districts = []
-    for year in main_page_soup.find("select",id="nf").find_all("option"):
+    for year in main_page_soup.find("select", id="nf").find_all("option"):
         years.append(year.string)
-    for district in main_page_soup.find("select",id="sf").find_all("option")[1:]:
+    for district in main_page_soup.find("select", id="sf").find_all("option")[1:]:
         districts.append(district.string)
-    mylogger.debug("可查询的年份"+str(years))
+    mylogger.debug("可查询的年份" + str(years))
     mylogger.debug("可查询的省份" + str(districts))
-
     search_url = "http://zs.xjtu.edu.cn/zsjg.jsp?wbtreeid=1168"
     for year in years:
         for district in districts:
             # x,y 是查询按钮点击时的坐标，查询按钮大小x,y(54x22)
             params = {
-                "nf":year,
-                "sf":district,
-                "x":"27",
-                "y":"11"
+                "nf": year,
+                "sf": district,
+                "x": "27",
+                "y": "11"
             }
-            return_html = requests.post(search_url,data=params)
-            return_soup = BeautifulSoup(return_html.text,"lxml")
+            return_html = requests.post(search_url, data=params)
+            return_soup = BeautifulSoup(return_html.text, "lxml")
             return_soup.prettify()
             all_lines = []
-            for tr in return_soup.find("div",id="fybt").find_all("tr"):
+            for tr in return_soup.find("div", id="fybt").find_all("tr"):
                 line = []
                 for td in tr:
                     if td.string != "\n":
                         line.append(str(td.string).strip())
                 all_lines.append(line)
-            table_name = year+"-"+district[:-1]
-            table_head = ["专业","类别","人数"]
+            table_name = year + "-" + district[:-1]
+            table_head = ["专业", "类别", "人数"]
             table_content = []
             for line in all_lines[1:-1]:
                 classy = line[2]
-                if classy=="理":
+                if classy == "理":
                     classy = "理工"
                 if classy == "文":
                     classy = "文史"
-                table_content.append([line[0],classy,line[4]])
+                table_content.append([line[0], classy, line[4]])
             mylogger.debug(table_name)
             mylogger.debug(str(table_head))
             for line in table_content:
@@ -962,8 +958,11 @@ def get_plan_info_xjtu():
             mylogger.info(year + district + "的招生计划已存入文件")
 
 
+# 浙江大学招生计划
+def get_plan_info_zju():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("浙江大学招生计划数据为空！")
 
-# 浙江大学录取分数
 # 中国科学技术大学录取分数
 # 复旦大学录取分数
 
@@ -979,5 +978,6 @@ if __name__ == "__main__":
     # get_plan_info_sjtu()
     # 南京大学未完成
     # get_plan_info_nju()
-    get_plan_info_xjtu()
+    # get_plan_info_xjtu()
+    get_plan_info_zju()
     mylogger.info("end...")

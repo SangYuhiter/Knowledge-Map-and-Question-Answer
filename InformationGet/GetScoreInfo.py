@@ -1294,7 +1294,7 @@ def get_score_info_nju():
             all_tables = []
             pro_tables = []
             for line in all_lines:
-                if line[1]=="科类":
+                if line[1] == "科类":
                     all_tables.append(pro_tables)
                     pro_tables = []
                     pro_tables.append(line)
@@ -1302,7 +1302,7 @@ def get_score_info_nju():
                     pro_tables.append(line)
             all_tables.append(pro_tables)
             for pro in all_tables[1:]:
-                if pro[0][0]=="黑龙江":
+                if pro[0][0] == "黑龙江":
                     district = pro[0][0]
                 else:
                     district = pro[0][0][:-1]
@@ -1310,7 +1310,7 @@ def get_score_info_nju():
                 table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
                 table_content = []
                 for line in pro[2:]:
-                    if line[2]!="":
+                    if line[2] != "":
                         classy = line[1]
                         if classy.find("理") != -1:
                             classy = "理工"
@@ -1324,14 +1324,14 @@ def get_score_info_nju():
                 # 将表内容写入文本文件
                 write_table(file_path, table_name, table_head, table_content)
                 mylogger.info("南京大学" + table_name + "分数已存入文件")
-        if year == "2018" and item[-3:]=="txt":
-            with open(item,"r",encoding="utf-8") as file:
+        if year == "2018" and item[-3:] == "txt":
+            with open(item, "r", encoding="utf-8") as file:
                 source_data = file.read()
             source_data_list = source_data.split(" ")
             all_lines = []
-            for i_data in range(0,len(source_data_list),4):
-                all_lines.append([source_data_list[i_data],source_data_list[i_data+1],
-                                  source_data_list[i_data+2],source_data_list[i_data+3]])
+            for i_data in range(0, len(source_data_list), 4):
+                all_lines.append([source_data_list[i_data], source_data_list[i_data + 1],
+                                  source_data_list[i_data + 2], source_data_list[i_data + 3]])
             all_tables = []
             pro_tables = []
             before_pro = "北京市"
@@ -1345,7 +1345,7 @@ def get_score_info_nju():
                     before_pro = line[2]
             all_tables.append(pro_tables)
             for pro in all_tables:
-                if pro[0][2]=="黑龙江":
+                if pro[0][2] == "黑龙江":
                     district = pro[0][2]
                 else:
                     district = pro[0][2][:-1]
@@ -1353,7 +1353,7 @@ def get_score_info_nju():
                 table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
                 table_content = []
                 for line in pro:
-                    if line[3]!="":
+                    if line[3] != "":
                         classy = line[1]
                         if classy.find("理") != -1:
                             classy = "理工"
@@ -1368,7 +1368,6 @@ def get_score_info_nju():
                 write_table(file_path, table_name, table_head, table_content)
                 mylogger.info("南京大学" + table_name + "分数已存入文件")
     mylogger.info("南京大学录取分数数据获取完成！")
-
 
 
 # 西安交通大学录取分数
@@ -1419,19 +1418,59 @@ def get_score_info_xjtu():
             major_table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
             major_table_content = []
             for line in all_lines[2:]:
-                major_table_content.append([line[0], "-", line[1],line[2],line[3],"-"])
+                major_table_content.append([line[0], "-", line[1], line[2], line[3], "-"])
             mylogger.debug(major_table_name)
             mylogger.debug(str(major_table_head))
             for line in major_table_content:
                 mylogger.debug(str(line))
             write_table(file_path, major_table_name, major_table_head, major_table_content)
-            mylogger.info(year + district + "的招生计划已存入文件")
+            mylogger.info(year + "的录取分数已存入文件")
 
 
 # 浙江大学录取分数
+def get_score_info_zju():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path = "Information/九校联盟/浙江大学/录取分数"
+
+    main_url = "http://zdzsc.zju.edu.cn"
+    # 获取分类信息
+    main_page_source = request_url(main_url+"/3303/list.htm")
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    for item in main_page_soup.find("div",id="wp_news_w5").find_all("a"):
+        page_url = item["href"]
+        year = re.findall("\d{4}",item["title"])[0]
+        page_source = request_url(main_url+page_url)
+        page_source.encoding = page_source.apparent_encoding
+        page_soup = BeautifulSoup(page_source.text,"lxml")
+        page_soup.prettify()
+        table_name = year + "-pro"
+        table_head = ["地区", "批次", "类别", "分数线"]
+        mylogger.debug(table_name)
+        mylogger.debug(str(table_head))
+        all_lines = []
+        for tr in page_soup.find("div",class_="wp_articlecontent").find_all("tr"):
+            line = []
+            for td in tr:
+                line.append(td.text)
+            all_lines.append(line)
+        table_content = []
+        for line in all_lines[1:]:
+            if line[1]!="/":
+                table_content.append([line[0],"一批","理工",line[1]])
+            if line[2]!="/":
+                table_content.append([line[0],"一批","文史",line[2]])
+            if line[3]!="/":
+                table_content.append([line[0],"一批","医药",line[3]])
+        for line in table_content:
+            mylogger.debug(str(line))
+        write_table(file_path, table_name, table_head, table_content)
+        mylogger.info(year + "的录取分数已存入文件")
+
+
 # 中国科学技术大学录取分数
 # 复旦大学录取分数
-
 
 
 if __name__ == "__main__":
@@ -1443,5 +1482,6 @@ if __name__ == "__main__":
     # get_score_info_tsinghua()
     # get_score_info_sjtu()
     # get_score_info_nju()
-    get_score_info_xjtu()
+    # get_score_info_xjtu()
+    get_score_info_zju()
     mylogger.info("end...")

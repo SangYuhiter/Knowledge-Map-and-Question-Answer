@@ -175,7 +175,7 @@ def insert_all_school_table_admission_score():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
           "北京大学医学部","上海交通大学医学部"]
-    already_get = ["西安交通大学"]
+    already_get = ["浙江大学"]
     for school in already_get:
         dir_path = "Information/九校联盟/" + school + "/录取分数"
         file_list = read_all_file_list(dir_path)
