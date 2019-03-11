@@ -1434,35 +1434,35 @@ def get_score_info_zju():
 
     main_url = "http://zdzsc.zju.edu.cn"
     # 获取分类信息
-    main_page_source = request_url(main_url+"/3303/list.htm")
+    main_page_source = request_url(main_url + "/3303/list.htm")
     main_page_source.encoding = main_page_source.apparent_encoding
     main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
     main_page_soup.prettify()
-    for item in main_page_soup.find("div",id="wp_news_w5").find_all("a"):
+    for item in main_page_soup.find("div", id="wp_news_w5").find_all("a"):
         page_url = item["href"]
-        year = re.findall("\d{4}",item["title"])[0]
-        page_source = request_url(main_url+page_url)
+        year = re.findall("\d{4}", item["title"])[0]
+        page_source = request_url(main_url + page_url)
         page_source.encoding = page_source.apparent_encoding
-        page_soup = BeautifulSoup(page_source.text,"lxml")
+        page_soup = BeautifulSoup(page_source.text, "lxml")
         page_soup.prettify()
         table_name = year + "-pro"
         table_head = ["地区", "批次", "类别", "分数线"]
         mylogger.debug(table_name)
         mylogger.debug(str(table_head))
         all_lines = []
-        for tr in page_soup.find("div",class_="wp_articlecontent").find_all("tr"):
+        for tr in page_soup.find("div", class_="wp_articlecontent").find_all("tr"):
             line = []
             for td in tr:
                 line.append(td.text)
             all_lines.append(line)
         table_content = []
         for line in all_lines[1:]:
-            if line[1]!="/":
-                table_content.append([line[0],"一批","理工",line[1]])
-            if line[2]!="/":
-                table_content.append([line[0],"一批","文史",line[2]])
-            if line[3]!="/":
-                table_content.append([line[0],"一批","医药",line[3]])
+            if line[1] != "/":
+                table_content.append([line[0], "一批", "理工", line[1]])
+            if line[2] != "/":
+                table_content.append([line[0], "一批", "文史", line[2]])
+            if line[3] != "/":
+                table_content.append([line[0], "一批", "医药", line[3]])
         for line in table_content:
             mylogger.debug(str(line))
         write_table(file_path, table_name, table_head, table_content)
@@ -1479,7 +1479,7 @@ def get_score_info_utsc():
     main_page_source.encoding = main_page_source.apparent_encoding
     main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
     main_page_soup.prettify()
-    all_tables = [] # 保存所有地区的分数情况
+    all_tables = []  # 保存所有地区的分数情况
     for area in main_page_soup.find_all("area"):
         page_url = area["href"]
         page_source = request_url(page_url)
@@ -1495,10 +1495,10 @@ def get_score_info_utsc():
             for td in tr:
                 line.append(td.text)
             all_lines.append(line)
-        all_tables.append([district,all_lines])
+        all_tables.append([district, all_lines])
 
     # 按年份重新组织表格
-    for i_year in range(1,len(all_tables[0][1])):
+    for i_year in range(1, len(all_tables[0][1])):
         year = all_tables[0][1][i_year][0]
         table_name = year + "-pro"
         table_head = ["地区", "批次", "类别", "分数线"]
@@ -1507,12 +1507,105 @@ def get_score_info_utsc():
         table_content = []
         for pro in all_tables:
             district = pro[0]
-            table_content.append([district,"一批","理工",pro[1][i_year][4]])
+            table_content.append([district, "一批", "理工", pro[1][i_year][4]])
         for line in table_content:
             mylogger.debug(str(line))
         write_table(file_path, table_name, table_head, table_content)
         mylogger.info(year + district + "的招生计划已存入文件")
+
+
 # 复旦大学录取分数
+def get_score_info_fudan():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path_benbu = "Information/九校联盟/复旦大学/录取分数"
+    file_path_yixue = "Information/九校联盟/复旦大学上海医学部/录取分数"
+    # 直接从官网进行数据查询，使用form提交
+    # 获取可查询的年份和地区
+    main_url = "http://www.ao.fudan.edu.cn/index!scores.html"
+    main_page_source = request_url(main_url)
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    years = []
+    districts = []
+    for year in main_page_soup.find("select", id="nf").find_all("option"):
+        years.append(year.string)
+    for district in main_page_soup.find("select", id="ss").find_all("option"):
+        districts.append(district.string)
+    mylogger.debug("可查询的年份" + str(years))
+    mylogger.debug("可查询的省份" + str(districts))
+    search_url = "http://www.ao.fudan.edu.cn/index!scores.action"
+    # 2006-2015年有数据
+    for year in years:
+        for district in districts:
+            params = {
+                "lb": "plan",
+                "nf": year,
+                "ss": district
+            }
+            return_html = requests.post(search_url, data=params)
+            return_soup = BeautifulSoup(return_html.text, "lxml")
+            return_soup.prettify()
+            all_lines = []
+            for div in return_soup.find_all("div", class_="inquirytable_result"):
+                for tr in div.find_all("tr"):
+                    line = []
+                    for td in tr:
+                        if td.string != "\n":
+                            line.append(str(td.string).strip())
+                    all_lines.append(line)
+            table_name = year + "-" + district + "-major"
+            table_head = ["专业", "类别", "最高分", "平均分", "最低分", "人数"]
+            mylogger.debug(table_name)
+            mylogger.debug(str(table_head))
+            # 数据查询为空
+            if len(all_lines) < 2:
+                continue
+            # 开始提取数据
+            table_content_benbu = []
+            table_content_yixue = []
+            # 2013年开始复旦大学与复旦大学上海医学部分开招生
+            if int(year) < 2013:
+                for line in all_lines[1:-1]:
+                    # 去除文史汇总和理工汇总
+                    if line[0] == "文史汇总" or line[0] == "理工汇总":
+                        continue
+                    table_content_benbu.append([line[1], line[0], line[2],line[4],line[3],"-"])
+            else:
+                # 先将本部和医学院的数据分开
+                index = 0
+                for i_line in range(1, len(all_lines)):
+                    if all_lines[i_line][0] == "科类":
+                        index = i_line
+                        break
+                if index == 0:
+                    all_lines_benbu = all_lines
+                    all_lines_yixue = []
+                else:
+                    all_lines_benbu = all_lines[:index]
+                    all_lines_yixue = all_lines[index:]
+                for line in all_lines_benbu[1:-1]:
+                    # 去除文史汇总和理工汇总
+                    if line[0] == "文史汇总" or line[0] == "理工汇总":
+                        continue
+                    table_content_benbu.append([line[1], line[0], line[2],line[4],line[3],"-"])
+                if len(all_lines_yixue)!=0:
+                    for line in all_lines_yixue[1:-1]:
+                        # 去除文史汇总和理工汇总
+                        if line[0] == "文史汇总" or line[0] == "理工汇总":
+                            continue
+                        table_content_yixue.append([line[1], line[0], line[2], line[4], line[3], "-"])
+            mylogger.debug("本部招生计划：")
+            for line in table_content_benbu:
+                mylogger.debug(str(line))
+            mylogger.debug("医学院招生计划：")
+            for line in table_content_yixue:
+                mylogger.debug(str(line))
+            write_table(file_path_benbu, table_name, table_head, table_content_benbu)
+            mylogger.info("本部" + year + district + "的招生计划已存入文件")
+            if len(table_content_yixue) != 0:
+                write_table(file_path_yixue, table_name, table_head, table_content_yixue)
+                mylogger.info("医学院" + year + district + "的招生计划已存入文件")
 
 
 if __name__ == "__main__":
@@ -1526,5 +1619,6 @@ if __name__ == "__main__":
     # get_score_info_nju()
     # get_score_info_xjtu()
     # get_score_info_zju()
-    get_score_info_utsc()
+    # get_score_info_utsc()
+    get_score_info_fudan()
     mylogger.info("end...")

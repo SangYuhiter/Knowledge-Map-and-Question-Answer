@@ -10,6 +10,7 @@ from InformationGet import MysqlOperation
 from FileRead.FileNameRead import read_all_file_list
 from Log.Logger import MyLog
 import sys
+import time
 
 
 # 读取文档内容
@@ -26,14 +27,14 @@ def plan_doc_to_mysql_table_tuple(file_path, school):
     file_name = file_path.split("\\")[-1]
     year = file_name.split("-")[0]
     district = file_name.split("-")[1]
-    mylogger.debug("年份：" + year + "地区：" + district)
+    # mylogger.debug("年份：" + year + "地区：" + district)
     table_content = []
     for i in range(len(file_content)):
         file_content[i] = file_content[i].strip()
         temp = file_content[i].split("\t")
         table_content.append(temp)
     table_head = table_content[0]
-    mylogger.debug("表头：" + str(table_head))
+    # mylogger.debug("表头：" + str(table_head))
     table_content = table_content[1:]
     # 去除统计部分的数据项、无数据的项
     for item in table_content:
@@ -48,9 +49,9 @@ def plan_doc_to_mysql_table_tuple(file_path, school):
         numbers = item[2]
         temp = (school, district, year, major, classy, numbers)
         mysql_content.append(temp)
-    mylogger.debug("构造后的数据表项如下：")
-    for item in mysql_content:
-        mylogger.debug(str(item))
+    # mylogger.debug("构造后的数据表项如下：")
+    # for item in mysql_content:
+    #     mylogger.debug(str(item))
     return mysql_content
 
 
@@ -71,7 +72,8 @@ def insert_all_school_table_admission_plan():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
           "北京大学医学部", "上海交通大学医学部", "复旦大学上海医学部"]
-    already_get = ["复旦大学", "复旦大学上海医学部"]
+    already_get = ["北京大学", "北京大学医学部", "清华大学", "复旦大学", "复旦大学上海医学部", "中国科学技术大学",
+                   "哈尔滨工业大学", "西安交通大学"]
     for school in already_get:
         mylogger.info("开始插入" + school + "的招生计划数据...")
         dir_path = "Information/九校联盟/" + school + "/招生计划"
@@ -82,6 +84,7 @@ def insert_all_school_table_admission_plan():
             mylogger.info("将元组数据插入数据库...")
             insert_table_admission_plan(mysql_content)
             mylogger.info("元组数据插入完成!")
+        time.sleep(5)
 
 
 # 获取录取分数（各专业）文档构造表项列表
@@ -92,14 +95,14 @@ def score_major_doc_to_mysql_table_tuple(file_path, school):
     year = file_name.split("-")[0]
     district = file_name.split("-")[1]
     table_format = file_name.split("-")[-1]
-    mylogger.debug("年份：" + year + "地区：" + district + "表类型：" + table_format)
+    # mylogger.debug("年份：" + year + "地区：" + district + "表类型：" + table_format)
     table_content = []
     for i in range(len(file_content)):
         file_content[i] = file_content[i].strip().replace("-", "NULL")
         temp = file_content[i].split("\t")
         table_content.append(temp)
     table_head = table_content[0]
-    mylogger.debug("表头：" + str(table_head))
+    # mylogger.debug("表头：" + str(table_head))
     table_content = table_content[1:]
     # # 去除统计部分的数据项、无数据的项
     # for item in table_content:
@@ -140,14 +143,14 @@ def score_pro_doc_to_mysql_table_tuple(file_path, school):
     file_name = file_path.split("\\")[-1]
     year = file_name.split("-")[0]
     table_format = file_name.split("-")[-1]
-    mylogger.debug("年份：" + year + "表类型：" + table_format)
+    # mylogger.debug("年份：" + year + "表类型：" + table_format)
     table_content = []
     for i in range(len(file_content)):
         file_content[i] = file_content[i].strip().replace("-", "NULL")
         temp = file_content[i].split("\t")
         table_content.append(temp)
     table_head = table_content[0]
-    mylogger.debug("表头：" + str(table_head))
+    # mylogger.debug("表头：" + str(table_head))
     table_content = table_content[1:]
     mysql_content = []
     for item in table_content:
@@ -179,7 +182,7 @@ def insert_all_school_table_admission_score():
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
           "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
           "北京大学医学部", "上海交通大学医学部", "复旦大学上海医学部"]
-    already_get = ["中国科学技术大学"]
+    already_get = ["复旦大学", "复旦大学上海医学部"]
     for school in already_get:
         dir_path = "Information/九校联盟/" + school + "/录取分数"
         file_list = read_all_file_list(dir_path)
@@ -191,15 +194,15 @@ def insert_all_school_table_admission_score():
             elif table_format == "pro":
                 mysql_content = score_pro_doc_to_mysql_table_tuple(file, school)
                 insert_table_admission_score_pro(mysql_content)
-            for item in mysql_content:
-                mylogger.debug(str(item))
+            # for item in mysql_content:
+            #     mylogger.debug(str(item))
 
 
 if __name__ == "__main__":
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     mylogger.info("begin...")
     mylogger.info("插入所有学校的招生计划数据...")
-    insert_all_school_table_admission_plan()
+    # insert_all_school_table_admission_plan()
     mylogger.info("插入所有学校的录取分数数据...")
-    # insert_all_school_table_admission_score()
+    insert_all_school_table_admission_score()
     mylogger.info("end...")

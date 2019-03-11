@@ -1010,7 +1010,7 @@ def get_plan_info_ustc():
 def get_plan_info_fudan():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_path_benbu = "Information/九校联盟/复旦大学/招生计划"
-    file_path_yixue = "Information/九校联盟/复旦大学上海医学院/招生计划"
+    file_path_yixue = "Information/九校联盟/复旦大学上海医学部/招生计划"
     # 直接从官网进行数据查询，使用form提交
     # 获取可查询的年份和地区
     main_url = "http://www.ao.fudan.edu.cn/index!enrollmentPlan.html"
@@ -1022,7 +1022,7 @@ def get_plan_info_fudan():
     districts = []
     for year in main_page_soup.find("select", id="nf").find_all("option"):
         years.append(year.string)
-    for district in main_page_soup.find("select", id="ss").find_all("option")[1:]:
+    for district in main_page_soup.find("select", id="ss").find_all("option"):
         districts.append(district.string)
     mylogger.debug("可查询的年份" + str(years))
     mylogger.debug("可查询的省份" + str(districts))
@@ -1074,8 +1074,12 @@ def get_plan_info_fudan():
                     if all_lines[i_line][0] == "专业名称":
                         index = i_line
                         break
-                all_lines_benbu = all_lines[:index]
-                all_lines_yixue = all_lines[index:]
+                if index == 0:
+                    all_lines_benbu = all_lines
+                    all_lines_yixue = []
+                else:
+                    all_lines_benbu = all_lines[:index]
+                    all_lines_yixue = all_lines[index:]
                 for line in all_lines_benbu[1:-1]:
                     # 去除文史汇总和理工汇总
                     if line[0] == "文史汇总" or line[0] == "理工汇总":
@@ -1085,15 +1089,16 @@ def get_plan_info_fudan():
                         table_content_benbu.append([line[0], line[1], line[5]])
                     else:
                         table_content_benbu.append([line[0], line[1], line[3]])
-                for line in all_lines_yixue[1:-1]:
-                    # 去除文史汇总和理工汇总
-                    if line[0] == "文史汇总" or line[0] == "理工汇总":
-                        continue
-                    # 上海地区表头有不同
-                    if district == "上海":
-                        table_content_yixue.append([line[0], line[1], line[5]])
-                    else:
-                        table_content_yixue.append([line[0], line[1], line[3]])
+                if len(all_lines_yixue) != 0:
+                    for line in all_lines_yixue[1:-1]:
+                        # 去除文史汇总和理工汇总
+                        if line[0] == "文史汇总" or line[0] == "理工汇总":
+                            continue
+                        # 上海地区表头有不同
+                        if district == "上海":
+                            table_content_yixue.append([line[0], line[1], line[5]])
+                        else:
+                            table_content_yixue.append([line[0], line[1], line[3]])
             mylogger.debug("本部招生计划：")
             for line in table_content_benbu:
                 mylogger.debug(str(line))
