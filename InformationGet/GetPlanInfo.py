@@ -963,7 +963,8 @@ def get_plan_info_zju():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     mylogger.info("浙江大学招生计划数据为空！")
 
-# 中国科学技术大学录取分数
+
+# 中国科学技术大学招生计划
 def get_plan_info_ustc():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_path = "Information/九校联盟/中国科学技术大学/招生计划"
@@ -979,33 +980,134 @@ def get_plan_info_ustc():
         page_source.encoding = page_source.apparent_encoding
         page_soup = BeautifulSoup(page_source.text, "lxml")
         page_soup.prettify()
-        title = page_soup.find("h1",class_="arti_title").string
+        title = page_soup.find("h1", class_="arti_title").string
         year = title[:4]
         district = title[5:-4]
-        table_name = year+"-"+district
+        table_name = year + "-" + district
         table_head = ["专业", "类别", "人数"]
         mylogger.debug(table_name)
         mylogger.debug(str(table_head))
         all_lines = []
-        for tr in page_soup.find("div",class_="wp_articlecontent").find_all("tr"):
+        for tr in page_soup.find("div", class_="wp_articlecontent").find_all("tr"):
             line = []
             for td in tr:
                 line.append(td.text)
             all_lines.append(line)
         table_content = []
         for line in all_lines[1:]:
-            if line[0]!="合计" and line[0]!="小计":
+            if line[0] != "合计" and line[0] != "小计":
                 if district == "浙江" or district == "上海":
-                    table_content.append([line[0]+"("+line[1]+")", "理工", line[2]])
+                    table_content.append([line[0] + "(" + line[1] + ")", "理工", line[2]])
                 else:
-                    table_content.append([line[0],"理工",line[1]])
+                    table_content.append([line[0], "理工", line[1]])
         for line in table_content:
             mylogger.debug(str(line))
         write_table(file_path, table_name, table_head, table_content)
         mylogger.info(year + district + "的招生计划已存入文件")
 
 
-# 复旦大学录取分数
+# 复旦大学招生计划
+def get_plan_info_fudan():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path_benbu = "Information/九校联盟/复旦大学/招生计划"
+    file_path_yixue = "Information/九校联盟/复旦大学上海医学院/招生计划"
+    # 直接从官网进行数据查询，使用form提交
+    # 获取可查询的年份和地区
+    main_url = "http://www.ao.fudan.edu.cn/index!enrollmentPlan.html"
+    main_page_source = request_url(main_url)
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    years = []
+    districts = []
+    for year in main_page_soup.find("select", id="nf").find_all("option"):
+        years.append(year.string)
+    for district in main_page_soup.find("select", id="ss").find_all("option")[1:]:
+        districts.append(district.string)
+    mylogger.debug("可查询的年份" + str(years))
+    mylogger.debug("可查询的省份" + str(districts))
+    search_url = "http://www.ao.fudan.edu.cn/index!enrollmentPlan.action"
+    # 2006-2015年有数据
+    for year in years:
+        for district in districts:
+            params = {
+                "lb": "plan",
+                "nf": year,
+                "ss": district
+            }
+            return_html = requests.post(search_url, data=params)
+            return_soup = BeautifulSoup(return_html.text, "lxml")
+            return_soup.prettify()
+            all_lines = []
+            for div in return_soup.find_all("div", class_="inquirytable_result"):
+                for tr in div.find_all("tr"):
+                    line =[]
+                    for td in tr:
+                        if td.string != "\n":
+                            line.append(str(td.string).strip())
+                    all_lines.append(line)
+            table_name = year + "-" +district
+            table_head = ["专业", "类别", "人数"]
+            mylogger.debug(table_name)
+            mylogger.debug(str(table_head))
+            # 数据查询为空
+            if len(all_lines)<3:
+                continue
+            # 开始提取数据
+            table_content_benbu = []
+            table_content_yixue = []
+            # 2013年开始复旦大学与复旦大学上海医学部分开招生
+            if int(year) < 2013:
+                for line in all_lines[1:-1]:
+                    # 去除文史汇总和理工汇总
+                    if line[0] == "文史汇总" or line[0] == "理工汇总":
+                        continue
+                    # 上海地区表头有不同
+                    if district == "上海":
+                        table_content_benbu.append([line[0], line[1], line[5]])
+                    else:
+                        table_content_benbu.append([line[0], line[1], line[3]])
+            else:
+                # 先将本部和医学院的数据分开
+                index = 0
+                for i_line in range(1, len(all_lines)):
+                    if all_lines[i_line][0] == "专业名称":
+                        index = i_line
+                        break
+                all_lines_benbu = all_lines[:index]
+                all_lines_yixue = all_lines[index:]
+                for line in all_lines_benbu[1:-1]:
+                    # 去除文史汇总和理工汇总
+                    if line[0] == "文史汇总" or line[0] == "理工汇总":
+                        continue
+                    # 上海地区表头有不同
+                    if district == "上海":
+                        table_content_benbu.append([line[0], line[1], line[5]])
+                    else:
+                        table_content_benbu.append([line[0], line[1], line[3]])
+                for line in all_lines_yixue[1:-1]:
+                    # 去除文史汇总和理工汇总
+                    if line[0] == "文史汇总" or line[0] == "理工汇总":
+                        continue
+                    # 上海地区表头有不同
+                    if district == "上海":
+                        table_content_yixue.append([line[0], line[1], line[5]])
+                    else:
+                        table_content_yixue.append([line[0], line[1], line[3]])
+            mylogger.debug("本部招生计划：")
+            for line in table_content_benbu:
+                mylogger.debug(str(line))
+            mylogger.debug("医学院招生计划：")
+            for line in table_content_yixue:
+                mylogger.debug(str(line))
+            write_table(file_path_benbu, table_name, table_head, table_content_benbu)
+            mylogger.info("本部"+ year + district + "的招生计划已存入文件")
+            if len(table_content_yixue) != 0:
+                write_table(file_path_yixue, table_name, table_head, table_content_yixue)
+                mylogger.info("医学院"+year + district + "的招生计划已存入文件")
+
+
+
 
 
 if __name__ == "__main__":
@@ -1022,5 +1124,6 @@ if __name__ == "__main__":
     # get_plan_info_xjtu()
     # 浙江大学为空
     # get_plan_info_zju()
-    get_plan_info_ustc()
+    # get_plan_info_ustc()
+    get_plan_info_fudan()
     mylogger.info("end...")
