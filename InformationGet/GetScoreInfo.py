@@ -1470,6 +1470,48 @@ def get_score_info_zju():
 
 
 # 中国科学技术大学录取分数
+def get_score_info_utsc():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path = "Information/九校联盟/中国科学技术大学/录取分数"
+    main_url = "https://zsb.ustc.edu.cn"
+    # 获取分类信息
+    main_page_source = request_url(main_url + "/12994/list.htm")
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    all_tables = [] # 保存所有地区的分数情况
+    for area in main_page_soup.find_all("area"):
+        page_url = area["href"]
+        page_source = request_url(page_url)
+        page_source.encoding = page_source.apparent_encoding
+        page_soup = BeautifulSoup(page_source.text, "lxml")
+        page_soup.prettify()
+        title = page_soup.find("h1", class_="arti_title").string
+        district = title[:-6]
+
+        all_lines = []
+        for tr in page_soup.find("div", class_="wp_articlecontent").find_all("tr"):
+            line = []
+            for td in tr:
+                line.append(td.text)
+            all_lines.append(line)
+        all_tables.append([district,all_lines])
+
+    # 按年份重新组织表格
+    for i_year in range(1,len(all_tables[0][1])):
+        year = all_tables[0][1][i_year][0]
+        table_name = year + "-pro"
+        table_head = ["地区", "批次", "类别", "分数线"]
+        mylogger.debug(table_name)
+        mylogger.debug(str(table_head))
+        table_content = []
+        for pro in all_tables:
+            district = pro[0]
+            table_content.append([district,"一批","理工",pro[1][i_year][4]])
+        for line in table_content:
+            mylogger.debug(str(line))
+        write_table(file_path, table_name, table_head, table_content)
+        mylogger.info(year + district + "的招生计划已存入文件")
 # 复旦大学录取分数
 
 
@@ -1483,5 +1525,6 @@ if __name__ == "__main__":
     # get_score_info_sjtu()
     # get_score_info_nju()
     # get_score_info_xjtu()
-    get_score_info_zju()
+    # get_score_info_zju()
+    get_score_info_utsc()
     mylogger.info("end...")
