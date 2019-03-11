@@ -964,6 +964,47 @@ def get_plan_info_zju():
     mylogger.info("浙江大学招生计划数据为空！")
 
 # 中国科学技术大学录取分数
+def get_plan_info_ustc():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    file_path = "Information/九校联盟/中国科学技术大学/招生计划"
+    main_url = "https://zsb.ustc.edu.cn"
+    # 获取分类信息
+    main_page_source = request_url(main_url + "/12993/list.htm")
+    main_page_source.encoding = main_page_source.apparent_encoding
+    main_page_soup = BeautifulSoup(main_page_source.text, "lxml")
+    main_page_soup.prettify()
+    for area in main_page_soup.find_all("area"):
+        page_url = area["href"]
+        page_source = request_url(page_url)
+        page_source.encoding = page_source.apparent_encoding
+        page_soup = BeautifulSoup(page_source.text, "lxml")
+        page_soup.prettify()
+        title = page_soup.find("h1",class_="arti_title").string
+        year = title[:4]
+        district = title[5:-4]
+        table_name = year+"-"+district
+        table_head = ["专业", "类别", "人数"]
+        mylogger.debug(table_name)
+        mylogger.debug(str(table_head))
+        all_lines = []
+        for tr in page_soup.find("div",class_="wp_articlecontent").find_all("tr"):
+            line = []
+            for td in tr:
+                line.append(td.text)
+            all_lines.append(line)
+        table_content = []
+        for line in all_lines[1:]:
+            if line[0]!="合计" and line[0]!="小计":
+                if district == "浙江" or district == "上海":
+                    table_content.append([line[0]+"("+line[1]+")", "理工", line[2]])
+                else:
+                    table_content.append([line[0],"理工",line[1]])
+        for line in table_content:
+            mylogger.debug(str(line))
+        write_table(file_path, table_name, table_head, table_content)
+        mylogger.info(year + district + "的招生计划已存入文件")
+
+
 # 复旦大学录取分数
 
 
@@ -979,5 +1020,7 @@ if __name__ == "__main__":
     # 南京大学未完成
     # get_plan_info_nju()
     # get_plan_info_xjtu()
-    get_plan_info_zju()
+    # 浙江大学为空
+    # get_plan_info_zju()
+    get_plan_info_ustc()
     mylogger.info("end...")
