@@ -96,9 +96,13 @@ def read_pdf_to_text(path):
 if __name__ == '__main__':
     mylogger = MyLog(__name__).getlog()
     mylogger.info("start...")
-    path = "../InformationGet/Information/九校联盟/南京大学/录取分数/source/2018-major.pdf"
-    text = read_pdf_to_text(path)
-    print(text)
+    path = "../InformationGet/Information/九校联盟/南京大学/招生计划/source/2018-安徽.pdf"
+    pages = read_pdf_to_tables(path)
+    for tables in pages:
+        for table in tables:
+            for line in table:
+                print(line)
+            print("--------")
     # for line in text.split("\n"):
     #     print(line)
     # print(text.split("\n"))

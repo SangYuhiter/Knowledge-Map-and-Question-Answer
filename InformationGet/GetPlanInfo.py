@@ -17,6 +17,7 @@ from Log.Logger import MyLog
 from FileRead.ImageRead import image_to_pdf
 import os
 import sys
+import time
 
 import pdfplumber
 
@@ -843,27 +844,94 @@ def get_plan_info_nju():
     # pro_list = browser.find_element_by_id("MapControl")
     # with open(file_path+"/source/"+"index","w",encoding="utf-8") as file:
     #     file.write(pro_list.get_attribute('innerHTML'))
-    # 开始将源码读入并使用bs4解析
-    with open(file_path + "/source/" + "index", "r", encoding="utf-8") as file:
-        source_code = file.read()
-    main_page_soup = BeautifulSoup(source_code, "lxml")
-    main_page_soup.prettify()
-    for li in [main_page_soup.find_all("li")[0]]:
-        url = li.a["href"]
-        pro = li.span.text
-        print(pro + "\t" + url)
-        page_source = request_url(main_url + url)
-        page_soup = BeautifulSoup(page_source.text, "lxml")
-        print(page_soup.find("div", class_="flexpaper_page"))
-        # browser = selenium_chrome(main_url+url)
-        # page_source = browser.find_element_by_class_name("flexpaper_page").find_element_by_tag_name("img")
-        # print(page_source.text)
-        # browser.quit()
-        # img_url = page_soup.find_all("img")[0]["src"]
-        # print(page_soup.find_all("img")[0]["src"])
-        # img_source = request_url(main_url+img_url)
-        # with open(file_path+"/source/"+"2018-"+ pro+".png","wb") as img:
-        #     img.write(img_source.content)
+
+    # 开始将源码读入并使用bs4解析，获取html页面源码
+    # with open(file_path + "/source/" + "index", "r", encoding="utf-8") as file:
+    #     source_code = file.read()
+    # main_page_soup = BeautifulSoup(source_code, "lxml")
+    # main_page_soup.prettify()
+    # for li in main_page_soup.find_all("li"):
+    #     url = li.a["href"]
+    #     pro = li.span.text
+    #     print(pro + "\t" + url)
+    #     browser = selenium_chrome(main_url+url)
+    #     page_source = browser.find_element_by_class_name("wp_articlecontent").get_attribute("innerHTML")
+    #     year = re.findall("\d{4}",BeautifulSoup(page_source,"lxml").find("p").text)[0]
+    #     with open(file_path + "/source/"+year+"-"+pro+".html","w",encoding="utf-8") as file:
+    #         file.write(page_source)
+    #     browser.quit()
+    #     time.sleep(5)
+
+    # 获取pdf文件
+    # file_list = read_all_file_list(file_path + "/source")
+    # for file_name in file_list:
+    #     pdf_name = file_name.split("\\")[-1][:-5]
+    #     if file_name[-4:] == "html":
+    #         print(file_name)
+    #         with open(file_name, "r", encoding="utf-8") as file:
+    #             page_source = file.read()
+    #         page_soup = BeautifulSoup(page_source,"lxml")
+    #         for item in page_soup.find_all("div",class_="wp_pdf_player"):
+    #             pdf_url = item["pdfsrc"]
+    #             pdf_source = request_url(main_url+pdf_url)
+    #             with open(file_path + "/source/"+pdf_name+".pdf","wb")as pdf_file:
+    #                 pdf_file.write(pdf_source.content)
+
+    # 解析pdf文件
+    file_list = read_all_file_list(file_path + "/source")
+    for file_name in file_list:
+        if file_name[-3:]=="pdf":
+            pdf_name = file_name.split("\\")[-1][:-4]
+            year = pdf_name.split("-")[0]
+            pro = pdf_name.split("-")[-1]
+            pages = read_pdf_to_tables(file_name)
+            table_name = year + "-" + pro
+            table_head = ["专业", "类别", "人数"]
+            mylogger.debug(table_name)
+            mylogger.debug(str(table_head))
+            all_lines = []
+            for tables in pages:
+                for table in tables:
+                    for line in table:
+                        all_lines.append(line)
+            # 分表
+            all_tables = []
+            table =[]
+            for line in all_lines:
+                if line[0]=="科类":
+                    if len(table)!=0:
+                        all_tables.append(table)
+                    table = []
+                    table.append(line)
+                else:
+                    table.append(line)
+            all_tables.append(table)
+
+            all_lines = []
+            for table in all_tables:
+                sign = table[1][0]
+                if sign == "国家专项计划" or sign == "提前批":
+                    for line in table:
+                        all_lines.append([line[0], str(line[1]) + "(" + sign + ")", line[2]])
+                else:
+                    for line in table:
+                        all_lines.append(line)
+
+            table_content = []
+            for line in all_lines:
+                if line[0]=="科类" or line[0]=="总计" or line[1].find("小计")!=-1 or line[1].find("None")!=-1 or line[2]=="" or line[2]=="0" or line[2] is None:
+                    continue
+                classy = line[0]
+                if classy=="理":
+                    classy = "理工"
+                elif classy =="文":
+                    classy = "文史"
+                table_content.append([line[1].replace("( )\n",""),classy,line[2]])
+            for line in table_content:
+                mylogger.debug(str(line))
+            write_table(file_path, table_name, table_head, table_content)
+            mylogger.info(year+pro+"招生计划已存入文件")
+
 
     # # Ajax渲染，form方法获取json数据
     # params = {"siteId": "249",
@@ -1125,10 +1193,10 @@ if __name__ == "__main__":
     # 上交未完成，不可使用，bug多
     # get_plan_info_sjtu()
     # 南京大学未完成
-    # get_plan_info_nju()
+    get_plan_info_nju()
     # get_plan_info_xjtu()
     # 浙江大学为空
     # get_plan_info_zju()
     # get_plan_info_ustc()
-    get_plan_info_fudan()
+    # get_plan_info_fudan()
     mylogger.info("end...")
