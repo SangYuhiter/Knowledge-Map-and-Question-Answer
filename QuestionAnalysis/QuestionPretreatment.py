@@ -110,6 +110,9 @@ def question_keyword_normalize(keyword_tuple):
     # 去除"年"字
     if search_year.find("年") != -1:
         search_year = search_year.replace("年", "")
+    # "17"-->"2017"
+    if len(search_year)<4:
+        search_year = "20"+search_year
 
     # 高校（全称与简称）
     c9 = ["北京大学", "北京大学医学部", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
