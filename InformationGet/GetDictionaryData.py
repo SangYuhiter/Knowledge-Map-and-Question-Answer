@@ -5,10 +5,11 @@
 @Date  : 2019/2/25 23:39
 @Desc  : 从数据库、网络资源中获取词典信息
 '''
-from InformationGet import MysqlOperation
+from InformationGet.MysqlOperation import mysql_query_sentence
 import re
 import sys
 from Log.Logger import MyLog
+from pypinyin import lazy_pinyin
 
 # hanlp 词典位置
 dictionary_path = "../venv/Lib/site-packages/pyhanlp/static/data/dictionary/graduation"
@@ -33,64 +34,50 @@ def build_school_dict():
     mylogger.info("构造学校名称词典完成！")
 
 
-# 专业词典
+# 专业词典，从mysql表中获取，以提高问句中专业的识别率
 def build_mysql_major_dict():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("获取招生计划表中的专业字段...")
     # 招生计划中的专业名称
-    db_name = "university_admission"
-    mydb = MysqlOperation.connect_mysql_with_db(db_name)
-    mycursor = mydb.cursor()
-    sql_string = "SELECT major FROM admission_plan;"
-    mycursor.execute(sql_string)
-    myresult = mycursor.fetchall()
-    major_set1 = set()
-    # for item in myresult:
-    #     temp = re.findall(r"(.*)[\（\(]", item[0])
-    #     if len(temp) == 0:
-    #         major_set1.add(item[0])
-    #     else:
-    #         major_set1.add(temp[0])
-    for item in myresult:
-        if "(" in item[0]:
-            major_set1.add(item[0].split("(")[0])
-        elif "（" in item[0]:
-            major_set1.add(item[0].split("（")[0])
-    print("招生计划中专业名称：")
-    print(len(major_set1))
-    print(major_set1)
+    plan_sql_string = "SELECT major FROM admission_plan GROUP BY major;"
+    myresult = mysql_query_sentence(plan_sql_string)
+    mylogger.debug("招生计划表中专业数%d:" % len(myresult))
+    pattern = re.compile(r"[\(\（\[].*?[\)\）\]].*")
+    plan_major_set = set()
+    for major in myresult:
+        temp = re.sub(pattern, "", major[0])
+        plan_major_set.add(temp)
+    mylogger.debug("招生计划表中专业数(统计合并后):%d" % len(plan_major_set))
+    mylogger.debug(str(sorted(list(plan_major_set), key=lambda x: lazy_pinyin(x.lower())[0][0])))
 
-    # 录取专业中的专业名称
-    db_name = "university_admission"
-    mydb = MysqlOperation.connect_mysql_with_db(db_name)
-    mycursor = mydb.cursor()
-    sql_string = "SELECT major FROM admission_score_major;"
-    mycursor.execute(sql_string)
-    myresult = mycursor.fetchall()
-    major_set2 = set()
+    # 录取分数中的专业名称
+    score_sql_string = "SELECT major FROM admission_score_major GROUP BY major;"
+    myresult = mysql_query_sentence(score_sql_string)
+    mylogger.debug("录取分数表中专业数%d:" % len(myresult))
+    score_major_set = set()
+    for major in myresult:
+        temp = re.sub(pattern, "", major[0])
+        score_major_set.add(temp)
+    mylogger.debug("录取分数表中专业数(统计合并后):%d" % len(score_major_set))
+    mylogger.debug(str(sorted(list(score_major_set), key=lambda x: lazy_pinyin(x.lower())[0][0])))
 
-    for item in myresult:
-        if "(" in item[0]:
-            major_set2.add(item[0].split("(")[0])
-        elif "（" in item[0]:
-            major_set2.add(item[0].split("（")[0])
-    print("录取专业中专业名称：")
-    print(len(major_set2))
-    print(major_set2)
+    # 测定两者交集
+    mylogger.debug("以上两者的交集为：")
+    major_and_set = plan_major_set.intersection(score_major_set)
+    mylogger.debug("交集长度为：%d", len(major_and_set))
+    mylogger.debug(str(sorted(list(major_and_set), key=lambda x: lazy_pinyin(x.lower())[0][0])))
 
-    print("以上两者的交集为")
-    major_set3 = major_set1.intersection(major_set2)
-    print(len(major_set3))
-    print(major_set3)
-
-    print("以上两者的并集为")
-    major_set4 = major_set1.union(major_set2)
-    print(len(major_set4))
-    print(major_set4)
+    # 测定两者并集
+    mylogger.debug("以上两者的并集为：")
+    major_or_set = plan_major_set.union(score_major_set)
+    mylogger.debug("并集长度为：%d", len(major_or_set))
+    mylogger.debug(str(sorted(list(major_or_set), key=lambda x: lazy_pinyin(x.lower())[0][0])))
 
     # 根据资料构建词典
-    with open(dictionary_path + "/major.txt", "w", encoding="utf-8") as major_dict:
-        major_dict.truncate()
-        for item in major_set4:
-            major_dict.write(item + "\n")
+    # with open(dictionary_path + "/major.txt", "w", encoding="utf-8") as major_dict:
+    #     major_dict.truncate()
+    #     for item in major_set4:
+    #         major_dict.write(item + "\n")
 
 
 # 百度百科获取大学专业目录
@@ -130,7 +117,7 @@ def build_university_major_dict():
 if __name__ == '__main__':
     mylogger = MyLog(logger=__name__).getlog()
     mylogger.info("start...")
-    build_school_dict()
-    # build_mysql_major_dict()
+    # build_school_dict()
+    build_mysql_major_dict()
     # build_university_major_dict()
     mylogger.info("end...")
