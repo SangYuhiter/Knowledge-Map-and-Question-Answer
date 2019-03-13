@@ -3,26 +3,34 @@
 @File  : GetDictionaryData.py
 @Author: SangYu
 @Date  : 2019/2/25 23:39
-@Desc  : 从数据库中获取词典信息
+@Desc  : 从数据库、网络资源中获取词典信息
 '''
 from InformationGet import MysqlOperation
 import re
+import sys
+from Log.Logger import MyLog
 
+# hanlp 词典位置
 dictionary_path = "../venv/Lib/site-packages/pyhanlp/static/data/dictionary/graduation"
 
 
-# 学校词典
+# 学校词典（全称和简称）
 def get_school_word():
-    c9 = ["北京大学", "北京大学医学部", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
-          "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学"]
-    c9_j = ["北大", "北大医学部", "清华", "复旦", "上交", "浙大",
-            "南大", "中科大", "哈工大", "西交大"]
-    with open(dictionary_path + "/school.txt", "w", encoding="utf-8") as major_dict:
-        major_dict.truncate()
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("构造学校名称词典...")
+    c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
+          "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学",
+          "北京大学医学部", "上海交通大学医学部", "复旦大学上海医学部"]
+    c9_j = ["北大", "清华", "复旦", "上交", "浙大",
+            "南大", "中科大", "哈工大", "西交大",
+            "北大医学部", "上交医学部", "复旦医学部"]
+    with open(dictionary_path + "/school.txt", "w", encoding="utf-8") as school_dict:
+        school_dict.truncate()
         for item in c9:
-            major_dict.write(item + "\n")
+            school_dict.write(item + "\n")
         for item in c9_j:
-            major_dict.write(item + "\n")
+            school_dict.write(item + "\n")
+    mylogger.info("构造学校名称词典完成！")
 
 
 # 专业词典
@@ -115,8 +123,9 @@ def get_university_major():
 
 
 if __name__ == '__main__':
-    print("start...")
-    # get_school_word()
+    mylogger = MyLog(logger=__name__).getlog()
+    mylogger.info("start...")
+    get_school_word()
     # get_major_word()
-    get_university_major()
-    print("end...")
+    # get_university_major()
+    mylogger.info("end...")
