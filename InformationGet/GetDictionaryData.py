@@ -15,7 +15,7 @@ dictionary_path = "../venv/Lib/site-packages/pyhanlp/static/data/dictionary/grad
 
 
 # 学校词典（全称和简称）
-def get_school_word():
+def build_school_dict():
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     mylogger.info("构造学校名称词典...")
     c9 = ["北京大学", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
@@ -34,7 +34,7 @@ def get_school_word():
 
 
 # 专业词典
-def get_major_word():
+def build_mysql_major_dict():
     # 招生计划中的专业名称
     db_name = "university_admission"
     mydb = MysqlOperation.connect_mysql_with_db(db_name)
@@ -94,10 +94,14 @@ def get_major_word():
 
 
 # 百度百科获取大学专业目录
-def get_university_major():
+def build_university_major_dict():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("构造专业名称词典...")
     source_path = "Information/大学/大学学科(百度百科网页源码).txt"
     with open(source_path, "r", encoding="utf-8") as source_file:
         main_page_source = source_file.read()
+
+    # bs4方法解析尝试
     # main_page_soup = BeautifulSoup(main_page_source, "lxml")
     # main_page_soup.prettify()
     #
@@ -120,12 +124,13 @@ def get_university_major():
         major_dict.truncate()
         for item in result:
             major_dict.write(re.findall(r'[\u4e00-\u9fa5]+', item)[0] + "\n")
+    mylogger.info("构造专业名称词典完成")
 
 
 if __name__ == '__main__':
     mylogger = MyLog(logger=__name__).getlog()
     mylogger.info("start...")
-    get_school_word()
-    # get_major_word()
-    # get_university_major()
+    build_school_dict()
+    # build_mysql_major_dict()
+    # build_university_major_dict()
     mylogger.info("end...")
