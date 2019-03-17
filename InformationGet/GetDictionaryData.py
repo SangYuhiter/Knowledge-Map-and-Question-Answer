@@ -114,10 +114,23 @@ def build_university_major_dict():
     mylogger.info("构造专业名称词典完成")
 
 
+# 类别词典
+def build_classy_dict():
+    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    mylogger.info("构造类别名称词典...")
+    classy = ["文科", "理科", "文史", "理工"]
+    with open(dictionary_path + "/classy.txt", "w", encoding="utf-8") as classy_dict:
+        classy_dict.truncate()
+        for item in classy:
+            classy_dict.write(item + "\n")
+    mylogger.info("构造类别名称词典完成！")
+
+
 if __name__ == '__main__':
     mylogger = MyLog(logger=__name__).getlog()
     mylogger.info("start...")
     # build_school_dict()
-    build_mysql_major_dict()
+    # build_mysql_major_dict()
     # build_university_major_dict()
+    build_classy_dict()
     mylogger.info("end...")
