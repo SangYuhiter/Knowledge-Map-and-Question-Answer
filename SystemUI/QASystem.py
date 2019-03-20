@@ -12,11 +12,13 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction,
 from PyQt5.QtGui import QIcon
 
 from LTP.LTPInterface import ltp_segmentor, ltp_postagger, ltp_name_entity_recognizer
-from InformationGet.MysqlOperation import connect_mysql_with_db
+from InformationGet.MysqlOperation import connect_mysql_with_db,mysql_query_sentence
 from pypinyin import lazy_pinyin
 
 from QuestionAnalysis.QuestionPretreatment import question_segment_hanlp, question_analysis_to_keyword, question_keyword_normalize
 from QuestionQuery.MysqlQuery import mysql_table_query
+from TemplateLoad.QuestionTemplate import load_template_by_file
+from FileRead.FileNameRead import read_all_file_list
 
 from InformationGet import MysqlOperation
 
@@ -68,6 +70,13 @@ class QASystemMainWindow(QMainWindow):
         mysql_act.setShortcut('Ctrl+M')
         mysql_act.setStatusTip('MySQL Database')
         mysql_act.triggered.connect(self.turn_page_mysql)
+
+        # 模板的查看与创建
+        template_act = QAction(QIcon('images/template.png'), 'Template', self)
+        template_act.setShortcut('Ctrl+T')
+        template_act.setStatusTip('Template check&create')
+        template_act.triggered.connect(self.turn_page_template)
+
         # 退出程序
         exit_act = QAction(QIcon('images/quit.png'), 'Exit', self)
         exit_act.setShortcut('Ctrl+Q')
@@ -76,6 +85,7 @@ class QASystemMainWindow(QMainWindow):
 
         exit_menu.addAction(exit_act)
         file_menu.addAction(mysql_act)
+        file_menu.addAction(template_act)
 
     # 创建工具栏
     def create_tool(self):
@@ -90,6 +100,10 @@ class QASystemMainWindow(QMainWindow):
     def turn_page_mysql(self):
         self.MySQL_wid = MySQL_widgets()
         self.MySQL_wid.show()
+
+    def turn_page_template(self):
+        self.Template_wid = Template_check_widgets()
+        self.Template_wid.show()
 
     # 关闭窗口事件
     def closeEvent(self, event):
@@ -207,25 +221,36 @@ class QA_widgets(QWidget):
         self.answer_edit.clear()
         sentence = self.question_edit.text()
         # hanlp方法
-        result = question_segment_hanlp(sentence)
-        keyword = question_analysis_to_keyword(result)
-        search_table, search_year, search_school, search_major, search_district = keyword
-        # print(search_year+"--"+search_school+"--"+search_district+"--"+search_major)
-        self.answer_edit.append("问句分析结果为：" + str(result))
+        segment_list = question_segment_hanlp(sentence)
+        keyword = question_analysis_to_keyword(segment_list)
+        search_table = keyword["search_table"]
+        search_year = keyword["search_year"]
+        search_school = keyword["search_school"]
+        search_major = keyword["search_major"]
+        search_district = keyword["search_district"]
+        search_classy = keyword["search_classy"]
+        self.answer_edit.append("问句分析结果为：" + str(segment_list))
         self.answer_edit.append("直接信息如下：")
         self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
         self.answer_edit.append("查询年份为：" + search_year)
         self.answer_edit.append("查询高校为：" + search_school)
         self.answer_edit.append("查询专业为：" + search_major)
         self.answer_edit.append("查询地区为：" + search_district)
+        self.answer_edit.append("查询类别为：" + search_classy)
         keyword_normalize = question_keyword_normalize(keyword)
-        search_table, search_year, search_school, search_major, search_district = keyword_normalize
+        search_table = keyword_normalize["search_table"]
+        search_year = keyword_normalize["search_year"]
+        search_school = keyword_normalize["search_school"]
+        search_major = keyword_normalize["search_major"]
+        search_district = keyword_normalize["search_district"]
+        search_classy = keyword_normalize["search_classy"]
         self.answer_edit.append("信息规范后如下：")
         self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
         self.answer_edit.append("查询年份为：" + search_year)
         self.answer_edit.append("查询高校为：" + search_school)
         self.answer_edit.append("查询专业为：" + search_major)
         self.answer_edit.append("查询地区为：" + search_district)
+        self.answer_edit.append("查询类别为：" + search_classy)
         # 对关键词元组进行mysql查询，并将查询结果输出
         result_edit = mysql_table_query(keyword_normalize)
         for item in result_edit:
@@ -242,15 +267,6 @@ class QA_widgets(QWidget):
             self.ner_btn.click()
         self.question_edit.clear()
         self.answer_edit.clear()
-
-    # mysql 查询语句,返回查询结果
-    def mysql_query_sentence(self, mysql_string):
-        dbname = "university_admission"
-        mydb = connect_mysql_with_db(dbname)
-        mycursor = mydb.cursor()
-        mycursor.execute(mysql_string)
-        myresult = mycursor.fetchall()
-        return myresult
 
 
 # MySQL表查看类
@@ -353,15 +369,6 @@ class MySQL_widgets(QWidget):
         main_vbox.addLayout(btn_hbox)
         self.setLayout(main_vbox)
 
-    # mysql 查询语句,返回查询结果
-    def mysql_query_sentence(self, mysql_string):
-        dbname = "university_admission"
-        mydb = connect_mysql_with_db(dbname)
-        mycursor = mydb.cursor()
-        mycursor.execute(mysql_string)
-        myresult = mycursor.fetchall()
-        return myresult
-
     # mysql查询
     def mysql_query(self):
         mysql_string = self.SQL_edit.text()
@@ -370,7 +377,7 @@ class MySQL_widgets(QWidget):
         else:
             mysql_string = self.build_mysql_string()
             self.SQL_edit.setText(mysql_string)
-        myresult = self.mysql_query_sentence(mysql_string)
+        myresult = mysql_query_sentence(mysql_string)
         if len(myresult) == 0:
             self.result_edit.setText("查询结果为空！")
             return
@@ -393,7 +400,7 @@ class MySQL_widgets(QWidget):
         self.query_table_name = mysql_table_name[table_names.index(text)]
         # 查询当前选择下（表名）学校数据项
         mysql_string = "select school from " + self.query_table_name + " group by school;"
-        myresult = self.mysql_query_sentence(mysql_string)
+        myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
             temp.append(item[0])
@@ -409,7 +416,7 @@ class MySQL_widgets(QWidget):
         # 查询当前选择下（表名、学校）地区数据项
         mysql_string = "select district from " + self.query_table_name + " where school='" + self.query_school_name \
                        + "' group by district;"
-        myresult = self.mysql_query_sentence(mysql_string)
+        myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
             temp.append(item[0])
@@ -425,7 +432,7 @@ class MySQL_widgets(QWidget):
         # 查询当前选择下（表名、学校、地区）年份数据项
         mysql_string = "select year from " + self.query_table_name + " where school='" + self.query_school_name \
                        + "' and district='" + self.query_district_name + "' group by year;"
-        myresult = self.mysql_query_sentence(mysql_string)
+        myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
             temp.append(str(item[0]))
@@ -447,7 +454,7 @@ class MySQL_widgets(QWidget):
             mysql_string = "select major from " + self.query_table_name + " where school='" + self.query_school_name \
                            + "' and district='" + self.query_district_name + "' and year='" + self.query_year_name \
                            + "' group by major;"
-            myresult = self.mysql_query_sentence(mysql_string)
+            myresult = mysql_query_sentence(mysql_string)
             temp = []
             for item in myresult:
                 temp.append(item[0])
@@ -462,7 +469,7 @@ class MySQL_widgets(QWidget):
             mysql_string = "select batch from " + self.query_table_name + " where school='" + self.query_school_name \
                            + "' and district='" + self.query_district_name + "' and year='" + self.query_year_name \
                            + "' group by batch;"
-            myresult = self.mysql_query_sentence(mysql_string)
+            myresult = mysql_query_sentence(mysql_string)
             temp = []
             for item in myresult:
                 temp.append(item[0])
@@ -479,7 +486,7 @@ class MySQL_widgets(QWidget):
         mysql_string = "select classy from " + self.query_table_name + " where school='" + self.query_school_name \
                        + "' and district='" + self.query_district_name + "' and year='" + self.query_year_name \
                        + "' group by classy;"
-        myresult = self.mysql_query_sentence(mysql_string)
+        myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
             temp.append(item[0])
@@ -488,6 +495,189 @@ class MySQL_widgets(QWidget):
         self.classy_combo.clear()
         self.classy_names = sorted(self.classy_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
         self.classy_combo.addItems(self.classy_names)
+
+
+# Template查看与创建控件
+class Template_check_widgets(QWidget):
+    # 构造方法
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    # GUI创建
+    def initUI(self):
+        self.create_Template_check_widgets()
+        # 窗口信息设置
+        self.setGeometry(200, 200, 1000, 800)
+        self.setWindowTitle("模板查看")
+        self.setWindowIcon(QIcon("images/cat.jpg"))
+        self.show()
+
+    # 创建模板查看与创建控件
+    def create_Template_check_widgets(self):
+        # 当前模板查看（查询按钮+模板显示下拉框、横向布局）
+        self.query_btn = QPushButton("查看当前模板")
+        self.query_btn.clicked.connect(self.template_query)
+
+        current_template_text = QLabel("当前模板")
+        self.template_combo = QComboBox()
+        self.template_combo.activated[str].connect(self.template_combo_activated)
+
+        select_hbox = QHBoxLayout()
+        select_hbox.addWidget(self.query_btn)
+        select_hbox.addWidget(current_template_text)
+        select_hbox.addWidget(self.template_combo)
+
+        # 模板字段部分（中英、纵向布局）
+        template_fields_text = QLabel("模板字段")
+        template_fields_en_text = QLabel("英文对照")
+        self.template_fields_edit = QLineEdit()
+        self.template_fields_en_edit = QLineEdit()
+
+        template_fields_hbox = QHBoxLayout()
+        template_fields_hbox.addWidget(template_fields_text)
+        template_fields_hbox.addWidget(self.template_fields_edit)
+
+        template_fields_en_hbox = QHBoxLayout()
+        template_fields_en_hbox.addWidget(template_fields_en_text)
+        template_fields_en_hbox.addWidget(self.template_fields_en_edit)
+
+        # 模板句式部分
+        template_sentence_text = QLabel("模板句式")
+        self.template_sentence_edit = QTextEdit()
+
+        template_sentence_hbox = QHBoxLayout()
+        template_sentence_hbox.addWidget(template_sentence_text)
+        template_sentence_hbox.addWidget(self.template_sentence_edit)
+
+        # 创建模板
+        self.build_btn = QPushButton("创建模板")
+        self.build_btn.clicked.connect(self.turn_page_template_build)
+        create_hbox = QHBoxLayout()
+        create_hbox.addWidget(self.build_btn)
+
+        main_vbox = QVBoxLayout()
+        main_vbox.addLayout(select_hbox)
+        main_vbox.addLayout(template_fields_hbox)
+        main_vbox.addLayout(template_fields_en_hbox)
+        main_vbox.addLayout(template_sentence_hbox)
+        main_vbox.addLayout(create_hbox)
+        self.setLayout(main_vbox)
+
+    # 查看当前模板
+    def template_query(self):
+        template_path = "../TemplateLoad/Template"
+        file_list = read_all_file_list(template_path)
+        template_file = [file.split("\\")[-1] for file in file_list]
+        self.template_combo.addItems(template_file)
+
+    # 当点击某个模板时
+    def template_combo_activated(self, text):
+        template_path = "../TemplateLoad/Template"
+        fields, fields_en, template_sentence = load_template_by_file(template_path+"/"+text)
+        self.template_fields_edit.setText(str(fields))
+        self.template_fields_en_edit.setText(str(fields_en))
+        self.template_sentence_edit.clear()
+        for sentence in template_sentence:
+            self.template_sentence_edit.append(str(sentence))
+
+    # 跳转到模板创造页面
+    def turn_page_template_build(self):
+        self.Template_build_wid = Template_build_widgets()
+        self.Template_build_wid.show()
+
+
+# Template创建控件
+class Template_build_widgets(QWidget):
+    # 构造方法
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    # GUI创建
+    def initUI(self):
+        self.create_Template_build_widgets()
+        # 窗口信息设置
+        self.setGeometry(200, 200, 1000, 800)
+        self.setWindowTitle("模板创建")
+        self.setWindowIcon(QIcon("images/cat.jpg"))
+        self.show()
+
+    # 创建模板查看与创建控件
+    def create_Template_build_widgets(self):
+        # 输入模板字段部分（中英、纵向布局）
+        tips_text = QLabel("请在以下文本框中分别输入模板中英文字段（以空格隔开每个字段）、")
+        tips_hbox = QHBoxLayout()
+        tips_hbox.addWidget(tips_text)
+        template_fields_text = QLabel("模板字段")
+        template_fields_en_text = QLabel("英文对照")
+        template_sentence_end_text = QLabel("模板句尾")
+        self.template_fields_edit = QLineEdit()
+        self.template_fields_en_edit = QLineEdit()
+        self.template_sentence_end_edit = QTextEdit()
+
+        template_fields_hbox = QHBoxLayout()
+        template_fields_hbox.addWidget(template_fields_text)
+        template_fields_hbox.addWidget(self.template_fields_edit)
+
+        template_fields_en_hbox = QHBoxLayout()
+        template_fields_en_hbox.addWidget(template_fields_en_text)
+        template_fields_en_hbox.addWidget(self.template_fields_en_edit)
+
+        self.input_btn = QPushButton("输入以上字段")
+        self.input_btn.clicked.connect(self.analysis_input)
+        input_btn_hbox = QHBoxLayout()
+        input_btn_hbox.addWidget(self.input_btn)
+
+        # 分析字段并返回给用户
+        analysis_result_text = QLabel("字段分析结果")
+        self.analysis_result = QTextEdit()
+        analysis_result_hbox = QHBoxLayout()
+        analysis_result_hbox.addWidget(analysis_result_text)
+        analysis_result_hbox.addWidget(self.analysis_result)
+
+        # 字段确认，进入模板构造阶段
+        self.build_template_btn = QPushButton("模板构造")
+        self.build_template_btn.clicked.connect(self.build_template)
+        build_template_btn_hbox = QHBoxLayout()
+        build_template_btn_hbox.addWidget(self.build_template_btn)
+
+        # 构造模板显示
+        template_build_result_text = QLabel("构造模板")
+        self.template_build_result_edit = QTextEdit()
+        template_build_result_hbox = QHBoxLayout()
+        template_build_result_hbox.addWidget(template_build_result_text)
+        template_build_result_hbox.addWidget(self.template_build_result_edit)
+
+
+        main_vbox = QVBoxLayout()
+        main_vbox.addLayout(tips_hbox)
+        main_vbox.addLayout(template_fields_hbox)
+        main_vbox.addLayout(template_fields_en_hbox)
+        main_vbox.addLayout(input_btn_hbox)
+        main_vbox.addLayout(analysis_result_hbox)
+        main_vbox.addLayout(build_template_btn_hbox)
+        main_vbox.addLayout(template_build_result_hbox)
+        self.setLayout(main_vbox)
+
+    # 确认用户输入字段，返回分析结果
+    def analysis_input(self):
+        fields = self.template_fields_edit.text()
+        fields_en = self.template_fields_en_edit.text()
+        fields_list = fields.split(" ")
+        fields_en_list = fields_en.split(" ")
+        self.analysis_result.clear()
+        for field, field_en in zip(fields_list, fields_en_list):
+            self.analysis_result.append(field+"---"+field_en)
+        self.analysis_result.append("请确认以上字段对应关系，确认无误后点击模板构造按钮")
+
+    # 构造模板
+    def build_template(self):
+        fields = self.template_fields_edit.text()
+        fields_en = self.template_fields_en_edit.text()
+        fields_list = fields.split(" ")
+        fields_en_list = fields_en.split(" ")
+        self.template_build_result_edit.append("构造的模板句式如下：")
 
 
 if __name__ == "__main__":
