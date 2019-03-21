@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : QASystem.py
 @Author: SangYu
 @Date  : 2018/12/28 13:42
 @Desc  : 问答系统界面
-'''
+"""
 import sys
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction,
                              QLabel, QLineEdit, QWidget, QTextEdit, QComboBox, QHBoxLayout, QVBoxLayout,
@@ -12,28 +12,31 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction,
 from PyQt5.QtGui import QIcon
 
 from LTP.LTPInterface import ltp_segmentor, ltp_postagger, ltp_name_entity_recognizer
-from InformationGet.MysqlOperation import connect_mysql_with_db,mysql_query_sentence
+from InformationGet.MysqlOperation import mysql_query_sentence
 from pypinyin import lazy_pinyin
 
-from QuestionAnalysis.QuestionPretreatment import question_segment_hanlp, question_analysis_to_keyword, question_keyword_normalize
+from QuestionAnalysis.QuestionPretreatment import question_segment_hanlp, question_analysis_to_keyword, \
+    question_keyword_normalize
 from QuestionQuery.MysqlQuery import mysql_table_query
-from TemplateLoad.QuestionTemplate import load_template_by_file
+from TemplateLoad.QuestionTemplate import load_template_by_file, build_template_by_infos
 from FileRead.FileNameRead import read_all_file_list
-
-from InformationGet import MysqlOperation
 
 LTP_DATA_DIR = "../LTP/ltp_data"
 
 
 # 主界面
+# noinspection PyArgumentList,PyCallByClass
 class QASystemMainWindow(QMainWindow):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.main_wid = None
+        self.mysql_wid = None
+        self.template_wid = None
+        self.init_ui()
 
     # GUI创建
-    def initUI(self):
+    def init_ui(self):
         # 创建菜单栏
         self.create_menu()
         # 创建工具栏
@@ -42,8 +45,8 @@ class QASystemMainWindow(QMainWindow):
         self.statusBar()
 
         # 问答组件
-        self.nowwid = QA_widgets()
-        self.setCentralWidget(self.nowwid)
+        self.main_wid = QAWidgets()
+        self.setCentralWidget(self.main_wid)
 
         # 窗口信息设置
         self.setGeometry(300, 300, 800, 800)
@@ -59,13 +62,13 @@ class QASystemMainWindow(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-    # 创建菜单
+    # 创建菜单栏
     def create_menu(self):
         menu_bar = self.menuBar()
         file_menu = menu_bar.addMenu('File')
         exit_menu = menu_bar.addMenu('Exit')
 
-        # 查看数据库
+        # 查看数据库表
         mysql_act = QAction(QIcon('images/mysql.png'), 'MySQL', self)
         mysql_act.setShortcut('Ctrl+M')
         mysql_act.setStatusTip('MySQL Database')
@@ -89,21 +92,23 @@ class QASystemMainWindow(QMainWindow):
 
     # 创建工具栏
     def create_tool(self):
-        exitAct = QAction(QIcon('images/quit.png'), 'Exit', self)
-        exitAct.setShortcut('Ctrl+Q')
-        exitAct.setStatusTip('Exit application')
-        exitAct.triggered.connect(self.close)
+        exit_act = QAction(QIcon('images/quit.png'), 'Exit', self)
+        exit_act.setShortcut('Ctrl+Q')
+        exit_act.setStatusTip('Exit application')
+        exit_act.triggered.connect(self.close)
 
         toolbar = self.addToolBar('Exit')
-        toolbar.addAction(exitAct)
+        toolbar.addAction(exit_act)
 
+    # 跳转到数据库查询界面
     def turn_page_mysql(self):
-        self.MySQL_wid = MySQL_widgets()
-        self.MySQL_wid.show()
+        self.mysql_wid = MySQLWidgets()
+        self.mysql_wid.show()
 
+    # 跳转到模板查看界面
     def turn_page_template(self):
-        self.Template_wid = Template_check_widgets()
-        self.Template_wid.show()
+        self.template_wid = TemplateCheckWidgets()
+        self.template_wid.show()
 
     # 关闭窗口事件
     def closeEvent(self, event):
@@ -116,20 +121,29 @@ class QASystemMainWindow(QMainWindow):
 
 
 # QA部分控件
-class QA_widgets(QWidget):
+# noinspection PyArgumentList,PyUnresolvedReferences
+class QAWidgets(QWidget):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.ltp_result_dict = None
+        self.clear_btn = None
+        self.seg_btn = None
+        self.pos_btn = None
+        self.ner_btn = None
+        self.qa_btn = None
+        self.question_edit = None
+        self.answer_edit = None
+        self.init_ui()
 
     # GUI创建
-    def initUI(self):
+    def init_ui(self):
         # 保存ltp处理结果
         self.ltp_result_dict = {}
-        self.create_QA_widgets()
+        self.create_qa_widgets()
 
     # 创建问答控件
-    def create_QA_widgets(self):
+    def create_qa_widgets(self):
         question = QLabel('Question')
         answer = QLabel('Answer')
 
@@ -155,12 +169,10 @@ class QA_widgets(QWidget):
         # 布局方式
         question_hbox = QHBoxLayout()
         question_hbox.addWidget(question)
-        # question_hbox.addStretch(1)
         question_hbox.addWidget(self.question_edit)
 
         answer_hbox = QHBoxLayout()
         answer_hbox.addWidget(answer)
-        # answer_hbox.addStretch(1)
         answer_hbox.addWidget(self.answer_edit)
 
         button_box = QHBoxLayout()
@@ -172,23 +184,15 @@ class QA_widgets(QWidget):
         button_box.addWidget(self.qa_btn)
 
         vbox = QVBoxLayout()
-        # vbox.addStretch(1)
         vbox.addLayout(question_hbox)
-        # vbox.addStretch(1)
         vbox.addLayout(answer_hbox)
-        # vbox.addStretch(1)
         vbox.addLayout(button_box)
-        # vbox.addStretch(1)
 
         self.setLayout(vbox)
 
     # ltp操作（分词、词性标注、命名实体识别）
     def ltp_op(self, pressed):
         source = self.sender()
-        if pressed:
-            flag = True
-        else:
-            flag = False
         sentence = self.question_edit.text()
         words = ltp_segmentor(LTP_DATA_DIR, sentence)
         postags = ltp_postagger(LTP_DATA_DIR, words)
@@ -270,15 +274,30 @@ class QA_widgets(QWidget):
 
 
 # MySQL表查看类
-class MySQL_widgets(QWidget):
+# noinspection PyArgumentList,PyUnresolvedReferences
+class MySQLWidgets(QWidget):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.table_combo = None
+        self.school_combo = None
+        self.district_combo = None
+        self.year_combo = None
+        self.major_combo = None
+        self.batch_combo = None
+        self.classy_combo = None
+        self.SQL_edit = None
+        self.result_edit = None
+        self.query_btn = None
+        self.query_table_name = None
+        self.query_school_name = None
+        self.query_district_name = None
+        self.query_year_name = None
+        self.init_ui()
 
     # GUI创建
-    def initUI(self):
-        self.create_MySQL_widgets()
+    def init_ui(self):
+        self.create_mysql_widgets()
         # 窗口信息设置
         self.setGeometry(200, 200, 500, 800)
         self.setWindowTitle("MySQL数据表查询")
@@ -286,7 +305,7 @@ class MySQL_widgets(QWidget):
         self.show()
 
     # 创建MySQL查询控件
-    def create_MySQL_widgets(self):
+    def create_mysql_widgets(self):
         table = QLabel("表类型")
         school = QLabel("学校")
         province = QLabel("地区")
@@ -301,32 +320,16 @@ class MySQL_widgets(QWidget):
         self.table_combo.activated[str].connect(self.table_combo_activated)
 
         self.school_combo = QComboBox()
-        self.school_names = ["北京大学", "北京大学医学部", "清华大学", "复旦大学", "上海交通大学", "浙江大学",
-                             "南京大学", "中国科学技术大学", "哈尔滨工业大学", "西安交通大学"]
-        self.school_combo.addItems(self.school_names)
         self.school_combo.activated[str].connect(self.school_combo_activated)
 
         self.district_combo = QComboBox()
-        self.district_names = ["北京", "天津"]
-        self.district_combo.addItems(self.district_names)
         self.district_combo.activated[str].connect(self.district_combo_activated)
 
         self.year_combo = QComboBox()
-        self.year_names = ["2018", "2017"]
-        self.year_combo.addItems(self.year_names)
         self.year_combo.activated[str].connect(self.year_combo_activated)
-
         self.major_combo = QComboBox()
-        self.major_names = ["计算机", "航天"]
-        self.major_combo.addItems(self.major_names)
-
         self.batch_combo = QComboBox()
-        self.batch_names = ["一批", "国家专项"]
-        self.batch_combo.addItems(self.batch_names)
-
         self.classy_combo = QComboBox()
-        self.classy_names = ["文史", "理工"]
-        self.classy_combo.addItems(self.classy_names)
 
         select_hbox = QHBoxLayout()
         select_hbox.addWidget(table)
@@ -344,11 +347,11 @@ class MySQL_widgets(QWidget):
         select_hbox.addWidget(classy)
         select_hbox.addWidget(self.classy_combo)
 
-        SQL = QLabel("SQL语句")
+        sql = QLabel("SQL语句")
         self.SQL_edit = QLineEdit()
-        SQL_hbox = QHBoxLayout()
-        SQL_hbox.addWidget(SQL)
-        SQL_hbox.addWidget(self.SQL_edit)
+        sql_hbox = QHBoxLayout()
+        sql_hbox.addWidget(sql)
+        sql_hbox.addWidget(self.SQL_edit)
 
         result = QLabel("查询结果")
         self.result_edit = QTextEdit()
@@ -364,7 +367,7 @@ class MySQL_widgets(QWidget):
 
         main_vbox = QVBoxLayout()
         main_vbox.addLayout(select_hbox)
-        main_vbox.addLayout(SQL_hbox)
+        main_vbox.addLayout(sql_hbox)
         main_vbox.addLayout(result_hbox)
         main_vbox.addLayout(btn_hbox)
         self.setLayout(main_vbox)
@@ -404,11 +407,11 @@ class MySQL_widgets(QWidget):
         temp = []
         for item in myresult:
             temp.append(item[0])
-        self.school_names = temp
+        school_names = temp
         # 重新设置school_combo
         self.school_combo.clear()
-        self.school_names = sorted(self.school_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
-        self.school_combo.addItems(self.school_names)
+        school_names = sorted(school_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
+        self.school_combo.addItems(school_names)
 
     # school_combo发生改变
     def school_combo_activated(self, text):
@@ -420,11 +423,11 @@ class MySQL_widgets(QWidget):
         temp = []
         for item in myresult:
             temp.append(item[0])
-        self.district_names = temp
+        district_names = temp
         # 重新设置major_combo
         self.district_combo.clear()
-        self.district_names = sorted(self.district_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
-        self.district_combo.addItems(self.district_names)
+        district_names = sorted(district_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
+        self.district_combo.addItems(district_names)
 
     # district_combo发生改变
     def district_combo_activated(self, text):
@@ -436,11 +439,11 @@ class MySQL_widgets(QWidget):
         temp = []
         for item in myresult:
             temp.append(str(item[0]))
-        self.year_names = temp
+        year_names = temp
         # 重新设置year_combo
         self.year_combo.clear()
-        self.year_names.sort()
-        self.year_combo.addItems(self.year_names)
+        year_names.sort()
+        self.year_combo.addItems(year_names)
 
     # year_combo发生改变
     def year_combo_activated(self, text):
@@ -458,11 +461,11 @@ class MySQL_widgets(QWidget):
             temp = []
             for item in myresult:
                 temp.append(item[0])
-            self.major_names = temp
+            major_names = temp
             # 重新设置major_combo
             self.major_combo.clear()
-            self.major_names = sorted(self.major_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
-            self.major_combo.addItems(self.major_names)
+            major_names = sorted(major_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
+            self.major_combo.addItems(major_names)
 
         # 查询并设置batch批次
         if self.query_table_name == "admission_score_pro":
@@ -473,11 +476,11 @@ class MySQL_widgets(QWidget):
             temp = []
             for item in myresult:
                 temp.append(item[0])
-            self.batch_names = temp
+            batch_names = temp
             # 重新设置classy_combo
             self.batch_combo.clear()
-            self.batch_names = sorted(self.batch_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
-            self.batch_combo.addItems(self.batch_names)
+            batch_names = sorted(batch_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
+            self.batch_combo.addItems(batch_names)
         else:
             self.batch_combo.clear()
             self.batch_combo.addItem("无此项数据")
@@ -490,23 +493,30 @@ class MySQL_widgets(QWidget):
         temp = []
         for item in myresult:
             temp.append(item[0])
-        self.classy_names = temp
+        classy_names = temp
         # 重新设置classy_combo
         self.classy_combo.clear()
-        self.classy_names = sorted(self.classy_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
-        self.classy_combo.addItems(self.classy_names)
+        classy_names = sorted(classy_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
+        self.classy_combo.addItems(classy_names)
 
 
 # Template查看与创建控件
-class Template_check_widgets(QWidget):
+# noinspection PyArgumentList,PyUnresolvedReferences
+class TemplateCheckWidgets(QWidget):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.query_current_template_btn = None
+        self.template_combo = None
+        self.template_fields_edit = None
+        self.template_sentence_edit = None
+        self.build_template_btn = None
+        self.template_build_wid = None
+        self.init_ui()
 
     # GUI创建
-    def initUI(self):
-        self.create_Template_check_widgets()
+    def init_ui(self):
+        self.create_template_check_widgets()
         # 窗口信息设置
         self.setGeometry(200, 200, 1000, 800)
         self.setWindowTitle("模板查看")
@@ -514,33 +524,27 @@ class Template_check_widgets(QWidget):
         self.show()
 
     # 创建模板查看与创建控件
-    def create_Template_check_widgets(self):
+    def create_template_check_widgets(self):
         # 当前模板查看（查询按钮+模板显示下拉框、横向布局）
-        self.query_btn = QPushButton("查看当前模板")
-        self.query_btn.clicked.connect(self.template_query)
+        self.query_current_template_btn = QPushButton("查看当前模板")
+        self.query_current_template_btn.clicked.connect(self.template_query)
 
         current_template_text = QLabel("当前模板")
         self.template_combo = QComboBox()
         self.template_combo.activated[str].connect(self.template_combo_activated)
 
         select_hbox = QHBoxLayout()
-        select_hbox.addWidget(self.query_btn)
+        select_hbox.addWidget(self.query_current_template_btn)
         select_hbox.addWidget(current_template_text)
         select_hbox.addWidget(self.template_combo)
 
-        # 模板字段部分（中英、纵向布局）
+        # 模板字段部分
         template_fields_text = QLabel("模板字段")
-        template_fields_en_text = QLabel("英文对照")
-        self.template_fields_edit = QLineEdit()
-        self.template_fields_en_edit = QLineEdit()
+        self.template_fields_edit = QTextEdit()
 
         template_fields_hbox = QHBoxLayout()
         template_fields_hbox.addWidget(template_fields_text)
         template_fields_hbox.addWidget(self.template_fields_edit)
-
-        template_fields_en_hbox = QHBoxLayout()
-        template_fields_en_hbox.addWidget(template_fields_en_text)
-        template_fields_en_hbox.addWidget(self.template_fields_en_edit)
 
         # 模板句式部分
         template_sentence_text = QLabel("模板句式")
@@ -551,17 +555,16 @@ class Template_check_widgets(QWidget):
         template_sentence_hbox.addWidget(self.template_sentence_edit)
 
         # 创建模板
-        self.build_btn = QPushButton("创建模板")
-        self.build_btn.clicked.connect(self.turn_page_template_build)
-        create_hbox = QHBoxLayout()
-        create_hbox.addWidget(self.build_btn)
+        self.build_template_btn = QPushButton("创建模板")
+        self.build_template_btn.clicked.connect(self.turn_page_template_build)
+        template_build_hbox = QHBoxLayout()
+        template_build_hbox.addWidget(self.build_template_btn)
 
         main_vbox = QVBoxLayout()
         main_vbox.addLayout(select_hbox)
         main_vbox.addLayout(template_fields_hbox)
-        main_vbox.addLayout(template_fields_en_hbox)
         main_vbox.addLayout(template_sentence_hbox)
-        main_vbox.addLayout(create_hbox)
+        main_vbox.addLayout(template_build_hbox)
         self.setLayout(main_vbox)
 
     # 查看当前模板
@@ -574,29 +577,47 @@ class Template_check_widgets(QWidget):
     # 当点击某个模板时
     def template_combo_activated(self, text):
         template_path = "../TemplateLoad/Template"
-        fields, fields_en, template_sentence = load_template_by_file(template_path+"/"+text)
-        self.template_fields_edit.setText(str(fields))
-        self.template_fields_en_edit.setText(str(fields_en))
+        fq_condition, fq_target, ts_answers, ts_questions = load_template_by_file(template_path + "/" + text)
+        self.template_fields_edit.clear()
+        self.template_fields_edit.append("问句条件词：")
+        self.template_fields_edit.append(str(fq_condition))
+        self.template_fields_edit.append("问句目标词：")
+        for word in fq_target:
+            self.template_fields_edit.append(word)
+
         self.template_sentence_edit.clear()
-        for sentence in template_sentence:
-            self.template_sentence_edit.append(str(sentence))
+        self.template_sentence_edit.append("答句模板：")
+        for sentence in ts_answers:
+            self.template_sentence_edit.append(sentence)
+        self.template_sentence_edit.append("问句模板：")
+        for sentence in ts_questions:
+            self.template_sentence_edit.append(sentence)
 
     # 跳转到模板创造页面
     def turn_page_template_build(self):
-        self.Template_build_wid = Template_build_widgets()
-        self.Template_build_wid.show()
+        self.template_build_wid = TemplateBuildWidgets()
+        self.template_build_wid.show()
 
 
 # Template创建控件
-class Template_build_widgets(QWidget):
+# noinspection PyArgumentList
+class TemplateBuildWidgets(QWidget):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.template_name_edit = None
+        self.fq_condition_edit = None
+        self.fq_target_edit = None
+        self.template_sentence_edit = None
+        self.input_btn = None
+        self.analysis_result = None
+        self.build_template_btn = None
+        self.template_build_result_edit = None
+        self.init_ui()
 
     # GUI创建
-    def initUI(self):
-        self.create_Template_build_widgets()
+    def init_ui(self):
+        self.create_template_build_widgets()
         # 窗口信息设置
         self.setGeometry(200, 200, 1000, 800)
         self.setWindowTitle("模板创建")
@@ -604,27 +625,52 @@ class Template_build_widgets(QWidget):
         self.show()
 
     # 创建模板查看与创建控件
-    def create_Template_build_widgets(self):
-        # 输入模板字段部分（中英、纵向布局）
-        tips_text = QLabel("请在以下文本框中分别输入模板中英文字段（以空格隔开每个字段）、")
-        tips_hbox = QHBoxLayout()
-        tips_hbox.addWidget(tips_text)
-        template_fields_text = QLabel("模板字段")
-        template_fields_en_text = QLabel("英文对照")
-        template_sentence_end_text = QLabel("模板句尾")
-        self.template_fields_edit = QLineEdit()
-        self.template_fields_en_edit = QLineEdit()
-        self.template_sentence_end_edit = QTextEdit()
+    def create_template_build_widgets(self):
+        # 输入模板名
+        tip_name_text = QLabel("请在以下文本框中输入模板名")
+        tip_name_hbox = QHBoxLayout()
+        tip_name_hbox.addWidget(tip_name_text)
+        template_name_text = QLabel("模板名")
+        self.template_name_edit = QLineEdit()
+        template_name_hbox = QHBoxLayout()
+        template_name_hbox.addWidget(template_name_text)
+        template_name_hbox.addWidget(self.template_name_edit)
 
-        template_fields_hbox = QHBoxLayout()
-        template_fields_hbox.addWidget(template_fields_text)
-        template_fields_hbox.addWidget(self.template_fields_edit)
+        # 输入问句条件词
+        tip_fq_condition_text = QLabel("输入问句条件词（英文名称在前且唯一，后面可跟多个中文解释）如：\n"
+                                       "school 学校 高校")
+        tip_fq_condition_hbox = QHBoxLayout()
+        tip_fq_condition_hbox.addWidget(tip_fq_condition_text)
+        fq_condition_text = QLabel("问句条件词")
+        self.fq_condition_edit = QTextEdit()
+        fq_condition_hbox = QHBoxLayout()
+        fq_condition_hbox.addWidget(fq_condition_text)
+        fq_condition_hbox.addWidget(self.fq_condition_edit)
 
-        template_fields_en_hbox = QHBoxLayout()
-        template_fields_en_hbox.addWidget(template_fields_en_text)
-        template_fields_en_hbox.addWidget(self.template_fields_en_edit)
+        # 输入问句目标词
+        tip_fq_target_text = QLabel("输入问句目标词（英文名称在前且唯一，后面可跟多个中文解释）如：\n"
+                                    "numbers 招生人数 招生计划 招多少人 招生计划是多少 招生人数是多少")
+        tip_fq_target_hbox = QHBoxLayout()
+        tip_fq_target_hbox.addWidget(tip_fq_target_text)
+        fq_target_text = QLabel("问句目标词")
+        self.fq_target_edit = QTextEdit()
+        fq_target_hbox = QHBoxLayout()
+        fq_target_hbox.addWidget(fq_target_text)
+        fq_target_hbox.addWidget(self.fq_target_edit)
 
-        self.input_btn = QPushButton("输入以上字段")
+        # 输入问句模板及对应的答句模板
+        tip_template_sentence_text = QLabel("每行输入完整的模板句示例及对应的答案句模板，如：\n"
+                                            "(school)(year)(major)(district)(classy)(numbers)\n"
+                                            "(school)(year)(major)(district)(classy)招收(numbers)人")
+        tip_template_sentence_hbox = QHBoxLayout()
+        tip_template_sentence_hbox.addWidget(tip_template_sentence_text)
+        template_sentence_text = QLabel("模板字段")
+        self.template_sentence_edit = QTextEdit()
+        template_sentence_hbox = QHBoxLayout()
+        template_sentence_hbox.addWidget(template_sentence_text)
+        template_sentence_hbox.addWidget(self.template_sentence_edit)
+
+        self.input_btn = QPushButton("输入以上信息")
         self.input_btn.clicked.connect(self.analysis_input)
         input_btn_hbox = QHBoxLayout()
         input_btn_hbox.addWidget(self.input_btn)
@@ -649,11 +695,15 @@ class Template_build_widgets(QWidget):
         template_build_result_hbox.addWidget(template_build_result_text)
         template_build_result_hbox.addWidget(self.template_build_result_edit)
 
-
         main_vbox = QVBoxLayout()
-        main_vbox.addLayout(tips_hbox)
-        main_vbox.addLayout(template_fields_hbox)
-        main_vbox.addLayout(template_fields_en_hbox)
+        main_vbox.addLayout(tip_name_hbox)
+        main_vbox.addLayout(template_name_hbox)
+        main_vbox.addLayout(tip_fq_condition_hbox)
+        main_vbox.addLayout(fq_condition_hbox)
+        main_vbox.addLayout(tip_fq_target_hbox)
+        main_vbox.addLayout(fq_target_hbox)
+        main_vbox.addLayout(tip_template_sentence_hbox)
+        main_vbox.addLayout(template_sentence_hbox)
         main_vbox.addLayout(input_btn_hbox)
         main_vbox.addLayout(analysis_result_hbox)
         main_vbox.addLayout(build_template_btn_hbox)
@@ -662,22 +712,52 @@ class Template_build_widgets(QWidget):
 
     # 确认用户输入字段，返回分析结果
     def analysis_input(self):
-        fields = self.template_fields_edit.text()
-        fields_en = self.template_fields_en_edit.text()
-        fields_list = fields.split(" ")
-        fields_en_list = fields_en.split(" ")
+        name = self.template_name_edit.text()
+        fq_condition = self.fq_condition_edit.toPlainText().strip()
+        fq_target = self.fq_target_edit.toPlainText().strip()
+        template_sentence = self.template_sentence_edit.toPlainText().strip()
+        fq_condition_list = fq_condition.split("\n")
+        fq_target_list = fq_target.split("\n")
+        template_sentence_list = template_sentence.split("\n")
         self.analysis_result.clear()
-        for field, field_en in zip(fields_list, fields_en_list):
-            self.analysis_result.append(field+"---"+field_en)
-        self.analysis_result.append("请确认以上字段对应关系，确认无误后点击模板构造按钮")
+        self.analysis_result.append("模板名:" + name)
+        self.analysis_result.append("问句条件词：")
+        for fqc in fq_condition_list:
+            self.analysis_result.append(fqc)
+        self.analysis_result.append("问句目标词：")
+        for fqt in fq_target_list:
+            self.analysis_result.append(fqt)
+        self.analysis_result.append("答句模板：")
+        for sentence in template_sentence_list:
+            self.analysis_result.append(sentence)
+        self.analysis_result.append("请确认以上字段对应关系和模板句，确认无误后点击模板构造按钮")
 
     # 构造模板
     def build_template(self):
-        fields = self.template_fields_edit.text()
-        fields_en = self.template_fields_en_edit.text()
-        fields_list = fields.split(" ")
-        fields_en_list = fields_en.split(" ")
+        name = self.template_name_edit.text()
+        fq_condition = self.fq_condition_edit.toPlainText().strip()
+        fq_target = self.fq_target_edit.toPlainText().strip()
+        template_sentence = self.template_sentence_edit.toPlainText().strip()
+        fq_condition_list = fq_condition.split("\n")
+        fq_target_list = fq_target.split("\n")
+        template_sentence_list = template_sentence.split("\n")
+        ts_question = [template_sentence_list[i_question]
+                       for i_question in range(0, len(template_sentence_list), 2)]
+        ts_answer = [template_sentence_list[i_answer]
+                     for i_answer in range(1, len(template_sentence_list), 2)]
+        template_root_path = "../TemplateLoad/Template"
+        build_template_by_infos(template_root_path + "/" + name, fq_condition_list, fq_target_list, ts_question,
+                                ts_answer)
+        self.template_build_result_edit.clear()
         self.template_build_result_edit.append("构造的模板句式如下：")
+        fq_condition, fq_target, ts_answers, ts_questions \
+            = load_template_by_file(template_root_path + "/" + name)
+        self.template_build_result_edit.append("模板答案句如下：")
+        for i_answer in range(len(ts_answers)):
+            self.template_build_result_edit.append(str(i_answer) + "--" + ts_answers[i_answer])
+        self.template_build_result_edit.append("模板问题句如下：")
+        for sentence in ts_questions:
+            self.template_build_result_edit.append(sentence)
 
 
 if __name__ == "__main__":
