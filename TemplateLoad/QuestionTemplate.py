@@ -56,12 +56,12 @@ def load_table_content(file_path: str):
             column_value.add(sheet_first.cell(row=i_row, column=i_column).value)
         table_attr[column_name] = str(list(column_value))
     for key in table_attr:
-        mylogger.debug(key)
+        function_logger.debug(key)
         value_list = [value.replace("'", "").strip() for value in table_attr[key][1:-1].split(",")]
         value_list.sort()
         function_logger.debug("列表长度:%d" % len(value_list))
         function_logger.debug(str(value_list))
-    mylogger.info("加载表格:%s完成!" % file_path.split("\\")[-1])
+    function_logger.info("加载表格:%s完成!" % file_path.split("\\")[-1])
 
 
 # 通过规定字段构造模板
@@ -243,26 +243,45 @@ def build_mysql_answer_string_by_template(template_answer: str, query_table_head
 
 
 # 通过问题模板文件加载问题模板
-def load_template_by_file(file_path):
+def load_template_by_file(file_path: str) -> tuple:
+    """
+    通过问题模板文件加载问题模板
+    :param file_path: 模板路径
+    :return: 问句条件词、问句目标词、模板答句、模板问句集
+    """
     with open(file_path, "r", encoding="utf-8") as t_file:
         lines = t_file.readlines()
-        # 读取模板词（中英文）
-        fields = lines[0].split("\t")[:-1]
-        fields_en = lines[1].split("\t")[:-1]
-        # 答句数
-        sentence_answer_count = int(lines[2].strip())
-        template_sentence_answer = [item.replace("\n", "") for item in lines[3:3+sentence_answer_count]]
-        template_sentence = [item.replace("\n", "") for item in lines[3+sentence_answer_count:]]
-        return fields, fields_en, template_sentence_answer, template_sentence
+        # 读取问句条件词
+        fields_question_condition_count = int(lines[0].strip())
+        fields_question_condition = [fqc.strip() for fqc in lines[1:1 + fields_question_condition_count]]
+        read_index = 1 + fields_question_condition_count
+        # 读取问句目标词
+        fields_question_target_count = int(lines[read_index].strip())
+        fields_question_target = [fqt.strip()
+                                  for fqt in lines[1 + read_index:1 + read_index + fields_question_target_count]]
+        read_index += 1 + fields_question_target_count
+        # 读取答句集
+        template_sentence_answers_count = int(lines[read_index].strip())
+        template_sentence_answers = [tsa.strip()
+                                     for tsa in lines[1 + read_index:1 + read_index + template_sentence_answers_count]]
+        read_index += 1 + template_sentence_answers_count
+        # 读取问句集
+        template_sentence_questions = [tsq.strip() for tsq in lines[read_index:]]
+        return fields_question_condition, fields_question_target, template_sentence_answers, template_sentence_questions
 
 
 if __name__ == '__main__':
-    mylogger= MyLog(logger=__name__).getlog()
-    mylogger.info("start...")
+    main_logger = MyLog(logger=__name__).getlog()
+    main_logger.info("start...")
     # build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？")
     # print(build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？"))
-    # template_path = "Template"
-    # load_template_by_file(template_path + "/admission_plan")
     test_template_path = "Template"
-    build_template_by_fields(test_template_path + "/admission_score_major")
-    mylogger.info("end...")
+    fq_condition, fq_target, ts_answers, ts_questions \
+        = load_template_by_file(test_template_path + "/admission_score_major")
+    print(fq_condition)
+    print(fq_target)
+    print(ts_answers)
+    print(ts_questions)
+    # test_template_path = "Template"
+    # build_template_by_fields(test_template_path + "/admission_score_major")
+    main_logger.info("end...")
