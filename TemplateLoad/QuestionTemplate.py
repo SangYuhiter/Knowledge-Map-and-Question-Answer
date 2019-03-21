@@ -135,7 +135,7 @@ def build_template_by_fields_score_major(template_path: str):
 
 
 # 通过提供的信息构造问题模板
-# noinspection PyProtectedMember
+# noinspection PyProtectedMember,PyShadowingNames
 def build_template_by_infos(template_path: str, fields_question_condition: list, fields_question_target: list,
                             template_sentence_questions: list, template_sentence_answers: list):
     """
@@ -224,12 +224,11 @@ def build_mysql_string_by_template(template_question: str, template_question_typ
 
 
 # 通过模板类型（槽位）构造答句
-def build_mysql_answer_string_by_template(template_answer: str, query_table_head: tuple, query_result_item: tuple)->str:
+def build_mysql_answer_string_by_template(template_answer: str, query_result_item: tuple)->str:
     """
     通过模板类型（槽位）构造mysql答句
     :param template_answer: 模板答句
-    :param query_table_head: 本次查询的表头
-    :param query_result_item: 本次查询结果
+    :param query_result_item: 本次查询结果（带属性键值对）
     :return:
     """
     # 提取槽位
@@ -237,7 +236,7 @@ def build_mysql_answer_string_by_template(template_answer: str, query_table_head
     slots = re.findall(pattern, template_answer)
     answer_string = template_answer
     for slot in slots:
-        answer_key = query_result_item[query_table_head.index(slot[1:-1])+1]
+        answer_key = query_result_item[slot[1:-1]]
         answer_string = answer_string.replace(slot, str(answer_key))
     return answer_string
 
