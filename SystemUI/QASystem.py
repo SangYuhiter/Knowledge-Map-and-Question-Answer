@@ -716,20 +716,32 @@ class TemplateBuildWidgets(QWidget):
         fq_condition = self.fq_condition_edit.toPlainText().strip()
         fq_target = self.fq_target_edit.toPlainText().strip()
         template_sentence = self.template_sentence_edit.toPlainText().strip().replace("（", "(").replace("）", ")")
-        fq_condition_list = fq_condition.split("\n")
-        fq_target_list = fq_target.split("\n")
-        template_sentence_list = template_sentence.split("\n")
         self.analysis_result.clear()
-        self.analysis_result.append("模板名:" + name)
-        self.analysis_result.append("问句条件词：")
-        for fqc in fq_condition_list:
-            self.analysis_result.append(fqc)
-        self.analysis_result.append("问句目标词：")
-        for fqt in fq_target_list:
-            self.analysis_result.append(fqt)
-        self.analysis_result.append("答句模板：")
-        for sentence in template_sentence_list:
-            self.analysis_result.append(sentence)
+        if name == "":
+            self.analysis_result.append("模板名为空！")
+        else:
+            self.analysis_result.append("模板名:" + name)
+        if fq_condition == "":
+            self.analysis_result.append("问句条件词为空！")
+        else:
+            self.analysis_result.append("问句条件词：")
+            fq_condition_list = fq_condition.split("\n")
+            for fqc in fq_condition_list:
+                self.analysis_result.append(fqc)
+        if fq_target == "":
+            self.analysis_result.append("问句目标词为空！")
+        else:
+            self.analysis_result.append("问句目标词：")
+            fq_target_list = fq_target.split("\n")
+            for fqt in fq_target_list:
+                self.analysis_result.append(fqt)
+        if template_sentence == "":
+            self.analysis_result.append("答句模板为空！")
+        else:
+            self.analysis_result.append("答句模板：")
+            template_sentence_list = template_sentence.split("\n")
+            for sentence in template_sentence_list:
+                self.analysis_result.append(sentence)
         self.analysis_result.append("请确认以上字段对应关系和模板句，确认无误后点击模板构造按钮")
 
     # 构造模板
@@ -738,26 +750,40 @@ class TemplateBuildWidgets(QWidget):
         fq_condition = self.fq_condition_edit.toPlainText().strip()
         fq_target = self.fq_target_edit.toPlainText().strip()
         template_sentence = self.template_sentence_edit.toPlainText().strip().replace("（", "(").replace("）", ")")
-        fq_condition_list = fq_condition.split("\n")
-        fq_target_list = fq_target.split("\n")
-        template_sentence_list = template_sentence.split("\n")
-        ts_question = [template_sentence_list[i_question]
-                       for i_question in range(0, len(template_sentence_list), 2)]
-        ts_answer = [template_sentence_list[i_answer]
-                     for i_answer in range(1, len(template_sentence_list), 2)]
-        template_root_path = "../TemplateLoad/Template"
-        build_template_by_infos(template_root_path + "/" + name, fq_condition_list, fq_target_list, ts_question,
-                                ts_answer)
+
         self.template_build_result_edit.clear()
-        self.template_build_result_edit.append("构造的模板句式如下：")
-        fq_condition, fq_target, ts_answers, ts_questions \
-            = load_template_by_file(template_root_path + "/" + name)
-        self.template_build_result_edit.append("模板答案句如下：")
-        for i_answer in range(len(ts_answers)):
-            self.template_build_result_edit.append(str(i_answer) + "--" + ts_answers[i_answer])
-        self.template_build_result_edit.append("模板问题句如下：")
-        for sentence in ts_questions:
-            self.template_build_result_edit.append(sentence)
+        if name == "":
+            self.template_build_result_edit.append("模板名为空！")
+        elif fq_condition == "":
+            self.template_build_result_edit.append("问句条件词为空！")
+        elif fq_target == "":
+            self.template_build_result_edit.append("问句目标词为空！")
+        elif template_sentence == "":
+            self.template_build_result_edit.append("答句模板为空！")
+        if name == "" or fq_condition == "" or fq_target == "" or template_sentence == "":
+            self.template_build_result_edit.append("请填充以上为空的模块后再构造模板！")
+
+        if name != "" and fq_condition != "" and fq_target != "" and template_sentence != "":
+            fq_condition_list = fq_condition.split("\n")
+            fq_target_list = fq_target.split("\n")
+            template_sentence_list = template_sentence.split("\n")
+            ts_question = [template_sentence_list[i_question]
+                           for i_question in range(0, len(template_sentence_list), 2)]
+            ts_answer = [template_sentence_list[i_answer]
+                         for i_answer in range(1, len(template_sentence_list), 2)]
+            template_root_path = "../TemplateLoad/Template"
+            build_template_by_infos(template_root_path + "/" + name, fq_condition_list, fq_target_list, ts_question,
+                                    ts_answer)
+            self.template_build_result_edit.clear()
+            self.template_build_result_edit.append("构造的模板句式如下：")
+            fq_condition, fq_target, ts_answers, ts_questions \
+                = load_template_by_file(template_root_path + "/" + name)
+            self.template_build_result_edit.append("模板答案句如下：")
+            for i_answer in range(len(ts_answers)):
+                self.template_build_result_edit.append(str(i_answer) + "--" + ts_answers[i_answer])
+            self.template_build_result_edit.append("模板问题句如下：")
+            for sentence in ts_questions:
+                self.template_build_result_edit.append(sentence)
 
 
 if __name__ == "__main__":
