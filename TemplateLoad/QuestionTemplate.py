@@ -72,99 +72,118 @@ def build_template_by_fields(template_file):
 
 
 # 构造招生计划问题模板
-def build_template_by_fields_plan(template_file):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始构造%s的问题模板..." % template_file.split("/")[-1])
-    fields = ["学校", "年份", "专业", "省份", "类别", "人数"]
-    fields_en = ["school", "year", "major", "district", "classy", "numbers"]
-    template_sentence_ends = ["招生计划？", "招生计划是多少？", "招多少人？", "招生人数？", "招生人数是多少？"]
-    with open(template_file, "w", encoding="utf-8") as t_file:
-        for field in fields:
-            t_file.write(field + "\t")
-        t_file.write("\n")
-        for field_en in fields_en:
-            t_file.write(field_en + "\t")
-        t_file.write("\n")
-        fields_en_subset = get_subset_binary(fields_en[:-1])
-        for subset in fields_en_subset:
-            if not subset:
-                continue
-            else:
-                template_sentence = ""
-                for field_en in subset:
-                    if field_en == "district":
-                        template_sentence += "在" + "(" + field_en + ")"
-                    elif field_en == "classy":
-                        template_sentence += "(" + field_en + ")" + "类考生"
-                    else:
-                        template_sentence += "(" + field_en + ")"
-                for end in template_sentence_ends:
-                    t_file.write(template_sentence + end + "\n")
-    mylogger.info("%s的问题模板构建完成!" % template_file.split("/")[-1])
+# noinspection PyProtectedMember
+def build_template_by_fields_plan(template_path: str):
+    """
+    构造招生计划问题模板
+    :param template_path: 模板路径
+    :return:
+    """
+    fields_question_condition = ["school 学校", "year 年份", "major 专业", "district 省份", "classy 类别"]
+    fields_question_target = ["numbers 招生人数 招生计划 招多少人 招生计划是多少 招生人数是多少"]
+    template_sentence_questions = ["(school)(year)(major)(district)(classy)(numbers)"]
+    template_sentence_answers = ["(school)(year)(major)(district)招收(classy)(numbers)人"]
+    build_template_by_infos(template_path, fields_question_condition, fields_question_target,
+                            template_sentence_questions, template_sentence_answers)
 
 
 # 构造录取分数分省问题模板
-def build_template_by_fields_score_pro(template_file):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始构造%s的问题模板..." % template_file.split("/")[-1])
-    fields = ["学校", "年份", "省份", "批次", "类别", "分数线"]
-    fields_en = ["school", "year", "district", "batch", "classy", "line"]
-    template_sentence_ends = ["录取分数？", "录取分数是多少？", "多少分？", "分数线？", "分数线是多少？"]
-    with open(template_file, "w", encoding="utf-8") as t_file:
-        for field in fields:
-            t_file.write(field + "\t")
-        t_file.write("\n")
-        for field_en in fields_en:
-            t_file.write(field_en + "\t")
-        t_file.write("\n")
-        fields_en_subset = get_subset_binary(fields_en[:-1])
-        for subset in fields_en_subset:
-            if not subset:
-                continue
-            else:
-                template_sentence = ""
-                for field_en in subset:
-                    if field_en == "district":
-                        template_sentence += "在" + "(" + field_en + ")"
-                    elif field_en == "classy":
-                        template_sentence += "(" + field_en + ")" + "类考生"
-                    else:
-                        template_sentence += "(" + field_en + ")"
-                for end in template_sentence_ends:
-                    t_file.write(template_sentence + end + "\n")
-    mylogger.info("%s的问题模板构建完成!" % template_file.split("/")[-1])
+def build_template_by_fields_score_pro(template_path: str):
+    """
+    构造录取分数分省问题模板
+    :param template_path: 模板路径
+    :return:
+    """
+    fields_question_condition = ["school 学校", "year 年份", "district 省份 地区", "batch 批次", "classy 类别"]
+    fields_question_target = ["line 分数线 录取分数 多少分 录取分数是多少 分数线是多少"]
+    template_sentence_questions = ["(school)(year)(district)(batch)(classy)(line)"]
+    template_sentence_answers = ["(school)(year)(district)(batch)(classy)录取分数是(line)"]
+    build_template_by_infos(template_path, fields_question_condition, fields_question_target,
+                            template_sentence_questions, template_sentence_answers)
 
 
 # 构造录取分数分专业问题模板
-def build_template_by_fields_score_major(template_file):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始构造%s的问题模板..." % template_file.split("/")[-1])
-    fields = ["学校", "年份", "专业", "省份", "类别", "最高分", "平均分", "最低分", "人数"]
-    fields_en = ["school", "year", "major", "district", "classy", "higest", "average", "lowest", "numbers"]
-    template_sentence_ends = ["最高分？", "最高分是多少？", "平均分？", "平均分是多少？", "最低分？", "最低分是多少？", "录取人数是多少？"]
-    with open(template_file, "w", encoding="utf-8") as t_file:
-        for field in fields:
-            t_file.write(field + "\t")
-        t_file.write("\n")
-        for field_en in fields_en:
-            t_file.write(field_en + "\t")
-        t_file.write("\n")
-        fields_en_subset = get_subset_binary(fields_en[:-4])
-        for subset in fields_en_subset:
-            if not subset:
-                continue
-            else:
-                template_sentence = ""
-                for field_en in subset:
-                    if field_en == "province":
-                        template_sentence += "在" + "(" + field_en + ")"
-                    elif field_en == "classy":
-                        template_sentence += "(" + field_en + ")" + "类考生"
+def build_template_by_fields_score_major(template_path: str):
+    """
+
+    :param template_path: 模板路径
+    :return:
+    """
+    fields_question_condition = ["school 学校", "year 年份", "major 专业", "district 省份 地区",  "classy 类别"]
+    fields_question_target = ["highest 最高分 最高分是多少",
+                              "average 平均分 平均分是多少",
+                              "lowest 最低分 最低分是多少 分数线 分数线是多少",
+                              "amount 录取人数 录取多少人"]
+    template_sentence_questions = ["(school)(year)(major)(district)(classy)(highest)",
+                                   "(school)(year)(major)(district)(classy)(average)",
+                                   "(school)(year)(major)(district)(classy)(lowest)",
+                                   "(school)(year)(major)(district)(classy)(amount)"]
+    template_sentence_answers = ["(school)(year)(major)(district)(classy)最高分是(highest)",
+                                 "(school)(year)(major)(district)(classy)平均分是(average)",
+                                 "(school)(year)(major)(district)(classy)最低分是(lowest)",
+                                 "(school)(year)(major)(district)(classy)录取人数是(amount)"]
+    build_template_by_infos(template_path, fields_question_condition, fields_question_target,
+                            template_sentence_questions, template_sentence_answers)
+
+
+# 构造问题模板（提供模板名字段和完整的模板句示例）
+# noinspection PyProtectedMember
+def build_template_by_infos(template_path: str, fields_question_condition: list, fields_question_target: list,
+                            template_sentence_questions: list, template_sentence_answers: list):
+    """
+    通过提供的信息构造问题模板
+    :param template_path: 模板路径
+    :param fields_question_condition: 问句条件词，例["school 学校", "year 年份", "major 专业", "district 省份", "classy 类别"]
+    :param fields_question_target: 问句目标词，例["numbers 招生人数 招生计划 招多少人 招生计划是多少 招生人数是多少"]
+    :param template_sentence_questions: 模板问题句
+    :param template_sentence_answers: 模板答案句
+    :return:
+    """
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger.info("开始构造%s的问题模板..." % template_path.split("\\")[-1])
+    with open(template_path, "w", encoding="utf-8") as t_file:
+        # 写入问句条件词数量、中英文对应字段，并获取英文字段列表，用于构造问句
+        t_file.write(str(len(fields_question_condition)) + "\n")
+        template_fields_en = []
+        for fq_condition in fields_question_condition:
+            template_fields_en.append(fq_condition.split(" ")[0])
+            t_file.write(fq_condition+"\n")
+        # 写入问句目标词数量、中英文对应字段
+        t_file.write(str(len(fields_question_target)) + "\n")
+        for fq_target in fields_question_target:
+            t_file.write(fq_target+"\n")
+        # 写入模板答句
+        t_file.write(str(len(template_sentence_answers)) + "\n")
+        for ts_answer in template_sentence_answers:
+            t_file.write(ts_answer + "\n")
+        # 利用问句条件词英文字段构造子集，使用替换的方法构造所有全排列的问句
+        fields_en_subset = get_subset_binary(template_fields_en)
+        for i_question in range(len(template_sentence_questions)):
+            # 查询当前问句的问句目标词
+            match_question_target = []
+            for fq_target in fields_question_target:
+                if fq_target.split(" ")[0] in template_sentence_questions[i_question]:
+                    match_question_target = fq_target.split(" ")
+                    break
+            # 对问句目标词中对应的每一个询问方式进行替换
+            target_word = match_question_target[0]
+            for question_mode in match_question_target[1:]:
+                # 对子集中的每一个集合进行替换
+                for subset in fields_en_subset:
+                    sentence = template_sentence_questions[i_question].replace("(" + target_word + ")", question_mode) \
+                               + "--" + str(i_question)
+                    # 子集为空，不缺省参数
+                    if not subset:
+                        t_file.write(sentence + "\n")
+                    # 子集为原集合，不添加
+                    elif len(subset) == len(template_fields_en):
+                        continue
+                    # 子集有缺省，去除子集中的元素后再添加
                     else:
-                        template_sentence += "(" + field_en + ")"
-                for end in template_sentence_ends:
-                    t_file.write(template_sentence + end + "\n")
-    mylogger.info("%s的问题模板构建完成!" % template_file.split("/")[-1])
+                        for field_en in subset:
+                            sentence = sentence.replace("("+field_en+")", "")
+                        t_file.write(sentence + "\n")
+    function_logger.info("%s的问题模板构建完成!" % template_path.split("\\")[-1])
 
 
 # 通过模板类型（槽位）构造MySQL语句
@@ -189,6 +208,18 @@ def build_mysql_string_by_template(template_sentence, template_sentence_type):
     return mysql_string
 
 
+# 通过模板类型（槽位）构造答句
+def build_answer_string_by_template(template_sentence_answer,fields_en,query_result_item):
+    # 提取槽位
+    pattern = re.compile(r"[\(].*?[\)]")
+    slots = re.findall(pattern, template_sentence_answer)
+    answer_string = template_sentence_answer
+    for slot in slots:
+        answer_key = query_result_item[fields_en.index(slot[1:-1])+1]
+        answer_string = answer_string.replace(slot, str(answer_key))
+    return answer_string
+
+
 # 通过问题模板文件加载问题模板
 def load_template_by_file(file_path):
     with open(file_path, "r", encoding="utf-8") as t_file:
@@ -196,16 +227,20 @@ def load_template_by_file(file_path):
         # 读取模板词（中英文）
         fields = lines[0].split("\t")[:-1]
         fields_en = lines[1].split("\t")[:-1]
-        template_sentence = [item.replace("\n", "") for item in lines[2:]]
-        return fields, fields_en, template_sentence
+        # 答句数
+        sentence_answer_count = int(lines[2].strip())
+        template_sentence_answer = [item.replace("\n", "") for item in lines[3:3+sentence_answer_count]]
+        template_sentence = [item.replace("\n", "") for item in lines[3+sentence_answer_count:]]
+        return fields, fields_en, template_sentence_answer, template_sentence
+
 
 if __name__ == '__main__':
-    mylogger = MyLog(logger=__name__).getlog()
+    mylogger= MyLog(logger=__name__).getlog()
     mylogger.info("start...")
     # build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？")
     # print(build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？"))
     # template_path = "Template"
     # load_template_by_file(template_path + "/admission_plan")
-    template_path = "Template"
-    build_template_by_fields(template_path + "/admission_score_major")
+    test_template_path = "Template"
+    build_template_by_fields(test_template_path + "/admission_score_major")
     mylogger.info("end...")
