@@ -1,20 +1,24 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : QuestionTemplate.py
 @Author: SangYu
 @Date  : 2019/3/16 10:27
 @Desc  : 问题模板
-'''
+"""
 from Log.Logger import MyLog
 import sys
-from FileRead.FileNameRead import read_all_file_list
 from openpyxl import load_workbook
 import re
 
 
 # 求列表元素的子集(二进制法)
 # print(get_subset_binary([1, 2, 3]))
-def get_subset_binary(item):
+def get_subset_binary(item: list)->list:
+    """
+    求列表元素的子集(二进制法)
+    :param item: 元素列表
+    :return: 子集的列表
+    """
     n = len(item)
     sub_set = []
     for i in range(2 ** n):
@@ -27,21 +31,23 @@ def get_subset_binary(item):
 
 
 # 通过excel表格加载表格内容
-# file_path = "../InformationGet/Information/哈工大招生办/招办数据0605"
-# file_list = read_all_file_list(file_path)
-# for file in [file_list[0]]:
-#     build_question_template(file)
-def build_question_template(file_path):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+# noinspection PyProtectedMember
+def load_table_content(file_path: str):
+    """
+    通过excel表格加载表格内容
+    :param file_path:
+    :return:
+    """
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     # 加载excel表格
-    mylogger.info("加载表格:%s" % file_path.split("\\")[-1])
+    function_logger.info("加载表格:%s" % file_path.split("\\")[-1])
     wb = load_workbook(file_path)
     sheet_names = wb.sheetnames
     sheet_first = wb.get_sheet_by_name(sheet_names[0])
     table_head = []
     for item in range(1, sheet_first.max_column + 1):
         table_head.append(sheet_first.cell(row=1, column=item).value)
-    mylogger.debug("表头:%s" % str(table_head))
+    function_logger.debug("表头:%s" % str(table_head))
     table_attr = {}
     for i_column in range(1, sheet_first.max_column + 1):
         column_name = sheet_first.cell(row=1, column=i_column).value
@@ -53,26 +59,28 @@ def build_question_template(file_path):
         mylogger.debug(key)
         value_list = [value.replace("'", "").strip() for value in table_attr[key][1:-1].split(",")]
         value_list.sort()
-        mylogger.debug("列表长度:%d" % len(value_list))
-        mylogger.debug(str(value_list))
+        function_logger.debug("列表长度:%d" % len(value_list))
+        function_logger.debug(str(value_list))
     mylogger.info("加载表格:%s完成!" % file_path.split("\\")[-1])
 
 
 # 通过规定字段构造模板
-def build_template_by_fields(template_file):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始构造模板...")
+def build_template_by_fields(template_path: str):
+    """
+    通过规定字段构造模板
+    :param template_path: 模板路径
+    :return:
+    """
     # 根据表名分别进行模板构造
-    if "admission_plan" in template_file:
-        build_template_by_fields_plan(template_file)
-    elif "admission_score_pro" in template_file:
-        build_template_by_fields_score_pro(template_file)
-    elif "admission_score_major" in template_file:
-        build_template_by_fields_score_major(template_file)
+    if "admission_plan" in template_path:
+        build_template_by_fields_plan(template_path)
+    elif "admission_score_pro" in template_path:
+        build_template_by_fields_score_pro(template_path)
+    elif "admission_score_major" in template_path:
+        build_template_by_fields_score_major(template_path)
 
 
 # 构造招生计划问题模板
-# noinspection PyProtectedMember
 def build_template_by_fields_plan(template_path: str):
     """
     构造招生计划问题模板
@@ -105,7 +113,7 @@ def build_template_by_fields_score_pro(template_path: str):
 # 构造录取分数分专业问题模板
 def build_template_by_fields_score_major(template_path: str):
     """
-
+    构造录取分数分专业问题模板
     :param template_path: 模板路径
     :return:
     """
@@ -126,7 +134,7 @@ def build_template_by_fields_score_major(template_path: str):
                             template_sentence_questions, template_sentence_answers)
 
 
-# 构造问题模板（提供模板名字段和完整的模板句示例）
+# 通过提供的信息构造问题模板
 # noinspection PyProtectedMember
 def build_template_by_infos(template_path: str, fields_question_condition: list, fields_question_target: list,
                             template_sentence_questions: list, template_sentence_answers: list):
@@ -187,13 +195,20 @@ def build_template_by_infos(template_path: str, fields_question_condition: list,
 
 
 # 通过模板类型（槽位）构造MySQL语句
-def build_mysql_string_by_template(template_sentence, template_sentence_type):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始构造MySQL语句...")
-    search_table = template_sentence_type
+# noinspection PyProtectedMember
+def build_mysql_string_by_template(template_question: str, template_question_type: str)->str:
+    """
+    通过模板类型（槽位）构造MySQL语句
+    :param template_question: 模板问句
+    :param template_question_type: 模板问句类型
+    :return: 对应的mysql语句
+    """
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger.info("开始构造MySQL语句...")
+    search_table = template_question_type
     # 提取模板句中的槽
-    pattern = re.compile(r"[\(].*?[\)]")
-    slots = re.findall(pattern, template_sentence)
+    pattern = re.compile(r"[(].*?[)]")
+    slots = re.findall(pattern, template_question)
     # print(slots)
     # 构造SQL语句
     mysql_string = "select * from " + search_table + " where "
@@ -204,18 +219,25 @@ def build_mysql_string_by_template(template_sentence, template_sentence_type):
         else:
             mysql_string += slots[i_slot][1:-1]+"='"+slots[i_slot]+"' and "
     mysql_string += ";"
-    mylogger.info("MySQL语句构造完成！")
+    function_logger.info("MySQL语句构造完成！")
     return mysql_string
 
 
 # 通过模板类型（槽位）构造答句
-def build_answer_string_by_template(template_sentence_answer,fields_en,query_result_item):
+def build_mysql_answer_string_by_template(template_answer: str, query_table_head: tuple, query_result_item: tuple)->str:
+    """
+    通过模板类型（槽位）构造mysql答句
+    :param template_answer: 模板答句
+    :param query_table_head: 本次查询的表头
+    :param query_result_item: 本次查询结果
+    :return:
+    """
     # 提取槽位
-    pattern = re.compile(r"[\(].*?[\)]")
-    slots = re.findall(pattern, template_sentence_answer)
-    answer_string = template_sentence_answer
+    pattern = re.compile(r"[(].*?[)]")
+    slots = re.findall(pattern, template_answer)
+    answer_string = template_answer
     for slot in slots:
-        answer_key = query_result_item[fields_en.index(slot[1:-1])+1]
+        answer_key = query_result_item[query_table_head.index(slot[1:-1])+1]
         answer_string = answer_string.replace(slot, str(answer_key))
     return answer_string
 
