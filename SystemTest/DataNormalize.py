@@ -37,17 +37,17 @@ def frequent_question_normalize(dir_path: str):
         for i_line in range(len(table_content)):
             if len(table_content[i_line]) == 5:
                 table_content[i_line][-1] = table_content[i_line][-1] \
-                    .replace("\ue63c", "").replace("\u3000","").replace("\n", "，").replace(" ", "").lstrip("，")
+                    .replace("\ue63c", "").replace("\u3000", "").replace("\n", "，").replace(" ", "").lstrip("，")
                 table_content[i_line][-2] = table_content[i_line][-2] \
                     .replace("\u3000", "").replace("\n", "，").replace(" ", "")
                 if "贵校" in table_content[i_line][-2]:
-                    table_content[i_line][-2] = table_content[i_line][-2].replace("贵校",school_name)
+                    table_content[i_line][-2] = table_content[i_line][-2].replace("贵校", school_name)
                 else:
-                    table_content[i_line][-2] = school_name+"，"+table_content[i_line][-2]
+                    table_content[i_line][-2] = school_name + "，" + table_content[i_line][-2]
                 function_logger.debug(str(table_content[i_line]))
         function_logger.info("读取%s的常用问题集完成！" % school_name)
         function_logger.info("开始写入%s的常用问题集..." % school_name)
-        with open(dir_path + "/预处理/" + school_name + "常用问题集(预处理).csv", "a", encoding='utf-8') as csvfile:
+        with open(dir_path + "/预处理/" + school_name + "常用问题集(预处理).csv", "w", newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(table_head)
             for line in table_content:
