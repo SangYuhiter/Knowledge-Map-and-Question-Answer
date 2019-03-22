@@ -215,9 +215,9 @@ def build_mysql_string_by_template(template_question: str, template_question_typ
 
     for i_slot in range(len(slots)):
         if i_slot == len(slots)-1:
-            mysql_string += slots[i_slot][1:-1] + "='" + slots[i_slot] + "'"
+            mysql_string += "["+slots[i_slot][1:-1] + "='" + slots[i_slot] + "'"+"]"
         else:
-            mysql_string += slots[i_slot][1:-1]+"='"+slots[i_slot]+"' and "
+            mysql_string += "["+slots[i_slot][1:-1]+"='"+slots[i_slot]+"' and "+"]"
     mysql_string += ";"
     function_logger.info("MySQL语句构造完成！")
     return mysql_string
@@ -239,6 +239,39 @@ def build_mysql_answer_string_by_template(template_answer: str, query_result_ite
         answer_key = query_result_item[slot[1:-1]]
         answer_string = answer_string.replace(slot, str(answer_key))
     return answer_string
+
+
+# 通过模板类型及关键词键值映射返回mysql语句
+# noinspection PyProtectedMember
+def build_mysql_string_by_template_and_keymap(template_question: str, template_question_type: str, keyword_dict: dict)->str:
+    """
+    通过模板类型及关键词键值映射返回mysql语句
+    :param template_question: 模板问题
+    :param template_question_type: 模板问题类型
+    :param keyword_dict: 关键词映射
+    :return: SQL语句
+    """
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger.info("开始构造MySQL语句...")
+    search_table = template_question_type
+    # 提取模板句中的槽
+    pattern = re.compile(r"[(].*?[)]")
+    slots = re.findall(pattern, template_question)
+    # print(slots)
+    # 构造SQL语句
+    mysql_string = ""
+    for i_slot in range(len(slots)):
+        # function_logger.debug("slot:"+slots[i_slot][1:-1])
+        key = keyword_dict["search_"+slots[i_slot][1:-1]]
+        # function_logger.debug("key"+key)
+        if key == "":
+            continue
+        else:
+            mysql_string += slots[i_slot][1:-1] + "='" + key + "' and "
+    if mysql_string != "":
+        mysql_string = "select * from " + search_table + " where " + mysql_string[:-5] + ";"
+    function_logger.info("MySQL语句构造完成！")
+    return mysql_string
 
 
 # 通过问题模板文件加载问题模板
