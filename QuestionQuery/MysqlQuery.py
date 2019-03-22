@@ -10,20 +10,24 @@ from InformationGet.MysqlOperation import mysql_query_sentence
 
 
 # mysql表查询，返回查询结果
-def mysql_table_query(keyword_tuple):
-    search_table = keyword_tuple[0]
+def mysql_table_query(keyword):
+    search_table = keyword["search_table"]
     if search_table == "admission_plan":
-        query_result = admission_plan_table_query(keyword_tuple)
+        query_result = admission_plan_table_query(keyword)
     elif search_table == "admission_score_pro":
-        query_result = admission_score_pro_table_query(keyword_tuple)
+        query_result = admission_score_pro_table_query(keyword)
     elif search_table == "admission_score_major":
-        query_result = admission_score_major_table_query(keyword_tuple)
+        query_result = admission_score_major_table_query(keyword)
     return query_result
 
 
 # 查询admission_plan表
-def admission_plan_table_query(keyword_tuple):
-    search_table, search_year, search_school, search_major, search_district = keyword_tuple
+def admission_plan_table_query(keyword):
+    search_table = keyword["search_table"]
+    search_year = keyword["search_year"]
+    search_school = keyword["search_school"]
+    search_major = keyword["search_major"]
+    search_district = keyword["search_district"]
     result_edit = []
     # 只有年份,统计各学校的招生情况（文科、理科）
     if search_year != "" and search_school == "" and search_major == "" and search_district == "":
@@ -268,8 +272,12 @@ def admission_plan_table_query(keyword_tuple):
 
 
 # 查询admission_score_pro表
-def admission_score_pro_table_query(keyword_tuple):
-    search_table, search_year, search_school, search_major, search_district = keyword_tuple
+def admission_score_pro_table_query(keyword):
+    search_table = keyword["search_table"]
+    search_year = keyword["search_year"]
+    search_school = keyword["search_school"]
+    search_major = keyword["search_major"]
+    search_district = keyword["search_district"]
     result_edit = []
     # 只有年份
     if search_year != "" and search_school == "" and search_district == "":
@@ -400,8 +408,12 @@ def admission_score_pro_table_query(keyword_tuple):
 
 
 # 查询admission_score_major表
-def admission_score_major_table_query(keyword_tuple):
-    search_table, search_year, search_school, search_major, search_district = keyword_tuple
+def admission_score_major_table_query(keyword):
+    search_table = keyword["search_table"]
+    search_year = keyword["search_year"]
+    search_school = keyword["search_school"]
+    search_major = keyword["search_major"]
+    search_district = keyword["search_district"]
     result_edit = []
     # 只有年份
     # 只有学校
