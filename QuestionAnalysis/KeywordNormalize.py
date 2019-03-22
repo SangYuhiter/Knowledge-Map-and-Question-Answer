@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : KeywordNormalize.py
 @Author: SangYu
 @Date  : 2019/3/18 10:35
 @Desc  : 关键词正则化
-'''
+"""
 from Log.Logger import MyLog
-import sys
 import json
 import requests
 
@@ -39,14 +38,23 @@ import requests
 # 明年春节到元宵节
 # {"type": "timespan", "timespan": ["2018-02-16 00:00:00", "2018-03-02 00:00:00"]}
 # 时间词正则化，返回20xx(年)
+# noinspection PyDictCreation
 def time_word_normalize(time_word):
     src = time_word
-    url = "http://192.168.100.202:20002"
+    # 外部访问url
+    url_web = 'http://api.deepintell.net/timeanlz'
+    # 内网访问
+    # url = "http://192.168.100.202:20002"
     param = {}
     param['query'] = src
-    headers = {'content-type': 'application/json', 'Accept': 'application/json'}
-    r = requests.post(url=url, data=json.dumps(param), headers=headers, timeout=3)
-    time_word_dict = json.loads(r.json())
+    # 外部访问头
+    headers_web = {'X-Token': 'hqcK70wBTd2vqsI18JgUFUQXbbCp5JdL', 'Content-type': 'application/json',
+                   'Accept': 'application/json'}
+    # headers = {'content-type': 'application/json', 'Accept': 'application/json'}
+    r = requests.post(url=url_web, data=json.dumps(param), headers=headers_web, timeout=3)
+    # 两个接口返回参数不同，注意区别
+    # time_word_dict = json.loads(r.json())
+    time_word_dict = r.json()
     year = ""
     if "timestamp" in time_word_dict:
         year = time_word_dict["timestamp"][:4]
@@ -74,31 +82,38 @@ def time_word_normalize(time_word):
 # [{'country': '中国', 'province': '浙江', 'city': '金华', 'zone': '', 'town': '',
 # 'stamp': {'start': 3, 'end': 5, 'words': '金华'}}]
 # 地点词正则化
+# noinspection PyDictCreation
 def district_word_normalize(district_word):
     src = district_word
-    url = "http://192.168.100.202:20001"
+    # 外部访问
+    url_web = 'http://api.deepintell.net/locanlz'
+    # 内网访问
+    # url = "http://192.168.100.202:20001"
     param = {}
     param['query'] = src
-    headers = {'content-type': 'application/json',
-               'Accept': 'application/json'}
-    r = requests.post(url=url, data=json.dumps(param), headers=headers, timeout=3)
-    print(r.json())
+    # 在http://deepintell.net上注册用户获取api密钥
+    headers_web = {'X-Token': 'hqcK70wBTd2vqsI18JgUFUQXbbCp5JdL', 'Content-type': 'application/json',
+                   'Accept': 'application/json'}
+    # headers = {'content-type': 'application/json', 'Accept': 'application/json'}
+    r = requests.post(url=url_web, data=json.dumps(param), headers=headers_web, timeout=3)
+    # print(r.json())
+    district = ""
     if len(r.json()) != 0:
         district_word_dict = r.json()[0]
-    print(district_word_dict)
-    district = ""
-    if district_word_dict["province"] == " ":
-        district = district_word_dict["city"]
-    else:
-        district = district_word_dict["province"]
+        # print(district_word_dict)
+        if district_word_dict["province"] == " ":
+            district = district_word_dict["city"]
+        else:
+            district = district_word_dict["province"]
     return district
 
+
 if __name__ == '__main__':
-    mylogger = MyLog(logger=__name__).getlog()
-    mylogger.info("start...")
-    time_word = "我要去金华买火腿, 我该怎么走?"
-    district_word = time_word
-    # print(time_word_normalize(time_word))
-    r_district = district_word_normalize(district_word)
+    main_logger = MyLog(logger=__name__).getlog()
+    main_logger.info("start...")
+    test_time_word = "我要去金华买火腿, 我该怎么走?"
+    test_district_word = "今年农历四月初五"
+    # print(time_word_normalize(test_time_word))
+    r_district = district_word_normalize(test_district_word)
     print(r_district)
-    mylogger.info("end...")
+    main_logger.info("end...")
