@@ -20,6 +20,7 @@ from QuestionAnalysis.QuestionPretreatment import question_segment_hanlp, questi
 from QuestionQuery.MysqlQuery import mysql_table_query
 from TemplateLoad.QuestionTemplate import load_template_by_file, build_template_by_infos
 from FileRead.FileNameRead import read_all_file_list
+from QuestionAnswer.TemplateAnswerQuestion import answer_question_by_template
 
 LTP_DATA_DIR = "../LTP/ltp_data"
 
@@ -225,38 +226,48 @@ class QAWidgets(QWidget):
         self.answer_edit.clear()
         sentence = self.question_edit.text()
         # hanlp方法
-        segment_list = question_segment_hanlp(sentence)
-        keyword = question_analysis_to_keyword(segment_list)
-        search_table = keyword["search_table"]
-        search_year = keyword["search_year"]
-        search_school = keyword["search_school"]
-        search_major = keyword["search_major"]
-        search_district = keyword["search_district"]
-        search_classy = keyword["search_classy"]
-        self.answer_edit.append("问句分析结果为：" + str(segment_list))
-        self.answer_edit.append("直接信息如下：")
-        self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
-        self.answer_edit.append("查询年份为：" + search_year)
-        self.answer_edit.append("查询高校为：" + search_school)
-        self.answer_edit.append("查询专业为：" + search_major)
-        self.answer_edit.append("查询地区为：" + search_district)
-        self.answer_edit.append("查询类别为：" + search_classy)
-        keyword_normalize = question_keyword_normalize(keyword)
-        search_table = keyword_normalize["search_table"]
-        search_year = keyword_normalize["search_year"]
-        search_school = keyword_normalize["search_school"]
-        search_major = keyword_normalize["search_major"]
-        search_district = keyword_normalize["search_district"]
-        search_classy = keyword_normalize["search_classy"]
-        self.answer_edit.append("信息规范后如下：")
-        self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
-        self.answer_edit.append("查询年份为：" + search_year)
-        self.answer_edit.append("查询高校为：" + search_school)
-        self.answer_edit.append("查询专业为：" + search_major)
-        self.answer_edit.append("查询地区为：" + search_district)
-        self.answer_edit.append("查询类别为：" + search_classy)
-        # 对关键词元组进行mysql查询，并将查询结果输出
-        result_edit = mysql_table_query(keyword_normalize)
+        mid_result, result_edit = answer_question_by_template(sentence)
+        self.answer_edit.append("分词列表："+str(mid_result["segment_list"]))
+        self.answer_edit.append("问题抽象结果：" + str(mid_result["ab_question"]))
+        self.answer_edit.append("关键词列表：" + str(mid_result["keyword"]))
+        self.answer_edit.append("正则化处理：" + str(mid_result["keyword_normalize"]))
+        self.answer_edit.append("匹配问句模板：" + str(mid_result["match_template_question"]))
+        self.answer_edit.append("匹配答句模板：" + str(mid_result["match_template_answer"]))
+        self.answer_edit.append("查询语句：" + str(mid_result["mysql_string"]))
+        self.answer_edit.append("查询结果：" + str(mid_result["search_result"]))
+        self.answer_edit.append("回答如下：")
+        # segment_list = question_segment_hanlp(sentence)
+        # keyword = question_analysis_to_keyword(segment_list)
+        # search_table = keyword["search_table"]
+        # search_year = keyword["search_year"]
+        # search_school = keyword["search_school"]
+        # search_major = keyword["search_major"]
+        # search_district = keyword["search_district"]
+        # search_classy = keyword["search_classy"]
+        # self.answer_edit.append("问句分析结果为：" + str(segment_list))
+        # self.answer_edit.append("直接信息如下：")
+        # self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
+        # self.answer_edit.append("查询年份为：" + search_year)
+        # self.answer_edit.append("查询高校为：" + search_school)
+        # self.answer_edit.append("查询专业为：" + search_major)
+        # self.answer_edit.append("查询地区为：" + search_district)
+        # self.answer_edit.append("查询类别为：" + search_classy)
+        # keyword_normalize = question_keyword_normalize(keyword)
+        # search_table = keyword_normalize["search_table"]
+        # search_year = keyword_normalize["search_year"]
+        # search_school = keyword_normalize["search_school"]
+        # search_major = keyword_normalize["search_major"]
+        # search_district = keyword_normalize["search_district"]
+        # search_classy = keyword_normalize["search_classy"]
+        # self.answer_edit.append("信息规范后如下：")
+        # self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
+        # self.answer_edit.append("查询年份为：" + search_year)
+        # self.answer_edit.append("查询高校为：" + search_school)
+        # self.answer_edit.append("查询专业为：" + search_major)
+        # self.answer_edit.append("查询地区为：" + search_district)
+        # self.answer_edit.append("查询类别为：" + search_classy)
+        # # 对关键词元组进行mysql查询，并将查询结果输出
+        # result_edit = mysql_table_query(keyword_normalize)
         for item in result_edit:
             self.answer_edit.append(item)
 
