@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : MysqlQuery.py
 @Author: SangYu
 @Date  : 2019/3/1 10:53
 @Desc  : 处理MySQL表相关问题的查询
-'''
+"""
 
 from InformationGet.MysqlOperation import mysql_query_sentence
 
