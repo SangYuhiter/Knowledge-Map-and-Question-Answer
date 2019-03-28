@@ -9,7 +9,9 @@ from LTP.LTPInterface import ltp_segmentor, ltp_postagger, ltp_name_entity_recog
 from HanLP.HanLPTest import hanlp_nlp_segmentor
 from TemplateLoad.QuestionTemplate import load_template_by_file
 from SimilarityCalculate.SemanticSimilarity import deepintell_api_asy
-from QuestionAnalysis.KeywordNormalize import time_word_normalize, district_word_normalize
+from QuestionAnalysis.KeywordNormalize import (time_word_normalize_local, time_word_normalize_web,
+                                               district_word_normalize)
+import copy
 
 
 # ltp对关键词的抽取与识别
@@ -165,7 +167,7 @@ def question_analysis_to_keyword(question_segment_list):
             keyword["search_table"] = "admission_plan"
         elif word.find("录取分数") != -1 or word.find("分数线") != -1 or word.find("分数") != -1:
             keyword["search_table"] = "admission_score"
-    # return search_table, search_year, search_school, search_major, search_district, search_classy
+    print(keyword)
     return keyword
 
 
@@ -173,13 +175,14 @@ def question_analysis_to_keyword(question_segment_list):
 def question_keyword_normalize(keyword):
     # search_table, search_year, search_school, search_major, search_district = keyword_tuple
     # 表格
-    if keyword["search_table"] != "admission_plan":
-        if keyword["search_major"] != "":
-            keyword["search_table"] += "_major"
+    keyword_normalize = copy.deepcopy(keyword)
+    if keyword_normalize["search_table"] != "admission_plan":
+        if keyword_normalize["search_major"] != "":
+            keyword_normalize["search_table"] += "_major"
         else:
-            keyword["search_table"] += "_pro"
+            keyword_normalize["search_table"] += "_pro"
     # 年份（2017年、17年）
-    keyword["search_year"] = time_word_normalize(keyword["search_year"])
+    keyword_normalize["search_year"] = time_word_normalize_local(keyword_normalize["search_year"])
 
     # 高校（全称与简称）
     c9_dict = {"北京大学": "北京大学", "北大": "北京大学", "北京大学医学部": "北京大学医学部", "北大医学部": "北京大学医学部",
@@ -192,11 +195,11 @@ def question_keyword_normalize(keyword):
                "中国科学技术大学": "中国科学技术大学", "中科大": "中国科学技术大学",
                "哈尔滨工业大学": "哈尔滨工业大学", "哈工大": "哈尔滨工业大学", "哈尔滨工业大学(威海)": "哈尔滨工业大学",
                "西安交通大学": "西安交通大学", "西交大": "西安交通大学"}
-    if keyword["search_school"] in c9_dict:
-        keyword["search_school"] = c9_dict[keyword["search_school"]]
+    if keyword_normalize["search_school"] in c9_dict:
+        keyword_normalize["search_school"] = c9_dict[keyword_normalize["search_school"]]
     # 地区
-    keyword["search_district"] = district_word_normalize(keyword["search_district"])
-    return keyword
+    keyword_normalize["search_district"] = district_word_normalize(keyword_normalize["search_district"])
+    return keyword_normalize
 
 
 if __name__ == "__main__":
