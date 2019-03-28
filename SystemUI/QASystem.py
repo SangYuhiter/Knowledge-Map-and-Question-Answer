@@ -304,6 +304,8 @@ class MySQLWidgets(QWidget):
         self.query_school_name = None
         self.query_district_name = None
         self.query_year_name = None
+        self.query_major_name = None
+        self.query_classy_name = None
         self.init_ui()
 
     # GUI创建
@@ -339,8 +341,10 @@ class MySQLWidgets(QWidget):
         self.year_combo = QComboBox()
         self.year_combo.activated[str].connect(self.year_combo_activated)
         self.major_combo = QComboBox()
+        self.major_combo.activated[str].connect(self.major_combo_activated)
         self.batch_combo = QComboBox()
         self.classy_combo = QComboBox()
+        self.classy_combo.activated[str].connect(self.classy_combo_activated)
 
         select_hbox = QHBoxLayout()
         select_hbox.addWidget(table)
@@ -395,6 +399,10 @@ class MySQLWidgets(QWidget):
             mysql_string += " and district ='" + self.query_district_name + "'"
         if self.query_year_name is not None:
             mysql_string += " and year='" + self.query_year_name + "'"
+        if self.query_major_name is not None:
+            mysql_string += " and major='" + self.query_major_name + "'"
+        if self.query_classy_name is not None:
+            mysql_string += " and classy='" + self.query_classy_name + "'"
         mysql_string += ";"
         self.SQL_edit.setText(mysql_string)
 
@@ -529,6 +537,18 @@ class MySQLWidgets(QWidget):
         classy_names = sorted(classy_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
         self.classy_combo.addItems(classy_names)
 
+    # major_combo发生改变
+    def major_combo_activated(self, text):
+        if text != "":
+            self.query_major_name = text
+            self.set_SQLedit_content()
+
+    # classy_combo发生改变
+    def classy_combo_activated(self, text):
+        if text != "":
+            self.query_classy_name = text
+            self.set_SQLedit_content()
+
 
 # Template查看与创建控件
 # noinspection PyArgumentList,PyUnresolvedReferences
@@ -602,6 +622,7 @@ class TemplateCheckWidgets(QWidget):
         template_path = "../TemplateLoad/Template"
         file_list = read_all_file_list(template_path)
         template_file = [file.split("\\")[-1] for file in file_list]
+        self.template_combo.clear()
         self.template_combo.addItems(template_file)
 
     # 当点击某个模板时
