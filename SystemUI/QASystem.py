@@ -383,6 +383,21 @@ class MySQLWidgets(QWidget):
         main_vbox.addLayout(btn_hbox)
         self.setLayout(main_vbox)
 
+    # 设置SQL语句编辑框内的SQL语句
+    def set_SQLedit_content(self):
+        self.SQL_edit.clear()
+        mysql_string = "select * from "
+        if self.query_table_name is not None:
+            mysql_string += self.query_table_name
+        if self.query_school_name is not None:
+            mysql_string += " where school='" + self.query_school_name + "'"
+        if self.query_district_name is not None:
+            mysql_string += " and district ='" + self.query_district_name + "'"
+        if self.query_year_name is not None:
+            mysql_string += " and year='" + self.query_year_name + "'"
+        mysql_string += ";"
+        self.SQL_edit.setText(mysql_string)
+
     # mysql查询
     def mysql_query(self):
         mysql_string = self.SQL_edit.text()
@@ -417,12 +432,13 @@ class MySQLWidgets(QWidget):
         myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
-            temp.append(item[0])
+            temp.append(item["school"])
         school_names = temp
         # 重新设置school_combo
         self.school_combo.clear()
         school_names = sorted(school_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
         self.school_combo.addItems(school_names)
+        self.set_SQLedit_content()
 
     # school_combo发生改变
     def school_combo_activated(self, text):
@@ -433,12 +449,13 @@ class MySQLWidgets(QWidget):
         myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
-            temp.append(item[0])
+            temp.append(item["district"])
         district_names = temp
         # 重新设置major_combo
         self.district_combo.clear()
         district_names = sorted(district_names, key=lambda x: lazy_pinyin(x.lower())[0][0])
         self.district_combo.addItems(district_names)
+        self.set_SQLedit_content()
 
     # district_combo发生改变
     def district_combo_activated(self, text):
@@ -449,16 +466,18 @@ class MySQLWidgets(QWidget):
         myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
-            temp.append(str(item[0]))
+            temp.append(str(item["year"]))
         year_names = temp
         # 重新设置year_combo
         self.year_combo.clear()
         year_names.sort()
         self.year_combo.addItems(year_names)
+        self.set_SQLedit_content()
 
     # year_combo发生改变
     def year_combo_activated(self, text):
         self.query_year_name = text
+        self.set_SQLedit_content()
 
         # 查询并设置major专业
         if self.query_table_name == "admission_score_pro":
@@ -471,7 +490,7 @@ class MySQLWidgets(QWidget):
             myresult = mysql_query_sentence(mysql_string)
             temp = []
             for item in myresult:
-                temp.append(item[0])
+                temp.append(item["major"])
             major_names = temp
             # 重新设置major_combo
             self.major_combo.clear()
@@ -486,7 +505,7 @@ class MySQLWidgets(QWidget):
             myresult = mysql_query_sentence(mysql_string)
             temp = []
             for item in myresult:
-                temp.append(item[0])
+                temp.append(item["batch"])
             batch_names = temp
             # 重新设置classy_combo
             self.batch_combo.clear()
@@ -503,7 +522,7 @@ class MySQLWidgets(QWidget):
         myresult = mysql_query_sentence(mysql_string)
         temp = []
         for item in myresult:
-            temp.append(item[0])
+            temp.append(item["classy"])
         classy_names = temp
         # 重新设置classy_combo
         self.classy_combo.clear()
