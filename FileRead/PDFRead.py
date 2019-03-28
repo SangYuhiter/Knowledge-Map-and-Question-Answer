@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : PDFRead.py
 @Author: SangYu
 @Date  : 2019/1/9 13:37
 @Desc  : PDF读取
-'''
-
+"""
+import fitz
 import pdfplumber
 import tabula
 from Log.Logger import MyLog
@@ -14,32 +14,48 @@ import sys
 from io import StringIO
 
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from pdfminer.converter import TextConverter,PDFPageAggregator
-from pdfminer.layout import LAParams,LTTextBoxHorizontal,LTTextBox,LTTextBoxVertical,LTTextLine,LTTextLineHorizontal,LTTextLineVertical,LTText
+from pdfminer.converter import TextConverter, PDFPageAggregator
+from pdfminer.layout import LAParams, LTTextBoxHorizontal, LTTextBox, LTTextBoxVertical, LTTextLine, \
+    LTTextLineHorizontal, LTTextLineVertical, LTText
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
 
+# noinspection PyProtectedMember
 def read_pdf_to_tables(path):
-    mylogger=MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     """
     read pdf and return a table list.
     :param path: the pdf path
     :return tables: table list
     """
-    mylogger.info("开始读取pdf文件！")
+    function_logger.info("开始读取pdf文件！")
     with pdfplumber.open(path) as pdf:
         all_tables = []
         for page in pdf.pages:
             tables = page.extract_tables()
             all_tables.append(tables)
-    mylogger.info("pdf文件读取table完成！")
+    function_logger.info("pdf文件读取table完成！")
     return all_tables
 
 
+# noinspection PyProtectedMember
+def read_pdf_to_words(path):
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger.info("开始读取pdf文件！")
+    with pdfplumber.open(path) as pdf:
+        all_words = []
+        for page in pdf.pages:
+            words = page.extract_words()
+            all_words.append(words)
+    function_logger.info("pdf文件读取table完成！")
+    return all_words
+
+
+# noinspection PyProtectedMember
 def read_pdf_to_text(path):
-    mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    mylogger.info("开始读取pdf文件！")
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    function_logger.info("开始读取pdf文件！")
 
     # 按页返回页中各个文本
     source_pdf = open(path, 'rb')
@@ -66,7 +82,7 @@ def read_pdf_to_text(path):
         print("-----------")
         # print("-------------------")
 
-    mylogger.info("pdf文件读取文本完成！")
+    function_logger.info("pdf文件读取文本完成！")
 
     # output = StringIO()
     # # 创建一个PDF资源管理器对象来存储共赏资源
@@ -92,21 +108,50 @@ def read_pdf_to_text(path):
     # return text
 
 
+# 切分单页pdf
+# noinspection PyUnresolvedReferences
+def split_pdf_single_page(path):
+    src = fitz.open(path)
+    doc = fitz.open()
+    # page = doc.newPage(width=src[0].rect.width,
+    #                     height=src[0].rect.height + src[0].rect.height)
+    # page.showPDFpage(src[0].rect, src, 0)
+    # placerect = fitz.Rect([0, src[0].rect[3], src[0].rect[2], src[0].rect[3] + src[0].rect[3]])
+    # page.showPDFpage(placerect, src, 0, clip=src[0].rect)
+    # doc.save('split/new.pdf', garbage=4, deflate=True)
+    # for page in src:
+    #     r = page.rect
+    #     page1 = doc.newPage(width=r.width/2, height=r.height)
+    #
+    #     page.showPDFpage(page.rect, src, 0)
+    #     doc.save("split/cut1.pdf")
+    for i_page in range(len(src)):
+        r = src[i_page].rect
+        d = fitz.Rect(src[i_page].CropBoxPosition, src[i_page].CropBoxPosition)
+        # cut1 = fitz.Rect(0,0,r.width, r.height)
+        cut2 = d + (0, 0, r.width / 2, r.height)
+        page1 = doc.newPage(width=cut2.width, height=cut2.height)
+        page1.showPDFpage(src[i_page].rect, src, i_page)
+    doc.save("split/poster-" + src.name, garbage=3, deflate=True)
+
 
 if __name__ == '__main__':
-    mylogger = MyLog(__name__).getlog()
-    mylogger.info("start...")
-    path = "../InformationGet/Information/九校联盟/南京大学/招生计划/source/2018-安徽.pdf"
-    pages = read_pdf_to_tables(path)
-    for tables in pages:
-        for table in tables:
-            for line in table:
-                print(line)
-            print("--------")
+    main_logger = MyLog(__name__).getlog()
+    main_logger.info("start...")
+    # path = "../InformationGet/Information/九校联盟/上海交通大学/招生计划/source/20150.pdf"
+    # pages = read_pdf_to_tables(path)
+    # test_path = "enhance/all_image.pdf"
+    # read_pdf_to_text(test_path)
+    split_pdf_single_page("test_pdf.pdf")
+    # for tables in pages:
+    #     for table in tables:
+    #         for line in table:
+    #             print(line)
+    #         print("--------")
     # for line in text.split("\n"):
     #     print(line)
     # print(text.split("\n"))
     # path = "../InformationGet/Information/九校联盟/上海交通大学/招生计划/source/2018test.pdf"
     # df = tabula.read_pdf(path, encoding="utf-8", pages="all")
     # print(df)
-    mylogger.info("end...")
+    main_logger.info("end...")
