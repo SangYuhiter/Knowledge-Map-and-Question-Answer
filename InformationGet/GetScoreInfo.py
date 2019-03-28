@@ -1,11 +1,10 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : GetScoreInfo.py
 @Author: SangYu
 @Date  : 2018/12/25 9:45
 @Desc  : 获取各学校录取分数信息
-'''
+"""
 
 import requests
 from bs4 import BeautifulSoup

@@ -1,11 +1,10 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : InsertAdmissionData.py
 @Author: SangYu
 @Date  : 2018/12/25 14:03
 @Desc  : 此程序用于将招生数据插入数据库
-'''
+"""
 from InformationGet import MysqlOperation
 from FileRead.FileNameRead import read_all_file_list
 from Log.Logger import MyLog

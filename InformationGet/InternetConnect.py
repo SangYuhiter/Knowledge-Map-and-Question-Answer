@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : InternetConnect.py
 @Author: SangYu
 @Date  : 2019/3/4 9:24
 @Desc  : 爬虫时网络连接
-'''
+"""
 import requests
 import random
 import time

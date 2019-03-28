@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : Neo4jOperation.py
 @Author: SangYu
 @Date  : 2018/12/28 13:29
 @Desc  : Neo4j数据库操作
-'''
+"""
 if __name__ == "__main__":
     from py2neo import Graph, Node, Relationship
 

@@ -1,11 +1,10 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : GetPlanInfo.py
 @Author: SangYu
 @Date  : 2018/12/21 12:38
 @Desc  : 获取各学校招生计划信息
-'''
+"""
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -754,81 +753,42 @@ def get_plan_info_sjtu():
                 # write_plan_info_sjtu_2017(main_file_path, item)
                 mylogger.info("2017年数据解析完成！")
             elif item.find("2018") != -1:
-                # write_plan_info_sjtu_2018(main_file_path, item)
+                write_plan_info_sjtu_2018(main_file_path, item)
                 mylogger.info("2018年数据解析完成！")
-            print(item)
 
 
 # 上海交通大学招生计划数据2018
 def write_plan_info_sjtu_2018(store_path, info_path):
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
-    info_path = "Information/九校联盟/上海交通大学/招生计划/source/2018test.pdf"
     year = "2018"
-    # pages = read_pdf_to_tables(info_path)
     with pdfplumber.open(info_path) as pdf:
-        for page in [pdf.pages[0]]:
-            print(len(page.extract_tables()))
-
-    # for page in pages:
-    #     for table in page:
-    #         print(table)
-    # li_table = pages[0][0] + pages[1][0]
-    # wen_table = pages[1][1]
-    # # 理科
-    # table_head = li_table[0]
-    # for i in range(len(table_head)):
-    #     table_head[i] = table_head[i].replace("\n", "")
-    # pro_line_li = li_table[-1]
-    # pro_line_wen = wen_table[-1]
-    # for item in li_table:
-    #     if item[0] == "专业名称" or item[0] == "理科合计":
-    #         li_table.remove(item)
-    # for item in wen_table:
-    #     if item[0] == "专业名称" or item[0] == "文科合计":
-    #         wen_table.remove(item)
-    #
-    # # 写入文件
-    # for i_pro in range(1, len(table_head)):
-    #     sub_plan_table_name = year + "-" + table_head[i_pro]
-    #     sub_plan_table_head = ["专业", "类别", "人数"]
-    #     sub_plan_table_content = []
-    #     # 理科部分
-    #     for item in li_table:
-    #         if item[i_pro] != "":
-    #             temp = [item[0].replace("\n", ""), "理工", item[i_pro]]
-    #             sub_plan_table_content.append(temp)
-    #     # 统计人数
-    #     temp = ["理工", "统计", pro_line_li[i_pro]]
-    #     sub_plan_table_content.append(temp)
-    #     # 文科部分
-    #     for item in wen_table:
-    #         if item[i_pro] != "":
-    #             temp = [item[0], "文史", item[i_pro]]
-    #             sub_plan_table_content.append(temp)
-    #     # 统计人数
-    #     temp = ["文史", "统计", pro_line_wen[i_pro]]
-    #     sub_plan_table_content.append(temp)
-    #
-    #     write_table(store_path, sub_plan_table_name, sub_plan_table_head, sub_plan_table_content)
-    #     # print(sub_plan_table_name)
-    #     # print(sub_plan_table_head)
-    #     # for item in sub_plan_table_content:
-    #     #     print(item)
+        first_page = pdf.pages[0]
+        im = first_page.to_image()
+        im.draw_rects(first_page.extract_words())
+        # with open(store_path+"/source/"+"debug.jpg","wb") as debugimg:
+        #     debugimg.write(bytes(im))
+        # print(first_page.extract_text())
 
 
 # 上海交通大学招生计划数据2017
 def write_plan_info_sjtu_2017(store_path, info_path):
     print("2017")
+    pages = read_pdf_to_tables(info_path)
+    print(pages)
 
 
 # 上海交通大学招生计划数据2016
 def write_plan_info_sjtu_2016(store_path, info_path):
     print("2016")
+    pages = read_pdf_to_tables(info_path)
+    print(pages)
 
 
 # 上海交通大学招生计划数据2015
 def write_plan_info_sjtu_2015(store_path, info_path):
     print("2015")
+    pages = read_pdf_to_tables(info_path)
+    print(pages)
 
 
 # 南京大学招生计划数据
@@ -880,7 +840,7 @@ def get_plan_info_nju():
     # 解析pdf文件
     file_list = read_all_file_list(file_path + "/source")
     for file_name in file_list:
-        if file_name[-3:]=="pdf":
+        if file_name[-3:] == "pdf":
             pdf_name = file_name.split("\\")[-1][:-4]
             year = pdf_name.split("-")[0]
             pro = pdf_name.split("-")[-1]
@@ -896,17 +856,17 @@ def get_plan_info_nju():
                         all_lines.append(line)
             # 分表
             all_tables = []
-            table =[]
+            table = []
             for line in all_lines:
-                if line[0]=="科类":
-                    if len(table)!=0:
+                if line[0] == "科类":
+                    if len(table) != 0:
                         all_tables.append(table)
                     table = []
                     table.append(line)
                 else:
                     table.append(line)
             all_tables.append(table)
-
+            # 将标记写入该表下的每一项
             all_lines = []
             for table in all_tables:
                 sign = table[1][0]
@@ -919,20 +879,19 @@ def get_plan_info_nju():
 
             table_content = []
             for line in all_lines:
-                if line[0]=="科类" or line[0]=="总计" or line[1].find("小计")!=-1 or line[1].find("None")!=-1 or line[2]=="" or line[2]=="0" or line[2] is None:
+                if line[0] == "科类" or line[0] == "总计" or line[1].find("小计") != -1 or line[1].find("None") != -1 \
+                        or line[2] == "" or line[2] == "0" or line[2] is None:
                     continue
                 classy = line[0]
-                if classy=="理":
+                if classy == "理":
                     classy = "理工"
-                elif classy =="文":
+                elif classy == "文":
                     classy = "文史"
-                table_content.append([line[1].replace("( )\n",""),classy,line[2]])
+                table_content.append([line[1].replace("( )\n", ""), classy, line[2]])
             for line in table_content:
                 mylogger.debug(str(line))
             write_table(file_path, table_name, table_head, table_content)
-            mylogger.info(year+pro+"招生计划已存入文件")
-
-
+            mylogger.info(year + pro + "招生计划已存入文件")
     # # Ajax渲染，form方法获取json数据
     # params = {"siteId": "249",
     #             "columnId": "4543",
@@ -1109,17 +1068,17 @@ def get_plan_info_fudan():
             all_lines = []
             for div in return_soup.find_all("div", class_="inquirytable_result"):
                 for tr in div.find_all("tr"):
-                    line =[]
+                    line = []
                     for td in tr:
                         if td.string != "\n":
                             line.append(str(td.string).strip())
                     all_lines.append(line)
-            table_name = year + "-" +district
+            table_name = year + "-" + district
             table_head = ["专业", "类别", "人数"]
             mylogger.debug(table_name)
             mylogger.debug(str(table_head))
             # 数据查询为空
-            if len(all_lines)<3:
+            if len(all_lines) < 3:
                 continue
             # 开始提取数据
             table_content_benbu = []
@@ -1174,13 +1133,10 @@ def get_plan_info_fudan():
             for line in table_content_yixue:
                 mylogger.debug(str(line))
             write_table(file_path_benbu, table_name, table_head, table_content_benbu)
-            mylogger.info("本部"+ year + district + "的招生计划已存入文件")
+            mylogger.info("本部" + year + district + "的招生计划已存入文件")
             if len(table_content_yixue) != 0:
                 write_table(file_path_yixue, table_name, table_head, table_content_yixue)
-                mylogger.info("医学院"+year + district + "的招生计划已存入文件")
-
-
-
+                mylogger.info("医学院" + year + district + "的招生计划已存入文件")
 
 
 if __name__ == "__main__":
@@ -1191,9 +1147,8 @@ if __name__ == "__main__":
     # get_plan_info_pkuhsc()
     # get_plan_info_tsinghua()
     # 上交未完成，不可使用，bug多
-    # get_plan_info_sjtu()
-    # 南京大学未完成
-    get_plan_info_nju()
+    get_plan_info_sjtu()
+    # get_plan_info_nju()
     # get_plan_info_xjtu()
     # 浙江大学为空
     # get_plan_info_zju()
