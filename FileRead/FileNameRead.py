@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : FileNameRead.py
 @Author: SangYu
 @Date  : 2019/1/9 15:25
 @Desc  : 读取文件名
-'''
+"""
 
 import os
+
 
 # 读取文件目录下所有文件（不包含文件夹）
 def read_all_file_list(dir_path):
     """
+    读取文件目录下所有文件（不包含文件夹）
     :param dir_path:
-    :return:
+    :return:文件名（包含路径）列表
     """
     file_list = []
     for file in os.listdir(dir_path):
