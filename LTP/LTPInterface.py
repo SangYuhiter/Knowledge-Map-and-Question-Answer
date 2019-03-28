@@ -1,11 +1,10 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
-'''
+"""
 @File  : LTPInterface.py
 @Author: SangYu
 @Date  : 2018/12/25 15:39
 @Desc  : 哈工大LTP平台自然语言处理工具接口
-'''
+"""
 # 使用pyltp完成自然语言处理
 import os
 from pyltp import Segmentor  # 分句
@@ -17,11 +16,13 @@ from pyltp import SementicRoleLabeller  # 语义角色标注
 
 
 # 分句
+# noinspection PyShadowingNames,PyArgumentList
 def ltp_sentence_split(sentences):
     return SentenceSplitter.split(sentences)  # 分句
 
 
 # 分词
+# noinspection PyShadowingNames,PyArgumentList,PyPep8Naming
 def ltp_segmentor(LTP_DATA_DIR, sentence):
     # 分词模型路径，模型名称为`cws.model`
     cws_model_path = os.path.join(LTP_DATA_DIR, "cws.model")
@@ -34,6 +35,7 @@ def ltp_segmentor(LTP_DATA_DIR, sentence):
 
 
 # 词性标注
+# noinspection PyShadowingNames,PyArgumentList,PyPep8Naming
 def ltp_postagger(LTP_DATA_DIR, words):
     # 词性标注模型路径，模型名称为`pos.model`
     pos_model_path = os.path.join(LTP_DATA_DIR, 'pos.model')
@@ -45,6 +47,7 @@ def ltp_postagger(LTP_DATA_DIR, words):
 
 
 # 命名实体识别
+# noinspection PyShadowingNames,PyArgumentList,PyPep8Naming
 def ltp_name_entity_recognizer(LTP_DATA_DIR, words, postags):
     # 命名实体识别模型路径，模型名称为`ner.model`
     ner_model_path = os.path.join(LTP_DATA_DIR, 'ner.model')
@@ -56,6 +59,7 @@ def ltp_name_entity_recognizer(LTP_DATA_DIR, words, postags):
 
 
 # 依存句法分析
+# noinspection PyShadowingNames,PyArgumentList,PyPep8Naming
 def ltp_parser(LTP_DATA_DIR, words, postags):
     # 依存句法分析模型路径，模型名称为`parser.model`
     par_model_path = os.path.join(LTP_DATA_DIR, 'parser.model')
@@ -67,6 +71,7 @@ def ltp_parser(LTP_DATA_DIR, words, postags):
 
 
 # 语义角色标注
+# noinspection PyShadowingNames,PyArgumentList,PyPep8Naming
 def ltp_sementic_role_labeller(LTP_DATA_DIR, words, postags, arcs):
     # 语义角色标注模型目录路径，模型目录为`srl`。注意该模型路径是一个目录，而不是一个文件。
     # windos下开发使用pisrl_win.model模型
@@ -89,7 +94,7 @@ if __name__ == "__main__":
     print("返回类型：", sents)
     print("列表化：", list(sents))
     # 分词测试
-    test_sentence = "元芳你怎么看"
+    test_sentence = "哈尔滨工业大学计算机学院的学生人数？"
     words = ltp_segmentor(LTP_DATA_DIR, test_sentence)
     print("分词测试")
     print("返回类型：", words)
@@ -104,12 +109,12 @@ if __name__ == "__main__":
     print("返回类型：", netags)
     print("列表化：", list(netags))
     arcs = ltp_parser(LTP_DATA_DIR, words, postags)
-    print("依存句法分析测试")
-    print("返回类型：", netags)
-    print("\t".join("%d:%s" % (arc.head, arc.relation) for arc in arcs))
-    roles = ltp_sementic_role_labeller(LTP_DATA_DIR, words, postags, arcs)
-    print("依存句法分析测试")
-    print("返回类型：", roles)
-    for role in roles:
-        print(role.index, "".join(
-            ["%s:(%d,%d)" % (arg.name, arg.range.start, arg.range.end) for arg in role.arguments]))
+    # print("依存句法分析测试")
+    # print("返回类型：", netags)
+    # print("\t".join("%d:%s" % (arc.head, arc.relation) for arc in arcs))
+    # roles = ltp_sementic_role_labeller(LTP_DATA_DIR, words, postags, arcs)
+    # print("依存句法分析测试")
+    # print("返回类型：", roles)
+    # for role in roles:
+    #     print(role.index, "".join(
+    #         ["%s:(%d,%d)" % (arg.name, arg.range.start, arg.range.end) for arg in role.arguments]))
