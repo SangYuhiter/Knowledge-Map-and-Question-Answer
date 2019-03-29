@@ -10,7 +10,7 @@ from HanLP.HanLPTest import hanlp_nlp_segmentor
 from TemplateLoad.QuestionTemplate import load_template_by_file
 from SimilarityCalculate.SemanticSimilarity import deepintell_api_asy
 from QuestionAnalysis.KeywordNormalize import (time_word_normalize_local, time_word_normalize_web,
-                                               district_word_normalize)
+                                               district_word_normalize_local, district_word_normalize_web)
 import copy
 
 
@@ -198,7 +198,7 @@ def question_keyword_normalize(keyword):
     if keyword_normalize["search_school"] in c9_dict:
         keyword_normalize["search_school"] = c9_dict[keyword_normalize["search_school"]]
     # 地区
-    keyword_normalize["search_district"] = district_word_normalize(keyword_normalize["search_district"])
+    keyword_normalize["search_district"] = district_word_normalize_local(keyword_normalize["search_district"])
     return keyword_normalize
 
 
