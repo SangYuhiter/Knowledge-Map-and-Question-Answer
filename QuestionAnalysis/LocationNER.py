@@ -7,10 +7,12 @@
 """
 import json
 from HanLP.HanLPTest import hanlp_nlp_segmentor
+import os
 
 
 # 加载行政区划json文件
 def load_location():
+    os.chdir(os.path.split(os.path.realpath(__file__))[0])
     path = "Area/level4-full.json"
     with open(path, "r", encoding="utf-8") as load_f:
         load_dict = json.load(load_f)
