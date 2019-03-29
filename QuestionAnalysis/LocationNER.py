@@ -68,7 +68,7 @@ def location_extract(text: str) -> list:
         word = seg.split("/")[0]
         nature = seg.split("/")[-1]
         # 含有key_year中的词
-        if nature == "ns":
+        if nature in ["ns", "nr"]:
             location_res.append(word)
     return location_res
 
