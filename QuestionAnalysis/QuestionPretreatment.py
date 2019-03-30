@@ -11,7 +11,9 @@ from TemplateLoad.QuestionTemplate import load_template_by_file
 from SimilarityCalculate.SemanticSimilarity import deepintell_api_asy
 from QuestionAnalysis.KeywordNormalize import (time_word_normalize_local, time_word_normalize_web,
                                                district_word_normalize_local, district_word_normalize_web)
+from SimilarityCalculate.SentenceSimilartity import edit_distance
 import copy
+import time
 
 
 # ltp对关键词的抽取与识别
@@ -84,11 +86,22 @@ def find_question_match_template(ab_question, template_sentence_type):
             key_ch = fqc.split(" ")[1]
             sentence = sentence.replace("(" + key_en + ")", key_ch).split("--")[0]
         temp_sentence.append(sentence)
-    input_pairs = [{"sent1": ab_question, "sent2": sentence} for sentence in temp_sentence]
-    score_list = deepintell_api_asy(input_pairs)
-    score_list.sort()
-    highest_index = score_list[-1][1]
+    # deepintellAPI
+    # input_pairs = [{"sent1": ab_question, "sent2": sentence} for sentence in temp_sentence]
+    # score_list = deepintell_api_asy(input_pairs)
+    # score_list.sort()
+    # highest_index = score_list[-1][1]
+    # match_template_sentence = ts_questions[highest_index]
+
+    # 编辑距离
+    start_time = time.time()
+    score_list = edit_distance(ab_question, temp_sentence)
+    end_time = time.time()
+    print("time:"+str(end_time-start_time))
+    print("sentences_score"+str(score_list))
+    highest_index = score_list[0][1]
     match_template_sentence = ts_questions[highest_index]
+    print(match_template_sentence)
     return fq_condition, fq_target, match_template_sentence.split("--")[0], ts_answers[
         int(match_template_sentence.split("--")[1])]
 
