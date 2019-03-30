@@ -40,10 +40,11 @@ def frequent_question_normalize(dir_path: str):
                     .replace("\ue63c", "").replace("\u3000", "").replace("\n", "，").replace(" ", "").lstrip("，")
                 table_content[i_line][-2] = table_content[i_line][-2] \
                     .replace("\u3000", "").replace("\n", "，").replace(" ", "")
-                if "贵校" in table_content[i_line][-2]:
-                    table_content[i_line][-2] = table_content[i_line][-2].replace("贵校", school_name)
-                else:
-                    table_content[i_line][-2] = school_name + "，" + table_content[i_line][-2]
+                # （测试集）添加学校
+                # if "贵校" in table_content[i_line][-2]:
+                #     table_content[i_line][-2] = table_content[i_line][-2].replace("贵校", school_name)
+                # else:
+                #     table_content[i_line][-2] = school_name + "，" + table_content[i_line][-2]
                 function_logger.debug(str(table_content[i_line]))
         function_logger.info("读取%s的常用问题集完成！" % school_name)
         function_logger.info("开始写入%s的常用问题集..." % school_name)
