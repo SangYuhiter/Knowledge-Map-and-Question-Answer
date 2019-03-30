@@ -79,6 +79,8 @@ def text_to_year(text: str)->list:
     :param text: 文本
     :return: 年份列表
     """
+    if text == "":
+        return []
     time_res = time_extract(text)
     return [year_normalize(msg) for msg in time_res]
 

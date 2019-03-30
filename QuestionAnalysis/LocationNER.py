@@ -81,15 +81,22 @@ def text_to_location(text: str) -> list:
     :param text: 文本
     :return: 地点列表
     """
+    if text == "":
+        return []
     location_res = location_extract(text)
     # print("地点词识别结果"+str(location_res))
     return [province_normalize(msg) for msg in location_res]
 
 
 if __name__ == '__main__':
-    # load_location()
-    texts = ["黑龙江省哈尔滨市", "黑龙江省", "哈尔滨市",
-             "黑龙江哈尔滨", "黑龙江", "哈尔滨"]
-    for text in texts:
-        location_list = text_to_location(text)
-        print(location_list)
+    pro_dict,city_dict = load_location()
+    print(len(pro_dict))
+    print(pro_dict)
+    print(len(city_dict))
+    for key in city_dict:
+        print(city_dict[key])
+    # texts = ["黑龙江省哈尔滨市", "黑龙江省", "哈尔滨市",
+    #          "黑龙江哈尔滨", "黑龙江", "哈尔滨"]
+    # for text in texts:
+    #     location_list = text_to_location(text)
+    #     print(location_list)
