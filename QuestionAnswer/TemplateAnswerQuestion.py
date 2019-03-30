@@ -15,10 +15,12 @@ from InformationGet.MysqlOperation import mysql_query_sentence
 
 
 # 传入问题使用模板回答问题
-def answer_question_by_template(question: str)->tuple:
+def answer_question_by_template(question: str, school_flag: int = 0, school_name: str = "")->tuple:
     """
     分词-》提取关键词、抽象问句-》抽象问句匹配模板-》模板构造sql语句-》sql语句返回查询结果-》查询结果构造模板输出
     :param question: 问题
+    :param school_flag 学校标志位，是否指定默认学校
+    :param school_name 指定的默认学校名
     :return: 中间结果词典，最终答案列表
     """
     # 保存中间结果
@@ -28,6 +30,9 @@ def answer_question_by_template(question: str)->tuple:
     ab_question = question_abstract(segment_list)
     mid_result["ab_question"] = ab_question
     keyword = question_analysis_to_keyword(segment_list)
+    # 修改默认学校名
+    if school_flag:
+        keyword["search_school"] = school_name
     mid_result["keyword"] = keyword
     keyword_normalize = question_keyword_normalize(keyword)
     mid_result["keyword_normalize"] = keyword_normalize
@@ -61,7 +66,7 @@ if __name__ == '__main__':
     main_logger.info("start...")
     test_question = "哈工大前年软件工程石家庄招生人数？"
     main_logger.debug(test_question)
-    test_mid_result, test_result = answer_question_by_template(test_question)
+    test_mid_result, test_result = answer_question_by_template(test_question, 1, "清华大学")
     for mid in test_mid_result:
         main_logger.debug(str(mid)+":"+str(test_mid_result[mid]))
     main_logger.debug("查询结果：")
