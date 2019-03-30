@@ -94,14 +94,9 @@ def find_question_match_template(ab_question, template_sentence_type):
     # match_template_sentence = ts_questions[highest_index]
 
     # 编辑距离
-    start_time = time.time()
     score_list = edit_distance(ab_question, temp_sentence)
-    end_time = time.time()
-    print("time:"+str(end_time-start_time))
-    print("sentences_score"+str(score_list))
     highest_index = score_list[0][1]
     match_template_sentence = ts_questions[highest_index]
-    print(match_template_sentence)
     return fq_condition, fq_target, match_template_sentence.split("--")[0], ts_answers[
         int(match_template_sentence.split("--")[1])]
 
@@ -180,7 +175,6 @@ def question_analysis_to_keyword(question_segment_list):
             keyword["search_table"] = "admission_plan"
         elif word.find("录取分数") != -1 or word.find("分数线") != -1 or word.find("分数") != -1:
             keyword["search_table"] = "admission_score"
-    print(keyword)
     return keyword
 
 
@@ -195,7 +189,9 @@ def question_keyword_normalize(keyword):
         else:
             keyword_normalize["search_table"] += "_pro"
     # 年份（2017年、17年）
-    keyword_normalize["search_year"] = time_word_normalize_local(keyword_normalize["search_year"])
+    year_normalize = time_word_normalize_local(keyword_normalize["search_year"])
+    if year_normalize!="":
+        keyword_normalize["search_year"] = year_normalize
 
     # 高校（全称与简称）
     c9_dict = {"北京大学": "北京大学", "北大": "北京大学", "北京大学医学部": "北京大学医学部", "北大医学部": "北京大学医学部",
@@ -211,7 +207,9 @@ def question_keyword_normalize(keyword):
     if keyword_normalize["search_school"] in c9_dict:
         keyword_normalize["search_school"] = c9_dict[keyword_normalize["search_school"]]
     # 地区
-    keyword_normalize["search_district"] = district_word_normalize_local(keyword_normalize["search_district"])
+    district_nornalize = district_word_normalize_local(keyword_normalize["search_district"])
+    if district_nornalize != "":
+        keyword_normalize["search_district"] = district_nornalize
     return keyword_normalize
 
 
