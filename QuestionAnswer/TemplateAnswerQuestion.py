@@ -48,16 +48,20 @@ def answer_question_by_template(question: str, school_flag: int = 0, school_name
     result = []
     result_edit = []
     if mysql_string == "":
-        result_edit.append("问句条件词不够，无法构建查询语句")
+        result_edit.append("问句条件词为空，无法构建查询语句")
     else:
-        result = mysql_query_sentence(mysql_string)
-        if len(result) == 0:
-            result_edit.append("查询结果为空！")
+        # 若只有学校一个关键词
+        if "and" not in mysql_string:
+            result_edit.append("问句条件词只有学校，查询过宽！")
         else:
-            mid_result["search_result"] = result
-            for item in result:
-                answer_string = build_mysql_answer_string_by_template(match_template_answer, item)
-                result_edit.append(answer_string)
+            result = mysql_query_sentence(mysql_string)
+            if len(result) == 0:
+                result_edit.append("查询结果为空！")
+            else:
+                mid_result["search_result"] = result
+                for item in result:
+                    answer_string = build_mysql_answer_string_by_template(match_template_answer, item)
+                    result_edit.append(answer_string)
     return mid_result, result_edit
 
 
