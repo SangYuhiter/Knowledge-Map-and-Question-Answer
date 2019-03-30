@@ -114,18 +114,24 @@ def district_word_normalize_web(district_word):
 # 时间词正则化(本地实现)
 def time_word_normalize_local(text: str)->str:
     year_list = text_to_year(text)
-    return str(year_list[0])
+    if year_list:
+        return str(year_list[0])
+    else:
+        return ""
 
 
 # 地点词正则化(本地实现)
 def district_word_normalize_local(text: str)->str:
     province_list = text_to_location(text)
     # print(province_list)
-    province = province_list[0]
-    if "内蒙古" in province or "黑龙江" in province:
-        return province[:3]
+    if province_list:
+        province = province_list[0]
+        if "内蒙古" in province or "黑龙江" in province:
+            return province[:3]
+        else:
+            return province[:2]
     else:
-        return province[:2]
+        return ""
 
 
 if __name__ == '__main__':
