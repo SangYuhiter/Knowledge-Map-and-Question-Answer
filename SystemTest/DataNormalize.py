@@ -40,6 +40,7 @@ def frequent_question_normalize(dir_path: str):
                     line["answer"] = row[4].replace("\ue63c", "").replace("\u3000", "").replace("\n", "，")\
                         .replace(" ", "").lstrip("，")
                     fqa_lines.append(line)
+            fqa_lines.pop(0)
         function_logger.info("读取%s的常用问题集完成！" % school_name)
         function_logger.info("开始写入%s的常用问题集..." % school_name)
         with open(dir_path + "/预处理/pickle/" + school_name, "wb")as p_file:
@@ -52,9 +53,9 @@ if __name__ == '__main__':
     main_logger = MyLog(logger=__name__).getlog()
     main_logger.info("start...")
     question_set_dir = "../InformationGet/Information/大学/常问问题集"
-    frequent_question_normalize(question_set_dir)
-    # with open(question_set_dir + "/预处理/pickle/" + "上海交通大学医学院", "rb")as p_file:
-    #     data = pickle.load(p_file)
-    # for q in data:
-    #     print(q)
+    # frequent_question_normalize(question_set_dir)
+    with open(question_set_dir + "/预处理/pickle/" + "上海交通大学医学院", "rb")as p_file:
+        data = pickle.load(p_file)
+    for q in data[:10]:
+        print(q)
     main_logger.info("end...")
