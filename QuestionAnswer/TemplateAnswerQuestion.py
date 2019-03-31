@@ -39,6 +39,10 @@ def answer_question_by_template(question: str, school_flag: int = 0, school_name
     template_sentence_type = keyword_normalize["search_table"]
     fq_condition, fq_target, match_template_question, match_template_answer \
         = find_question_match_template(ab_question, template_sentence_type)
+    # 修改模板框
+    if school_flag:
+        if "(school)" not in match_template_question:
+            match_template_question = "(school)"+match_template_question
     mid_result["match_template_question"] = match_template_question
     mid_result["match_template_answer"] = match_template_answer
     mysql_string = build_mysql_string_by_template_and_keymap(match_template_question, template_sentence_type,
@@ -48,7 +52,7 @@ def answer_question_by_template(question: str, school_flag: int = 0, school_name
     result = []
     result_edit = []
     if mysql_string == "":
-        result_edit.append("问句条件词为空，无法构建查询语句")
+        result_edit.append("问句条件词为空，无法构建查询语句！")
     else:
         # 若只有学校一个关键词
         if "and" not in mysql_string:
