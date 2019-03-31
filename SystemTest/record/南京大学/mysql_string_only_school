@@ -1,0 +1,3889 @@
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果平行志愿已经被贵校投档了，专业有愿意被调剂，请问这样还不会被退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校的拔尖计划是怎样的选拔形式呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次有以下要求：以下各专业招生只招收该校测试合格的学生请问这里测试合格具体指什么？是指自主招生和综合评价？还是要进校后在举行测试？谢谢老师回复！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否在考生服从专业调剂且满足报考条件的前提下执行提档及录取政策呢？针对国家专项也是这样吗？如果调剂是在省内指标范围调还是全国范围呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+色弱会不会被调剂到限报的专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我通过了贵校的励学计划第二档，但我不想选择第一志愿想选择第二志愿可以吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我通过了贵校的第二档励学计划，嗯，但我想选择第二志愿，不选择第一志愿可以吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我是浙江的考生，想咨询下关于体检结果为色盲或色弱的情况，贵校哪些专业不能被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果报考南京大学，被提档，而且体检合格，服从调剂。不会因分数较低而被退档吧？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我获得南京大学励学计划一等优录政策，且高考分数达到我省本一线以上，请问我什么时间、哪个批次报考南京大学？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校入学后如欲在全校范围内转专业，需要满足那些条件？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问题目
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我是黑龙江省的考生，我想咨询一下，如果服从专业分配，投档后，是否可以保证录取不退档？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，体检合格，投档后，专业志愿不满足的情况下，如果服从志愿调剂，但是本省的其他专业已满，是追加计划呢？还是退档呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+按大类录取学生后，怎样再分专业？是不是按学生意愿分专业？再分专业的依据是什么？是不是像高考一样，再竞争考一次专业。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生是按大类招生吗？有哪些大类？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问云南的大厚本中，贵校的专业代码有的是数字（例05）有的是字母呢（例ga),有什么含义吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂会被退档吗？可以转专业吗，机会大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，新生入学后是否可以申请转专业？或是有条件地转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，在安徽排名650，报考贵校哪些专业可能性较大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学校的宿舍分配是怎样的？在鼓楼校区学习专业可以在仙林校区住宿吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我高考662，省排名357-377，上贵校有多大把握
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的宿舍有无独浴、热水？几人间？可否自选或调整宿舍？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高考645.排名3700左右，通过国家专项计划能否进入贵校较好专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！在了解贵校招生计划时，我发现贵校对工商管理类这一专业并没有详细介绍。所以，想咨询一下这个专业的详情，不知老师能否详尽地告知？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+总分377，物A+化A，排名4294，请问能报考贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您校匡亚明班是否在开学后，在所有新生中招录？另外，您校新生入学后可以参加哪些二次选拔的实验班？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+通过国家专项计划报考南京大学有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问您校对新生入学后申请调专业有什么规定？什么时间可以申请调专业？有多少比例的学生可以成功调专业？谢谢了
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问调剂的专业是学校内所有专业还是招生计划中该省专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校体检要求里的一和四是怎样区分的。比如说内分泌及代谢系统疾病
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校简章里说，服从专业调剂提档不退。我家孩子色弱，限报许多专业，请问提档不退对我们适用吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+中国国际广播电台CRI杯全球中学生多语种数字化故事大赛优胜奖，算不算学科竞赛特长
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问学籍登记表是去哪里要呀？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我们还没模考，成绩怎么填？填月考成绩填哪几次的呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大是否有要求：自招报名时必须将南大排在第一志愿，否则不接受报名。请老师明确一下，是否有这一要求，以便我们报名时按要求操作。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我听说贵校只会给自招第一志愿报考南大的学生通过初审，是吗，在别的学校咨询的时候，老师说，自招志愿不分次序，在操作中我们也发现这个问题，请问，1、如何体现我填报的第一志愿；2，南大只接受自招第一志愿报考的考生吗？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，若通过贵校的自主招生，以后还能否转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好,请问贵校对初审人数有限额吗?谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，有全国决赛国家级三等奖的往届生，可以报贵校自主招生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问复读生可否参加贵校自招报名？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+都写介绍自己和对专业的看法吗？有具体格式吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问：我在自主招生报名系统里已经填好资料了，突然发现自己刚开始注册学信网账号时，把身份证号码填错了，怎么办？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请教老师：我孩子围棋业余5段，省赛女子个人第2名，想申报贵校自主招生，可以吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否每个省固定指标，辽宁省几个指标？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我曾获全国高中数学联合竞赛二等奖（中国数学会颁发）能否报考贵校
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问基础学科强化班的数学与数学基地班有什么本质上的区别？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许同时申报几所大学？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我家小孩只有钢琴、书法、电子琴10级，在四星级重点高中就读，成绩在年级0%-15%之间，阿能报考贵校？谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果报考南京大学自招，还可以报考几所高校自招，南大有限定吗？是上面讲的只能报3所吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报名南大自主招生从阳光高考网入口进入还是要从南大的网站报名入口进入？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师;您好.请问一下招生章程中考生须在所在省规定批次以第一志愿填报南京大学,方可享受相应优录政策是什么意思?这个志愿是指高考志愿还是自主招生志愿.谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取批次是在一本之前吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报名资料中的个人自述是否可以打印？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问个人自述支持手写吗？学校成绩单是否要求特定考试如期中期末？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我是哈三中的学生，成绩特别优异，但无奖项，请问能否有资格报考贵校自主招生？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学校说没有学籍登记表，怎么办？这是怎样的表格？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校在初审时是否会根据各专业在各省的计划招生人数对名额进行限制？也就是说提交材料的学生是在全国范围内择优录取还是在省内竞争？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自招资料是先学校盖章才能上传吗？获奖证书也要上传学校盖章的吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，学生平时成绩很好，但是没有参加过全国性的竞赛，也没有比如奥数、新概念等竞赛的奖励，请问有资格自主招生能报名贵校吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！贵校对自招报名学校数目有无要求？是几所？多谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校同意同时申报3所学校，考试时间可能会冲突，可以调整时间参加两所学校的考试吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师我儿子能报贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是理科生，能报考南京大学法学专业吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+已有手写个人陈述邮寄贵校，还需网上填写个人陈述吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校允许同时个人申报几所高校
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+信息学奥林匹克联赛省一证书，可以报名么！？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问可以同时申请两个学校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不知道名次是多少？如何可以查询？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+新闻实验班跟普通新闻专业相比有什么优势？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问新闻实验班在高考普招中还有招生吗？如果有，招生人数约为多少？或者是进入大学后可以申请加入吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+限报3所自主招生学校是怎么要求，可以是南京大学在前三个，第四是南开大学（限报5所），第五北京大学（限报10所），行吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，专业填服从，是从自主招生中的专业调剂还是从全部专业中调剂，能报几个专业，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，专业填服从，是从自主招生中的专业调剂还是从全部专业中调剂，能报几个专业，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校数学基地班有哪些专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+信息学省一等可以报贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高考选修科目成绩与自主招生有何影响
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自报名报了南大还可以报其他学校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问获得全国奥赛省二等奖，可以报贵校自主招生吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如可以,何时可以申请?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校限报几所自主招生学校？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我打开的志愿填报页面上找不到南京大学。请问是什么原因？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问可以同时填报几所学校吗？有限制吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：您好！感谢您在百忙之中回答我的问题请问自招时所报的专业和高考实际报名专业可以不一样吗？是不是被该专业自招录取的话只能报这个专业但没录取的话可以报别的专业呢？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+没参加竞赛，学习成绩市级排名前3名能报吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+没有小语种基础可以报考小语种专业吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+总分640，省排名690，能冲一冲南大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+何时可以向南大招办咨询是否录取呢？老师？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+604分可不可以上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南京大学每年学费多少？为什么计划书上没写。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问654分，位次1089报考贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+何时可以向南大招办咨询是否录取呢？老师？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师农村自主选拔的考生能否迁户口？教育部说可以是吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考本校服从调剂有可能被退档吗，有专业级差吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+北约的同学在各高校网站上填报高考分数，请问南京大学农村自主选拔考生需要填报分数吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我全省排名354名，请问可以进南京大学吗，又能报哪些专业呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有相关的hnd合作项目么？可以介绍一下相关情况吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂是否会被退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问是选择自主招生填报的志愿还是报考指南中农村专项计划的志愿中的三个？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我第二志愿报考南大，是不是分数要高很多。而且贵校是不是基本录取第一志愿考生？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+对于贵校的专业，若填写“服从专业调剂”，是否该考生被直接调剂，本人的专业志愿不参与编排；还是统一先按成绩依次编排录取后，若都未录取再调剂其专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进校后若需转专业要求是什么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贫困专项可否转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+想知道贵校历年国防生录取线，网上没查到。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主选拔中的农村专项计划考生达到协议书要求，请问填报志愿时填报哪个志愿？是特殊批吗？只报南京大学可以吗？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+几号会有？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂，会不会被调剂到医学专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！贵校是否实行主修和辅修制度？关于主修和辅修课程是如何安排的？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲考生可以报考南京大学哪些具体专业(便于考生选择填报)?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提前批次是不是国防生或毕业定向
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！贵校章程说：只招收第一志愿考生。而我省平行志愿说：第二顺序志愿与第一顺序志愿一样的，不受歧视，分数优先。咋回事？求教哟。比如：我第一志愿报清华，第二志愿报贵校；清华不能投档，贵校也不接受呀？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校在录取新生时对英语口语成绩有何要求？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国家二级运动员加分，在录取专业时是否一加到底
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校政策性加分在选专业时计算在内吗？本着什么原则调剂？转专业有什么特殊要求吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，1请问贵校转专业有什么特殊要求吗？2.请问贵校政策性加分在选专业时计算在内吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一模北京排名2000，能否被贵校录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：1、专业志愿录取规则怎样的？2、是否是优先检索填报的所有专业后再考虑服从调剂专业？3、假如甲同学没填报某专业而服从专业调剂且分数比填报了第一专业志愿的乙同学还高的情况下，优先录取谁？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：视力镜片度数受限不宜就读专业可以填报吗？专业录取时怎样对待？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问，在实行平行志愿投档方案的省份，被提档到该校后，以何种方式录取？是从高分到低分不分志愿录取呢还是只录取第一志愿考生。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我知道自主招生不占本省招生计划，但政策性加分如果够贵校投档线，是否占本省计划？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，色盲读你校有什么专业限制？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好!贵校章程表示按加分后专业排序，那请问，享受加分的占用招生计划吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校在录取投档与专业录取方面是否与应届生平等对待？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学校每层楼道提供公用免费的普通热水吗？一般中学都有这样设备的。洗澡是购票还是免费的？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+本科期间有参与实验与科研的机会吗？读研与出国比例多吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+按大类招生，若不够自己所报专业分数，被调剂到其他与所报专业相差较大的专业，入学后能否马上申请转专业？如果大一大二转专业，课程是公共课吗？用自己单修课程吗？影响毕业时间吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问不政审能报提前批吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我在教育部2012评估排名中没有找到。意思是很靠后吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好。请问高考成绩556高于一本线49分，录取可能大不大？贵校热门专业是什么呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+少数民族加分后649，排名3028，能否报贵校？适合什么专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问超过一本线72分，全省75名，报南大新闻系有风险吗？因为只录取一人，所以有点担心，谢谢您
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能冲吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问一下，贵校对色弱考生报考时，哪些专业有限制？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问我的分数可报考贵校建筑系否？另外贵校建筑系外，我可报考什么专业？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是学体育的体育没过高考143怎么才能上贵校呢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校可以么.全省位次1669
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我在填报特殊志愿后，还填本一普通志愿吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大的老师你好，我高考分数601，含政策加分，超一本线152分，全省排名730左右，贵校对政策加分一认到底吗？，请问我报考贵校有风险吗？又能选上什么专业？谢谢
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学2012和2013提前批分别是什么专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问服从调剂后没能进入喜欢的专业进入大学后是否有机会转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+每年招生老师会下来与考生签预录取协议，到时录取能保证吗？专业能保证吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校分配专业时是分数清还是专业清？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少？分专业是以实际考分还是含政策加分排序？是否有级差？谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校调剂范围是该省招生计划中有余的专业名额，那么如果没有剩余会被退档吗？如果会，这不是与贵校接档不退矛盾吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+投档服从调剂是否退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，排名多少录取分多少能上该校，招生计划数
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好：是否有专业级差，如果有，是多少？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：若进入调剂状态，是先安排分数高的同学的调剂，再安排下一个分数同学的专业志愿；还是先安排下一个分数同学的专业志愿，待所有同学的正常专业志愿安排完后再一起进入调剂状态？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+色弱不能报考贵校什么专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！不好意思，请解释一下：10-12年1:1线与线差分别为：638/110,655/106,633/125没看懂，多谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校设置专业级差吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问已具备保送和自主选拔生资格的考生,是否参加全省高考裸分排名?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校后可转专业吗？需要怎样的条件才可转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校设置专业级差吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一：假设选择服从以下专业调剂，但是分数都达不到所选的专业调剂的要求，是会被退档还是该档案投向该批次的下一所学校？二：是否必须先填满专业志愿方可填写服从专业调剂？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+决定是否能报考贵校，一般是参照高考成绩在全省排名来确定，但你校在这之前已确定了部分保送和自主选拔生，用去了一定的招生名额，而他们有降分提档的政策。请问我应该如何来确定填报志愿的参照标准？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的估分可能刚到录取线，在自主招生时，我获得了推荐报考资格，请问大概能到经济专业的分数吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下，贵校历史系准备在陕招生多少？？？分数线大致会是多少？？？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！跨大类转专业的比例是多少？不同学院也可以吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果高考成绩没有达到投档线，加上加分则会超出投档线，选择专业时是按照投档线的分数计算，还是按照加分后的分数计算？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问你校哪些专业对色弱有限制啊？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+想向精算方向发展应报考贵校什么系？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师自招加分可以用来选专业吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取时，是专业志愿优先还是分数优先？如：A考生以甲专业为第一志愿，且甲专业的一志愿报考人数不满足招生计划；B考生第二志愿为甲专业，减去专业级差后分数仍大大高于A考生。问：先录A考生，还是先录B考生？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问获得贵校自主招生资格的考生录取时占用正常录取计划名额吗，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+看了贵校的招生章程，有点没明白。贵校是分数优先+级差的专业录取方式吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大对符合教育部规定的具有加分条件的考生，按照加分后的成绩调档及参与专业排序.对各省（自治区、直辖市）教育主管部门规定的政策性加分是不是认可？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师请问：国防生到毕业的时候不想进部队，想考研怎么办？退出部队的费用，可以退出国防生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+入学后第二年能否调整专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+宇宙学属于哪个专业？622报贵校是否有希望被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问多少分可以报贵校贫困专项招生
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校可在全校范围内转专业吗？如何转
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校的中外合作办学中的中加班计划回到国外上学吗？若是则学费多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+把贵校放在第二个志愿，能被录取吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+587分可以报贵校经济类专业么？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在调档后，会不会退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：关于贵校录取规则：4）学校实行按志愿录取。在第一志愿考生线上生源不足的情况下，学校方录取第二志愿及以后志愿报考我校的考生。，怎样才算第二志愿？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防招生分数线与正常录取有多少差距，从贵校目前掌握的情况看预计高出一本线多少？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：肝功正常，表面抗原阳性，是否能报考您校？另：如果去您们的附属医院求职，是否对表面抗原阳性者拒录？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+麻烦问一下，体育特长生，高出当地一本线63分，能满足第一自愿吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，有意报考贵校，请问贫困地区定向招生的分数线怎样把握？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校能够转专业吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+麻烦问一下，体育特长生超过当地一本线63分，选择专业的时候有什么限制吗？能满足第一自愿吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校国防生的歌专业，对眼睛近视有要求么？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+642分，过一本线102分，上贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校录取后是否必须转户口？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校的专业调剂是在选报专业中调剂还是在所有专业中调剂？谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好!贵校调档比例是否控制在招生计划的100%-120％以内
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我裸分618，还有省三好的加分，请问我能被贵校录取的几率大吗？另外专业排名时是不是按裸分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我填了服从分配会退档吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提档后的选专业时，是裸分挑专业吗？，投档后，服从调剂时，是否会退档？，是否有专业级差？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，南京大学录取时的有专业级差吗？如果有，具体是多少。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个校区，每个校区专业是怎么分的？新生入哪个校区？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果服从专业调剂且身体没问题，提档后会退档吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：在进行专业志愿录取时，贵校是按照分数优先+专业志愿级差原则录取吗？即分数高的学生优先选择专业，如果第一志愿不够分，减级差后看第二志愿，第二志愿不够分，再看第三志愿，依次类推.....?谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问我从小学起视力就很低（高考体检双眼均为3.9且不能矫正），能报贵校吗？什么专业比较没有限制？恳请贵校能给我些建议。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问报考贵校填服从调剂专业后录取，而被录取的专业不喜欢，可以在校学习一段时间后转专业不？如果可以，有几种转专业的方式。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！《体检指导意见》里有不宜就读的专业内容，且明确：供考生参考，学校不得以此为依据拒绝录取达到相关要求的考生。对于考生“不宜就读”的专业，究竟能不能报考？如果达到了相关要求，会不会因此影响录取？谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想请问一下，如果有色弱，贵校有哪些专业是不能报的？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问调档后若服从调配是否可能退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+投档后专业选择上怎样程序,是和计划招生一起排序还是自主招生单独排序,自主招生专业上有名额限制吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（比如说中南大学的综合素质测评）
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校专业调剂是按整个学校的专业进行调剂还是按照在当地招收的专业中进行调剂。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提档后专业服从调剂是否能保证不退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大投档是实考分还是按加政策性加分后的总分投档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学校有年龄限制吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我省能报贵校的6个专业志愿，我想知道如果孩子被贵校录取后，贵校如何安排录取学生的专业志愿。谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问清华艺术二级证书认可吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大女生寝室如何？几个人住？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生的录取分数线和非国防生的录取分数线有区别吗？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1.可转专业吗？，2.可学第二专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+色弱生被高校提档后若所报专业均未被录取，非限报专业又都录满情况下，服从调剂是增加名额录取到非限报专业还是被调剂到限报专业或是被退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进校后如果觉得专业不合适，可以转专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，北京优干加分贵校提档与选专业时都承认吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类限报，具体指你校什么专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问服从调剂是否可能调剂到赴藏工作专业？赴藏工作专业能否转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+填好志愿提交后可以修改吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校大一的学习是按大类还是按每个专业学习？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大还有点招名额吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+湖北考生667，专业选择空间大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好!我是广东广州的考生.成绩638(裸分),全省排名240.请问我成功报考南京大学(服从专业调配)的几率是多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业有几次机会？本系的前百分之多少有转系希望？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！在贵校招生计划中，经济学类里面有金融工程，管理科学与工程类中又有金融工程，为什么呢？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问学校的宿舍配备如何？贵校有分数级差吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！我看见有贵校对某一位考生的回答是“进档后，服从专业调剂，不退档”。可贵校的招生简章上说“投档比例控制在120%以内”。那不就是说也有可能被退档吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，南大是按照政策性加分后的成绩录取的么？，，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿一填报贵校被录取有多大可能？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有哪两次转专业的机会呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校转专业困难吗？有什么条件呀？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进档服从专业调剂会不会退档，如果遭退档会是什么原因？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想了解一下贵校的匡亚明学院及其选拔方式。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能否报考贵校？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+383，排名2247，A+A，请问可以报考贵校吗，
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+第一批的提前批专业有哪些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考南京大学的研究生吗？每年有多少外校学生考入南京大学读研？二本生每年占多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校所说的承认加分是直接加分，还是加分投档，进行专业录取时再去掉加分？谢谢！我的是“省三好学生”。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+多大年龄以上就不能报考贵校了？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校所说的承认加分是直接加分，还是加分投档，进行专业录取时再去掉加分？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，南京大学重点专业有哪些，有没有详细介绍？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：进档后退档吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+想读电气信息类，就业如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我小孩高考642分，省排名并业485名，很想上贵校，有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:自主招生合格考生是否占用贵校在当地的招生计划?对未参加自主招生的考生(若达到贵校在当地调档线)录取有无影响?能否被录取?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！获得优录条件后，考分达到生源地一本并第一志愿填报贵校，是否一定被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂，退档吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问选小语种专业需不需要语言基础？小语种提前批进校的考生大概有多大比例？他们有没有语言基础？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前招生的计划是任何考生都可以报吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+模拟志愿填报时输入估计总分后出现“警告：未参加所有规定的必测科目的测试”是为什么？而我已参加所有五门考试，并且小高考为4A
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+模拟志愿填报时输入估计总分后出现“警告：未参加所有规定的必测科目的测试”是为什么？，而我已参加所有五门考试，并且小高考为4A
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大的专业调剂考试要求是否很严格？完全不同的专业间也可以调剂吗，还是有其他限制？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我的分数刚到该校的录取线，被录取的概率大吗？有专业可选吗
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我以获得C等优录资格，在自主招生批报考还需在本科一批一志愿报考贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业就业范围比较广?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！听说南京大学仙林校区很大，很美丽，学习风气很好，我是内高班的学生，很想上南京大学，已提前报了第一志愿，估分607分，有录取希望吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些学科按大科招生？（即入学一至二年后可再调专业）
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无基地班（实验班）？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势专业(国家一级重点学科)有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！能否介绍一下南大学生毕业后的就业率，就业渠道，主要就业城市？学生毕业后可以直接报考公务员吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：新闻传播类新生在哪个校区就读？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：本人在自主招生时已经获得优录资格，填志愿时应怎么做才能享受到贵校的优惠政策？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：你们公布的录取分数是实考分还是含加分？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校提档后且考生服从专业调剂，贵校是否能确保考生不被退档？贵校投档比例是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好!请问如果没有被提前批院校录取,就不影响自主招生录取对吗?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请教，，【《体检报告》视力一栏标明“视力受限：矫正度数200裸眼4.4”其他一切正常】应该避开咱校哪些专业？，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您辛苦了，我想问一下报考3个专业能在贵校不同院系之间吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+志愿之间的级差是多少？通过自主招生的考生是否有专业录取分数优惠？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我达到你校分数线，一本第一志愿报的你校特色专业（其它一本志愿均未填报），因不服从专业调剂而不能被你校录取，会不会成为“死档”而不能参加第二批录取？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我是足球一级运动员，请问如果上贵校可以学什么专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问填报提前批次的院校会影响获自主招生资格院校的录取吗？感谢您的回答。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，不好意思，还有一问题。获得自主招生优录资格的考生（非A等），是重新选择/填报志愿，还是按自主招生申请表中填写的志愿再填一遍？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:贵校在一志愿未满的情况下会考虑第二志愿。贵校在二志愿上加分吗？加多少分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，入校后，可否申请转专业？须满足哪些条件才能转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校的专业有线差吗？线差如何定？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校是否招生二志愿考生？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：贵校的新增专业是那些，前景如何？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南京大学招生章程规定“实行远程网上录取。根据各省（自治区、直辖市）考生报考情况确定调档比例或调档分数，调档比例一般控制在招生计划的120％以内。”那么请问施行平行志愿的省份，如果考生成绩刚刚达到贵校提档线，但是服从专业调剂的话，会退档吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：请问贵校有本硕博连读的专业吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如何获得南京大学优秀学生推荐资格？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+排名1190有望报考贵校吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我的问题：对各省政策性加分是如何规定的？如获国家二级运动员，提档、选专业承认加分吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：请问国际交流合作办学里的新生二次录取是什么时候开始报名，在那个网上可以查到具体情况，请老师把该网址发来好吗？我到处都没查到该信息，对这块还一点不了解。盼望老师您的解答。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问自主招生获B级，但省招考中心公示名单成绩为合格，这样会影响录取时投档吗？我家长已找过招考中心，他们说是教育部发的名单。能否请贵校老师帮助查证。非常感谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+获自主招生B级,但在我省招办公示名单测试成绩栏显示为合格，这样会影响录取时投档吗？已找过省招办，他们说是教育部给的名单。烦请贵校老师帮助查证一下。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生通过的学生（A、B等）若在高考中没有达到报考分数线那么排专业时怎么安排？加分排？裸分排？是和统招学生一起排还是自主招生学生单独排？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生通过的学生（A、B等）若在高考中没有达到报考分数线那么排专业时怎么安排？加分排？裸分排？是和统招学生一起排还是自主招生学生单独排？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+获得贵校自主招生推荐报考级别的考生，贵校未在教育部阳光高考平台公布，这样的话，各省市考试院就不会承认，那么在特殊类型批（自招批）即便报贵校，各省市考试院恐怕也不会向贵校投档。只在平行志愿A宝贵校，提档后，还能加分选专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！已获贵校专业加分，若达到校线，报第一志愿加分后，仍未录取，那么第二志愿录取还可以加分吗？以此类推，专业可以加几次分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校工科优势专业有哪些？其考研、就业前景如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业极差是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我623，能被录取吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校老师在向考生保证了可以在某专业予以录取是不是就意味着一定可以被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问若所报的专业因分数不够而必须要经过专业调剂时，南大会和学生协商来最终确定专业吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问:656分,可以报您校吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业调剂要加试吗？调剂的专业范围可以自己选择吗？单科分数有什么要求吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问录取结果何时出来？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问提档和选专业都要算加分吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校,有希望么?若进档,选择服从调剂,可以不退挡么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你们学校招收二志愿的考生吗？有没有志愿级差分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否占省计划名额？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，河北平行志愿专业有没有级差？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是浙江考生请问一下被贵校提档后如果填了专业服从调剂是不是一定不退档？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我高考622分,能报贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师进入贵校后可否调专业，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我这次高考没考好我想问下通过成人高考进入贵校成教院后，我能算贵校正式的学生吗？谢谢您
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：在提前批志愿填报表中有“军事类院校服从”、“公安警察类学校服从”、“航海专业服从”和“其它学校服从”四个选项，问国防生是归在“军事类院校服从”还是“其它学校服从”中？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生毕业分配趋向如何？哪个军区？哪个军种？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，请问贵校大一后可以转专业吗？一般比例为多少？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好~!请问贵校对于平行志愿省份是否有进档不退的承诺呢?但如果投档比例为1比1.05，且所有进档考生身体合格,服从调剂,那么如何落实这个承诺呢?多出来的那0.05还要被退吗??，谢谢您的回答
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不太明白什么是专业级差
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问河北省自主招生合格同学是否占用本省各专业招生计划？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿的5所院校的先后是否有分数级差?专业间是否有级差?分别是多少?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业，能提前知道被录取后分在哪个校区吗贵校如设有专科或者高职，一批我填报了专业服从调剂，会被调剂到专科或者高职吗在就读校区住宿还是去哪个区住宿请用肯定语告知谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果两考生分数一致而位次不同，那么贵校是按分数录取还是按位次录取？谢谢
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问入学后，若感觉专业不对口，能否再转专业？应如何转？容易吗？麻烦您了，谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不太明白何为优秀谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我考分647报贵校希望大吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我396，2500名，录取希望多大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+考649分能够报考贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，如何才能在四年本科中获得双学位
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若填“服从调剂”是否退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有预录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校强势专业及分数线
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业生在出国读研方面有哪些优势？读研主要去向？是否有报送国内或国外高校的读研机会？本科生是否有机会作为交换生出国学习？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问这样的成绩能上贵校的什么专业?，，谢谢解答!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校的中外合作办学情况?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考663分，全省排名358名，请问报贵校经济类专业能取吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了646，能否进入你们学校
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否可以转专业?能不能同时辅修其他专业,若可以,所获学位是否有同等效力.谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例为多少,若服从调剂，是否退档?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+资格线批次线提档线录取线高校以哪一个线为正规录取学生的谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问若不是在平行志愿第一栏中填写贵校，会的报考贵校造成什么影响吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校各专业的详细介绍在哪里可以找到
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+“强化班”采用所谓的推荐方式，违背了“公开，公平、公正”的原则，为这些所谓的重点中学的领导们留下了暗箱操作和弄虚作假的空间。据我所知，有些推荐生的推荐材料是不实的，有些被推荐人的学习成绩和其他能力在其所在学校只是中等偏上，能够得到推荐纯因权势和金钱在背后起作用。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校在转专业上有哪些规定？大类间可否转？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分560，可以报贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认二级运动员加分政策?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否设置专业极差
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高出重本线120左右报考贵校有风险吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问估分在610左右报考贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校老师，贵校可以转专业吗？具体章程？有无专业分数级差？多少？谢谢您。
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想要能通过成人高考进入贵校取得大学学历可以吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问成人高校招生计划是否列入国家计划内招生呢谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有本二吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的特色专业是？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大有哪些比较强的工科院系，系差大概多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的数学系实力如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问录取到贵校后如对所报专业不感兴趣，可以转学其他专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些专业的定向调剂呢？如果不选择定向调剂，只选择专业调配，当所报的专业不能满足时，有被退档的可能吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵大学的国防生是哪个省军区委托招生的？定向分配还是面向全军分配？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我在最好的高考博克里看了相关政策，决定报贵校，但不知道贵校情况，能否介绍一下：http://blog.sina.com.cn/s/blog_6598a8380100hjpm.html
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果甲、乙考生都被贵校提档，安排专业时，假如甲所报专业志愿都未被录取，减掉所有专业级差后其分数仍高于乙，并服从专业调剂，如果某专业有缺额，乙第一专业志愿所报正好是该专业，那么在此情况下先录取哪个？多谢
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+外语和对外汉语对英语口语的等级有何要求？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校欢迎往届大龄考生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我想问问，1。什么专业开设双学位，2。是从大几开始选择，3。需要经过选拔或考试吗？，4。两个学位的学习时间会不会有冲突。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强势专业有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是执行平行志愿的市，请问考生进档填服从是否会退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校中外合作专业的就业情况？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+市三好学生、优秀学生干部、少数民族等加分是北京市政策，不是教育部政策，南大录取提档、选专业承认吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我的问题是：在专业录取时，认可政策加分吗（或者说政策加分还有效吗）？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+本校有哪些优势专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有哪些提前批的专业以和报名时间、方法,是否与普通报考一样
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提前批有哪些专业？与本一批相同专业有何差异？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：2年后选专业，第一专业志愿都能满足吗？与分数是什么关系？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取时，是专业志愿优先还是分数优先？如：A考生以甲专业为第一志愿，且甲专业的一志愿报考人数不满足招生计划；B考生第二志愿为甲专业，减去专业级差后分数仍大大高于A考生。问：先录A考生，还是先录B考生？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！我已通过您校自主招生，若达到您校提档线能满足所填报的专业志愿吗？如降分优惠进入您校而所报专业又不能录取会退档吗？非常感谢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+往届大龄考生可以报考吗？达到分数线的话会被录取吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在津的招生计划？，专业录取的规则，提档是否会被退档？，新成立的三个学院怎么填报专业？，“大气科学”专业的就业方向？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校服从志愿是否退档？我考了677，3900名，报考是否有希望，或是否有退档风险？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问你们有没有专业级差。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不过她好想进你们学校，请问有什么冷门的专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，若分数高于重本线不是很多，根据专业级差，最终第三专业的分数低于重本线，是否会直接退档？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，文科391，历史A+政治A，可以报贵校工商类专业？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校转专业需要什么条件？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+对于贵校，省优干的加分与地区加分能否重加
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+物化双A+，5303名报考贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有本二专业嘛
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问你校提前批有那些专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，请问你校在确定考生的专业时，是否考虑照顾分（包括竞赛加分和少数民族加分）？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的强势专业是什么？，转专业有什么要求？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学匡亚名学院是什么意思？联办院系吗？是贵校的一个院系吗？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校数学属于优势专业吗？贵校优势专业有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一般贵校将考生退档是什么理由？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有什么有特别优势的专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好。1.贵校网站未给出08内蒙录取具体成绩，希望获得详细了解，以参考网报。，2.入校后,院系内专业是否如招生简章可自由选择,入校后转专业需满足哪些条件.，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问397双A能报考贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问397双A能报考贵校吗？贵校省内分数线是多少？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生已与学校签过协议,这次填志愿还要填该学校吗?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势科目是？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下南京大学特色科目或者比较强的专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势专业有哪些？能否介绍一下（就业率、师资等）？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校是否可以转系？如果可以，是否有任何限制？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+相关的优惠政策是指十么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校是否支持双学位？如果是，请问有没有专业限制？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我报了你校,但没填服从志愿调剂.，我又够你校的投挡线,但没达到我填的专业.这样我的档安何时退,我还有机会检索下一个志愿吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提档比例是多少？？，若服从调剂，是否会被退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1、我的考生体检信息卡上为:体检受限标准代码24、25；体检结论2—专业受限。请问：标准代码24、25是具体指哪些专业受限？，2、我想报考南京大学的大气专业，是不是属体检受限标准代码24、25的受限专业之一，请一定赐教，因为我很想填报此专业。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+667分，6061名可以进贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我填了专业服从,还会被贵校退挡吗?如果会,退挡比例是多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生的分数比正常录取要低么？大概低多少？，谢谢老师！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+问:是否进档后只要是身体条件符合要求且服从调剂就不退档,
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1.国防生毕业后被分到哪（会是很偏的地方么）？要在部队干多少年？，2.国防生分数要求是不是偏低，大概低多少？，，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，贵校在什么情况下会退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问这生物技术学什么,就业前景如何呀?相对贵校其他转业录取分数高么?需要哪方面能力比较强的学生?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在浙江的专业极差是多少？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的其他专业是否可以转到医学专业,有无要求或限制?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿要拉开梯度，那么这个梯度怎么把握？拉开多少分才算拉开梯度了呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:填服从专业调剂,会调剂到最冷门、分数最低的专业吗？贵校对填服从专业调剂的考生是如何进行专业调剂的？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校的优势专业·特色专业或说很具竞争实力的专业是什么？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+对于转专业有要求吗？专业有级差吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！排名全省多少可以报考贵校？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问在全省排名多少可以报考南大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校有级差么？是多少？若无极差，专业间是分数优先还是志愿优先？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否给第二志愿填报南大的高分考生（第一志愿没被录取）留了名额？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我是一名近视500度左右的考生,可否报考贵校的法学专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校的代码是什么？网上查询的是五位数，志愿上规定是四位数，请问您能提供其她院校的代码给我吗？万分感谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+2本的分数能报贵校吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+博思考试在社会上的含金量怎么样
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在浙江投档比例是多少、专业级差是多少、是否有提前批招生
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下你们有什么热门的专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分655,上南大有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，分专业录取时是否考虑各项政策加分，如自主招生、奥赛等的加分。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大比较好或重点专业有那些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，如果服从志愿调剂，退档比例大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，应如何查询贵校的详细信息，例如：博士点等
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校，1.转专业的条件有哪些?，2.比例一般为多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的哪些专业比较强？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在录过程中对灾区学生有无优惠政策？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好我估分570能上南京大学吗谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高出一本线多少分可以考虑报考贵校？贵校特色专业有哪些？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+估分620-625请问报贵校能进吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+语言类一般考哪些职业资格怔
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校提前批招生是否只招国防生？若不是，还有哪些专业可供普通考生填报？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校提前批招生是否只针对国防生？若不是，请问有哪些专业可供普通考生填报？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时是按照高考实际裸分排队,还是按实际分数+高考政策加分入取
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校入取时是否有专业级差?(辽宁)
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好,请问你们当地的咨询老师怎么也联系不上,打电话老是没人接,发信息也不回应
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问贵校可以转专业吗？转时可不可以转系？转转业时的考试都考哪些内容？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我在有关资料中看到，你们调档线一般是在120%左右，那么高出的这20%会影响我被其他院校录取吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+大一新生在哪个校区？同校区还有哪些学生？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学的工科有多强？毕业后的就业怎样？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+与贵校签约的部队是什么单位？毕业后就业是否会到哪些部队或单位？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大的转专业政策
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1.对于高考失误但入校后成绩优秀的学生,贵校有何重点培养方案?2.转专业情况如何?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校关于航空航天的专业情况如何？？？？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+女生报考你校可以吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1贵校国防生毕业去向主要是哪里？，2国防生的录取分数同第一批次相比，那个分数线更高？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+估分590分报贵校录取可能性多大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+被贵校提档（填服从）（平行志愿）退档可能性有多大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+各专业多少人，超过一本线多少分能报。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，请问贵校如何录取平行志愿A、B、C？，如果甲：分数621，B；乙：分数620，A，优先录取谁？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业在录取时有无级差。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问你校招生章程规定符合教育部规定的具有加分条件的考生，按加分后的成绩调档及专业录取。如果是省级招办规定的如少数民族加分，你校在专业录取时认可吗？你校招生章程中：经教育部备案的有关省（区、市）增加的政策性照顾项目及分值，包括少数民族加分吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+基地班如何招生，只在有计划的地区招生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。请问贵校对于本科生转专业有什么要求？另外本科阶段有没有双学位或是辅修专业的机会？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问参加过贵校强化班的自主招生考试，在高考录取时会作参考吗？有无优先？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+通过自主招生（加分）后才能录取考生，如何安排专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占用已公布的招生计划吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想请问一下，如果我服从专业调配入校，以后还有机会调整专业吗？，另外还想问一下大气专业和软件专业的就业情况。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+三、患有下列疾病者，不宜就读学校有关专业，，，要是我填报了，在分数达到要求情况下还会录取吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一眼是正常5.1，另一眼只能矫正到4.7虽然达到了指导意见说说的，但是指导意见后面还说了“此部分内容供考生在报考专业志愿时参考。学校不得以此为依据，拒绝录取达到相关要求的考生。”，贵校会怎么执行呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校分配专业时承不承认加分?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿的1，2志愿之间是降分录取吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问进档后服从志愿是否不退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+问412，双A+加上3分，录取可能性多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+再问，有即容易出国深造几率大，而就业相对较好，且是南大的优势专业的呢?，我是个女生.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：一般转专业需要成绩排名靠前。这是指在大的学院中，还是指在一个系中？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+前线老师估计贵校分是多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1、请问贵校允许转专业吗？，2、转专业有何要求（或门坎）？，3、允许在不同学院间转吗？，4、转成功有多大的可能性？，5、有些学校说是允许转专业，实际操作起来非常难。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+到南大读书需迁户口吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好~请问贵校女生住宿条件如何？几人一间？有独立卫生间吗？有空调吗？可上网吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录取时偏僻地区政策性照顾分有效吗？选专业的时候呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+选择专业时民族加分怎么算
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业间的分数级差是?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取专业顺序时是不是投档分相同的选测科目等级高的优先
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对填报第一志愿与第二志愿录取对专业是否有级差。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+材料科学专业有硕博点吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问专业调剂具体是怎么一回事？，当所填的所有志愿都不被录取时，才进行调剂,还是第一志愿不被录取就进行调剂?，调剂后的志愿会在考生所填的志愿中吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校关于换专业的办法有哪些？，哪些专业是不允许换到其他专业去的？怎样才能换专业？要考试对吗？考试内容一般在什么范围内呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学在浙江的专业级差是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生占不占第一批计划的名额？如果占，他们有什么优惠条件吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校选修等级要求会有所下降吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+问一下贵校进档后退档吗?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否所以的专业均可转
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的重点专业是什么?国家重点培养专业是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+招办电话老是打不通怎么办？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+投档分403，物化双A全省2863名，请问有无希望报考贵校？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好386+19（附加失误）=405物A+化A，1`能稳进贵校吗？，2`建议专业是哪些呢？，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校可有希望?，谢谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+特征分371，投档分400，省排名3772，但两门选修分别是A+和B+，是否有希望
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+投档408,物化双A,省排名1702,能否报经济系?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生录取的考生所填的专业是否可以修改？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在吸引高分考生方面有哪些政策？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我投挡408,省1702名,双A，能否报上南大经济系?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+专业级差?，入学后是否能转专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！我想问一下贵校的转专业政策？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好.投档分396,物化2A,全省排名5328.，是否有希望被贵校录取?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有本硕连读么？这些专业招收复读生？636有希望么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有自考招生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！我想问南京大学的新闻系实力如何？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我特征分358附加分33历史A+政治A,全省8047名,请问报贵校历史系有希望吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在渝有无预科？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下：高分2视1中的第2志愿和原来的第一志愿有区别吗？？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了659，排名444（置之死地而后生），请问可以被录取吗？我愿意服从专业调配
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+651分，甘肃，报你们什么专业比较好？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师我的分数是319+30,选科是两个C，有希望报贵校吗?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+特征分376提档分396有希望被录取吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时，是否算加分
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+624有希望读贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的分381+35=416，648名，南大专业选择余地大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下：理科649，能否报考贵校？？，贵校的有哪些优势专业？？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问来内蒙招生的老师联系方式。谢谢您。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不知道569能不能报贵校？能报什么专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业有那些？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+选修1B1C，第一阶段填报，蓝色志愿，1。若强行填报，投档是否可投出？，2。是电脑和普通志愿一起投出？还是人工操作？，3。兰色志愿投档在征求平行志愿前么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好.专业录取时是否考虑加分?转专业需要什么条件,是否困难?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我过重本56分，全市250名，有机会进入贵校吗（服从调配）？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问该校承认加分吗？，什么条件的可以加分？省级的优秀干部可以加分吗？，加分是算在总分里面吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的高考分数是625，全省排名530左右，报贵校是否有希望，谢谢。
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+627有希望投贵校的档吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校的老师会来余姚中学吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若我第二志愿报考贵校,要减去多少分?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，1.贵校在川招生总数?，2.是否因灾增加了名额?，3.640分就读贵校把握多大?，4.贵校优势专业?，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果填了专业服从，在调剂专业时会不会与考生联系？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了592。有把握报考贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是不是高分保护政策内的分数二志愿视为一志愿？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如何获得贵校的“优秀学生推荐表”？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+关于“第一学年后可申请转专业，转专业需要通过所转专业的测试和面试”，请问：测试和面试难度如何？通过概率有多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+关于转专业、第二学位、分数级差咨询？1、录取后是否可以转专业，若可以有何条件？2、哪些专业可以作为第二学位，学习第二学位有哪些条件？3、专业间的分数级差是多少？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+倾向法律
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+已填写贵校自荐表。是否需要邮寄书面材料？如何才能认定？或什么时候才能公布认定名单？，，是否通过自荐在选择专业时候会有加分可能？，，谢谢老师。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+计算机专业与电子专业有何区别，他们的就业去向和比例如何？谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我参加了四川省组织的艺术尖子加分测试。请问贵校是否承认，是加分后提档，还是在提档后按加分选择专业。，谢谢哦。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问若总分减去专业级差后参与第二专业的录取,排序时是与第一专业志愿的同学一起排名吗?如果一起排名后分数高于第一专业志愿的同学,先录取第二专业高分同学,还是录取第一专业志愿的?谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问,如果我第一批次的A志愿填报南大,B志愿填报北大.C志愿填报东南.专业均服从调剂.，如果我的分数均能达到该三所学校.请问我将会被哪所大学录取?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：，如果我达到贵校的投档分数线，但所填的６个专业都是分数很高，均达不到．而又选择的专业不服从调剂．，我是否还会被第一批次的其他学校录取？，或者会被退档，导致第一批次一所学校都无法录取．，感谢！！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：我是省级优秀学生，按照贵校解答的加分政策，我是属于“符合教育部规定的”还是属于“教育部备案的”？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有无转专业方面的政策,谢谢.需要什么费用吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：省级优秀学生的政策性加分，贵校在提档和专业录取时都认可吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问填写推荐表是怎样的流程？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:，我想问要是报考贵校的生命科学类专业在志愿表上是否要分4个专业填,因为在网上看到您校的生命科学学院前两年是不分专业的.谢谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我想咨询一下,贵校是否有高分二视一的政策
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+志愿表中服从栏中填不填写服从有什么区别?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若平行志愿中A志愿未投档,按B志愿投档时是否减分?若减减几分?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若考生视力单眼过800度,报考贵校应避免哪些专业?谢谢~~
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+肢体残疾的考生能报考生物专业吗?，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有多大风险
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业极差是多少？入校后是否可转专业？是否承认各种加分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我已通过某校的自主招生,但有可能有一门选测科目A+的要求无法达到.但按自主招生的协议,第一志愿必须填该校,想咨询:如果第二志愿填写贵校,且分数线完全达到贵校要求,录取时会不会因为是第二志愿而受影响?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：本一批次所填写的三个院校的档次是否应该差不多？还是应该有所梯度？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+二级运动员的加分在提档和选专业时都算吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+640到650有希望吗超出一本线多少是有希望的
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好请问南京大学每年提前批次国防生在安徽的录取分数线是多少
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问女生学习生物专业。就业有一定困难吗？贵校这一专业前景如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的生物专业有男，女比例吗？贵校在录取时有专业级差要求吗？我女估分660。有希望被录取吗？请回答。谢谢了。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提档后，各类加分还起作用吗，？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+630能不能录上?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提档后专业服从调剂贵校退档吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+什么是订单式培养.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校是否招收第二志愿考生？对分数有何特殊要求吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！麻烦您介绍一下学校各校区的情况？是否研究生都在校本部？比如每个校区面积多大？每个校区都有哪些专业？可能比较繁琐，如果学校网站上有这些内容，给我个链接就行，我自己去找找，谢谢老师了！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我如果按加分后被你校提档,提档后你校按实考分排序,我是否被退档?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我在线上多少分能报南京大学
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收第二志愿?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这个专业情况怎样？，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问入校后是否有调专业的可能。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我省本一可填报三个大学,若贵校是所填的第二个学校,第一个学校未被录取,是否意味着不会再向贵校投档?谢谢老师!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+专业级差的意思是不是说上一个专业没被录取,依次往下录取下一个专业时相应地减分录取?谢谢老师!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，关于贵校的优秀生自荐政策，有什么特殊要求吗？必须曾获得竞赛名次的才可以吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招不招第二志愿?有没有志愿级差?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师:，请问,该校招生计划名额是否已包括自主招生?，所有院校在这方面政策是否一致?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类进校后怎样分子专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类主要学什么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+625(理)报考贵校什么专业把握大?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下填报第一专业志愿不录取时,第二志愿是否要减去专业级差分后再进行录取?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的热门专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我参加贵校美术校考没过，高考成绩出来后还能填报贵校美术专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：两个Ａ＋加分吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+是否有公派留学生？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许转专业吗？具体的规定是怎样的？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校外语类专业的特色？，与其他语言类院校比，贵校外语类专业和对外汉语的特色和培养方向如何？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：很多学校的招生都有大小年的情况，贵院也有大小年吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校入校后转专业条件是什么?，2.贵校是否有本硕连读专业?是否有2+2或3+1等培养模式。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一模607，二模610，报考贵校有多大希望？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问达到提档线专业服从调剂，是否还会被退挡？是否可以转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:如果我的分数是660,而所填平行志愿中的A学校分数线是655,B学校是650,C学校是645那么(1).我的档案将被哪一个学校提走?(2).如果我在ABC三个学校中有一个已经通过自主招生,那档案将被哪一个学校提走?(3).如果将已经通过自主招生的学校放在A志愿,那档案将被哪一个学校提走?而如果将已经通过自主招生的学校放在B或C志愿,那档案将被哪一个学校提走?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：我有政策加分，刚达到贵校调档线。但我服从专业调剂，是否会退档？如果录取，是否会学医？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：刚达到贵校调档线，如果服从专业调剂，是否会退档？如果录取，是否会学医？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校对于实行平行自愿招生的省份，投档比例是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校有何要求?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！填报贵校是否按提前批次时间填报志愿？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学的环境专业好吗?在全国的排名如何?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生设哪些专业，在陕招生如何？体检不过关是否可参加一批录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是一回族考生，我想问一下在贵校的学习生活是否方便，特别是吃饭问题，请老师回答，谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+本三的院校有哪些,投档规定是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你校录取对专业级差有明示吗？怎么才能知道不同专业间级差分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问两个问题:，1.贵校录取时,是否考虑包含省优干加分在内?，2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?，谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+本校对省级三好生有加分吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我理科总分619,奥数二等奖。报南大数学类专业有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校历史专业容易出国吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师是根据什么判断一个分数有希望？，是根据网上提问的人数和分数吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪种专业较易出国
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,我可否报上贵校?如果入校后想转专业,如何转?谢谢您了....
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师是根据什么判断一个分数有希望的？，是根据网上提问的人数和分数吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+那些站也要学量子力学？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校转专业是否容易
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪种专业较易出国
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+再咨询贵校的学生中599分以上的大概有多少人?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大高招为何不考虑提前批报了其它学校的学生？，且先不论国家政策，在这种情况下难道南大能有把握说服大部分原本有意愿本一报南大同时也报提前批其它院校的学生放弃提前批录取的机会吗？到头来吃亏的只会是南大的投档线。，请原谅我或许过激的言论，只是作为考生的我们确实对这种行为感到愤怒与不解！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学生宿舍有独立卫生间吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有预留名额给高分生应该与招生计划没有冲突吧？如果高分生报贵校为第一志愿呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我的成绩为618分。报考贵校是否有较好的专业？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是政史类考生，考分为624，能否填报贵校，请即回答
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业中哪些较有实力
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我有推荐表,贵校是否能承诺如果被调档,就不退档
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师报考的志愿由于分低不能录取,服从学校调剂的志愿考生色弱不能学怎么办?能退档吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无专业级差和志愿级差?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好我考了619分全省2362名,慕名报考贵校,希望多大?可以报什么专业?请回复!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的档分为606，省400名，考上贵校的机会是否太小
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进入投档线填服从调剂，会不会退档,！！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+分数不够,能否破格录取,感谢回答!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问教师,进入你校学习有没有换专来的可能
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+专业服从,录取时会不会扣掉级差分?，如果专业1,2都未被录取,填专业服从,录取按原分数进行还是要扣级差分?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学注“*”者的虚体院是什么意思?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校入学后,是否可以换专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问本人645分报贵校是否有希望?，如果有幸进入,能否报考较好专业?还是得服从专业调剂?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+别的学校的同学能旁听吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问你们学校的投档比例是多少?专业级差是多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能进哪些专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学的强势专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校如何对待加分政策了，只是加分投挡？还是可以加分选专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问级差是多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我是启东中学的考生。总分656，省排名1675，由于贵校设置专业级差，我十分害怕，生怕由于专业填不好而导致被退档。因此我不敢填报你们南京大学。请问你们能否承诺，只要我专业调剂填写服从，就能保证进档后不会被退档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+可以选应用数学吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校认不认四川省"省三好"的加分?录取和选专业认不认?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问628分被贵校录取可能性多大?专业选择余地有多大?，谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是浙江考生考了624报考南大什么专业最有希望被录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师回答~~~~~~~~~~~~
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+596可上贵校吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，学校网上有宣传片吗？如果有，网址？在那里可以查的到？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学一年级各个专业新生的课程是不是相同或基本相同啊？是不是大一修学校的公共课程，大二才开始进入专业课？转专业难吗？转到各个专业有什么共同的要求？是不是全校所有的专业都有机会？转专业主要看些什么呢？考核的内容是不是大一学习的内容？另外，洗澡方便么？非常感谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问647分可以上贵学校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的高考成绩为655分，能否上贵校，专业选择上有限制吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的高考成绩为655分，能否上贵校，专业选择上有限制吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南京大学地质专业好吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师在线吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能不能介绍一下贵校在青的专业排名，及其各专业在全国的排名。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+638（628＋10）政策性加分，上贵校是否有希望？，专业按总分录取吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+分别用A.B.C志愿报考贵校分数线相同吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+619能录取吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+646分有多大把握能被录取，能报哪些专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+623能不能上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+本省338名,报考贵校是否有希望录取?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+???
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+?????.???????????????????????????
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+是不是只在投档时加分,专业录取时不加?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生政策是什么？专业之间是否有级差？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好.......四川的情况清楚了吗，一般要高重点多少分才能进学校，有专业级差吗..是多少分呢，THANKS
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+??á???????????????????????????????644????????????н?????????????μ???о??е??赸???????????????????????????????μ??????????????f?????????????βμ????????????????????????????????Щ???????????????????????
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对走读生在专业选择上有何优惠政策？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+浙江理626分报贵校有希望吗？贵校的调档比例是多少？专业级差是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问639分省排名985上贵校有把握么？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好.请问考入南京大学后能不能转专业?如果可以,需要什么程序?还有能不能学习第二专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校每年允许转系人数大约是多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+667分报贵校录取几率多大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想咨询一下,假如我提前志愿填的是军校,但不想参加军检,而我一志愿填的是南京大学,我不军检对后面的录取有没有影响啊?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校提档比例多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+怎样进入匡亚明学院?省奥赛一等奖对进入匡亚明学院有没有帮助?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，我喜欢生化武器，对兵器知识感兴趣，那基因武器在哪个专业学呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+654排1977名，有望？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+645能进校吗?如果能进,是那些专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否会退挡??
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+589有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校学生国际交流机会多吗？有哪些专业？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+611??????????????鷳?????
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考南京大学风险有多大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+分专业是按哪几门成绩?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,请问什么叫平行志愿!尽量详细点.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业级差为多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校的学生排名应在多少才确保录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若有竞赛一等奖，在录取时是否有优势或考虑优先录取？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩是643，全省700，请问能否进贵校，能进什么专业？，另外请问贵校在我省的提档线是多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我的分数626+20报贵校能被录取吗?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我的分数626+20报贵校能被录取吗?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问多大希望?另如果调档是否一定录取(学生服从志愿调剂)?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取可能有多大,3000名就可以吗?能去什么系
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取的政策怎样？是否有进档不退档的政策？什么专业就业前景比较好？省排名1675，总分656能上什么专业？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我分数645，请问报考贵校有希望吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+599，排名536服从分配有希望进入贵校
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，就是635分可进什么样的专业好啊？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。请问学校的住宿情况怎样，新生是否必须带电脑？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有的高校允许外校学生在本校单修一门专业,然后考试通过可拿结业证.请问贵校有这种政策吗?如果有,哪些专业可以呢?如果没有,去旁听的可行性大吗?也就是说如果我是别的学校的学生,去贵校旁听,能收取较好的学习效果吗?谢谢老师回答!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的退档政策是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1贵校外语专业就业情况怎样？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+估分在550左右,报考贵校有多少把握
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大最好的专业有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果有古筝八级证书是否算贵校艺术特长生?若报考贵校是否可降分录取?谢谢老师!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+大一学生能带电脑吗？还有，学校的网络供应如何收费，住宿条件如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好!，请问贵校2002年百年校庆时省政府所赠铜鼎鼎铭是?，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校网上自荐有哪些要求？对高考录取有哪些帮助？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请老师介绍一下贵校的影视创作专业，谢谢，此外，在招生过程中，贵校承认加分吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我服从专业调剂，贵校在调专业前是否会征求我的意见？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一色弱考生报考贵校微电子学与固体电子学方面的专业是否会受到限制，会不会影响到专业的学习？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果报考贵校选择调剂的话，是否是上了投档线就一定会被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师转专业制度的条件是啥,就是符合哪些条件,进贵校可以转专业??
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我想咨询一下贵校几年来招生的具体情况：，您能告诉我贵校04、05、06三年来的报名人数、上线人数、计划招生人数、实际录取人数与一志愿录取人数吗？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问这两个专业录取时哪个分数要高一些，大概是多少分？谢谢
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问自主招生考试可否同时报考多所学校否
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问贵校的提档比例是多少？有没有提档没被录取的，专业录取是否有级差？多少分有希望报贵校？可否选修志愿。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+提档和专业录取时都承认吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！，能否在学校网站上查询到被学校录取为研究生的学生的相关各科成绩？，如可以，网址是？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考园林艺术开学后需要加试吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的最强势专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这个成绩报考南大行不行?谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分566-592之间能上贵校吗如能，则能去什么专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有专业级差吗？如果有的话是多少分？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的数学专业在全国排名如何？优惠加分，分专业取消吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问单眼弱视大于800度不能报你们学校的哪些专业招生简章上的专业不太清楚似乎和你们学校设置的专业不太类似
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问进南大后能否转专业???
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进贵校的可能有多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+匡亚明学院是什么，麻烦介绍一下，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分642上南京大学的可能性大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提档和专业录取时对有加分的考生是否按加分后的分数计??
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分640上南京大学的可能性大吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校美术专业是单考的?还是承认省统考?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+估分605~610报考新闻系的可能性大么
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+估分605~610报考新闻系的可能性大么
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问考前常规体检时左右裸眼视力4.3，高考后，经过激光治疗，左右裸眼视力恢复到5.0，其他身体条件均符合标准，分数达到贵校国防生录取线，在提前录取的批次中，能否报考贵校？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我怎样联系招办老师.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校热门专业是那些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了。请问贵校是否招收非第一志愿考生？有否志愿级差？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，皖估分640能报贵校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有志愿级差？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问你校网站上公布的历年录取数据中的分数包含优惠分数（例如省三好加分等）吗？进档考生录取时是分数优先还是志愿优先呀？若专业服从，一定能被录取吗？谢谢老师！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+620能否被贵校录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分是630上贵校希望多大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否设有专业级差？具体情况怎样？，谢谢您！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在墙报志愿时,服从分配填写后,有个别专业不想学是否可以?请教师答复.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+选专业时是否有竞赛加分
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！据贵校在津老师说，调档后几乎不予退档，而06年上线58人，实际仅录取28人，这是怎么回事？谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提前录取的都包括那些类型?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无专业级差
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问专业录取时，是否按政策加分后的总分，还是以高考原始分录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强项专业是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问．
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的参考书里只标了各专业录取最低分，也没有各专业录取排名情况，请问除了这个网的志愿参考系统有外，贵校也提供吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大有提前批录取吗？，，具体怎么进行的呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校最低录取分数线是否含政策性加分？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校最低录取分数线是否含政策性加分？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+超出一本线多少分上贵校有希望？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对具有身高优势的学生是否有点优惠条件？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱最好报哪些专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，我从阳光高考的志愿系统里根据位次对照了两个专业，按录取平均分对比我的模考成绩两个专业都够了，但从我的全省市排名分析，又有危险，请问我录取贵校的概率大吗？是不是得选择更容易考的那个专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+已通过自主招生的考生，学校能满足其特长所报的志愿吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你校有中外合作办学的专业吗？如有，有无计算机专业？起分线大概多少？各年费用如何？就业如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，高于重点线70-80分报南大可以吗？是不是只要上线且服从调剂就一定能被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问获得清华大学艺术特长生一级证书，贵校在录取时是否能有优惠条件？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+听说你们独立学院升本二了？是不是真的？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在报考贵校的第一志愿专业未被录取情况下，按照第二志愿专业录取的机会是否和第一志愿专业相同？是否有分数级差？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校政策性加分规定中分两种情况:一是符合教育部加分条件的考生,二是经教育部备案的,请问:省级优秀学生属于哪一种?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问在贵校副修是怎样一回事,有无限制,是否另收学费,以及介绍一下双专业,转专业等相关情况.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我们何时能知道是否被录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：南大招生组不来北京吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+希望能有比较确切的答复谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好我想咨询一下新生入学后有几种方式去勤工俭学学校提供吗2008奥运会这界新生有机会参与任何支援者服务吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录取结束后，可以查吗，如何查，大约在何时
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+什么时候可以知道自己录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校语言类科系只学习语言吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我618能上南极大学吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的大一新生在什么时候军训？学生宿舍条件如何？是公共浴室还是一寝室一浴室？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若同样的分数怎样进行录取
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校重点学科是什么？录取二志愿吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师:，您好!我省的高分保护政策是指高考成绩占我省考生人数前百分之一名的考生,若第二志愿报考某校可与第一志愿同等对待.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师:，您好!请问贵校是否有收第二志愿?是否承认我省的高分保护政策?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档时是1比几
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否可修双学位,或有主辅修课程
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+问题是学校的录取分数线还没有出来啊
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+:)
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+//？？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+第二志愿报南大会降分吗?降多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+电话联系音乐岛酒店时,酒店服务说老师已不住在酒店了,该怎么办?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+感谢回答！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些专业是国家重点学科?哪些学科的考研率较高?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问推荐表是否有时间限制?有的话是什么时候
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+是否承认高分保护政策？，是否承认补录？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我还没填志愿，希望给个明确的解达，我才敢填报。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+见上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如何取得贵校的推荐表？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+补充问一下，我迫切地想知道到底能否确保录取？（专业服从调剂）
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校转专业的详细说明？能跨院系吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+什么时候可以知道录取结果?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些重点学科
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+材料科学这个专业好吗？就业前景如何？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+651分1074报考南大什么专业把握较大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，推荐信有何用？多谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+推荐表会不会由于报贵校的人几乎都有拿到，几乎都有拿到，而变得没有意义呢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，若进了贵校的录取线，在专业录取时竞赛加分有用吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+急
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+那么如果填写了考生自荐之后，若符合要求，什么时候会获得推荐表
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时是不是优录少数民族考生呢?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我在网上看到南大HND项目的招生，请问是南大本部办的吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+同上班
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+那么请问获得推荐生表格有何条件吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问我省推荐生有何优势？表格如何取得？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问641分能大概报个什么专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能告诉我贵校录取非第一自愿考生的具体规定吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问,取得推荐表有何作用,如何取得?，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+同上,具体有什么优势
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生加分是怎么回事？怎么加
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校近年来各专业的录取分数能否查到，我到贵校本科招生网站上查不到
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+那么招生老师的口头承诺可信嘛？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否录取第二志愿的考生.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+Thankyouforyourhardwork,thankyou!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这么点分数能进贵校学习吗风险大吗，若能进的话，选择专业的范围尺度大吗，期待您的回答啊，谢了啊
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问639报考贵校有好大希望啊？谢谢！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校什么时候测试体育特长生？，体育特长生须要达到什么要求？，请速答。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，646报考贵校有好大希望啊？谢谢了！！！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有无志愿级差，就是如果是非第一志愿考生被录取时要不要减去几十分的级差分？贵校有没有录取非一志愿考生的先例？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校学生怎样才能辅修双修学位？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京人综合素质怎样?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师请问，贵校如何转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的那些专业是强项
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+大家都报一下吧
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+634没商量
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+陈谦和夏素琴老师的电话都已停机或关机
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！，请问投档线大约什么时候能够出来？？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不知贵校的投档线为多少？？按１比多少提档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问南大是否按大类招生，可否转专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报贵校可以选什么专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+环境科学类就业状况、就业方向怎样？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问一个问题。如果有两位同学同时报考贵校，一位分数低些，一位分数高些，分数低的同学在报考专业志愿时第一专业志愿报了一个泠门专业，分数高的同学在报考专业志愿时在第五专业志愿也报考了该专业（或者没有报考该专业但在专业调剂时填了“服从调剂专业”。这种情况，贵校是优先录取分数低的考生，还是优先录取分数高的学生。恳请给予指教，谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这个分数希望大吗
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+在录取进专业时是否认可省三好加分
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大的哪些系比较好？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1403名.谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无辅修其他学科的???那么双学位呢???谢谢老师!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+全省排1000有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+615+30有无希望报考
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+计划招生数包括保送生人数吗？保送生有没有参加高考？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！本人是南大自主招生优录对象，在填写志愿卡时，应填写卡二（A）红色，还是卡二（B）蓝色？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业是什么专业？可以简单介绍一下吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,请问贵校的国防生单独编成班级吗?还是?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问能否报考贵校较好专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,请问贵校的国防生单独编成班级吗?还是?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！本人是南大自主招生优录对象，在填写志愿卡时，应填写卡二（A）红色，还是卡二（B）蓝色？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+627报南大有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果有学校录取我,可自己最后有不去了,学校是否会提出礼赔或其他要求?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无专业级差
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无专业级差？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有没有专业级差
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的历年专业招生计划如何？请提供超具体网址。，跪谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+625是否有希望？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师报考贵校有多大希望
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，我想咨询一下655分，全省1157名报考贵校有多大把握。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+感谢老师百忙中回答我的问题!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题,补充:我全省大约40名左右!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收２志愿考生？有何政策？有无志愿级差？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想报考贵校，请问把握大吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+629加十分，报考哪些专业比较有可能录取。重本线560
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有几层把握,谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+成绩单上数学加星有什么用？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+金中
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+641分、能报贵校吗？如果能，最好报什么专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是611,重本线560,报考的几率有好大?可报那些专业?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有专科。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能否给与贵校外国语学院与北外的简单比较。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校应用数学,是不是风险很大?请老师指导!谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+A志愿2541名报考贵校服从调剂可以录取吗?，万分感谢!!!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果填写了“考生自荐”有优势吗？，一般高出重点多少分以上有希望
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+想报考贵校应用数学,这个分数风险有多大?请老师详细指导!!!谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+预科要回到原籍工作是省一级，还是地州一级呢？乙肝携带都能报吗？分数是不是比一般的录取分数少80，如你们学校的录取分数是660，而我的是590，这就可以录取吗？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我全省排名1636，能否一定录取呢？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1国防生是否单独编班?，2军事化的训练是否要占用国防生的大量时间?，3国防生被军队分配的一般流向是什么?，4在军队工作的时间不少于多少年?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1、老师您好，如果将贵校报作第二自愿，第一自愿未被录取后，假设贵校第一自愿人数未招满，那么在录取第二自愿的时候是否要减分？？，2、如果第一自愿未报满，会考虑第二自愿的吧？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问联系当地的招生老师，是否就可以大致上知道别人报的专业，然后协调自己所报的专业，然后就能很好的被录取啊？？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后是否一定参军?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是启动中学学生，请提供联络方式？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+色盲考生能否报电子信息科学类?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+浙江考生524能否进贵校的金陵学院并选个好专业？劳驾！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+省排名5337，有推荐表，是否有望被贵校录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生学生是否需要填写一本志愿表A志愿南京大学？具体情况怎样？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问639能报南京大学吗？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+658能否报考贵校？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+全省排在2381名，录取概率多大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+641分能取南京大学吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否招收第二志愿考生?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+托福633是否录取有优惠
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在我省招生组的联系方式
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问若有贵校的推荐书是什么意思？有何优势？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高出重点线80,省前500名能否录取?能否选好专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个国家重点学科
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的回答
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我荣幸已成为一名中共预备党员。，我想请问，在录取时是否会有优势？，我的分数是651。
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如何联系南大的录取人员？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我想问以下，我的高考分数是651，能否报考贵校。
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+启东中学的招哪位联系老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+启东中学招生老师联系方式是什么？忘告之，谢谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+617报考贵校能否被录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校每年刷下来的学生约有多少?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+省排名3300－3350有希望吗？填“服从”呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+江苏640报考贵校哪些专业把握较大?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+进校后能否转专业？有什么成绩上的要求吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+气象就业如何？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+推荐报考制具体的条件是什么?是考生所在学校推荐,还是考生凭高考成绩与贵校联系?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，我想问一下，贵校是否按大类招生?，转系的可能性大么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有专业级差呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是成都外国语学校的学生，请问这个分数上贵校是否有希望。
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问这个分数是否可以上贵校？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+加分的考生专业录取时要去掉加分吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问什么是二级学科?谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+不懂，色弱，本校具体有哪些专限制？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有院校间级差分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大A,B志愿有没有级差？，比如A志愿报考清华但差一分未被录取，B志愿报考南大，但比A志愿报考南大的考生分高，哪位同学会被录取？，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有何特色班?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!请问高考查分的网址是什么?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我的分数是638，排名是2673，报考贵校是否有希望呢？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校之后自己不喜欢自己的专业,是否可以转系,关于转系主要有哪些规定
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+把握很小吧
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校食宿费用为何如此之高？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这么多学校的老师你最负责了道一声谢谢您辛苦了
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的优势学科有哪些,全国重点学科有哪些重中之重学科有哪些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+＂服从调配后，在各专业间无级差＂是什么意思？是不是连第一与第二志愿间也变的没有级差了？只填一个专业志愿，然后填调剂是否就不会被扣级差分了呢？录取的机会也会更大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+总共可以填几个志愿？一个志愿填一个专业？谢谢！！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+为什么老师电话打通了老师不接啊金华的
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我们这预测的重点线是560，请问639能否上贵校?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好,理627分上贵校希望多大,中等热门专业具体指哪些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+问一个一般性问题？是否有专业有级差就表示是按照志愿优先原则，而不是按照分数优先？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若南大为非第一志愿，学校间级差为多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对往届生与应届生的录取是同等对待吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+519能上贵校的紫金学院，哪些专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的优势专业有哪些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下/高考查分数的电话号码是？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校录取第二志愿考生吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问专业志愿间有级差吗?多少?，第一第二志愿间呢?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否只取第一志愿?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大是否有新建的校区?若有,新生是在哪个校区呢?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了３８７，不知能否在贵校求读，若可以，请尽快联系,xiexie
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的院校级差是多少?专业级差又是多少呢?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校投档是承认加分,选专业时加分是否就不起作用了,是否是看实际考试的分数?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了!请问:本一的第一志愿专业录取是分数优先还是志愿优先?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了３８７，不知能否在贵校求读，若可以，请尽快联系我，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+需知贵校招生组联系电话
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下专业调剂的情况！费用如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好!请问贵校有没有对高考单科成绩有限制.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最热门的专业是哪些?出国比例最高的专业是哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校前十名专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+加分的考生专业录取时要去掉加分吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校在专业调剂上有没有什么原则呢？，会不会通知我们？，会调剂到很冷门的专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校在专业调剂方面有没有什么原则？，会通知我们吗？，会调剂到很冷门的专业吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+633+10上贵校希望大吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+很想知道南大有哪些强势专业。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+色盲可否报与计算机相关的专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+641分2249名能否进南，大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+651（包括竞赛加分），录取概率多少
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想请教以下几个问题。，1）	贵校的专业级差，2）	在湖南招生老师的联系方式，3）	是否对所有达到投档线且服从调剂考生决不退档，4）	报考建筑及规划类专业是否需要加试。若有，内容如何，5）	有无代招生，具体要求如何，期待您的答复，谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取专业时是否看加分?如果投档进入贵校,填服从调剂,是否退档的可能性极小?各专业有没有单科成绩限制?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+学校在调档时会出现比1比1，2这个比例多调一两份档案的现象吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校住宿条件如何，可否转专业，转专业的条件如何，何时可转
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是国家二级运动员.我想问一下,报考贵校提档时加分吗?另外录专业时加分吗?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问606分能否进您的大学?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业？如果想专业难吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问各专业志愿间有级差？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最好的或最侧重的专业是什么，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1000名报考贵校有戏吗,谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问各专业志愿间有级差？谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收第二志愿考生的要求有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：招生老师来了吗？怎样与他们联系呢？如若还没来，大概什么时候来呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问国际经贸主要学什么
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+省1000～1500名内是否一定录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+优秀是否要根据分数决定
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+推荐报考的时间
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+推荐报考的具体情况
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问学校有没有清真食堂，回族学生占总数的多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+民族降分是否参与专业选择，优秀毕业生推荐是怎么回事
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+考生们如报考同专业，有考分相同情况，贵校一般是根据什么标准来录取？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果是自主招生的学生分数未上档,是否只有填专业服从才能保证被录取?可以不服从医学吗??男生会被调到护理吗?谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问要高出重点线多少报贵校机会较大？专业级差如何？二志愿政策？重点学科有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+625能否录取?是否存在专业级差?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+定向生是怎么回事?有适当降分吗???在每个省都有计划吗??
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问填报志愿时三个专业的分数级差有多少？该如何填报？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的特色专业有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问外语系的分数是多少？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+625报考贵校是否有希望？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问我627分有希望上贵校吗能去好一点的系吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问电子信息科学类在贵校的地位算高吗??，在贵校哪些专业是重点专业??，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大在录专业是否考虑民族分?，，有哪些专业考虑民族分?????，，谢谢!!!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我服从专业调剂,那么将会在哪个范围内调整.，，具体怎么调整????，，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是一名色弱考生，请问能否报你校的城市规划。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分为650,很想报考贵校,请问这个分数能有多大的概率被录取??，谢谢!!!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你们为何怎么这么不负责任我问国防生是提前批的怎么叫我等分数下来后再联系？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果在第一志愿的B、C志愿中填报你校，是否要扣除级差分再录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的网址（可以咨询高考志愿的）是什么？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好,我的分进入贵校的希望多大?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+是否可以报考
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+全省多少名才可以报，把握大?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我获得省计算机二等奖,报考贵校计算机系有优惠政策吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大国防生毕业后应到部队服役几年?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的热门专业有那些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问贵校哪些专业是较好的，有好的前景，如考研，就业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢1
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+降分是在投档时降吗？是否带到专业选择？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分610,请问能否报考贵校?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+匡亚明学院怎样选拔
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问匡亚明学院怎样选拔
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学分专业录取分数在哪里可以看到？为什么在网上没有公布呢？，，我是一名贵州考生，高考估分660分，不知上哪些专业较为合适。，，希望贵州报考南京大学的同学和我联系，以避免大家都不愿看到的撞车现象，QQ：53205131
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+城市规划要求档案中装入徒手画吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的保送生的通知书什么时候发出,在发通知书时,能否在网上公布,以便查收.谢了.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校修双学位的情况如何，及可行性
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，在一批录取没开始时，贵校如何确定有自主招生资格的考生的高考成绩是否达到或加20分达到贵校的最低分数线？如何确定该生能否被录取？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是浙江考生,估分610,能报考贵校吗?如果可以,填哪几个专业比较稳当???
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估计630左右，一本估计560大概，是否可以报贵校，可以考虑哪些专业？感谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业提供出国留学机会?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否可以网上自荐,如能,请告知方法,谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学那些专业较好？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了670,请问报考贵校怎样?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+635报贵校有无希望
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+610-630报考贵校有无希望？热门专业有哪些？报考有无风险？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+最低的分数大约是多少？？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大第一志愿有几个专业可以填，有专业分差吗，是多少，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+610能上你们大学吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校民族预科班招生办法,若我区招生不满是否降分录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问该校在录取时对平行志愿的先后顺序有没有要求？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在陕分数级差是多少
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+是否有提前批？具体情况如何？非常感谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校在录取时一般会不会退档，是不是像北大一样一般被提档就会被录取？谢谢您！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩达到贵校在当地的录取投档线，并且专业服从调剂，是否可确保录取呢，谢谢老师
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我想报的专业我的分数不够乍办呀，其它的专业我不想去，
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿填报复旦大学，未达到投档分数线，对第二志愿填报南京大学是否有影响？有何影响？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如国防生的第二志愿报贵校，若第一志愿未录取，贵校有降分录取吗？降多少分？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无专业级差？如有具体为多少？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一本与二本有什么区别
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+530能上贵校吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，能否提供一下有关考生自荐问题的资料？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，如果我报国防生第二志愿为贵校，若第一志愿未被录取，贵校是否降分录取，降多少分？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大的分数线总是很不稳定，今年的情况会怎么样呢？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿后对南大的分数影响,大概省多少名可以报
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，1在投档时，贵校会将省级加分加到高考总分上去吗？2在专业录取时，贵校会将省级加分加到高考总分上去吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我估572~~582之间，报贵校有希望吗？急盼您回答。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！按照政策，部分考生有加分。请问，贵校是按未加分分数录取还是按加分后的分数录取？谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的电子类专业是不是国家的重点学科?通讯工程就业前景好吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我估分660,能上吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+关于少数民族地区的少数民族加分,贵校是如何对待的?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，报国防生的第一志愿与第二、三志愿有级差分吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问，齐鲁晚报主办的高考填报志愿现场和空中咨询会，你们有席位参加吗？，到时候打电话能咨询找到你们学校吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大是否有分数级差?如果以较冷的专业进入南大,以后是否可以转专业,要求是什么?谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大金融专业分数是不是最高的?那国际经济贸易呢?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+当地招办的加分可加入总分进行专业投档吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师,我考分大概在600左右,报国防生能否被招收?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+少数民族考生获得的照顾分参与专业投档吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+你好！很想上贵校，如果达到贵校录取分数线,且填报了服从调剂的话被你校录取的可能性有多大
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大的什么专业在全国竞争力很强
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是台籍考生,可获得一定的照顾分,请问贵校承认这些分数吗
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生要服役多少年呀?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有主辅修教学
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！它这样做，你们还能招到好学生吗？各省前三百名的学生清华北大浙大它们全包了呗？考生和家长谁不想求稳呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问：我省的平行志愿招生工作是不是这样---第一按考生分数排位，然后看排在前面考生的志愿情况（即先安排排位靠前的考生），如果前面同学没报我报的学校，即可录取我。而和后面的考生没有关系？//谢谢您！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的只有所有专业的最高最低分，不好确认自己所希望读到的专业是否能够录取到
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+相同分数时，口试成绩好的考生优先录取吗？哪些专业是？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我在几次考试中，平均分数595分，可否填报贵校？
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我不是艺术特长生，当然没有签协议，能否公布一下贵校艺术特长生的降分政策吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+已取得贵校艺术特长生资格的考生，省艺术考试成绩为合格或优秀，贵校能在录取线下分别降多少分录取？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的软件学院三四年级收费那么高，该学院是不是民办学院？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国家重点学科对应的专业是什么？，另外麻烦你把贵校的招生简单发到我的电子邮件：67232753@163.com，麻烦了！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问保送生是否要参加高考？如果参加高考是否有高考成绩？谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问:艺术特召生也是按加分后的分数入取吗?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：吉林省的各项优惠加分政策贵校是否承认？录取专业时是否适用？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生录取分数线与一本调档线一样吗?毕业后是到边远地区工作吗?
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+1若同意专业调剂是否会录取到定向专业2自主招生名额占统招计划吗，其他学校都不占
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生录取，能否优先录取第一专业？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我有自主招生的降20分，同时还有少数民族政策加5分，请问是否降25分提挡。盼明确答复
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请邮招生材料,以便了解细情,谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南京大学的保送生录取通知书什么时候发出?发到哪里?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在新生入校后,是否还会组织强化部选拔考试
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我是贵学校的一名保送生,请问我进去后是数学基地班吗?预录通知书上写的预录专业是数学
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问省级优秀学生干部贵校是否在有照顾？谢谢。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!请问历届生能报考吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考南京大学国防生有什么体检要求?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+可以给我寄一张推荐函吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问南大有没有类似于“如果第二志愿考生分数高于第一志愿考生n分可以录取”的关于招收第二志愿考生的规定？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请指教。
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生优录考生的专业怎样选
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+您好!我想问被贵校的某一小语种专业录取后,可否调到其他小语种专业?谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：那么就是讲孩子在贵校学习，只能读完本专业后，才能选其他的专业来学习，不能同时取得双学位？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我想问的是贵校给孩子提供双学位和出国升造的机会吗？，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校在甘招生人数及专业，毕业后的去向。每年招收研究生的比例是多少？贵校在甘招生分数应比当地分数高多少才有可能被录取？哪些专业有身体方面的特殊要求？谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+顺便讲讲研究生的去向，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如何获得推荐表？什么条件？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+保送生录取通知何时发出？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校数学专在皖的招生情况，及对贫困学生政策
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+能否详细说明南京大学的自主招生情况?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我要是被你们学校录取，到学校了想转专业有什么要求，需要那些考试，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的考分为600报考你校是否有希望?谢谢!!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高考662分报南大把握吗重点线为582
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业生就业去向如何
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校经济类专业实力如何
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果我被你们学校录取我想转专业需要什么条件，需要考那些科目
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+热门专业有哪些？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+录二志愿吗?级差多少分
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差如何设置？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+638是否能录应用数学
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我属于自主招生的范围,要在填报志愿后与招生办联系吗?，谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+咨询一下贵校转专业的情况,谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+加分在录取时是否按实分录取
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我非常向往南京大学,但是分数不是特别高.我想咨询一下,贵校在退档这一过程中,除了专业不服从调剂这一因素外,主要依据的是什么?希望您可以具体回答,谢谢!(因为马上就要填志愿了,我很着急!)
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南大哪几个专业比较热门
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师能不能告诉我专业填报的一些建议？，我如果按兴趣填报，风险有多大？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+为什么老师不回答我的问题?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若服从专业调剂，不服从医学专业调剂，是不是可能掉档？？，我从小见到血之类东西便容易吐，并不是歧视医学，有不有什么好办法可以不掉档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业报取是不是对单科有一定要求？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招录生占不占高考起动的录取名额？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取新生是依据高考成绩还是特征成绩？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我626啊能报考你们学校,如能可以是什么专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，上南大金融专业有把握吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+若服从专业调剂，不服从医学专业调剂，是不是可能掉档？？，我从小见到血之类东西便容易吐，并不是歧视医学，有不有什么好办法可以不掉档？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业报取是不是对单科有一定要求？如何要求？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招录生占不占高考起动的录取名额？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取新生是依据高考成绩还是特征成绩？？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+!!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我为台湾省籍考生。可照顾20分。请问贵校专业录取时，是否按20分加分后的高考成绩进行排序录取。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生毕业后主要去向
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后需在部队服役几年
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有本硕连读专业吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认高分保护政策,具体怎样实行.成绩630以上的考生对贵校关注如何
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认高分保护政策,具体怎样实行
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问你们学校对身体方面有特别要求吗，比如大三阳携带者可以报考吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问这样的成绩报考贵校又多大希望啊，可以自主选择好的专业吗，报考任何专业都可以吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师：有希望吗？谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+急！！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师不分省市计划是怎么回事？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，，我想问一下，如果报考贵校小语种，，最低多少分可以考虑报考
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报南大有多大把握？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+639分上贵校把握可大?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报贵校有希望吗，，能报什么专业呢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+成绩642排名1310报考贵校专业余地如何
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+广西考生658分报考南京大学,风险大么,有把握么，选择专业余地大么，谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+有没有希望考进
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问651分的成绩报考贵校有希望吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+另外询问能否转专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩是604，报考南大还有没有希望？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+这次我的考分为589``在全省3300名左右``不知能否报考贵校``，请问贵校有哪些工科专业可以报考``报考冷门专业的录取可能性有多大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+630+10能上你校吗？专业如何？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问,602的成绩是否可以上贵校,专业是否有级别差!?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问,602的成绩是否可以上贵校,专业是否有级别差?!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+成绩642排名1310报考贵校电子信息科学类希望如何？其他专业余地呢？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，你怎么不回答我的问题呢？着急啊！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩可以报考吗，专业选择有多大优势
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我能进吗？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+南京大学在转专业方面有何规定？要符合什么条件？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+填了推荐表就一定报考贵校吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问推荐表对于应届学生和往届学生有什么区别吗？是否只给应届生，不给往届生？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考640，全省排201，有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我考了640，全省排201，有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一本线555605排157名左右请问报贵校有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校计算机系或电子有多大把，握
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+填报希望大吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校希望如何
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一本线555，605排157名左右，请问报贵校有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一本线555，605排157名左右，请问报贵校有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+619的分数能报考南京大学吗,我在省内的排名是700左右!谢谢!
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+国防生是否要女生?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+一本线555，605排157名左右，请问报贵校有希望吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,我总分617,排名3847.进贵校希望大吗?能报哪些专业?，能给我些报考贵校专业的资料吗?谢谢.
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我总分617,排名3847.进贵校希望大吗?能报哪些专业?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师，请问哪个专业可以涉及到爱因斯坦的相对论？
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢老师！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果进了南大，可不可以转专业？怎么才能转？请老师回答。谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+dddddddd
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我喜欢南京大学的工科，请问661分被录取的希望有多大
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+何时何地啊？？？谢谢您
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问我的分数是599，不知能否被贵校录取（一本是572）。谢谢！
+select * from admission_score_pro where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如若填志愿服从被贵校录取,那我被录取进入的专业是否就是贵校在当地有招生计划的专业,还是任意的贵校未报满的专业?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问如若填志愿服从被贵校录取,那我被录取进入的专业是否就是贵校在当地有招生计划的专业,还是任意的贵校未报满的专业?谢谢!
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师论坛怎么还没数据啊
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+五千名可以吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校大概需要多少分?，我是浙江的
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的特色专业有哪些?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+如果已被贵校教育技术专业自主招生录取了，而我的高考分已达到贵校的最低录取线，可否重选专业
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+高考631排名2129能进贵校吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+我533报你校的建筑系有希望吗你们学校的二本专业有哪些
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否开设双学位，具体政策如何？进入贵校是否能转专业，有和限制，谢谢！
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有专业极差吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有特色专业吗?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+想测试一下贵校的师资是否只是渊博，教师头脑的灵活度是否够格成为我的教师，很简单的小测试，告诉我你完后有何感想，http://www.xiaoyouxi.com/down/soft/17705.htm，这是双向选择的年代，我不能永远只被选择，谢谢合作
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+老师在吗
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否按大类招生?
+select * from admission_plan where school='南京大学';
+['问句条件词只有学校，查询过宽！']
+总问题数7107	查询语句构造为空数0	只有学校关键词数1296	查询结果为空数3091	有回答数2718

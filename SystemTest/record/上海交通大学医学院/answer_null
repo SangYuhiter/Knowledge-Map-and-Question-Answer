@@ -1,0 +1,1996 @@
+请问临床医学英语班是否要求考生进行高考英语口试？
+select * from admission_plan where school='上海交通大学医学部' and major='英语';
+['查询结果为空！']
+老师您好！请问上海交通大学医学院今年是单独招生吗？如已够投档线，志愿也填专业服从，是否在医学专业范围内调剂，还能退档吗？如退档存在哪些情况。
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+请问，辽宁二级运动员加10分投档，贵校认可吗？专业录取时是否算加分？服从调剂是否退档？
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and district='辽宁';
+['查询结果为空！']
+请问提档分是否加上政策性加分（二级运动员加10分投档），专业录取时是否再减去政策性加分？
+select * from admission_plan where school='上海交通大学医学部' and year='2010';
+['查询结果为空！']
+请问临床医学八年后有整形外科专业读研吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+请问今年在河南临床医学专业有招生？大概全省排名多少可以录取？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='河南';
+['查询结果为空！']
+您好!被贵校临床八年预录，如果报其他学校的提前批未被录取，贵校的优惠政策还有效吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+请问临床医学有整形外科专业方向吗？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+请问社会考生可以报考贵校临床医学吗？有年龄限制吗？录取方面不能一视同仁？谢谢？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+请问贵校上一年在广东的临床医学招生情况？整形外科专业是要等到临床医学后才能报读？，谢谢
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+您好，请问贵校2014年的招生简章是否公布今年的录取规则与2013年是否相同？
+select * from admission_plan where school='上海交通大学医学部' and year='2013';
+['查询结果为空！']
+请问贵校往年在山西录取位次（分数区间）？今年在山西招生计划？是否扩大招？若服从专业调剂是否不退档？专业调剂是在同类型范围内调还是全专业大调剂？调剂前是否与考生联系？是否按分数优先原则？贵校设的几个校区，大一学生是否在本校部？学医学专业对视力有严格要求吗？若一志愿没被录取，是否二志愿能被录取？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='山西';
+['查询结果为空！']
+您好，我是山东的考生，请问贵校物理与天文系今年在山东除了自招，还有招生计划吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+老师好，请问往届复读生报考临床专业有限制吗，是否与应届生一视同仁，是否可以报考临床八年制？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+老师您好，我是河北理科考生，想上临床医学专业，如果服从调剂到别的专业，入学后还能申请转专业吗？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='河北' and classy='理工';
+['查询结果为空！']
+左手考生俗称的左撇子学生，能报考口腔医学专业么，如能学习，以后就业是不是有影响，谢谢。
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学';
+['查询结果为空！']
+老师你好！我是山东理科考生，高考成绩648，列全省3318名。理想专业临床医学。希望把贵校作为“冲一冲”的学校（A院校志愿），不知有多大希望被贵校提档？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+您好，我是山东理科考生。我想问一下如果我被贵校提档，且服从调剂，是否还会被退档
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+您好，我是山东理科生，高考成绩624，报考贵校的口腔医学有把握吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好我是山东理科考生，高考成绩为650.省排名为2863，专业服从调剂，报考贵校能被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='650.省' and classy='理工';
+['查询结果为空！']
+您好，我是河北考生，高考成绩超一本线95分，有无可能上贵校？
+select * from admission_plan where school='上海交通大学医学部' and year='2095' and district='河北';
+['查询结果为空！']
+您好，我是河南考生，今年考了584分，有没有机会上贵校啊，没有查到河南去年的录取情况。
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and district='河南';
+['查询结果为空！']
+老师您好我是山东理科考生，高考成绩为647.省排名为3400，专业服从调剂，能报考贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='647.省' and classy='理工';
+['查询结果为空！']
+你好，我是贵州少数民族理科考生，考分550，高出一本线101，能不能被贵校录取？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='贵州' and classy='理工';
+['查询结果为空！']
+老师您好我是山东理科考生，高考成绩为647.省排名为3400，专业服从调剂，能报考贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='647.省' and classy='理工';
+['查询结果为空！']
+老师，您好，我是北京考生，请问650+10分能上贵校提档线吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and district='北京';
+['查询结果为空！']
+能报你们学校吗？你们学校收文科生吗？有什么专业吗？
+select * from admission_plan where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+本人山东理科考生，投档分654分，高出一本线100分，全省排名2282名，报考贵校临床医学八年制，是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+山东理科考生过一本34分，有希望上贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+江苏预录取的学生还需要填高考志愿吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，在贵校毕业后得到的毕业证是上海交通大学的毕业证还是上海交通大学医学院的毕业证？
+select * from admission_plan where school='上海交通大学医学部' and district='黑龙江';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，贵校今年会扩招么？如果已被临床八年专业录取了，挂科会不会降为五年制？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='黑龙江';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，如果所考专业不理想，可以转专业么？可以转到临床五年或八年么？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，如果被提档了，专业录取是怎样的方式？如果所报专业都没录取，服从分配，会被分到非医学类专业么？
+select * from admission_plan where school='上海交通大学医学部' and district='黑龙江';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，650分在贵校够什么专业？临床五年、八年分别对黑龙江考生大约多少分？
+select * from admission_plan where school='上海交通大学医学部' and year='650' and district='黑龙江';
+['查询结果为空！']
+您好，我是黑龙江考生，请问，贵校投档比例是多少，高考成绩650分，如果服从分配会被退档么？
+select * from admission_plan where school='上海交通大学医学部' and year='650' and district='黑龙江';
+['查询结果为空！']
+我是贵州考生，若报读交大医学院，服从调剂。会不会被调剂到不在贵州招生的另一些医学专业？比如药学之类的？
+select * from admission_plan where school='上海交通大学医学部' and major='药学' and district='贵州';
+['查询结果为空！']
+您好，我是一名河南理科考生，高考裸分604分，有政策性加分20分，在河南排名约为719名，比河南省一本线505高出119分，请问报考贵校有多大把握能被录取？选专业时是否还有政策性加分？
+select * from admission_plan where school='上海交通大学医学部' and year='2020' and district='河南' and classy='理工';
+['查询结果为空！']
+估计贵校今年医学院护理专业录取分数是多少计划招生人数多少
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and classy='理工';
+['查询结果为空！']
+老师，您好!我是安徽的考生，今年的理科成绩是532分，想报考贵校的提前批次中的护理专业，请问录取的可能有多大？
+select * from admission_plan where school='上海交通大学医学部' and year='532' and district='安徽' and classy='理工';
+['查询结果为空！']
+我是黑龙江考生630只高出一本103分不知道报考贵校是否有可能呢？~
+select * from admission_plan where school='上海交通大学医学部' and district='黑龙江';
+['查询结果为空！']
+黑龙江临床医学12个名额都是8年制英语考生吗
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='英语' and district='黑龙江';
+['查询结果为空！']
+老师您好！我高考估分635左右，请问能否报考贵校的临床医学8年专业，有多大希望？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+我是江苏预录取,高考成绩作为正式录取的参考（一般要求达到本地高考一本线），我估计高考成绩在一本线左右，如果高考成绩比一本线底一点，但选课等级估计为A+A+或A+A，能被入取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是江苏预录取,高考成绩作为正式录取的参考（一般要求达到本地高考一本线），我估计高考成绩在一本线左右，如果高考成绩比一本线底一点，但选课等级估计为A+A+或A+A，能被入取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+天津理科估分620能否上贵校的临床专业,能否选专业?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+我系2013浙江金华一中理科女生估分640有机会就读？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好！请问医学院今年在北京有扩招的可能吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='北京';
+['查询结果为空！']
+招办老师，您好！请问已获得自主招生临床八年专业的学生还要填志愿吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+请问提前批是一本线吗,上海招几名女生问科的?一般超过一本线多少分?
+select * from admission_plan where school='上海交通大学医学部' and district='上海';
+['查询结果为空！']
+您好！请问有多少北京考生获得上交医学院自主招生加分认定？比去年是增加了还是减少了？阳光高考平台上没有公示。谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and district='北京';
+['查询结果为空！']
+我是理工男生，想做医生，不过贵校分数很高，保险的话，填提前批中的护理学，护理学10名，男女兼收，男生以后做哪些工作？假如觉得不合适，学至1、2年可以换其它专业吗？
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='护理学' and classy='理工';
+['查询结果为空！']
+老师，我一模二模成绩超徐汇区一本线2分，同意调剂的话，报贵校有希望进吗
+select * from admission_plan where school='上海交通大学医学部' and district='徐汇区';
+['查询结果为空！']
+报考口腔医学有视力方面的限制吗
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学';
+['查询结果为空！']
+我是山西考生超出一本线63分有希望上贵校在山西投放的专业吗？
+select * from admission_plan where school='上海交通大学医学部' and district='山西';
+['查询结果为空！']
+我是内蒙理科考生，高考成绩493，蒙族，超出一本线24分，想报贵校民族预科班，有可能吗？专业可以自己选吗?报民族预科班档案中有什么限制吗？麻烦老师提供一下近三年的民族预科录取线，辛苦了，谢谢老师
+select * from admission_plan where school='上海交通大学医学部' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+山东645能报贵校吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+您好，我是山西考生，一本线530.我考了629，能否上贵校的临床专业？再问一下，贵校的临床专业在全国排名如何？初次报考，恳请指导。谢谢。
+select * from admission_plan where school='上海交通大学医学部' and district='山西';
+['查询结果为空！']
+安徽理科考生648分能否报贵校本博连读专业
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师好!我是山西应届理科考生,高考成绩574分,在山西排名6012,想进贵校学习本博连读,有机会吗?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='574' and district='山西' and classy='理工';
+['查询结果为空！']
+浙江理科662，能进贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好，我是山东临沂理科考生，今年高考考了626分，超出一本线44分，想报考贵校医学类热门专业，请问把握有多大？？谢谢您的回复
+select * from admission_plan where school='上海交通大学医学部' and year='2044' and district='山东' and classy='理工';
+['查询结果为空！']
+您好！我是山东理科应届毕业生，高考成绩600分，高出一本线18分，能否被贵校录取？
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and district='山东' and classy='理工';
+['查询结果为空！']
+我想知道贵校今年的分数线大概多少，可以吗？？？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+我是山东的考生成绩674分，能否报考贵校的临床医学专业，这是我10年努力追求的目标
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and major='临床医学' and district='山东';
+['查询结果为空！']
+请问贵校在云南招生组的老师联系电话是多少？
+select * from admission_plan where school='上海交通大学医学部' and district='云南';
+['查询结果为空！']
+老师你好！我是云南大理祥云农村理科考生，考分642分，超一本线177分，请问能报考贵校什么专业？有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='云南' and classy='理工';
+['查询结果为空！']
+老师您好：肝功正常，表面抗原阳性，能否报考贵校临床医学专业？另：对于上述情况，如果去贵校附属医院求职，是否拒录？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+老师你好，我是安徽考生，高考643分，省排名1434名，能报你校吗？录取的可能性大吗？
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+老师，您好：，请教几个问题：，1.山西今年平行志愿招录，A、B志愿填报贵校是否都被视为第一志愿？，2.被贵校提档后是否会被退档(服从调剂)。，3.我是山西理科考生，今年高考预估626分，可能过一本线70-90分，有机会被贵校提档吗？，4.专业录取，有没有分差，我这个分数的话如何选择专业可以被较为理想的专业录取？，5.另外，如果专业不理想，入校后有没有调换专业的机会，学生想选择临八？，6.关于毕业就业问题，选择贵校哪个专业毕业后能上海本地就业的机会更大？，感谢您的指导，辛苦了！请理解学生迫切希望考取贵校的心情。
+select * from admission_score_pro where school='上海交通大学医学部' and year='2090' and district='上海' and classy='理工';
+['查询结果为空！']
+请问天津考生640分可以报考贵校什么专业
+select * from admission_plan where school='上海交通大学医学部' and district='天津';
+['查询结果为空！']
+临床医学（英语五年制）与临床医学（五年制）区别
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+1.贵校为何今年在甘肃没有招生计划，这种情况好像已经持续有几年了，是什么原因？，2.贵校“不分省计划”中有，是不是真的，具体情况除特殊的保送生、自主招生、艺术生、运动员外，与统招生有关联吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='甘肃';
+['查询结果为空！']
+估分640，能报8年制临床医学吗
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+我今年估分565，请问贵校在山西招生，高于山西高于一本线多少分？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山西';
+['查询结果为空！']
+我的双眼矫正视力为750度可以报考贵校的临床医学专业吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+请问老师重庆文科中等成绩550分报贵校那个专业较好？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='重庆' and classy='文史';
+['查询结果为空！']
+咨询贵校今年新增了文科专业否？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and classy='文史';
+['查询结果为空！']
+我是山东考生，体检时谷丙转氨酶高于标准值，而继续检查其他指标如甲肝、乙肝、丙肝、戊肝等指标都为阴性，请问这种情况是否能报贵校？
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+老师您好：江苏是平行自愿，ABC都是第一自愿，2012年招19人，那么，贵院在江苏的投档线是怎样划的呢?，学生已得到交大B档优惠，需够投档线，一心要去贵院学临床，请教，有国家政策性加分，可以与B档5分叠加，是吗？，如果服从调剂，进了非临床，还有机会学临床吗？，如果不服从调剂，就有退档可能，是吗？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='江苏';
+['查询结果为空！']
+请问上海交大在北京的58名自主招生学生中是否含医学院的名额？如含，医学院是多少名？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='北京';
+['查询结果为空！']
+您好：，1.贵校与上交大是什么关系？隶属？独立大学？毕业证书如何显示？，2.河南理科632超一本50分，如果贵校15人计划录不满是否会一本线录取？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+您好，我是海南理科生，高考成绩687，请问有希望上贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='海南' and classy='理工';
+['查询结果为空！']
+尊敬的老师您好，我是湖北的理科女生，2011年高考分数606分，一本线571，特想报考贵校。请教您：有无希望，有多大风险。谢谢。
+select * from admission_score_pro where school='上海交通大学医学部' and year='2011' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师：请咨询贵校2011年在重庆的文科招生计划、录取专业、各专业录取的最高、最低平均分？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2011' and district='重庆' and classy='文史';
+['查询结果为空！']
+老师：您好！请问上海交大医学院在投档和专业录取时是否承认政策性加分？即安排专业时，是以投档分为准，还是以裸分为准？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='裸分';
+['查询结果为空！']
+湖北理科考生627报临床5年有希望吗，贵校有专业级差吗
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+我今年考了369分，物理B，化学A,全省排名8621名，能否报你校的临床医学，或口腔专业？
+select * from admission_plan where school='上海交通大学医学部' and year='369' and major='临床医学' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南理科生，考了639，请问报考贵校有希望么？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+请问广西理科考生587有希望报考吗？一本线506
+select * from admission_plan where school='上海交通大学医学部' and district='广西' and classy='理工';
+['查询结果为空！']
+请问贵校在海南招生吗？
+select * from admission_plan where school='上海交通大学医学部' and district='海南';
+['查询结果为空！']
+老师您好，我是河南理科考生，高考发挥很不理想，成绩为642分，非常希望步入贵校学习，请问有多大把握可被贵校录取？会不会被调剂？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+639分，排名1011，报考贵校有希望吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='639';
+['查询结果为空！']
+老师您好!我是云南理科考生，611分，超重点线146分，报考贵校风险大吗
+select * from admission_plan where school='上海交通大学医学部' and year='146' and district='云南' and classy='理工';
+['查询结果为空！']
+老师您好！我是河北石家庄地区的。请问贵校在河北省预估的提档线是多少？贵校在河北省有派招生老师吗？联络方式？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='河北';
+['查询结果为空！']
+老师您好，请问：山东理科655（全省排名1360）报考贵校临床医学（五年制或八年制）有多大把握？谢谢您。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好！我是山西考生，今年分数622分，贵校在我省的分数为624分，请问会有1：1.2的比率录取吗？有希望吗？且我有贵校自主招生5分挑专业，请问能被扩进去吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='山西';
+['查询结果为空！']
+我是安徽理科考生，高考成绩639分，全省排名1079，非常想上贵校的临床医学和口腔，请问是否有希望，有没有相关参考资料？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='安徽' and classy='理工';
+['查询结果为空！']
+云南理科考生分数是589,报贵校临床医学本博能录取吗?
+select * from admission_score_major where school='上海交通大学医学部' and district='云南' and classy='理工';
+['查询结果为空！']
+请问云南省招生老师联系方法
+select * from admission_plan where school='上海交通大学医学部' and district='云南';
+['查询结果为空！']
+我今年641，报贵校有多大希望？
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+老师你好！我是河南理科考生，考了605分，全省19209——20000名，上贵校有多大希望？我想上临床医学专业，有多大把握？我想知道上贵校一般须在全省前多少名？
+select * from admission_plan where school='上海交通大学医学部' and year='605' and major='临床医学' and district='河南' and classy='理工';
+['查询结果为空！']
+你好，我是福建理科考生624能报贵校吗直接点，不要叫我去参考以往记录，我经受得住打击
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='福建' and classy='理工';
+['查询结果为空！']
+你好、老师、我是江苏考生、345双B+、可以来你们学校么？？上什么专业呢？？317双C、可以么？？什么专业呢？？可以麻烦你快点回复么？？急！！
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+老师你好！我今年考了369分，物理B，化学A。全省排名8621名，能否报考你校？
+select * from admission_plan where school='上海交通大学医学部' and year='369' and major='化学' and classy='理工';
+['查询结果为空！']
+老师：请咨询贵校2010年哪些专业录了二本，最低分是多少？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2010';
+['查询结果为空！']
+我是河南考生，总分492，能录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='河南';
+['查询结果为空！']
+录取问题请问老师，江苏理科考生，387分，全省排1432名，A+、A，能否报贵校？
+select * from admission_plan where school='上海交通大学医学部' and year='387' and district='江苏' and classy='理工';
+['查询结果为空！']
+山东考生，642，有希望进入贵校
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+老师好：我是浙江一名理科考生，考分成绩638分。想报考贵校的临床医学（五年制），有希望吗？，请问被贵校提档以后，如果服从调剂是否退档？谢谢!
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师好：，我是河北一名理科考生，想报考上海交通大学医学院，请问被贵校提档以后，如果服从调剂是否退档？
+select * from admission_plan where school='上海交通大学医学部' and district='河北' and classy='理工';
+['查询结果为空！']
+浙江理科高一本线多少分才可以被录取？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问估分650左右的浙江理科考生，能报上交大医学部吗?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好:请问贵校2011年在安徽的招生计划?根据以往录取情况及今年招生计划,估计安徽高考比一本线高出多少才能报考贵校?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='安徽';
+['查询结果为空！']
+老师您好：，我是河南理科考生家长，孩子高考估分640左右，预估一本线585，报考贵校有希望吗？假如被贵校录取，而专业不理想，有机会转专业吗？能辅修第二专业吗？如果两个专业都通过，那么辅修的第二专业如果颁发辅修证明，就业时是否与第一专业等级一样？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+您好！在天津没有临床8年法语班的计划吗？
+select * from admission_plan where school='上海交通大学医学部' and major='法语';
+['查询结果为空！']
+我是陕西的考生估分是620多，可以报考贵校医学部吗？
+select * from admission_plan where school='上海交通大学医学部' and district='陕西';
+['查询结果为空！']
+请问贵校今年准备在四川招收多少学生？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='四川';
+['查询结果为空！']
+老师你好，我是河南理科应届生，605分，很向往贵校，请问这个分数可不可以上啊？服从专业调剂。
+select * from admission_score_pro where school='上海交通大学医学部' and year='605' and district='河南' and classy='理工';
+['查询结果为空！']
+您好我是河南一名理科考生，高考成绩621，，报考贵校有希望被录取吗？能报考哪些专业？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+陕西理科410能被录取吗
+select * from admission_plan where school='上海交通大学医学部' and district='陕西' and classy='理工';
+['查询结果为空！']
+老师您好，我是湖南理科考生，610分，超过一本线43分，全省排名5173，如果服从专业调剂，报考贵校有没有希望？
+select * from admission_plan where school='上海交通大学医学部' and year='610' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师您好！请问贵校临床医学专业五年制直升硕士的比例有多大？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+河南，理科，563，一本552，报考贵校有希望吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好！我是广西的考生，我今年高考总分是620分，其中包含10分的照顾分，有希望报读贵校的临床医学专业吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and major='临床医学';
+['查询结果为空！']
+1考生被提档后能保证不被退档吗？2按照往年招生情况，如果生源质量较好贵校会不会增加招生计划？3去年被录取未去上学，对今年有影响吗?
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+您好！贵校临床八年分英语班和法语班，但是填报志愿时只有一个临床医学（本博连读），请问如何区分？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+老师您好：，请问1、贵校临床专业5年制在第四学年时是否可本校的研究生，是否是硕博连读？若第四学年没有考上在第五学年可否继续报考本校的硕博？升入的硕博学制是几年？2、如果报考上海外的研究生是在第几年时报考？3、贵校五年制的临床医学升入本校硕博和外地研究生比例各是多大？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='上海';
+['查询结果为空！']
+请问贵校今年在福建省的投档比例，还有若服从调剂，专业不匹配的情况下，会被退档吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='福建';
+['查询结果为空！']
+老师您好，我是云南一理科考生，高考分数为621+10，全省排名350左右，是否有希望被贵校的临床医学录取？
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and district='云南' and classy='理工';
+['查询结果为空！']
+报考你校的八年制和五年制临床医学，大概分别需要在福建省内排名多少才有较大的把握？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='福建';
+['查询结果为空！']
+贵校分专业时是否承认政策性加分？临床医学5年和医学检验分专业时是按加分还是原始分排序？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+请问贵校在贵州招生的临床医学（8年制，本博连读）是不是临床医学（法语班）?将它填在第一志愿如果没有录取，第二志愿“临床医学”会不会被减专业级差分?
+select * from admission_plan where school='上海交通大学医学部' and district='贵州';
+['查询结果为空！']
+浙江理科618（5300名次）进贵校的五年制临床医学的可能性多大？若进档是否会被退档？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+浙江理科619，排名5168，如果专业服从，有希望录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+湖南理科637分，排名1000左右，能进贵校五年临床医学或口腔专业吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and classy='理工';
+['查询结果为空！']
+我是浙江的考生考了652，今年一本线551分，浙江排名1175，报考贵校什么专业比较有把握呢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+你好，我是河南理科应届生，614分，排省2688名，很向往贵校，参加过贵校自主招生获得B类优惠政策，请问这个分数可不可以上啊？服从专业调剂。
+select * from admission_score_pro where school='上海交通大学医学部' and year='614' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，请问贵校今年在四川的调档比例为多少，如果服从专业调剂，还是否有被退档的风险？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='四川';
+['查询结果为空！']
+河南首次实行平行志愿，情况肯定有大的变化，依照贵校在其余先行改革省份第一年的招生经验，历年的超一本线多少分参考价值还有多大？
+select * from admission_plan where school='上海交通大学医学部' and district='河南';
+['查询结果为空！']
+贵校录取时是分数清还是专业清？专业志愿之间有专业级差吗？临床医学八年制进校后外语类课程只学法语吗还是英语法语都学？
+select * from admission_score_major where school='上海交通大学医学部' and major='法语';
+['查询结果为空！']
+您好！我是河南理科考生，今年考了631，一本线552，有希望上贵校的临床医学专业吗?进入大学可以调专业吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='河南' and classy='理工';
+['查询结果为空！']
+老师，我是浙江的理科考生，高考考了558分，我想知道报贵校护理类的护理学，被录取的希望大吗？会不会被退档啊？
+select * from admission_plan where school='上海交通大学医学部' and year='558' and major='护理学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我今年593分，自治区排名765，请问报考贵校临床医学八年制有多少成功率？五年制呢？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+老师你好！我是浙江理科考生，排名为968，第一专业填贵校口腔医学有无风险？那么第二志愿应该考虑填什么呢？
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问贵校在山东的招生组老师的电话是什么？
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+我是河北的考生，我们省是平行志愿。考了655，贵校在C位置，若A,B未被录取,上贵校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='河北';
+['查询结果为空！']
+请问：1、贵校分配专业时是否认可各地加分政策？2、临床医学专业认不认可四川的加分政策？，请及时回复，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='四川';
+['查询结果为空！']
+你好！我是安徽的一名考生，今年考了632分，全省排名2985名（安徽今年一本线为562），请问：有希望被贵校录取吗？希望有多大？若有机会被录取我能选择哪些专业呢？谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='安徽';
+['查询结果为空！']
+老师好：，我是山东省的理科考生，总分660，能报考哪些专业？麻烦您了，谢谢。
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+理科627有希望吗
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+老师，我是浙江的理科考生，高考考了654分，我想知道报贵校的临床医学（八年制）被录取的希望大吗？会不会被退档啊？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好！我是浙江考生。今年排名2800，不知报考贵校何专业希望比较大？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+我是西安的考生，今年考了584，请问能上贵校么？
+select * from admission_plan where school='上海交通大学医学部' and district='陕西';
+['查询结果为空！']
+老师您好，我是一名安徽的考生，高考成绩为659，全省排名540，若填写专业服从分配，请问我报考贵校是否有把握？
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+你好，请问贵校一般高于山东理科一本线多少分？我为634，能否被贵校录取？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我是河南考生，610，不知报贵校医学院录取几率大不大？
+select * from admission_plan where school='上海交通大学医学部' and district='河南';
+['查询结果为空！']
+我是黑龙江考生，高考成绩652，预估一本线532，能否被贵校临床医学八年专业录取。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='黑龙江';
+['查询结果为空！']
+我是今年四川考生，理科605分，是省优干加10分。请问在选专业的时候是不是不算加分。我的成绩可以上临床医学的5年和8年吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='四川' and classy='理工';
+['查询结果为空！']
+老师您好，我是一名河北考生，请问今年638分能报考贵校吗
+select * from admission_plan where school='上海交通大学医学部' and year='638' and district='河北';
+['查询结果为空！']
+广西理科考生，高出一本线30~40分，可以报考贵院吗？
+select * from admission_plan where school='上海交通大学医学部' and district='广西' and classy='理工';
+['查询结果为空！']
+今年贵校在贵州是否招生？有分数线吗？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='贵州';
+['查询结果为空！']
+老师您好，我是吉林省理科603分超出一本线73分。我想报贵校临床医学专业，不知能否考上。谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='603' and major='临床医学' and district='吉林' and classy='理工';
+['查询结果为空！']
+上海交大医学院招生老师：我女儿很想从医，1.裸眼视力左4.7右4.7,矫正视力左5.0右5.0,矫正度数左-200右-200体检合格吗？？？；2.理科在福建省质检653.5分,福州市质检640分，校检，在福州一中都保持年段前50名内是否有希望报考临学医学八年制或五年制???;3.临床医学八年制(法语),高中年段是读英语的,能否报考?到大学后改学法语能否适应?
+select * from admission_plan where school='上海交通大学医学部' and year='高中年' and major='法语' and district='福建' and classy='理工';
+['查询结果为空！']
+黑龙江省理科一表估分不低于622,报贵校一表录取希望多大?是否提档不退?
+select * from admission_plan where school='上海交通大学医学部' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+今年在山东的投档分大约会高出一本线多少？去年贵校各个专业的投档分是多少？请问贵校山东理科招生计划？
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and district='山东' and classy='理工';
+['查询结果为空！']
+老师你好！我是河南理科考生，预估分590，专业服从调剂，报你校有希望吗？另外贵校专业调剂的范围是什么？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+我是新疆的考生,今年要考多少分才可以报贵校?
+select * from admission_plan where school='上海交通大学医学部' and district='新疆';
+['查询结果为空！']
+今年贵校在新疆招生吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='新疆';
+['查询结果为空！']
+您要像亲人一样回复，我将以亲人的姿态聆听！我，理科，女生，生性活泼、思维敏捷、口齿伶俐，智商还行，就是烦坐冷板凳！请给推荐一些理工科中偏文的专业，适当介绍一些专业情况更好。再问，您校的特色专业有哪些？您的经验最丰富，往往能一语中的。尽量不要给我一个网址，让我去瞎摸，指个兔子让我去撵啊！您和我的时间真的都很宝贵呀！就把我当成您的亲人吧！，诚心感谢您！
+select * from admission_plan where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+我是一名江苏考生，今年需要考多少分可以报考贵校？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='江苏';
+['查询结果为空！']
+北京海淀考生，一摸成绩588，二摸成绩621，能报考贵校的8年临床吗？要是有风险，二志愿报5年临床会降分多少排队？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='考生';
+['查询结果为空！']
+老师您好:我是一名山东的考生,想报考贵校的口腔医学专业,请问该专业往年的在山东的录取分数线是多少.是否可以转专业.
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='口腔医学' and district='山东';
+['查询结果为空！']
+请问平行志愿的第二或第三顺序和你招生章程上的非第一志愿意思一样吗？贵校如何对待平行志愿的第二第三顺序志愿？05-09年贵校分省录取的最高分、最低分、平均分是多少？05-09年贵校分省分专业录取的最高分、最低分、平均分是多少？贵校在四川实行大类招生吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2005' and district='四川';
+['查询结果为空！']
+我是四川考生,一二模高一本80多分,能上贵校临床医学专业吗?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='四川';
+['查询结果为空！']
+我是安徽理科考生，645分，能被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+我是来自福建的考生，今年分数是625，政策性加分20分，所以是645，请问我报临床医学可以去吗？谢谢
+select * from admission_score_major where school='上海交通大学医学部' and year='2020' and major='临床医学' and district='福建';
+['查询结果为空！']
+老师好：我是河北理科考生630分，报考贵校希望大吗？我没有查到贵校历年的录取分。
+select * from admission_plan where school='上海交通大学医学部' and year='630' and district='河北' and classy='理工';
+['查询结果为空！']
+安徽超过一本线78分，报临床医学八年有希望吗？临床医学五年如何？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='安徽';
+['查询结果为空！']
+看贵校的招生计划，在福建找人人数为20人，按照1：1.05的比例，投档后还会退档吗？
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+临床医学在青海招生吗？？？？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='青海';
+['查询结果为空！']
+我的成绩是621，本一切线569，报考贵校的临床医学八年制的几率有多大，如果是临床医学五年制的话，后面转为八年制的几率又有多大？（继续攻读硕士的几率有多大）
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+山东理科考生617能被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我是浙江理科考生，678，女生，报考交大医学部可能有多大，如果专业服从调剂，会退档吗，专业之间是否有极差
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问老师，我是浙江考生，想要报考贵校医学专业，视力裸视4.3矫视4.8左右眼350度，投贵校会因视力退档么？，是不是所有医学专业都对视力有要求？具体要求是什么？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+老师，您好，我是山东的理科复读生，考了601分，比一本线高了15分，有希望报考贵校么，具体的专业都有哪些，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2015' and district='山东' and classy='理工';
+['查询结果为空！']
+山东淄博理科考生总分659分报考贵校临床医学专业能被录取吗？贵校山东招生组怎么联系?谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好。本人的高考成绩为562，位次为22591，预估福建本一线为570左右.，，请问本人报考贵校的口腔医学专业，被录取的几率多大？，，望能尽快回复，谢谢。
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学' and district='福建';
+['查询结果为空！']
+山东629分，报临床医学风险太大么？
+select * from admission_plan where school='上海交通大学医学部' and year='629' and major='临床医学';
+['查询结果为空！']
+浙江理科661，高一本线56分，排名7391，报考贵校（除护理类）有希望吗？能进临床五年的吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问，若填报了贵校,且专业服从调剂,能保证不退档么?，投档比例在浙江是1:1.05么?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+老师，我是云南理科考生，估计高出一本线90~100分，报考贵校有一定希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='100' and district='云南' and classy='理工';
+['查询结果为空！']
+河北考生601，报考贵校有多大把握
+select * from admission_plan where school='上海交通大学医学部' and district='河北';
+['查询结果为空！']
+请问，视力4.6能报口腔医学和营养学吗，浙江分数661，排名7391，有可能进贵校吗？填服从志愿后，被退档的机会是否还是很大，我真的很想进贵校！！！
+select * from admission_score_major where school='上海交通大学医学部' and major='口腔医学' and district='浙江';
+['查询结果为空！']
+您好，贵校在云南有招办老师吗？，怎么联系
+select * from admission_plan where school='上海交通大学医学部' and district='云南';
+['查询结果为空！']
+09今年江西省一本分数线是518，我高考成绩为618分（含加分10分），请问可否录取到贵校八年临床医学专业就读？
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and district='江西';
+['查询结果为空！']
+尊敬的交大老师,在医学院招生细则中有关于临床本博连读(法语班)第一志愿,第二志愿报临床本科的没有级差的规定.云南临床本博连读专业后面没有"(法语班)"字样,不知此本博连读也执行此规定否?
+select * from admission_plan where school='上海交通大学医学部' and major='法语' and district='云南';
+['查询结果为空！']
+理科675报考贵校能进吗？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+老师，您好！我是江苏考生，一般排名全省多少可以报考贵校？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+2本的分数，文。能报贵校吗
+select * from admission_score_pro where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+老师你好，您辛苦了，我们吉林省今年实行完全平行志愿，我想咨询一下贵校投档比例，如果我符合投档条件，已经被投档至贵校，且服从调剂，但排名靠后，是否会被退档？贵校是否有双学位培养计划？什么规定？是否允许转系？麻烦您了
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='吉林';
+['查询结果为空！']
+老师，我是黑龙江理科考生，估分超过一本线70分左右，请问能否进贵校，如果可以录取，专业选择性大吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2070' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+我是云南的理科考生，估分在567左右，有望上贵校吗？，谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='云南' and classy='理工';
+['查询结果为空！']
+如果报考贵校临床专业本博连读，须高于重庆一本线大概多少分？
+select * from admission_plan where school='上海交通大学医学部' and district='重庆';
+['查询结果为空！']
+老师好：请问我填报贵校的口腔医学，并且服从调计后，被贵校预防医学录取，第二年我能否调回到口腔医学呢？
+select * from admission_plan where school='上海交通大学医学部' and year='第二年' and major='口腔医学';
+['查询结果为空！']
+请问为什么同样是临床医学专业8年制在福建的招生计划分成两个
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='福建';
+['查询结果为空！']
+本人今年参加上交大自主招生只考了C档，填报贵校是否应有相应政策？
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+我是山西的考生,估分大约600左右,请问有无把握进贵校就读?
+select * from admission_plan where school='上海交通大学医学部' and district='山西';
+['查询结果为空！']
+老师：你好！关于临8（4+4），1、修业年限为八年。包括原综合性大学学习四年和医学学习四年。，2、时间安排：	，，①综合性大学学习阶段：	，公共基础课程，时间2年；，原专业课程，时间1年；，完成本科毕业设计（论文）和生物医学基础课程，时间1年；，请问前4年具体学习的课程？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and classy='文史';
+['查询结果为空！']
+老师：你好！回民加分投档你校是否认可？（即总分=高考实分+5分进行投档)谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+贵校在山西是否招收二志愿考生？
+select * from admission_plan where school='上海交通大学医学部' and district='山西';
+['查询结果为空！']
+老师好，河南理科考生估分625报考贵校有没有希望？
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+贵校基础医学主要学习哪些课程？毕业后主要从事什么工作？录取分数高吗？
+select * from admission_score_major where school='上海交通大学医学部' and major='基础医学';
+['查询结果为空！']
+老师您好。，（1）获得河南省优秀学生称号的考生和获得上海交通大学医学部自主招生资格的考生，不需加分即可被上海交通大学医学部投档且被录取者是否占2009年上海交通大学医学部在河南的招生计划和专业名额？需加分才可被上海交通大学医学部投档和录取者是否占2009年上海交通大学医学部在河南的计划和专业名额？（2）上海交通大学医学部2009年在河南招生专业中特色专业主要有哪些？（3）请告知上海交通大学医学部2005年至2008年在河南录取的最高分，最低分和平均分。（4）请告知上海交通大学医学部本科生招生办的联系电话，上海交通大学医学部河南招生组老师姓名和联系电话。，谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='2008' and district='河南';
+['查询结果为空！']
+老师你好！浙江的理科生一模628分，二模678分（总分810分），有希望进贵较吗？如有希望，毕业后能在上海找工作吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='810' and district='上海' and classy='理工';
+['查询结果为空！']
+老师您好！贵校2006-2008年文史类在山东招生的各专业人数和最低分数线是多少？今年贵校文史类在山东的招生计划是多少？在山东文史类有提前批吗？超出重本线多少分就能被贵校录取？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+请问老师，09年在浙江招生计划及08年专业录取分
+select * from admission_plan where school='上海交通大学医学部' and year='2008' and district='浙江';
+['查询结果为空！']
+你好！我是江苏的考生，请问贵校今年有对江苏的招生计划吗？有多少名？我在江苏徐州，本市第三次模拟考试的成绩大概是408分，6A，是物生班的（选修的是物理和生物，2A）；进贵校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='408' and district='江苏';
+['查询结果为空！']
+你好！我是江苏的考生，请问贵校今年有对江苏的招生计划吗？有多少名？我在江苏徐州，本市第三次模拟考试的成绩大概是408分，6A，是物生班的（选修的是物理和生物，2A）；进贵校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='408' and district='江苏';
+['查询结果为空！']
+老师：你好！假如我考635分今年能不能报你院的临床医学？今年在陕西招多少？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='陕西';
+['查询结果为空！']
+老师，您好。，我是云南09年应届考生。我想请教一下，我一眼是正常5.1，另一眼只能矫正到4.7。“指导意见”说此部分内容供考生在报考专业志愿时参考。学校不得以此为依据，拒绝录取达到相关要求的考生。那我在填报志愿时仍然填了相关专业，录取时同两眼均正常的其他人比会有影响吗？，，，普通高等学校招生体检工作指导意见，，二、患有下列疾病者，学校有关专业可不予录取，，4、屈光不正(近视眼或远视眼，下同)任何一眼矫正到4.8镜片度数大于400度的，不宜就读海洋技术、海洋科学、测控技术与仪器、核工程与核技术、生物医学工程、服装设计与工程、飞行器制造工程。专科专业：与以上相同或相近专业。，，5、任何一眼矫正到4.8镜片度数大于800度的，不宜就读地矿类、水利类、土建类、动物生产类、水产类、材料类、能源动力类、化工与制药类、武器类、农业工程类、林业工程类、植物生产类、森林资源类、环境生态类、医学类、心理学类、环境与安全类、环境科学类、电子信息科学类、材料科学类、地质学类、大气科学类及地理科学、测绘工程、交通工程、交通运输、油气储运工程、船舶与海洋工程、生物工程、草业科学、动物医学各专业。专科专业：与以上相同或相近专业。，，此部分内容供考生在报考专业志愿时参考。学校不得以此为依据，拒绝录取达到相关要求的考生。
+select * from admission_plan where school='上海交通大学医学部' and year='2009' and major='动物医学' and district='云南';
+['查询结果为空！']
+请问北京招生组的办公地点和电话，谢谢。
+select * from admission_plan where school='上海交通大学医学部' and district='北京';
+['查询结果为空！']
+体检表上两眼裸视均为4.5（当地体检均未测试矫正视力），自己到医院测试的结果是达到4.8时两镜片均未超800，会因为体检表上的4.5不被贵校提档吗？我不怕到校后复查，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+江苏考生，我特征分350附加分32，理化2A，排名15394能上贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问投档分398，物理等级A，化学等级A+，是否有希望报考贵校？等级在选择专业时是否有优惠政策？贵校是否设置专业间的级差？
+select * from admission_plan where school='上海交通大学医学部' and major='化学' and classy='理工';
+['查询结果为空！']
+请问你校今年在云南省的招生计划？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='云南';
+['查询结果为空！']
+山东理科638分，有自主招生C档加5分排序的优惠政策，有没有希望被录取？谢谢您！！！
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我是浙江的一名理科考生,是女生,考了609分,有无希望在提前批的临床医学(通科)获得面试资格?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是江苏考生，393分，双A，报考贵校希望大吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+请问贵校在山东的咨询老师的联系方式，谢谢老师回答！
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+山东理科考生(女)640，请问被贵校的5年临床专业录取的把握多大？服从调剂的把握又是多大呢？谢谢老师回答！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是江苏考生，总分408，物理化学都为A，全省排名1702，报考贵校有多大希望，能否上临床医学（本博连读）
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问单纯胆红素偏高（总胆红素38，正常20），肝功能正常、乙肝表面抗原阴性，报考贵校是否可以啊，能不能被退档（我660分，高山东重点线78分）
+select * from admission_plan where school='上海交通大学医学部' and year='660';
+['查询结果为空！']
+老师您好:我是四川省一名考生，我的情况是高考实分685分，上海交大2008年自主招生A档优惠（20加分），省优秀学生干部（10加分）。，我只想报考上海交大医学院临床医学（八年制）专业，按上海交大招生章程，我的理解是报考这个专业，我的专业排序分应是：高考实分685+A档优惠（20加分）+省优秀学生干部（10加分）=715分，请老师确认我的理解是否正确？，知道临床医学（八年制）专业已拨一名给灾区考生，非灾区只剩有一个名额，我的家人都劝我放弃报这个专业，而转改报上海交大本部,因只有一个名额，太冒风险了。我很矛盾，请问我考取这个专业把握性有多大？不行的话，只好改报上海交大本部了。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='四川' and classy='理工';
+['查询结果为空！']
+我是理科考生，女，636分，位次942，有多大把握进入贵校的本硕博连读或本硕连读班？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+老师您好！我是江苏08理科考生，成绩336+29，物理A，化学B+，必测4A，请问能否报考贵校？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师你好：我是江苏理科考生，三门总分为380分，物理A+化学A，必修科3门A,1门B，江苏奥数三等奖,喜欢数学,这次数学考178分.全省排名为17253名。咨询①填报贵校有无可能录取。②今年对江苏招录会不会有级差?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是安徽考生，考了619，能否被贵校录取？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+老师您好，我是山东考生，今年高考650分，请问报考贵校临床五年制有多大把握？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='650' and district='山东';
+['查询结果为空！']
+请问:近三年交大医学院临床医学分数线?
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+我是安徽理科考生。621分。高出一本线58分，请问可以填贵校临床吗？填了服从可以不退档吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+我是福建理科考生,成绩是614,高出本一线81分,全省排名748名。.请问有无希望被贵校临床医学五年制录取?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+老师您好！，我是江苏考生，我的投档分为353+32=385，排名12515，但物理生物双A+，请问，报考贵校有希望吗？对双A+的考生有优惠政策吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+问一下在江苏一般排名多少也被贵校录取?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是福建理科考生,成绩是614分.高出本一线81分,在全省排名748名.请问,是否有希望被贵校录取?我同意调剂.
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+我是江苏省苏州中学国际班理科学生，特征分350，投档分382，选修理化2A,填报贵校有希望吗？可填什么专业？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问贵校5年临床医学在进校后能否有机会转为8年，另外，考研（硕博）的比例由多大？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+重庆理科591重点线544报考贵校有无较大的希望?
+select * from admission_plan where school='上海交通大学医学部' and district='重庆' and classy='理工';
+['查询结果为空！']
+考虑到贵校第一次在重庆招生,请问贵校是否认可少数民族的加分?还有重庆理科591(含加分)重本线544报考贵校希望大不大?谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='重庆';
+['查询结果为空！']
+老师你好：我是江苏的考生。投档分364、特征分330、语文附加分34、政治A+、历史A，报考你校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='文史';
+['查询结果为空！']
+我是江苏考生，特征分333，数学附加分32，投档分365，物理A,生物A+,排名：39905名，如果报你们学校，录取的把握性大吗？你们以前在江苏录取的最低名次是多少，麻烦给个参考值
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+各位教授上午好！！请问：贵校在湖南是否有招生计划？往年录取分数是多少？是否招专科？能否专升本！！谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='湖南';
+['查询结果为空！']
+请问重庆理科634(无其他加分项)报考贵校被录取的机会大不大
+select * from admission_plan where school='上海交通大学医学部' and district='重庆' and classy='理工';
+['查询结果为空！']
+山东理科，重点线582分，高考成绩605分，报考贵校希望多大？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+你好，我是江苏的理科生，特征分307，投档分339，物理B+化学C，请问可以报考贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+你好，我是江苏的理科生，特征分307，投档分339，物理B+化学C，请问可以报考贵校吗？，请与我联系，谢谢
+select * from admission_plan where school='上海交通大学医学部' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+1有没有专业级差？2投档比例？3选专业时看文化总分还是总分？4我是浙江考生，628分，文化总分2251，总分2291，进贵校的希望大不？
+select * from admission_plan where school='上海交通大学医学部' and year='628' and district='浙江' and classy='文史';
+['查询结果为空！']
+老师您好,我一名重庆理科考生，想报考贵校临床医学8年专业。我的问题如下：，1.由于贵校过去未在重庆招生,故无法判断该专业在重庆的录取线。我的考分是673（含20分生物竞赛一等奖加分，该加分录取专业时贵校是否予以承认？），重庆市理科一分段表总排名为187位，重庆今年的一本线是544分，不知能否被贵校该专业录取？，2.选择服从“专业调剂”是否只在贵校针对重庆的招生计划所列专业中调剂？，3.贵校的专业级差分是多少？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='544' and major='临床医学' and district='重庆' and classy='理工';
+['查询结果为空！']
+老师您好,我一名重庆考生，想报考贵校临床医学8年专业。由于贵校过去未在重庆招生,故无法判断该专业在重庆的录取线。我的考分是673（含20分生物竞赛一等奖加分），重庆今年的一本线是544分，不知能否被贵校该专业录取。谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='544' and major='临床医学' and district='重庆';
+['查询结果为空！']
+我是浙江理科564,能在贵校就读什么专业？可以读临床医学吗？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+2008云南理科一本线是530，那贵校今年在云南录取分数预计会是多少
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='云南';
+['查询结果为空！']
+请问贵校08年在山东招生人数是多少，分数范围大概为什么？历年报考人数为多少？谢谢回答！
+select * from admission_score_pro where school='上海交通大学医学部' and year='2008' and district='山东';
+['查询结果为空！']
+我是河北理科考生，高本1线40分。有把握报考贵校吗？
+select * from admission_plan where school='上海交通大学医学部' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好！，我是江苏考生，请问贵校选修课要求是什么？A+是否加分？A志愿和B志愿入档生在选专业时有无分差？贵校是是否存在专业级差？第二年有无二次选专业机会？近几年就业情况如何？江苏南通有无咨询组？如何联系？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='江苏';
+['查询结果为空！']
+老师，您好！我是湖北的一名考生，有几个问题想咨询一下：1、贵校医学院2007年、2006年在我省的投档线分数是多少？我今年高考估分610分，有希望进入贵校吗？，2、贵校临床医学（八年）专业，要求高考分数是多少？，3、请告知贵校在湖北地区高考咨询的日程安排，以便能与招生老师求教。，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='（八年' and major='临床医学' and district='地区';
+['查询结果为空！']
+请问浙江理科630分进贵校临床医学7年制的希望有多大
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是四川理科生，请问:(1)贵校二本有护理、临床医学专业吗？(2)08年其专业在四川录取分数估计多少？（3）二本其专业上学在贵校哪个校区？
+select * from admission_score_major where school='上海交通大学医学部' and year='2008' and major='临床医学' and district='四川' and classy='理工';
+['查询结果为空！']
+谢谢老师。，我是浙江考生。，理科6232905名
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问贵学校在甘肃08年招生吗？如果招的话那么往年的理科分数线是多少？08年招多少理科生？有什么专业？
+select * from admission_plan where school='上海交通大学医学部' and year='2008' and district='甘肃' and classy='理工';
+['查询结果为空！']
+湖北理工科考生要高出重本线多少,有希望上贵校?没参加口试能报贵校吗?
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+贵校在浙江招生的投档线需多少?专业级差是多少?参加交大自主招生获加分政策考生,报考医学院是否同样享受加分?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+如果被医学院预防医学等录取，能否转专业读临床医学?今年贵校在浙江的调档人数是多少,是否按1:1调档?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='浙江';
+['查询结果为空！']
+肢体残疾生活能够自理的考生能不能报考临床医学专业?按照教育部的体检要求是可以的,但贵校的电话咨询老师回答不合适.如果报考该专业,在分数达到要求的情况下会不会不被录取?谢谢
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and classy='理工';
+['查询结果为空！']
+我是广西考生,今年的题目特别难,如果刚上重点线能被录取吗?如果同分数,贵校如何取舍?谢谢.
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='广西';
+['查询结果为空！']
+老师你好，我是安徽的考生,请问要报考你院一般高出重点线多少分才行?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+老师您好:，我是黑龙江省理科考生,今年获取清华大学提琴一级证书请问二表一报考贵校,是否会在分数上给与一定的优惠政策?，谢谢您!
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+今年在甘肃省有没有招生计划，报考临床医学专业对视力有没有要求？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='甘肃';
+['查询结果为空！']
+我是河南考生，预测分数在630分左右。请问我可能被贵校录取吗？今年咨询的考生预测分数在哪个分数段？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='河南';
+['查询结果为空！']
+对江苏考生的选修科目等级要求是什么?谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+贵校临床医学专业今年在天津是否招生?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='天津';
+['查询结果为空！']
+您好！我弟弟今年参加高考，他是山西文科考生右腿残疾，今年估分550左右，请问，他能报贵校么？适合什么专业呢？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山西' and classy='文史';
+['查询结果为空！']
+老师您好.今年安徽卷难,不知道615(含十分生物竞赛加分)可否为贵校临床八年录取?如果为临床五年呢?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='安徽';
+['查询结果为空！']
+我是江苏考生，请问：，1、贵校在江苏计划招生多少人？口腔专业在江苏招多少人？，2、第一志愿填报贵校的录取比率有多少？，3、能不能预测一下今年的录取分数线？，4、对江苏考生选测学科有什么等级要求？如果得到双A是否能加分？加几分？，5、专业级差分是多少？入学后可不可以转专业？，6、考生在江苏排名多少方能被贵校录取？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='江苏';
+['查询结果为空！']
+我知道你们上海的学校在调档和录取环节都认可政策加分，而好些学校如北京的学校，只是调档认可，但是录取时按照实际考分排序。这样一来，这些享受了加分的学生势必就会填报你们上海的学校。有政策加分的无形中比其他考生多20分，这在高考中多得20分是要压倒好多人的，因为你们在录取排序时也认可加分。而没有享受加分的学生就不能估计自己吃亏多少，因为假如你即使事先知道自己所得的成绩在全省的排序，但是你不知道你的后面有多少人享受加分，这个实质排名在自己后面可是隐形的加分却会排在自己的前面。这些隐形的又有多少人自己不知道啊，使得自己对填报你校（上海学校都这样）没有把握而不敢填报。我这就想知道根据你校历年来的录取情况，平均录取新生中享受政策加分的有多少比例？。另外，我不得不说的是，享受什么省级优秀学生干部和省级三好学生这些加分学生的，实际上并非学生优秀，而实际上是在比学生他（她）的老子谁“优秀”（能耐），我就知道我小孩班上为挣这个加分政策，学生老子们无所不用其极，最后谁挣得加分的这个名单也没有在班上公布。都是背后暗箱操作。这对于我们这些无能家长来说感到无可奈何不说，可是这对我的小孩的心灵影响太大，她就回来给我们反映了比他不如的都是什么省级三好生或学生干部，这对于象我这小孩这些成绩相对享受加分的学生成绩排在其前的学生心灵打击不可言表。还有成绩排在全班最后几名的还是保送生。可是你们上海学校可要多了解这些加分背后普遍存在的问题啊！我的小孩就想报考你校，故我就想了解你校历年录取的新生中享受加分学生的比例，以便我们填报时参考，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2020' and district='上海';
+['查询结果为空！']
+老师您好:我是四川省一名考生，获得了贵校2008年自主招生A档优惠（20加分）及省优秀学生干部（10加分），报考贵校合计有30分优惠加分。我想报考上海交大医学院临床医学（八年制）或口腔医学（七年制）专业，我的问题是：，1．	在贵校临床医学（八年制）及口腔医学（七年制）专业录取时，我的30优惠加分是否有效，参入专业排序？（我了解到四川大学的医学院在这两个长学制专业录取时，只认高考实分，不计优惠加分），，2．	如承认优惠加分，通过三次诊断性测试评估，我估计我的高考实分在655左右，再加上30分优惠加分，考取上述两个专业把握性有多大？去年这两个专业在我省录取分是多少（含校内和校外优惠加分）？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and major='口腔医学' and district='四川';
+['查询结果为空！']
+1.贵校今年在河南的少数民族预科生招生计划是多少?在河南的民族班招生计划是多少?都是哪些专业?，2.这两类招生的原则是什么?，3.去年这两类招生在河南的最低分是多少?
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and district='河南';
+['查询结果为空！']
+贵校在山东的招生计划
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+老师您好！请问贵校是否为军校？今年在安徽是否招生？多少人？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='安徽';
+['查询结果为空！']
+请问今年在陕西招生多少名？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='陕西';
+['查询结果为空！']
+如果考上5年临床医学专业还允许考研究生吗?????
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+请问新疆考生估分550分可以报考你们的学校吗？有哪些专业？各专业间有没有级差？你们要第二志愿的学生吗？
+select * from admission_plan where school='上海交通大学医学部' and district='新疆';
+['查询结果为空！']
+我是一名福建考生,请问贵校招办的联系方式是什么?
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+江苏是平行志愿,如果我B志愿填贵校还能享受加分政策吗?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是江苏考生650分能进贵校吗?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+您好,我是山东理科考生,高考成绩641分,想要报考贵校口腔医学.分析贵校历年招生,最高分和一本分数线差距0450分05年74分05年67分.不知今年是否是大年,如果调剂后,第一学期后改专业的可能是多大?
+select * from admission_score_major where school='上海交通大学医学部' and year='2019' and major='口腔医学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好：福建理科643的分数，有较坚定志向报贵校临床医学8年制专业，能否有九成希望被录取？假如被调剂到其他专业（或临床医学五年制或其他专业），入学后能否要求调换到临床医学8年制专业？贵校对调换专业有何规定？敬请较详细告知，不胜感激。谢谢！再次谢谢！
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+湖北理科596分,报考贵校有几成把握
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+湖南理科５９１，超重本５６分，进贵校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='湖南' and classy='理工';
+['查询结果为空！']
+您好！我是福建理科考生，分数643，排名555，报考贵校的临床医学（8年制），希望大么???谢谢
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+请问福建理科637报考贵校临床医学(五年制)有多大希望?，另外,请问贵校福建招生组的联系方式.
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='福建';
+['查询结果为空！']
+你好,638,高出一本线65,报考贵校临床医学有无把握,希望答复能详细一些
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+浙江理科,总分640,省排名2799.请问:，能进贵校吗?把握多大?若能进,专业选择的余地大吗?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+贵校临床医学(五年制)毕业生的考研率是多少?如果考研一般需要多少年可以拿到博士学位?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+湖北理科550分,一类线548分,请问录取有多少希望?
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+请问福建理科637可以报考贵校什么专业?
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+浙江理科629分想报临床.预防医学.检验,能否被录取.志愿服从,是否会被退档?
+select * from admission_plan where school='上海交通大学医学部' and year='629' and major='预防医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问浙江投档比例多少
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+湖北理科考生596,高一本48,有望报考临床(8年)吗?
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+湖北理科585分,一类线548分,报考临床医学专业希望大不大?
+select * from admission_plan where school='上海交通大学医学部' and year='585' and major='临床医学' and district='湖北' and classy='理工';
+['查询结果为空！']
+浙江理科６３３报考贵院临床医学（５年制）有希望吗？退档比例是多少？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+浙江理科617分，有没有可能报考
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师：第二医科大学是否复旦大学医学院，是否单独的录取分数线？浙江理科617分有没有可能。谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='617' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好，老师。我是四川的理科考生591分，非常想上上海第二医科大学大学，请问我该报读什么专业比较稳妥。谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='591' and district='四川' and classy='理工';
+['查询结果为空！']
+请问:浙江省今年是平行志愿分为ABC三个志愿,若B志愿填交大,那B档自主招生加分是否有效?，谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+老师好,我是湖南理科考生,考了568分,超过重本33分.请问有望被贵校(提前批)录取吗?若有,可能性为多少?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and year='568' and district='湖南' and classy='理工';
+['查询结果为空！']
+你好，我是湖南考生，我是档案分600分(含少数民族优惠加分20分),请问:我将贵校8年制临床医学做为第一志愿填报,能有希望录取吗?如果填报５年制临床医学，一定会被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='湖南';
+['查询结果为空！']
+我想报考贵校临川医学专业，645+10，是否有希望...
+select * from admission_plan where school='上海交通大学医学部' and district='临川';
+['查询结果为空！']
+重庆理科５７７能被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='重庆' and classy='理工';
+['查询结果为空！']
+女生报考贵校的口腔专业是否与男生比处在劣势呢，临床5年的直升比例是多岁，有什么限制呢，整容外科是属于口腔方面还是临床呢，有无实行淘汰制呢，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+我的考分584，语109、数116、外140、理综219，女生，想报读贵校的临床医学专业，能否被录取？另我这分数贵校还有那一专业适合，请推荐，谢谢
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and classy='理工';
+['查询结果为空！']
+浙江理科考生645分能被什么专业录取
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+山东理科591能否被录取
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+老师,请问四川理科629分报考贵校的8年制临床医学,有希望吗?希望有多大?
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='四川' and classy='理工';
+['查询结果为空！']
+江苏理科考生621，能被录取吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，您辛苦了！我是江苏理科生物化学女考生，今年成绩619分，如果愿意专业调剂，能否投档贵校，能否录取。非常感谢！
+select * from admission_plan where school='上海交通大学医学部' and year='619' and district='江苏' and classy='理工';
+['查询结果为空！']
+634分报贵校医学专业(临床专业5年)有多大把握会被录取?服从调剂会被录取吗?
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+我是浙江考生,理科618分,是否能被贵校录取?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是浙江考生,理科618分,是否能被贵校录取?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+福建有招生吗?有的话录取线是多少?
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+内蒙考生610分,可否去贵校?提前A录取院校
+select * from admission_plan where school='上海交通大学医学部' and district='内蒙古';
+['查询结果为空！']
+考分是612分，理科，报我们学校能上的概率有多大，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='612' and classy='理工';
+['查询结果为空！']
+598还能填你校啊，一本线安徽563
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+我是安徽的考生,我理科593,高一本30分,报考贵校的希望多少?
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+我今年考了561重本线是532我上生物技术有希望吗，谢谢！！！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='生物技术';
+['查询结果为空！']
+老师您好:，我是山西考生想要报考贵校(提前批),不知在山西的录取分数线是多少?577分能否被录取?，谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='577' and district='山西';
+['查询结果为空！']
+我是浙江考生，考了635分，第3626名，报考贵校且专业服从，能被录取吗？贵校的提档比例是多少？如果我被投档，且专业服从，有被退档的可能吗？
+select * from admission_plan where school='上海交通大学医学部' and year='635' and district='浙江';
+['查询结果为空！']
+老师，我的考分是597分，今年四川的重本线是532分，如果我报5年制的临床医学，希望大吗？谢谢老师！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='四川';
+['查询结果为空！']
+请问老师山东地区的联系方式是？
+select * from admission_plan where school='上海交通大学医学部' and district='山东地区';
+['查询结果为空！']
+我是福建理科考生,今年高考分数是637,请问被录取的可能性有多大?可以填报什么专业?
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+老师你好：，我是山东理科考生，今年高考分数为627分，本科一批为573分，请问老师报考贵校的可能性有多大。
+select * from admission_score_pro where school='上海交通大学医学部' and year='573' and district='山东' and classy='理工';
+['查询结果为空！']
+我是理科考生，今年高考成绩为627分，请问老师能否报考贵校？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+山东省理科高考成绩为644分,报考贵校有多少把握?
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我有交大自主招生C档(10分)江苏是平行志愿,一定要填志愿A吗?
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and district='江苏';
+['查询结果为空！']
+理科622，报考贵校把握多大？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+江苏650可选临床(法文)吗?我有交大自主招生C档(10分)，江苏是平行志愿,一定要填志愿A吗?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='文史';
+['查询结果为空！']
+山东理588报临床医学(5年)的可能性大吗?
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我的考分584，想报读贵校的临床医学专业，能否被录取？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+老师:，你好!我很想来贵校读临床医学专业,我高考考了557分,超省一本线25分,有希望填报这个专业吗?查看了06年贵校在川招生的分数,我有希望呀,就是没有看到05和04年贵校在川的招生分数线?你给告诉我吗?谢谢您!
+select * from admission_score_major where school='上海交通大学医学部' and year='2004' and major='临床医学';
+['查询结果为空！']
+贵校07年临床医学7年分数线是多少
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+你好我是山东考生，今年我门这里的一本线是573我的份数是577能否报贵校的临床专业？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山东';
+['查询结果为空！']
+请问宁夏570(含民族分)是否能被贵校录取??
+select * from admission_plan where school='上海交通大学医学部' and district='宁夏';
+['查询结果为空！']
+请问贵校在江苏的招生计划
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是江西的考生,请问色弱考生报考贵校有何种专业限制?，谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='江西';
+['查询结果为空！']
+老师您好：，贵校往年在浙江招收的临床医学8年制的分数一般比一本线高出多少？
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江';
+['查询结果为空！']
+请问四川招收临床医学需要高出重本线多少分
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='四川';
+['查询结果为空！']
+我是安徽考生，估分640-650，上海交大自主招生10分，报贵校8年制连读有把握吗？
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+今年理科在福建招什么专业呢？，谢谢~
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and classy='理工';
+['查询结果为空！']
+我是广西考生，估计550分左右，一本线540左右，你看我临床医学有希望吗
+select * from admission_plan where school='上海交通大学医学部' and year='550' and major='临床医学';
+['查询结果为空！']
+06年江苏理科分数线
+select * from admission_score_pro where school='上海交通大学医学部' and year='2006' and district='江苏' and classy='理工';
+['查询结果为空！']
+进入5/8年制临床医学的四川考生能否转入法语班？
+select * from admission_plan where school='上海交通大学医学部' and major='法语' and district='四川';
+['查询结果为空！']
+请问贵校2007年在内蒙有招生计划吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2007';
+['查询结果为空！']
+请问今年贵校在川招收临床专业预计分数线比一本线高多少？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+您好!我是山东理科考生,估分在640分左右,请问报考贵校有没有把握被录取?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and year='640' and district='山东' and classy='理工';
+['查询结果为空！']
+贵校老师：你们好！我是黑龙江省一名高考应届理科女生，性格文静，高考估分620，想在第一志愿报考贵校，现有一些问题请教：1、按我的分能被你校录取吗？2、我适合学什么专业？3、你校有什么特色专业？就业率多少？专业有特殊要求吗？4、近三年在黑龙江省录取的最低分和平均分各是多少？有无专业级差？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='黑龙江' and classy='文史';
+['查询结果为空！']
+贵校今年有甘肃的招生计划么，贵校和第二军医大有什么关系么
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='甘肃';
+['查询结果为空！']
+我是江西考生,考分估计550,请问能否被录取?
+select * from admission_plan where school='上海交通大学医学部' and district='江西';
+['查询结果为空！']
+我估分差不多590分理科，能被贵校录取吗
+select * from admission_plan where school='上海交通大学医学部' and year='590' and classy='理工';
+['查询结果为空！']
+你好我是新疆考生，不知贵校在新疆是否招生？，我估分是510，不知能否上贵校？，是一本还是二本？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='新疆';
+['查询结果为空！']
+请问贵校在贵州招生否，理科生估分575分能否上贵校，谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='贵州' and classy='理工';
+['查询结果为空！']
+我是河南的名理科考生，我想报考贵校的中医专业，但是我因为小时候得小儿麻痹症使左腿残疾，不知道在分数达到的前提下能否被录取？
+select * from admission_score_pro where school='上海交通大学医学部' and year='None' and district='河南' and classy='理工';
+['查询结果为空！']
+老师请问一下去年交大医学院临床医学5年制录取的考生高考位次如何？
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and major='临床医学';
+['查询结果为空！']
+老师你好,我想问一下,咱们学校在黑龙江招生吗?
+select * from admission_plan where school='上海交通大学医学部' and district='黑龙江';
+['查询结果为空！']
+请问贵校的老师，07年在天津招护理专业的学生吗，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好！，请问新生今年在哪个校区生活学习？是不同专业不同校区吗？大一过后有搬到其他校区吗？，可不可以麻烦老师介绍下各个校区宿舍，食堂的情况呢？
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+请问你校有文科学生报考的专业吗?
+select * from admission_plan where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+請问在广西招生吗
+select * from admission_plan where school='上海交通大学医学部' and district='广西';
+['查询结果为空！']
+我是浙江考生,贵校招理科生吗?什么专业?多少分?谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+今年贵校在山东没有招生名额吗
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山东';
+['查询结果为空！']
+我在模拟考试中一般考630分左右，请问能否有可能被录取？我特喜欢生物，如果荣幸录取，请问报什么专业好？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='630';
+['查询结果为空！']
+贵校05、06年在福建各招收几名临床学生？分数是多少？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2005' and district='福建';
+['查询结果为空！']
+今年的文科分数线会不会比去年高啊？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2018' and classy='文史';
+['查询结果为空！']
+我报考贵校的护理专业,以后是否可以转其他的专业
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+请问老师，贵校2007年在黑龙江省有招生计划吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2007' and district='黑龙江';
+['查询结果为空！']
+我是江西省得一名考生，理科，425分，请问可以进入贵校学习吗？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and district='江西' and classy='理工';
+['查询结果为空！']
+您好海南省今年重点线为569考生分数为705按历年分数看能否被贵校较热门的专业录取
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='海南';
+['查询结果为空！']
+请问福建理科625报考贵校的五年制临床希望大吗？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+我是福建省理科考生，成绩５８９分，高出本一线２８分，若报考贵校有否希望，是否必须是第一志愿填报呢
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+请问贵校承认福建的高分保护政策吗
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+我是湖南理科考生,考分为590,还有20分少数民族分.若报考临床医学(八年制)能否取录?若报考临床医学(七年制)能否取录?若报考临床医学(五年制)能否取录?，谢谢!
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='湖南' and classy='理工';
+['查询结果为空！']
+下午填了,请老师尽快回答
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+您好！我是福建考生，总分625，排名1555。请问能否被临床医学或口腔医学录取。如果不能，服从调剂，被录取机会多大？？
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学' and district='福建';
+['查询结果为空！']
+贵校是否执行福建省的高分保护政策，如果理科652第二志愿写贵校是否能被录取？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+你好!我是云南理科考生,今年考了527分,高出二本线42分,若报贵校有多大希望?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='527' and district='云南' and classy='理工';
+['查询结果为空！']
+我是福建考生,我608分,高出本一线47分,如果愿意服从专业调剂,报贵校有风险吗?，是否象上海交大一样,能够在大一结束十转专业
+select * from admission_plan where school='上海交通大学医学部' and year='2047' and district='福建';
+['查询结果为空！']
+老师好.湖北理科考生601.报贵校服从调剂.能不能保正录取啊?
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师您好：，请问北京考生618分（一本线528分）报考临床5年的录取概率有多大？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='北京';
+['查询结果为空！']
+福建理科598报贵校口腔医学或营养学希望有多大？？？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+我今年考了云南文421能起本校吗???能上１专或预科吗？？？？希望大吗？？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='云南' and classy='文史';
+['查询结果为空！']
+我分数608,超过本一线47分,报该校有没有风险
+select * from admission_score_pro where school='上海交通大学医学部' and year='2047';
+['查询结果为空！']
+我是一名青海的考生，很想学医，不知进入交大后，是否可以转专业到医学院学习！谢谢老师！
+select * from admission_plan where school='上海交通大学医学部' and district='青海';
+['查询结果为空！']
+老师好:湖北理科580分有希望上贵校吗?
+select * from admission_plan where school='上海交通大学医学部' and year='580' and district='湖北' and classy='理工';
+['查询结果为空！']
+我是黑龙江考生，非常向往贵校，请问明年有可能在黑龙江招生吗？贵校是根据什么确定招生计划呢？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='黑龙江';
+['查询结果为空！']
+请问贵校是否已并入上海交大?在福建是否有招生?理科652能否填报临床医学八年制？？谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+今年贵校在山东省是否保留扩招计划？我有化学奥林匹克竞赛省一等奖证书，进校后转专业是否有更大余地？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='化学' and district='山东';
+['查询结果为空！']
+临床八年制和五年制在前四年所开课程大体一致么？651分报考八年制录取几率大吗？
+select * from admission_plan where school='上海交通大学医学部' and year='651';
+['查询结果为空！']
+浙江考生理科612分，可否填报你校。
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问广西理科６１４分，能报考贵校的生物工程系吗？
+select * from admission_plan where school='上海交通大学医学部' and district='广西' and classy='理工';
+['查询结果为空！']
+有无福建招生组联系电话
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+福建理科620,临床五年专业,录取希望有多大?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+你好，山东理科650分报考贵校五年制临床有多大希望？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+请问贵校对报营养学专业的考生有什么特殊的要求？还有临床医学5年制是怎么安排课程的？？？还要选修什么专业？英语是否很重要？？？
+select * from admission_plan where school='上海交通大学医学部' and major='英语';
+['查询结果为空！']
+福建理科631能否填报临床医学八年制
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+我是安徽的理科考生，我考了628分，另外生物竞赛省一等奖还可加10分,请问是否能被录取？
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+请问,在闽有招生吗?如果有,福建理科考生600上贵校的临床医学7年本硕连读有希望吗?，如果没有希望,那上临床五年呢?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+如果专业为市场营销,是否可以改专业?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and major='市场营销';
+['查询结果为空！']
+福建理科，620分，能否填报临床医学八年制？？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+我是一湖南理科考生，444分，能否被贵校的二级学院录取？谢谢老师的明确回答
+select * from admission_plan where school='上海交通大学医学部' and district='湖南' and classy='理工';
+['查询结果为空！']
+你好，我是福建理科考生，今年考629，排名1200左右，（高本一68分）数学奥赛2等奖，报考你们学校有希望吗？应该报考什么层次的专业?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+湖北理科595报贵校临床医学希望大不大？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+浙江理科618进你们学校的医学核验专业有几成希望？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+你们学校对护理学有没有身高要求？
+select * from admission_plan where school='上海交通大学医学部' and major='护理学';
+['查询结果为空！']
+今年,在全国所有大学中.只有贵校和四川大学在调档和专业录取中对"政策性"加分和减分都给予优惠,并且还可以叠加.这对没有加分的"裸考生"来说是不公平的.有可能高分"裸考生"不会报考贵校,而持有加分和减分身份的考生会很积极地大量的报考贵校,因为全国只有这两所高校有此政策.几年后,贵校还属于研究性大学吗?
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+老师：你好！我是江苏考生，总分645分，省1783名，其中数学和化学两科成绩为单科优秀，请问在录取时对单科优秀生是否有优惠政策？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='645' and major='化学' and district='江苏';
+['查询结果为空！']
+我是湖北考生,今年十六岁,高考成绩理科596分,湖北一类线是546分,我想报贵校,不知是否能录取,再我的分数是否能读临床医学本硕博连读专业或者临床医学五年制,贵校在湖北往年三年专业录取分数的网址怎么也打不开呀,急盼回答,明天我们就要填志愿了,当医生是理想,我很想报考贵校啊
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and district='湖北' and classy='理工';
+['查询结果为空！']
+我是湖北考生,今年十六岁,高考理科成绩596分,想填报贵校,不知是否能录取,我的成绩能报贵校本博连读八年制专业吗?急盼回答!
+select * from admission_plan where school='上海交通大学医学部' and year='596' and district='湖北' and classy='理工';
+['查询结果为空！']
+我是山东考生，成绩648分，报考临床八年专业是否有把握？第二志愿报五年制临床，是否有专业级差，英语考分是否有要求。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='英语' and district='山东';
+['查询结果为空！']
+我是福建理科生，我的分数是598，有没有希望考上贵校的临床医学
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+浙江考生630分，不知填，1－营养学，2－医学检验，3－口腔医学，这样的填报顺序是否合理？
+select * from admission_plan where school='上海交通大学医学部' and year='630' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师好啊，福建考生619报贵校有希望吗
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+浙江理科634分报你校那些专业录取机会比较大?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+浙江理科634分报你校那些专业录取机会较大?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师：你好！我是江苏的考生（今年1月份，在参加上海交大2006年自主招生考试中，取得较好成绩，获得“2006年高考成绩达到我校在当地投档线且以我校校本部或医学院作为第一志愿填报者，享受加10分排序录取”的优惠政策），总分645分，省排名1723名，数学和化学两科获单科优秀。请问在录取时对单科优秀生是否有优惠政策？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='645' and major='化学' and district='江苏';
+['查询结果为空！']
+山东理科637可以报考贵校临床医学吗？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+上海考生理科加试物理,总分515~520分,有10分冬令营加分,第一志愿临床医学八年制英语班能录取吗
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='上海' and classy='理工';
+['查询结果为空！']
+老师您好。湖南理科600，高出重点线53分，全省排明3000左右，请问该分数能否报考贵校，有多大希望？竞争力怎样？建议报考哪些专业？非常感谢！！！！！
+select * from admission_score_pro where school='上海交通大学医学部' and year='2053' and district='湖南' and classy='理工';
+['查询结果为空！']
+我是江苏理化类考生，我考了613,是否能报考贵校
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+浙江考生理科626分,报考贵校临床医学.口腔医学.医学检验还有希望吗?
+select * from admission_plan where school='上海交通大学医学部' and year='626' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+江苏考生647，理科，本一572，省排名1520，报八年制临床医学希望多大
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+浙江理科612，第一志愿报护理学，成功的可能性有多大？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问湖北理科595能否上贵校
+select * from admission_plan where school='上海交通大学医学部' and district='湖北' and classy='理工';
+['查询结果为空！']
+请问我是一名山东考生，理科分数是642，是否可以报考贵校的临床或者生物医学工程专业？
+select * from admission_score_major where school='上海交通大学医学部' and major='生物医学工程' and district='山东' and classy='理工';
+['查询结果为空！']
+浙江考生626分能否进贵校?若填报临床医学、口腔医学、医学检验、营养学是否合理？
+select * from admission_plan where school='上海交通大学医学部' and year='626' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+再问一下，贵校在福建理科录取线一般比本一线高多少呢？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+浙江理科，645分，能否填报临床医学七年制？？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+江西考生630分，高出重点线80分。请问临床医学八年制录取的可能性大不大？
+select * from admission_plan where school='上海交通大学医学部' and year='630' and major='临床医学' and district='江西';
+['查询结果为空！']
+我今年高考理科考了648分，很想读贵校临床医学五年制。不知最近贵校该专业的报考情况如何，我的分数有无把握？
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and classy='理工';
+['查询结果为空！']
+老师好！我是四川考生。今年成绩638，全省986名，不知报考贵校有多大风险？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='四川';
+['查询结果为空！']
+请问福建理科604分，省排名4140，上贵校有把握吗？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+请问:浙江考生理科628分进贵校的临床医学有没有希望?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是江苏考生，学物理化学，631分，请问报贵校是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+您好！浙江考生644能否进入贵校七年制医学专业？
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+老师您好！我是浙江考生，成绩是634分，报临床专业（五年制）可能性有多大？急盼回复
+select * from admission_plan where school='上海交通大学医学部' and year='634' and district='浙江';
+['查询结果为空！']
+老师,我是浙江的考生,我的成绩理科577.如填报贵校,填报哪个专业可被录取?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问贵校在河南的老师的联系方式是什么，河南理科632能否上贵校
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+浙江理科考生，成绩641，想报临床五年制专业，不知把握多大？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是山东理科考生,成绩658,全省804名.平时(一模,二模)均在全省130名之前.有无希望报考贵校?有幸被录取,将来有无重新选择学院,专业的机会?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+医学院学习毕业后的毕业证书，是有上海交通大学发吗？毕业证书上有没有注“医学院”等字样？现在四川报考咨询的人多吗？住宿条件、学费等？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='四川';
+['查询结果为空！']
+老师你好！浙江考生理科614分，能上贵校药学等专业吗？
+select * from admission_plan where school='上海交通大学医学部' and year='614' and major='药学' and district='浙江' and classy='理工';
+['查询结果为空！']
+666分山东排名400高一本线83分报贵校能否录取谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+我是浙江考生，总分636，今年临床专业五年制的录取分大概会是多少？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+老师若报考五年制临床医学以后可以转八年么
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+浙江理科考生638报考贵校的临床医学5年制有多大希望，如果我服从专业调剂被录取的可能性大么
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是江苏考生，630高于一本线572分58分，填报贵校可以报何种专业？临床医学可以吗？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+今年我的高考分数为637，报临床专业5年制行吗？
+select * from admission_score_pro where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+我今年的高考成绩是639分，高出重点线69分，想报考临床医学，有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='2069' and major='临床医学';
+['查询结果为空！']
+云南理科590希望大么?
+select * from admission_plan where school='上海交通大学医学部' and district='云南' and classy='理工';
+['查询结果为空！']
+浙江理科630分，报考贵校“临床”或“口腔”有希望吗？贵校还有那些可报专业？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+不希望得到链接的回答,福建招生组联系方式?福建629.1200名,能上贵校8年制临床医学吗?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='福建';
+['查询结果为空！']
+老师您好！我是山东考生，女。理科645分，想报考贵校临床医学，不知可否？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='645' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+请问江苏考生630分被贵校录取的可能性有多大?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是浙江理科考生，希望报考贵校临床医学８年制，不知希望大不大？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+江苏考生630，高于一本572分58分，报考是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+浙江理科考生638进入贵校有多大希望？哪个专业比较有希望？跟交大合并后取分是否会很高？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师好，我是山东理科616分，报考贵校有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='616' and district='山东' and classy='理工';
+['查询结果为空！']
+浙江理科640分报考贵校临床医学（八年制）有无希望？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+657能否上贵校的临床医学
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+我是四川理科女考生,十分向往贵校，对医学很有兴趣（王林老师曾发短消息问我）,高考614分（其中：理科综合268分，英语128分......）,加分10分(省招办确认的艺术特长尖子生小提琴加分)报考贵校希望大吗?能否报考口腔医学或临床医学专业?十分感谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2010' and major='临床医学' and district='四川' and classy='理工';
+['查询结果为空！']
+临床医学5年制的，希望大吗？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+临床医学专业5年制的那个，希望大吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+1.请问贵校和交大合并后,虽然是独立招生,分数线会不会上升,，2.浙江理科620,高出重点线50分,报贵校有希望吗
+select * from admission_score_pro where school='上海交通大学医学部' and year='2050' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是福建理科的，考了569分，能报贵校什么专业？
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+老师您好,我是江苏考生,618分超过本一分数线46分,报考贵校希望多大?
+select * from admission_score_pro where school='上海交通大学医学部' and year='2046' and district='江苏';
+['查询结果为空！']
+我是四川一名考生，请问今年贵校的调档线大概要高出一本多少分；什麽又是单独招生？谢谢了
+select * from admission_plan where school='上海交通大学医学部' and district='四川';
+['查询结果为空！']
+老师您好,我是浙江理科考生,总分606,不知报考贵校临床医学专业是否有希望?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问贵校对英语有什么限制谢谢
+select * from admission_plan where school='上海交通大学医学部' and major='英语';
+['查询结果为空！']
+我是福建考生，考624分，报考贵校法语临床医学八年制，是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建';
+['查询结果为空！']
+您好,我是山东理工考生，645分超重点线62分，想报贵校,有希望吗?报考哪个专业比较合理，请您帮助分析一下
+select * from admission_plan where school='上海交通大学医学部' and year='2062' and district='山东' and classy='理工';
+['查询结果为空！']
+我是英语语种的福建考生，请问能否报考临床医学法语班？
+select * from admission_plan where school='上海交通大学医学部' and major='法语' and district='福建';
+['查询结果为空！']
+山东德州李阳，准考证号：06371402151357。590分，身高1.85米,篮球特长。第一志愿报考临床医学5年，是否可以，能否录取，请指教。，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='山东';
+['查询结果为空！']
+江苏考生物化组合考分604英语全省高分段138加星报考贵校且服从分配可否被录取
+select * from admission_plan where school='上海交通大学医学部' and major='英语' and district='江苏';
+['查询结果为空！']
+福建575理,可否报考贵校临床医学
+select * from admission_plan where school='上海交通大学医学部' and district='575理';
+['查询结果为空！']
+请问：我是江苏考生，630，高于一本线58分，报考是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏';
+['查询结果为空！']
+我是江苏理科考生,622分能上贵校吗?
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+福建609能否报考贵校，谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+老师好，我是浙江理科考生，成绩是620分，请问被贵校临床医学录取的可能性大吗，如果不行，第二专业报口腔、检验、营养等，被录取的可能大吗。我想当医生，也非常向往贵校。请老师能否尽量早点给我一点参考意见，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='620' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+贵校福建省招生组联系方式
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+我是山东考生，考了632分，报考贵校临床医学专业（5年）或医学检验有把握吗？
+select * from admission_plan where school='上海交通大学医学部' and year='632' and major='临床医学' and district='山东';
+['查询结果为空！']
+你好，我是江苏的理科考生，成绩为603，想填报贵校，有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+福建理科615分能上贵校吗?能上那些专业?
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+山东考生理科611分,进贵校希望大不大?
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+贵校并入上海交大后,是否承诺对全国创新英语作文大赛优胜者过调档线后加20分的优惠政策?
+select * from admission_plan where school='上海交通大学医学部' and year='2020' and major='英语' and classy='文史';
+['查询结果为空！']
+浙江,理649分,报考8年制临床医学有多大希望
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问护理学和护理的区别
+select * from admission_plan where school='上海交通大学医学部' and major='护理学' and classy='理工';
+['查询结果为空！']
+请问：贵校今年提挡线是否会与上交大一样？临床医学专业有没有本硕或本硕博连读？05年临床医学专业本科毕业生考研录取率、就业率，主要就业去向？谢谢。
+select * from admission_plan where school='上海交通大学医学部' and year='2005' and major='临床医学';
+['查询结果为空！']
+我是安徽理科考生，我今年高考估分410，请问能否报考贵校一专？报考什么专业录取希望比较大呢？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+可以进贵校吗？临床医学可以么？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+我考了638分,报考贵校能否被录取
+select * from admission_plan where school='上海交通大学医学部' and year='638';
+['查询结果为空！']
+我是浙江理科考生，请问交大冬令营c档加10分在医学部是否有效？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是浙江理科成绩４８０分，可以报贵校临床医学吗
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+福建610能否报考贵校八年制临床医学?，贵校在厦门的招生电话是?
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建';
+['查询结果为空！']
+专家您好：我孩子幼时因放鞭炮，造成左眼外伤，但外观与正常人一样，今年高考前体检，左眼视力0.02，右眼视力屈光度475度，其他正常，高考估分610分。孩子是理科生.请问专家：<1>如高考分数能达到贵校录取分数线，由于身体条件限制，贵校能不能录取。<2>如能录取，那些专业能报考？受不受限制？<3>那些专业不受限制<4>[左眼视力0.02]算不算失明？
+select * from admission_score_pro where school='上海交通大学医学部' and year='610' and classy='理工';
+['查询结果为空！']
+贵校在浙江招几人？６２７进贵校有希望吗，概率大不大？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+请问目前浙江考生咨询分数情况
+select * from admission_score_pro where school='上海交通大学医学部' and year='None' and district='浙江';
+['查询结果为空！']
+我是浙江考生，理科627，投档希望多大？另外，投档后我可加10分排序，报考临床医学5年或医学检验有没希望
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+河南理科考生，650分报考临床医学8年制有多大希望？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='河南';
+['查询结果为空！']
+我是浙江理工类562的学生,请问贵校的强项专业有哪些?贵校级差是多少?我报考贵校是否有希望?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是浙江理科考生.607,想报考贵校口腔医学,依您的经验,是否有希望被录取,风险有多大
+select * from admission_plan where school='上海交通大学医学部' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+浙江理科647有几成把握考进
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+无背景的浙江农家考生，理科，女，637分，高出一本线67分，报贵校有多大把握，请给予诚挚的回复，，，多谢老师指导！
+select * from admission_plan where school='上海交通大学医学部' and year='637' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是河北考生,理科609报考贵校有希望吗?谢谢老师.
+select * from admission_plan where school='上海交通大学医学部' and district='河北' and classy='理工';
+['查询结果为空！']
+06年贵校在青海招生吗?人数是多少?有什么专业?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='2006' and district='青海';
+['查询结果为空！']
+我是浙江理科考生，654，有希望报考贵校临床7年吗
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问今年在浙江是否按１：１．２投挡？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+考了567分，能上贵校吗
+select * from admission_plan where school='上海交通大学医学部' and year='567';
+['查询结果为空！']
+我是山东青岛理科考生，想报考贵校，请问贵校医学方面是否设有临床医学、预防医学、口腔医学、营养医学专业？分别都是几年制？以上专业03、04、05年在山东录取的最高分、最低分、平均分分别是多少？以上专业今年在山东的招生计划分别是多少？今年高出一本线多少分报考贵校以上专业比较有把握？今年在山东录取估计应该是大年还是小年？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='口腔医学' and district='山东' and classy='理工';
+['查询结果为空！']
+我是浙江理科考生,分数是577分,高了一本分数7分,有希望报考贵校的临床医学吗??
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是山东考生，很想报考贵校，请问25号贵校是否来济南参加高招咨询会，老师的电话是多少？
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+内蒙古呼伦贝尔男生高考502分可否报贵校?，急须回答~谢谢老师，06.06.23
+select * from admission_plan where school='上海交通大学医学部' and district='内蒙古';
+['查询结果为空！']
+山东德州李阳，德州市一中毕业，准考证号06371402151357。体魄健康，身高1.85米，数理化成绩突出，语文和英语影响了成绩，估分560-580分。一直关注本校临床医学专业，对医学较感兴趣，按照今年的录取情况，不知能否被贵校录取，请指教。，由于身高的优势，有篮球基础。鉴于高中学习紧张，没有时间深练，在大学阶段，我志愿加入篮球队，为系争光。，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='山东' and classy='文史';
+['查询结果为空！']
+浙江理科生，重点线570613有无希望上贵校投挡线
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是浙江省理科649的考生，请问如果报考贵校，那么我选哪些专业被录取的可能性较大？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+浙江招生咨询电话是多少?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+我是浙江考生，理科622分可以报贵校的营养学吗？几率大吗？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好,我是理科644分,浙江省排名1931,有希望进8年吗?，贵校在校生中临床医学女生占比例大概多少?，往年录取的临床医学5年和7年的在浙江省排名一般多少?，谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+为什么贵校今年在福建招生咨讯上没有出现，而只有上海交通大学医学院，是不是贵校今年不在福建招生啊？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='福建';
+['查询结果为空！']
+我是福建的一名考生，请问您院校专业之间和志愿之间是否有级别差？，，如果今年福建本一批分数切线为５３０，而本人的分数为５８０左右，请您帮我估测一下，我被五年制临床医学专业录取的概率有多大？
+select * from admission_score_major where school='上海交通大学医学部' and year='2019' and major='临床医学' and district='福建';
+['查询结果为空！']
+老师您好，我是山东省泰安市的一名考生。我想咨询一下贵校往年在山东省的投档分数线是多少？再就是贵校今年在山东省大约招收多少人？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山东';
+['查询结果为空！']
+您好,我是浙江理科考生.分数为631.请问报考贵校的临床医学5年制是否有希望,口腔医学7年呢?谢谢
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是贵州理科考生，我想知道什么时候进行面试，军检；怎么通知时间；如果被录取，怎么通知考生？
+select * from admission_plan where school='上海交通大学医学部' and district='贵州' and classy='理工';
+['查询结果为空！']
+浙江理科考生602,有希望被贵校录取么?什么专业有把握点?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+只要高出我省重点线二,三十分?今年难道不会高出50-60分???
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+我是浙江的考生理科593报考您学校有希望吗？您们在本省一般录取哪部分学生？我有几成把握？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问贵校派往浙江招生老师的联系方法
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+浙江考生
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+请问本部与贵校的一些相同专业(如生物医学工程)今后是否有合并的可能?
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='生物医学工程';
+['查询结果为空！']
+贵校与交大本部相同专业今后是否有合并的可能?
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+老师：，你好！请问浙江理科638分是否可以报贵校的临床医学专业？浙江今年重点分是570分。
+select * from admission_plan where school='上海交通大学医学部' and year='570' and major='临床医学' and district='浙江';
+['查询结果为空！']
+老师您好，，我是浙江的考生，今年浙江的重点线是５７０，我的分数是６３１，请问(1)贵校今年是以医学院资格独立招生，还是并入上海交大一起招生呢，(2)贵校的专业分差是如何设立的，具体多少？，(3)我的情况报考贵校的临床医学７年制是否有希望呢？，请老师详细回答，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+请问河南的分数是6月26公布那么什么时候可以知道自己是否被录取
+select * from admission_score_pro where school='上海交通大学医学部' and year='None' and district='河南';
+['查询结果为空！']
+我是浙江理科考生,高考成绩612,是否有希望就读贵校?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师请问专科护理的教学校区在哪里？是非招高中毕业生？可否专升本？，报考书中的两个护理专业学的有什么不同？（它们的录取分不一样）
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+老师您好！我是浙江理科考生—621分。请问报考贵校七年制口腔医学有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='口腔医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师好！，贵校只在上海招法语班，我们如果去了可否给我们机会，再选拔一些进入法语班学习？，除法语班外，其他班的外语可否选法语？，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='法语' and district='上海';
+['查询结果为空！']
+请问，如果报考贵校人数较多且成绩较好，贵校会不会追加计划？如若追加，会是哪些专业？，全省排名前500名报8年制临床医学可能性多大？，请提供贵校山东招生老师姓名、联系电话。，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='山东';
+['查询结果为空！']
+请问老师，贵校并入上海交大，今年的录取分数是不是会很高？，是否执行上海交大制定的如果专业服从调剂，达到录取线就一定录取？，5年的临床医学保送研究生比例多大？有没有硕博连读？，谢谢！
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+我是河南理科考生，我估了６３０，想上贵校的临床５年，有戏么？请问怎样和贵校在河南负责招生的老师取得联系？（最好是电话）
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='河南' and classy='理工';
+['查询结果为空！']
+我是河南考生,今年估了630,上贵校的临床5年,有戏么?，贵校在河南负责招生的老师怎样联系?(最好是电话)
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='河南';
+['查询结果为空！']
+请问632报贵校5年制临床医学有希望否，并入上海交大后贵校的录取分数是否会升高或降低
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+请问贵校这次在安徽招生老师电话是多少?
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+今年不在贵州招生是么？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='贵州';
+['查询结果为空！']
+老师你好，我是浙江理科考生，请问贵校在浙临床医学一般要高出省重点线多少？有否招二指愿的考生？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问报考贵校8年制临床医学有希望吗
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+我是辽宁考生,请问今年是否招辽宁考生??，550到560是否有希望?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='辽宁';
+['查询结果为空！']
+今天贵校国防生招生(20周岁以下)，年龄截到那年那月那日,是否为1986年9月1日以后出生，我是1985年10月12日出生,是否可以报，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='1985';
+['查询结果为空！']
+往届复习生能否报考贵校85年11月11日出生
+select * from admission_plan where school='上海交通大学医学部' and year='2085';
+['查询结果为空！']
+听说临床医学的毕业生已达到饱和,就业困难,您的看法呢?，医学方面还有哪个专业比较好?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+我估计能考610-620分，我想报考贵校八年制临床医学专业，请问是否有希望？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+现在报考临床医学专业,入校后是否有机会选修电器控制等专业的课程.因为对这两个专业的课程都十分感兴趣.
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+今年山东考题很难，我估计能考610-630分，我想报考贵校八年制临床医学专业，请问是否有希望？贵校在山东招生高于一本多少分，可以报考？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='山东';
+['查询结果为空！']
+我是安徽省理科考生,估分622,请问报考贵校希望有多少?可以选择较好的专业吗?
+select * from admission_plan where school='上海交通大学医学部' and district='安徽' and classy='理工';
+['查询结果为空！']
+河南理科考生，预估分数625报考贵校临床医学是不是能够录取。
+select * from admission_score_major where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+请问贵校是否在津招生（理科）招多少
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+尊敬的贵校老师您好,我是天津的理科生,估分550,能否报贵校,把握有多大??谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好，我是一名浙江理科考生，能在贵校深造一直是我的梦想！我个人估计今年浙江一本线在560－570，我的高考估计在610－630，不知道报考贵校的可能性有多大？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江' and classy='理工';
+['查询结果为空！']
+近视600多度,有哪些专业受限,有哪些不受限?，，你们在福建招生大约多少?
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+理科640能进吗？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+老师你好：浙江理科考生06年高考总分预计在重点线560分以上30分左右，根据贵校历年录取形势分析，被贵校录取可能性多少。若有可能，填报什么专业比较稳妥，真诚等待贵校电邮。谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2030' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师你好，请问贵校今年在陕招生的分数
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+我是山东青岛考生，想报考贵校，请问贵校04和05年临床医学专业录取最高分和最低分分别是多少？
+select * from admission_plan where school='上海交通大学医学部' and year='2005' and major='临床医学' and district='山东';
+['查询结果为空！']
+老师你好，我是安徽的考生，请问上海第二医科大学是上海交通大学医学院吗？今年贵校在安徽的录取分数线大概比一本高多少？谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='安徽';
+['查询结果为空！']
+法语班招收广东的考生吗？X科是生物的可以报考吗？谢谢
+select * from admission_plan where school='上海交通大学医学部' and major='法语' and district='广东';
+['查询结果为空！']
+老师您好，我理科今年估分655录取希望大吗
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and classy='理工';
+['查询结果为空！']
+估计今年在湖北招生的分数线是多少?招收人数是多少?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='湖北';
+['查询结果为空！']
+请问第二医科大是不是就是第二军医大,在湖北有无招生计划?谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='湖北';
+['查询结果为空！']
+山西理科考生，估分５５５，一本线５４０，报考贵校希望多大？在线急等！！
+select * from admission_plan where school='上海交通大学医学部' and district='线急' and classy='理工';
+['查询结果为空！']
+贵校今年在宁夏招生将会超过重点线多少分?谢谢!
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='宁夏';
+['查询结果为空！']
+山西理科考生，估分５５５，一本线５４０，报考贵校希望多大？在线急等！！
+select * from admission_plan where school='上海交通大学医学部' and district='线急' and classy='理工';
+['查询结果为空！']
+老师您好.我是浙江考生,估分为590.请问是否有望录取贵校的第一志愿
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+老师您好，我是浙江考生。我注意到贵校今年第一次招收８年制临床医学学生。想问一下法语班和非法语班在课程上有何区别？两者培养的目标分别是什么？法语班是否由贵校和法国学校合办？法语班的学生是否有机会去法国交流学习？，另外，以往被贵校两个8年制临床医学专业录取的学生他们的省排名大约是多少？因为我只能看到这两个专业的最高最低分和平均录取分。，谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='法国';
+['查询结果为空！']
+安徽理工610分高于重点线55分（估计），报你校临床医学会撞车退档吗
+select * from admission_plan where school='上海交通大学医学部' and year='610' and major='临床医学' and classy='理工';
+['查询结果为空！']
+我是重庆的一名理科考生，如果刚好上一类线，问是否有可能被录取？
+select * from admission_plan where school='上海交通大学医学部' and district='重庆' and classy='理工';
+['查询结果为空！']
+请问报考贵校时该填第二医科大还是上海交大医学院？今年并入交大后分数线会不会有大的变动？谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+贵校8年硕博估计需要多少分数？
+select * from admission_score_pro where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+我是安徽一名理科生,我的高考估分为605分,请问能否报考你校?你们校专业之间级差为多少?专业好的最高分数为多少?冷门专业分数线在多少范围?你校每年录取分数高出重点线多少分?
+select * from admission_score_pro where school='上海交通大学医学部' and year='605' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好我是陕西省的一理科考生我估分640请问填报贵校的临床医学是否有风险？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='陕西' and classy='理工';
+['查询结果为空！']
+请问贵校今年在河南的招生计划？分数大概是多少？谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='河南';
+['查询结果为空！']
+我是湖南的，理科，今年560左右，有希望吗？
+select * from admission_plan where school='上海交通大学医学部' and district='湖南' and classy='理工';
+['查询结果为空！']
+请问贵校是否收理科生
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+贵校2006年在辽宁有招生计划吗?如果有是多少
+select * from admission_plan where school='上海交通大学医学部' and year='2006' and district='辽宁';
+['查询结果为空！']
+老师，您好。咨询几个问题：，1、贵校在江西的招生老师怎么联系？，2、贵校在江西实施省重点中学推荐（加分）录取吗？如果实施的话，什么时间从哪里能取得推荐录取登记表呢？，3、假定2006年江西重点线还是545分（理科），如果考600分，被贵校录取的希望大不大？，4、如果服从专业调剂，校方安排调剂专业时是否会电话征询一下考生的意见？入校后转专业的机会大不大，比如，当年考生转专业的百分比为多少？可以跨大类转专业吗？，5、贵校学生月均日常生活费用（不含住宿等集中支付的费用）要多少？，谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='江西' and classy='理工';
+['查询结果为空！']
+贵校在河北省招护理方面的专科生吗（文史类）
+select * from admission_plan where school='上海交通大学医学部' and district='河北' and classy='文史';
+['查询结果为空！']
+贵校医学部在天津招生计划多少(理科）
+select * from admission_plan where school='上海交通大学医学部' and district='天津';
+['查询结果为空！']
+请问：某考生是机器人世界杯大赛第4名、机器人世界杯大赛最佳设计风格奖、全国生物学联赛二等奖、全国作文奥赛二等奖、省科技创新大赛一等奖、省优秀学生干部获得者（已获其他重点大学自主招生资格），如报考贵校，在高考分数达到本省重点本科分数线的前提下，贵校录取时是否有鼓励或优先录取政策？
+select * from admission_score_pro where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+老师您好！我是江苏的考生，我想请问一下贵校去年在江苏录取的文科分数线是多少？今年在江苏招收文科名额是多少？有何专业可报？各专业之间录取分数差距是多少？谢谢！
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='江苏' and classy='文史';
+['查询结果为空！']
+请问今年在安徽招生计划？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='安徽';
+['查询结果为空！']
+请问报考贵校临床医学专业后还可以读有关管理类的第二专业吗?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and classy='理工';
+['查询结果为空！']
+1今年本校在江苏招生计划是多少？录取分数线高于投档线多少？一般专业与强势专业分数差是多少？2本校重点学科和强势专业有哪些？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='江苏';
+['查询结果为空！']
+老师你好:请问今年在山西有招生计划吗?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='山西';
+['查询结果为空！']
+在福建招收人数、专业，
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+请问今天在江苏招生计划?大概分数?
+select * from admission_score_pro where school='上海交通大学医学部' and year='None' and district='江苏';
+['查询结果为空！']
+我叫杨振雷，是河北高三学生。我对贵校的临床医学特别感兴趣，想报考贵校，希望您们能向我提供贵校的招生简章，我的联系地址是河北涉县第一中学高三理科复读班，学校的邮政编码是056400
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='涉县' and classy='理工';
+['查询结果为空！']
+请问老师:1、上海第二医科大学的临床医学有否本硕连读?2、有否本硕博连读?3、各需上什么学校什么样的分数线？
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+贵校济南有没有专科计划?大约多少分?
+select * from admission_plan where school='上海交通大学医学部' and district='山东';
+['查询结果为空！']
+请问一下,去年的最低录取线是多少?
+select * from admission_plan where school='上海交通大学医学部' and year='2018';
+['查询结果为空！']
+咨询：贵校在浙江录取医学类考生的历年最高、最低及平均分多少？
+select * from admission_plan where school='上海交通大学医学部' and district='浙江';
+['查询结果为空！']
+我是省实验中学实验班考生，在级部排名约40-50名，请问能否报考贵校临床学专业？如服从调剂（除护理专业外），能否进入贵校？
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+今年浙江考生报考该校的营养学专业大概要多少分?
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+老师你好,请问贵校今年底或明年初办不办冬练营?谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+浙江女生,填报5年临床医学,但坚决不要去护理,并决心想进贵校,该怎样填志愿,是不可以填:除护理外服从?
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='浙江' and classy='理工';
+['查询结果为空！']
+请问老师：上海第二医科大学今年的录取分数为多少？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+请问贵校今年录取不带军籍的考生吗？录取线参考本科几批？费用如何？
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+希望得到贵校2003-2005年山东分专业录取情况（最高分、最低分、平均分），谢谢！
+select * from admission_plan where school='上海交通大学医学部' and year='2005' and district='山东';
+['查询结果为空！']
+我要查浙江的招生计划,很难查贵校舍的信息,根据在线咨询你们提供的网址也打不开.在交通大学下面找不到贵校
+select * from admission_plan where school='上海交通大学医学部' and district='交通大学';
+['查询结果为空！']
+请问贵校在天津招生吗
+select * from admission_plan where school='上海交通大学医学部' and district='天津';
+['查询结果为空！']
+生物医学工程,药学,和公共事业管理这三个专业医学院和校本部都有,而且其研究方向也差不多,入学以后是否在一个学院,我想明年的招生不会出现两个生物医学工程代码吧
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+浙江女生.专业报临床学,最后加服从,担心被护理录取,我该怎么填.并跟你们联系的方法?
+select * from admission_plan where school='上海交通大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是青岛考生，想咨询一下去年贵校山东地区招生的分数线情况？谢谢
+select * from admission_score_pro where school='上海交通大学医学部' and year='2018' and district='山东地区';
+['查询结果为空！']
+今年临床医学法语班在全国招生多少名
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and major='法语';
+['查询结果为空！']
+听说贵校与上海交大合并了，是不是真的？若是，今年在内蒙的分数会因此事有何变动？
+select * from admission_score_pro where school='上海交通大学医学部' and year='2019' and district='内蒙古';
+['查询结果为空！']
+福建的考生要报贵校，要高出重点线才有希望录取？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='福建';
+['查询结果为空！']
+进贵校的临床医学专业学习.考硏比例.出国深造机率高吗?分别是多少?
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学';
+['查询结果为空！']
+请问贵校在山东医学类的理科计划？医学类专业对视力有无要求？
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我是听别人说学医好，可没有过来人告诉我学临床医学究竟是怎么回事，我只是听别人说学医要吃很多苦，而且心理素要很好。望老师为我祥细解答一下学医到底怎么回事？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and classy='理工';
+['查询结果为空！']
+你们和交大合并了？？那分数会不会变得很高啊？？，5年临床医学出来找工作是不是比7年难啊？7年法文班分数很高吗？，对不起我在贵校网站实在找不到这么细的问题的答案啊麻烦您了
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and classy='文史';
+['查询结果为空！']
+临床医学是不是分数很高啊而且其他的专业以后在上海就业前景好吗都能从事什么呢
+select * from admission_score_major where school='上海交通大学医学部' and major='临床医学' and district='上海';
+['查询结果为空！']
+刚才看到已经有人问了和我一样的问题但是如果我报其他专业会不会在录取是受到歧视或者被退档？
+select * from admission_plan where school='上海交通大学医学部' and year='None';
+['查询结果为空！']
+请问贵校今年在浙江省的临床医学的分数大概是多少（第一批）
+select * from admission_score_major where school='上海交通大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+毕业文凭是交大的吗？
+select * from admission_plan where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+我是甘肃考生成绩估分558，请问能抱贵校吗。
+select * from admission_plan where school='上海交通大学医学部' and district='甘肃';
+['查询结果为空！']
+贵校今年按大类招生吗?有无级差?
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+老师您好！我是山东理科考生，今年高考估分630分。请问老师报考你校临床医学（5年）有多大希望？临床医学（7年）比临床医学（5年）要求还高吗？在视力方面是裸视达到4。8还是带着眼镜达到4。8？
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师.能告诉我贵校近三年在浙江理科招生平均分吗?网上只有最高分.最低分.我很急~~~
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好！我是浙江的考生，估分为625分，能否进该校的临床医学专业
+select * from admission_plan where school='上海交通大学医学部' and year='625' and major='临床医学' and district='浙江';
+['查询结果为空！']
+老师您好！贵校近几年营养学在江西录取的分数是多少？谢谢！
+select * from admission_score_pro where school='上海交通大学医学部' and year='None' and district='江西';
+['查询结果为空！']
+老师您好！，我是山东考生，请问报考贵校的临床医学专业，是否对生物的成绩有限制？
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and district='山东';
+['查询结果为空！']
+您好！我是贵州一应届理科考生，估分在６００分左右，若报考贵校，请问有何意见和建议？，怎么联系贵校招生老师？，贵校有些什么强势专业?
+select * from admission_plan where school='上海交通大学医学部' and year='None' and district='贵州' and classy='理工';
+['查询结果为空！']
+我是江苏的考生，我选考的科目是化学和生物，不知道能否报贵校的临床医学的专业？？临床医学（7年）专业的就业情况怎么样？？主要的就业地点是？？谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='None' and major='临床医学' and district='江苏';
+['查询结果为空！']
+老师您好,我刚才问了贵校去年在福建录取临床医学(7年和5年制的)最高分数和最低分数分别为多少,您只给我了各一个分数.不知那是最高还是最低.谢谢
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and district='福建';
+['查询结果为空！']
+您好,我看了贵校的公示栏,上面有说贵校已经和上海交大合并,想请问如果今年被贵校录取的学生,到毕业时发的毕业证书是盖的章是什么学校的?谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2019';
+['查询结果为空！']
+我是河南考生,我的估分是630,我们这里的一本估分线为580,请问我报考贵校哪些专业把握较大且专业较好?
+select * from admission_plan where school='上海交通大学医学部' and district='河南';
+['查询结果为空！']
+我是河南考生,我的估分是630,我们这里的一本估分线为580,请问我报考贵校哪些专业把握较大且专业较好?
+select * from admission_plan where school='上海交通大学医学部' and district='河南';
+['查询结果为空！']
+我是江苏的考生，我选取的考试科目是语文、数学、英语、化学、生物，不知贵校录取新生是否与所选取的考试科目有关？谢谢！
+select * from admission_plan where school='上海交通大学医学部' and major='化学' and district='江苏' and classy='文史';
+['查询结果为空！']
+您好,请问贵校去年在福建录取的临床医学(七年制和五年制)的最高分和最低数分别是多少?谢谢
+select * from admission_plan where school='上海交通大学医学部' and year='2018' and major='临床医学' and district='福建';
+['查询结果为空！']
+您好,我是福建理科考生,请问贵校的优势专业有哪些呢?第一专业和第二,三专业的录取级差是几分?谢谢.
+select * from admission_plan where school='上海交通大学医学部' and district='福建' and classy='理工';
+['查询结果为空！']
+理科626报考贵校有多大希望?????
+select * from admission_plan where school='上海交通大学医学部' and classy='理工';
+['查询结果为空！']
+我是河南一理科考生估分626报考贵校有多大把握，我省重点线估计是578，另外贵校有哪些优势学科?
+select * from admission_plan where school='上海交通大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+请问第二医大在与交大合并后，是怎样招生的，分数线会有大的提升吗？毕业文凭是交大吗？二医大与交大校区相隔远吗？入校后可否调整专业，谢！
+select * from admission_score_pro where school='上海交通大学医学部' and classy='文史';
+['查询结果为空！']
+老师你好，我想咨询一下，我是理科，今年估分大概590-595分，我能上这个学校吗？请回复！
+select * from admission_plan where school='上海交通大学医学部' and year='595' and classy='理工';
+['查询结果为空！']
+我是理科，今年河南重点线大概在580左右，估分大概590-595分，能上这个学校吗？请回复！
+select * from admission_plan where school='上海交通大学医学部' and year='595' and district='河南' and classy='理工';
+['查询结果为空！']
+临床医学法文班与临床医学专业有什么区别？在师资配置和发展前景来看贵校最大的优势是什么？谢谢老师
+select * from admission_plan where school='上海交通大学医学部' and major='临床医学' and classy='文史';
+['查询结果为空！']
+请问你们学校在江西招生组的电话是多少？谢谢
+select * from admission_plan where school='上海交通大学医学部' and district='江西';
+['查询结果为空！']
+我是安徽考生估分620能否报贵校
+select * from admission_plan where school='上海交通大学医学部' and district='安徽';
+['查询结果为空！']
+历年临床医学七年制高出理科的一本本科录取分数线多少分？
+select * from admission_score_major where school='上海交通大学医学部' and year='None' and major='临床医学' and classy='理工';
+['查询结果为空！']
+我是山东济南理科考生,一般超二本线多少分可被贵校录取?，若是临床呢?，我估分550到560,能录取吗?，请介绍一下贵校三批情况(学费\上学地点)谢谢!
+select * from admission_plan where school='上海交通大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我今年估分585，请问报贵校有没有希望？贵校在贵州招不招女生？如果招，学校是否是按军校的标准招收学生？
+select * from admission_plan where school='上海交通大学医学部' and year='2019' and district='贵州';
+['查询结果为空！']
+总问题数837	查询语句构造为空数0	只有学校关键词数134	查询结果为空数665	有回答数37

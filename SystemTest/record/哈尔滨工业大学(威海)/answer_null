@@ -1,0 +1,862 @@
+老师您好，在威海校区是否有二本专业，515分报考的话希望大吗
+select * from admission_plan where school='哈尔滨工业大学' and year='515' and district='山东';
+['查询结果为空！']
+综合评价已进入合格名单，官网上公布的名单是按照名次排的吗？我高考分数为596，位次18844，今日填报了提前批志愿，有希望吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='None';
+['查询结果为空！']
+今年高考603分，请问报考贵校把握大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+老师您好，我的成绩在山东省10800，我想咨询一下我在贵校我能否选择到电气工程与自动化专业或者计算机科学。哈工大威海分校的毕业证和本校是一样的吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化' and district='山东';
+['查询结果为空！']
+1、威海校区在广东今年有招生吗？2、广东理科553分，排17823名能录取机会大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='553' and district='广东' and classy='理工';
+['查询结果为空！']
+您好，我的高考成绩为366，位次11116，A+A+。请问可以报考贵校吗？有希望被焊接技术和工程专业或机械设计制造及其自动化专业录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='机械设计制造及其自动化';
+['查询结果为空！']
+老师好，我是山西理科女生。成绩554分，位次5970，请问报贵校希望大吗？如果提档后服从调剂会被退档吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='554' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，甘肃理科考生537分，请问国家专项有机会报考吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='537' and district='甘肃' and classy='理工';
+['查询结果为空！']
+老师您好！我是广东理科考生，仅高一本线15分，省排名51749。请问被录取的几率大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2015' and district='广东' and classy='理工';
+['查询结果为空！']
+老师您好，河南理科考生584分，段次在12032，报考贵校有希望被录取吗？另外，贵校对同意调剂考生退档吗?有专业极差吗？贵校理科优势学科有哪些？
+select * from admission_plan where school='哈尔滨工业大学' and year='584' and district='河南' and classy='理工';
+['查询结果为空！']
+老师你好，我是内蒙古理科考生，超一本线60分，报考贵校服从调剂有希望录取吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2060' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+老师你好，我是内蒙古理科考生，超一本线60分，如报考贵校免费师范生且服从调剂有希望录取吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2060' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+你好，我是陕西理科考生，分数566，超一本线117分，省排名10071，能被录取吗
+select * from admission_score_pro where school='哈尔滨工业大学' and district='陕西' and classy='理工';
+['查询结果为空！']
+老师你好!我是河南理科考生，579分，省排名13936，有几率被贵校录取吗
+select * from admission_plan where school='哈尔滨工业大学' and year='579' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是今年的山东理科考生，分数621，省排名8492，报考贵校能否录到一个比较好的专业？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好！山东理科女，613分，位次11303，请问报考贵校有多大希望？另外，贵校什么特别突出的专业？万分感谢！！！
+select * from admission_plan where school='哈尔滨工业大学' and year='613' and district='山东' and classy='理工';
+['查询结果为空！']
+请问老师：有没有贵校往年在贵州的国家专项计划的录取数据?
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='贵州';
+['查询结果为空！']
+老师您好！我是四川考生家长，孩子今年考了623分。请问本部和威海校区毕业学生档案是一样吗？注不注明是在威海校区毕业字样？
+select * from admission_plan where school='哈尔滨工业大学' and year='623' and district='山东';
+['查询结果为空！']
+请问江苏理科生，366分，物理化学双A，省内排名11116，可否报考贵校？谢谢，望回复。
+select * from admission_plan where school='哈尔滨工业大学' and year='366' and district='江苏' and classy='理工';
+['查询结果为空！']
+你好，四川理科624，有希望被录取吗？如果能，能否进入车辆工程或海洋船舶这类优势专业吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='四川' and classy='理工';
+['查询结果为空！']
+您好,2107山东考生612分省11622名可以报考贵校的车辆工程专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='山东';
+['查询结果为空！']
+老师您好！我是山东考生，今年理科575分，报考贵校被录取的机率大吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='575' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好，湖北理工591分、8351名上贵校机会大么？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='591' and district='湖北' and classy='理工';
+['查询结果为空！']
+我是山东考生，今年我考了593分，全省20341，我通过了贵校的高校专项计划招生，不知道最后被录取的机会大吗
+select * from admission_plan where school='哈尔滨工业大学' and year='593' and district='山东';
+['查询结果为空！']
+老师，我是陕西的一名考生，高考分数584，名次是7204.省一本线449分，我可以享受单设政策，请问我报考贵校有没有希望？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='449' and district='7204.省';
+['查询结果为空！']
+我今年高考569，位次为14394，高出一本线85分，请问报考贵校有没有希望
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+老师好，我是广西理科生，总分521，超一本线48分，省位次12571，报贵校几率如何？谢谢老师
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and district='广西' and classy='理工';
+['查询结果为空！']
+请问今年在四川有提前批招生计划吗？具体专业有哪些？？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='四川';
+['查询结果为空！']
+1.山东省综合评价招生志愿填报是不是在6月28日的提前批？2.综合评价招生填报志愿时报几个专业？是否需要勾选服从调剂？
+select * from admission_plan where school='哈尔滨工业大学' and year='2028' and district='山东';
+['查询结果为空！']
+你好，我高考563，高出一本90分，全区排名4433，请问可以去贵校学习吗？可以选的专业有什么？
+select * from admission_plan where school='哈尔滨工业大学' and year='2090';
+['查询结果为空！']
+老师，请问贵州考生562分，4700名，被录取的概率大不大，谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='562' and district='贵州';
+['查询结果为空！']
+您好，我是青海考生理科，511分，位次1795名，可以报考贵校吗？选择机械专业，录取机会大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='511' and district='青海' and classy='理工';
+['查询结果为空！']
+老师你好，我是湖南一考生，我想请问如果同分数学校如何提档呢？若都提档，按数学优先录取的话，同分数数学较差的学生档案是参加平行志愿下一志愿还是要征集录取？还有我591分，超一本74，省排名8772名，有希望去哈工大威海校区吗？如果被提档服从调剂一定会被录取吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东';
+['查询结果为空！']
+老师您好，山东文科考生高一本线40分，排位4900左右，报考贵校，有希望吗？如果分数高于投档线，专业服从调剂，无其他原因，会被退档吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2040' and district='山东' and classy='文史';
+['查询结果为空！']
+老师您好614分排名18179报考本校有希望么？
+select * from admission_plan where school='哈尔滨工业大学' and year='614';
+['查询结果为空！']
+你好老师，我山东文科567分，排名5669，去贵校希望大不大，我偏向英语专业，高考英语成绩135，口语93，录取概率有多少？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='567' and major='英语' and district='山东' and classy='文史';
+['查询结果为空！']
+您好，我是湖南理科考生。高考590，高一本线73分，省排名8997左右，今年有无希望被贵校录取?
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='湖南' and classy='理工';
+['查询结果为空！']
+我是四川理科考生，今年分数596，请问是否有希望报考贵校，我选择了专业调配是否可以转专业，谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='四川' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南理科考生，593分，17869位次，报贵校有希望录取吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='593' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南理科考生612分，能否在贵校选择自己喜欢的专业？录取时是否有专业级差？
+select * from admission_plan where school='哈尔滨工业大学' and year='612' and district='河南' and classy='理工';
+['查询结果为空！']
+您好，我是辽宁文科考生，567分，2065位次，高出一本线42分，请问报考贵校有多大把握被录取？
+select * from admission_plan where school='哈尔滨工业大学' and year='567' and district='辽宁' and classy='文史';
+['查询结果为空！']
+老师您好，我是江苏理科考生，成绩为373，物理A化学A+，排名12805，服从调剂，能否报考贵校车辆工程？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='江苏' and classy='理工';
+['查询结果为空！']
+报考贵校的机械自动化、计算机、软件等专业有把握吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化';
+['查询结果为空！']
+老师您好：我是山东理科生，高考成绩为611分，超分数线74分，全省排名19832，能否报考贵校？？？贵校2015年在山东理科招生的最低位次是多少？
+select * from admission_plan where school='哈尔滨工业大学' and year='2015' and district='山东' and classy='理工';
+['查询结果为空！']
+您好，山东考生成绩627，高出一本90分，排名12000左右，报考工商管理专业录取几率怎么样、谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2090' and major='工商管理' and district='山东';
+['查询结果为空！']
+请问，我是江苏理科考生，男，369分，想报考贵校，请问有多大可能性录取？谢谢。如投档能进且专业服从调剂，有被退档的可能吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='369' and district='江苏' and classy='理工';
+['查询结果为空！']
+你好，我是江苏理科考生，高考371今年是否有望被贵校录取？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='江苏' and classy='理工';
+['查询结果为空！']
+您好，江苏理科考生，分数为379，全省位,8250，报考贵校有希望吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东的一名理科考生，今年考了628分，11748名，是否能被贵校录取？另外贵校所派发的毕业证和学位证与哈工大本校有区别吗？是否显示为分校？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='628' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好我是陕西理科考生2016年高考成绩为539分高出一本线69分省排名为18867名服从专业调剂有国家专项计划今年报考哈尔滨工业大学威海校区有机会吗？希望大还是得冲一下谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+您好老师。我是山东文科考生，今年分数570，排名4900左右，请问能不能进入贵校的英语专业。请给予答复，谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+能报贵校机械工程及其自动化吗？有专业推荐吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化';
+['查询结果为空！']
+老师您好，我是内蒙古考生，高出一本线103分，全省排名4600多，报考贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='103' and district='内蒙古';
+['查询结果为空！']
+老师您好，高考成绩608分，高出本省一本线89分，位次在2930到3055之间，请问报考贵校有希望吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='608';
+['查询结果为空！']
+老师您好，今年624报考贵校把握大吗？有没有专业选择空间大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+老师您好，哈工大(威海)和哈工大有什么区别？哈工大(威海)是公办学校吗？毕业证和哈工大是否一样，另外我是河南理科考生，超一本线70分，报考贵校服从调剂被录取的希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2070' and district='河南' and classy='理工';
+['查询结果为空！']
+山西考生排名多少可以报？大概高出一本分数线多少分
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山西';
+['查询结果为空！']
+高考612分，超一本线75分，位次19507，报考贵校希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2075';
+['查询结果为空！']
+老师您好，我是河南理科考生，在2016高考中考了600分，高出一本线77分，请问能否凭借国家专项计划报考贵校？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='600' and district='河南' and classy='理工';
+['查询结果为空！']
+我是安徽考生，今年高考成绩为594，超一本分数线76分，请问报考贵校有没有希望？谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师您好，我是河南理科考生，今年分数608，超过一本线85分，全省排名位次11526，报考贵校把握大吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='河南' and classy='理工';
+['查询结果为空！']
+您好，我是山西考生，今年586，高一本67分，请问有希望被录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山西';
+['查询结果为空！']
+老师您好，理科617分，想报贵校的《计算机科学与技术学院》希望大吗，贵校的毕业证跟本校的是一模一样的吗，会有分校威海的字吗，谢谢老师
+select * from admission_plan where school='哈尔滨工业大学' and year='617' and major='计算机科学与技术' and district='山东' and classy='理工';
+['查询结果为空！']
+您好？简章里写着，外语非英语专业者慎重填报，是不是我小语种的报了就直接给PASS掉？英语基础还好的。还有浙江理科的659分，超一本线59，能否录取？
+select * from admission_plan where school='哈尔滨工业大学' and major='英语' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好，我是浙江理科考生成绩652，高一本线52分，是否能被贵校录取，服从调剂是否会退档？
+select * from admission_plan where school='哈尔滨工业大学' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是辽宁考生592分，请问能冲到贵校么？如果被提档专业服从能否掉档？
+select * from admission_plan where school='哈尔滨工业大学' and year='592';
+['查询结果为空！']
+贵校一本，若进档服从调剂，但视力只有4.3，达不到船舶与海洋工程专业要求，会调剂到该专业吗？会被退档吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='船舶与海洋工程';
+['查询结果为空！']
+老师您好，我是湖南考生，超一本线56分今年有无希望被贵校录取？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='湖南';
+['查询结果为空！']
+请问老师，山东理科，620分，能报考贵校吗。贵校冷门专业是那些。谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='620' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好。我是广东的考生，今年573分，高出一本线65分，大致排在15000内，想报考贵校可以吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2065' and district='广东';
+['查询结果为空！']
+3、：哈工大（威海）一本，为什么查不到2016招生章程，另外体检视力不过关，是否不调剂到船舶与海洋工程
+select * from admission_plan where school='哈尔滨工业大学' and major='船舶与海洋工程';
+['查询结果为空！']
+您好！我是宁夏考生，理科高考成绩545，高出一本线80分，全省排名2328，有希望被贵校录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2080' and district='宁夏' and classy='理工';
+['查询结果为空！']
+您好，我是山东理科考生，我今年分数为595分，另有20分自主招生加分，加分后高出一本线78分，加分后名次为17936，请问报考工学模块1，录取的可能性有多大？能否选较好的专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好，我是河北理科考生，高考成绩644分，位次6272名，报考贵校的强项专业能被录取吗
+select * from admission_plan where school='哈尔滨工业大学' and year='644' and district='河北' and classy='理工';
+['查询结果为空！']
+老师，我加上自招优惠分数20分以后省排名1199，请问是否一定会满足我六个专业志愿之一呢？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2020';
+['查询结果为空！']
+老师您好，我获得自招优惠条件四，高考分没有达到工大模拟投档线，但加上20分自主招生优惠分后能达到，加分后省(河北省)排名1200，是否可以满足前六个专业之一呢？
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='河北';
+['查询结果为空！']
+能否报考能报考的话有哪些强项专业可选择机械设计制造及其自动化可以报考吗
+select * from admission_plan where school='哈尔滨工业大学' and major='机械设计制造及其自动化';
+['查询结果为空！']
+老师，我通过了自主招生考试，获得优惠条件四，如果成绩没有达到模拟投档线但在模拟线下20分，简章上说予以录取，那录取专业按照什么规则呢？另外贵校自主招生录取与高考成绩有关系吗？（如果高考成绩达到自招要求）
+select * from admission_plan where school='哈尔滨工业大学' and year='2020';
+['查询结果为空！']
+老师您好，我想问一下：今年哈工大自主招生录取中的专业调剂一定是在认定模块内调剂吗（我是工学模块一）望解答，谢谢老师！
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+北京理科632分，高于一本线84分，市排名4044，想报考车辆工程、自动化两个专业，录取可能性多大？
+select * from admission_plan where school='哈尔滨工业大学' and year='632' and major='自动化' and district='北京' and classy='理工';
+['查询结果为空！']
+老师您好，我湖北考生，592分，高出一本80，位次15450，如果服从专业调剂，有希望报考吗
+select * from admission_plan where school='哈尔滨工业大学' and year='592' and district='湖北';
+['查询结果为空！']
+您好，河北考生，通过了自主招生工学模块一降20分录取的优惠条件，高考成绩620，请问报自主招生会被录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='河北';
+['查询结果为空！']
+但我目前的成绩达不到模拟投档线，加20分之后肯定能达到，请问老师专业怎么安排呢，还保证6个专业之一的优惠吗，如果接受调剂是在模块一内调吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2020';
+['查询结果为空！']
+老师您好，听说贵校今年扩招，能招多少学生，都在哪个校区扩张，是降分扩招，还是增加人数？先谢谢老师！
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+尊敬的老师，您好！请问为什么威海分校的录取分数线会较低一些？那么如果在主校区和威海分校毕业后有什么影响吗？二者之间是不是各个专业基本相同？谢谢老师！
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东';
+['查询结果为空！']
+我是新疆考生，欲报考贵校车辆工程专业，需要高处一本线多少分？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='新疆';
+['查询结果为空！']
+请把前几年在河南录取理科考生的分数位次说明一下吧？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是陕西考生，高出一本分数线94分，排名8939，报考贵校有希望吗
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2094' and district='陕西';
+['查询结果为空！']
+老师，您好。我是天津的考生，今年607分，高出一本线69分，想报考贵校可以吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='天津';
+['查询结果为空！']
+理科高考630分，排名8028，安徽省一本控制线555，高75分，有希望被贵校录取吗？盼回复。谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2075' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好，我是安徽考生，我今年高考629分，高出一本线74分，请问一下报考贵校的机械设计制造及其自动化的几率高吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2074' and major='机械设计制造及其自动化';
+['查询结果为空！']
+老师您好！我是山东理科考生，高考成绩628，高一本线66分，位次14619，能被贵校录取吗？服从调剂，身体健康，如果进档一定不退档吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2066' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是四川理科考生，５７９分，省内１４０００名，报考贵校威海校区较好的专业有希望吗？服从调剂的话，录取把握大吗
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+校方您好，我是一名山东理科考生，我的裸分是659，另有5分加分（优秀学生），位次是2655。请问这个成绩报考贵校希望大吗？有多少的把握可以报上热门专业呢？另问贵校是否承认加分？
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好，我是福建考生，626分，超一本线101，省排名3851，报考贵校，把握大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='626' and district='福建';
+['查询结果为空！']
+我是山西理科，分数572，排名6998，同分221人，能不能报贵校本一批，还有，咱们的提档比例是多少啊？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好！我是山东理科考生，高考成绩616，高一本线54分，能被贵校录取吗？可以选择计算机专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2054' and district='山东' and classy='理工';
+['查询结果为空！']
+老师你好，辽宁理科589分，一本线上89分可不可以报考贵校？若可以，则那些专业可以考虑。谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='589' and district='辽宁' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东理工科考生，分数615，位次21180报考贵校被录取的可能性多大？麻烦推荐几个专业。谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，我考了367分，排名9795，能否被贵校录取？报什么专业较好？
+select * from admission_plan where school='哈尔滨工业大学' and year='367';
+['查询结果为空！']
+2015年山东理科601分能报考贵校么？什么专业有把握？
+select * from admission_plan where school='哈尔滨工业大学' and year='601' and district='山东' and classy='理工';
+['查询结果为空！']
+我是湖北理工565分，高出一本55，全省排18000左右，如果报考贵校车辆工程专业，麻烦老师给建议
+select * from admission_plan where school='哈尔滨工业大学' and year='565' and major='车辆工程' and district='湖北' and classy='理工';
+['查询结果为空！']
+数学类和会计学在贵校算怎样的专业？那能源与动力工程怎样呢？
+select * from admission_plan where school='哈尔滨工业大学' and major='能源与动力工程';
+['查询结果为空！']
+老师您好，“食品科学与工程（药物与食品工程菁英班）”和“化学工程与工艺”这两个专业，在贵校专业中是偏热还是偏冷呢？如果考取继续研究生的话，分别向什么方向考比较合适呢？
+select * from admission_plan where school='哈尔滨工业大学' and major='化学工程与工艺';
+['查询结果为空！']
+老师您好我是黑龙江理科考生我高考分数为592.排名5556，是否能被贵校录取
+select * from admission_score_pro where school='哈尔滨工业大学' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+今年高考成绩606分，超省线91分，省排名2048，报考贵校把握大吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2091';
+['查询结果为空！']
+老师，我是山东一考生，633分，省11760名。报考食品科学与工程（药物与食品工程菁英班）的把握性大不大？那化学工程与工艺呢？
+select * from admission_plan where school='哈尔滨工业大学' and year='633' and major='化学工程与工艺' and district='山东';
+['查询结果为空！']
+尊敬的老师：我是山西的理科考生，2015年高考分数588，省排名4099，想报咱们学校，录取的几率大吗？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2015' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好！我是安徽理科考生成绩629分，高一本线74分，全省排名8225，请问报考贵校录取机会大吗?报什么专业较好
+select * from admission_plan where school='哈尔滨工业大学' and year='2074' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师好，我今年超一本线80分，位次7238位，报贵校有希望吗？是否有选专业的余地？
+select * from admission_plan where school='哈尔滨工业大学' and year='2080';
+['查询结果为空！']
+老师您好！我是甘肃理科考生，高一本线72分，能被贵校录取吗？可以选择专业吗？哪些专业比较好？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2072' and district='甘肃' and classy='理工';
+['查询结果为空！']
+老师您好！我是安徽理科考生成绩629分，高一本线74分，是否能被贵校录取
+select * from admission_plan where school='哈尔滨工业大学' and year='2074' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南理科学生，628，高一本线99分，省内3691，能录取吗？如果录取能到什么层次的专业呢？
+select * from admission_plan where school='哈尔滨工业大学' and year='2099' and district='河南' and classy='理工';
+['查询结果为空！']
+湖北考生理科588分，湖北一本线510.高出78分，请问报考贵校录取机会大吗?
+select * from admission_plan where school='哈尔滨工业大学' and year='588' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师您好：山东理科分数：634排名11239请问报考贵校热门专业（车辆、船舶、测控等）有无把握？谢谢。
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好，河南理科一本529，我考了607分，能报贵校的机械设计及其自动化专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好!我是山东一名理科考生，今年考了624分，16364名，请问报贵校的软件工程或环境工程有多大把握？您能否给我一些报考方面的建议？非常感谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='624' and major='环境工程' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您请问山东考生，621分，全省18077能上贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='621' and district='山东';
+['查询结果为空！']
+627，如题，另，贵校自动化怎样
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化';
+['查询结果为空！']
+老师您请问江西考生，高一本线38分，全省10600能上贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2038' and district='江西';
+['查询结果为空！']
+老师你好，我是河北考生，纯文化分569，有农独加分10分，报考贵校电气工程及其自动化、机械设计制造及其自动化、自动化，录取希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2010' and major='自动化' and district='河北' and classy='文史';
+['查询结果为空！']
+老师您好，我是四川贫困山区的考生，今年只超重本线6分，我想依靠国家专项计划报考贵校，可能性大吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='四川';
+['查询结果为空！']
+我是内蒙古理科生，考了587分，省位次4368，可以报贵校的工商管理专业吗？希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='587' and major='工商管理' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+分数635，超分数线63分，请问被录取几率多大，什么专业把握较大
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2063';
+['查询结果为空！']
+老师您好，我是山西理科考生成绩593，高一本线59分，是否能被贵校录取，服从调剂是否会退档？
+select * from admission_plan where school='哈尔滨工业大学' and year='2059' and district='山西' and classy='理工';
+['查询结果为空！']
+我是山东考生，如进入贵校后读不到理想的专业，一年后可以重新选择专业吗？有些专业是否有限制？例如国际经济与贸易有限制吗？保研的主要条件是什么？
+select * from admission_plan where school='哈尔滨工业大学' and year='一年' and major='国际经济与贸易' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南文科考生。我想问一下贵校的分数线与本校（哈工大哈尔滨）一样吗？毕业后的毕业证书与本校一样吗？O(∩_∩)O谢谢老师。
+select * from admission_score_pro where school='哈尔滨工业大学' and district='黑龙江' and classy='文史';
+['查询结果为空！']
+老师您好，请问贵校今年在山西分数线是多少？超一本33分能被录取吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2033' and district='山西';
+['查询结果为空！']
+老师，您好。我是江苏的考生，理科358（AB），省排名19084。现想报考贵校的车辆工程专业，有多大的胜算？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='江苏' and classy='理工';
+['查询结果为空！']
+湖南理科600分请问服从专业调剂被贵校录取的机会怎么样?谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='600' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师您好，我是广东理科考生，596分，省排名15970，报考贵校的希望大不大？能选择什么专业？服从调剂的话是否会优先考虑和志愿专业相近的专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='596' and district='广东' and classy='理工';
+['查询结果为空！']
+你好江苏理科352，物理B+化学A，能报考本校么，需要服从志愿么，有退档风险么
+select * from admission_plan where school='哈尔滨工业大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问，我超一本线44分，报贵校有希望吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2044';
+['查询结果为空！']
+老师您好，我今年的高考成绩为640分（理科）位次是13044，能否报考本校的车辆工程、电气工程及其自动化专业
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and major='电气工程及其自动化' and classy='理工';
+['查询结果为空！']
+我是内蒙考生，考分604，全区排名2622，报贵校的车辆工程专业有希望吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='内蒙古';
+['查询结果为空！']
+老师，您好！我是江西考生，高出一本40分，请问能被录取吗？有机会吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2040' and district='江西';
+['查询结果为空！']
+老师您好，我是山西考生，高考成绩579，高出一本线45分，全省排名9600，请问，报考贵校有几成希望呢？
+select * from admission_plan where school='哈尔滨工业大学' and year='2045' and district='山西';
+['查询结果为空！']
+老师您好，我是山东理科考生。1.637分有希望报考吗？2.在调剂时如果被调剂到的专业视力受限（400到800度），会因不符条件退档吗？3.如果调剂时符合条件的专业已满，会被退档吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='637' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好！我是山东考生，由于喜欢贵校，所以关注较多，想到不少问题，希望老师耐心解答。1.实行平行志愿的省份，只要成绩达到贵校投档标准且身体合格、专业服从调剂，一般进档不会被退档的。但是调挡时会有范围吗？（比如软件工程收费较高，英语这种专业可能会被调剂去吗？被调剂去后如果条件不符（像英语并未通过口语测试）也会退档吗？）2.大一时可转专业，往年比例是多少？这个比例是指所有此专业学生中的比例还是有转专业意向的学生中比例？
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and major='英语' and district='山东';
+['查询结果为空！']
+理科本一批超线75分服从调剂可以被贵校录取吗？有哪几主专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='2075' and classy='理工';
+['查询结果为空！']
+老师您好，我孩子是内蒙考生，584分，超当地一本线83分，省排名4727，请问有没有希望被贵校录取，专业选择余地如何？
+select * from admission_plan where school='哈尔滨工业大学' and year='2083';
+['查询结果为空！']
+老师你好，我是山东考生，理科，614分，报考贵校能被录取吗
+select * from admission_plan where school='哈尔滨工业大学' and year='614' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好!我是山东一名理科考生，今年考了635分，15596名，请问报贵校有多大把握？您能否给我一些报考方面的建议，比如报哪个专业风险小一点？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='635' and district='山东' and classy='理工';
+['查询结果为空！']
+贵校在2011.2012两年中在山东的录取线极为接近山东的一本线(差值在几分之间)，但贵校2013年在山东的分数线却高出山东的一本线几十分，请问这是因为什么？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2013' and district='山东';
+['查询结果为空！']
+您好，我是辽宁理科考生，高考成绩612分。请问：1、考上贵校的可能性如何？2、若我所报的专业均为工科专业，是否会被调剂到理科或语言类专业等文理兼收的专业?
+select * from admission_plan where school='哈尔滨工业大学' and year='612' and district='辽宁' and classy='理工';
+['查询结果为空！']
+老师您好：我高考分理科598分，高出一本线72分，报考贵校有希望录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='598' and classy='理工';
+['查询结果为空！']
+今年考了595，超一本线50分左右，有希望上贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2050';
+['查询结果为空！']
+老师您好，我是山西理科考生，588分，省排名7318，超一本54分，报贵校有无希望？能进入什么专业？毕业后的毕业证学位证和哈尔滨校区有什么区别？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='588' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+山东考生619分，超一本48分，26000名，报考贵校有多大希望录取又能选择什么专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and district='山东';
+['查询结果为空！']
+贵校有什么优势专业？632分报考贵校有几成把握选择优势专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='632';
+['查询结果为空！']
+老师您好，我是山西理科生，高考分数578分，超出一本线44分，请问报考贵校物理类专业有希望吗？请问贵校物理类专业要求高出一本线多少分？有无专业级差？单科成绩有没有要求？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2044' and district='山西' and classy='理工';
+['查询结果为空！']
+老师你好，我是山东理科考生，今年高考成绩643分，超一本线71分，位次11565，请问老师我想报考贵校有没有希望被贵校录取？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='643' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好！我是一名山西理科考生，今年一本线上45分，如报考贵校有无希望？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2045' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，我是安徽考生，今年分数超一本71分，能上贵校吗？能上比较好的专业吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='安徽';
+['查询结果为空！']
+交通运输学习什么内容？
+select * from admission_plan where school='哈尔滨工业大学' and major='交通运输';
+['查询结果为空！']
+老师你好，我想问一下，你们这的电气自动化怎样？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化';
+['查询结果为空！']
+老师！您好！我是一名江西理科考生，高考成绩574，超出一本线48分，全省排名7812，请问录取贵校的几率大吗？能有什么专业可选择？可以报到电气工程及其自动化吗？我对这个专业比较感兴趣。
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and major='电气工程及其自动化' and district='江西' and classy='理工';
+['查询结果为空！']
+老师您好！我是一辽宁理科生，今年高考成绩超出一本线68分，有希望报考贵校吗？盼百忙中给予回复，谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='辽宁' and classy='理工';
+['查询结果为空！']
+老师您好！我是河南考生，今年610分，全省排名11237，请问报考贵校的‘船舶与海洋工程’被录取的可能性大吗
+select * from admission_plan where school='哈尔滨工业大学' and year='610' and major='船舶与海洋工程' and district='河南';
+['查询结果为空！']
+请问湖南理科超一本99分可以报贵校吗？贵校的优势专业是哪些？这个分数可以上这些专业吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师您好：江苏理科考生360分，选修A,A+，省排名16770，报考贵校服从专业调配有希望吗?
+select * from admission_plan where school='哈尔滨工业大学' and year='360' and district='江苏' and classy='理工';
+['查询结果为空！']
+你好，我是山东考生，高出一本线5分，但是通过了贵校自主招生。不知是否有希望被贵校录取？？
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='山东';
+['查询结果为空！']
+老师你好，我是山西理科考生，今年考虑595分，超过一本线61分，请问报考贵校的把握大吗？是否有选择专业的余地？另外贵校是否承诺进档不退？另外威海校区哪些专业可以报考？
+select * from admission_plan where school='哈尔滨工业大学' and year='595' and district='山东' and classy='理工';
+['查询结果为空！']
+今年考了595，有希望上贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+老师您好，我是山西理科生，高考分数578分，超出一本线44分，请问报考贵校物理类专业有希望吗？请问贵校物理类专业要求高出一本线多少分？有无专业级差？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2044' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，我是山西理科生，高考分数578分，超出一本线44分，请问报考贵校物理类专业有希望吗？请问贵校物理类专业要求高出一本线多少分？有无专业级差？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2044' and district='山西' and classy='理工';
+['查询结果为空！']
+我是贵州考生，今年高考561分理科高一本线77分，请问如果专业调剂是否有希望被录取？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2077' and district='贵州' and classy='理工';
+['查询结果为空！']
+老师您好，我是山西考生，我高考成绩为600，超一本线66分，排名4720，请问报考贵校能否被录取？能否报考车辆工程专业？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='山西';
+['查询结果为空！']
+老师你好：山东理科考生成绩高出提档线47分，填考贵校有多大希望，谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2047' and district='山东' and classy='理工';
+['查询结果为空！']
+我是江苏考生比省一本线高14分选修AA排名17893能否进贵校
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='江苏';
+['查询结果为空！']
+老师您好，我是内蒙考生，考分604，想报考贵校的车辆工程专业，不知有希望吗，车辆工程的就业方向是如何的
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='内蒙古';
+['查询结果为空！']
+老师您好，我的高考成绩是591，高出一本线31分，请问报贵校可以录取吗？交通工程环境工程车辆工程能源与动力工程通信工程，那些专业好？
+select * from admission_plan where school='哈尔滨工业大学' and major='通信工程';
+['查询结果为空！']
+贵校在具体到某一个专业（比如数学与应用数学)时，与主校在教学质量上有无差异，谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and major='数学与应用数学';
+['查询结果为空！']
+您好，我是山西理科生。比一本线多了45分，请问能报贵校吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2045' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好。请问安徽理科554，排名11400左右，高一本线65分且美术很优秀可以报考贵校吗？能否报考一些较热门专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='2065' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好我是河南理科生高考成绩612超一本线65分报考贵校有希望吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2065' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，河南考生今年595比一本线高48分，省排名17800左右能否报考贵校。贵校提档线大概多少分？
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and district='河南';
+['查询结果为空！']
+老师您好，河南考生今年595比一本线高48分，省排名17800左右能否报考贵校。贵校提档线大概多少分？
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and district='河南';
+['查询结果为空！']
+您好，请问625分选择贵校车辆工程专业，有希望录取吗。看到之前的回答，贵校一般在山东录取15000名，但是我的排名在22600左右，如果服从专业调剂，有希望录取吗，录取率大不大，谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='625' and major='车辆工程' and district='山东';
+['查询结果为空！']
+老师你好，河北理科考生高出本一线64分，能上威海校区吗？如果能上，能选什么专业？
+select * from admission_plan where school='哈尔滨工业大学' and year='2064' and district='山东' and classy='理工';
+['查询结果为空！']
+今年黑龙江理工627分，录取线预计得高出一本线多少？排名又大概得多少才能比较有希望？热门专业呢？
+select * from admission_plan where school='哈尔滨工业大学' and year='627' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+您好，我是甘肃考生，今年566分，超一本50分，想咨询一下威海校区在甘肃是否有贫困专项计划？有的话有哪些专业？去年的贫困分数的平均分是多少？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2018' and district='甘肃';
+['查询结果为空！']
+我是河北一名女考生，比本一线高55分，试问上述专业排名靠前吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2055';
+['查询结果为空！']
+老师您好，四川理科生，请老师指点：1咱们学校在四川是否有招生咨询老师的联系方式？2在实行平行志愿的四川，对于“政审、体检合格，服从专业调剂”的进档生，是否有“进档不退”承诺？3对进档考生分配专业，是按裸分还是投档分？是分数优先还是志愿优先？级差分是多少？4转专业有几次机会(除转入高学费专业外)，占年级本科生总数比例约为多大？5有选拔进入哈尔滨校区的模式吗？6保研比例有多少？盼复！
+select * from admission_score_pro where school='哈尔滨工业大学' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+您好，在吉林省排名多少或高于一本分数线多少可以被入取？入学后可以调系吗？2014年在吉林省招收的学生数？
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='吉林';
+['查询结果为空！']
+北京考区一本线上20-30分，1a填报贵校被提档的机会大吗？今年在北京还会扩招吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='北京';
+['查询结果为空！']
+请问，贵校和本部有什么区别？分数比本部低是因为什么？毕业证有什么不同？另外贵校在湖北超一本多少分录取？谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and district='湖北';
+['查询结果为空！']
+请问湖北理科超一本30分可以报贵校吗？贵校的优势专业是哪些？这个分数可以上这些专业吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2030' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师您好!1.新疆考生，视力800度可以报贵校吗？如果可以哪些专业可以报，具体要求有哪些?2.新疆属于平行志愿省，如服从专业调剂不退档吗？3.有应届与往届的要求吗？具体要求有哪些?4.2014年新疆计划有哪些专业?5.前几年报考贵校，在新疆的排位是多少？6.高出新疆一本线差多少分可以报考贵校？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='新疆';
+['查询结果为空！']
+老师您好!1.新疆考生，视力800度可以报贵校吗？如果可以哪些专业可以报，具体要求有哪些?2.新疆属于平行志愿省，如服从专业调剂不退档吗？3.有应届与往届的要求吗？具体要求有哪些?4.2014年新疆计划有哪些专业?5.前几年报考贵校，在新疆的排位是多少？6.高出新疆一本线差多少分可以报考贵校？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='新疆';
+['查询结果为空！']
+我是重庆考生，实现平行志愿填报，请问贵校对此是按照啥原则录取？录取比较多少？是否进档不退档？另外，贵校2014年在重庆的招生计划中名额有无增减（与2013比较），有哪些变化？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='重庆';
+['查询结果为空！']
+请问毕业证、学位证上要注明“威海校区”吗？贵校今年还有中外合作办学的专业要在重庆招生吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='重庆';
+['查询结果为空！']
+贵校的车辆，自动化，船舶，机械制造等专业，在身体健康，只是近视在600-800度左右的，这几个专业会限制报考吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='自动化';
+['查询结果为空！']
+北京考生，成绩大约一本线上65---95分的样子，请问：1.贵校14年在京提档比例？2.身体合格，服从调剂是否提档不退档？3.服从调剂的话，是在京招生计划内专业调剂吗？还是在全校全部招生计划内调剂？4.如果生源好的话，是否扩招？5.贵校14年报考，大约在京什么成绩或排名可报考？6.贵校招生大小年明显么？
+select * from admission_plan where school='哈尔滨工业大学' and year='2014' and district='北京';
+['查询结果为空！']
+您好，我的成绩超出今年山东理科一本线73分，能有多大的把握被贵校录取？有希望学习优势专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是一名山东考生，2013年高考591分超一本线37分，省29000名左右，请问报考贵校有希望被录取么？什么专业我可以报？（服从调剂又有多大希望？）谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and district='山东';
+['查询结果为空！']
+您好，我是一名山东理科考生，高考分数607，能上贵校吗？把握大吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+13年理科602分超一本线48分全省21190，报贵校把握多大？可以选择好专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and classy='理工';
+['查询结果为空！']
+山东考生，630分，7812名，报考贵校电气或土木专业能否被录取？贵校转专业政策如何？
+select * from admission_plan where school='哈尔滨工业大学' and year='630' and district='山东';
+['查询结果为空！']
+您好，今年高考分数617，有希望报考贵校吗？希望大不大？能报得到好专业吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019';
+['查询结果为空！']
+老师您好，我是山东考生，今年高考608分，高于重本线54分，请问报考你们学校成功的概率有多大？
+select * from admission_plan where school='哈尔滨工业大学' and year='2054' and district='山东';
+['查询结果为空！']
+老师，您好！我是山西一名理科考生，想报考贵校，高一本线49分，可能性大吗？贵校有专业级差吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2049' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，我是广东的一枚考生，高考594高一本20分，报考贵校希望能上自动专业请问希望大吗？如果服从调剂，有可能是调到本校其他专业，还是调到在广东招生那几个的专业
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='广东';
+['查询结果为空！']
+老师您好！理科583分，高出2013年29分，全省排名35609名，若服从调剂报考贵校有没有希望？
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and classy='理工';
+['查询结果为空！']
+老师你好，我是山东理科考生，分数598.省排名24356.专业服从调剂，请问我有几成把握能被贵校录取？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='598.省' and classy='理工';
+['查询结果为空！']
+您好，我是山东文科考生，总分高出一本线23分，1.我想报考本校国际经济与贸易专业被录取的希望大吗？2.如果不服从调剂本专业分数不够是否会被退档？谢谢
+select * from admission_score_major where school='哈尔滨工业大学' and year='2023' and major='国际经济与贸易' and district='山东' and classy='文史';
+['查询结果为空！']
+老师您好，我是河南理科考生563分，高一本线58分，全省排名11328名，请问老师是否有希望？
+select * from admission_plan where school='哈尔滨工业大学' and year='2058' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，河南省考生理科564分可以报贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='564' and district='河南' and classy='理工';
+['查询结果为空！']
+老师好我是青海考生460分超一本将近80分能上贵校吗
+select * from admission_plan where school='哈尔滨工业大学' and year='2080' and district='青海';
+['查询结果为空！']
+山西考生今年分数539，高一本线46分，上贵校机会大么？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山西';
+['查询结果为空！']
+老师好，我是河南理科考生，分数高出一本线34分，被贵校录取的可能性如何？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是山西考生。超一本线51分。想报；机械设计制造及其自动化，车辆工程，电子信息，土木工程，不想调剂，有无希望？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and major='土木工程' and district='山西';
+['查询结果为空！']
+老师您好，583分，高一本线56分，全省排名7928，报考贵校希望大吗，谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='583';
+['查询结果为空！']
+你好：我是广西考生，今年考了556高出一本线46分，能否被贵校录取？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='广西';
+['查询结果为空！']
+我是河南一名考生。今年高考558，高出一本线53分，名次13000左右，专业服从调剂，有希望报考贵校吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='河南';
+['查询结果为空！']
+你好，我是今年山东理科考生，成绩604，过一本50分，全省排名20133，报考贵校，有希望吗，如果专业可调剂呢？希望多大？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好！我是陕西考生，今年高考成绩比一本线高出55分，十分想报考贵校，请问把握有多大？如果被录取，什么专业比较适合女生？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2055' and district='陕西';
+['查询结果为空！']
+老师您好，请问：1）哈尔滨工业大学与哈尔滨工业大学（威海）在行政、教学上有什么区别？2）贵校在江苏地区的预估分数线是多少？3）我高考成绩363+A+A。在江苏省名次为9235名，报考希望大不大？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学' and district='江苏';
+['查询结果为空！']
+您好！我是山东理科考生，成绩608，超重点线54分，省内排名17893名，1.能否被贵校录取?2.专业选择余地大不大？3.有无专业级差？4.贵校提档比例是多少？5.若服从调剂，提档后会不会退档？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2054' and district='山东' and classy='理工';
+['查询结果为空！']
+您好，我是广东考生，高出今年一本线30分，省排名14000多，报贵校船舶与海洋工程，机械设计制作及其自动化，土木工程，车辆工程希望分别多大？另外，贵校在广东录取是分数优先吗？谢谢。
+select * from admission_score_major where school='哈尔滨工业大学' and year='2030' and major='车辆工程' and district='广东';
+['查询结果为空！']
+老师您好。我是山东理工类学生。高考分数超出一本线52分。若报考贵校录取希望大吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+您好，我是山西考生，理工，高一本20分，被贵校录取机会有多大？
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='山西' and classy='理工';
+['查询结果为空！']
+13年河南考生,理科,560分,全省排名12000,报考贵校有把握吗?
+select * from admission_plan where school='哈尔滨工业大学' and year='560' and district='河南' and classy='理工';
+['查询结果为空！']
+您好，我是广西一考生，我的高考成绩是556分。我想问一下我能否被贵校录取，谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='556' and district='广西';
+['查询结果为空！']
+请问山东理科分数580全省排名38200报考贵校是否有希望有多大希望
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好，我是一名河北理工生，今年高考分数605分，我想第一志愿就选咱们学校，我想问在关于填报所选专业时，我应该以所选5个专业的喜爱程度？在河北的招收人数？还是专业分的分数排名？选三个中的哪一个为准？并以怎样的排名？由高到低吗？希望老师给予回答，万分感谢！
+select * from admission_score_pro where school='哈尔滨工业大学' and year='605' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好，贵校有没有建筑学工程管理这两个专业，分校和总校的待遇一样吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='工程管理';
+['查询结果为空！']
+老师你好，我是山东考生，高考成绩607分，高于一本线53分，请问能被贵校录取吗？贵校今年对山东考生的录取分数线大约到多少分？
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2019' and district='山东';
+['查询结果为空！']
+我是山西的考生，比一本线高54分，排名为5537，如果按今年扩招的计划请问能报考哈尔滨工业大学威海吗？能上的话能上电气工程及自动化或土木工程吗？能上一个什么专业？请发送到975875066@qq.comQQ号有一些详细问题待回答。谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and major='土木工程' and district='山东';
+['查询结果为空！']
+我是山西理科考生，想知道今年贵校预估分数线，不知道519分是否可以被录取
+select * from admission_score_pro where school='哈尔滨工业大学' and year='519' and district='山西' and classy='理工';
+['查询结果为空！']
+您好，我是山西考生，高考成绩578分，超一本线85分，省排名1500左右，进入贵校机械设计制造及其自动化专业希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2085' and major='机械设计制造及其自动化';
+['查询结果为空！']
+老师您好，我是山东理科考生，今年考了630分，想报考贵校的车辆工程或者机械制造及其自动化，请问有多大把握？
+select * from admission_plan where school='哈尔滨工业大学' and year='630' and major='自动化' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东理科生，今年考了620，高出一本线66分，全省11771名，能被贵校录取吗？若能，有希望报考贵校的车辆专业吗？谢谢！！
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+贵校2013年的招生章程哪里有？贵校今年在四川的招生计划是多少？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='四川';
+['查询结果为空！']
+老师您好，我是山东理科考生，成绩比一本线高40分，请问报考贵校把握多大？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2040' and district='山东' and classy='理工';
+['查询结果为空！']
+本人江西理科561，一本517.本人对数学专业情有独钟，然而本部的数学专业分数太高。同是数学专业，贵校区和校本部有什么区别？成绩，表现和本部的人相同的话能否在出国保研就业等方面和本部的人享受同样待遇？我如果成绩优异能否被调去本部？如果能的话，要达到什么要求，这样的比例有多少？如果调去本部，那么就算是本部的人了吗？和威海校区还有什么联系（电子档案是否会显示是威海校区）？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师,您好!我是湖南理科考生,过一本线49分,排名11500名左右,不知能否被贵校录取,谢谢!!
+select * from admission_plan where school='哈尔滨工业大学' and year='2049' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师您好：我是河北考生，今年超理科一本线48分，服从专业调剂，有希望被贵校录取吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2048' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好，我是一名山东考生，2013年高考591分超一本线37分，请问报考贵校有希望被录取么？谢谢老师
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and district='山东';
+['查询结果为空！']
+请问：2013年北京理科哈尔滨工业大学（威海）预计提档线？北京理科620分希望怎样？谢谢！盼复！
+select * from admission_plan where school='哈尔滨工业大学' and year='620' and district='北京' and classy='理工';
+['查询结果为空！']
+我是山西的理科考生请问山西理科超一本线多少有希望进入贵校？我超出一本线58分请问希望大吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2058' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，我是河北考生，我今年高考597，加上优惠分10分607分，请问贵校是否承认加分，加分后名次是5200名，请问是否能被贵校录取
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='河北';
+['查询结果为空！']
+您好！请问贵校2013年在河南理科录取分数线大概多少？录取名次会有升高吗？谢谢
+select * from admission_score_pro where school='哈尔滨工业大学' and year='2013' and district='河南' and classy='理工';
+['查询结果为空！']
+请问，哈工大今年有在福建设置提前批吗？有没有国防生？各是什么专业？大概要超出本一线多少分？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='福建';
+['查询结果为空！']
+老师您好，我是贵州省的考生，今年我的成绩高出一本分数线100分。1.请问报考你们学校有机会吗？2.还有就是你们学校支持一年活两年后通过考试可以再选专业吗或者是支持选考二专业？3.我担心选择不了好的专业，想选服从调剂，一般这种分数较差的进去服从调剂会被调到哪些专业呢？会有医学方面吗
+select * from admission_score_pro where school='哈尔滨工业大学' and year='100' and district='贵州';
+['查询结果为空！']
+山西省今年541高一本线48分能去吗？服从专业调剂后调剂专业原则是什么？估计今年贵校在山西提档线范围是多少？贵校在山西提档比例是1：1吗？贵校在山西有无专业极差？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山西';
+['查询结果为空！']
+你好我是山东考生分数608超一本线50能否报考贵校工商管理学
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是浙江考生理科，高考成绩657，全省排名13386，对专业没什么要求，想报考贵校，请问有希望么？应该避开那些热门专业？
+select * from admission_plan where school='哈尔滨工业大学' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师好：我是天津理工考生，592分，高一本线71分，进贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='592' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好：我是辽宁文史类考生，高考分数是578分，一志愿报的贵校，能进贵校吗？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学' and year='578' and district='辽宁' and classy='文史';
+['查询结果为空！']
+老师你好，我是天津理科考生，高考分数超出一本线62分，请问是否有希望在贵校就读（服从调剂），谢谢您。
+select * from admission_score_pro where school='哈尔滨工业大学' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好，我是江苏理科考生。AB+,349分，省排名22347.报考贵校有希望吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='349' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师您好，我是江苏理科考生。AB+,349分，省排名22347.报考贵校有希望吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='349' and district='江苏' and classy='理工';
+['查询结果为空！']
+您好，我是河北理科考生，600分，高一本62分，全省裸分排名6535，我有望报考贵校哪些专业？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='600' and district='河北' and classy='理工';
+['查询结果为空！']
+您好。我是山东一名理科生。非常想报贵校，发挥失常只考了588分，线上34分。请问报贵校录取的把握有多大？另外，报什么专业录取的可能性大？服从调剂。四岁时先心治愈，对报贵校的专业有什么影响？因身体原因被退档的几率有多大？谢谢老师了。
+select * from admission_plan where school='哈尔滨工业大学' and year='588' and district='山东' and classy='理工';
+['查询结果为空！']
+可以上贵校的车辆工程和计算机专业吗？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程';
+['查询结果为空！']
+您好，我是河南考生，今年考了577，高出一本线72分，请问报贵校有多大把握，谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='河南';
+['查询结果为空！']
+我是湖北理科考生，成绩高出一本线35分，希望报考贵校的车辆工程、电子信息工程、电气工程等专业，被录取的希望大不大。如果专业服从调剂，有没有退档的风险。谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and major='电子信息工程' and district='湖北' and classy='理工';
+['查询结果为空！']
+我是山东考生，位次11026，想报考车辆工程专业，录取把握大么？
+select * from admission_plan where school='哈尔滨工业大学' and major='车辆工程' and district='山东';
+['查询结果为空！']
+您好！请问贵校往年在云南录取的位次情况如何？
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='云南';
+['查询结果为空！']
+老师好，我近视度数800度以上，请问是否适合学习贵校的电子封装技术专业？
+select * from admission_plan where school='哈尔滨工业大学' and major='电子封装技术';
+['查询结果为空！']
+您好，我天津理科生597分，高出一本线76分，想报考贵校，希望大吗？这分数需要冲一下吗？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好,我是河北省的考生,我今年高考成绩超出本一线57分,全省排名7913名,我要报考哈工大威海校区有没有把握?谢谢老师
+select * from admission_plan where school='哈尔滨工业大学' and year='2057' and district='山东';
+['查询结果为空！']
+你好，我是黑龙江考生，请问今年593分可以报考贵校什么专业？谢谢6200名左右
+select * from admission_plan where school='哈尔滨工业大学' and year='593' and district='黑龙江';
+['查询结果为空！']
+我是山东理科考生625分全省9850名报考贵校被录取把握大嘛？被土木工程专业录取的把握有多大？谢谢解答
+select * from admission_plan where school='哈尔滨工业大学' and major='土木工程' and district='山东' and classy='理工';
+['查询结果为空！']
+我是江苏理科考生，排名9900名，选修AA，是否可以报考贵校？若可以，是否可报考热能与动力工程，通信工程，材料科学与工程，土木工程专业？
+select * from admission_plan where school='哈尔滨工业大学' and major='土木工程' and district='江苏' and classy='理工';
+['查询结果为空！']
+你好，我是黑龙江考生，请问今年593分可以报考贵校什么专业？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='593' and district='黑龙江';
+['查询结果为空！']
+我是一名理科考生，我很想进入贵校学习，但我实在不喜欢行政管理，物流管理，工商管理，电子商务类专业。是否可以部分服从调剂。
+select * from admission_plan where school='哈尔滨工业大学' and major='电子商务' and classy='理工';
+['查询结果为空！']
+您好：我是2013年黑龙江考生，考分580，有机会进入贵校吗？若有，那机会大吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and district='黑龙江';
+['查询结果为空！']
+老师你好！这次考得很差，理科只得了265分，想上你们学校，不知道有没有机会啊？
+select * from admission_plan where school='哈尔滨工业大学' and year='265' and classy='理工';
+['查询结果为空！']
+我是甘肃考生分数554超一本65分，排名4922，请问在“机械设计制造及自动化”、“电气工程”、“能源与动力工程”。请问根据往年情况报考贵校的那一个专业更有把握？录取的可能性更大？
+select * from admission_score_major where school='哈尔滨工业大学' and year='None' and major='能源与动力工程' and district='甘肃';
+['查询结果为空！']
+老师您好，请问贵校在山东招生是按照分数优先还是志愿优先。假设我报的某专业为第一位，但分数较第六位为该专业的同学低，请问老师，录取我还是另一位同学？感谢您的回答
+select * from admission_score_pro where school='哈尔滨工业大学' and district='山东';
+['查询结果为空！']
+1、请问老师是不是看贵校往年在陕录取车辆工程学生的平均位次更准确一点？2、请问车辆和船舶哪个更有前途，貌似我国南海老出事..
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and major='车辆工程' and district='南海';
+['查询结果为空！']
+老师您好,我是江苏理科考生,想请问您贵校去年在江苏录取的最低位次是多少?专业录取时是否认可政策加分?专业录取的方式是什么?有无专业级差?今年的计划是多少?我估分356,另有10分加分,报考贵校的可能性有多大?谢谢您了!
+select * from admission_plan where school='哈尔滨工业大学' and year='2010' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师：你好！请问哈工大（威海）今年在山东省的招生计划是否包含贵校自主招生的考生数？谢谢
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东';
+['查询结果为空！']
+老师您好！我是山东省考生。山东省2013年实行平行志愿，有以下二个问题咨询：1、哈工大本校与威海学校的毕业证没有区别，那本校与分校学生的电子信息档案是否有区别？2、贵校是“专业志愿优先无级差？是否见档不退？
+select * from admission_plan where school='哈尔滨工业大学' and year='2013' and district='山东';
+['查询结果为空！']
+?我想报考贵校的小语种。如果被投档又没被所报专业录取的话，被调剂到非语言类专业，入学后可否转到小语种专业？入学多长时间可以转，需要什么条件？?各小语种专业有官方提供的对外交流的机会吗？都到哪些国家？多长时间？费用多少？?在校期间可以修第二学历和学位吗？专业可以自己任选吗？?投档后如服从调剂就不会被退档，是吗？?谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='被投档';
+['查询结果为空！']
+你好，我是河南2013年理科考生，有省招办认可的运动员20分加分。请问：1、贵校对此加分认可否？是只提档认可加分，还是一认到底，专业录取也认可加分？2、若服从调剂，调剂时，是等后边人都按专业志愿录取后的剩余专业调剂，还是先给我调剂了专业再录取后边的人？3、若是前者，是否承诺提档不退档？万一没有剩余余的专业，是追加计划还是退档？谢谢！麻烦老师给解释一下
+select * from admission_plan where school='哈尔滨工业大学' and year='2020' and district='河南' and classy='理工';
+['查询结果为空！']
+贵校近三年河北招生中，有无服从志愿调剂又身体条件合格退档的考生。
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and district='河北';
+['查询结果为空！']
+老师您好！请问该校是否招北京二志愿的考生,录取分数多少
+select * from admission_score_pro where school='哈尔滨工业大学' and district='北京';
+['查询结果为空！']
+北京理科考生，高出北京一本线100分，二志愿报考贵校可否？今年在北京有可能扩招吗？
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='北京' and classy='理工';
+['查询结果为空！']
+请问贵校今年在山东的招生计划有无变化？在招生专业和政策方面有调整么？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and year='2019' and district='山东';
+['查询结果为空！']
+请问老师重庆文科中等成绩550分报贵校那个专业较好？谢谢！
+select * from admission_plan where school='哈尔滨工业大学' and district='重庆' and classy='文史';
+['查询结果为空！']
+（1）进校后能转专业吗？能转入国防生吗？（2）平行志愿，服从调剂，仅当后还退档吗？（3）车辆工程是研究什么的？将来在哪里就业？前景如何?电子信息工程呢？谢谢您了！
+select * from admission_plan where school='哈尔滨工业大学' and year='None' and major='电子信息工程';
+['查询结果为空！']
+威海校区的毕业证注明是威海吗？威海校区与本部同专业相比，分数低多少（安徽）？
+select * from admission_score_pro where school='哈尔滨工业大学' and district='安徽';
+['查询结果为空！']
+北京考生,请问老师:2011年在京招二志愿考生,本年度还招吗?
+select * from admission_plan where school='哈尔滨工业大学' and year='2011' and district='北京';
+['查询结果为空！']
+1.贵校北京政策性加分认到分专业吗？有专业级差吗？2.提档后服从分配是否不退档？对单科成绩有要求吗？3.贵校往年招收二志愿人数和最低分数是多少？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学' and year='None' and district='北京';
+['查询结果为空！']
+总问题数584	查询语句构造为空数0	只有学校关键词数83	查询结果为空数287	有回答数214

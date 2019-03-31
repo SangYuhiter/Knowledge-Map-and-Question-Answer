@@ -1,0 +1,5104 @@
+您好，老师，请问农村单独招生笔试的科目都有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批可以转专业吗？有什么限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，国家专项计划会影响普通类招生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批学生与本科一批学生入校后是否不同
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大提前批有什么特殊要求吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+还是有一定的分数线？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+调剂一般会被调到何种类型的专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果提前批被提档后没有录取，会不会影响攻坚专项计划的录取？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请做专业介绍，包括主干课程，就业方向，考研相关方向等
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：我参加了思源计划，然后页面显示：志愿状态：审核通过；下一步要做：成绩查询。而成绩查询功能显示尚未开通，那我是通过了思源计划还是没有通过呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想请问贵校医学部专项计划准备招哪些专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问一批投档后若选择服从调剂，是否保证录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能填报哪些专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师新生报考致远荣誉计划有什么条件，这个计划招多少新生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我是浙江的考生，想咨询下关于体检结果为色盲或色弱的情况，贵校哪些专业不能被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问工科实验班什么时候开始分流，以及各专业分流后的学费情况？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本科普通批次，选了除中外合作专业都愿意被调剂，存在被退档的可能吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，里面有3个专业,如何细分专业？就业如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，上海交大提前批工科试验班招生对身体有特殊要求吗，近视可不可以报
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲和近视800度有什么专业报考限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报时系统不会显示贵校在该省“思源计划”的招生专业怎么办
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+思源计划“专业”一栏只显示“校本部、医学院”，是原先就没有具体专业的填报吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+思源计划审核通过后，如何查到初审材料填报的“详细”专业志愿？（不是“上交医学院”、“上交校本部”之类字样）
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大综招志愿之间设级差分吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问享受国家专项的考生可以转专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，提前批要服从志愿调剂吗？不服从退档会影响第一批录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的校本部和医学院之间可以转专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是先进校后分专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+体检合格，服从调剂，提档有无退档风险？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高水平艺术团考生未达到录取分数线但上了优惠线，那调剂录取专业是如何选择的？有没有可能满足考生的志愿？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+因为是大类招生，还有就是有一些实验班，所以不知道如何区分，希望能够有一个详细的介绍，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提前批设的工科试验班是否包含密西根学院等中外合作项目
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校入学后如欲在全校范围内转专业，需要哪些条件？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问下为何提前批，专业质量怎样
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+农学类学生学费会减免吗?补助额度有多大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批录取工科实验班有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问提前批的学生大一大二可不可以转跨系转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。我想问一下，工科试验班是什么？有什么具体要求吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、该校国防生专业对口率2、该校国防生攻读研究生要求3、该校国防生是否允许转专业4、国防生就业前景
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我是吉林考生，我通过了贵校自主招生并获得B档，但预录取专业不是自招填报时的第一志愿，填报特殊批志愿时，是否应该把预录取专业填报为第一志愿？是否可以填报其他专业？未在第一志愿填报预录取专业会对录取产生什么影响？是否服从调剂？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我在农村专项计划中获得预录取，请问在填报志愿过程中我应该如何使用
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好请问提前批投档了后又被退档能跟得上报国家专项地方专项高校专项和本一批吗望作答谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校进档后，调剂专业，是在报考学生所在省的计划内未满的专业调剂，还是在全校所有专业中统一调剂。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，如果报了上海交通大学的高校专项计划，还可以报提前批吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好，如果我报了高校专项计划，是否还能报提前批的其它院校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好，如果我报了高校专项计划，是否还能报提前批的其它院校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大概要全省多少名
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专项考试成绩什么时间公布？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问是否跳过硕士培养阶段
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，是否有专业是只按志愿录取，只按志愿录取的专业是否会降分录取？如果降分，会降多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，如果服从专业调剂，是不是就不会被退档？如果被调剂，可能进到哪个专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，入校时是否要考试？如果考试，考哪些科目，考试范围是什么，成绩是否会影响专业分配及后期转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，专业录取时是否优先录取有政策加分的学生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，入读后，转专业容易吗，跨院系转容易吗？有什么具体要求？希望能说的详细，申请转专业的学生中，有多少比例学生能转成？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，上海交大在各个批次及各专业对应届和历届有要求和区别对待吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校思源计划笔试结果什么时候能查询
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校优先录取第一志愿考生，请问这里的第一志愿指的是填写平行志愿的第一所院校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校色弱有哪些专业限报？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好老师准考证截止什么时候能够下载呢？如果还不能下载找谁联系呢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+笔试时间是多久啊？确定了吗？我的初审已经通过了，但是准考证系统中准考证下载不了，怎么办?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+笔试时间是多久啊？确定了吗？我好安排行程
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的初审已经通过了，但是准考证系统中准考证下载不了，怎么办?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大在线交流都说没有限报几所院校的要求，在进自主招生报名系统里面填报时提示限报3所，咋回事哟？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，自招报名专业数是否有限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+中国国际广播电台CRI杯全球中学生多语种数字化故事大赛优胜奖算不算学科竞赛特长？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+往届生可以报名吗？限报几个学校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，在这次自主招生中交大对考生所报学校的数量有要求吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+问一下，参加冬令营结束的时候说会有优惠政策，到底有吗？有，什么时间通知？与这次的自主招生有冲突吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，在全国中小学电脑制作活动中获得二等奖的学生，在您校可以获得自主招生资格吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对学校限报数量是几所？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，打印寄送的报名材料，放置顺序有什么要求？可以装订成册吗？材料的装订有什么要求？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对参加过冬令营的同学，在自主招生上有没有什么优惠政策？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上交望道计划的笔试科目是哪些？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，自主招生专业调剂吗？如调剂是在自主招生专业中调剂还是在全部专业中调剂？贵校限报几所学校？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校限报几所学校（包括贵校）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校的5%名额具体说多少人？限报几所学校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自主招生报考贵校，限报几所学校？对志愿填报在第几所有要求吗？专业可填几个？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校简章中要求的其他申请材料(如高中阶段的课程修习情况和相关成绩、学业水平考试、获奖证明、参加社会公益性活动等写实性材料，推荐材料需由推荐人或者推荐单位用信封密封且在封口签字)，是要求学校出具书面材料或是考生收集由学校证明？推荐材料是学校或校长推荐吗？盼答复，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+学生提供学校盖单证明的成绩单，没有专家、学校推荐，学生自荐报名行吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+没有参加奥赛，是否能申请自主招生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问我在报取贵学校的同时还可以报取其他院校吗？可以报几所？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问我在报考贵校的同时还可以报取其他的学校吗？能同时报几个
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！推荐人写的推荐材料是用小信封单独封起来，签封口名，然后和学生的其他材料一起寄，还是要单独邮寄？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问什么分数段适合报考你们学校？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我在全国高中数学联赛中获一等奖，能申请贵校的自主招生吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生简章什么时候发布
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，该校2015自主招生简章什么时候出来呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，贵校2015自主招生简章什么时候出来？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问医学院的自主招生简章什么时候发布？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校的自招政策出来来吗？需要什么样的条件可以报考
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自招章程什么时候出？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么时候出简章？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.请问交大医学院是否独立进行自主招生?2.请问自主招生简章何时公布?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+没参加竞赛，学习成绩市级排名前3名能报吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交的自招简章什么时间出来?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好上交提前批的国防生是什么意思？定向的吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，已有交大自招B类加分，若使用该加分是在自主招生批里报考还是在本科一批里报考？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+何时知道面试合格？合格后才能填报志愿？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生分数线估计多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考至少多少分能报考贵校
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+工科试验班申请状态为未报考，请问是什么原因？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你们咨询电话多少，想问工科试验班的问题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果提前批工科试验班未被录取，是否影响1A录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，650分报贵校的提前批有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报时的一批次A志愿指什么跟本科一批志愿填报有关系吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有没有双学位有关规定？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问工科试验班录取的学生与1A录取的学生有什么不同？可以转专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+“请考生在高考发分后及时如实填写高考投档分数及排名，本省（市）报名关闭后考生所有已填信息将不可修改。（各地报名关闭时间请留意我校招生网公告）问在哪填写高考投档分数及排名
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+同标题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这个专业不是IEEE班吧？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题？？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问A1中外合作办学专业对考生有无特殊要求
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校提前批次工科实验班类的分数要求是多少，有什么要求
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想知道关于提前批工科的具体安排，面试时间，真的不会影响第一批本科填报？二者关系如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，关于贵校本科提前批中的工科实验班是怎么回事？是否本一线以上都可以报？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我是一名国家级贫困县考生，646，省排名2000，超一本线99.我用专项计划报考贵校的土木类专业希望大吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我644分，走专项计划去贵校行不
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问提前批次的工科试验班报名表中只有“报考信息”一项的页面为灰色无法保存，下边的“标签说明”提示为“未完成”，其他全部都完整的填好了，报名是否受影响？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，什么是专业级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+工科试验班是不是就是三位一体
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！进入工科试验班后还能否转专业呢？若不能，又能否副修一门，比如经济呢？若能转，需要什么条件？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+三位一体招生流程怎么样
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校工科试验班面试时会有笔试吗？另外面试方式是一对一还是一对多？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果只知道高考总成绩，不知道具体排名（高考成绩通知书在27号才能领到，网络已关闭），会影响工科试验班报名资格吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+此种情况下第一批志愿还能用吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我想报提前批次的工科试验班，有人说必须在提前批次第一志愿填报交大试验班，还要在第一批次的A志愿填报交大才行，有这样的规定吗。另外，面试在正式填报前，面试合格意味将被告录取吗。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问在提前批报考工科试验班与第一批志愿是否有冲突？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问工科试验班网上报名什么时间截止，没有网上报名能在提前批填报志愿吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂是否会被退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问填报工科试验班时ABC志愿是指什么，为什么会有三个呢？不是就填上交就够了吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校工科试验班时所填的高考号是指准考证号还是考生号，还有一批次ABC志愿是指什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我非常喜欢上海交大，但分数不够。我如果被上海海关大学录取了，可以修上海交大的第二专业吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高于一本线669分有望被录取么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好：请问贵校设立提前本科一批的目的是什么？能介绍一下“工科试验班”的情况吗？“综合评价录取”是什么意思？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好：提前本科一批所录专业与本一批A所录同类专业有何区别？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问“一批次B、C志愿”中的高校名称是指非上海交通大学吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请教艺术特长生的录取分数线是以本省的提前批次的贵大学的录取线还是以第一批次贵校的录取线为准，在此基础上进行优惠？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+辽宁的工科实验班招生在提前批次吗？具体如何招生，跟其他专业招生有什么区别？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问工科实验班与工科实验班（试点学院）有区别吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的网上报名系统中为何没有"工科试验班“这个报考类型？如何才能报名？如果工科试验班的录取失败，是否会影响本一批的录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好老师,为防止学生将医学院作为跳板转入本部,交大会出台相关政策保护那些真正想选择医学的学生吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，查看学生司查询到的贵校各专业录取平均分，有的低于提档分，是因为他减去了各省的政策性加分吗？还是包含了降分录取的自招生？谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+政策性加分在专业录取时哪些专业不予考虑。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取是分数优先还是志愿优先，专业录取时承认政策性加分吗，谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+政策性加分在专业录取是是否一加到底
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好，请问贵校4+4医学是招收全国所有985高校的推研学生吗？分不分是什么专业的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生录取专业时是按投档分还是按高考实考分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果提前批填复旦交大，分数不到复旦，但到交大分数线，能进交大？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问在自主选拔考试中需取得什么成绩可以获得降至一本线优惠
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：视力镜片度数受限不宜就读专业可以填报吗？专业录取时怎样对待？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问，在实行平行志愿投档方案的省份，被提档到贵校后，以何种方式录取？是从高分到低分不分志愿录取呢还是优先录取第一志愿考生。谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。省招生部门的加分除了提档贵校承认，在专业录取时认可吗？谢谢您。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,自主招生上了提档线的考生可以享受加分选专业的优惠，那应该是加上优惠的分数以后和裸分考生一起排队选专业吧？那裸分考生如何清楚自己在全省的实际排位？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，中外合作办学的毕业证和其他学生的一样吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：学生几人住一个房间？房间内有卫生间和浴室吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+几人一间？是上床下桌吗？有空调？宿舍内有卫生间与浴室吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问已经获得致远计划资格的考生，在高考录取时还可以更改专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问获得贵校自主招生A档优惠的考生，报考提前批工科实验班可以加40分优惠吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+保研考研比例多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自招B优惠，报名时也需在平行志愿的A填报吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自招批会和本一批一起排队分专业吗？还是提前？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生占本省的计划吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自招时所填的几个专业，在正式录取时，均有加分机会吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，已获预录取资格，但专业不是很满意，请问：正式录取后还能换专业吗？如果能换，需要什么条件？具体程序怎样？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+色盲对哪些具体专业有限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对于致远计划确定专业的考生，在高考填报志愿时，选择服从调剂，一般调剂到什么专业，不愿上医学专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生已有加分优惠，专业也定了，报考时在自主招生一栏填报学校和专业后，还需填专业服从调剂吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在3A中拿到加分的签约，若高考能上清北线，能否去填志愿时填报清华北大？是否若不填贵校，只能参加征求志愿？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！提档后还会被退档吗？如果录取到不喜欢的专业，转专业的条件是什么？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我省提前批次贵校有自然保护与环境生态类专业，请问被录取后毕业后是否要定向参加工作。。还有，被录取后能否转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问不政审能报提前批吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：超出一本线97分，排名2700，报贵校有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问没过一本线可以报考本科提前批和本科一批吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好提档之后会不会退档？、咨询下
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好我想问一下万一我被录取了结果是最后一名贵校是否会选择退档？？这样的话我的成绩就会废除不要用一般情况回答请给一个准确答案让我参考下非常感谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档后是否退档(若服从调剂）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！我高考成绩634，报考上海交大医学院（服从调剂）有希望吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我已经获得上海交大自主招生A档加分政策，高考填写志愿时除了在提前批C表填上上海交大，还用在一批次A志愿上填写吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批专业，可以辅修其他第二专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！我通过了上海交大保送生考试，高考考了603.在省内排名350到380，请问可以报考上海交通大学吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如果被贵校录取，但觉得专业不适合自己，可以在入校后重新选择专业方向吗？如果可以，条件是什么？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大艺术设计是按照传统志愿填报，传统志愿有什么规则？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校在我省有第一提前批志愿（自然保护与环境生态），请问要报考改志愿大概要高出重点线几分？有哪些特殊要求？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交的老师你好，我高考分数601，含政策加分，超一本线152分，全省排名730左右，贵校对政策加分一认到底吗？，请问我报考贵校有风险吗？又能选上什么专业？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我获得了A档优惠，但需要调剂，请问专业调剂的程序怎样，有什么规则吗？谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的高考成绩是616，一本线是540请问能不能上你们学校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问多少分录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问报考不分省招生的专业具体有哪些要求
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:对往届生有什么特殊要求吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档比例是多少？如果选择服从调配是否有退档风险？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，上海交大有双学位、主修辅修的培养方案吗？如果有，学生是否可以自由选择？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果填报了自主招生批次，是因为专业不服从调剂未被贵校录取，在一本批次中如果报贵校应该不影响吧？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+省三好加十分在专业录取时仍有效吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校分配专业时是分数清还是专业清？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少？分专业是以实际考分还是含政策加分排序？是否有级差？谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档服从调剂是否退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！1、请问专业录取认加分吗？2、进校后有基地班考试机会吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+招生章程写原则上大学不转专业什么意思能麻烦说清楚点吗？到底能不能转呢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生章程“我校调阅考生档案的对象是：以我校为第一志愿的考生”，河南省一本实行平行志愿。请问如何填报？必须填第一个院校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，排名多少录取分多少能上该校，招生计划数
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好：是否有专业级差，如果有，是多少？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：1.贵校招生网公布分数是裸分？还是包含某些加分？2.贵校的招生章程何时公布？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问艺术设计专业在贵校的地位如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校专业录取时承认各省加分吗？保送生和自主招生占公布的招生计划吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问高职（专科）与高职高专是一样的吗？谢谢您
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，学生专业的录取是按裸分吗？加分有没有上限？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校对考生填服从专业调剂就不会退档，请问，不退档就是会被录取，是吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+一：假设选择服从以下专业调剂，但是分数都达不到所选的专业调剂的要求，是会被退档还是该档案投向该批次的下一所学校？二：是否必须先填满专业志愿方可填写服从专业调剂？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，过了自主招生A档优惠，报医学院可以享受40分加分吗？自主招生录取在一本录取之前，一本录取后才确定提档线，自主招生依据什么线录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校都有哪些专业有交换生？交换生选拔原则和在国外学习期间的学费等有教育部还是交换双方高校承担？贵校实行专业极差吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我们想报考贵校医学部，请问服从调配时是否仅在医学部内调配？学校调配时会电话征求意见吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，填服从还会退档吗？调剂专业时会通知本人吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问考入贵校后有没有专业调剂的机会？需要什么条件？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考农委定向培训的有什么好处？一般毕业后到何种单位？需要与农委签约几年？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校二本有吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+参加交大自招面试,未录,不知高考有无优惠政策?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、分数优先还是志愿优先？2、有无加分、降分的规定，具体要求是什么？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生简章大约什么时间出？谢了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一下贵校在专业录取时，通过贵校自找的是和裸考生一起排分取专业吗？还是自招的有专门的名额，只是自招的在一起排分取专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一下贵校在专业录取时，通过贵校自找的是和裸考生一起排分取专业吗？还是自招的有专门的名额，只是自招的在一起排分取专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+保送生进校后可以转专业吗？（达到转专业成绩要求）转专业在哪个学期？辅修专业又在那个学期？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生要符合《中国人民解放军院校招收学员体格检查标准》。是在填报志愿前就检查吗？，如有意向在哪里检查，是交大组织还是怎样？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+招生计划和章程何时能公布？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问录取后服从专业调剂时，会提前咨询考生征求意见吗？谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+享受A档优惠，如果高考分数未达到录取线，享受优惠政策后录取，如何调剂专业，是要被调剂到录不满的专业吗？是否参考自主招生时填报的专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+农学院里有5个专业，康奈尔，罗格斯大学对此有要求吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批电气信息类（国防生）这里的国防生是什么意思？有专业特别要求吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果高考没考好，通过成人高考进入贵校学校能算本校学生吗？谢谢您
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校可以转专业吗？比如从医学院转入其他的学院或从其他学院可以转入医学院吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，高考分数639，能上贵校吗？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！若服从调剂将要到高学费的专业学校可能会考虑到学生的家庭情况不予调剂但如果特别想要去的话学校会不给调剂吗？请问学校对这种家庭条件的标准是什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！本科一批若服从专业调剂会被调剂到收费较高的中外合作类专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如何查找贵校历年各专业分数线
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，你好！请问学习电气方面专业，以后就业从事什么工作，具体做什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我想请问一下：投档成功但未被录取会被退档吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取分数线？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我很想上贵校，考了640，有希望上贵校吗？谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您认为一般在省内排名多少可以报上海交大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校若分数不够自己想学的专业会在交大的所有专业内调剂还是贵校在该省的专业招生计划内调剂呢？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的招生章程什么时候出台？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提档后的选专业时，是裸分挑专业吗？，投档后，服从调剂时，是否会退档？，是否有专业级差？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大类专业里有一个我学习受限的专业，我可以不可以报这个大类。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电气信息类是按大类报，到校后分专业还是按各个专业报。到校后多久分专业。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大类专业里有一个受限专业，我可以不可以报这个大类专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大类招生的专业里有受限专业，一年后分专业的时候怎么办？（大类里就有一个受限专业）
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么叫B档优惠？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我填了服从分配会退档吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！自主A档裸分高出最低录取线，占招生计划吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+江苏考生，提前被改革试验预录取。请问入学后怎样转专业。新生奖学金名额有多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个校区，每个校区专业是怎么分的？新生入哪个校区？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，问题一：如果是属于A类加分后才能进入范围的，调剂的专业是在本省招生计划内所列的专业名称内进行调剂还是在本省所列的不分省招生计划所列专业名称中调剂？，问题二：调剂时是否尽量考虑接近本人志愿？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,填报志愿有项"走读服从",具体是指什么?不服从有关系吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生简章中：“我校调阅考生档案的对象是：高考成绩达到当地同批录取控制分数线，并以我校为第一志愿的考生。”请问：平行志愿的省份也必须是第一顺序码？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获贵校B档优惠，没把贵校填在第一志愿，是否有效。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提档后专业服从调剂可以保证不退档吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生章程什么时候出来，有没有最后时间的限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！《体检指导意见》里有不宜就读的专业内容，且明确：供考生参考，学校不得以此为依据拒绝录取达到相关要求的考生。对于考生“不宜就读”的专业，究竟能不能报考？如果达到了相关要求，会不会因此影响录取？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想请问一下，如果有色弱，贵校有哪些专业是不能报的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！《体检指导意见》里有不宜就读的专业内容，且明确：供考生参考，学校不得以此为依据拒绝录取达到相关要求的考生。对于考生“不宜就读”的专业，究竟能不能报考？如果达到了相关要求，会不会因此影响录取？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问调档后若服从调配是否可能退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问：1)在为自主招生预留的个别专业名额紧张情况下，贵校是否会将招生计划中的该专业名额用于取得贵校A档优惠且高考分数（不含贵校优惠加分）达到贵校录取分数线被录取的学生？2)按学院（如：密西根学院分机械、电子、航空三个方向）招生的何时进行专业选择及专业选择主要原则？3)本-硕连读试验班就读期间能否转为只读本科（如：通过转专业）。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校的自主招生的学生和保送的学生是否都占我们省的招生指标和计划？另外，自主招生被选拔上的必须要上这个学校？还是第一志愿不报就可以不上？是否限制很大？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果已经自主招生签约，面绩也达到起分线，高考后另选其他学校为第一志愿有何影响？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校法学专业的分类是否如华东政法,经济\国际\民\刑等?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我省能报贵校的6个专业志愿，我想知道如果孩子被贵校录取后，贵校如何安排录取学生的专业志愿。谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：关于自主招生中说的达到“当地录取线”是指的提档线吗？麻烦您给解释一下。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我一模二模6比一本线多80多分，能否被贵校录取，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：，在专业选择时，贵校是否认可省级的政策性加分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好：请问提档后是否退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交提档比例？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+介绍一下贵校转专业的政策
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+孩子提前批报了贵校国防生，成绩达到了要求，学校要求参加体检和面试，但孩子突然不想上国防生，请问如不参加体检，是否影响本科第一批录取。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大还有点招名额吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+【老师您好】提档了服从专业调配有可能死档么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校所说认可加分，是指一加到底，还是加分提档，专业看裸分？（我是省三好）另外，贵校的投档比例是随机应变的，报的人多就高，投档比例就越高吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿省份同一个学校下面的6个专业间录取时有没有专业级分差？还是采取平行原则，就按原来分数遵循分数优先？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校所说认可加分，是指一加到底，还是加分提档，专业看裸分？（我是省三好）另外，贵校的投档比例是随机应变的，报的人多就高，投档比例就越高吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，交大是按照政策性加分后的成绩录取的么？，，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提档比例是怎样的？服从调剂的话还会不会被退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有自学班？报自学班有什么要求？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问上海交大医学院的毕业证是由上海交大统一颁发的吗？有区别吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+转专业可以选择“本硕连读试点班”吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问自主招生优惠加分不包括上海交大医学部吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考上海交通大学的研究生吗？每年有多少外校学生考入上海交大读研？二本生每年占多少?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+603能进临床吗？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我小孩高考642分，省排名并业485名，有希望读贵校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否提供双学位的学习？哪些专业提供双学位的学习？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校转专业政策，可不可以辅修专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大网站上专业录取分数是裸分？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业都有哪些？能否提供优势专业在全国的排名情况？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：填报志愿时是填贵校的代号0045，还是填代码10248？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专业服从调剂能不能被录取？谢谢回答。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校是否有中外合作办学专业，专业是什么？录取分数线是否低很多，比如只要达到一本线就可以了。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂，退档吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招考办人员是否到云南省执导?什么时间、地点？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！服从专业调剂是否调剂到密西根学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校药学院为二级学院，与其它学院有何区别？毕业生就业方向如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问B档考生填报志愿时，是否按“普通志愿填报”，，，填报志愿系统有2类：1.普通志愿填报2.特殊志愿填报，就是说，B档不按特殊志愿填报
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主考生B档报考国防生享受加分优惠吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提档不退档，就意味着录取对吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类试点班能否在本科四年后出国读研？是否必须读完六年？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问交大入学后何时可以转专业？转专业的人数大概能占多少？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：交大医学院毕业后盖的章是上海交大还是上海交大医学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我觉得报交大100%把握，所以只填第一志愿平行A位置就可以了吧。B位置我就不想填了。这样可以吧
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+642能否进入医学部？，医学部与校本部是否在同一校区?，医学部与校本部是否能互转专业？，服从能否保证不退档?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大老师，自主招生提档线是如何划定的，因为这时还不知道一批次平行志愿贵校的提档线（自主招生在前）。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+全省排名最低多少名能进贵校提前批
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生A档考生是否按裸分选专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获自主招生B档优惠的是否参与第二批次——自主招生批次的录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业就业范围比较广?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无基地班（实验班）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些学科按大科招生？（即入学一至二年后可再调专业）
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势专业(国家一级重点学科)有哪些?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你们学校有成教院吗我想通过成人高考进入贵校可以吗谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：交大每年的男女生比例是多少？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：贵校在安排专业（即专业录取）时，是以投档成绩为准，还是以高考实分（即裸分）为准？或者说，贵校在专业录取时，承认政策性加分吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：我高考体检为色弱且有红、绿单色不识别其它单色均能识别可报考贵校的什么专业，要有针对贵校的专业而不是“普通高等学校招生体检工作指导意见”那种笼统的标准谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校提档后且考生服从专业调剂，贵校是否能确保考生不被退档？贵校投档比例是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好老师：请问交大有几个校区，学生进校后在哪个校区学习，后几年还有变化吗？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大志愿之间的级差是多少？通过自主招生的考生是否有专业录取分数优惠？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我达到你校分数线，一本第一志愿报的你校特色专业（其它一本志愿均未填报），因不服从专业调剂而不能被你校录取，会不会成为“死档”而不能参加第二批录取？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果提档后服从调剂会退档吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有国安局到学校招聘吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、进校后，想调换专业怎么办？能不能修双学位？（即在读本专业同时，可以选择读本校其它专业且有无老师辅导？），2、有无应往届之分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师密西根男女生比例是怎样的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否平行志愿省份服从调剂不退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：高考报名号提交是何用意
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档数一般多于招生计划，政策性落选怎么办？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校填报志愿是按大类报还是按各个具体专业学科填报？贵校有哪些国家重点学科？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问物生专业的考生是否可以报考交大医学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对视力有限制要求的专业有哪些？是不易报考还是不能报考？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校对那些过了A档优惠线（一本线或者线下40分）但没有达到当地投档线的学生的专业是怎么择优录取的？是否只有被调剂到普通考生挑剩余的专业？这些学生应该怎么填专业志愿？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好请问，1自主招生B档资格不需要在自主招生批次填报志愿，直接在第一批填报即可，是不是必须填在A志愿才有效（第一批实行平行志愿），2.B档资格没有降分优惠是吗？，3.进校后，有没有转专业的机会？比例多大？大几可以转？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、对于未实行平行志愿地区的考生，贵校有“在服从专业调剂的前提下，提档不退档”的承诺吗？，2、对“服从专业调剂”的考生进行专业调剂前，贵校还征求考生意见吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对不起，还是继续之前的问题，具体专业计划啥时出来？另外我是自招A档考生，考试院让确认时仅仅确认了学校是交大，没填报具体专业，是不是可以的，不会影响正常录取吧。是不是最终要是要以高考志愿为准的，请解答，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校的专业有线差吗？线差如何定？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+数学基地班，只在高考中招满25人吗？进校后还有可能进吗？会扩招吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问一本线上多少分能被贵校医学院录取？四门还是五门总分
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问专业服从调剂,会不会调到医学部?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我一志愿报密西根，那5专业怎样填写啊？是不是不用填写了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占不占下达的高校计划
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如进档后，志愿服从调剂，退档不？专业如何安排，是否安排相关相近的专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：专业是否愿意调剂中如填愿意调剂，在是否存在退档的情况，还是进档即取？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！已获贵校专业加分优惠，若达到当地投档线，第一志愿加分后，仍未被录取，那么第二志愿加分还会有效？以此类推，专业加分能有几次机会？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校设有专科吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!自主招生选转业的5分,如何加?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问贵校什么时间开始录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海交大医学院专业录取时存在级差吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果被贵校医学部录取，请问1.能否转专业？2.能否从医学部转到校本部？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问通过成人高考进入贵校接受成人高等教育的学生能统称为大学生吗谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若未将贵校填在A学校，是否会对录取造成影响？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，上海交大医学院属于上海交大吗？它和上海交大有什么关系？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师;您好!贵校招生政策讲高考成绩优秀的同学可在入学一个月后可重新选择专业,保送生不可以享受吗?如能提前决定专业便于小孩入校后安心学习,减轻负担
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大有回民（清真）食堂
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我已被贵校预录取，这次考了500多分。请问老师：录取通知书何时发出？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我裸分608分，加分为0，排名19名（含加分的排名），请问报考贵校有无希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生资料中说自主招生不占本省招生计划，那么提档后选专业是自主招生类考生在一起排名吗?还是所有够录取条件的（计划招生+自主招生）一起排名选？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+敢问服从专业调配的考生还会累计专业极差吗？谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问报考贵校提前批的“环境生态类”可以转专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+入学能否转专业，有什么规定
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能否上贵校
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你们学校招收二志愿的考生吗？有没有志愿级差分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问最早何时，如何得到录取结果？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问该院学生大二后去密西根是否需准备托福考试？是不是每个学生都有机会去？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+分数为625的考生被提前批录取概率有多大？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我这次高考没考好我想问下通过成人高考进入贵校成教院后，我能算贵校正式的学生吗？谢谢您
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问若本人服从调配，是"在所报专业均不能被录取的前提下，才调配到其他专业"么？，是调配到只在生源地招生的专业吗？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大医学部和交大分数差得多吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有机会上吗谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上面回答的没看懂，分专业，转专业一样吗、什么情况能直录
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好：，我想问一下，如果报上海交大医学院，被录取以后能否通过考试等途径转专业。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+分数645，省内排名330，有把握上贵校吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若我达到贵校投档线，且服从专业调剂，但我患有色弱，且近视度数大于800度，是否有被退档的可能？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问获得贵校自主招生A档优惠的考生报志愿时有优势吗？什么优势？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的提前批（其他类）也需要接受政审、体检、面试、军事训练之类的过程吗？望老师速回，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有大专吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是以高考成绩分数招生还是以高考成绩加基础会考成绩的总和招生以哪一个为投档标准或者说是以哪一个分数录取填报专业时是按哪一项录取请用肯定语告知谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+618能上贵校什么专业而风险较小
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问入学后，若感觉专业不对口，能否再转专业？应如何转？容易吗？麻烦您了，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上得了吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+论坛咋没开
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我孩子分数623，超一本线71分，全省排名1519，报考贵校有希望吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业生在出国读研方面有哪些优势？读研主要去向？是否有报送国内或国外高校的读研机会？本科生是否有机会作为交换生出国学习？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩626，省里排名1200左右，报贵校希望大吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的录取原则中“以我校为第一志愿的考生”，其中的“第一志愿”是否指平行志愿的A志愿？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类（本硕连读试点班）仅接收第一专业志愿填报者吗？填在第二专业可以录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在专业录取中，省三好的加分是否还有用？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我是河北衡水中学考生，享有贵校A档优惠降分，高考裸分638，请问我是否一定能被贵校录取？，服从调剂还退档吗？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，报考贵校时，如果将贵校放在本科一批平行志愿B位置，在A位置没有投档的情况下，那么对B的投档是否有风险，与其他报A位置的同学比是否优劣势，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生在辽宁的分专业招生计划是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问该校提前批的生态环境类的具体专业设置及是否须定向就业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业调剂怎样操作？，比如是否会考虑考生本身的志向转向较近的专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：提前批10~11号录取但是本科一批5~6日填报，能影响报本校一批志愿吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我获得了贵校B档优惠，填写自主招生院校时，是不是在自主招生特长生表中填了以外还要在一志愿中填一次（贵校还要求是A位置）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果自主招生通过后，并签署协议，高考后不填报该学校行不行？是否也会被该学校提档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好：资格线，批次线，提档线，录取线，学校以哪一个线为正规录取学生的？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，服从专业调剂志愿时，调的不适合自己的专业如何解决？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本校招生章程在哪里查到？，重点学科在哪里查到？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报提前批是否影响一批录取？，两者有无什么关系？，谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报志愿提前批和一批是不是在同一张志愿表上？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报的专业怎么能知道在那个校区？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+学生在校内住宿还是在校外住宿？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分560，可以报贵校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这和后边的本科一批有什么不一样？，为什么前边没有招生计划人数？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！学生若报医学院，在专业服从情况下，会不会安排在别的院系？进校后能否转专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校医学院提档线被提档后且专业服从调剂的情况下能被退档吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高出重本线120左右报考贵校有风险吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分在610左右报考贵校的风险有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校录取平行志愿中B位置的考生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想要能通过成人高考进入贵校取得大学学历可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+人数减许多。影响几何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问根据贵校在其他省招生经验，首次实行平行志愿会导致贵校录取线如何变化？怎样参考往年数据？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,我想问一下获得贵校自主招生加分的学生录取到贵校,是否占当地的计划招生指标.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问密西根学院与机械学院的本质区别在哪？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问填专业是填么么系，还是填么么专业？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生报考贵校，如不录取，影响平行志愿ABCD志愿的录取吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有城市轨道交通专业吗？录取分数线大概是多少？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！请问上海交大在招生章程中提到的“继续实行“专业（专业类）志愿顺序级差制”是什么制度？具体内容如何?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校欢迎往届大龄考生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好我想问下通过正规成人高考被贵校录取的学生也是算大学生的对吗谢谢您
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+分数正好是提档线,第一志愿分数不够,专业服从调剂,可否被录取
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问交大哪些专业适合女生
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如考生享受贵校A档加分优惠，又有本地政策加分，两者是叠加还是取其中高分。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好：，自主生比非自主生能否提前知道是否被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生录取时填报专业受五校联考时填报专业的影响吗？两次专业填报可以不一样吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主生未达录取线享受优惠投档后，以什么分数（高考实考分还是最低录取分数线分数还是实考分加优惠分数）参与专业录取。该问题牵涉到是勉强进交大(无法预知专业)或改报档次较低学校{可选满意的专业}的大问题,这是自主A档学生迫切想知道的问题,烦请老师给以正面详细的解答,拜托拜托多谢多谢!!
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我的孩子有贵校A档加分优惠，如果高考成绩超过本地一本线，第一志愿为贵校且服从调剂，加上优惠分后仍然达不到贵校在本地的录取线，能不能被贵校录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校有本、硕、博连读班吗？请具体介绍一下。谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档后是否退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢回答！，请问，贵校的投档比例是？，如果不被专业录取，服从调剂，是否可能被退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主生未达录取线享受优惠投档后，以什么分数（高考实考分还是最低录取分数线分数还是实考分加优惠分数）参与专业录取。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在本省招生计划内调剂，还是在学校所有专业中调剂。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+密西根学院的机械和电子专业是否必须第一专业志愿填报才能录取。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是一名自主招生获得A档的同学，在报考贵校时不是所有的专业都能选吗？如果仅能报本省公布的专业，那我之前喜欢的专业在我省没有招生，该怎么办？专业调剂是不是在全院校内调剂？如果调剂到自己根本就不喜欢的专业那怎么办？，希望能得到您详细的回答。谢谢您！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！贵校的热门专业有哪些？就业如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如专业第一志愿报密西根学院，是否其他专业就没有什么机会录取了？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+假如有一个考生是你校已经确定的自主生，而且考分很高，达到了不是自主生的投档分数线，那么这个考生的录取是算在自主生计划内，还是算在正常招生计划内？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交为自主A档学生预留了计划,如何知道这些预留计划是何专业呢?(当需要动用加分才能录取时}如填写"服从调剂"会被调剂到很冷的专业吗?调剂时会电话询问考生吗?谢谢老师回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主A档学生填报专业自愿时只能在本省公布的专业目录中选择吗?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生资格考生，实行大平行志愿，必须将贵校填在第一顺序位置才有效吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批与民委的协议是考后找谁？怎么签？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否将平行志愿的第二或第三顺序与第一志愿同等对待?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有哪些提前批的专业以和报名时间、方法,是否与普通报名一样
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！我已通过您校自主招生，若达到您校提档线能满足所填报的专业志愿吗？如降分优惠进入您校而所报专业又不能录取会退档吗？非常感谢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+查看了贵校的招生章程，未明确规定提档比例，请问第一志愿报贵校密西根学院，专业服从调剂，提档后有退档的可能吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果有自主资格考生高考成绩达到交大在当地的录取线，是否就转为统招计划，而统招计划就会因此相应减少一人？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校的密西根学院的教学模式是怎样的？学生有机会去密西根学院学习吗？学习多长时间？属于不报不录吗？期待您的回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师请问电气信息类专业入校后什么时候确定具体的专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我是贵校自主招生A档学生，请问通过降分提档后分专业是按裸分和其他正常录取的学生排专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：致远学院是入学后选拔进入的吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。请问若贵校提档后专业录取时是按分数优先还是专业优先排队录取？谢谢你。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校非第一志愿录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我儿子在哈三中校排名100名左右,可否考上贵校
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+收么
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大密西根联合办学：专业？报考？费用？毕业证？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在渝招收专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好.我想问一下贵校的中外合作专业和普通专业的优势和劣势是什么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，贵校的分省招生计划数和专业分配数何时在网上公布？谢谢答复！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校进档即取吗？身体条件合格，服从调剂，我听说有的学校有不退档申明的。我怕投入后又被退回。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问一下，“见档不退”是什么意思啊？是不是过了投档线都录取啊？？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大专业级差是怎样的？调档比例是多少？退档风险大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师大一后调剂专业时的程序是什么样的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校投档线一般是多少？，什么时候公布？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些学院或专业学的是数学D类?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的特色专业是什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对于贵校，省优干的加分与地区加分能否重加
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我儿子高考成绩为558分（不含选修模块36分），全省排名37000左右，是否有希望被贵校的第一批提前批录取。若录取能否换专业？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+招生老师您好，请问贵校提前批的哪些专业比较适合女生。，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提前批不是平行志愿?那如果把交大填为第二志愿,要不要降分?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业是？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问提前批招生是否按传统志愿填报？第一志愿与非第一志愿间的级差大吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+627分报贵校那一专业有希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，请问你校在确定考生的专业时，是否考虑照顾分（包括竞赛加分和少数民族加分）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+632服从分配。可以录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请问凡是进入提前批录取到上海交通大学的学生一定要签订三方协议吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:生态环境类(提前批)学生可否跨大类辅修其他专业?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是不是可以从医学院转入交大本部？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批志愿填报志愿间的级差是多少？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+。。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校本二有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的试点班是什么情况，对招生有何要求？与那些非试点班有何区别？请老师介绍一下？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我双眼的视力为650度，报专业时有何限制？影响哪些专业的学习和就业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的二，三，六系是指什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有专业对单科成绩有所限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+可以进吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+661分能够录取吗另外选择专业时是否有很大风险，是否必须服从调剂，还有如果调剂调剂原则是什么是不是根据分数排序然后调到类似专业谢谢老师
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，我双眼的视力为650度，报专业时有何限制？影响哪些专业的学习和就业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的试点班是什么情况，对招生有何要求？与那些非试点班有何区别？请老师介绍一下？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考646，A档加分，报考本部或医学院是否有把握？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势科目是？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！可以简单介绍一下上海交通大学提前批环境生态类的情况吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电院六个本科专业分别是什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考体检是否是高考前已进行的那次？体检合格且将上海交通大学填在A志愿学校在选专业时是否有加分政策？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取专业是按加分后的排名录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的电子信息科学类（试点班）入校后也是在电院上课么具体情况怎么样？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我有三个问题想请教：1贵校是否按120%提档2服从调剂后是否还有退档风险3贵校的医学院招生是否比本部的提档分低
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，开始投档后，怎样才能尽早地知道我是否已被投档到了贵校与否？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的电气信息类何时分专业，这对我们教育落后地区的考生是否不利？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生A档资格在提前批招生中有用吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，此次高考我总分701,名次1018,请问报考贵校有希望吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问环境生态类专业属于贵校哪个学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这生物技术学什么,就业前景如何呀?相对贵校其他转业录取分数高么?需要哪方面能力比较强的学生?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问交大密西根学院学费那么贵，分数线是否单独划定？是否比交大其他学院低？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我717可以进入上海交大么
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+地方的政策性加分能全部参与分专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生另设名额，请问是什么意思？，另外A档自主招生具体优惠条件是什么？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我已取得贵校自主A档加分资格，请问我是否应在正式录取前，把本人的高考分数、志愿、高考报名号及时反馈到贵校，以便在录取时能享受到加分政策。谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是广东考生。请问贵校对于申请转专业的学生有什么成绩排名的限制？转的专业是否可任意选？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1贵校提档的时候看的是实考分数还是加分后的分数？，2全省前几名才能有录取的可能？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问交大的住宿条件如何？是否是每人一套组合床？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+成绩582，过一本52分，有希望被贵校法律专业录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问一下，上海第二医科大学是不是属于上海交大？如果是，那么填报时应填写哪一所大学？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+想知道贵校的王牌专业是什么，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校美术类总分具体怎么算。？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请问：密歇根联合学院的录取分数和学生素质要求与本部招生有何不同？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大概要超过一本线多少分进入贵校比较有希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校老师定向招生和非定向招生的区别是什么?录取的考生有什么不同?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我有个困惑的问题希望老师能帮我解决一下,谢谢.，如果我第一志愿第一专业填了你校某专业,但被刷下来了,同时我又填了另一专业,但有人第一志愿第一专业就填了该专业,但我的分数比较高,这种情况下你小会录取谁?谢谢.
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，，请问贵校提前批包含哪些专业？，此类专业是否可在贵校读研？，就业前景如何？，，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，1、分专业录取时是否考虑各项政策加分，如自主招生、奥赛等的加分。，2、如果服从专业调剂，是否退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问：如果被贵校提档,且服从专业调剂,有退档危险吗?(我们是平行自愿省份)
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么专业强调裸分
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大宿舍条件如何教室宿舍有没有空调能上网吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好．我小孩交大和清华都想读，但又不知报哪个好，我省实行平行自愿，Ａ．Ｂ．Ｃ．Ｄ都是第一自愿，他分数及各方条件都符合你们交大，不管他填交大在Ａ或Ｂ．Ｃ，你们都能录取吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校报考代码是多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好；，1.自主招生A档考生是否一定会被录取？，2.专业分配是否只在自主招生考生范围内排序录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请介绍一下贵校的广播影视编导专业好吗？是否是重点专业？师资力量如何？开设时间？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：你们学校的优势专业是？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的退档率是怎样的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校提前批环境生态类具体包括哪些专业？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+630左右，被录取的可能性有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+假如我选的专业没能录取，我又选了服从专业调剂，调配的专业会根据我选的专业而定，还是其他不相干的专业？谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问1.按院招生在填报志愿专业顺序时怎么填?2.如果志愿服从调剂会不会调到交大密西根学院的专业？密西根学院是民办还是公办大学？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校录学必须迁户籍吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生和保送生是否占各省的招生计划指标
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果学的医学，可以转专业或者修第二学位不嘛？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好!，如果投档到了贵校,又选择了服从专业调剂,可以保证不退档吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿一比一点零五的比例下，是不是进档不退。在没有什么身体不合条件的情况下.服从调剂
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有使用此招生方式吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好。我已被保送交大，已经有专业了。中学要求我们还要参加高考。考完我估计能达交大的投档线。但我不知下一步怎么办？需要再报志愿吗？真的报了其他志愿会怎么样？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请老师航空类专业的分配情况,如就业率、就业地点大致分布、薪酬、考研率等。谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+艺术类转专业是否有限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校医学类专业和会计类专业哪个分数比较高?，另外贵校那几个专业比较好或者比较有前景的
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想学新能源方面的专业，请问老师应报什么专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问进入贵校后，学生转专业的机会有没有？成功率是多少？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校提前批情况如何？，大约有哪些专业？，分数相对正常招生有哪些差别？，，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校报名时是按系还是按专业？感激不尽
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校报名时是按系还是按专业？感激不尽
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问，如果已经进档并服从专业调剂，有无退档风险？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认各省市加分政策？投档时按加分后的成绩可以么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取是是否对教育部规定的加分（如全国联赛一等）予以承认？，，还是指考虑裸考分数？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生组老师会到桂林吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校国防生如何招生?高考高出一本线20-30分报考贵校国防生有多大把握?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我孩子高考估分655左右，是报考贵校还是浙大，正在犹豫，希望得到老师的指点，贵校有什么优势。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.交大自主招生B档加十分.是在提档以后加十分.只在选专业时有用？还是可以加十分提档？2.交大医学院录取后.想换到本部读专业.需满足什么样的条件？想读的专业有限制吗？谢谢老师.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否与ACCA有合作？估分在645以上，被贵校录取的可能性多大？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校三个专业之间是否有专业极差？2.请问报考贵校的实验班是否有什么特别要求？是否有本硕连读或本硕博连读？有哪些专业的实验班？谢谢老师，您辛苦了。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好:请问高出一本分数线多少可被贵校提档?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分620.自主招生B档.报贵校有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+被贵校提档（填服从）（平行志愿）退档可能性有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、大类招生分专业时，包括大类中所有的专业吗？，2、专业调剂，调剂范围是在考生所在地区，高校投放计划的专业之内还是在高校所有的专业之内调剂？，3、自主招生高考前还需要跟学校办什么手续吗？添志愿有什么要求？，4、自主招生考生在就读学校公示平台上为什么查不到考生本人名字？，5、电气信息类（中外合作办学）课程如何安排？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在选专业时是否认可省政策加分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!我的问题是上海交大医学院是独立院校吗?或者说是二级院校吗?它的毕业证是上海交大的还是上海交大医学院的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上交大国防生招往届生吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问联合办学招生和正常招生的录取的顺序设怎样的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：教育部承认的加分，贵校在录取及选专业时有效吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本硕连读是在提前批次吗？，志愿怎么填？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：上海交大的艺术设计专业还会不会再具体分专业方向？如果要分是在什么时候分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大医学院是独立学院吗?是二级学院吗?毕业证是上海交大的还是上海医学院的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校每年什么专业就业率最好？或者说有没有这样的专业：毕业的时候被某单位全部接收？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大医学院是独立院校吗?是二级院校吗?毕业证是上海交大的还是上海交大医学院的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想问高考估分请老师分析一下录取的机会有多大。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海交通大学的双学位修完是否都颁发国家教育部的学位证书，还是上海交通大学自己的证书？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师请问报国防生怎样联系?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在选专业时贵校承认所有的加分吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问公布的招生计划（158人）中是否包含自主招生？，自主招生考生在录取专业时与普通考生是否分开排序？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专业有级差吗？上了调档线是不是专业调剂还会不会被退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问“原始分”是否包括附加分，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我601分，全区排名331，报贵校并服从专业调配，有多大希望被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+转专业的时候有什么要求
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我和同学分别考了669、661，我们进贵校有希望吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我和同学分别考了669、661，进贵校都有希望吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、请问交大医学院，是否被提档了，只要服从专业志愿调剂，就不会退档了？，2、交大医学院选修等级也是2A吧？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校，是否被提档了，只要服从专业志愿调剂，就不会退档了？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,贵校在专业投档时,是按实考分投档,还是按加分后的投档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+录取到交大密西根学院，进校后还有没有可能申请转专业到其它学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校转大类/专业要达到什么条件？是根据大一成绩吗？是否需要在大一选修想要转到的大类/专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校一般是否退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我一定服从调剂，什么专业都行，能进交大就行，我太向往交大了，我是交大c档生，只因考试失手，
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校可否在学习过程中转专业,如果可以,有什么条件呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+重庆考生654分无加分。被贵校那些专业录取的机率大。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校对6A加分会剔出不看吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有退档吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档408,物化双A,省排名1702,能否考上贵校?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+看到同学的提问,贵校提档为：1：1.05...那么我专业服从调剂的话,是否存在被退档的风险?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问615分报贵校有把握吗??那如果报不热门的专业呢????请问贵校任何专业大一下学期如果成绩优秀都可以转专业吗????????转专业有限制吗??????
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档案408,物化双A,省1702名，是否有希望被录取?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+643报考贵校有多大录取希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校后还可以转专业？麻烦吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+請问：663被电气信息类录取把握有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专业级差?，入学后是否能转专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是632，报的交大密西根专业，有多大把握？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果分数不过提档线，自主加分后够线，自主的加分在选专业时是否有效？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否采取不退档政策，不退档是不是意味着过提档线就会被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有自考招生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，上海交大提档时按省招生办规定增加的政策性加分，在录取专业时是否扣除？录取专业时，志愿之间有无级差，若有，具体是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+没有专业意向，是否会被调剂到交大密西根联合学院？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我是一名有声乐特长的艺术特长生,但错过贵校考试时间,未能与贵校签约.我在北大声乐测试中获一等奖,清华二等优秀.请问在录取时有无优惠政策.比如可否在上提档线后优先录取.，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+380+36+AA+3A1B，排名648能报贵校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+372+31+AA能报贵校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好!请问贵校什么专业的就业好?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大有哪些优势专业？出国学习交流机会哪些专业比较大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的分数还可能被投档吗?如果可能,是不是只要填志愿服从,就能被录取了呢??
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了659，排名444（置之死地而后生），请问可以被录取吗？我愿意服从专业调配
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+也就是说调剂是在所有的专业中进行的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+加分和不加分在录取时是等同的吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果徒手画没底子可否报贵校建筑系，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我报了国防生，发现我身体条件达不到国防生的要求，如果通知我去体检的话，我能不能不去？不去的话，对我的本一志愿录取会不会有什么影响？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认照顾分，611＋20上贵校是否有希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有双学位的设置吗？如果有的话，大一新生是否可以选修其他学位？，另：转专业贵校是否允许？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高出一本线多少可报贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的优势专业有那些？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取时，是按照实考分数，还是加分后总分进行排序？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+全市220名有希望被贵校录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否实行2视1?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校经济类专业是培养哪方面的人才的?开设一些什么样的课程?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问641分（加分后651）上贵校是否有把握
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专业选择空间大不大
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+招进贵校后,是否有更换专业的机会?条件如何?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+被提档而且服从分配，是不是一定能上贵校啊？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的高考分数是625，全省排名530左右，报贵校是否有希望，谢谢。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若我第二志愿报考贵校,要减去多少分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+52个会扩招到多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问二级运动员的加分在选专业时是否算在内？即是不是加分选专业？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少?是否各个省份都一样?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+633能上吗？有级差吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否存在级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否存在级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是不是高分保护政策内的分数二志愿视为一志愿？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了663,请问老师能报考贵校电气工程与电子信息学院吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+627+10政策加分专业排名时去掉吗，我的分有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我还需要在报名系统录入志愿吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我参加贵校优秀学生选拔考核为C档，系统要求输入高考报名号，请问是准考证号还是报名序号？因为提交后不能修改了，
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校后能否转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+金融系是经济学院的一部分吗？金融与会计具体课程有哪些，又有什么区别？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校公布的艺术类历年录取分中的合成录取分是最低合成录取分还是平均合成录取分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+因为考虑到学费和兴趣的问题,不知道如果分数不是很高报考交大并且志愿服从,会被调剂到类似上述一类的专业吗?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生（A、B、C三档）的考生，优惠政策如何落实？是否需要向学校提交相关资料?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+基地班、试点班是不是提前批？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：要进入交大密西根联合学院，一般要高出上海交大在一个省最低投档线多少分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校分数线大致为多少？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问若总分减去专业级差后参与第二专业的录取,排序时是与第一专业志愿的同学一起排名吗?若一起排名后分数高于第一专业志愿的同学,先录取第二专业高分同学还是录取第一专业志愿的同学?谢谢!
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大什么专业在全国最有名？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+关于“可以在大一结束后转专业，条件视欲转的专业而定”能否从其他途径（如上交大网页）获取详细信息？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+其中20分为学科竞赛加分,专业录取时是否在内?，专业有多大选择度?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+关于转专业、第二学位、分数级差咨询？1、录取后是否可以转专业，若可以有何条件？2、哪些专业可以作为第二学位，学习第二学位有哪些条件？3、专业间的分数级差是多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+倾向法律
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海交大有很多试点班和教改班，那么这些是不是比普通专业一定要好很多？如果与试点班无缘而学习普通课程，会不会影响以后的科研活动和就业竞争？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问对于在省内高考名次很好的学生，有北大那样的奖励政策吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+653有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+学费是按什么标准划分的？为什么有些专业相差那么大呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大密西根联合学院都有些什么专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您说自主招生专业与统招比例相当，这是什么意思，自主招生的专业按照全国统招比例分配吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问1、自主招生的学生若一志愿未被录取，二志愿怎么录取？2、我们的分数是跟本省非自主招生的学生蓖吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生的学生专业怎么安排。若一志愿未被录取，二志愿怎么录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：交大密西根联合学院的录取分数线是否会特殊一些？发双文凭吗？毕业以后到美国读硕有什么机会？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请回答:你们的医学院其实在全国水平很高,为什么还独立招生?!这么高水平的一所学校,长期这样下去保证被浙江大学医学院等给压下去,因为它们录取分数高多!!，回答：由于专业性较强，所以分开招生，-----难道复旦,浙大的医学专业性就不强???它们可以合并招,为什么你们不可以???长期下去真有危机的!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大密西根联合学院学费仅说明30000元/年，没有说明在美的费用。我想了解：1.在美的学校学费；，2.如果到美读书，交大的学费是否还交；，3.在美的生活费用，学校（交大或联合学院）是否给予补助。，感谢老师的解答。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大强势专业有那些?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：省级优秀学生的政策性加分，贵校在提档和专业录取时都认可吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+"填在B或C录取的可能性很小"是什么意思?如果A没有达到,只要达到B,不也可以被B提档吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+多谢老师。谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校电子信息科学类试点班与教改联读班有什么区别？分流方向相同吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：调剂专业的时候会不会和考生沟通？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否会在某些专业上提出选修学科要求?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+分数进提档线后,C档优惠加分能否享受?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,我已获贵校C档优惠,假如我高考分数进提挡线,是否比其他考生优先录取?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校一共有几个校区？都在什么地方？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:，老师回答A挡考生专业参考公布的招生计划，比例类似.请问,是参照交大我省的招生计划,还是参照交大在全国的招生计划?比例类似是什么意思?以什么为比例呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请回答:你们的医学院其实在全国水平很高,为什么还独立招生?!这么高水平的一所学校,长期这样下去保证被浙江大学医学院等给压下去,因为它们录取分数高多!!
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好!请问交大的专业级差是多少?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电院和密西根联合学院师资力量和总体实力那个要更好一点？？哪一个就业更好更加有名
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大电院和密西根联合学院电气信息有什么区别？？那个更好一点？那个分要高？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大电院和密西根联合学院电气信息有什么区别？？那个更好一点？那个分要高？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问有无2+2、实验班、特殊奖励计划、实习机会之类的设立？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校重点学科、特色专业都是什么？投档、录取时是否承认加分？各专业之间是否有级差？贵校是否有提供公费出国留学机会的专业？需要达到什么条件？另外贵校入学后是否可以调换专业？有何条件?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+c档，算不算自主生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，Ａ挡考生不占招生计划，Ａ挡考生的专业怎样选择？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有公费出国的机会吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否认可加分？什么时候是加分考虑？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校各校区都是什么专业？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问贵校哪些专业深造机会较多？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,贵校国防生一般比一本线高多少?比正常招生低多少?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请介绍转专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问贵校自主招生对象（A档）如果考分处于正常录取线下20分上方，能保证被录取吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业比较热门（分经常很高），哪些相对冷一些？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的专业是以省招生计划为准吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报国防生享受自主加分吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我已获得该校自主招生B档资格，报电子信息科学类本硕连读试点班是否加分。谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大专业级差怎么设置的？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校老师好，我如果报电子信息科学类本硕连读试点班，被录取后，本科毕业后可不可以不读本校的研究生。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！麻烦您介绍一下学校各校区的情况？是否研究生都在校本部？比如每个校区面积多大？每个校区都有哪些专业？可能比较繁琐，如果学校网站上有这些内容，给我个链接就行，我自己去找找，谢谢老师了！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问贵校自主招生对象（A档）如果考分处于正常录取线下20分上方，能保证被录取吗？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这是属于甚么专业，学甚么，就业率？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+630,服从调剂被录希望多大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果自主招生不占我省招生计划，那报考专业是否在我省计划招生所列专业内报．如果不是，报考专业以什么为依据．
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有点斜视,请问不能报考什么专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：我是A挡生，签订协议只填本部，如果分数不高，我正式志愿改填医学院，问1.可以吗？2.A挡优惠分数正常享受吗？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大医学院接受不接受自主招生加分政策,,报志愿时可以不可以即报交大,又报交大医学院，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+真是对不起，再问一个问题，如果考生分数达到投档线并且服从专业调剂，是不是就没有被退档的风险了？，谢谢老师了
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+近年来，国防生的分数线是多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我发现<>上贵校有很低分(重点线多一点)的也被录取,什么回事呀?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否愿意录取第二志愿考生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如何淘汰多出20%的提档考生？按100：120提档后，学院是按什么规则淘汰多出提档20％。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若对被录取的专业不合考生意向，是否可以专业调剂？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我和贵校签订的自主招生协议只填了本部，如果正式填志愿填医学院，A挡优惠仍然能享受吗？谢谢！盼！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+未参加贵校校考的艺考生不能报考贵校吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问哪些是试点班
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录取第一、第二、第三专业等时的专业级差是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否认可国家二级运动员的加分，录专业时，去不去掉加分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如何网上模拟填报志愿
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校设专业级差吗?如何设立?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考估分660，家在重灾区，读上交有把握吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的视力4.5,能报考提前批次的电气信息类吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+640能否进中外联合办学?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分665能否进入贵校本硕连读专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:，请问,该校招生计划名额是否已包括自主招生?，所有院校在这方面政策是否一致?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！贵校是按大类招生，如果想报考机械制造专业和计算机专业，专业代码如何填写，专业如何填写。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问一下A档成绩是怎么回事？怎样才算得带A档成绩？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高出重点线大概多少分才能报考贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：四川灾区艺术设计专业分几个名额
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：交大艺术设计专业发工学学士学位吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+630报考贵校是否有希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+625(理)报考贵校什么专业把握大呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请老师给个链接，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校录取后能否转专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+分流专业是什么意思?，按大学成绩安排专业吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我自主招生通过B档第一志愿填报贵校，专业录取时是否得与贵校联系？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问630能上交大么，大概专业呢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪些专业需要口试?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:1、保送生专业选择在什么时候?2、和正常考试录取的考生相比选择面谁更大？3、入学后奖学金的享受是否一样?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问该学院是否有计算机专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,我参加了贵校的保送生考试,并通过;保送生资格已在"阳光高考信息平台"确认,我的名字亦在贵校的"保送生拟录取名单"(阳光高考信息平台)中,这是否就意味着我已被贵校录取?另录取通知书什麽时候开始发放,是送到学校,还是送到家里?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生不占招生名额是什么含意？指保送生不占招生名额，还是指加分录取的学生不占招生名额？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交通大学老师：您好！，请问：贵校的网站公布的录取的分数是高考实考分？还是已经加上了政策加分？录取专业时是实考分还是政策加分录取？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：提档后是否有退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师我有政策加分，1：在专业录取时计算与否。2：如果提档后，我分数很低但我服从调剂，能否退档？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+已确定为自主招生的考生在填报志愿时，是否一定要将该学校作为第一志愿来填报，否则，就无法录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+联合办学的专业收费情况
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校入校后转专业条件是什么?，2.贵校是否有本硕连读专业?是否有2+2或3+1等培养模式。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：我有政策加分，刚达到贵校调档线。贵校按实考分录取时，我的分数不高，但如服从专业调剂，是否会退档？如不退档，会调剂到医学专业吗？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问达到提档线专业服从调剂，是否还会被退挡？是否可以转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:如果我的分数是660,而所填平行志愿中的A学校分数线是655,B学校是650,C学校是645那么(1).我的档案将被哪一个学校提走?(2).如果ABC三个学校中有一个已经通过自主招生,那档案将被哪一个学校提走?(3).如果将已经通过自主招生的学校放在A志愿,那档案将被哪一个学校提走?而如果将已经通过自主招生的学校放在B或C志愿,那档案将被哪一个学校提走?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+已确定为自主招生的考生在填报志愿时，是否一定要将该学校作为第一志愿来填报，否则，就无法录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+填报贵校交大-密西根联合学院是否需提前申请？何时申请？录取时是否参考英语听力成绩？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问两个问题:1.贵校录取时,是否考虑包含体育特长加分在内?2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校有何要求?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问只要拿到两个或两个以上的省级一等奖就可以直接免试保送上交是真的吗？，保送生是否完全不用参加高考？，保送生的专业是怎么定的？是否还能调整？，保送生在各地区有没有名额分配的限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校电气信息类专业为大类招生，至高年级专业分流时，是否完全按学生意愿风流？会不会有名额限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问两个问题:，1.贵校录取时,是否考虑包含省优干加分在内?，2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?，谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵院的理科试验班类（教改联读班）都学什么课程？是否数、理、化都要学习？第几年开始分专业？毕业方向是怎样的？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在川老师电话~谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在川老师电话~~~~谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我可以去旁听吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提档和专业分配时都认可加分吗?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问电气信息类(中外合作办学)与什么国家的哪所大学合作办学?发哪里的毕业证?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大密西根联合学院和其他学院报考是不是一样,谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题,谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+想电话咨询唐老师,电话怎么无人接听呀?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考有希望吗?全省排名约800
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问江西考生653能否上贵校？报什么专业比较合适？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我有3个问题，谢谢你的解答！，1贵校招生在录取专业时，如果考生由于专业级差4个专业都未录，而此考生愿意调配，那么在调配专业中如果他高于其他以此调配专业为第1专业志愿的考生，贵校会优先录取哪一位？，2在调配专业录取时，还会降分吗？，3加分在选择专业时，在贵校有用吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+急询贵校来蚌埠徐、杨老师的移动通信方式，有急事询问？！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最好的专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校就业比较好的几个专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业有什么限制，怎样才能获得转专业资格，达到的成绩标准是什么
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+省内排名410.报考该校.风险多大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+658能上贵校什么专业有把握
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海交通大学医学院的投档分是否就是上海交大的投档分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!本一线562,在省内排名480左右,能进贵校吗,有哪些专业可以录取?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校希望如何?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本一线562,在省内排名482左右,能进贵校吗,可以进哪些专业呢,谢谢!!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1、若填了服从志愿调配，会不会调到交大密西根联合学院？，2、若走调配志愿，会不会事先电话征求考生或家长？，，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题谢谢！！！急！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能上吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我能进贵校吗？能进什么专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问贵校密西根学院，（1）除学费外在待遇、学历上与其他学院是否有区别？，（2）该学院是否属于贵校本部？为何在贵校网站的院系介绍中无该学院？，（3）志愿报考密西根学院的考生，是否必须提交申请表？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交就业去向如何
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+596可上贵校吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的最好专业是什么？请直接回答，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上交能否转系?，在大学能否修双学位???/，谢谢回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若能,能否与贵校达成0风险的协议??谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校是否承认加分政策
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校是否承认加分政策？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大是不是投挡真的1：1啊？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,请问上海交通大学医学部是否单独招生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+636全省94名专业不会被调剂吧？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问哪里能找到交大历年的录取分数啊
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，贵校是否录取乙肝病毒携带（肝功能正常）的考生，，此种情况继续读研是否可以录取。谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校如何确定录取分数线？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校承认省级优秀学生加分的专业有什么？，，非常感谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校收专科生吗???
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海第二医科大学是交大的医学部吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+讲一下工科试验班
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+理科646浙江省2012，报考贵校有没有希望？哪些专业希望较大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+理科646浙江省2012，报考贵校有没有希望？，哪些专业希望较大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+645能否去贵校?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问658是否有机会进贵校
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+进贵校风险很大么
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问各位老师：，贵校的金融经济类专业实力如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，交大医学院与本部是什么关系
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+艺术设计是否按大类
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+退档的可能性有哪些
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业设置上有无专业级差,，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势学科有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果贵校发给推荐书是不是有把握上贵校,而且能选择贵校的建筑专业呢?谢谢回答!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业排名?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高出贵校多少能被录取?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时会优先录取应届生吗，我是复读的，专业对复读生有什么限制吗，是什么专业复读生都能报吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果是上了录取线呢，又服从调配，有被退档的可能吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师解答，如果填了服从调配，上了调档线，会不会被退挡？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，如果我填了自愿调配，且调配到交大密西根学愿，，但无经济实力读？整么半。。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问浙江大学的哪些专业适合近视800度以上者报考?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本人大概635，不知道可不可以报贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：请问在川的招生老师的联系方式。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问若服从贵校专业调剂后专业分配是完全随机的吗?还是再照顾到专业录取分数或学生要求之类呢?谢谢.
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请问贵校娜些专业较重点。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师.本科与专科有什么区别?为什么本科有的专业,专科也有?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校本硕连读专业对复读生是否有所限制?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是你校自主招生B档加分考生，请告知：1、加分后挑选院校和专业有那些限制？2、四人一间的学生公寓内有无热水供应？3、洗衣房有提供洗衣机洗衣服务吗？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大一学生能带电脑吗？还有，学校的网络供应如何收费，住宿条件如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:提档后贵校是按照什么原则审阅学生档案后确定录取,是以分数第一,按照分数排序由高分到低分,还是有其他什么条件,在提档线内是否存在高分未被录取,低分反而录取的现象。敬请答复，谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大的优势专业是哪些
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我报考了该校的国防生，但报考后没有将报名表打印，这是否影响录取？若影响是否有补救办法？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校设有专业级差,志愿级差吗?多谢了!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，色弱可报电气工程系的专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校招办电话是多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果本地一本线为560,贵校投档线为620,考了580能录取吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请给一个肯定的回答.谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！，学校占地各个校区占地面积多大？校园总占地多大？，请问学校校歌是什么？歌词是？能否在学校网站找到下载或试听？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一色盲考生能否报考贵校微电子与固体电子学方面的专业，是否会有限制，是否会影响专业学习？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校第一.二.三专业之间是否存在专业级差
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，我已确定了第一志愿报贵校，估分666，能上贵校什么相应专业，以下专业级差是多少分、什么专业？急盼回复！谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生是按照大类招生还是按细化的专业招生？在大一有没有变专业的机会？还有，贵校的哪些学科是在国内领先的？提档之后，三好加分和奥赛成绩是否还有效用？谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如果报考贵校选择调剂的话，是否是上了投档线就一定会被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大与国外大学的交换生比例约为多少？要符合什么条件？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校建筑系的学习内容和就业方向谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+入学后，如果感觉选的系不太满意，是否可以转系？需要什么样的条件？谢谢老师回答！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+保送生的录取通知书寄出了吗?是寄往家中还是学校?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校光信息专业就业情况如何?????一般都是在哪种企业就职????
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分603,是否能报考你校?????
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业是否对复读生有限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校不含政策性加分的特色班都有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请贵校的强势专业是什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校对进档考生录取时是志愿优先呀还是分数优先呀？若专业服从一定能被录取吗？谢谢老师！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的特色班是什么？有何特色？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生录取后能否转成普通生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大的专业录取分数的排列顺序是怎样的?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大的主打专业是什么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大密西根联合学院每年的学费？3.2万美金指什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分630左右，报贵校是否有希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分620，区级三好生，会考全A。区级三好生可否加分？报贵校有把握吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师请问填报志愿时是不是填医学院的话后面填写的专业只能是医学院的？如果还想填报本校的专业该如何填报？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+提档和专业录取时都承认吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校对进档考生录取时是志愿优先呀还是分数优先呀？若专业服从一定能被录取吗？谢谢老师！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的最强势专业有哪些
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好,贵校考后专业级差为4/4,按120%投档,如果因专业级差而无法进入报的所有专业,但服从调剂,是否会退档?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的估分是５８０报考你校把握多大？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大概高一本多少分，可进贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校在分专业的时候优惠分是否去掉。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，交大与国外大学的交换生多么？一般比例是多少？要符合什么条件？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的加分在专业排序时是否算在内？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我获得贵校自主招生B档,报考贵校的教改联读班,如果不被录取,报其他的专业自主招生的待遇还有效不
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校学生可以转专业吗？是跨校还是跨学院？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在这种情况下如何选择专业？是在投报志愿时选择，还是入校后按分数排队选择，如果按分数排队选择，加分是否包含在内？可供选择的专业有哪些？如何查阅？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认政策性加分？本人高考估分在660（含加分）左右，能否被录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大的大小年如此明显，报考时能以此作为依据吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问国防生招复读生吗？对视力、身高有限制吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我自主招生考试通过了，是C级，抱志愿的时候怎么用
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+各专业的历年录取分数线在哪查？？？？？？？？？？？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分640上交大的可能性大吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：色弱考生报考贵校，有哪些专业受限？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好,我在竞赛的省级赛区中获得二等奖,尚不足以达到加分要求.但在学校录取时是否会考虑优先录取呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校在录取学生时教育部规定的加分会进入录取分，在专业的选择上，是按高考的原始分选择呢或是带加分进行选择？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生有海军专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+级差是什么？上海交大是否有级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的强势专业是什么？有什么重点学科？有什么重点实验室？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我怎样联系招办老师.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问交大的保研率是多少?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问交大军训何时开始?，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问:如果专业服从调剂,是否有退档的可能?，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校对进档考生录取时是志愿优先呀还是分数优先呀？若专业服从一定能被录取吗？谢谢老师！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+ACM试点班和机械国际化人才培养试点班享受政策性加分吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，高考之后又于用眼过度造成实际视力与体检表不符（可能超过800）怎末办？会不会被误认为是体检作弊？如果报专业时避开限制项还会不会引发麻烦？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:报英语专业那要否通过面试之类吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的估分在650-660之间，请问报考贵校的希望有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，报考贵校国防生需要什么条件？复读生可以报考吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+据贵校在津老师说，调档后几乎不予退档。而06年调档93人，实际仅录取45人，这是什么原因？谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好，何谓级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！自主招生在提档时加分，还是在录取专业时加分，实际估分640报贵校医学部如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有校内加分啊?外地考生怎么获得贵校的校内加分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校会派招生咨询组到四川咨询吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问该校国防生在体检方面有何要求?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校在退档时是否记入竞赛加分
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问生命科学与技术基地班的专业方向与就业情况,谢谢!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，1.自主招生B档是120%投档吗？，2.今年625分上投档线120%机会多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果是政策性加分，那么分专业时是否还认可？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的招生计划是否含保送生？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：因有同学已收到其他院校的录取通知书，请问贵校的保送录取通知书是否以寄出？是寄到学校还是家里？大约几号我们能收到？急盼您的回音！谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于乙肝大三阳但肝功能正常的学生是否录取，在选择专业上有什么限制？谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校最低录取分数线是否含政策性加分？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生过当地录取线加分选专业是不是对所有专业可以呀
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校同专业的第一志愿和第二志愿录取分数差多少.哪几个专业是有名的专业
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我是保送生的家长，我想知道什么时间能收到贵校的录取通知书？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对国防生视力要求怎样？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我参加了其它院校的自主招生被录取，签定协议第一志愿必须填这个院校，但我又特别喜欢贵校，请问：我高考第一自愿填贵校，如果上贵校的录取线，贵校能录取吗？老师回答没能显示，全是乱码，请老师再回答以下。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对具有身高优势的学生是否有点优惠条件？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:自主招生资格生上了贵校提档线后,是不是要加分选择专业?如果是,也就是说要占用招生计划?那么,对于其他没有加分优惠的上档考生就存在很大威胁:谁知道有多少个自主招生资格生上了提档线啊?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+大三阳除标准和学校招生章程有规定的专业受限外,大学复检时会不会再因大三阳而要求退学或其他?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我参加了其它院校的自主招生被录取，签定协议第一志愿必须填这个院校，但我又特别喜欢贵校，请问：我高考第一自愿填贵校，如果上贵校的录取线，贵校能录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：假如被贵校录取了，但又想转专业，收费吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我有个问题是:对省招办的政策加分,贵校在提档和专业录取时是否予以承认?非常想得到交大老师的明确回答.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱最好报哪些专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+臨床医學录复讀生嗎
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问交大与国外哪些大学都有办学合作
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,进交大专业时是以高考实分录取吗?算政策加分吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，您的答复都是一些乱码，看不到，烦请老师再解答一次，谢谢了。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！选拔是根据学生在校的表现和学习成绩吗？被选中的百分比是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿报试点班,第二报其它专业可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考交大密西根联合学院有何不同？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上了学以后能调专业吗?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录取和专业分配两个环节是否都认可考生的投档成绩（高考成绩+政策加分）？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：报考时怎么知道各个专业的分数高低
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+保送生何时能收到录取通知书
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，在贵校举行的优秀学生选拔考试中或A档的学生，是必须达到投档分还是最底录取分，才能满足第一志愿？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1自主招生占各省计划名额吗？，2在你们未完全录取完毕之前，如何知道自己的成绩达到投档线与否？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大是我心中的梦想，可惜分不够！别了！谢谢老师的咨询指导！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我上提了提档线，且专业服从调剂，会不会退档。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师,623进校有风险吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+考分590能进你校吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+怎么不回答问题啊？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，如果上进档线，专业服从调剂，会不会退档。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生的加分对机械试点班有效吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，若原始分数未达贵校最低录取分数线，但加上冬令营加分够线．并服从专业调剂，那么是否给予录取？盼复，谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+625能被录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招非第一志愿考生？院校级差分为多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生的加分对机械试点班有效吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校现还招不招本地插班生？谢谢答复。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我703分，服从专业调剂，想问被贵校录取的可能性大吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+按照贵校的专业级差制度,是否会出现因所选专业撞车,而导致较高分学生没被录取,反而低分学生被录取的状况?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+从贵校的网站上了解到贵校有很多校区,那么新生具体到哪个校区就读
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+被交大预录取的298个考生正式录取通知书何时下发，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+:)
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否对非第一志愿考生设有分数级差
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+快~！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+快~！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如果想进入贵校软件学院深造，那么志愿应当选择什么专业?，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+今天下午就要交表了，急盼您的回复，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有3本和专科么如果有那么分数线分别是多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有级差安排?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问参加冬令营且已被录取为保送生的同学的档案是否已经被贵校提取了？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是６２２，高出本一线６１分，请问报考贵校是否有希望，如有，报哪些专业较有把握，谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问654（排名190）在咨询贵校的学生中可以排几名如果报贵校可有把握？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我有点色弱，但体检时没有检查出来，如果服从调剂，是否受影响？如果报考交大，有几成把握？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+麻烦您了,急等回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下120%投档是什么意思?我考516分,能否被录取?我还有冬令营C档加分.是否有用?谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！如题请指导
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有什么优势专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+638上贵校把握有多大?急盼回答,不胜感激!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,在完成已选专业课程外,是否能选学其他专业,完成后是否能获得双学位.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+645能上贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+各省加分在贵校分专业时是否进入总分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校录二志愿考生吗？是否降分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好,我是湖北考生,请问贵校在湖北的专业级差是多少?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否设置级差?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好,总分829,用贵校的分数法得出分数是545请问有希望吗
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好,请问总分829,用贵校的分数折算法的出的分数是545,请问有希望吗
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，地方性政策加分、学校加分在选专业的时也承认吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业有其它特殊要求吗?(除<>外)我左眼4.1只能矫视到4.4425度与其它近视考生相比还有其它限制吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若遇到分数相同的考生，如何进行选择？，650如果被省招办提档会不会被贵校退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招二本生吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:608+冬令营A档究竟还有没有希望呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若所选专业不进,但投档线进那能否适当增加某些系的录取人数?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档后是否退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请您回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大什么专业攻研叫好
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问贵校的专业级差是怎样划分的?考生怎么才能预先知道哪个专业比哪一个专业的分数高呢?各专业间的梯度是不变的还是每年都要变?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有多大的希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生的考生除以交大为第一志愿外,是否需要其他操作程序?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问加分政策？？，是否在提档与专业录取时都承认加分？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！！我的高考成绩594，请问报考贵校有没有十足把握被录取？/如果不是一定可以录取，那有几成把握？？？希望老师能够准确的回答我，不要给我摸棱两可的答案。谢谢了！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！！我的高考成绩594，请问报考贵校有没有十足把握被录取？/如果不是一定可以录取，那有几成把握？？？希望老师能够准确的回答我，不要给我摸棱两可的答案。谢谢了！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。请问一下，平行志愿的填写时，填在第一个或第二个对学校的录取有影响吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这个表最迟什么时候寄到上海交大招生办？可否用传真机传过去，再寄？，若因为邮局原因未及时寄至，是否还有效？能否按邮戳日期？十分感谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否进档就收，不退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.国防生录取是否考虑省规定的加分政策？，2.国防生入校后的上课，生活是否和正常学生在一起，还是单独成立班级？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否招收第二志愿考生
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+没有招满的专业---指在该省的招生计划中的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能不能进交大？全省排名1520名
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+学生能跨学院转专业吗？？？？？？？？？？？？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+急
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问能跨院转专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生录取什么时候可从网上查到?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+服从分配的话专业是在什么范围内确定的呢?，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果能进贵校，能选哪些专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+急
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，在上海交大学习生活费大概需要多少钱，有适合北方人的饭菜吗？谢谢老师。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+12
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+１
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好!520能上贵校的大专吗?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+B志愿填贵校可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大哪些专业只录取第一专业志愿?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题.，谢谢老师回答.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+关于Michigen班的情况
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了677，报贵校计算机有多大希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考建筑专业可能性有多大??
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对与贵校只招收第一志愿考生的专业是否必须在报志愿时将其选为六个专业的第一位
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果有,学费多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有QQ等联系方式吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+机械与动力工程学院分布在哪个校区?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+机械与动力工程学院分布在哪个校区?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高度近视能否包此专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+据说有的学校会根据学生在大一的表现和成绩，允许在大二时更改专业，不知贵校对此有何政策规定？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+642排名541，能否被录取
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+机械与动力工程学院分布在哪个校区?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么样的分数可以进入本校
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校一般录取分较高的专业有哪些？较低的专业又有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1000名能进吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+听说许多大学录取分数线有大小年情况，交大有么？如果有，今年是大年还是小年？，谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这个分数填报贵校的风险会不会大？有多大把握？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,竞赛加分可以参与选专业吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想问一下大概什么时间能拿到保送生的录取通知书？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+考上贵校，高考分数在省内一般要排在多少位内？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，选择院校的时候有四个专业可以填报．，那么这样，各个专业之间的分数级差大概是多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+录取贵校有希望吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我是参加冬令营且被录取的保送生，请问我们这些人的通知什么时候可以拿到？是寄到学校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+629，一本503，能上贵校吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+被录取希望大吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问具体操作方式怎样?需要前几名可自由选专业?如果排名较后,是否只能接受专业安排?高考成绩在专业分流中占不占一定比例?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的调档比例为多少？什么情况下会被贵校退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如果在我填写的所有四个专业都不能被贵校录取，但我填写了“愿意服从调剂”一栏，那么这时候贵校是考虑我的原始分，还是要在原有的分数上继续扣去级差分（4，4，0，0）？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+三本与一本除了在收费上有差别外,还有什么不同?毕业证书相同吗?与一本在一起上课吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+626有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问653进交大有多少希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业需什么条件？，有多少学生可以转专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业需什么条件？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+666分山东排名400高一本线83分报贵校金融专业能否录取谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+677上你们的计算机系有多大希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否招收二志愿或参考志愿的考生
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校应用数学,是不是风险很大?请老师指导!谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问一本线上多少分可能录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是不是在调剂专业的时候把照顾分也算上去呢,比如640+20>650,对吗?，高分考生如果选择了服从调剂会不会被低分而不服从调剂的考生挤走呢(因为学校想留下稍低分的同学)
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问美术类总分798报考贵校有希望吗？，谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的录取线一般比一批线高出多少？谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校"微电子"为什么不在"电气信息类"中招生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的调档比例为多少？，什么情况下会被贵校退档？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校工学中最好的专业是哪个
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有多大把握,请尽快回答,我不敢冒险哦
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业是什么？高出重点线多少分才大有希望被优势专业录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，如果在我填写的所有四个专业都不能被贵校录取，但我填写了“愿意服从调剂”一栏，那么这时候贵校是考虑我的原始分，还是要在原有的分数上继续扣去级差分（4，4，0，0）？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些热门专业？高考成绩不是太高，应避开那些专业，才能提高录取的可能？谢谢老师。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问具体操作方式怎样?需要前几名可自由选专业?如果排名较后,是否只能接受专业安排?高考成绩在专业分流中占不占一定比例?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了，请问贵校有哪些优势专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业是什么？高出重点线多少分才大有希望被优势专业录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校本科生毕业后出国率有多高？那些专业出国率较高一些？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你木咖喱啊
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+奥赛加分在提档和专业录取时都加入总分吗?，请介绍一下贵校的优势专业，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校工科有希望吗？哪些是热门专业？能够录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+人满是否能调剂
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无相关的推荐优秀生的政策，如果有，请说明具体内容，对考生有何具体要求，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+621+5,报考国防生（女）是否有希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+621+5,报考国防生（女）是否有希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如果服从分配有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校任何专业的学生只要符合转专业的要求是否都可以转专业?，贵校转专业的条件有哪些?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的考分在630,报交大合不合适?竞赛的成绩在录取的时候学校会考虑吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问当贵校与二医大不再独立招生时,二医大的分数线是否就会跟贵校的一样?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问什么时候贵校医学和二医大什么时候开始合并?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+福建620服从专业调剂，能报么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校与上海二医大合并后,是否独立招生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师。。我这分数上贵校希望有多大啊。。我很欣赏贵校。。非常感谢回答！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师。。我这分数能上贵校吗？，我很欣赏贵校。。，谢谢回答
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这个分数621，超一本线53分，全省380名左右，请问能报贵校的传媒专业吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业热门那些专业较冷门
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢老师。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请答复，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+实验班有什么特殊政策吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校生物专业排名
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电气信息类是否属于电子信息科学类？，问题有些笨..谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我第一志愿抱清华,第二志愿抱贵校,那么我要是清华没上,且贵校恰好没满，上贵校要不要被扣院校级差分,如果要,要扣多少分?非常感谢老师能在百忙之中回答我的问题!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在报贵校的电气信息类和数学类专业的时候是否考虑考生的加分，谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+三好学生加分在选专业时是否有效?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认各省的加分政策？！如承认在专业录取时是按高考成绩还是按投档分（高考成绩+加分）进行排队？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+好的专业我有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这个分数能否被贵校录取?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是成都外国语学校的学生，请问这个分数报考贵校是否有希望。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校生物类专业的学生毕业去向，如本科生就业去向，研究生就业去向等。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这个专业实力如何??
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+664分335名能进试点班吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问我考了635报考贵校土建专业录取可能有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是高复生－不知贵校对高复生是否一视同仁？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大什么专业最好
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+647能否上线
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我622分，省924名，报考贵校有多大？另外请介绍一下，贵校较好的专业并烦请老师推荐一下我可以报考的专业。还有贵校可以转系吗？若可以具体的规定有哪些呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能告诉我前3年你们学校的投档线吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占本省名额吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我622分，省924名，报考贵校有多大？另外请介绍一下，贵校较好的专业并烦请推荐一下我可以报考的专业。还有贵校可以转系吗？若可以具体的规定有哪些呢？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+那我有什么专业可以报呢？还是觉得不安-感觉风险比较大。。。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+网页上没有！请在此回复！谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+网页上没看到！请在此回复！谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+第二医科大学不是和贵校合并吗,是哪个医科大学和贵校合并
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校有希望吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，我参加过贵校的冬令营自主招生，比获得B档成绩。但是在阳光高考信息平台公布的名单上怎么没有我的名字？？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是广西考生，考分604+20（地区民族分），重点线538。加分后排550名,不知道有没有选专业的余地。谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的加分政策有哪几类?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问钱老师.赵老师.苏老师.杭老师的联系电话?以便联系。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我高考622，若填服从分配，报考贵校机会大不大？謝謝
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有哪些专业对补习生有限制?，，电子信息科学类(试点班)是怎么回事?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些专业招生对补习生有限制?，，电子信息科学班(试点班)是怎么回事?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校竺可帧学院.该学院有哪些专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想制造激光武器，保家卫国，那学什么专业呢？？？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我在贵校的招生计划看到电气信息类的专业方向有自动化，信息工程，电子科学与技术，计算机科学与技术，测控技术与仪器，电气工程与自动化6个专业.请问电子信息类包含的专业方向和电气信息类是相同的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的电子信息科学类包含哪些方向的专业呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的优势专业有哪些
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大对与加分是否承认?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+少数民族聚居地的汉族考生的加分，除了在调档时考虑外，在正式录取时是否计入总分
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大的加分录取是怎么样的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我填报志愿时,填"服从院校调剂"有无希望被贵校录取?，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强势专业有哪些?其中哪些对湘招生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否只取第一志愿?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校医学临床专业对乙肝表面抗原为阳性有限制吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+657可以上贵校什么系啊
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校对何种加分可以在选择专业时予以计入总分录取？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+多谢答复
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我高考全省800名，总分656，报考贵校工学类专业希望大吗？假如服从工学分配，是不是希望大一点？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,我的分数是654,总排名893,请问有希望进入贵校吗?能进哪种热门程度的系?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师加分能进入专业录取吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大是按1:1.2投档的吗.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校较好的专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+能否进入贵校
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校前十名专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+加分的考生专业录取时要去掉加分吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大2006预估分数线是多少
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲生可以报哪些专业？不能报哪些专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类(试点班)能否介绍一下具体招生规则
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取专业时是否看加分?如果投档进入贵校,填服从调剂,是否退档的可能性极小?各专业有没有单科成绩限制?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问贵校在转专业方面有什么限制与要求?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+639报考贵校的什么专业，录取的希望比较大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这个学院跟贵校是什么关系？有经过教育部批准么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+610报考贵校的什么专业，录取的希望比较大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好!我有一只眼睛因受过外伤导致视力很差,另一只眼睛是轻度近视.我的物理成绩很好,喜欢搞设计之类.请问能报考上海交大的工学方面的哪些专业？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考交大的国防生,录取什么时候可查到?在哪里查?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我成绩是659，能否报考
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+在高考志愿填报是并没有体现自主招生加分，如果我是交大自主招生C档，第一志愿填报交大后，贵校要如何知道我可以加分，会自动帮我加上分数排挡吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+630可否考贵校?老师来了没有?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大外国语学院的英语系实力怎么样？在社会上竞争力如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1000名报考贵校有戏吗,谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考咨询会时招办老师能给我提供哪些帮助呢？到时会不会对我的情况做具体分析？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否在交大上课，学位证书有什么区别，此学院是否较热门，有什么特色
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我了解到,贵校医学院还有部分高职专业,这部分学生是否和普通交大学生一起生活,学习?如果是,这部分素质相对较低的学生会不会对其他人有负面影响?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了!请问转专业后是否必须再从大一读起?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分在610上贵校是否可能
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大是否有与国外一起办学的计划，是哪个专业，如何获得资格
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+不到一本线可以报考贵校吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校转系时供选择的系有无限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问电子信息科学类(试验班)对考生有什么特殊要求吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+就读贵校的学生可否转另外一个专业?有没有什么条件?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分635，是否有上贵校的可能？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：招生老师来了吗？怎样与他们联系呢？如若还没来，大概什么时候来呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：招生老师来了吗？怎样与他们联系呢？如若还没来，大概什么时候来呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好.我还想确认一下..艺术类考生的数学成绩是不是一定要达到75分?(满分150)，，谢谢老师回答..
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你们学校的级差
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+解释一下分差问题
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估计分数是655，可以大胆报考贵校吗？有风险吗？如果有大概有多大呢？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国际贸易这个专业会不会热门,贵校会在外省招生吧,以本三成绩报考专科系一定能被录取吧
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校建筑学系要求加试美术的哪方面内容，需要什么样的美术基础
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的电气信息类（中外合作办学）（交大密西根联合学院）的分数是否比一般专业要高。而且学费很高，是否毕业去向很好？谢谢回答
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问本人分数刚过一本线能上贵校吗？？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否招收本二批学员;若是本科三的成绩而报考专科,录取的可能有多大呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+考生们如报考同专业，有考分相同情况，贵校一般是根据什么标准来录取？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师上论坛的时间一般是哪个时间段？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的王牌专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，且服从调剂，但所报专业分数不足，退档机率有多大？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，专业服从调剂，但因所报专业分数不足？退档机会有多大？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的试点班(如电子信息科学)有什么特殊吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我咨询的是有关专业录取问题。，1、如果达到上交的录取分数线，填了服从专业调整，是本人的志愿里的专业调整还是学校里在我区录取的全部专业中的调整？，2、如果我与考生B填报了同一专业，我的专业是第二志愿，B的志愿是第一志愿，但我比B高出专业级分差，那么，该专业的录取是我优先还是B优先？，谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!招国防生是不是分数高也不一定能去,是不是上了省重点线就可以都去体检和面试,听说是照顾军人的孩子,我们地方的孩子有希望吗?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录专业是否考虑民族分?有哪些专业考虑民族分?????，谢谢!!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问南大在录专业是否考虑民族分?有哪些专业考虑民族分?????，谢谢!!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果我服从专业调剂,那么将会在哪个范围内调整.，，具体怎么调整????，，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分为660,很想报考贵校,请问这个分数能有多大的概率被录取??
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问什么叫基地班?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!请问什么叫基地班?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如何联系招生组？，请问贵校是否有招生组？如何联系呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问贵校哪些专业是较好的，有好的前景，如考研，就业,出国深造,哪些学科是贵校重点学科?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的120%提档后剩余的考生是否退档
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+对于高考加分,排志愿时是否算呢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+学分互认互选专业是怎么回事？有那些学校参与？能告诉一些详细信息吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问贵校哪些专业是较好的，有好的前景，如考研，就业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大的热门专业有那些?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大的重点学科有哪些?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+642分报考贵校有多大希望?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好!看了贵校的招生章程，有个问题看得不是很明确，就是在录取专业时是否按加分后的成绩计算排序？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+若专业服从调剂，是否是在公布的该省招生计划内调剂？基本原则是什么？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有没有，如果有是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分654分,曾获生物竞赛二等奖,报该校有风险吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问贵校在专业调剂方面是怎样安排的？，比如，我比较喜欢贵校的某些专业，但是对少数专业不大喜欢，如果我填专业服从调剂，担心实调到这些专业去，如果不填，又担心不被录取，请老师帮忙出出主意。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想报贵校国放生，视力要求具体是什么标准？，，我近视550度能否在视力检查一项合格？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的本科招生网怎样进不去了,我试了好几次了,都不行,我想看看各专业各年的录取分数线,应该在哪查呢?，，还有:我估分下来在655-665之间,能被录的可能性有多大啊?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的录取方法是怎样的？，是按分数高低录取，还是按专业录取？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后能考研究生吗?能出国读研吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些专业历年录取分数较高?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问招生组什么时候到湖北来？，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好！，请问交大的辅修专业是何专业？第二学位是何专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+不知道在哪里可以找到？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么时候可以申请转系，在分数上有何要求，是否可在全校范围内挑专业
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问招国防生的分数线大概多少？，国防生专业如何？，国防生工作分配如何？，国防生代遇如何？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有把握
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+这个专业是咱们学校的传统专业有很强的师资，我想请问一下本科学习后的发展方向怎么样，读研还有就业方面的情况如何，出国的情况呢？，另外这个专业对于女生来讲有没有劣势，前几届的学生中有多少女生，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师请问：，交大招生章程中提到，自主招生中一部分学生享受高考成绩达到一本控制线以上即可被录取，指哪一部分学生？，哪些专业留校有优势？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些优势学科?估分636,请帮忙推荐几个专业.谢谢老师.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问有没有希望上交大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+630可以报考上海交大吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+其他学校预计分早已出来,但贵校为何还未有消息?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有推荐表,分数多少可以申请.我的估分情况比较好
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，我参加了其它学校的自主招生，并已入围，还能否填报你校，
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的估分是623，学校的参考一本线是575，请问这个分数把考风险有多大？我还想问一问在学校的平均生活费是多少？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这个班跟别的系有什么不同？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+多少分可以上贵校?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估计595能上不?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报这个学校有多大把握？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校各专业分数线档次如何?，何专业热门?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大第一志愿有几个专业可以填，有专业分差吗，是多少，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+620能否报
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自主生是否需要填写自主选拔录取资格考生信息反馈表以及何时何处可以下载？十分感谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+联合学院3.2万每年，分数是否低一些？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+可以上什么专业,估计?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果分数到了贵校投档线，而在相同分数的考生中除了看会考成绩还会按照什么标准来录取呢，谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在贵校就读期间可以转专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:报考时应参照最底分还是平均分.每年的最低分是不是提档线?，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有提前批？具体情况如何？非常感谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校开设少年班吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。请问贵校材料与工程学院的就业前景怎样？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+600分报贵魈希望有多大报贵校希望有多大？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，进校后可不可以跨学院换专业？如果可以，多长时间以后？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在陕招生老师如何联系
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+复读生提档扣分吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考这几天，考场周围很多家长都收到了《上海交大教育集团国际关系学院》的招生宣传和咨询，请问这是你们的二级学院？还是什么？这个学院你们学校知道吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是一个色弱患者,不知如果服从专业调剂,是否会因某些被调剂专业对色弱有限制而被退档?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好!请问国防生面试时主要考察那些方面?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,635能报贵校吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是贵校自主招生A档的考生，我的高考成绩只要达到贵校在我省的投档线就能录取吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校有专业级差吗具体是多少
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校专业级差如何
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如，何联系省招办
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生有什么不同
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校国防生有什么要求
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，1在投档时，贵校会将省级加分加到高考总分上去吗？2在专业录取时，贵校会将省级加分加到高考总分上去吗？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问该校关于各专业服从分配原则的具体情况？，＂相对分＂这个词我不太明白？请老师给解释一下！！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我估572~~582之间，报贵校有希望吗？急盼您回答。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+怎么和贵招办联系
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我高考估分620~630，请问能上贵校吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生在高考计划之内吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分655能否进入贵校的电子信息本硕连读专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我估分650，能否进入贵校好专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果服从专业调济分到一个自己不喜欢的专业，大二还能另选专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在填报志愿时选择贵校"服从专业调剂"并达到贵校最低录取分数线后,能否保证录取.
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估了650，请问能否选择最好的专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,我估在620-630左右,有没有希望上交大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在贵校读经济类专业有没有优势?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有计划外招生，如果有最低分时多少，费用？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有突出特长自主招生已通过，高考成绩是否是决定因素？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，乙肝带菌者录取时会不会受到歧视？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，请问报考交大的建筑专业还要加试美术吗？如果要考美术，那应达到什么程度？什么时间考？，与同济大学的建筑专业比,您校的特点和优势是什么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+招生代码在哪
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问交大能否在正式填报志愿时开通咨询热线接受考生分数的直接信息询问。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+少数民族考生获得的照顾分参与专业投档吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最早啥时可大概估出在陕分数线?谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防是只收应届生吗？我是往届生，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+竞赛加分是否算到总分中???
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对篮球特长生是否感兴趣(高考上一本,在高三获得篮球国家二级运动员)
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校电气信息类的专业在全国的排名怎样？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+550有希望么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分在560以上有希望录取贵校吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生a档的学生选择专业有何限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分620,请问被录取的可能性大吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+照顾分参与专业投档吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+好象交大工科强吧!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对往届生在报考时有限制吗?哪些专业不招往届生?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+进入大学后转专业方面贵校有什么要求?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是台籍考生,可获得一定的照顾分,请问贵校承认这些分数吗
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在进校后是否还有转专业的可能？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招专科生吗，在校能升本吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师国际贸易与国外交流机会很大么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问交大的本硕联读有哪些专业?填报志愿时有什么要求么?，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问教师，贵校前几年招国防生的分数线是多少？谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问微电子专业的内容？就业的方向？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本科上线分数及招生制度
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问；贵校有本硕博（本硕）连读招生吗？如有，招什么专业的？须达到什么条件才能报读？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校与同济比,哪些专业贵校更有优势?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！它这样做，你们还能招到好学生吗？考生和家长谁不想求稳呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否录取第二志愿的考生
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国家重点学科对应的专业是什么？，另外麻烦你把贵校的招生简单发到我的电子邮件：67232753@163.com，麻烦了！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生的BCD级的考生的名单何时公布?报志原时自主考生加分项你校会忘记么(每标记自主志愿表)?自主考生专业录取时是按总分(加分)还是高考原始分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+保送生人数是否占招生计划人数？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校近几年来分数线较高和较低的专业各有哪些？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否设有转专业政策？，若有，转专业的途径是考试抑或其它什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有保送本院校学生成为其他院校研究生的项目？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否设有双硕士学位？，若有，有哪些专业可以报考？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校的提档比例是多少？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+前面回答说达到你校在当地的录取线,服从调剂的都可录取,录取线不是提档线吧?也就是说还是有退档的可能,不会增加计划?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+转专业有什么要求?要额外费用吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问乙肝小三阳且肝功正常可以报贵校医学院吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+（1）优惠加分专业录取时承认吗？，（2）调剂志愿时给学生联系吗？，（3）想调剂一部分专业怎么办？，谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想请问贵校有专科没，如果有，计算机科学技术，或者网络信息需要多少分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校录第二志愿高分生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校比较注重哪些专业的培养,招生时比较看重哪些学科的成绩?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请邮寄一份招生宣传画,行吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+"肝功能表面阳性"影响报考哪些专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+根据贵校的录取政策，录取线是在投档线上，加上贵校的优惠加分后重新排序确定的，如果某考生的投档分排在招生计划的80%处，但由于排在后面的考生大都有贵校优惠加分，加上贵校的优惠加分重新排序后，排到招生计划的110%处，是否一定会退档?由于贵校没有公布优惠加分名单，考生不能掌握在本省的优惠加分情况，怎样来避免这个分险?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师如考进电子信息科学类本硕连读试点班，都能直接本硕连读，还是有名额限制
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问在冬令营A档通知书上所说的达到当地录取分数线和投档线是一回事吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+本部与医学部哪个分数高些？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+RT
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大和上海第二医科大学是否合并?医学专业如何填报?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+色盲色弱者能否报考你校的建筑专业.(四川)
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问贵校各专业录取时是按实考分还是按考生所在省加分后的总分。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：高考成绩要超过大约多少分才有把握填报贵校，另外填报服从分配是否就有把握？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校能否给孩子提供双学位的机会？是同时还是等到一个学专业完后在读。，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+色弱考生报贵校有何障碍?哪些专业可报?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：排除学费问题，电气信息类(交大密西根联合学院)和电气信息类两者该如何选择？获冬令营加分的考生可以报交大密西根联合学院的电气信息类吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否只招收第一志愿报贵校的学生？若不是，是否有院校级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有专业级差？级差分数是多少？录取时是平等的还是等填第一志愿者录完后再录级差者？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+是否有院校级差？级差是多少？如果减去院校级差分后分调档后，是以减级差后的分数还原始分参与录取？是平等录取的还是等一院校志愿录完后再录？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：本部与医学院是否可转专业？有什么条件？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,交大本部是否与医学院分开招生,即使用两个招生代码?如果投档时未被本部的专业录取,但志愿中填写了医学院的专业,并且服从专业调配,是否有希望被医学院录取?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+该生参加该校的自主选拔是c级,如果在投挡线以内是否能录取?专业按什么分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+问贵校能有转专业的机会吗?机率有多大
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题,谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！本硕联读是否有淘汰制？如果被淘汰如何选择其他专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校录取新生时各专业间是否有级差？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大按学院招生，哪些学院不招收有色盲、色弱的考生？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收乙肝大三阳的学生?如果是部分招收,都哪些专业可以招收呢?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么时候可知填报志愿情况,有没有统计多少人填的?，几时知能不能出档,录取?，有没有人通知报考考生的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:省招办认可的加分在选专业时是否剔除?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:政策性加分能否进档选专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:政策性加分能否进挡选专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问艺术设计专业什么时间开始录取，我哪天能查到信息。谢谢老师。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师回答，那么，如果扩招，会有多少名额呢？扩招的人包括在公布的投档线里吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校说不会因为分数原因退档，请问退档的一些具体原因
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿报贵校，599有多大希望，望老师答复！谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+678分可能性大吗？问了几次，老师有时说可能很大，有时说应仔细考虑，我们马上要交正式志愿表了，能给个肯定一点的答复吗？如果可以，我就马上能够填了，谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好如果我对录取时的专业不满意以后可以转专业吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师:请问你校是按大类招生的吗?具体专业何时分?怎样分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校热门专业有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考你校有无希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+653
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有希望么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师能不能告诉我专业填报的一些建议？，我如果按兴趣填报，风险有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+资格复查是贵校回答鄙人问题时说的啊,那复查主要是指哪些?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+为什么老师不回答我的问题?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师能否具体一些？我知道有了色弱就没什么好专业了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问什么叫资格复查,谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+zsbbbs也上不去
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问进入贵校的新生所学课程是否是先全相同,然后才分专业.谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下新生复查情况,谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+什么是一类专业,如电气信息类,贵校是如何分专业的,谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校对专业录取是否设计分差
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对同分数考生是以什么作为优先录取的,谢谢
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下转专业问题,谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校收转科生吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+理化654报考贵校电气信息类专业有多大把握？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问有没有发放推荐表?推荐表是否有加分?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了673，不知能否被录取
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问成绩630以上的考生对贵校的关注如何.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否扩招
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+省内441名请问报考贵校那些专业比较理想
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有多大希望
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问675上国防生风险几何?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.招生专业中的"...类"是什么意思?比如说电子信息科学类,是代表一个学院还是一个专业?，2.能否简单介绍"试验班"和"基地班"的情况,是什么性质的?，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+色盲考生可报的专业中哪几个较好?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+问高考646名次902能否被贵校录取？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，能进吗？可进何专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有些专业是按大类招生的，一大类中包含许多专业，如填报大类，何时、如何确定所学专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问651分的成绩报考贵校是否有希望？谢谢！！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+astitle
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交通大学学费及住宿费标准如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+astitle
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+获各类优惠政策的同学，如何享受按学院招生政策？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大如何对待各类加分？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大招生录取时有无外语语种限制？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+恳请老师回复，我只要进贵校就好，有没有希望？3Q
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有色弱，影响哪些专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请告知，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+各省市公布的上海交大招生计划中，是否包含保送生的招生计划数？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+心里没底，请告知
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+第二志愿会不会竞争力下降？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+考贵校有希望么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校重点专业有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了640，全省排201，有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的估分比较高，我很向往交大，但上交大又可能差点，如果上你校，毕业后交大认可吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是往届生,报考你校有无影响???我考652分,全省600名,被录取几率有多大???你校优势科目是什么??/
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+按653的成绩报考船舶海洋与建筑工程是不是有点危险
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是往届生,报考你校有无影响???我考652分,全省600名,被录取几率有多大???你校优势科目是什么??/
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了653，排名577，报考什么专业录取机会比较大
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大可以转专业吗？有什么限制吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报什么专业的几率大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+折算后分数为1064,填报贵校希望多大?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校综合分折算公式怎样
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问这分数在贵校选择专业的余地大吗?，对于金融之类的专业选择是否有比较大的把握?
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请老师赐教
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好请问浙江656要注意填报时小心哪些专业有风险，谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的名次为5635，能否进贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生招收有什么要求?估计投档线在哪个位置?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问我的分数是599，不知能否被贵校录取（一本是572）。谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我在省内排名大概1500。，，上贵校有希望吗？，，专业选择又应该注意一些什么呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：贵校那种专业分数要求相对低一点？还有往届生是不是比应届生的投档线要高？谢谢！
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问我能考上上海交大吗？（我考分为580）
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我保守估分640，请问是否可报贵校物流专业？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+加分在学校录取与专业录取时都有效?，如只在提挡时有效，那么总分够录取线，专业服从调剂，是否退挡？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有一本二志愿招生计划吗?谢谢!!!!!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考625报你校有多大把握
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+热能与动力工程具体学习什么？，，估分665是否有希望报考，，希望有多大？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+有关考试细则如何？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我已填写贵校招生优惠登记表，并邮寄给贵校，我估分660，请问有多大希望获得贵校得加分？如果能获得贵校得加分，我的总分数大约670分能否有把握进入贵校？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校本年度是否有级差如果有请问是多少，，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分在650左右，可报考交大什么系
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+665上交大有风险吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国家老领导的大学,发现弄虚作假的千万要严肃查处.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+669进交大希望几成
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+664进交大有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+663有风险吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+微电子是什么专业.678可以进吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+679是高分吗电气信息希望几成
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大最好的专业是什么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+677可以挑一好专业吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+计算机677可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+685分上贵校可能性有多大
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+680算高分吗?软件可以进吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+681可以选好专业吗如计算机
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+673可以选一一般专业吗谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上交大是我的梦676可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+669可以吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+生命科学与技术基地班的具体情况:如专业特点,学员要求,学员发展方向等
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大每年过GRE的有多少?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+自主招生在填报志愿时,是否需要注明本人是自主招生或档次,学校在录取时或专业排序时,是怎样对自主招生的优惠政策进行操作的.谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考加分的考生在投档和录取时都有优惠吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有预科班吗？如果有，分数怎样确定？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校有没有和澳门大学合作，由澳门大学录取在贵校上课，如有的话如何报名？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分652进贵校有多大希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我在一本杂志上看到招书法特长生，由于我报考时没有填我是书法特长生，故想询问一下。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问你校哪些专业对考生有选科要求？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考635-640报贵校的点专业有风险吗?，，有什么最新的招生信息吗?，，谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+转系是否花钱？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，，我听说电子类试点班为本硕连读班，是这样吗？有什么具体规定？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下交大的奖学金制度和对贫困学生的资助方案.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师有旁听生可以考吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校05在川招生大致分数，，665-675可以吗
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+艺术,体育类考生占不占普通考生名额
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分650报考贵校国防生，有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生须在军队工作多长时间
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校的投档人数与实际录取的人数的比例是1：1还是1：1.2呀？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+回答是或否
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+真的么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你校的投档人数与实际录取的人数的比例是1：1还是1：1.2呀？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+志愿优先还是成绩优先
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+录取第一专业与第二专业有没有时间差，被减分后第一专业跟第二专业是否平等？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请访问www.sjtu.edu.cn
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取时考生的政策性加分是否有效？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问有加分的考生在专业录取时所加分数算数吗
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+选专业应注意哪些因素?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：是否存在某些专业，转系时有限制（也就是某些专业不能转）？如果存在，那么填报志愿时服从分配的话，会不会被分配到这些专业中？我听说有些学校的医学院就是这样的。，谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问推间表示在招生老师处所去吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否存在级差?名牌专业是那些专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,我已经报完志愿了,但推荐表还没寄出,请问老师,除按表的内容认真填写外,还有没有其它特殊要求?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+640有希望吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大有哪些国际合作办学项目？，，谢谢交大老师，你们辛苦了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问我估分655有多大的希望？可以进什么样的专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+就读你校后是否还能转专业，，不胜感激
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，我这次估分650，请问进交大有多大把握？，，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大如何设置专业（学院）志愿顺序级差？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，老师你们辛苦了！，请介绍一下上海交大全面学分制的情况？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+生农医药大平台如何招生？在志愿填报中是否愿意调剂一栏里如何确认除农、除医外？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+录取了国防生，毕业时可否考研？可否违约选择其他去向？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问电子信息科学类（试点班）学习内容是什么？与同类专业有何不同？多少分有希望？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问交大2005在黑招生计划？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+就读你校后是否还能转专业????
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师早！我想将联系方式等信息送到您的电子邮箱中，成绩出来后您是否能和我取得联系？谢谢。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问自荐表里的选考科目指什么？，，估分665能填吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+专业录取情况
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校重点专业?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+为何不招收金融专业了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师，我近视很深，有哪些专业是我不能报考的呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+假如同是第一志愿的两个同学，分数高的那个同学所选专业已录满，但服从调配，而分数稍低的那个同学（也上了调档线）所报专业尚有名额，请问老师，这种情况优先录取那个同学？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+从实力上来看
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师给我的答复。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+600能被录取吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+还有一个问题，听说报考专业有级差，是吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少呢？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：，，交大的哪些专业是强项
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如果前两个志愿没有录取，第三志愿分数是投档分还是两次去掉级差分数？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请预测报考交大的估分提档线
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+报考国防生有何限制？录取分数为多少？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，转专业时可以转入试点班吗，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+转专业的时候是所有学生都可以申请，还是只有成绩排名靠前的学生可以，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我高考估分620，报考你校希望有多大把握。请提供最新统计的最低录取分数线。
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类(试点班)是国家重点学科吗?主要是关于什麽的?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类是国家重点学科么?电子信息科学类都包含什么?，，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我已填报贵校(估分在636-642之间),听浙大的教师说有很大的风险,可能撞车,请问能被录取吗,另外能提供一下自荐生的情况
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好！我想知道一些更详细的情况。比如考人物？石膏？静物？风景？，thanks!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+那是否第三志愿就没有机会被打开了？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+根据《指导意见》，通讯工程，电子信息专业对色弱无限制。但有些大学明确不招收此类考生。请问贵校是否招收此类考生？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问建筑加试美术否？考什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+多少人考交大？，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校录取存在专业级差吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业有哪些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+sdgf
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问我们得分后如何与贵校联系?自主招生的名额算在计划招生人数内吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+试验班和基地班的区别？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是提前批次?提前批次是什么时间?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪些专业与国外学校合作？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校可读双学位吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：根据您的经验我怎样判断我的分数在贵校的提档线以上？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问650分报您校有把握吗?电子信息本硕联读报一表一可以吗?求助您了!谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生需服役几年
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+635--645有望读贵校吗？加分是算在专业排序中吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+已从网上看到了老师给其他同学的答复,很高兴,但还有些担心,特此求复.我的估分成绩是662,报考交大能否录取,谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的建筑系是否侧重设计港口码头等交通设施、交通建筑？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的建筑系设置在船舶海洋与建筑工程学院，那是否侧重于船舶海洋方面？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+估分650报考贵校有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+材料科学与工程Y中的Y是什么意思？估分在650-660报考该专业有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否拒绝体检有"乙肝表面抗原呈阳性"的考生?还是有所限制?谢谢!!!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业级差吗？，我估分610左右，报考贵校有希望吗？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问交大试点班的招生条件是什么?是按高考成绩还是按入校后的考试成绩选拔?试点班是本硕连读六年吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+上海交大最强的四个专业是什么？我从不同渠道了解到的信息不全相同，所以来确认一下，请老师解惑。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生（电气工程类）的分配去向、军种是什么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我估分560，能进交大吗？，如果能，则能进哪几个专业？，我是女生，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问矫正度数超过800的考生能否就读电气信息类？，一眼弱视的考生呢？谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,入贵校后转系会不会很麻烦?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！，贵校对新入学学生有否优惠奖励措施？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+670能报上海交大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+655能被录取吗?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问，在贵校读书哪些专业毕业后是进入教育系统的
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问好学校有无转科读比如贵学校如果有我470-480能读吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+620左右能否被贵校录取还有我不想去与贵校合并学校的学院，能否给些提示谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校预科班在招收少数民族学生有何有优惠政策???
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+国防生的眼睛要求多少亚，，能告诉我吗，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强是势专业
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校有三本吗?谢谢.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+高考估分625分，不知有否可能进贵校。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问:你校的生命科学与技术(基地班)对乙肝病毒携带者有无限制?对身体有无特殊要求?谢谢!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是“工科引导性专业”？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，1。贵校对提出转专业的学生如何进行考察或有何限制条件？，2。贵校对修双学位有何要求？，谢谢老师！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校有无专业级差？，2.请问贵校在琼招生组老师的联系方式？，3.请问贵校在琼招收专业中有无单科成绩要求？，谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问填报志愿时贵校是按专业录取，还是按学院分配？分别有哪些专业/学院呢？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了。我想知道贵校航天航空专业的实力，还有专业课什麽时候学。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校较热门专业有那些？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您能否详细介绍一下贵校软件专业的具体情况？谢谢（贵校网站上的介绍过于简略了）
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您能否详细介绍一下贵校软件专业的具体情况？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我考了680！想知道报考那个系的专业比较好
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录取电子信息科学类（六年本硕连读）的考生时有没有什么特殊的要求？需要比别的专业更高的录取分数吗？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的电子信息科学类（六年本硕连读）录取时有什么特殊的要求吗？是否需要比别的专业更高的录取分数？？
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我的电话号码是05613015573，在您估算出重点线大概情况以后可否跟我联系?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+ACM班是怎么样的？ACM是怎么样的比赛？？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我是河北人,成人教育学院录取的分数是多少呢?请问成人教育学院招生办的电话号码.谢谢!.
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我想问问关于交大-密西根共建那个专业是什么情况，要求有什么特殊要求，还有和其他专，业有什么区别？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问上海交大有哪些国际合作办学项目？亟盼回复
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+交大的学生有哪些交流机会？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我可以先在自荐么？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问630进贵校有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是2005届高3毕业生,估分为621,想填你校,有可能被你校录取吗?可能性多大?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+麻烦老师了
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校的哪些专业是强项
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢了.，我想再问一下贵校录取分数一般都比重点线高出多少分?，再什么情况下招收的人数会比计划的多?，多出来的人又是从哪里录取的啊?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问我的问题您何时才会回答
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校所属的交大网络学院所颁发的学历证书教育部是否承认？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如何留下自己的联系方式及估分呢?谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业级差分是多少？谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业级差分是多少?谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我该向哪里发出我的联系信息？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师!以下是我的资料:，姓名:黄旭岑，学校:成都七中，联系方式:13708001821，13880419562，再次谢谢老师的答复
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师；，请问贵萧瑟广播影视编导这个专业的狮师资力量状况，这个专业的学生毕业后就业方向是什么呢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师，请删除我的信息资料
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+如题。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问如何留下联系方式？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我是河南考生,估分640,不知能否进入贵校?能否上贵校的电信工程专业?谢谢老师!
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请尽快答复。
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的回答,我会密切留意贵校的公告栏信息。具体分数与名次下来后我会再联系.，再次感谢老师回答
+select * from admission_score_pro where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+你好,我的估分在640-650.请问报考贵校有希望吗
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想咨询一下贵校那些专业在全国比较有名，以便填报志愿。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的答复!考生:徐寅颖,联系电话:宅(0816)8038355，手机:13980141424、13890138933、（0816）6679732
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+540~~560有没有希望？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！您辛苦了！：（好像不加分！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校强势专业是哪些？考生怎样填报专业较为科学？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！考生本人参加全国数学奥林匹克竞赛获得二等奖！非常想去贵校！切盼你的回音！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！我的联系方式是：白云，13572840255！，我是考生他哥！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！我的联系方式：email：lyfu@sdau.edu.cn，电话：0538--8249919，手机:，13515386877，13583836179
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+我刚刚估完成绩650-660!(很保守的估计!)，就我的成绩去贵校有希望么?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问,假如某一个专业在我省只招两人,但报考的人很多,我该怎样报考才能被录取?
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+请问老师如果考入贵校能否改专业，改专业如何收费？
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,非常感激贵校对我的关心和关注,请问:高中成绩表和获奖证书复印件寄往贵校的地址、收件人姓名和邮编。谢谢！
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳），肝功能正常，你校会接收吗？如果入学后会不会让休学呀？你校复检是乙肝五项还是只查乙肝表面抗原，谢谢
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+贵校在录取过程中应届往届考生是否同等对待
+select * from admission_plan where school='上海交通大学';
+['问句条件词只有学校，查询过宽！']
+总问题数8180	查询语句构造为空数0	只有学校关键词数1701	查询结果为空数6106	有回答数365

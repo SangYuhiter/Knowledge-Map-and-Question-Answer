@@ -1,0 +1,403 @@
+老师您好：贵校在录取新生时对英语口语成绩有何要求？谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+提前批不是平行志愿什么意思？如果提前批填两个复旦交大，如果复旦分数不到，交大分数到了能进交大？
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问医学院和上交本部大一、大二时能互相转专业吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校与上海交通大学是什么关系，两校在培养学生方面是否有联系？在贵校主页的学院简介里介绍是“211”和“985”，但为什么在网上查“211”和“985”名单都没有上海交通大学医学院？非常感谢老师的及时答复。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校专业录取时认可加分吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校必须要双A么？一A一B+可以么？我的高考分数为389，全省排名747，如果可以上是否有什么特殊协定一类的合约？
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+您好，我是黑龙江考生，请问，所报专业之间有极差么？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+高考652分能否进入贵校的临床专业。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果视力矫正到4·8度数大于800，报考医学专业会有影响吗？具体在哪些课程上有影响？谢谢。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，一模493，二模469报考法八，有希望吗?就业一般去向是哪？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好！首先确认一下，临八与法八是否都是本博连读？再就是咨询法八与临八学习期间除了外语不一样，其他学习课程区别是什么？哪个临床好？毕业后就业形式怎么样？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+若所报专业均不满足，专业调剂时可否调剂到不在本省投放的专业？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校有没有专业录取级差？谢谢老师
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师，这次总分462，有希望录取吗？谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+提档以后会退档吗？服从调剂
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+592可以上吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好：肝功正常，表面抗原阳性，能否被贵校录取？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+预录取考生，高考时发挥失常，未达本一线能录取吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，你好！报贵校，投档并服从调剂，会有退档的可能吗？谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+rt..
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+641超一本线59分。1，上医学院有多大希望？2，服从调剂退档吗？3，身体有啥特殊要求吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+一本线582，我641，多59，报贵校有多大希望？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档比例是多少？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问上海交大医学院的毕业证是由上海交大统一颁发的吗？有区别吗?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+名族加分承认吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取时是否计入政策加分?，谢谢!
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师:贵校学生毕业证上的公章是"上海交通大学"还是"上海交通大学医学院"?谢谢!
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校本部有新生奖学金，不知医学院有没有？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果被贵校医学部录取，请问1.能否转专业？2.能否从医学部转到校本部？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有专业级差？是多少？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+进档不退是什么意思?，那如果达到投档线却无法达到专业分数线，又不服从调剂，会被退档么?
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+孩子色弱但非常渴望学医,有可以报考的专业吗?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问倘若我选了专业服从调剂会有被退档的风险吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于考生视力是否有要求？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校若填专业服从，进校后可否转专业？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，交大医学部和第二医科大学一样吗？毕业属于那里发毕业证呢？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我双眼度数都超了800度，不能读贵校的哪些专业
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+对于转专业有要求吗？转专业有可能到交大本部吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+对于转专业有要求吗？如果不是本硕连读的只是本科有可能再读硕士吗？转专业有可能到交大本部吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校与国外医科学校是否有学生交流，如果从贵校到国外医科大学留学其难易程度。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校投挡比例是多少
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师：你好！若服从专业调剂，录取时是否会通知考生本人？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校毕业证是上海交通大学还是上海交通大学医学院,谢谢！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问，贵校设有专科吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+报考贵校的提前批次是否与第一批本科录取冲突？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否又称"二军大"?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师医学专业招不招患色弱的考生或者和医学有关的专业？很急也很重要非常感谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+参加自主招生获加分考生报考医学院，高考成绩达到投档分数线享受加分排序录取。请问：投档分数线是指交大本部，还是交大医学院？
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我考了592。有把握报考贵校吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+第二医科大学是不是就是交大医学院?，谢谢老师
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+谢谢老师，如题
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+孩子喜欢医学和军队，但是体重超标，可否报你校？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问，高度近视对填报医学类专业有影响吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+4+4招收的是哪些学校的学生
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校分数线是否同交大同一档次
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我是一名本科医学院校在读生我想进入贵校进行继续教育，请问怎样可以报考贵校呢？大约是哪时开始招生呢？谢谢老师。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我第一志愿报的是上交大非医学专业,第二志愿报的是上交大医学院,医学院会我在第一志愿没录取的情况下考虑录取吗?录取时有什么额外要求吗?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+此分数报考贵校的哪些专业希望较大？谢谢老师
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问军检指挥类合格能报考贵校的医学专业吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师，提档线与录取线有什么区别
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问投档比例是多少?，各个专业之间级差多少？，分数优先还是专业志愿优先?
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问医学院就读的能否申请交大本部的第二专业
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好.近几年临床专业的就业情况如何?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校医学院在川招生计划在网上公布与省上公布不一致,请问一哪个为准?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，你好。请问贵校五年制临床专业毕业后，可否报考本校的硕（博）研究生？谢谢！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+政策性加分是否都有效?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+专业最低分数线是多少？
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+近视800度能否报考贵校？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+如题,谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问比一本线高多少能上贵校，贵校是否受第二志愿
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+近视眼能否报军医
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师：好象我问了三个问题，您只回答一个问题。谢谢。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好：请问：1、届时贵校招生网站是否提供招生录取工作进程的相关信息？2、考生怎样通过贵校的网站在第一时间了解到是否已经被贵校提档、录取、退档等有关信息？3、在线咨询结束后，若仍有问题还想咨询贵校，请提供贵校招生办咨询用的电子邮箱。谢谢。
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+有希望吗？入校后可以转专业吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问如果我被录取的专业我不喜欢，能否转专业呢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我的分数是645想报贵校的临床8年制，请您根据这几天的咨询情况帮我看看,能上的机会有多大?
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校招生办联系电话
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校国家重点学科有哪几个？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我考上了自主招生A档,高考623.400多名,请问如果报贵校会尊从我的第一志愿的专业吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+我有紧急情况要向贵校招办主任联系，请告诉联系方法！！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校更名为上海交大医学部与原来的学校有什么不同？录取份是否会水涨船高？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校会录取大三阳的考生吗？？或者说患大三阳的考生能被录取吗（成绩符合）？？？请马上回答我有急！！！谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校会录取大三阳的考生吗？？如果会那哪些专业不适宜报？？请尽快回答谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校会录取大三阳的考生吗？？如果会那有那些专业不能报？？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好,520上贵校的大专有几成把握
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+怎样报志愿可以提高录取率呢?贵校各专业从往年成绩看之间的梯度如何把握,能通过交大招生组了解信息吗?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校提前批有没有视力限制
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校与上海交通大学合并后是否独立招生?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+上一本线多少有希望就读贵线
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校是否就是第二军医大学
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校校区情况：有几个校区？总占地面积多少?主校区占地面积多少?新生在哪个校区就读?，2.请问贵校奖学金情况：覆盖面比例多大?奖学金最高和最低分别是多少？总额是多少?，3.贵校中外合作办学情况：举办哪些专业项目、办学模式及收费情况？与国外哪些名牌大学合作？是否能同时获得两个大学的毕业证书和学士学位?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+竞赛加分分专业时是否加进去？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+有轻度鼻炎的学生能否报医科类和制药类专业
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否只取第一志愿?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+1111
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+至少要多少分才能进贵校？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校的录取分数线是和交大的一样吗？，请问是否是单独招生？什么网址可以查？，谢谢！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校专业之间有无专业级差？谢谢老师指导
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+是否有专业级差
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+应该填报上海交大医学部还是填报上海第二医科大学
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+该校与第二军医大一样吗？是否为提前批？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校并入上海交大后，是与交大统一分数线招生还是独立招生（与交大分数线不同）？
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+肝功能正常，但大三阳，能报考医学专业吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+若报考医科是否要求选科必须含有生物,
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+肝炎病原携带者但肝功能正常受限吗
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果是大、小三阳，但肝功能正常可否报贵校？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问我想报考贵校，高于一本多少分，可以报考？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问第二医科大是不是就是第二军医大?谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+近视受限吗，要求是什么
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问，如若高出第一批本科线十几分是否可以报考贵校？可以报考什么专业？谢谢！！！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+在估分后,我的分数大概为595(保守),请问是否有望考入贵校?谢谢.
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问医科的各个专业是不是都不招收色弱的考生?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+营养学专业有没有硕士和博士点，毕业后可以考研究生？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+另请教上海医科大学与何校合并。谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问：医学院毕业证书的签署单位全称？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+入学后是否可以转专业？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问我的视力不好600度左右，请问那些专业受限制？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师,医学院招生是否与交大本部分开招生,即使否是两个招生代码?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校招生办的电话可否告诉我呢？方便以后查询报考~录取等情况。我是福建的
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+一般该校录取分数要比重点分数线高多少（湖北）
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问我乙型肝炎表面抗原呈阳性但肝功能正常能报贵校吗我可以考630以上就是不知道可以不可以报考您那？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校哪些专业与国外学校合作？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校可读双学位吗？
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+研究人类应该报考什么专业?
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问乙肝表面有抗原能否报考贵校
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师你校的分数一般会超过一本线多少啊?我估分为600请问报你校有多少可能被录取谢谢
+select * from admission_score_pro where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问600能上贵校的营养学吗？把握大吗？谢谢！
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+假如我对专业不满意是否可以调换
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校招二本生么，是否有康复治疗这一科？如果有的话，会收二本线的么？如果收的话，一般会高出二本线多少？，谢谢
+select * from admission_plan where school='上海交通大学医学部';
+['问句条件词只有学校，查询过宽！']
+总问题数837	查询语句构造为空数0	只有学校关键词数134	查询结果为空数665	有回答数37

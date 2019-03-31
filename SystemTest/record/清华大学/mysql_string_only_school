@@ -1,0 +1,3160 @@
+可以咨询清华美院吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+免体的学生怎么办
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国家专项进入的学生能转专业吗？如果服从调剂是否是提档就不退档？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+全国性加分和自主招生降分可以一起使用么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果被调剂的话转专业的难度大吗，各大学院大概都有什么样的限制呢，
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果被调剂的话转专业的难度大吗，各大学院大概都有什么样的限制呢，
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，定向生毕业后是到定向单位工作吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿中，若我在一A志愿符合要求，则会进行投档，那么后面的BCD志愿是否还进行
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生，领军如何投档
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生如何投档
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问每年录取的领军的考生算统招计划吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问专业调剂可以自主选择不要哪些专业吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果孩子的分数已够贵校的入取分数，但专业不太理想，请问以后可以转专业吗，谢谢！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问：考生如果专业服从调剂且符合教育部体检要求，被省招考院投档到贵校后还有退档的风险吗？恳请您指教！谢谢！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华研究生在211学校中招吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+考生被调档后，服从专业调剂，会被退档吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+领军计划招生简章中的名额吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问清华大学双学位和辅修是否相同呢？为何清华官网未列出双学位的限制专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+入读清华后，转专业有什么要求？怎么样才能转成？难易程度如何？具体说，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生的就业地点？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，老师。色弱有哪些专业限报？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问每年录取的自主招生的考生算统招计划吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我们只想问问我们的条件能否申请，你也不想收到不想要的学生的自荐信吧，我们也一样，如果不够资格我们就不投清华了，可以考虑投一下类似的学校，所以请正面回答可否报
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+中国国际广播电台CRI杯全球中学生多语种数字化故事大赛优胜奖，算不算学科竞赛特长
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+看到答复说申请表不需邮寄，有点不明白。申请表(含成绩单）加盖学校公章后是扫描上传？还是考试时带去
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如果获得三十分优惠，在第一批录取前提档，当地模拟录取线680，是不是考650就能被录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问有多少人能通过初审
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+学生自己报名还是需要学校推荐？如果自荐，学校需要做什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校允许报自招高校数量是5所还是4所。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！孩子高中阶段获得全国信息学竞赛提高组一等奖（中国计算机学会颁发的证书），还有两次获得数学省一（中国数学会颁发的证书）。请问可以报考贵校的姚班吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+据说，清华的名额预签的学生都不够用，没提前拿到约的报了也没用，是吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是一名县级普通高中应届生，应该是学校推荐还是学生自荐？需要自荐信吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，每学期都是校三好学生，是否需要逐一填写？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！类型1、2与要报的专业类之间有必须的要求吗？谢谢您！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+往届生可以参加自主招生报名吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的自主招生简章中申请学生具备的特质中学科竞赛类说到具有各学科竞赛突出特长的学生是指所有竞赛都有奖还是任意一科有就行
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！从贵校的简章看，没有“补充证明材料”的话，是不是只需邮寄申请表？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我是一名优秀的高中生，高中阶段学习成绩优异，但是没有竞赛奖，请问是否能够申请贵校的自主招生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自招三类报名后还能参加综合评价报名吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，1、在招生简章中规定的成绩证明要学校盖章，是要学校单出成绩证明盖公章，还是只要在申请表中成绩处加盖公章，是盖校的公章还是教务处的公章；2、是否在寄送的材料中再写自荐信，是手写还是可以打印，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果自主招生通过了达到社会科学实验班的水平，我高考成绩出来后够金融学院的分数，我能不能选择去金融学院?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我家孩子有全国中学生数学联赛省二等奖，可以报名吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自强计划和综合评价的报名条件？自招招生简章里看不到
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校同时允许报几所自招高校？计划招生人数包含在决赛现场签约的决赛生吗？初审通过是最后认定资格的多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！专家推荐是必填项目我，如果没有是否会影响资格审定？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问签约生是否需要参加自招，如参加还是要占自招比例的5%吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问申报贵校，还可以申报其他几所学校？有无限制
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问学生有全国数学联赛证书省二等奖可以报名吗？谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+招生老师您好！从贵校的简章上看，如果没有“补充证明材料”的话，是不是只需邮寄签字盖章的申请表？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校报考自主有限制吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+孩子高中阶段获省青少年科技创新大赛一等奖是否可以报名，通过初审的可能性大吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+听说部分高校对学生申请自主招生的高校有数量限制，请问清华有没有这方面的限制？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校申请条件一说“具有各学科竞赛突出特长的学”是怎么界定？具体是省几等奖或全国几等奖，另外贵校允许考生同时申请几所大学，会不会因为考生同时申请两所而影响初试资格，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生限报几所学校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：1、请问简章中的自主招生入选资格人数是最终认定人数还是初审通过人数？2、复试的体质测试结果是否是以分值计入复试总分？还是以等级作为一个过关条件？3、自主招生入校的学生以后是否可以转专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请教老师：我孩子围棋业余5段，省赛女子个人第2名，想申报贵校自主招生，可以吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+有一实用新型专利已经授权并转让，可以报贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是一名贫困地区学生家长，向往清华，不知清华实施贫困地区专项计划吗？有何优惠政策？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+简章中第六条第3小项复试：我校将根据学生初试成绩分省、分科类、分报考类型确定初试通过名单。请问，分省是否是每个省分别预留固定名额？各省学生在此环节仅仅是与本省考生竞争？最终认定时则是全部学生在一起竞争？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，(类型1：学科竞赛类)具有各学科竞赛突出特长的学生可以是高中阶段获得的省级学科竞赛二等奖得主吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我孩子获得贵校2014年暑期班紫荆学员，在自主招生时有优惠吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问清华自主招生限报几个学校？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对报考院校个数有无限制？体质测试具体什么内容？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+初试是在清华考吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校自主招生体质测试测什么科目？怎样算优秀？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么时间发布招生简章，报名时间是什么时间？需要纸介质材料吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!自主招生章程何时出来?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许同时申报几所大学？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+竞赛证书成为学科潜质的唯一证明吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自招方案还没出吗？在哪能查到？期盼你答复！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校的招生简章何时发布？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华高水平运动员能否选专业专业?能报考哪些专业?另外听说清华毕业的高水平运动员毕业证书和其他专业学生不一样，加盖体育特长章，不知是否这样？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生简章什么时候出来，现在还查不到。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，省级二等奖，能申请吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：一定要竞赛获奖才能报名自主招生考试吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生加分后和本科一批同时投档吗?录取专业时，自主招生考生和本一批考生以高考实分按从高到低录取吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学自主招生什么时候开始谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校自主招生什么时候开始报名？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生政策会在什么时候出来呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问清华大学2015年度的自主招生计划及章程是否已经确定？会在什么时候发布？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校2015在甘招生计划有增加吗？具体数字多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生有安排吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学对2015级的考生还有以前的“领军计划”吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学没有自主招生吗，为什么是黑色的，点不开
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学医学部自主招生条件是什么？何时开始报名
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想问一下贵校的自主招生简章什么时候能公布？怎么样才能有参加自主招生的资格？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，2015自主招生简章什么时间能看到
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！老师，我的目标是清华大学！为了稳妥，我想参加该校自主招生，请问2015清华还有自主招生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问清华的自主招生简章什么时间能发布？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+各中学有推荐名额吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华的自招章程还没下来。我想问问：我没有各项竞赛的加分，成绩很好，是否符合清华自主招生的条件？能否参加自招？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:自主招生简章啥时间能出来?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+怎么找不到自招简章
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问招生简章何时发布？自招前已签约很多，还有多少名额？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+希望看到简章。希望简章不要以竞赛作为门槛
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+奥物全国决赛二等奖有报名资格吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+需要什么条件才能考入
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问招生简章什么时候公布
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好，我是河南师大附中的学生，咱们的简章什么时间能出？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学自招章程什么时候出？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+咨询自主招生的条件
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的自主招生简章什么时候公布
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校是否开设了留学预科班？是在自己办的吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学招生计划的不分来源省招生计划中包括自强计划吗，是不是自强计划考生只能填报带有农村自主选拔的专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校保研、考研是否有限制？必须是985的本科生吗？211或其他院校的可以吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我通过了贵校的艺术特长生专业测试，请问报考贵校有专业限制吗？可以报八年制临床专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请教艺术特长生的录取分数线是以本省的提前批次的贵大学的录取线还是以第一批次贵校的录取线为准，在此基础上进行优惠？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校本科提前批都是国防生和定向生吗？定向生一般都定向在哪儿呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我与其他学校签了自主招生，可以填报贵校的贫困地区专项招生吗？贫困地区专项招生的提档线是否单独划定？贵校的自主招生是否包括在本省的招生计划内？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！看招生章程，清华的提档比例是百分之一百二十，那如果我的总分没什么优势，加了武术10分上了贵校的提档线，被提档后，专业服从调剂，会被退档吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，清华大学录取时专业级差具体是多少？谢谢！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+阳光高考网站，为何查不到清华大学自主招生名单？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我的一只眼睛近视达800度，如果没有被所选专业录取，如何调剂？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，阳光网上查不到贵校自招名单，请问何时公示？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华公布的招生计划是否包括校长推荐生、自主招生等在内？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：1、贵校专业志愿录取规则是怎样的？2、假如甲同学（填报的专业未能录取）在没填报某专业而服从专业调剂且分数比填报第一专业志愿的乙同学高的情况下，会优先录取谁？3、是否是优先看所填报的所有专业志愿后再看可调剂专业？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问裸考生考进清华后，已有的奥赛信息学一等奖是否能被优先考虑进计算机专业？建议清华考虑一下这种情况，毕竟对信息学来说有兴趣才会获奖，我相信计算机系也希望招一些对本专业感兴趣的学生。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，曾经在贵校的咨询区看到一种说法：“所有考生的专业录取都是以实考分进行的；自主加分进档同学的专业录取是单独进行的，不与高考成绩（含加分）达到我校录取线的同学一起进行专业录取”，是否任然适用
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校在本省公布的录取人数是否包括自招，保送，艺术特长等获得认证的名额？2.贵校在专业录取时采用哪种方式：分数优先？志愿优先？专业级差？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华色弱受限哪些专业?网上查生命科学专业受限,如果考生很想学生命科学专业能破格录取吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，有线上加分，高考裸分上你们的提档线，专业录取时以裸分还是以加分后成绩为准？谢谢老师。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华招生除了自招,高考统招外还有哪些途径,各占比例多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生加分的考生，如果他裸分（或含政策性加分）够清华提档线，没有使用自主招生加分，那么这个考生是走自主招生名额、还是走普通录取名额？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高中加盖公章后，将自主选拔（拔尖计划）寄回贵校，担心没收到，向贵校电询也未可知。影响报考和招生吗？怎么补救？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：新生报到时会有若干专业进行二次招生，考取后，相当于放弃原专业，转到新专业么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！想落实医学实验班（临床专业）报考的全部条件及录取分数在各专业的高低水平？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！高考录取专业时，是看自主招生考试填报的志愿，还是看高考后而填报的专业。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，因为招生章程中没写，想确认下是否已提档考生在政审、体检及志愿服从条件下不会被贵校退档
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问2014年3372名招生人数中是否包括保送及自主招生人数？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华在专业录取时是采用分数清还是志愿清？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+相关科目高者是否优先录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问近几年清华录取的裸分考生占多少比例？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+2013志愿满足率95%是指第一志愿么?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+取得协议降分录取资格，与裸考分者同时录取或是有先后之分？填报专业和录取受竞赛科目限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我已和清华计算机签约，平行志愿还能报其他学校吗？清华还能报其他专业吗？要写服从调剂吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+无学业水平测试成绩和考生综合素质评价的以同等学历身份参加高考的考生，清华录取时有限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+复读生能报考国防生吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问报考清华女国防生都需要哪些准备？比如体检、政审和预支相关的具体要求？还有如果在提前批通过了贵校的国防生，自主招生和本科一批次的志愿还会考虑吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华保送生录取通知书何时发出（上海）
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，提前批是指什么。有什么条件之类的。和国防生，定向生一样么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+“连片特困”招生计划对考生有什么具体要求？毕业就业有什么要求？和普通招生计划有什么区别？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+省三好学生可以加分吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：1、已经获得领军计划的考生在录取时，占本省的招生计划吗？2、获得领军计划的考生如何选择专业，有无限制？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批定向生录取是按裸分还是考虑其他加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想报考贵校的国防生，但我又通过了浙江大学的自主招生，如果分数出来后，我的分数不够贵校的国防生分数，那么就可以放弃军检吗？这样会不会影响浙江大学的自主招生录取？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生是否占学校计划？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生的体检合格标准是什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校自主招生线下考生不占用本省招生计划，那自主招生考生报考专业志愿是必须选择本省招生计划内的专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生录取分数一般比普通类低多少？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业选取上，有加分的学生是否占优？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在桂招生计划包含保送和自主招生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好！我是河北考生，如果我实考分不够贵校的投档线，加上政策加分（学科竞赛省一等奖）够贵校的投档线了，并且服从专业调剂，贵校是按实考分进行专业录取，如果所选专业都没录取，但服从专业调剂，这种情况下会被退档吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校每年学费、住宿费是多少
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，领军计划协议中未有专业志愿，在高考报考志愿时可以自己根据情况填报吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+医学实验班国外学习费用是多少？和在国内相同吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，平行志愿填报服从调剂好还是不服从好？若不服从，没有被第一志愿学校录取，会不会影响其他5所学校的录取？恳请指导
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+省优秀学生干部加分是否可选专业？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批的定向生专业能调剂吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+中核定向生是在一批次报志愿还是在提前批？如果在一批次报志愿，是否可同时报非定向专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校专业级差是多少？怎么选择专业才能拉开梯度，报考的专业必须是在本省有招生计划的专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问清华有自考吗？自考需要多少分呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+孩子一眼弱视
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+生命科学的在校生多少呢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：前面回答了达到贵校录取分数线，专业服从调剂，不会退档。“录取分数线”是指实考分达到还是算上加分后达到的？谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生提前批裸分录还是加分录取，本一批调剂录取的进校后可转专业吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！我体检的裸视为4.0，矫正到4.8镜片度数是500，能报贵校的定向生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，我想问一下，各专业对近视眼度数有限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，艺术特长生可以报考清华所有专业吗？是否有特殊的特长生招生计划？如调剂专业，是否与考生联系？是第几批次录取？如裸分考取，加多少分选专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+女生身高不低于160，是不是说160就可以报国防生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想问的第二个问题是：若高考取得较高成绩在自主招生批次填因专业不服从而没有录取，是否影响在一本批次填报清华大学？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+视力：近视一眼300、一眼350，无色弱无色差，能报考医学部临床等专业么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问已被清华大学认可的艺术特长生，是按照本人的意愿录取专业还是与其他考生按分数排队录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问获得自主招生加分的学生，加分后达到贵校录取线时，是否同不加分达线同学同批录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+孩子身高1米6能报清华的提前批国防生志愿吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请教，“第十六条清华大学的部分专业在部分省份招收国防生和定向生。当在清华大学本科一批录取分数线上报考国防生和定向生考生人数少于招生计划时，可在本科一批录取分数线下20分之内调阅有国防生和定向生报考志愿的考生档案，按照志愿优先的原则设定一定的分数级差，择优录取。”，是按照志愿排序，志愿优先吗？，谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请教，“第十六条清华大学的部分专业在部分省份招收国防生和定向生。当在清华大学本科一批录取分数线上报考国防生和定向生考生人数少于招生计划时，可在本科一批录取分数线下20分之内调阅有国防生和定向生报考志愿的考生档案，按照志愿优先的原则设定一定的分数级差，择优录取。”是否是说，如果我第一志愿定向，另一考生第五志愿定向，虽然他分数高，也先录取我？，谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，你好！请问学习电气方面专业，以后就业从事什么工作，具体做什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问您能否提供清华各专业的就业率与就业方向？haobyujie@126.com
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！我在清华招生网上只能找到“学堂计划”的专业介绍，请问在哪里能找到其余专业的介绍？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少？若服从专业调剂会在所有专业范围内调剂吗？是否会征求考生本人的意愿？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校美院在我省招生老师地址和电话是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果平行志愿A志愿没有填报清华，B志愿报考清华如果分数够的话（不高）会不会学校不予提档？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我考了640，有希望进贵校吗？谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+633能上贵校吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+大约有多少人因为投档率大于100%儿被退档？被退档的几率大吗？被退档是否意味着高分无好学校
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题感谢回答
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问不宜就读专业是否影响学生的录取，服从专业调剂是否有可能调剂到不宜就读专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:自主招生和国防生都在提前批,填报志愿有冲突吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！我填了服从分配会退档吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学对贫困地区定向招生分数有特别要求吗，如只可低于在该省一档控制线多少分还是按报了定向招生的考生成绩分数从高到低录取而不严格限制分数？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否认可体育加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的专业志愿级差：第二专业志愿比第一专业志愿高，还是低？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问专业调剂时是否按照志愿表上的顺序？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（比如说中南大学的综合素质测评）
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问报考国防生如何填报志愿，国防生与普通学生分数相同吗，国防生在高考前没有提前申请吧？谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您们好！我是一位通过清华大学自主招生“领军计划”的学生，请问实考成绩是否可以加上少数民族20分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校建筑系是否需要美术加试。如果有，如何加试，加试内容及时间。谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保送生是否占公布的招生计划数
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生占招生计划吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：近视800度以上，学汽车工程专业会受影响吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1.医学专业包括哪些？大致分数段是多少？，2.贵校建筑专业需加试徒手画吗？如果不合格都调剂到哪些专业？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我有同学已保送普通大学,要是他分数线达到,能否报考贵校国防生?(届时他已拿到录取通知书)
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+省级三好在录取时是否加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+华约成绩205，有贵校艺术二级证书，高考敢报吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+前边老师回答了招生计划中不含自主招生，那么专业如何分配，比如：计划是10人，A专业人，B专业5人，自主招生假如是1人，自主招生的1人是在A专业中录取还是在B专业中录取，录取规则是什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果被清华录取后，不满意专业的话有没有什么办法可以调剂呢？如果不能调剂专业，是否可以选择学修第二学位？希望老师尽快给予答复，翘首期盼~
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有年龄限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师清华2012在京提档比例？是120%吗？是不是招生计划190+38（20%）=228人谢谢！恳请务必回答
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生需要与定向单位签订协议的时间是在录取前还是录取后进行？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生培养方向
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华还有点招名额吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学专业录取时省级学科竞赛二等奖与省级三好学生是否有加分政策？如果不加分会不会择优录取？要填写什么表吗？，注意不是提档时加分是专业录取时加分谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+【老师您好】提档了有可能死档么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生批和本科一志愿批何时能从何处查到是否录取以及以何专业录取?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+只知道提前批中有定向生，如果我没有报提前批，而是在一本中报考该专业，会被调剂为定向生吗？报考一本中的专业是不是都不是定向生或者国防生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问全省前十名有没有新生奖学金？标准是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校定向生有什么前置条件吗？或者说有什么特殊要求才可以填报志愿？大约要多少考分彩可以填报？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！贵校有专科层次录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批填报了清华和北大，第一批中还需要再填报吗？提前批如果不取，第一批会取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是二本，能不能上贵校的某些专业？本一以上择优录取是不是就不考虑二本了？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有自学班？如有，报考自学班有什么要求？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生是要先跟单位谈好协议，签订合同的才可以填报定向志愿，还是只要上了一本线没有定向协议的也可以填报志愿？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好:请问,通过自主招生被清华大学提档后,专业录取是否同正常达线同学一样按实际考分录取?还是正常达线同学专业录取完后,才考虑自主招生提档的同学?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报志愿时报定向生是否影响本一的录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问自主招生的考生会单独列出选择专业吗，还是所有录取的考生一起排名选择？而且这不在计划之外，我们自主招生的考生又怎样选择呢？没有任何相关信息，比如投放了哪些专业的指标，每个专业要多少人。若服从专业调配又根据什么来调配，会尊重考生的意见吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+可以介绍一下吗？高年级转向临床可以吗?具体如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我考633分，有多大希望可以进入贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：招生计划中电子信息科学类是在哪一个系？电子工程系和微纳电子都有吗？什么时间分流？谢谢老师。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考清华大学的研究生吗？每年有多少外校学生考入清华读研？二本生每年占多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例是多少？是否会退档【在同意调剂情况下】谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我想问问补习生能否参加阳光高考，会不会有什么限制。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一下我填报贵校的定向生，未录取是否会影响我以后正常录取。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是山西女考生，估分650到660，报清华有把握吗？报什么专业把握大些？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校有的专业注明招英语语种考生，请问报该专业还需要口语成绩吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华是否提供双学位
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问.录取线是指扩招后的最后一名考生的分数吗?谢谢!
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师!请问:1、录取专业时有含政策性加分吗?2、同分考生专业录取顺序政策性加分考生有优先吗?还是按怎样的学科成绩顺序优先录取?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的定向生是指毕业后必须到某地某单位工作吗，定向生是否允许考研究生硕士博士毕业后再去工作
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。我自主加分后预计才可达到贵校录取线，但专业没有加分，请问应如何填报专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，贵校定向生需政审吗，需体检吗？有服务年限吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些优势学科（国家一级学科）适合女生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业比较冷门？即相对分数比较低些，以备报第一专业录取不了时报第二专业用。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问学校公布招生专业少于要填报的5个，该如何填报
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提档后服从调剂，体检没问题会不会退档
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提前批有哪些？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果我达到你校分数线，一本第一志愿报的你校特色专业（其它一本志愿均未填报），因不服从专业调剂而不能被你校录取，会不会成为“死档”而不能参加第二批录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，阳光平台已经公示保送，不参加本年高考，是否影响开学后其他？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+负责本地招生老师说可以报，有没有提档又退档档情况。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校保送生人数占用招生人数吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我有其他高校自主生预录取资格，高考时如果发挥得好，填报贵校可以录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是否平行志愿省份服从调剂不退档？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问大厚本中的录取人数都是通过高考录取的吗？专业调剂时会征求考生意见吗？是否会调剂到定向生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校小语种专业，入校后是否有转专业的机会
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+全国中小学电脑制作活动中一、二等奖获得者，可否参加清华大学的保送生考试
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我省高招办答复说自主招生都不占统招计划，而贵校答复如果用到了降分优惠才上线，则不占用计划；如果实考分上线则占计划，到底以哪一方为准？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果入学后转建筑专业，请问需要什么条件？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+有自主招生资格的考生占不占统招的名额山西
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生资格的考生，高考后填报志愿时如果加上自主招生时获得的加分被贵校提档，是不是一定会被贵校录取！?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师:调档线是根据高考的裸分确定吗?对当地政策性确定的加分和降分投档是怎么操作的?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：2,4专业受限是什么意思？请详解。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我省自主招生考生在提前批填志愿，但如果有的考生不在提前批填志愿，而在一本批次填志愿，这样录取的学生会不会占本省的统招计划？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我的孩子已获其它高校自主招生优惠资格。高考时如成绩达到贵校分数线可填报吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+40个都是什么专业？具体明细是什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问获得的自主招生加分，在选择专业的时候可以用吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问裸分报考清华有多大的可能？是不是清华录取的基本都是有加分的？能告诉大概的比例吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问安徽各专业详细招生计划
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！我孩子已参加自主招生被其他学校预录取，请问高考中达到贵校的录取分数线还能报考贵校且被录取吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+57里15个国防定向生，比列很高！非定向生除了那些得到加分的同学很难进清华啊，请问老师：国防生的招生在身体合格的前提下也是从高分到低分吗？招生重要是学校来执行还是军队委派的同志来执行的？没关系的可以报国防生吗？，听说军校的招生是看高考分面试分军检分政审分相加的总分，但是这个是传说啊，因为军校的招生的分数不对外公布，我们很没底。。。罗嗦了，感谢老师！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+以及国防生的计划谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问每年裸分考入清华的人数有统计吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生自荐清华未过初审。高考实考分相同的情况下，如果考生提供7校联盟自主招生笔试成绩，是否有优先录取的可能？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，自主招生的录取是否占用分配到省的统招计划指标?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师:服从志愿调节是在贵校在当地招生计划内的专业间调节吗?未在当地招生的专业可否调节?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生加分的同学中靠实考分上线的比例大约是多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师:，关于之前的问题回复是:自主招生的同学如果用到了降分优惠才上线，则不占用计划；如果实考分上线，则占用计划。，这样一来,学校在某个地方的招生名额是否会多余计划名额?用到降分优惠才上线的同学,即使服从志愿调节,是否有被退档的可能?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高考清华是否加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生毕业后，必须选择到定向单位就业吗，可不可以继续读研和读博或选择其他就业渠道，多谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师:请问已获自主招生加分的同学是否占用招生计划?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问：1我的分数587（实分，无加分）怎样才能考上贵校，能教些报考技巧么？2是否完全服从调剂还会被退档？3贵校接收复读生么，是否一视同仁？问题多了些，谢谢老师（不想再复读）
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，我想问一下，报考了贵校后，我如果是服从专业调配，有没有被退档的危险？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是附中学生，672都临床机会大吗？？（不含加分）
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+3.协议上所说的正式填写后的2天内，是指填写后的2天内还是确认志愿(签名)后的2天内，4.我已将成绩等以电子邮件形式告知艺教中心，不知是否收到?，如何能知道贵中心已收到?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校的中外合作办学情况?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报定向的考生能否享受自主招生优惠
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学志愿分配是按照裸分还是总分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，贵校有预科生吗？有什么条件？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：，报定向生有政策优惠吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在志愿表上填的五个专业在录取上有没有先后顺序啊？是不是写在第一个就会被优先录取？，还有什么没有专业分差是啥意思？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校的核工程核技术专业对视力的要求，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华国防生对视力要求是什么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华保送生，到学校后，还可以调整专业吗？谢谢回答！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1.车辆工程专业介绍？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果上清华日语提前批次，请问可以兼修什么专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：1.一本平行志愿的A志愿有9个专业，是否有一定的优先顺序？2.当贵校调整服从专业调配的考生时，是否会询问考生本人的意愿？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您辛苦了，请问：1、清华的录取分数线如何划定，计算政策加分因素吗？2、录取含政策加分吗？2、自主招生降分录取的同时，政策加分能累加吗！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，贵校的专业级差为1-5分，什么情况下级差1分，什么情况下5分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！贵校每年的招生计划与实际录取人相差是比较大的，请问在么情况下会增加招生计划？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+今天上午的咨询会未参加上，请问怎样联系咨询老师？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，很想报贵校的国防生。可是又恐怕体检太严格，不合格影响了孩子的情绪。如果报的是非指挥，体检要求也一样很严格吗？有疝气，没问题吧？（没有任何痛感）
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问：取得贵校第二学位的渠道和规定有哪些？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!咨询两个问题：1、报考贵校并录取上学以后，如果想要调整专业的话，是否有这样的机会和可能？途径是什么？有哪些条件要求和规定？2、贵校对于保送研究生的条件和规定有哪些？谢谢您！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校复读生通过自荐可以参加贵校的自主招生考试吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+已签了高水平运动员拟录取的考生，协议中要求知道高考成绩后应马上传真或Email成绩单给清华，但如果高考成绩与协议要求成绩差几分的话是否还需要传真成绩单？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，在贵校学习的国防生，毕业后将如何分配？是否可以继续学习研究生、博士生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！，估分695，一志愿可报建筑吗？如不录取，还有选志愿的余地吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校定向招生提档线与统招线一致吗？或者是两个线两次投档？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术类招生提前批录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，我已获得贵校自主招生资格，如果我在提前批次志愿中填报了贵校。请问：在第一批次志愿中，是否还须填报贵校。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下，省级优秀学生加分是只在学校录取的时候考虑，专业录取的时候看裸分，还是在学校录取和专业录取的时候都考虑？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生、定向生都是如何录取的？需要多少分数？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我在最好的高考博克里看了相关政策，决定报贵校，但不知道贵校情况，能否介绍一下：http://blog.sina.com.cn/s/blog_6598a8380100hjpm.html
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业分配是按照实考分数还是按照加分后的分数报，分数不达贵校在本省最低录取线，加分后达，专业如何报，如何调剂
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+省优惠政策加分与自主招生加分是否可累加
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问如果被贵校提档后，服从专业调剂是否还会被退档。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在分数达到所报专业而有服从调剂的情况下，对考生的专业是否会进行调剂？谢谢老师。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批录取的是哪一部分生源？是指定向类里面的国防生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！！，孩子在外地会考的，返京后没有转过来成绩，录取时候是否必须要会考成绩，没有怎么办呀？？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生加分后只要过提档线，就可以单独排队在与招生计划相同的专业内进行录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师说：“艺术特长生填报志愿方式与普通学生是一样的，但录取时会单独排队，按照实考分顺序进行专业录取。”是不是说：艺术特长生无论过提档线与否，都会按与招生计划相同的专业进行排队录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是自主招生学生，低分提档后，如专业服从调节，调剂范围是否在我选择的6个志愿中呢？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我若报了贵校国防生和第一批次，如果分数达到了贵校的第一批录取分数线，是否能够放弃提前批次而参加一批的录取？具体怎么做呢？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+假设被贵校录取到调剂专业，上学后能否还能调到其他专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否可以转专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问陕西高招咨询老师联系电话，以便更详细问一下报考专业问题。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问：1.如果专业调剂是不是先考虑从考生所报5个志愿中选择？，2.贵校专业调剂的级差1-5分是怎么定的？所报5个志愿的级差分累积吗？，3.如果高考分数需要加上自主招生加分才够提档线，是不是专业基本上不考虑所报志愿？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是在本省招生计划内的专业调剂，还是在学校范围内的所有专业进行调剂。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+假如有一个考生是你校已经确定的自主生，而且考分很高，达到了不是自主生的投档分数线，那么这个考生的录取是算在自主生计划内，还是算在正常招生计划内？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，清华医学院生命科学-医学药学实验班对视力的要求。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问那些省市属于贵校自主招生计划单列地区
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我若报了国防生和第一批次，如果分数达到了贵校的录取分数线，是否可以放弃提前批次而参加一批的录取？具体怎么做呢？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+填志愿需要填专业方向吗？考专业的时候我报的是艺术设计专业可是忘记了所填的专业方向怎么办？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我孩子是应届毕业生、奥赛获奖者，请问高考分数出来后在全省大约排名多少才有可能上贵校？谢谢！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿服从调剂后，是否保证不退档？被录取后，如果非常不喜欢所学专业，是否能有机会转专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，我想知道北京高招咨询老师联系电话，以便更详细问一下报考专业问题。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有几个图书馆？一共大约有多少图书？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果我上了其它大学，经过一番努力，想进入贵校，请问有什么方法？（读本科期间），能不能考一下试“转学”啊？，非常感谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的自主招生名额是在下达给各地的招生计划内吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问法学专业就业率是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+投放的具体专业及专业人数
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+录取时，是专业志愿优先还是分数优先？如：A考生以甲专业为第一志愿，且甲专业的一志愿报考人数不满足招生计划；B考生第二志愿为甲专业，减去专业级差后分数仍大大高于A考生。问：先录A考生，还是先录B考生？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+可否报贵校？哪些专业可报？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学专业级差是多少？1/2/3专业之间各是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩进入提档线且专业服从调剂，会退档吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+小语种提前批考入贵校，入学后能否再学其它专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想问每年保送生的程序，怎样申报。每年贵校如何确定某中学名额数，是依据保送生报考贵校考试合格的人数还是其他的什么原则？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问如果专业调剂是不是先考虑从考生所报志愿中选择？贵校专业调剂的级差1-5分是怎么定的？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在一分一档统计表中，如何知道某一分数区域范围内有多少人享有自主加分，知道后便于报考。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+右无名指末节缺失专业有何影响
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，如果报考贵校，提档时贵校对省级三好学生的加分是否认可，专业服从调剂，是否会被调剂到医学专业？，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业分级差是几分？如何分等级差，优势专业是哪几个？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在同一省份，A同学裸考被清华提档，B同学由于享受加分才被提档，两同学同时报考同一专业，而该专业中有一个名额，请问：录取谁？为什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我在这里看了相关政策，但不知道贵校情况，能否介绍一下：，http://blog.sina.com.cn/s/blog_6598a8380100hr4c.html
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+被贵校录取上学后，能否还能调剂专业。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问复读生能否参加贵校的艺术冬令营艺术特长生测试，不报考本校艺术特长生，只参加等级测试，希望得到您的答复。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生报考专业是否受所在省招生计划限制，比如：该省计划没有新闻专业，艺术特长生能报吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+学校提档后专业录取时是分数优先还是志愿（专业）优先？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请介绍贵校密码专业的有关情况好么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，如果报考贵校，专业服从调剂，是否会被调剂到医学专业？，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+海淀一模614分540名、二模641分报贵校有点希望吗？低分专业主要是什么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，请问，清华什么时候可以出来录取结果。，我提前批报贵校，好渴望早点知道结果，，，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问如何从外校考研到贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，我这次考试没考好，也就685.请问能否进入贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我的省排名是151，可以上吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学经济管理学院在山东考区有哪几个专业招收文科生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生怎么录取，是根据成绩从高到低录取吗？如果没有上一本线的有没有可能录取？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+总分1022能被清华美院录取吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问如果由于填服从到自己不喜欢的专业，以后可以换专业的吗？，还有，可以读双专业吗，自己随便选的还是有范围的？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+麻烦您给我贵校招生人员在青岛地区的联系方式
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+这个名次，报考是不是浪费？还是老师还是会建议冲冲看？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校网站通报的06-08年录取分数是提档分还是实考分？谢谢！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生在校学习期间，如生病身体达不到军队要求，能否转入普通班？如不能会怎样。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请老师介绍下定向生工程力学与航空航天定向中国兵器工业集团总工司的权利与义务和相关情况
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生与普通生在校时及毕业后的待遇有何差别？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+同学686全省42能上什么专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，需要口试的专业有哪些？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+北京地区清华大学的提档线什么时候能出来?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1.国防生毕业后被分到哪（会是很偏的地方么）？要在部队干多少年？，2.国防生分数要求是不是偏低，大概低多少？，，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+排名１８０，能不能冲清华？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问投档比例是多少？服从调剂会否退档？女生是否适合工科类专业？就业前景如何？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么专业最好
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+全省70，请问报贵校有望吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，你们学校最有潜力的是什么专业啊谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+选专业时加分算不算？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学是否有双学位？若有，对选修专业有何限制?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+色弱能否报城市规划与设计专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+博思考试在社会上的含金量怎么样
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+服从专业调剂的学生入学后能否在另选专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哪里可以找到清华历年各专业的录取分数线？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的协和医学院是否招收外校的考研生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学是否允许在京的其它高校学生在清华修学清华大学的专业课程？如果可以，可否获得清华大学的专业学位证？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问生命仪器与科学属于哪个大类
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果高考实际分（不含加分）在投档线左右，被退档的可能性是否很大？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业报考人数较少且就业率较高？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生是否不去体检就不会录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学主要的主打专业是什么？什么专业可以很容易的找到工作？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+考入贵校后想改专业都有什么规定
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批进的能转专业吗，我们这是定向的
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校在提前批这近几年的录取分数是
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+假如我已通过其他院校自主招生选拔,而分数又达到贵校分数线,报考贵校是否受影响?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报提前批有那些专业?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的哪些专业可提前批录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哥们，学人工智能，机器人制造，应选哪个院校，什摸专业？拜托！！感激不尽
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:1.清华定向生会招女生吗?，2.贵校在定向生方面对应届生和历届生是一视同仁吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，清华录取时有专业级差吗？如果有，是多少？另外，专业调剂是在该省招生计划所列专业范围内调剂还是在贵校全部招生专业范围内调剂？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么时候体检？如果体检不合格，影响不影响一本A的录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生体检，如果进校后体检不合格，在取消国防生资格后，是转入其他专业，还是直接退档开除学籍发回原省?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+参加了贵校艺术特长生测试（单簧管），获一级证书，但未签订协议，在达到贵校投档线后能否获得专业加分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问招收国防生有没有身体条件限制?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+想咨询贵校,获自主招生加分的考生,如果分数通过加分刚好达到调档线,被退档的机率有多大?在什么情况下会退档？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后的工作状态如何?工作时间?工作单位?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生资格考生的志愿填报应该在提前批次，那么在第一批次志愿就不要再填清华大学了，如果填了，就会造成提档线的失真，是这样的吗？，如果提前批次不能录取，第一批次更不可能录取了。，提醒各位自主招生资格的考试，千万不可在第一批次志愿中填清华大学，这样会造成提档线的上升。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，贵校国防生大概会是多少分录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，我国重本七十分有望被贵校得医学部录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生一般高出重点分数线多少?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是贵校一名自主招生的候选人，填报志愿时需把清华大学放在提前批填报，还是在平行志愿中的第一志愿填报？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生在校时有无特殊规定，和普通本科生一样吗？通信是否受限？恋爱问题受不受限制？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我孩子高考估分659，报考贵校是否有风险？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果实考分加政策加分才能上贵校,专业上能有选择余地吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+看来清华就是不一样？几个小时一个问题都懒的回答。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校在提前批和一批中均招收定向生，请问这两个定向生有什么区别吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后需服役多长时间
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报考国防生后若面试、体检不过是否会影响本科一批录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+钱学森力学班前景如何？学什么？贵校给此专业配备了怎样的教学条件？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我以获得贵校艺术生资格（降60分），估分640，是否有希望被贵校计算机系录取。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问1.清华大学对学生转专业有哪些要求，有哪些时间和专业选择上的限制，非医学类学生是否可以转到医学专业？医学专业是否可以转到非医学专业？，2.清华大学有哪些专业可以修双学位？，谢谢老师，您辛苦了。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在专业调剂前，是否征求考生的意见？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+据说贵校在自主招生中给了专业级差优惠。即如果具有自主招生资格的学生实际考分达到了提档线，可以保第一专业或前三个专业录取，或给1个专业级差到三个专业级差的优惠。请问，这种有专业优惠的学生占自主招生资格学生的比例有多大？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+学生就业前景怎样
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：省招办的政策性降分，清华是否认可啊？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+色弱较多专业录取有限制,弱视有限制吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。专业本身有没有级差顺序？是否任意一个专业做第一专业，然后任意一个专业减去相应的级差分，作为第二、第三专业？，一批次和二批次之间有没有级差？级差是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占不占计划指标，专业排队以实考分还是以家加分后的分数排队
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问复读生是否可以报考国防生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是有风险
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1、专业调剂，调剂范围是在考生所在地区高校投放计划的专业之内，还是在高校所有的专业之内调剂？，2、基地班如何招生，只在有计划的地区招吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果想学物理类的专业，请问清华大学有哪些专业比较合适？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我女儿参加清华美院专业考试已入围。为了能把握好填报志愿，想知道专业成绩在各分数段的人数是多少？谢谢老师！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校公布的各专业录取分为考生的实际考分吗？恳请回答，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有预科班吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+阳光高考平台上公布的清华保送生拟录取名单是否已经完整?就是说没有公示上的就没有被录取为保送生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+对于山东学生，清华大学录取时学业成绩水平测试是否要求全A.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问能否大学课程提前修完？如果可以要怎么做？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1、国防生属提前批吗？，2、如果报国防生政审或面试未通过，是否影响其参与清华或其它本一批的投档？，3、国防生在本科毕业后，是否还可以直接考研，还是必须先到部队工作？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生在体检方面有特殊要求吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后的去向是什么？收费与普通生有区别吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+咨询
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想请问一下,进了贵校就读后,能否换专业?谢谢.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业级差定了吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我视力达不到国防生的要求，能不能不去体检？如果不去体检，对我本一录取会不会有影响？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我打算提前批和一本都报考清华，那么请问如果贵校在提前批已录取我了,那会不会因此"吞档"而使我没有获得一本专业的机会?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+有自考招生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了640，不知有希望被贵校录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我高考总分668，排名132，能否被贵校录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我想上清华,但看我的分是不行了.请问以后考研怎样考到清华呢?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+该校的录取看不看会考的成绩,会考的成绩好坏与录取有没有什么直接关系?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生除毕业后直接去单位外还有哪些政策啊？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+那些专业需要出国深造
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+可不可以
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果填了服从调剂会不会被不服从且分比自己低的同学挤出该专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生本科毕业后是否不能自己选择考研专业？要考研是否还需有关单位批准？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我的总分669，排名122，能否进贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+该大学在录取时看的是考生卷面分还是加分后的总分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+孩子估了640上贵校国防生(女)有希望吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+关于转专业、第二学位、分数级差咨询？，1、录取后是否可以转专业，若可以有何条件？，2、哪些专业可以作为第二学位，学习第二学位有哪些条件？，3、专业间的分数级差是多少？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了:647+10,报贵校被录取的希望多大?谢谢,
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，我指得是主体民族与这些加分条件，可以吗？可以加到30分吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您能从具体操作上介绍一下专业级差吗？比如第一专业志愿录取时所有考生都不考虑后面的志愿吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+非常感谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我想咨询一下,贵校是否有高分二视一的政策
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在选取专业时,如果没有优惠政策，那参加自主招生考试就是没有用了不是?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生在高考时分数达到录取线，请问在选取专业时是否有优惠政策
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+招生体检标准中的“不宜就读”专业，就是不能报考是吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校建筑专业和环保专业对色弱限制吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是已被别的学校确定为自主招生，且已填报确认表，但我估计考分较高，还能报清华吗？谢谢老师回答！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问有无2+2、实验班、特殊奖励计划、实习机会之类的设立？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的回答!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华能否学双学历（位）？要什么条件？能否转专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有二级学院或者独立学院吗如果有怎么收费都有哪些专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华与北大到底哪个好啊？？？？？？谁是老大？？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想报考你校的提前本科定向培养生.请问:定向生入校后能否申请转为普通生本科生?定向培养生本科毕业后能否直接考研?定向生毕业分配时,是否一定要到定向公司工作?如何选择其下属企业?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问省排名2000名左右，有多少希望被贵校的定向招生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果本地招生组老师承诺贵校录取，贵校是否可保证录取该考生?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+氢能源和制氢专业是否属于能源类
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华各专业是否存在级差？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+选择双学位,辅修科目是否任意选择?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+不好意思，我对贵校对具备自主招生资格的同学的录取程序不太清楚，这些同学为什么不会影响到高考统招名额？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+已看到老师答复，非常感谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学有哪几个专业是国家重点(驰名)专业,她们的就业前景如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是贵校自主招生的学生，如果报该校的提前批次专业，那也是降分录取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了635敢不敢报这个学校
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+双A+加分么?加多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，假如我被调剂，是否会被调剂到定向专业里？我估分６５７，是否有希望
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我选修可以保证是双A+必修都是A语数外成绩也很好,高考发挥也不错,报考清华有多大把握?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问热门专业一般高出分数线多少
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华电子信息专业的国防生是与哪个国防单位签的定向协议？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否为零表?，若报考贵校是否影响对一表的录取?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+学生想修双学位的话，是不是同一系的两个专业相对容易些？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批录是否招女生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+一考生加分后与另一考生同分，请问此二者的录取有无先后。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果考生达到贵校提挡线,我省生源较好,退挡的可能有多大?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的好多专业在不同的学院都有设置，而在招生计划表中没有明确的区分，请问如何知道是报考专业属于那个学院？为什么不做个明确的计划呀!!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生与本一志愿是否相互影响？定向生是否是提前批？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报考提前批的军校一共有三个志愿，是不是第一志愿没被录取第二志愿就要降一个等次，或者减去几分十几分了在去录？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是否愿意录取第二志愿考生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如何淘汰多出20%的提档考生？按100：120提档后，学院是按什么规则淘汰多出提档20％。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华招生组到安徽了吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是不是分数很低的学生就一定与贵校无缘？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生的某专业计划名额是否和普通生相对应的专业计划名额一样？如不一样又是怎样规定的？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+录取分数在河南会多少
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，进入清华后，什么样的学生、何专业、什么情况下可以转专业？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若在贵校学习一段时间后发现所学专业并不适合自己，可否调专业？有什么条件？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华国防生毕业后分往哪个军区,待遇如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生已通过，但在高考时分数达到录取线，请问在选取专业时是否有优惠政策，如果没有的话，是否可认为已通过的自主招生考试没有用了。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你们学校学美术的最低要得多少分才能上去，听说你们学校还差不多。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生是否招收女生,另外有限制(如高考体检中部分项目)吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+658没有加分可以报考吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我小孩估分在660－670之间，且是省优学生，这个分数报考贵校有多大希望，望及时答复。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1、艺术特长生的名额是否占用本省的招生计划？2、艺术特长生的专业选择范围是否和作为普通考生的专业选择范围一样？还是另有范围规定？3、怎样安排艺术特长生的专业？根据志愿？或分数？（是否加分？）4、只要公示出来的艺术特长生就会被录取？如果没有被录取，是否影响作为普通考生的录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生名额有否占用招生计划？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+填报提前批清华大学的定向生后,如果高考分数达到清华大学第一批录取分数线上,是否可以按第一批次录取?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若对被录取的专业不合考生意向，是否可以专业调剂？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:一级二级学科与本科专业之间是什么关系?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:一级二级学科与本科专业之间是什么关系?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高出重点线大概多少分才可报考贵校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学的学院代码是多少呀？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业可修第二学位
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华国防生对视力有什么要求?毕业后就业去向如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学校内排名前五位的专业是什么?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请教。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校每年自主招生名额依何而定？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学是否招收委培生！招生计划又是怎样的！谢谢！！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+非国防生的提前批是什么性质？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问报考建筑专业是否必须参加美术考试，何时参加，是报名时还是入学后加试
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若考生按清华大学在各省设点老师辅导的要求填报志愿，清华大学是否一定录取。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生未被录取,高考时同等条件下是否优先录取?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+由于我省是全国考生最多的省份，如果生源好贵校是否考虑增加对我省的计划投入？以圆考生之梦！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+一些名牌大学或名牌大学的某些专业在提前批录取,咋规定的?计划咋标注,怎样才能看出来?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想问一下贵校的哪个专业提供的出国进修的机会多一点？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+核工程与技术专业是否都是定向生，具备什么条件才能报考？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+读小语种专业能否修双学位（其他更好的专业）?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+攻读双学位或辅修第二专业学位时,第二专业的收费如何计算?是第一专业的总额两倍吗?谢谢.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+体检时人很多，体检表一直在工作人员手中，本人并没看到，请问；医生最终结论通常怎样写?是写“合格”或“不合格”或其他什么？急盼回答！！!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好：想报考企业定向生（非国防生）的学生在录取前就要和定向企业联系，只有定向企业同意才能填写志愿吗？请老师介绍一下企业定向生（非国防生）报考志愿的流程。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好！我是考生家长，我的孩子近视700-800之间，你学校有哪些专业更适合我的孩子？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：平行志愿录取时，如果我总分能上A。B。C。三所学校，，1问：若A志愿校中，我报的专业已满，且不服从调剂，还会被A校提档吗？，2问；若B志愿校中，我报的专业未满，但此专业分高于我的分数，且不服从调剂，还会被B校提档吗？我还有机会进入C志愿校吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么叫平行志愿，请解释一下平行志愿在录取工作中的录取规则
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+按高考成绩排名填报志愿比较好掌握，但是，无法估计到各类加分的考生人数是多少，这样也就无法准确地知道自己确切的排名，以至就不能知道自己是否能被录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好:我已与贵校签订了艺术特长生的协议书,出于"保底"的考虑,想在提前批报一所军校,如因某些原因退档(如未参加军检),不会影响协议书的生效吧?当然，一批一志愿肯定是清华大学的．
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校入学后可否转专业,有什么要求
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:在专业调剂前贵校能征求考生意见吗?毕竟贵校有些工科专业不太适合女孩子,贵校会考虑这些吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生什么时间发录取通知书
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么样的新生有奖学金
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么学生享受奖学金
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防定向生与其他招生是否同时提档？我填报服从志愿是否会被录取为定向生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保送生可调专业吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：有清华自主招生加分，又有政策加分，投档时两项加分可同时享受吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防定向生与其他招生是否同时进行
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若将清华列为A,被贵校提档，但分数低，在服从志愿被录取时，会否被分配到合并后的分校？若考生不愿意，退档后是否已影响其他学校录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+就读贵校的外国语学院或专业时;能否同时再攻读其它专业的学士学位(双学士学位).谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有外国语学院或专业吗?如果有毕来时可以到中学或大学任外语教师吗?谢谢.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华录取分数线还是比北大高吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校对有乙肝表面抗原阳性(小三阳)但肝功能正常的考生会拒绝录取吗?尤其是贵校的外国语学院?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业分数级差可以在哪查到？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问两个问题:，1.贵校录取时,是否考虑包含省优干加分在内?，2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?，谢谢！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+661分国防生能否被录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+对于加分后才达到提档线的考生（有自主招生资格），专业录取是怎样进行的？，不占统招名额即不与统招考生一起排序，那与谁排序？，被录取到所报第一专业可能性有多大？第二专业呢？，如果专业要调剂，贵校是怎样选择的？被调剂到哪个专业的可能性大？，期待明确答复，谢谢！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生得分数也要很高吗?定向生是否能转专业?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高水平运动员录取后能改专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生需在定向单位工作几年?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:如果提前批定向生被录取,如果不去,因定向生是在录取中签合同,合同没签是否应该不会影响一批一本录取,是否
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校有关国防生，定向生的政策，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:如果提前批定向生被录取,如果不去,是否会影响一本录取
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想问一下，国防生的分数线是否比其他的分数线低？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，学校网上有宣传片吗？如果有，网址？在那里可以查的到？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+同等条件下是否优先录取应届生？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：“省级三好学生”是否在录取时起作用？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+数理基础班中的信息学院有关专业具体指什么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国家重点学科是否比非重点学科具有明显优势
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢你们的及时回答，你们的工作我很满意，你们很辛苦！我相信不久我会在清华见到你们的！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请问清华录取后会不会在发送通知书前告知考生？考生打清华的招办电话能不能查询出来？大概什么时候打电话能知道结果？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好，贵校是否录取乙肝病毒携带（肝功能正常）的考生，，此种情况继续读研是否可以录取。谢谢！！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生和普通学生的学位证书和毕业证书是相同的吗？谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+志愿能否更改?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高考分数５９４，全省排名３１，请问报考贵校社科实验班有把握吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问贵校美术学院的高考咨询电话是多少？我想咨询填报专业情况，但一直联系不到，你能告诉我吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是否可以转专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+退档率多少
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+可以吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果还没办政审表可以抱吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+其他院校保送清华研究生需要具备什么条件?每年有多少名额?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校研究生的出国率是多少
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生的报考条件是什么?有什么注意事项?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:我已是北大自主招生对象,请问还能报考清华吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，如果上清华大学调档线且服从调剂被录取在医学院，入学后能否申请转专业。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问“服从调剂”是否是指不管达到多高的分数，学校安排的专业只能服从？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生怎样分配？？有固定的地点吗？大多分到哪里？，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术设计招生名额?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+估分668，能否报考贵校？请回答
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,报关与国际货运专业毕业前景如何
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果被提档，但我的投档成绩是实考成绩+政策性加分，虽高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，是否被录取？如果退档，请问依据是什么？谢谢！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+是否够一本线，就提档
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您辛苦了!请问每年保送清华大学的学生专业是如何选择的?是可以任选吗?是保送生入学后不可以转专业吗?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校是否对复读生有限制,医学类的也不限吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+希望清华见。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问高一新生能否带手提？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问在校本科生出国率多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+已报送，但专业不满意
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+再过不久进行志愿填报,在专业选择上是否必须与专业考试报名时填报的志愿一致?如果有幸被贵校录取,那么专业就固定不变了么?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我检有限报专业情况，但体检表中填写正常，专业是不是不可以随便服从调剂，请帮助谢谢！！！！！！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！，能否在学校网站上查询到被学校录取为研究生的学生的相关各科成绩？，如可以，网址是？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生录取时,按考生总分(包括加分)排序,还是按实考分排序?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我的视力为近视500度,能否报考国防生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估分665能否报清华
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+预估线和实际线最多能差几分？，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！如果被提档，还会不会被退档？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有专业级差？如果有，怎么设的？另外，提档以后一般退档比例是多少？是不是一般不退档？（我问过了，可得到的是乱码）。贵校近几年的国防录取分数线
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估分662，有希望吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+估分在665能否被入取。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+说实话，你们清华没有北大效率高，态度没他们好。请不要生气。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有专业级差？如果有，怎么设的？另外，提档以后一般退档比例是多少？是不是一般不退档？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校比北京大学的优势在何处?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有二本类专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校在国防生录取过程中是否承认政策性加分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好:复习生报考贵校专业是否受限.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+按专业或院校录取时,以卷面分排序,还是以卷面分与政策加分的总分排序?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+级差几分?能不能说具体点
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否可学医若可不过普招线可以上吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校国防生本科毕业后能否报考贵校或其它地方大学的研究生？定向生呢？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，调配专业是在本省计划范围内调配吗？是否征求本人意见？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:贵校的专业级差为多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+学校一般依据什么原则给服从调剂的学生分配专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+690上清华没问题吧?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：色弱考生报考贵校，有哪些专业受限？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!，请问填报志愿时如填服从调剂，是否会在不知情下被录取到自己很不感兴趣的专业去？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问电气信息类主要包含哪些内容?，该专业毕业后主要从事哪些工作?就业前景如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生是什么意思？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校近几年国防生招收分数线是多少？国防生毕业后有哪些定向？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+添服从调剂,是否能分到和志愿相近的专业.可能性大吗?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:可不可以从外院考清华的研究生?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+受过伤
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果我为国防生而未被保研，可否自己申请报考研究生？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问复读生可以报考贵校的国防生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问报考国防生后可否考研？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批次录取都包括哪些类型?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+咨询请回答,谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华有双学位吗，有本硕连读吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+复读生可报考贵校的国防生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校退档时加分是否记入竞赛加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校退档时加分是否记入
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+未参加保送生考试能否加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师为什么我去其他院校查咨询电脑说验证码错误，是没有开通么？，为什么qinghua!的可以咨询？帮帮我呀！我妈也在我旁边！谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业级差是怎么回事?清华是否有专业级差?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+加分后对专业有无影响
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自行车是向毕业一届的同学购买吗，还是校内有专门的地方买自行车？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师入学后重新选专业难吗?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问我获得清华07冬令营（西画贰级优秀）报考贵校能否加分？加多少分？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵学校有精算专业吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我580就想上清华
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,贵校的飞行器专业适合女孩子学吗?以后就业是否会有性别歧视?还有女孩学此专业是不是特别费力?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好！什么叫自主招生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校在新兴能源方面有何优势?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+同标题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问,若一个专业只录取一个考生,而同时有两个考生填报,且这两个考生的分数一样,具有自主资格的考生是否有一定优势,谢谢.
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问贵校保送生通知何时发出?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报三个不同学校的同一个专业，录取先后顺序如何？，报同一个学校三个不同专业，录取先后顺序如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有按非艺术类招生的新媒体专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+三个平行志愿难道没有先后顺序吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+1.调档线的划定是否为从高分到低分(不含竞赛加分或其它加分)排定到本地区的计划数.，2.若已被贵校调档,并且服从专业调剂,若一二专业落选,那么专业调剂前是否征询考生意见.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学入学后可以转专业，转专业要什么条件吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校在专业录取时怎样对待各种奖励加分和自主招生加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少？若进投档线又服从调剂是否一定被录取？若退的话比例是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+已被贵校认定为自主生，进投档线应没问题，专业不加分，还有什么优势吗？北大选专业加10分呢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果某省的一名复读生和一名应届生考分相同，都够贵校某专业的分数线，如果在只能选其一的情况下，您会录哪一个？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好!请问自主生专业单独排定吗?车辆专业大一用电脑完成功课的时间多吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!清华大一可以用电脑吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若考生高考分数线达到本省录取分数,贵校自主招生录取的考生加分是否加上高考分数参加录取.
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问,清华、北大保送生和自主招生名额是否包含在公开的招生计划内？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,请问2007年清华大学美术学院的设计专业和造型专业合格线的最高分分别是多少?(因清华大学招生网只公布了专业最低合格线,没有公布最高分,与美院又无法联系)谢谢.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+能否对拥有运动员二级证的考生加分?如能,加多少分.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请教:生物学专业的发展前景如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校建筑专业要加试徒手画吗？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的自主招生怎么还不在阳光平台上公布，何时公布？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生对视力是否有要求，国防生毕业后可否继续考研
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校电子类的专业有哪些？在贵校的其他专业比，电子类的专业的录取线如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师老师的回答，我再问一下，如果提前批次没被录取，会不会影响到清华大学的录取。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+只需要在读书期间选修相关专业即可?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:人在有无实验班?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+怎样知道自己的各项材料所报考的高校已收到，且无误。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好!麻烦问你一下建筑,物流专业要色弱考生吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华的提前批是什么意思？，是定向生之类的特殊录取么？，是否除了提前批录取之外有其他和本一录取不同之处？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问参加贵校国防生体检需要具备什么样的资格？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的加分，在专业录取时是否有效？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华转专业情况如何？，前几天我在电视中看到清华的一位老师说第一年按大类培养，那么是不是完全没有专业之分呢？具体情况是怎样的？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果被你校录取可不可以不转户口？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问为什么历年投档线比实际录取分数还高?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业级差是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批中的专业是招收国防生吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我这个分数，情况怎么样？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+已商定录取专业还需要填其实志愿及是否服从调剂栏吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+此分数能上贵校吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华大学国防生毕业后只能到军队工作吗？我的性格适合搞研究，学了国防生的专业能做研究工作吗？分配是定向的吗？会不会去很偏远的地方搞军事方面的研究？对视力是否有限制？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+全是国防生吗？？有无例外？？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,定向的那些工作是不是很差
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生是不是所有专业的体检标准都一样
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+新生录取名单将会在哪里公布？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+录取新生何时报到？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我的希望破灭
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好!，请问,如果在其它大学成绩优秀,我可以被保送入清华吗?有什么要求?，谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+496，哈哈
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+选好的专业有难度吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问化生基础科学班大概在什么时候选拔？选拔依据是什么，是考试还是依据高考成绩，如果考试，考的内容是什么？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+１２３
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+因为我是654+20,估计选专业的余地不大,所以请老师推荐一些冷门专业.谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业极差是多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+总分636不知是否有希望上清华如果可以能报什么专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无辅修其他学科的???那么双学位呢???谢谢老师!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问美院寄出的回执中回复将第一志愿填报清华的大概多少人
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果我报考贵校数学系，以后是否有保送经济类的研究生机会。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+美术生进校后可以转专业吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+比如说你们要招10人，投档比例为120％,报考的只有11人，这时是否降分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+还有数学竞赛省一等奖（65名），能否有优惠？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+674报贵学校有多大希望
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生须服役多少年
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+填报贵校有希望吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+能否向落榜生发一些纪念邮封
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+的
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+有什么办法可以到贵校吗？，急切等待？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我638一本线是503能去不
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请老师介绍一下“电子信息科学类”的最新情况，如专业，学生培养情况，毕业去向，特色及优势等。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂时是否与考生联系?如果对录取专业不太满意,入学时是否就有转专业的情况?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+能否介绍一下贵校在其他院校招收保送研究生的政策
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生体检何时开始？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我高考成绩为676，报了清华，不知行不行，亟盼回音。谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向专业是否首次在川招生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我由于错过了贵校的运动员招收测试请问我是否可以以运动员的身份报考贵校?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如上,谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请尽快答复,谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请您预估一个招生线,这个问题很多人都很想知道
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师总分1080可否录取？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校还可不可能增加招生计划
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的化生基础班怎么考?需要高考成绩吗?还是进校内参加笔试和面试?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问定向生是什么时候签合同？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+急！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的分级差是多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问如果进入清华大学后,如果我想转专业,该如何转?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+由于我乙肝阳性，肝功不好，医院的高考体检意见为可以不录取。想知道如果我成绩可以，是否还有机会被录取?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+609有希望吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生、自主招生会算进正常的招生计划的名额里面吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的招生简章的录取规则中未提到省级三好学生的加分问题，是不是对此项加分政策不予承认呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！不知是我的网速太慢还是别的原因，您校的招生网太难进了，急人。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+因为贵校在各省所招学生条件各异，那么，先填报容易考上的专业，以后可否通过竞争夺得好专业呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在哪里可以查到贵校近几年的招生情况各专业录取分数
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲生具体可以报哪些专业？不能报哪些专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的提前批只收国防生吗，没有政审,体检能不能报?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好，清华在录取时是先将所有投档考生按分数排队后再从高到低按排，还是先将第一志愿考生排队后再录取？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+录取结束以后，贵校一定会公布实际录取线(最低录取分数)？我的高考分数如果超过实际录取线，是否一定被录取？未被录取可能是什么原因?有什么补救办法吗?，另外,在网上录取中，是否完全由计算机通过既定的规则录取？有没有人为干预？谢谢!
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+少数民族聚居地的汉族考生的加分，在学校正式录取时是否计入总分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果生源条件好是否可以扩招?扩招比例如何定?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如何联系贵校在湘招生组？能获取什么信息？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生和哪个军区挂钩?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+问一下在杭招生组老师的住址?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校按照1.2的比例投档，如果同意调剂，进入投档线之后还会退档吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+应用数学就业后是什么工作学什么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，第2志愿平行的6个大学按什么先后顺序?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是网上填报志愿？与招生办的不一致可否？以哪种为准？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在体检标准中，关于色觉有三条规定，第一条是色弱，第二条色盲，那么只患色弱的考生是否可以报考色盲限制的专业？另外，开学后的体检复查在何时进行？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有与太阳能有关的专业，相关的专业有哪些。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+每年生科院的分数线都比较高,是吗?，我在省级生物竞赛中获得一等奖,并且是一等奖第一名,这会对我考上生科院有帮助吗?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在报志愿时各专业的顺序应以兴趣为主还是以历年各专业分数高低为参考？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校的保研率是多少?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好!我有一只眼睛因受过外伤导致视力很差,另一只眼睛是轻度近视.我的物理成绩很好，喜欢搞设计之类，请问我可以报考清华大学的工学的哪些专业？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问参加贵校的自主招生如果所在中学不推荐能自己报吗?没有奥赛成绩.没有种种奖项还能报吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是国家二级运动员.我想问一下,报考贵校提档时加分吗?另外录专业时加分吗?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收的定向生是否要签定合同书,是否降低分数录取
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是国家二级运动员.我想问一下,报考贵校提档时加分吗?另外录专业时加分吗?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问美术生录取时是看档案分还是原始分？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的化生基科班需要进校后考入，请问老师考入的难度有多大？招生数量大概是多少？如果没有通过该考试，是否只能留在原录取院系学习，谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生是否占用招生计划的名额？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我希望能进入贵校得化生基科班学习，但该班是进校以后在通过考试进入，请问老师进入该班的难度有多大,每年招生多少？如果未被该班录取，是否只能留在原录取的院系学习？，谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生也要体检吗？体检时要直接通知本人吗？体检时间？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保送生上清华大学,一年学费是多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些优势专业？哪些专业的录取分数较高？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+630可否考清华?老师来了没有?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校的志愿级差和专业级差各是多少
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取专业时是否看加分?如果投档进入贵校,填服从调剂,是否退档的可能性极小?各专业有没有单科成绩限制?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂以后,学校是如何安排专业的?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校分数级差的确定以调档线上该考区报清华大学的所有考生的志愿满足率最大为标准，这是什么意思。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问在哪能查到关于清华专业的相关信息?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+建筑环境与设备工程包括那些内容?麻烦老师了.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,如果的我的实际考分已达到提档线,那么我的加分对我的录取还有作用吗?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生加分在专业录取时是否有效
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,我在网上什么地方可以下载2006年清华大学本科招生章程.谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,若填志愿时选了"服从调剂",可以在自己选定专业范围内调剂吗?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，且服从调剂，但所报专业分数不足，退档机率有多大？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果我已经具有其他学校的自主招生资格，是否就无法报考清华？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业调剂是在全校范围进行，还是在有分省计划的专业内进行？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是说定向生，定向为兵器核工业航天等
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校提前批是否就是国防生？国防生与普招生有何区别？是否只招男生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估分630，能报贵校吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+580有希望吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我分数大概在675左右,请问可以考上贵校吗?谢谢``
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估分700问报考清华有多大希望.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问如果我考了很高分,但是我报的唯一一个专业已招满了,我还能被录取吗?或者其他的专业?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哪些学校承认清华大学艺术等级证，是否有二表学校承认？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+转系有什么限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：，各专业对视力有何要求？录取时是否会参考体检表？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+以低分专业为跳板进入后转系的方式可取吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,什么是国防生?国防生录取分数要低一些吗?谢谢老师.
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在专业录取时，一个实考分数680与一个实考分数670但有20分加分的考生，那个优先安排专业
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+厦门外国语学校有推荐表吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我670能上清华吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+有自主招生资格的同学若加分后才达到投档线,是否占招生计划/
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我670能上清华吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+盼回复。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我是省级优秀学生干部,贵校是否承认加分?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业满足率情况如何呢?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华的咨询电话是多少??
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+635有希望吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想报考贵校国防生，不知贵校对身体有何限制？，比如说视力和身体疤痕？还有国防生是不是以后就要定向分配？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问怎么联系计算机系或教务处？？，电话？麻烦你了老师·
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+肝功能正常，但大三阳，能报考医学专业吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华几年来在各地提档线与重点线之间的分差是否有规律可循
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+可以修双学位双专业否?有的话对学生有什么要求?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生的待遇与正常录取的学生有何不同?只是就业时去规定的单位工作一定年限吗?这个期限大致有多长呢?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高分考生竞争同一专业,是否可以追加计划?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生毕业后要服役多久?谢谢.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果第一志愿没报清华，有没有其他的方法上清华，比如补录
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问分数线与调档线有何不同
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+竞赛加分虽不能参与选专业,但在填报相关专业时会不会更受垂青?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果想在贵校双向选择专业，那么填报志愿的时候应该注意什么？，进入贵校后，辅修专业怎样进行选择？有那些专业可供选择？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+陕西考生请问如果估分在提档线边缘，可以选择那些专业，比较保险？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生对身体条件有什么特出要求？是不是与国防生一样。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华招生时对分数线的要求有没有性别区分呢？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+省招办有艺术特长生加分政策，贵校是否认可？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问进入贵校后冷门专业可转入热门专业吗?转入的比率有多少?要看高考分数吗?要看专业成绩吗?要双方的院系都同意吗?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否认可各省的艺术特长生加分政策？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生和一本有冲突吗？，听说提前批不录取，一本受影响是吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：北京市第五中学06年被推荐参加你校自主招生的人员有多少？录取比例如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,请问英语专业8级是什么概念?能达到什么水平?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了670，请问报考贵校如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请答复
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问非自主招生加分在专业排队中是否有效？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+前100名?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！填写专业服从调剂，如录到其他专业，招生老师是否与考生直接电话联系。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+估分为660
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下,清华比较有名的专业有那些?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我是一名成绩平平的学生，但是我并不认为我比别人差，所以我很想接受一流的教育，我能成为贵校的一名旁听生吗？我不为证书，我是为了我的梦才来学的！谢谢老师，请指教！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，假如我报的5个专业不能被录取，而且同一调剂，是不是可以说我可能被分到一个不好的专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生属于哪个批次招女生么，，和正常录取分差在什么范围内，，入学后可修第二专业么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩达到贵校在当地的录取分数线，并且专业服从调剂，是否可确保录取呢，谢谢老师
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想咨询一下贵校的定向生政策?，谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好老师！我是一名色弱学生，我若报考贵校且服从调剂能否被退档。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好!若报考贵校国防生对考生体检有何特殊的要求么?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专升本的考生与直接升入本科的考生有何不同?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+回读生与应届生的待遇有何不同?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学本科的学制是4年还是5年
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最冷门专业是什么?我太向往贵校了！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华有无开设预科班?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生能否转系?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我已多次按贵校所提供的手机号码与叶老师联系，均联系不上。请问有其他的联系方式吗？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你们数学系往年报的人多不多？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+想报贵校，但不知道专业如何填会比较合适，能否给个建议？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业录取分数较低?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估了735能否上你门大学
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+什么是定向生?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：基科班的招生有没有什么特殊要求例如是否只找应届生以及对考生的体检要求如何谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：，请问你们的国防生分数线大约是多少？是不是不招收女生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华有何专业
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高出重点分数线145分有希望上贵校吗?
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂时是否考虑考生所报志愿
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+没有美术基础是否可报建筑学
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问你校政策加分只在提档时有用，分专业时只看原始成绩，是否意味着这样的考生落选的可能性更大。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+具体什么课程就业??
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问贵校建筑专业培养方向？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+分数达不到投档线，能根据学生特长给予特招么？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校录取专业的时候省级加分是否加入总分参加专业排名？，谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保守估分640几是否能报较冷的专业~虽然很难回答但是很重要啊
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+弱视不能报哪些专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学在本省的国防生是如何招的?毕业后的去向如何?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好.我是一名红绿色色盲,还有600度的近视,听说不能报考计算机和建筑等专业,但我对贵校的这两个专业非常感兴趣(而且体检规定上说,不能准确识别红绿色的数码、字母才不能报考,可是高考体检时根本没这个程序,我只是看了几幅图),请问我能报考贵校的以上两个专业吗?，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好:请问自主招生认定的加分可以与其他加分累积吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问一个估分为640的考生是否有把握被贵校录取，，我知道这个问题很难得到正面回答，但还是拜托您多给一些可行的建议，，谢谢，您辛苦了
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高出重点线多少报考贵校可能性较大
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+问题是贵校的本科招生网网速太慢！没有复旦、北大、上海交大他们的快，有时候想多了解一下贵校的情况，却受限于网速，浏览不了。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的定向生是否为提前批?两者有和区别?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+高中二年级的考生，报考清华大学时，分数上有优惠吗！！
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生在军队必须服兵役多长时间
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+估分670以上，可能性大吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+清华的本科生大多是留在本校读研吗？，希望您给出具体统计数字，谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+本科阶段，如果转专业的话，有什么限制条件吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批中的定向生与普通学生有什么区别?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+毕业去向（如考研或出国）情况与前景如何？出国一般以那些国家为主？本科收费情况（含学费，住宿费等）？本硕（博）连读政策如何？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+取得何种资格能获贵校奖学金？相关政策？金额？颁发范围（比例）？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问教师，贵校前几年招国防生的录取分数是多少？谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我想报考贵校的提前批专业，如果未被录取，能否被其他专业录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+榭榭你
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+（1）调剂专业与考生联系吗？（2）想调剂一部分专业怎么办呢？谢谢老师！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好老师，请问如果够调档线，在服从调剂情况下，是否意味着一定能够被录取。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好：请问近视眼可否报考提前批招生？提前批次招生是在什么时候开始报名？若报名提前批次未被录取，对报考一类有什么影响？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的自主招生名单何时能在高考阳光平台公布？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果高考分超过贵校入取线，但不足某专业的入取线，能否入取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：清华大学体育特长生什么时间在网上公示？体育特长生的录取工作和普通招生工作同时进行吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+应届生比复读生本科入取有哪些优惠政策？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，是谁给它的名额？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！如果我的孩子在报考贵校的同时还报香港大学的化，请问是否影响贵校的录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好：请问提前录取生是否占计划录取生名额
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师不好意思再问一个问题，贵校录取时是按志愿清还是专业清，或者说是分数优先还是专业优先
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问被贵校录取的学生是否都有调专业的机会？再有，学生公寓是按照什么安排的？可以自己任选还是根据院系专业学校安排？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问外语保送生可报那些专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取非第一志愿考生吗？各志愿间存在分数差吗？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：什么是定向生，怎么报考定向生?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+教授您好！请问如果在志愿表中所有项目都填写的是服从，但我没有报定向生，能否被录取为定向生。我知道国防生是提前录取，但我不清楚定向生是否是提前录取。请指教。多谢！再有，贵校的学生是否都有调专业的机会？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，１、请简述一级学科、二级学科、全国重点学科；，２、请给一级学科、二级学科、全国重点学科排一个次序；，，学生家长
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问专业分数线和投档线有何不同？，专业分数线是怎么制定出来的？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保送生人数是否占招生计划人数？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+录取时按加分前还是加分后。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好!，我想了解专业级差,哪个专业录取分数高,各专业之间从高到低如何排序?各个学校是否相同?这样报志愿时就可以从高到低,谢谢老师!
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+提前批中物院定向生是否参加军检？，是否和军队院校一样“只收男生”？，视力差的女生是否可以报提前批？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问电子信息科学类学生分流方向及毕业去向如何？谢谢老师。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:有的学校(例如北大)对于加分调档的自主招生,实行专业优先选择,请问贵校是否也有这项政策.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：在进入提档线后，有竞赛奖的考生在录取时是否更具优势。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:如果我接到通知书,不想去这所学校不去报到,可以吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+保送生是否占各省招生分配指标?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，竞赛加分在清华如何实行？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华老师：如分数不够，可以用点钱买吗？就像中学里。
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在内蒙招的人数大概是多少?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果在清华大学的继续教育学院读书，能否通过自己的努力来考清华大学的研究生呢？通过继续教育学院考取的研究生和其他的有没有什么不一样的区别？在继续教育学院读书以后，会不会受到“不是硬牌子”的歧视，继续教育学院的学生和正规考进清华的学生有什么不一样？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，什么叫自考？怎吗在广西招生考试院都没有这方面的报名详细填写方式和规则啊？还有什么叫成人高考~~还有很多呢，我想请老师给广西招生考试院提个建议~~把要考的规则详细填写下子，让大家明白怎吗去参加考试~~。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有继续教育学院，如果有，如何报考？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请邮招生宣传材料,以便了解细情,谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我有一亲戚，四月份曾被学校推荐为“保送清华生”，但在面试时未通过。请问这次高考后，若分数能达到清华线，他能否继续报考贵校？那次面试未通过会不会影响这次的报考？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+每一届能转系生占总数多少转系要求什么
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想问一下，我是一位大三阳患者我可以报考经济类的专业吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!贵校许多专业都是按大类招生的,报考时是否要考虑专业级差.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+调剂专业与学生联系吗？如果想调剂一部分专业怎么办？谢谢老师！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问生源质量好具体含义是什么呢？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我在中学喜欢数学，成绩也不错，但父母不让我报数学专业，请问我怎么办？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校实际录取时比计划招生多的人数一般是怎么多出来的呢？，感谢回答
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问要参加贵校的自主招生需要什么条件，是自己报名还是学校统一报名呢？，谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:化学系的毕业生都从事什么方面的工作?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的解答，我们没有要问的了，我下线了。再见！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+课程和研究方向有什么区别？谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+还是只有汽车制造？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+获贵校“艺术特长生一级证书”在不加分情况下，同样考分是否优先录取？报志愿时如何注明？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：每年材料系本科毕业生中推研和考研录取学生的比例大致是多少？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+色弱考生报贵校有何障碍?哪些专业可报?哪些专业不能报?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问协和医科大学已经合并到清华了吗？是单独招生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问上了提档线，也填了服从专业调剂，是否就意味着能录取？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在哪能查到贵校对各种问题的统一答复？如访谈类的书面答问。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校如何对待各省的加降分政策？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问进入提档线服从调挤一定不退档吗？高分考生能否保证五个志愿中的一个。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生录取是否需要提前报名???
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问保送生录取通知书何时发出？通知书是寄到考生学校还是家中？谢谢老师。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+志愿是否服从栏内,是否可以填仅服从部分志愿,因为学生眼睛问题要受到部分志愿的限制.
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师：硬上线是指实考分上调档线。谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+定向生是否可考研或保研
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问具备什么条件的学生可以学第二专业或者是改专业？如果改专业，在大几的时候改？多谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如果可能的化，请您讲解一下关于网上阅卷和评分的全过程。多谢！！！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+国防生招生男生和女生是否条件一样？或者说国防生招不招女生？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问：我的自学能力比较强，若提前把本科四年的课程学完，能否申请提前毕业？学校和国家对这方面是怎样规定的？贵校这样的先例多吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校什么时候公布录取分数线?什么时候开始录取?谢谢!
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师能否在报考清华的学生当中给出各个分数段的情况？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华有专升本吗？若有，请详细介绍一下。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华提前批何时录取结束？何时何处可以查询录取结果？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华的建筑系对于没有一点美术基础的人，是不是非常不合适，还是建筑系是入校后再对你进行相关方面的考核，如果徒手画不合格，是不是会被调剂到别的专业，像我这种没有任何美术基础的人能不能报建筑系
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问清华大学看不看民族照顾分，，如果被提档了（专业服从调剂），什么情况下会被退档！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果我被录取了，大概什么时候能得到消息，最迟要到什么时候。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+招生办的各位老师辛苦了！，请问：数学系对高考数学分数作要求吗
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+630+10有机会上清华吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我靠了640，全省排201，有希望吗
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+报考该校是否是按大类来报，该校是否设有双学位，哪些专业设有本硕连读。如果服从调剂，进入该校后能否转专业，转专业时有什么要求。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问有多少比率的学生可以成功转专业？，所转的专业是否只能是在被录取专业所在学院内专业中？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+会不会有奇迹发生，601能不能被贵校录取？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+643进贵校风险大不大？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+各院校专业排名如何查寻
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+对于省招办承认的民族县考生降10分，贵校是否承认？谢谢。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+对于有加分资格的考生，清华加分提档，但分专业时按实际分，如果加分刚上线，不加不能上线（即不够任何专业分数线），怎样录取？谢谢
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+该小招生是按实分制还是加分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问协和医科大学是否并入贵校，高考录取分数是单独录取，还是和清华其他的专业统一录取？谢谢？
+select * from admission_score_pro where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+687左右能进贵校吗？我想进建筑系，有希望马，谢谢了
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，哪些专业适合女生学习呀？谢谢了。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:国防生填报志愿是提前批吗?体检条件中所说的面部疤痕包括的范围是哪些?谢谢!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问在其他学校学习期间能否跨校学习贵校的某些专业?谢谢!!
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请华招收艺术特长生有何优惠政策?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，国防生毕业后的服役年限是多长
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想学信息类，选北大？清华？请老师帮我分析指导，谢谢：）。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+自主招生招收非应届生吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问估分在680报考贵校二志愿希望多大？另外报考热门专业有哪些？录取时是否有级差？级差是多少？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问上清华，省级三好学生，加分吗？加多少分
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是如何录取的?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+能否介绍一下,往届生可否报国防生
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:女生在你校选取什么专业好?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问:实际招生数=计划数+自主招生数+保送生吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下清华每年大概一志愿满足率能达到多少？会不会为了满足一志愿而计划外抽调一些机动名额？全省前50名填报清华有多少希望？谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+前两个志愿同视为第一志愿是否意味着贵校会录取第二志愿的考生?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+乙肝病毒携带者能否报考医学院？报考临床专业是否受限制？有没有允许报考的专业？有没有什么报考建议？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你校专业级差?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问右手食指有残疾对选贵校的专业有限制吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估了660-670,不知能上什么系?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问电子信息科学类包括哪些专业??
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+您好！我这次估分在640左右，请问报考贵校风险多大？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+经管学院行吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问老师，报考清华的定向生是否有什么特殊要求？谢谢回答。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在校报完以后，可以在网上同时报吗？？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问新能源具体属于什么专业？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好,请问清华对于乙肝大小三阳（肝功能正常）的学生的态度?希望明确些,若能考上,他们能不能上清华?若继续读研?谢谢.急切希望回答
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+与贵校有二志愿意向的高校有哪些
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了645报考您这里行吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我考了645想报考清华，性吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问我省招生老师电话及网上联系方式?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+在清华提挡线上还可能有退挡吗?
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：，听说在清华转专业的难度很大，是真的吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+为什么有些专业录取最低分比贵校提档线还低
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我估分650左右，有没有希望进入你校？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+如何与招生人员联系，招生人员回答有十分把握吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生可否自荐参加保送考试
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+我有保送资格,但在学校不能排在被保送贵校的保送生名额中,非常希望上清华,可否自荐参加贵校的保送生考试
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+690上清华有希望吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+眼睛近视150度，其它如果满足。可以报考吗？同等条件下，是考分优先，还是身体优先。谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生(技术类)体检的眼睛一定要4.6以上,可否放宽?谢谢
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问解放军工程学院（地方生）必须是应届生吗？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请问作为清华的自主招生上线者，是否只要上了投档线，选专业时可以任选。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+想咨询一下。贵校有没有可控热核（即可控制核聚变）的试验室。想往这个方向发展应该报考那个专业，以及本科生在这个方向有没有参与试验的先例。望告知。
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校试验班所招对象情况？为何叫试验班？
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+你好：我想报考你校如果是乙肝携带者肝功正常，你校接收吗？你校复检时是检查乙肝五项还是只做乙肝表面抗原的检查，如果检出是乙肝携带（大三阳），你校是否让休学还是继续上学？谢谢！
+select * from admission_plan where school='清华大学';
+['问句条件词只有学校，查询过宽！']
+总问题数3996	查询语句构造为空数0	只有学校关键词数1053	查询结果为空数1347	有回答数1589

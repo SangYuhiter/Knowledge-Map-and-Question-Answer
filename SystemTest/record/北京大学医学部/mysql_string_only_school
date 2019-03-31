@@ -1,0 +1,388 @@
+感谢您的答复
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+有北大博雅线上加分，报北医同样适用吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+是否有少数民族预科班计划，需要一本线上多少分，谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问体检的项目有那些？对视力有要求吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师你好：获得“希望杯”全国数学邀请赛银牌的选手有资格报医学部吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+报杯省级二等奖,但是成绩位于年级15%,有报名资格吗.我对医学类专业有浓厚的兴趣,自愿献身医学事业.谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+您好老师！生物省二可以参加北医的自招吗？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+您好老师！请问贵校医学院的报名条件是必须满足列出的所有条件还是条件之一？孩子没参加竞赛，但是学习优异，不知道能否报考？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问复读生可否参加贵校自招报名？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我的孩子获得过全国高中数学联合竞赛二等奖，盖的是中国数学会的章，有资格报贵校吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+孩子综合素质高，成绩一直名列前茅。但没有特别明显的学科特长。能参加自主招生吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师你好，我小孩学习特别成绩优异，全年级1200名学生考试成绩在前二十名，对医学类有浓厚的兴趣，但是没有参加过奥赛，请问能不能报名？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师请问，孩子没有竞赛成绩，但是学习一直不错，得过三好，奖学金等，喜欢学医，不知可否报临床？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校限报几个学校？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果高中阶段未获得要求中列举的奖项等，是否能报名通过初审？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师你好：我儿子有省一的生物竞赛获奖证书，是否有资格报考本校
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我想咨询下自主招生报考条件？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+没有参加奥赛，受家庭环境影响，励志从医，可否申报？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+参加自主招生的学生允许学习临床八年制吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好；没有竞赛奖项，但是成绩位于年级前15%以内，有报名资格吗？成绩单是否可以作为在某专业或领域有突出才能的证明材料？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：请问自招简章何时可以出来？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问自主招生简章什么时候发布？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校的专科分数在多少可以进贵校呢.
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+658分在提前批贫困地区专项计划中报贵校有希望吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+1请问贵校热门【或重点】专业都有哪些，录取分数线是多少？就业方向是什么？一般考生需排名多少能被录取？2贵校能否转专业，有什么条件么？3各专业有极差吗？
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+当地医学部同批次专业范围内调剂,指所有在当地招生的医学院校同批次专业范围内调剂，不仅限于北医大？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+学校招少数民族吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+是所有的专业都可以招往届生吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校在录取新生时对英语口语成绩有何要求？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+每个专业之间的分差都一样吗，还是有区别的？提档后对单科成绩还有要求吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+是不即使有分差，也应该按自己喜欢的专业去顺序填报各专业呢？分差是多少？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师：您好。不知道咱校的专业分差是如何设置的？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+你好，提档按专业招生计划提档还是按学校总的招生计划提档？获得自主招生资格的包括在学校公布的招生计划中吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好：我校二本专业每年都比一本线高?是否要抱在二批一志愿A？毕业去向如何？谢谢您
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+你好医学部招艺术特长生吗?民族舞蹈或者体育舞蹈，谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+何时体检，体检要求（如视力？）
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+儿子估分估了602分，有希望被贵校录取吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+若符合要求，转本部如何申请
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+若高于北京大学本部录取分数10分，想转本部，本部的专业怎么选择，因为在报志愿时，只填了北医的专业。
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，您好。请问自主招生优惠对贵校二批一志愿录取还有效吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校生物医学英语专业学习内容有哪些？就业方向如何？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+服从调剂，降分提档的退档吗？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+从二本专业考入的学生，想转到生物医学英语专业可以吗？要求是比转入其它专业高？还是低？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问北大医学部能转专业到北大本部吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问北医二批专业毕业时所获学位证书也是北京大学颁发的吗？二批专业每年保研比例是多少？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师，我孩单眼镜片度数均大约600而小于800度，报考贵校是不是限报或慎报，我敢报吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好！我想请问一下，投档成功但未被录取会被退档吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+选择二本专业，是否可以再选修其他专业；二本上研究生都学什么内容
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师：一本和二本学生上课地点是否一样
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好：肝功正常，表面抗原阳性，是否能报考您校？另：如果去您们的附属医院求职，是否对表面抗原阳性者拒录？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师：高出二本提档线139能被二本录取吗谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问有没有针对民族考生的特殊政策
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（比如说中南大学的综合素质测评）
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+您好！我填了服从分配会退档吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问:医学实验和医学检验保研的比例各是多少?这两个专业读研时针对本专业,各自的研究方向大概有哪些?很想了解,谢谢!!!
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问二批专业的学生能否在本部辅修/双学位？考研时能否在本专业及双学位之间选择？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师，我的高考成绩估计在一本线上60分左右，我一本第一志愿报考北京中医药大学，二本第一志愿报考贵校，您看如果一本落榜，二本贵校有可能录取到我吗？我看了贵校的历年录取分数很高，或者您有好的意见指导我一下，谢谢！
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问：一本二本第一志愿均报考贵校。如果一本被提档后又被退档，那么二本还会被录取吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+北大医学部住宿情况如何？几个同学一个宿舍？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果报考贵校被提档，但不服从调剂，是否会退档，如退档是否会影响贵校二批次的录取
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师：请问1.各专业的就业情况；2.哪些专业有博士点；研究生点；
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校有咨询电话、特别是微博、电子信箱吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问，二本的两个专业，毕业后考研的比例？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提档是按1：1.05的比例吗？是否计划15人就提档15人呢？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+数语英286分，专科能录取吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+北京大学医学部与北京大学是一所学校吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问一下贵校的专科可不可以升本？如果可以，是升本校的的本吗？升本率是多少？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+您好，贵校有二本线上的招生吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+本人实际考分在全省排前十名，从小立志要学医，请问贵校有没有新生奖学金？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+我654，能报吗？报是什么专业？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+我是一名肢体残疾的学生生活一切正常能报着个专业吗对此有极大的兴趣只是不知道会不会有限报人群
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校二批的二个专业具体是学什么、如果以后对口工作是干什么？出国读研方便吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果我不想服从分配到不喜欢的专业，应该怎么填报啊。报名表中不让有说明。
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问:毕业证上的公章是"北京大学"还是"北京大学医学部"?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问在硕士和博士学习阶段如何交学费，有没有学习津贴？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好，请问：二批医实，医检，学要多少分才能报考？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问一下，北大和北大医学部是一所院校吗？如果不是两者是什么关系？两个学校之间的专业还可以互转吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的答复，还有个问题：医学部的学生可以选修北大本部的双学位吗？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师好，北大招生报介绍，北大医学部学生入学分数达到北大本部提档线可以转到北大本部？有什么具体要求？
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，如果孩子报考二批招生的医学实验学和医学检验，本科毕业以后，能在继续深造，都能学哪方面的专业，急盼！！！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果在填写专业志愿时添了服从调剂，如果一旦被贵校提档后只是因为分数低而没其他问题，贵校有像北大本部一样的提档不退档的承诺吗？
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师:贵校8年制临床专业毕业时颁发的是专业学位还是学术学位?毕业后还须参加住院医培训吗?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+你们学校招收二志愿的考生吗？有没有志愿级差分？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问：1我的分数587（实分，无加分）怎样才能考上贵校，能教些报考技巧么？2是否完全服从调剂还会被退档？3贵校接收复读生么，是否一视同仁？问题多了些，谢谢老师（不想再复读）
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+658有加分能上北京大学医学部吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+孩子色弱但非常渴望学医,请问有合适的专业吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问645上临床有希望吗?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师你好：请问如果我填了专业服从调剂，那么被提档后会被退档吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问626报考有希望吗？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+三科成绩多少可以进入贵校？最低分数线三科预计多少才可以录取？
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+627有加分希望大吗？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+分专业时政策加分可算吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校对报考学生的身体体检有哪些具体标准？小儿幼时曾患过轻微的过敏性哮喘，经脱敏治疗后已多年未发，请问可以报考贵校吗？另：考生若有轻微的湿疹，是否可报考？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+有三本和专科类型吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校没有网上录取查询系统，考生如何在第一时间是否被录取？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问：报考贵校的考生可以在贵校网站上看到录取结果吗？若能何时？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师您好，1、贵校二本在入学后能否转成一本？能的话条件是什么？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问在贵校有加分的人数
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校有代表性的胸外科临床或教学医院是哪家？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校骨科有代表性的临床或教学医院是哪家？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+学生学习期间实习医院可由自已联系吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+八年制学生学习期间如果有不及格的课程还有补考几会吗？可补考几次？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问西城一摸622，二摸645，报考临床专业希望大吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校的8所教学医院和13所临床医院是哪些？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校二本二个专业，近年来考研、出国深造有多少？谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+读完本博连读专业能获得医师资格证吗？还是要自己单考？到哪申请考试？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果一批北大，二批报北医医学实验或检验可以吗？听说北医二批只收一批报北医的学生，是吗？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+如果服从专业调剂，调剂到何专业学校录取前征询考生意见吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问分给甘肃专业中有哪些是本硕博连读？谢谢
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+全省排名200能上贵校吗?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校专科录取分数线大概是多少，谢谢！
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校投档比例是多少？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+你好，贵校对应届生与往届生待遇有区别吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问：贵校大专怎样才能专升本
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+我的孩子肝功表面抗原阴性，转氨酶70，可否报您的医学部？谢谢！
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校大专能专升本吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+本校专科的分数线是多少？
+select * from admission_score_pro where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+是否可以专升本？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+是否可以专升本？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问593分，可以报贵校临床专业吗
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+进入医学部之后能否转专业?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+贵校还有别的咨询方法吗？多长时间能看到回答
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+北大医学部的学生可以转专业转到北大本部吗？，北大医学部内部可以转专业吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问贵校所有专业招否复读生
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+老师,您好!!请问贵校有哪些重点专业??
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+北京大学医学部第二批录取学生,入学后是否有选修或转修第一批录取专业的可能?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问北京大学医学部的就业情况如何?贵校是否属于北京大学?
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+请问入学后可转专业吗？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+医学试验学专业学什么的？，主流的就业单位、岗位是什么？
+select * from admission_plan where school='北京大学医学部';
+['问句条件词只有学校，查询过宽！']
+总问题数438	查询语句构造为空数0	只有学校关键词数129	查询结果为空数256	有回答数53

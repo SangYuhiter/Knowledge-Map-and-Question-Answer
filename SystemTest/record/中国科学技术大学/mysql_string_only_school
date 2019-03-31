@@ -1,0 +1,1957 @@
+科大招生网：zsb.ustc.edu.cn科大招生论坛：zsb.ustc.edu.cn/bbs，毕业生去向统计，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=69，科大的专业转换：全国最宽松方便，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=71，看科大人才培养的数一数二！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=156，科大的特色：精品大学、精英教育！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=67，了解科大所在的城市zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=76，清贫学子求学科大，真不用愁！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=75，科大的学术水平、地位和国际影响力zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=70，作为唯一直属于中科院的大学，科大的优势？zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=68，传奇背后的真实---中国科大的精气神zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=78，招生老师联系方式及常见报考问题答疑http://zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=66，科大负责各省招生工作的老师的联系方式。，zsb.ustc.edu.cn/contact.php，科大的在线咨询安排，zsb.ustc.edu.cn/bkzn.php?pid=11，科大将参加的现场咨询活动，zsb.ustc.edu.cn/page/05zx.php
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我高考662，全省357-377，有希望上贵校吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！孩子正读高二，已申请报考贵校的少年班，已考572分，有资格参加面试吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+排名多少能上？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校提前批（其他类）中的非定向专业，如果发现专业不满意，可以转专业吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+什么是试验班
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您校新生入学后可以参加哪些二次选拔的实验班或试点班？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问您校对新生入学后申请调专业有什么规定？什么时间可以申请调专业？有多少比例的学生可以成功调专业？谢谢了
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想报贵校在陕西提前批的招生,但不明白提前批指的是不是小语种,还是有特殊要求的专业,请招生老师帮助解答一下.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想报考贵校定向生，请问有无什么要求？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的资格生在网上为什么为什么没有公布，是如何实行录取政策的?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+能否提供资格生的分数及名次
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问您校00班入学后在什么时间分流专业？如何分流？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校简章里说，服从专业调剂提档不退。我家孩子色弱，限报许多专业，请问提档不退对我们适用吗？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+允许填报专业总数最少4个，最多6个，这些是什么意思？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！按要求填写成绩信息并添加志愿后收到提示“模考成绩未填写完整，请修改志愿”，但我市至今未举行模拟考试，无成绩可填写。请问不填模考成绩会影响报名吗？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自招拟通过人数大约多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校自主招生报名中是否调剂有何区别，是否影响录取？以及网上报名时填写的个人自述与邮寄的纸质个人自述有何不同
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。想报名贵校，信息填写上的高考报名号是指报名序号还是指考生号？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问复读生可否参加贵校自招报名？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请教老师：我孩子围棋业余5段，省赛女子个人第2名，想申报贵校自主招生，可以吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校面试时间在哪一天？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我孩子参加全国奥林匹克数学竞赛现场与贵校签订了预录取协议，请问还需要报名参加贵校的自主招生吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校自招简章中提到需要报考考生的个人陈述，这里的个人陈述是指自荐信么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问中科大接受自招第二志愿吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+招生简章上说的“推荐材料应由推荐单位加盖公章或者推荐人亲笔签名，并单独邮寄”，这里面要求单独邮寄的推荐材料是不是就是申请表、高中阶段主要获奖证书复印件、高中阶段成绩单、个人陈述以及其他相关证明材料？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许同时申报几所大学？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好：贵校自主招生中所看的学生高考成绩含政策性加分吗？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问,成绩单是每一次考试的成绩还是大考比如期中期末?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+只有获得全国决赛奖的才能免笔试吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，学生平时成绩很好，但是没有参加过全国性的竞赛，也没有比如奥数、新概念等竞赛的奖励，请问有资格自主招生能报名贵校吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+录取批次是在一本之前吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，自主招生考试是各地学生在一起选拔，是否对教育不发达省份有点不公平
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问是还需要按照简章要求报名吗？在材料申报和专业选择上有什么注意事项。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+大学博导老师提供的特长及创新潜质推荐材料可以作为报名资格的佐证材料吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+材料中个人陈述可不可以打印
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!您的多个回复都是“请参照我校自主招生简章中招生对象一栏信息”。可是我们正因为对一些证书层次的确认有疑惑所以才上线咨询的，您能否根据贵校的招生对象条件作权威而且肯定的答复：符合或者不符合？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大自主招生有多少名额，是总人数的5%吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我参加过竞赛但只有市级一等奖被招几率大么
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否会按地区分配招生对象？比如贫困心是否有所倾斜
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好：我在参加国际五项学科奥林匹克竞赛中，获得全国高中数学联赛（省级赛区）一等奖，有编号，中国数学会章，请问在填写综合信息中的获奖记录时，其中“获奖级别”填项我是填写“国家级”还是“省级”，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，孩子已经通过2014年12贵校的数学科学营审核，自主招生是否还需要重新邮寄相关材料？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我十分热爱科大并参加过科大科学营，自招第一志愿就是科大，但也担心科大录取人数过少，所以也填报了其他学校，我担心科大因为我填报其他学校或其他学校已经让我通过初审而不允许我通过贵校初审，我微信咨询过招生老师——他让我把科大填在第一位，我试了，但是报名系统里，似乎没有次序，我填在第一位的再次打开系统跑到最后一个去了，这怎么办呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+学校在考生的成绩单上盖章证明成绩的真实性和学生身份，没有单位、社会团体和专家推荐，学生自己准备申报材料进行自荐，你校认可吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问一下，测试地点是在中科大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请学校不要含糊其辞，明确答复行还是不行
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问复读生可以参加自主招申请吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，6.11的测试是在中科大校区吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好。我报考了贵校的自招后还可以报其他学校的自招吗？假如我同时获得贵校和其他学校的自招优惠分数后，是不是只能选择一所学校？假如我的高考分数超过预期，可以填报其他学校，我是不是可以放弃贵校的自招优惠？亟盼答复，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！优先接收省一，是不是省二也可？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问"全国高中数学联合竞赛二等奖"是国家级的还是省级的,能报考贵校吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好。如果我报考了贵校和其他学校的自招，同时获得了不同程度的优惠分数，这时候是不是只能选取一所学校？另外，加入我高考分数出来之后，比预期的要好，是不是可以放弃自招录取？谢谢解答。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问全国数学联赛全国三等奖可以报名吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校的自主招生，个人陈述主要说明哪些内容？有没有字数要求？报名填写的个人陈述与要邮寄给科大的个人陈述是否一致？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好，我想问一下，在报考学校时，贵校有无报考学校的数量限制？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，孩子已经通过创新班资格审查，不知何时参加贵校自主测试？和高三的孩子一样在高考后吗？内容是否一样？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校的省一优先，让省二特别优秀者看到希望，请问可以报吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+为了增加被录取的几率，可以同时兼报几所学校？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校说的是优先省一报名，没有说省二的不可以报呀!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，如果自招通过了，填报志愿时是否必须将贵校和自招通过的专业填在A志愿和第一位？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+孩子在学校的成绩一直名列前茅，生物市三等奖，每学期三好学生，这样能报吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问复读生不在本校复读，还要提供前三年的成绩单吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：《自主招生简章》中提到的学生高中阶段的成绩单需要的是每学期期末考试的还是期中、期末都要？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问我在填报专业志愿时，专业选择在4-6个范围内进行，如果选择不服从专业调剂（否），是否只在所报考选定的4-6个专业范围内调剂，如果选择服从专业调剂（是），是否在所有自主招生的专业范围调剂。谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果获得贵校自主招生资格后，只要高考达到要求就可以录取吗？还是说再重新根据分数决定？也就是说也有资格生达到分数也不能保证录取？谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大有无报考学校数量限制
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问入选专业是指可以自主招生的专业吗?谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大自招初审通过的人数是自招人数的多少倍？120%还是200%？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+获省赛区二等奖能报吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大自主招生条件中，指出：优先接受获得竞赛省一等奖报名。其他条件报名的成功机率有多大
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+没参加竞赛，学习成绩市级排名前3名能报吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好。请问：1、申报材料中，是否必须有考生所在中学或专家的推荐材料？2、个人申报材料需要中学盖章吗，有哪些需要（课业成绩，会考成绩？）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+高考至少多少分能报考贵校
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+682分全省886名可以报考贵校么
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问其中包括哪些学科？包括数学吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+什么情况提档不退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大有转专业意向的人，大概多少能成功
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问683能上科大吗，会不会即使上了，专业也只能被调剂
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1请问贵校热门【或重点】专业都有哪些，录取分数线是多少？就业方向是什么？一般考生需排名多少能被录取？2贵校能否转专业，有什么条件么？3各专业有极差吗？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，是否有不含自主招生加分的专业？也就是只能裸分进的专业？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+"高考录取时按考生报考志愿顺序进行。以高考成绩由高分到低分录取第一志愿考生"老师请问：高考成绩是否含各种加分？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，请问通过试点学院计划录取几人？录取是否占统招名额？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，已经获得试点学院A档优惠，为什么在网上公示显示的是综合评价？是否是只要达到一本线即可录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校材料类专业对身体条件有何要求?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校历年分专业录取分数在官网为何查不到，从哪能查到？谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取规则是怎样的？是否按实考分录取？是否有专业级差？另外学生宿舍如何分配，是随机还是分地域分配？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+对色盲考生有哪些专业会限制？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+参加创新实验班考试，笔试未过，能否继续参加高考，参加高考的话如果成绩好，是否有机会被录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，专业服从调剂，是在本省招生计划内调剂，还是在大学的计划内调剂，老师，招生网上怎么没有分专业录取分？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若贵校试点学院签约后能否参加3A考试去报考其他学校的自主招生？填报志愿时能否报考其他学校？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大老师，自主招生的结果什么时候出来？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+学校提供公用免费的普通饮用热水吗？一般中学都有这样设备的。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+问一下你们学校的专业填报情况？说是没有级别差。那根据什么录取
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1几人一间？是上床下桌吗？有无暖气与空调？宿舍内有卫生间与浴室吗？舍内有饮水机吗？是需要自己花钱买水吗？有的学校是这样的。每个楼层有公用饮水机吗？2有活动场馆与设施吗？如游泳馆等。3每月伙食费用大概多少？4校内有超市吗？附近有超市与银行吗？这样购买生活用品方便些。谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+按大类招生，若不够自己所报专业分数，被调剂到其他与所报专业相差较大的专业，入学后能否马上申请转专业？如果大一大二转专业，课程是公共课吗？用自己单修课程吗？影响毕业时间吗？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+几人一间？是上床下桌吗？有暖气与空调吗？宿舍内有独立浴室和卫生间吗？2活动设施都有哪些？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好贵校提档后会退档吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问我是否能够报考贵校？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我报考了贵校试点学院，且符合面试资格，但一直没有接到通知，这是怎么回事？已经开始了吗？还是什么时候开始面试?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+裸分650分421名报考贵校有无把握？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问历年各省分专业录取分数情况在哪里能查询到?还有，各专业的就业情况在哪里能查询到？谢谢！
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，我高考609，超一本116分，全省267-287左右，报考贵校计算机等专业有希望吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问如果通过自主招生录取到某专业，还可不可以转专业？转专业的时间及条件是什么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我孩子取得了贵校的B类自主招生资格，如果加20分达到提档线，是不是须在一本填报志愿前确认是否用这个资格？这样是不是意味着在填报志愿时就没有试着报别的学校的可能了？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，是以自主招生填的专业为准，还是高考填志愿填的专业为准？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+除了中科大以外，像中科大试点学院这种比提前批还早的特殊招生的学校还有哪些
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校分配专业时是分数清还是专业清？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，排名多少录取分多少能上该校，招生计划数
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好：是否有专业级差，如果有，是多少？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问乙肝病毒携带者报考贵校是否会被退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问公布的各省招生计划含自主招生？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我的视力很差，有1000多度，能报考哪些工科专业？谢谢老师
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校有交换生吗？交换生选拔原则是什么？都有哪些专业有交换生？交换生在外期间，费用由学生承担还是教育部或学校承担？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+一：假设选择服从以下专业调剂，但是分数都达不到所选的专业调剂的要求，是会被退档还是该档案投向该批次的下一所学校？二：是否必须先填满专业志愿方可填写服从专业调剂？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好！请问贵校是否服从专业调剂，进档不退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好？请问喜欢地理和物理，报考贵校那个专业比较好？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好，自招“资格生高考成绩达到基准线”的基准线是提档线吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好，自招和竞赛加分都有，录取时都起作用吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+自主招生阳光高考公示了还需签协议吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我儿子保送到贵校没签约，高考后还能否填报贵校？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问如何学校的双学位学习是如何设置的，例如相应的选修项、学分及毕业证都是怎样的。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在专业服从分配的前提条件下，贵校会和学生交换专业意愿吗？（电话通知）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校能转专业吗？怎样转？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的定向生在校期间能否转专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+超一本线97分，录取的希望大吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+国防生的就业地域在哪？有划分？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问如何查找贵校历年各专业分数线
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些热门专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，我考622分，近视400度，是否有希望报贵校国防生？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，我622分，想报贵校国防生，近视500度，是否有希望？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿填写了专业服从调剂，进档了会退档吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+超一本57报贵校希望大吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取分数估计有多少？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我有学生报考了贵校的创新实验班，自主招生没有获得优惠条件，高考成绩需达到什么条件，也能录取贵校。谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个校区，每个校区专业是怎么分的？新生入哪个校区？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问我从小学起视力就很低（高考体检双眼均为3.9且不能矫正），能报贵校吗？什么专业比较没有限制？恳请贵校能给我些建议。谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好，我们担心不服从专业调剂而被退档，又担心专业服从调剂而被录取到不喜欢的专业，请问，科大入学后是否可以转专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想请问一下，若果有色弱，贵校的哪些专业是不能报的？，如果都服从调剂，会因此退档吗？此外，获得的省级奥赛二等奖有用吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问调档后若服从调配是否可能退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（我只知道中南大学的综合素质测评）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+网上与省招生办发的招生计划书不一样，以哪个为准。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+色弱生被高校提档后若所报专业均未被录取，非限报专业又都录满情况下，服从调剂是增加名额录取到非限报专业还是被调剂到限报专业或是被退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+考后，招生组是否来佳木斯咨询。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大适合她吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否一旦提档一般情况下就不会退档，如果不是，退档的比例有多大？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校大一的学习是按大类还是按每个专业学习？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+填自主招生退档后，第1,2,3,4,5志愿能否投档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+排名500左右进贵校希望大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批预计录取分数？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取有级差分吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+学核科学与技术的学生，出国率是多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校设置的涉及国家高新技术的专业有哪些？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问录取专业时算自主招生的加分吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若按120%进档，考生服从调剂，后边的20%会不会被退档。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+排名2000左右报考贵校服从调剂录取的可能性多大
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报志愿时报哪些专业可兼修金融双学位?有何条件限制？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若被贵校录取后想报考00班，需考哪些科目？报志愿时是否必须报上00班（高考分达不到00班）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考中科大的研究生吗？每年有多少外校学生考入中科大读研？二本生每年占多少?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+学校毕业去国安局的有吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂，退档吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问：定向生有没有出国读研的可能，几率有多大？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+近视650度，除核“工程与核技术”专业不能报外，还有哪些专业不能报？要具体到贵校的招生专业大类，不要教育部的笼统专业，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问眼睛600度什么专业不能报？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想上中科大英才数学班，请问高考后咋报志愿
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+自主招生专业调剂是在本省招生计划内专业调剂还是全校所有专业内调剂?是否征求考生意见？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+假如我是科大在津招生的最高分，能进入实验班吗？实验班学什么？有淘汰机制吗？出国进名校深造的概率大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+招办老师您好：我被确定贵校A档自主招生资格。章程中说：若A档资格生高考成绩达到基准线，可满足第一专业志愿。若达到投档线，报考00班，可作为第一专业录取吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些学科按大科招生？（即入学一至二年后可再调专业）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无基地班（实验班）？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势专业(国家一级重点学科)有哪些?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+欲报考贵校英才班，是否可与招生老师联系，直接录取？是填报志愿前还是后？如何联系？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校的定向生毕业后能否考研，考研的机会有多大？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报考国防生视力可适当放宽至多少？矫正视力和裸视力是必须同时合格还是只需一项（比如矫正视力）合格即可？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+视力4.2能否报考指挥类专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问录取时更偏向自主招生考生，还是高分考生？我是说在满足自招考生第一志愿后，高分考生只能放弃第一志愿吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：，我高考体检为色弱且有红、绿单色不识别可报考贵校的什么专业，要有针对贵校的专业而不是“普通高等学校招生体检工作指导意见”那种笼统的标准，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+志愿之间的级差是多少？通过自主招生的考生是否有专业录取分数优惠？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我很欣赏科大的研究氛围，请问我想学数学金融方面，请问怎么填报贵校？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+00班是何意？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好。本科生能否有资格进入国家实验室或重点实验室进行科研学习？一般要求具备什么样的资格？人数多吗？什么专业的多一点？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好。分数优先，是高分考生的第五专业优先于低分考生的第一专业，对吗？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您说得分配专业时依照分数优先的原则,是否就是在分配专业时按分数的高低次序依次分配专业,当排到某个考生时,若第一志愿已录满,就录第二志愿,二志愿亦满时就录第三志愿,依次类推.是否如此?烦请予以说明.
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+已提挡，第一专业未能录取，如何录取以后的专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的优势专业是什么
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若未将贵校填在A学校，是否会对录取造成影响？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:您校转专业如何转的?是否要费用?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:656分,704名,可以报您校吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+假如贵校某专业计划招生10人，投档比例为100%，而报考人数超过10名（均过分数线）。若已投档的10名考生中没有被完全录取，系统会不会立即再从第11、第12....中补充投档？再补录？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是陕西的634fen一本线556排名2300上贵校希望怎样专业建议呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:，1、博士后流动站、一级博士点、二级博士点、硕士点是什么意思？，2、那些专业具有硕士博士授予权？，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问第一专业取不上对第二专业的录取有影响吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校如果被提档，那还存在退档的可能吗？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问入学后，若感觉专业不对口，能否再转专业？应如何转？容易吗？麻烦您了，谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+654分846名力学有无希望
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业生在出国读研方面有哪些优势？读研主要去向？是否有报送国内或国外高校的读研机会？本科生是否有机会作为交换生出国学习？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，若服从调剂，贵校会退档吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好老师请问贵校哪些是特色专业，就业前景好？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生有级差吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想要能通过成人高考进入贵校取得大学学历可以吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校提档比例是多少？有竞赛加分分专业时计算吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我孩子估分630分，可否报考贵校？我是甘肃的。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校数学系实力比南京大学如何？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校色弱限报专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+少年班招生计划好象不分省,那么考卷不统一,如何确定复试分数线的?
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在我校咨询的时候，招生老师谈到一个什么承诺，具体是什么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我在最好的高考博克里看了相关政策，决定报贵校，但不知道贵校情况，能否介绍一下：http://blog.sina.com.cn/s/blog_6598a8380100hjpm.html
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+招生计划中是否包含自主招生的名额？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校欢迎往届大龄考生吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问获得自主招生资格的学生，是否一定要在自主招生录取时先填报？在第一批次志愿中是否还要在A志愿中填报
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业调剂的原则是什么?河北省
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好我想问下通过正规成人高考被贵校录取的学生也是算大学生的对吗谢谢您
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+模考成绩在610左右，高考估分也基本是这样，有希望考取科大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在招生章程中讲：“激励实行平行志愿省份的考生以第一志愿第一排序报考我校。”请问激励措施。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大校园网并不像其他高校有历年分省分专业录取分数可供参考。请问根据什么作参考来确定所报专业？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的按学科类招生，不分专业统计录取线具体含义是什么？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+有哪些提前批的专业以和报名时间、方法,是否与普通报考一样
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+具有自主生资格的考生是否在第一批次之前报志愿、录取？因为学校公布的计划不含自主生，那么他们的录取线和录取专业如何确定？是不是先填志愿，但要等第一批次录取时，非自主生录取最低分确定后，再录取自主生？专业也和他们一起排队？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的2010年1800人的招生计划是否包括已经录取的保送生人数和自主招生人数？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+全市模考100--200名
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+近视600度不能报什么专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，我孩子是贵校的自主生。贵校的分省招生计划数不含自主生的名额，请问：自主生考生的专业贵校是如何计划的？自主生考生如被录取后，有那些专业可供选择？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+中科大寝室内有网线吗？或者有无线网络？，？是否收费？费用多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+对于贵校，省优干的加分与地区加分能否重加
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+中国科大需政审吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+进入中科大后是否要重新体检？，怎样才算体检不合格？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问入学摸底考考得很差会有什么后果？考得很好会有什么奖励？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，请问你校在确定考生的专业时，是否考虑照顾分（包括竞赛加分和少数民族加分）？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若服从专业调剂是否会被退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的录取分数线一般比重本线高多少分？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+考分为634，综合素质很突出，服从志愿调剂，有多大把握报考贵校。，另外，请问贵校国际交流合作方面有什么特色，谢谢您。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承诺进档不退？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如有，是多少。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势科目是？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+第一顺位报考本校有什么优惠{如西安交大}？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果我报了你校,但没填服从志愿调剂.，我又够你校的投挡线,但没达到我填的专业.这样我的档安何时退,我还有机会检索下一个志愿吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你校章程上规定:第八条享受加分政策的考生，按教育部及考生所在省（区、市）招生主管部门的规定加分进档。，请问:加分进档后,实际录取时,是否按总分(总分=实考分+政策性加分)从高到低录取?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+转专业有什么要求谢谢老师
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果调剂,可能把我调剂到本省计划外的专业吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果报考提前批，没被录取，会影响一本录取吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是用手机打的，确实说停机了。急啊老师。您可以联系到那王老师吗并尽快告诉我们王老师怎么联系吗？谢谢老师您辛苦了。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校政审有何要求
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，贵校在什么情况下会退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报贵校国防生，对视力的要求？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+642，613可以报贵校吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：你们在浙江投档比例及专业级差为多少？退档风险有多大？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:是否进档后只要是身体条件符合要求且服从调剂就不退档。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿要拉开梯度，那么这个梯度怎么把握？拉开多少分才算拉开梯度了呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我已通过了自主招生，填志愿时在特殊志愿中填报，中科大当然放在A志愿，那其他志愿呢，在哪里填报还是在特殊志愿中吗，或是在普通志愿中？，另外自主招生录取的学生是否可以随便挑呢，还是根据分数？，谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+十分感谢老师多日来耐心的解答！希望我的成绩能够达到贵校要求，能够报考贵校！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的老师,如果我在大学内想换到自己更喜欢的专业,那么我所需要的条件是什么?且其中的过程又是怎样的?难度是否很大?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！提前批次分数与第一批相比，是高一些还是低一些，历年情况如何？网上查不到，想请教一下。
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认各省市加分政策？投档时按加分后的成绩可以么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+内容：请科大老师解释一下高考考生編號与准考证号是一回事吗?高考考生編號是准考证下面的条形码对吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！，请问如果以第二志愿报考贵校，要减分吗？，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+中科大宿舍条件如何教室宿舍有没有空调能上网吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+625分报中科大提前批走的可能性大不大?若是本科以批呢?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问您：你们学校的优势专业是？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+国防生是否可享受加分?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿一比一点零五的比例下，是不是进档不退。在没有什么身体不合条件的情况下.服从调剂
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！，请问贵校提前批有哪些专业？报考提前批有什么要求？本博，本硕连读是提前批的吗？，，谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+力学基地班是何专业？就业情况？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想问一下提前批报考力学基地班需要什么条件？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问您多次提到的专业分数线无级差是指什么？是指统一分数线吗？它跟投档分数线有何区别？谢谢您的耐心解答！
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1.对于高考失误但入校后成绩优秀的学生,贵校有何重点培养方案?2.转专业情况如何?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校国防生如何招生?高考高出一本线20-30分报考贵校国防生有多大把握?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+对加分问题，贵校招生就业处处长蒋一在新浪访谈的回答与老师的回答似乎不一致。下面引用新浪访谈的话“主持人：加分是一加到底？，蒋一：这个加分如果说你在提档的时候，这个加分没有用上，比如你的实际考分比我们录取的最低分要高，没有用上，分专业再用一次。如果加分在提档的时候用上，分专业的时候就不看了。”，http://edu.sina.com.cn/gaokao/2009-05-06/1655198758_2.shtml
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问民考汉报考贵校上完预科能否调换专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大老师：您好。科大毕业生出国深造比例很高，请问其中获奖学金的比例是多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好。前几天，网招谈话，有些不懂，现请教。省三好加分，若省招办提档时加入总分，我校是否承认？靠加分，我不但提档了，而且超出了贵校原始提档分，分配专业时，是否还算加分？如果我靠加分才够提档，减去加分，我低于原始提档分，是否会退档？这种情况，分专业是就不在算加分了，是吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！前面询问关于加分问题时，贵校答复“这种情况下不会退档，只是会按实际高考成绩分专业”，如果考生考分较高，不用加分即可达到贵校的最低录取线，那么请问，在专业录取时，该加分起作用吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校自主生发布的名单是按什排序？是否为成绩？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1、基地班如何招生，只在有计划的地区招生吗？，2、大类招生分专业时，包括大类中所有专业吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+近视在1000以上能报什么专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+对于生源基地的学生，是否有见档不退的优惠？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+定向生录取以后,是否可以考取国外研究生?如果可以,是自费还是公费?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问宿舍有暖气吗?谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+本人色弱,请问:国防生与定向生录取是否有影响?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+孩子正常考试，可各科都是零分，不知原因。请贵院校给予咨询答复，谢谢了。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好！排名准确有没有希望
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+专业级差?，入学后是否能转专业?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的电子信息科学类包括哪些？及贵校的住宿条件怎样？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大是否录取复读生，要求是不是一样？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问一下：高分2视1中的第2志愿和原先的第一志愿是否有区别？？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问一下：理科649，能否报考贵校？？，贵校的有哪些优势专业？？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+国防生什么时候体检？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我在河北考了622+10，报贵校的通讯专业能被录取吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好.专业录取时是否考虑加分?转专业有何要求?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好我考了596能否报贵校
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问：科大招生校园开放日在何时何地举办？有哪些学校参加？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业级差多少？如果满足不了专业要求调剂时是否征求考生意见呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问过了调档线且服从分配是否会被退档？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，我报的是其他提前批的，请问630左右提档比例多大？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+自主生能否填报贵校或其他学校的提前批（国防生、定向生）？若报考退档后，再报考中科大是否还加分？两个基地班是不是提前批？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校专业选择时是按实际考分还是按加分调档的分数。，2.校内专业选择是否有级差。
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，良好的数学基础是否意味高考数学分数需要多高呢？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问学校有哪些重点学科？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大的优势专业有哪些?谢谢.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校每年平均出国名额为多少?，都去向些什么国家?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问2008级保送生录取通知书什么时候发放
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1、需要说明的一点，不是说未入伍就想退伍，而是想了解一点政策。，2、可能性不大是因为分数还是因为态度。
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,中科大对平行志愿如何录取?，{谢谢!}乘以10000
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无专业级差和志愿级差?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问进了贵校离中科院有多远？有多大可能？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,贵校如何招收少年班?有何要求?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想报制氢但是不知道属于什么专业。也不知道那些学校有这专业。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问预录是指什么?是定向就业吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大提前批次基地班一般高出一本线多少?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批次一般高重点线多少分？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!请问如何联系科大在各地的招生咨询人员?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+国防生视力要求宽松，如果带500度的眼睛，能报考吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问：科大提前批次是不是本硕连读，学制是几年，学习时间是否可以根据个人意愿选择？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估641分，请问报考贵校的电子信息科学类有把握吗？能否提供下贵校的近几年该专业录取分数线？，谢谢，河南考生
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大的两个提前批专业毕业后在哪里工作?工作中又该做些什么?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+08年655可以报贵校吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，，请问贵校是否招收第二志愿的学生。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+预计超过重点线40-50分请问能否被贵校录取,如果考虑重点学科有多大希望
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+刚刚知道，有提前批其它类本科。请教提前批力学基地班情况
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的回复！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+咨询非师范、非军校、非国防生的提前批招生是什么性质的招生？学生是如何学习和分配的？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+基地班分数大概多少？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校少年班全国报名人数有多少?高考成绩达到多少分贵校少年班可以录取?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生资格生的考生什么时候落取?是不是在提前批次一起进行招生?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批次的"基地班"是什么意思?招生有什么特殊要求?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:1、保送生专业选择在什么时候?，2、和正常考试录取的考生相比选择面谁更大？，3、入学后奖学金的享受是否一样?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+公布的历年分数线最低分含自主招生的分吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校的自主资格生是否在一批填报志愿前进行提前录取？如果是，大约在什么时间？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校入校后转专业条件是什么?，2.贵校是否有本硕连读专业?是否有2+2或3+1等培养模式。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+投档后“不符合教育部有关规定，即使在100%投档线内也会退档。”这里的教育部规定有哪些具体条件？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+生物类本硕博连读提前批招生录取的条件比第一批重点本科录取的条件要高得多是吗？一般要高多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，保送生是否占用招生计划中的计划数？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问,一眼失明,报考时有何限制
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问：科大的那些专业或学科可以进入到贵校的同步辐射、微尺度物质科学两个实验室？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问您填报贵校是否按提前批次时间填报？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！什么样的考生才能与贵校签订预录合同？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是一回族考生，我想问一下在贵校的学习生活是否方便，特别是吃饭问题，请老师回答，谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师:你好!上海采用平行志愿如专业愿意调剂是否进档即取.谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+而中国科技大学是梦里最华丽却又是最真挚的一章。考失手，心不甘，但梦依然在。科大永远是最安静最真诚的地方，我祝福她。，我不会放弃，还有考研、考博，我还可以来到这里工作任教。，我的名字是：桑延奇它一定会与科大相伴，我坚信......，我和科大一样:路很长很长......
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业教量子力学？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提前批招生方面有些最新情况吗？报考贵校该提前批的高分考生多吗？请问640分（927名）报考了提前批被录取的把握有多大？，，另外该分报考贵校第一批本科有无希望？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报考有希望吗?全省约800名
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的提前批专业，是贵校的强势专业吗?，可以介绍一下吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+省１１名报考能给多少奖学金
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是别的学校的同学，可以您的学校旁听吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强势专业有哪些?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批何时开始录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在贵校就读期间，可否跳级？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若是专业不满意，可否在大一刚开始时调专业？谢谢您！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在本省计划招生１６６人，按1:1.2(是这个比例吗?)投档后,如果都是专业服从的话,是不是要扩大招生?，能否顺便问一下,其它名校也是这个政策吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问"绩分差"是怎么一回事?，谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问,647能否上贵校?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+646分有多大把握能被录取，能报哪些专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+646分有多大把握能被录取，能报哪些专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+昨天晚上查的分数为643，报考了贵校的提前批次的本硕博连读，是否有希望被录取？谢谢老师
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好，贵校是否录取乙肝病毒携带（肝功能正常）的考生，，此种情况继续读研是否可以录取。谢谢！！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是蚌埠考生,实考分635分,另加省竞赛(数字和生物两项)加分,共645分,报考贵校,可否录取?如能录取,在专业上如何选择?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校是否真的不设专业级差？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时会优先录取应届生吗，我是复读的，专业对复读生有什么限制吗，是什么专业复读生都能报吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校中物院的定向生的分数比一般专业是否要高很多?若是,要高出一般专业多少???
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想知道贵校的招生网站，谢谢回复！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在专业录取时排序的总分中是否含照顾政策的加、降分？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+地球与空间科学出国率高么？具体有多高？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我想知道贵校对优秀生有没有奖学金?对获奖学金的学生有何要求?有没有其他优惠政策?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校出国机会比较大的专业有哪些？，出国的费用是如何分配的？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的国防生能否转成普通生？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些专业属于冷门专业，报考那些专业录取的机率较大？听说贵校转专业较容易，是吗？是在第二学期转吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的最强势专业有哪些?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:，我想请教您两个问题:一个是请问贵校是怎样看待加分政策的,安排专业是是否还看加分?二是请问贵校是否招收二志愿考生,如果招收招收规则是怎样的?贵校近五年来是否有过招收二志愿考生的情况,如果有,每年的人数是多少?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+本硕博连读就业情况
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？谢谢！
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有专业级差吗？如果有的话是多少分？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问单眼弱视大于800度不能报你们学校的哪些专业招生简章上的专业不太清楚似乎和你们学校设置的专业不太类似
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+政审表什么时候交?交到哪?谢谢回答
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认政策性加分？本人高考估分在655（含加分）左右，能否被录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+该校电子信息专业的是不是重点学科,就为前景如何
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业进中科院的几率是多少
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问您校的力学基地班（提前批次）的主要课程方向是什么呢？怎么查不到？谢谢回答
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生的视力要求的严格吗?，提前批中所指的一本控制分数是指一本线还是贵校的投挡线?，谢谢回答!
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+军训会不会很严格
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的强势专业是什么？有什么重点学科？有什么重点实验室？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师：，不知历届生可否填科大的提前批志愿？，谢谢老师。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好！如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校这几年提前批次的录取分数是多少
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+提前批本硕博连读录取分二本线以上能报吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招国防生么?如果有,一般要高出重点线多少分?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+那些专业对数学要求较高,我想报数学要求高的专业,不知道有那些.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我喜欢数学,不知道应报哪个专业.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:浙大排第三,名副其实吗?浙大有中科大好吗?有复旦好吗?有上交大好吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校2006在津调档人数为29，但实际录取为26人，而贵校承诺只要够110%调档线均不予退档。请问如何解释该现象？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估分590,能否上贵校的提前批次
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校其他提前批录取是否认可我省的政策性加分？谢谢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我的参考书里只标了各专业录取最低分，也没有各专业录取排名情况，请问除了这个网的志愿参考系统有外，贵校也提供吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批次除国防生外还有哪些专业?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果考生提前批被贵校录取，请问进校后能否改专业？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱最好报哪些专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱最好报哪些专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我是山西考生。请问中科大的王牌专业有哪些？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我儿,广一模:665.5;二模:620.能报你校吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+本硕博是否在历年录取中分数最高几年修完三个阶段
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+天津南开中学排名10-15名，一模645，二模641，如果高考发挥正常，能稳考上贵校数学专业吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请教:生物学专业在以后具体选什么专业好?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果考生的投档成绩（高考成绩+政策加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好!，请问当地省招生规定的加分是否可以与贵校自主招生加分叠加?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大在录取时是否有专业级差，若有，是多少。谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在学科竞赛中获奖等而获得加分，贵校按考生成绩由高到低排序时考虑这个加分吗？还是只看考生的实考分数？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的提前批在录取时还会不会向考生征求意见？如果要取消该志愿该怎么办？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+什么时候能查寻录取情况,用什么方式?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招非第一志愿考生？院校级差分为多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问646能被提前批录取吗？？急问！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+国防生录取原则？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我服从分配，为什么不能被录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+对非第一志愿考生设的级差分是多少
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+是否对非第一志愿考生设有分数级差
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，我的考分是658(含10加分),报考贵校有无希望?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我已得到科大的承诺，我想知道，满17岁，是不是就不能报少年班了？科大少年班和其他班有什么区别？课程、考研、出国留学等方面待遇不同吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+是不是所有的毕业生都没有派遣证了?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+概率多大
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，646报考贵校有好大希望啊？谢谢！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我考你校提前批次研究型科类专业,但身体条件不符合公安院校体检标准,能否被录取?老师说让我耐心等待，是什么意思？请明确答复，好吗？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+６５３分报科技大学有希望吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿抱了贵校录取的概率大吗？？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问加分政策？？，是否在提档与专业录取时都承认加分？？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生的要求是不是很高？，万一有挂科是不是就不能再作国防生了？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问是否招收二志愿?有什么条件???
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+都说中科大大小年规律很准确，您说呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+进贵校把握大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业出国强哪些就业强?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于各省加分政策如何规定?录取时加分是否算在内?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的哪些专业较强?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+621+奥赛20分=641省排名542志愿服从调剂能否录取贵校，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于加分政策如何规定的?录取时考不考虑加分?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+这个分数能进贵校吗另外转专业需要什么样的条件是所有专业都能转吗
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问本硕博连读的课程如何设置？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业级差吗？有哪些优势专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我考你校提前批次研究型科类专业，,但身体条件不符合公安院校体检标准,能否被录取?请速回复.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否录取第二志愿考生
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+奥赛加分在提档和专业录取时都加入总分吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问加分考生选专业时去掉加分是不是很容易落榜啊
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+提前批录取什么时候进行估计分数线是多少呢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在专业录取时是否承认加分
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类包括哪些专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是成都外国语学校的学生，请问这个分数上贵校是否有希望。
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问在闽排名多少，报考该学校才有希望呢？麻烦了！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+647能上线么？中科大哪些专业最好？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+分数优先和志愿优先在录取时对考生有影响吗？比如：我应该选择按分数优先的院校报考还是选按志愿优先的院校报考哪？我感觉只要分数够应该没有影响，但为什么却出现按不同的原则录取这种现象哪？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，科大的本博连读是不是一定要读科大的研究生？还是可以选其他院校的博士研究生班去读？比如在本博连读班学习到一定时间后可以读国外的博士生吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+618可以吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的住宿条件如何?奖学金情况?学生与国外的交流情况如何?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否只取第一志愿?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+本博连读班是否在大学期间有筛选过程即不合格的退出本博连读班
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+本博连读的淘汰过程是怎样的？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+haha
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1、请问贵校出国留学比例最高的专业是什么专业?比例多少?，2、该校毕业生就业方向如何？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+少年班高考成绩何时公布，怎样查询，什么时候开始录取？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+加分的考生专业录取时要去掉加分吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，国防生本科毕业后的去向是什么？毕业后可以继续读研吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势学科有哪些,国家重中之重学科有哪些
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+http://zsb.ustc.edu.cn/guide.php?cid=14，，科大校内的平台，，欢迎大家到里面咨询内容更多更具体，，谢谢.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+排名2249,请问报考贵校的电子工程与信息科学系,是否有风险,谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校有什么专业特色？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校在录取时专业级差是如何规定的?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问660能否上本硕博连读
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+乙肝阳性在贵校是否有专业受限，是哪些专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校和中科院合作的生物本硕博连读。该专业需要学习多长时间？是不是全部都在中科大完成？该专业是主要是宏观生物学还是微观生物学？，谢谢老师
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1000名报考贵校有戏吗,谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+分数640可以上科大吗
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+考卷不同，分数不同，如何分配录取比例？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问超过重点线多少才有较大机会录取贵校
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问各专业志愿间有级差？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估分为623，报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在加分政策上好像是分专业时不承认加分，这样加分投档的学生落选的可能性是不是更大了？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好！估计考分在570左右，数学成绩在130以上，准备报考贵校，有希望被录取吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大是否招收第二志愿考生?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校本硕博连读大概多少分，660有没有希望被录取
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问635以上咨询的人数？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的国防生属于哪个军区毕业后分散到全军吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校大一为不分专业招生，那么在分专业时是否受到原录取专业的影响
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，且服从调剂，但所报专业分数不足，退档机率有多大？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问专业级是多少？需高出重点线多少报贵校机会较大？有哪些重点学科？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+大一选科时若某一科选的人过多,贵校按照什么成绩进行塞选
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!你们招国防生是给总装备部,本部能优先吗?谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+呵呵……这是链接，这里只是部分图片.，http://gradschool.ustc.edu.cn/ylb/material/logos/big/all.htm
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+大一转系是否有名额限制
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+民族预科班的毕业证和学位证是否与其他人一样？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问进入科大以后是否可以调专业？如果可以，需要满足什么条件？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好.请问贵校的提前批次录取有哪些分数和身体要求?谢谢.
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问本硕伯连读怎样报名，设何专业，计划指标如何投放？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否在第一学年后可进行全校范围内的专业选择？转系、专业的要求和比率如何？如果要求不高是否意味着各招生是报考各系没有太大区别？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+有意报考科大的同学：如果你们有什么问题可以加我的qq6717752。，虽然我不能象招生老师那样解答招生的问题，但是我可以向你们详细介绍科大的情况（包括各个系），以及科大学生的前景。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍关于贵校出国情况
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校按院系招生？那麽哪个时候分专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问贵校哪些专业是较好的，有好的前景，如考研，就业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业分数级差吗？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估分670请问能报考贵校最好的专业吗？？比清华的如何？？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+《报考指南》上有关贵校的100%提挡线是什么意思？是不是达到此分数就一定可以上贵校？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估了600分（不算加分），是否有希望上贵校民族预科班？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+你好：不敬了！为什么所有的回答都是给个联系方式？感觉很敷衍
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师：从招生简章上贵校认可并执行各省级教委或高招办有关民族加分政策，请问在录取专业上是否按实际高考分数录取？谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问中科大的优势专业有哪些？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍关于在贵校如何转系
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问都有那些专业有本硕博联读?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校数学系对高考数学单科成绩是否有要求
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+不好意思~
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我考了600,考贵校有多大把握,预估一本线576
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大不能保研？我父母工作的西南科技大学是科大对口支援的，那里的优秀本科生都可以保到科大呀，科大的电子类分数相对其他专业是不是较低呀/，科大的住宿条件如何？，谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若一本550我640可以吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+610-630报考贵校有无希望？填专业服从怎么样？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+提前批次的分数线是否一般比本科分数线高？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生录取通知书何时到?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+理科605报贵校有没有希望？贵校特色专业是什么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校研究生的就业情况和出国,保研率贵校电子科学类的实力专业方向?谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+大一能否带电脑？我觉得大学生最好不要买电脑。不知科大有何规定？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：自主招生通过高考后，录取时是否占当地的招生指标？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师回答!!!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵学校的专业级差和院校级差是多少？，今年620分可以报吗？有希望被录取吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,，我是一名保送生,请问高考成绩重不重要?，谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，1在投档时，贵校会将省级加分加到高考总分上去吗？2在专业录取时，贵校会将省级加分加到高考总分上去吗？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+关于少数民族地区的少数民族加分,贵校是如何对待的?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，如若高出第一批本科线十几分是否可以报考贵校？可以报考什么专业？谢谢！！！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问:科大的提前批本硕博连读分数应超出重点线多少?谢谢老师回答.
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我考了600,预估一本线576,考贵校希望大吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！我是合肥一中考生，估分641，是否可以录取科大。特别是生物专业。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最早啥时可大概估出在陕分数线?谢谢
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请勿回答此问题，，系统开放第一天，还不是特别稳定，如果出现异常情况，请您将此情况的详细内容发送到lh@chsi.com.cn这个邮箱中。，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+有分数级差吗
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校热门专业是什么?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+提前批次录取的生命科学学院院址在那里？本博连读有何要求？请介绍一下具体情况。谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是台籍考生,可获得一定的照顾分,请问贵校承认这些分数吗
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校多少分能上呀，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，得悉贵校的招生方法，感觉非常好，对考生极其负责，如果别的高校也采纳贵校的招生方法，那么高考中的高分落榜生岂不微乎其微？当然，这是在考生诚信为本的条件下才能实现。谢谢您的回答，如果我的儿子有希望的话，我一定让他报考中国科技大学!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！它这样做，你们还能招到好学生吗？考生和家长谁不想求稳呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问我的成绩若正好在贵校提档分数线上，又符从分配，能否保证被录取？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢谢回答。再问：统计与金融系是以统计为主，还是以金融为主；还是都要学？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+经政策加分调档后,体检合格,专业服从调剂,是否一定被录取
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+重复了一下，应该查到。，，最后在自主招生查询栏下，请再试一下。，，没有06年的。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+入校后可否调专业
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大老师：你们说：登录中国科大主页，点击招生与就业，进入招生在线，在自主招生栏下即可查阅。，但没有。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大老师：以下为你们所答，但自主生名单在科大招生网没有。，按规定所有学校自主招生是单列的。，中国科大不例外，资格生人数已公布在我校网站，可以查阅。我校在录取专业时，没有级差，从高分到低分安排。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：超计划提档部分是退回还是扩招？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校的提档比例是多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+另问本硕博连读各专业及招生数量?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+按大类录取后依据那些条件安排专业？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我想了解一下，科技大在对民考汉的招生方面有哪些政策？录取分数如何？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校确定各省招生计划的原则，及录取学生的标准（原则）是什么？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+6541，91
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大老师：你们好！请教：我是科大自主生，调档线是百分之一百还是指百分之一百二十？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的自然科学的发展概况如何？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请邮一份招生宣传画报,方便了解细情,谢谢!
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好!谢谢刚才地回答.我想再明确一下,第一志愿有六个专业,专业之间怎样降分?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+听说，进入科大的学生只是学外语，为了出国，出国率很高。同等分数不如在其他学校学的知识多，也可能是区位的问题，为什么不搬到更大的城市去呐？我想上科大，但又有顾忌。请帮忙解决！！谢了！
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+16岁是少年班，十七岁的学生有优惠吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,哪些专业属于原安徽农大的
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问,自主招生占公布的计划吗
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校什么专业的就业前景好,
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问我的视力不好600度左右，请问那些专业受限制？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+有单科考试不及格的是否录取
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校对贫困学生有何扶助政策
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵晓招收第一志愿落榜生吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：科大年出国率25%是指获得全额奖学金吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校设有专业级差吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认高分保护政策,具体会怎样实行
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师好,677分报贵校,有希望吗?请赐教.谢谢.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+实时在线互动咨询，一定要去！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+最好的交流平台。请一定要去！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+了解所有关于科大的信息。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大招生网：zsb.ustc.edu.cn，科大招生论坛：zsb.ustc.edu.cn/bbs（强烈推荐！报考科大必看！），科大毕业生去向统计，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=69，，科大的专业转换：全国最宽松方便，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=71，，看科大人才培养的数一数二！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=156，，科大的特色：精品大学、精英教育！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=67，，了解科大和她所在的城市（风土人情、生活环境、衣食住行），zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=76，，清贫学子求学科大，真的不用愁！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=75，，科大的学术水平、地位和国际影响力，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=70，，作为唯一直属于中科院的大学，科大的优势？，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=68，，传奇背后的真实---中国科大的精气神zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=78，，招生组联系方式及常见报考问题答疑，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=66，，科大招生组联系方式：zsb.ustc.edu.cn/contact.php，，科大在线咨询安排：zsb.ustc.edu.cn/bkzn.php?pid=11，，科大将参加的现场咨询：zsb.ustc.edu.cn/page/05zx.php
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大最好换专业,请问换专业到底是怎样的政策?谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校每年是否有保送中科院的研究生，比例多大？谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+省内排名441加分后482录取希望大否?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+招生办的各位老师辛苦了！，请问：数学系对高考数学分数作要求吗
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+664报考贵校生物专业有多大希望
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+符合年龄要求，高三应届生，要转进少年班，在成绩上有何要求？排名有何要求？（本省排名还是进科大后的排名）
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+问题:考分626,排名在本省前500名的学生(高于本一线84分),报考贵校可有希望?如有,可填报哪些专业?，急盼答复,谢谢老师.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是609,第一志愿是中科大,请问有希望被录取吗?
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如何尽快知道报考少年班的学生高考成绩？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+为什么只招高三以下的呢？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+在回答吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校每年是否有保送中科院研究生院的研究生，比例多大？每年本科生考研的主要学校和几率如何？谢谢1
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校的特色专业有那些?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+高考631分,全省2129名能进你校吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校怎样转系？录取时是先统一收再分专业，还是录取时就分好了？谢谢！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果两名考生分数相同,请问贵校会根据什么选择?
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的生物专业在全国范围内来比较如何？每年该专业的出国率与贵校的其他专业相比怎样？约为多少？，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的生物专业在全国范围内来比较如何？每年生物专业的出国率，约为多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校本科生什么时候开始修第二学士学位？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问要靠多少分才能报考你们学校？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+加分在学校录取与专业录取时都有效?，如只在提挡时有效，那么总分够录取线，专业服从调剂，是否退挡？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我是合肥一中的学生，非常向往科大，为了保险，我想报考冷门专业，请老师指点。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,估分560能进贵校
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+我估分670多分。已经抱了中科大。我很有信心！
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+http://zsb.ustc.edu.cn/bbs/
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+http://zsb.ustc.edu.cn/bkzn.php?pid=11去看看，直接提出你的问题，老师将给予准确答复
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+招生网：zsb.ustc.edu.cn招生论坛：zsb.ustc.edu.cn/bbs（强烈推荐！），科大毕业生去向统计zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=69，科大的专业转换：全国最宽松方便zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=71，看科大人才培养的数一数二！zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=156，科大的特色：精品大学、精英教育！zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=67，了解科大所在的城市zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=76，清贫学子求学科大，真不用愁！zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=75，科大的学术水平和地位zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=70，作为唯一直属中科院的大学，科大的优势？zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=68，传奇背后的真实---科大的精气神zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=78，招生组联系方式及常见报考问题答疑zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=66，科大招生组联系方式：zsb.ustc.edu.cn/contact.php，填报志愿期间，务必常查看此链接，了解最新的联系信息。，科大在线咨询安排：zsb.ustc.edu.cn/bkzn.php?pid=11，科大将参加的现场咨询：zsb.ustc.edu.cn/page/05zx.php，科大历年录取统计：zsb.ustc.edu.cn/bkzn.php?pid=4，科大招生计划：www.zsb.ustc.edu.cn/bkzn.php?pid=2
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校有无第二学士学位点，如果有，是哪些专业？，t
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问我们得分后如何与贵校联系?贵校的优势专业有哪些?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问中科大有专业级差吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大的食宿情况以及网络情况如何？寝室不准安装电脑，也没有预留网络接口的说法是否属实？供本科生使用的网络自习教室设备及费用情况如何？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校入学后有体检吗？我是健康携带者，肝功正常。但是仍然担心入学后体检不通过被退学，所以在这里请问老师，什么样的情况下，体检才算不合格？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大的承诺线是多少?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校在各地留有机动名额么？大约占总额的多少？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想咨询一下，贵校在为贫困生提供的一些措施的时候，需要我提供什么样的证明？到学校后具体向哪个部门提出申请？由班主任还是谁具体负责贫困生的贷款或者其他的一些申请事情？非常感谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+如果第一志愿报考你们学校？各专业之间有无级差？，如果生愿好你们学校是否扩招？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问620报考贵校的数学有希望吗?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍贵校的数学专业.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请介绍贵校的生物专业.
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+科大招生网：zsb.ustc.edu.cn，科大招生论坛：zsb.ustc.edu.cn/bbs，，毕业生去向，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=66，，科大各专业转换，全国最宽松方便，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=71，，科大的人才培养，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=156，，了解科大，和她所在的城市（生活环境、衣食住行），http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=76，，清贫学子求学科大，真的不用愁！，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=75，，科大的学术水平、地位和国际影响力，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=70，，作为唯一直属于中科院的大学，科大的优势？，http://zsb.ustc.edu.cn/bbs/showthread.php?s=18f123dea58acb30eec196913b9fa90b&t，hreadid=68
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大多少分可以承诺招收？６２０ＯＲ６３０？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问一般情况下科大录取分高出重点线多少?是否是由平均分加上分差来估计录取可能?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：，如果我第一专业志愿是贵校电子信息专业，第二专业志愿是贵校材料专业，第一志愿未被录取，那么第二志愿录，，取时，是降分后（降多少分？）和其他第一专业志愿是材料的考生同时竞争；还是等材料专业录完第一志愿后，生，，员不满时才录第二专业志愿考生？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问我估了610左右上科大是否有很大风险?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+报贵校把握大吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+录取原则是什么？第一志愿的各专业之间录取原则有差别吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+是否有希望?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+估分650能否报考贵校?
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取时的专业级差是多少呢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问，各类加分（如竞赛加分）是不是只对投档有用？专业录取排名时是按实际分数还是算上加分？谢谢老师。
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问一下，报送生和自主招生的考生算入85人的计划内吗？谢谢。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1.有那些好专业，他们的研究方向是什麽？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+1.有那些好专业，他们的研究方向是什麽？，2.安徽靠生６３０能顶合同吗？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+若第一志愿未录取满，二志愿是在一志愿全部录取后录取，还是与二志愿去掉一定分数再平行录取？谢谢！
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+请问科大的专科有哪些专业？录取分数线多少？
+select * from admission_score_pro where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好！学生自荐表在什么地方索取？发送到什么地方？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+复课生可以推荐报考吗？网上能下载推荐表吗？可以寄给本人吗？谢谢老师。
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳），肝功能正常，你校会接收吗？如果入学后会不会让休学呀？你校复检是乙肝五项还是只查乙肝表面抗原，谢谢
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+贵校网站上的考生自荐是怎么回事？填写后能有什么用？
+select * from admission_plan where school='中国科学技术大学';
+['问句条件词只有学校，查询过宽！']
+总问题数2913	查询语句构造为空数0	只有学校关键词数652	查询结果为空数1109	有回答数1151

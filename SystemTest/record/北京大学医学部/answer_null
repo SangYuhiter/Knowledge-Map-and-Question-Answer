@@ -1,0 +1,769 @@
+北大医学部只自主召生只召理科生吗
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+北京理科577分，医学检验技术有希望录取吗？
+select * from admission_plan where school='北京大学医学部' and district='北京' and classy='理工';
+['查询结果为空！']
+您好，479分北京理科生贵校有希望录取吗？
+select * from admission_plan where school='北京大学医学部' and district='北京' and classy='理工';
+['查询结果为空！']
+例如我将临床医学（五年）作为专业2，是否会先录取分低但是将其作为专业1的同学？
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+专业调剂是否会调剂到护理学？
+select * from admission_plan where school='北京大学医学部' and major='护理学';
+['查询结果为空！']
+河北608分能上此学校吗
+select * from admission_plan where school='北京大学医学部' and year='608' and district='河北';
+['查询结果为空！']
+甘肃考生，贫困专项，理工584能否报考贵校
+select * from admission_plan where school='北京大学医学部' and district='甘肃' and classy='理工';
+['查询结果为空！']
+老师您好！北医二本在山东招生吗？过一本线30分左右能上贵校吗？贵校有哪些专业？
+select * from admission_plan where school='北京大学医学部' and year='2030' and district='山东';
+['查询结果为空！']
+云南考生想了解贵校2016年在云南是否有招收少数民预科班的计划？如果有与2015年相比有什么变更？另录取民族预科省排名会在多少名次？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2015' and district='云南';
+['查询结果为空！']
+请问贵校2015年在云南的录取省排名是多少名次？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2015' and district='云南';
+['查询结果为空！']
+老师您好，北大医学部从今年开始可以转专业吗？有何限制条件？
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+您好，我儿参加今年高考，很关注贵校的医学检验专业，看到去年该专业的全市排名显著低于往年（相当于首医同专业），请问老师您觉得这是什么原因造成的？我可以用去年的排名来做今年度的报考参考吗？
+select * from admission_plan where school='北京大学医学部' and year='2018';
+['查询结果为空！']
+我是广西34个贫困县的一名考生，今年高考估分总成绩为650-660分（含政策加分20分），查了2015年贵校在广西录取临床医学专业的考生成绩在650分以上，如果参加普通本科第一批的招生录取，我可能录不上贵校的临床医学专业。请问贵校有2016年在广西贫困专项批的临床医学专业的招生指标吗？谢谢老师！
+select * from admission_plan where school='北京大学医学部' and year='2016' and major='临床医学' and district='广西';
+['查询结果为空！']
+贵校专科都有哪些专业？去年的录取分数是多少？贵校可以专升本吗？
+select * from admission_score_pro where school='北京大学医学部' and year='2018';
+['查询结果为空！']
+您好，请问：预防医学（七年制本硕连读）在硕士阶段学费是多少？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='None' and major='预防医学';
+['查询结果为空！']
+我是吉林文史类的考生，平时成绩在640分在右，没有任何获将证书，参加了2014年北大夏令营，不知能否让我报本校的自主招生
+select * from admission_plan where school='北京大学医学部' and district='吉林' and classy='文史';
+['查询结果为空！']
+3、在高中阶段参加全国中学生学科奥林匹克竞赛(数学、物理、化学、生物学)全国决赛获奖；
+select * from admission_plan where school='北京大学医学部' and major='化学' and classy='理工';
+['查询结果为空！']
+老师：您好！我的孩子是甘肃省2015年考生特想学医（临床医学），我就想问下您们医学部自主招生需要考生具备哪些资格，才能报，在甘肃省是否有招。谢谢！家长2015.3.5
+select * from admission_plan where school='北京大学医学部' and year='2015' and major='临床医学' and district='甘肃';
+['查询结果为空！']
+请问2015年自主招生政策有了吗
+select * from admission_plan where school='北京大学医学部' and year='2015';
+['查询结果为空！']
+北大医学部2015年有自主招生吗？有的话都有哪些专业？有的话在陕西有吗？
+select * from admission_plan where school='北京大学医学部' and year='2015' and district='陕西';
+['查询结果为空！']
+我的学籍是黑龙省海林市高级中学的，我三年一直就读牡丹江市第一高级中学，我申报自主招生的时候需要提供什么样的材料说明？我想就读贵校医学部，在2014年全国中学生生物学联赛中，荣获牡丹江赛区一等奖；在第28届中国化学奥林匹克初赛中获得三等奖；在2012年全国中学生英语能力竞赛中，荣获黑龙江省级二等奖。我的学习经历够申报条件吗？
+select * from admission_plan where school='北京大学医学部' and year='2012' and major='英语' and district='黑龙江';
+['查询结果为空！']
+您好！我是山西省考生，我有一、31届物理竞赛山西赛区二等奖（有中国物理学会章），物理竞赛山西赛区一等奖取了前30名，而我排名第34名；二、第28届化学竞赛山西赛区二等奖（有中国化学学会章）三、31届物理竞赛山西省级一等奖（山西省物理学会章）四、第28届化学竞赛山西省级一等奖（山西省化学学会章）五、30届物理竞赛山西赛区三等奖（有中国物理学会章）我能报考贵校的医学部吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='化学' and district='山西' and classy='理工';
+['查询结果为空！']
+我是山西省考生，有31届物理竞赛山西赛区二等奖（有中国物理学会章），28届化学竞赛山西赛区二等奖（有中国化学学会章），还有31届物理竞赛山西省一等奖（有山西物理学会章），28届化学竞赛山西省一等奖（有山西化学学会章），请问自主招生可以报你们学校吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='化学' and district='山西' and classy='理工';
+['查询结果为空！']
+招生老师：您好！请问2015年自主招生简章何时发布？要求考生报名自招的条件会有哪些？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2015';
+['查询结果为空！']
+您好，山东理科考生651分高出一本线79分7861名能否被贵校录取？谢谢！
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好，我是北京理科考生，分数622，在二批1a报了医学实验技术、医学检验技术，请问有希望被贵校录取吗？
+select * from admission_score_major where school='北京大学医学部' and major='医学检验技术' and district='北京' and classy='理工';
+['查询结果为空！']
+老师，您好!2014年理科考分620，高出一本线73分，报考贵校录取希望大吗？谢谢
+select * from admission_plan where school='北京大学医学部' and year='2014' and classy='理工';
+['查询结果为空！']
+尊敬的老师，您好！我是湖南理科考生，全省理科排名25000名，高考成绩544分，超一本分数线22分；英语单科成绩145分，全国公共英语等级笔试+口试已达3级，报考贵校录取机会大吗？平行志愿，服从专业调剂，是否投档不退档？谢谢！
+select * from admission_score_major where school='北京大学医学部' and year='145' and major='英语' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师，请问今年北京的提档线确定了吗？弱弱的问下：裸分651有可能进线吗
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='北京';
+['查询结果为空！']
+请问贵校今年在山东有无招生计划？省排名什么位次有希望被贵校录取？贵校录取线差大概多少？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='山东';
+['查询结果为空！']
+往年各校录取考生名次怎么查？
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+我是浙江考生理科691分不知道能不能进
+select * from admission_plan where school='北京大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+孩子高考理科619想报考该校的临床医学8年上了上不了呢？现在山西的分数线还不知道，但是打听到的是532分，谢谢
+select * from admission_score_major where school='北京大学医学部' and year='532' and major='临床医学' and district='山西';
+['查询结果为空！']
+理科588分，学临床医学专业，报东南大学可以录取吗？
+select * from admission_plan where school='北京大学医学部' and year='588' and major='临床医学' and classy='理工';
+['查询结果为空！']
+请问：1、分数达到北大医学部本科一批投档线后，在各专业均未能录取、服从专业调剂、身体条件符合要求的情况下，还会不会被退档？有没有可能被调剂到护理专业？2、河北省685分的成绩有希望报考临床医学五年制专业吗？谢谢！
+select * from admission_score_major where school='北京大学医学部' and year='685' and major='临床医学' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好！请问北京大学医学部今年是单独招生吗？如已够投档线，志愿也填专业服从，是否在医学专业范围内调剂，还能退档吗？如退档存在哪些原因。
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+贵校今年在甘肃有招生吗？大概全省排名多少名可以录取？各专业招生情况如何？630进入贵校是否有把握？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='甘肃';
+['查询结果为空！']
+老师，您好！我是浙江理科考生不知报考贵校哪些专业才适合去国外继续深造，或是读研？今年预计高出一本线多少分可以报考贵校？2014年在浙江各专业的招生人数？
+select * from admission_plan where school='北京大学医学部' and year='2014' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好：我是学生家长，东城二模排名61，有北大自招优惠分数，还有政策加分，如没被北大录取，北医报1B有希望吗？请回复，谢谢，老师辛苦了
+select * from admission_score_pro where school='北京大学医学部' and district='[东城';
+['查询结果为空！']
+老师您好：我是北京东城的理科生，本人一直志愿北京大学医学部，由于不知道北大和北医是单独招生，结果阴差阳错的参加了夏令营，并成绩优秀获得自招名额，并获得了北大和贵校自招复试资格，由于北大的自主招生体能测试与贵校的笔试时间冲突，没能参加贵校笔试，且获得了北大自招优惠分，为了多一次机会，假如该学生没被北大提档，1、贵校录取1B志愿考生吗？2、如果录，有希望被贵校提档吗？
+select * from admission_plan where school='北京大学医学部' and district='东城' and classy='理工';
+['查询结果为空！']
+老师您好！请问临床医学8年与临床医学5年有级差吗？比如一志愿报临8，二志愿报临5，如果没被临8录取，在参与临床5竞争时，是不是就要减级差分？现在明确级差分是多少了吗？5-3-1还是别的方案？
+select * from admission_plan where school='北京大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+我是陕西的考生，贵校去年在我省贫困专项计划的录取分数线大约比一本录取线低多少？一本录取平均分是多少？在我省提档比例是多少？
+select * from admission_score_pro where school='北京大学医学部' and year='2018' and district='陕西';
+['查询结果为空！']
+请问：去年贵校在天津实际录取理科生多少名？去年天津理科生上贵校临床医学专业，录取的平均分、最低分各多少？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2018' and district='天津' and classy='理工';
+['查询结果为空！']
+老师你好!我女儿是四川考生，理科，模拟超本省一本92分，她想学医，报考贵校有希望吗？今年在四川的招生计划是多少？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='四川';
+['查询结果为空！']
+请问贵校2014年在河北招多少人？都是那些专业？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2014' and district='河北';
+['查询结果为空！']
+请问是1-6各专业都有不大于5的专业级差吗？入校后可以转专业吗？往年转的成功率有多少？是不是只有临床可以往其他专业转？反过来不行？
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+请问贵校往年在山西录取位次（考生排位）？今年在山西招生计划？是否扩招？若服从专业调剂是否不退档？专业调剂是在同类型范围内调还是全专业大调剂？调剂前是否与考生联系？是否按分数优先原则？贵校设在几个校区，大一学生是否在本校部？临床医学对视力要求很严吗？具体什么要求？若很喜欢只因视力就一定不录取吗？还是被调到其它专业？若一志愿没被录取，是否二志愿能被录取？
+select * from admission_score_major where school='北京大学医学部' and year='2019' and major='临床医学' and district='山西';
+['查询结果为空！']
+西城区排名多少可以放心报您的学校？
+select * from admission_plan where school='北京大学医学部' and district='西城区';
+['查询结果为空！']
+老师您好，该校的招生目录出了吗？2013年贵校招生计划104，实际招生128人，今年计划112人，会不会实际招生的时候也增加？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+请问：1.贵校在吉林省的投档比例是多少？2.贵校每年在吉林省招的考生排名是多少？3.贵校2013年各专业在吉林省的具体分数是多少？
+select * from admission_score_pro where school='北京大学医学部' and year='2013' and district='吉林';
+['查询结果为空！']
+老师您好！我是海淀区考生，一模超一本130分，报考贵校临床八年专业，能被录取吗？
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+老师好，请问往届复读生报考临床专业有限制吗，是否可以报考临床八年制？谢谢
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+老师您好：我校二本西城模拟576分有希望吗？
+select * from admission_plan where school='北京大学医学部' and district='西城';
+['查询结果为空！']
+北京西城的考生，一模考试641分，能报考临床医学专业吗？谢谢
+select * from admission_plan where school='北京大学医学部' and district='西城';
+['查询结果为空！']
+老师您好：我校二本西城模拟576分有希望吗？
+select * from admission_plan where school='北京大学医学部' and district='西城';
+['查询结果为空！']
+老师您好，我是河北理科考生，想上临床医学专业，如果服从调剂到别的专业，入学后还能申请转专业吗？谢谢。
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='河北' and classy='理工';
+['查询结果为空！']
+您好！今年的招生简章及北京的招生计划什么时候出来？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='北京';
+['查询结果为空！']
+老师您好，我是北京文科考生，今年高考三科总分269分，请问报考贵校的专科，录取的几率大吗。。？？谢谢
+select * from admission_plan where school='北京大学医学部' and year='269' and district='北京' and classy='文史';
+['查询结果为空！']
+老师，您好。我是北京考生。今年我高考成绩为646分，请问有希望被第二批次录取吗？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='北京';
+['查询结果为空！']
+老师好，我是山西理科考生，588分，超一本95分,能录吗？谢谢老师。
+select * from admission_plan where school='北京大学医学部' and year='2095' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好！我想请问一下，在该校里如果想从护理专业转到临床医学专业可以的吗？如果可以，又有什么要求呢？
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and classy='理工';
+['查询结果为空！']
+你好！老师广东考生661分，排名706能上吗
+select * from admission_plan where school='北京大学医学部' and year='661' and district='广东';
+['查询结果为空！']
+老师您好，我是一名山东理科考生，贵校是我一直以来梦寐以求的学府，可是高考发挥失常，只考了650分，请问报考贵校是否还有被录取的可能？
+select * from admission_plan where school='北京大学医学部' and year='650' and district='山东' and classy='理工';
+['查询结果为空！']
+你好，我是贵州少数民族理科考生，考分550，高出一本分数线101分，全省排名3582名，请问有机会被贵校录取不？谢谢
+select * from admission_score_pro where school='北京大学医学部' and district='贵州' and classy='理工';
+['查询结果为空！']
+老师您好，我是山西理科考生，高考成绩为571超过一本分数线78分，想要报考提前批的护理学专业，有希望吗？对于考生有何要求，比如体检方面的视力要求
+select * from admission_score_major where school='北京大学医学部' and year='2078' and major='护理学' and district='山西' and classy='理工';
+['查询结果为空！']
+你好，我是贵州理科考生，考分550，高出一本线101，能不能被贵校录取？谢谢
+select * from admission_plan where school='北京大学医学部' and district='贵州' and classy='理工';
+['查询结果为空！']
+您好！我是河南理科考生，高考成绩554分，高出一本分数线49分,能被贵校录取？
+select * from admission_score_pro where school='北京大学医学部' and year='2049' and district='河南' and classy='理工';
+['查询结果为空！']
+请问贵校护理学往届毕业生就业情况如何？大部分从事什么工作？
+select * from admission_plan where school='北京大学医学部' and major='护理学';
+['查询结果为空！']
+天津男生，服从调剂，未填报护理学。如果我在提档考生中是最后一名，护理学专业无人填报，而其他专业都已录满。问：我是被退档还是被录取到护理学外的专业？谢谢。
+select * from admission_plan where school='北京大学医学部' and major='护理学' and district='天津';
+['查询结果为空！']
+您好！请问贵校往年在云南理科录取的位次情况如何？
+select * from admission_plan where school='北京大学医学部' and year='None' and district='云南' and classy='理工';
+['查询结果为空！']
+您好，我是一名河南理科考生，高考裸分604分，有政策性加分20分，在河南排名约为719名，比河南省一本线505高出119分，请问报考贵校有多大把握能被录取？选专业时是否还有政策性加分？
+select * from admission_plan where school='北京大学医学部' and year='2020' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是哈三中学生，预计成绩680-690，能被贵校临床医学专业录取吗
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+老师，您好，我是山东的理科女生考生，请问超过一本线60分，就是640分左右，可以报考吗？被录取的机会大吗？贵校在山东省的招生计划是多少呢？
+select * from admission_plan where school='北京大学医学部' and year='640' and district='山东' and classy='理工';
+['查询结果为空！']
+报考临床医学的黑龙江考生文化课成绩在全省排名多少
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='黑龙江' and classy='文史';
+['查询结果为空！']
+老师，您好，请问在内蒙地区贵校有招生计划吗
+select * from admission_plan where school='北京大学医学部' and district='地区';
+['查询结果为空！']
+一摸东城区66名654还有自主招生加分，一专业临床医学能否被录取？
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='东城区';
+['查询结果为空！']
+老师您好！北医二批的口腔医学技术专业毕业后是去工厂做假牙吗？有去诊所或医院的可能吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='口腔医学技术';
+['查询结果为空！']
+1听说若不服从调剂，自主招生加分在选专业时无效？2在专业选择上，是直接降10分后与无加分学生等同对待吗？3我同时有市三好加10分，若在录取时只用上10分，在专业上还给降自主招生的10分吗？4临床医学、口腔医学、药学、预防医学，我这样填报专业可以吗
+select * from admission_plan where school='北京大学医学部' and year='2010' and major='预防医学';
+['查询结果为空！']
+老师您好，我的孩子准备报考北大医学部，想咨询一个问题，如果孩子填报了服从调剂，但是没有填护理专业，是否会有退档的风险？谢谢！
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+你好！请问往年8年制本搏临床医学专业，往年在湖北最低分多少？谢谢
+select * from admission_plan where school='北京大学医学部' and year='None' and major='临床医学' and district='湖北';
+['查询结果为空！']
+老师您好：请问如果去年一、二批一志愿均报的北大医学部，被二批医学检验专业录取，因决定复读没去报到，但已根据要求按时把银行卡寄回学校，若今年仍想报临床专业，录取时是否会有影响？另外对二批的录取有影响吗？
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+海淀一模609.5分，区排名930；二模638分，区排名不知，无加分。报贵校口腔医学可以吗。风险大吗？谢谢
+select * from admission_plan where school='北京大学医学部' and year='638' and major='口腔医学' and district='海淀';
+['查询结果为空！']
+老师，您好。请问提档线的制定是否考虑自主招生人数的情况？通过自主招生录取的人数有无最高限额？如果未报护理专业，其他服从是否会被退档？二批一志愿自主招生优惠还有效吗？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+老师，北京西城一模多少分或西城一模排名多少，报制药专业有希望
+select * from admission_plan where school='北京大学医学部' and district='西城';
+['查询结果为空！']
+今年贵校在重庆的招生计划或招生人数有多少？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='重庆';
+['查询结果为空！']
+1.第一志愿报临床医学达到提档线后是否一定能被录取？2.该校临床医学（8年）与清华8年临床医学有何区别？3.临床医学（8年）在读期间是否有出国交流机会？4.贵校基础医学专业就业方向如何？
+select * from admission_plan where school='北京大学医学部' and year='None' and major='基础医学';
+['查询结果为空！']
+请问2013年临床医学专业（8年）在北京最低的录取分数是多少，如果未被录取，在转向其他专业时存在专业级差吗？谢谢！
+select * from admission_score_major where school='北京大学医学部' and year='2013' and major='临床医学' and district='北京';
+['查询结果为空！']
+老师您好，贵校二本去年分数线是多少，上课地点是在北医本部上吗？谢谢
+select * from admission_score_pro where school='北京大学医学部' and year='2018';
+['查询结果为空！']
+老师您好！请问近视600度，矫正视力4.8，可以报考贵校二批的口腔医学技术和医学检验专业吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='口腔医学技术';
+['查询结果为空！']
+您好！1二本可以转专业吗？可以修医学部的二学位吗？3目前口腔技术专业有保研吗？保研方向？
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+老师，您好，我的孩子获得了贵校自主招生下降40分优惠的资格，想按以下顺序报：临床医学（8年)、基础医学（8年）、药学（6年）、预防医学（7年）、护理学。服从调剂。请问如果达不到提档分，依据自主招生降分提档，那么专业会怎么录，会不会直接就投到护理学去？谢谢
+select * from admission_plan where school='北京大学医学部' and year='2040' and major='护理学';
+['查询结果为空！']
+老师您好：请问北京市排名多少有较大把握被三个8年班之一录取？往年8年基础医学的毕业生有多大比例可以到北京的大医院工作？还有临床医学毕业有多大比例到北京的大医院就业？
+select * from admission_plan where school='北京大学医学部' and year='None' and major='临床医学' and district='北京';
+['查询结果为空！']
+海淀理科一模500名，期末400名，临床医学把握性？
+select * from admission_plan where school='北京大学医学部' and district='海淀' and classy='理工';
+['查询结果为空！']
+老师您好，海淀一模580分，第一志愿报临床医学有希望吗?
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+老师您好，河南男考生，656分，报贵校药学、预防医学等专业，服从调剂。贵校招生章程中有一条护理学，男生只招有志愿者，我没报护理学专业，请问老师我是否会调剂到本专业？若不调剂且仅剩该专业可调剂，是否被退档？
+select * from admission_plan where school='北京大学医学部' and year='656' and major='护理学' and district='河南';
+['查询结果为空！']
+老师您好，河南理科考生，656分，报药学、预防医学等专业，先心一岁多手术治愈，身体健壮，爱好篮球，孩子非常向往贵校，会否因身体原因退档？
+select * from admission_plan where school='北京大学医学部' and year='656' and major='预防医学' and district='河南' and classy='理工';
+['查询结果为空！']
+我想知道贵校今年的分数线大概多少，可以吗？？？
+select * from admission_score_pro where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+山东理科考生650分能报考贵校吗
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+今年在天津的分数线大概多少？
+select * from admission_score_pro where school='北京大学医学部' and year='2019' and district='天津';
+['查询结果为空！']
+老师您好！，1北医没有生物医学英语的博硕点。如果保研的话，常常保研到哪些系？，，2保研外推一般推到哪些学校？，，3保研有哪些条件？，，4生物医学英语专业的选修课安排有多少节？能否选修其他专业的专业课程？，，，谢谢老师！大热天的，您辛苦了！
+select * from admission_plan where school='北京大学医学部' and major='英语';
+['查询结果为空！']
+医学部的老师您好！我的孩子考607+20，今年有多大把握？如果被调档了是否可能退档？专业报的是临床、药学、生物医学英语。如果被生物医学英语录取，今后保研或考研概率有多大？能去哪个专业？我们想学药学，是否有点悬？进校后调专业的可能性大吗？
+select * from admission_plan where school='北京大学医学部' and year='None' and major='药学';
+['查询结果为空！']
+老师，您好：，请教两个问题：，1.提档后退档问题。贵校简章明确“提档比例控制在招生计划数的120%以内。”“在思想政治品德考核和身体健康状况检查合格、统考成绩达到同批录取控制分数线，符合医学部提档要求的情况下，录取遵循：分数优先原则、志愿优先原则、德智体综合优先原则，依据考生专业志愿，从高分到低分顺序录取。”那么对于山西这样填报平行志愿的考生，就存在非常大的高分一本落榜的问题，请问贵校能否考虑更人性化的措施(在服从调剂情况下)。，2.今年高考预估626分，山西考生有没有希望被贵校录取？或者哪个专业有希望被录取？，感谢您的指导！
+select * from admission_score_pro where school='北京大学医学部' and year='2019' and district='山西';
+['查询结果为空！']
+陕西考生，估分660分，能上贵校临床医学或口腔医学吗？
+select * from admission_plan where school='北京大学医学部' and year='660' and major='口腔医学';
+['查询结果为空！']
+生物医学英语第一年就可以转到临床或口腔或预防专业吗，条件是什么，药学也可以转到这三个专业吗，条件一样吗
+select * from admission_plan where school='北京大学医学部' and major='药学';
+['查询结果为空！']
+请问临床医学专业在第几年转入医院实习？有没有实习补助？
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+2012年在甘肃的录取分数线是多少
+select * from admission_score_pro where school='北京大学医学部' and year='2012' and district='甘肃';
+['查询结果为空！']
+请问如果分数达到了贵校调档线，服从专业调剂，有可能被调剂到护理专业吗？（男生）
+select * from admission_score_pro where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+河南理工类考生超一本90分报贵校，有希望吗？贵校在河南一般超一本线多少分有把握录取？
+select * from admission_plan where school='北京大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+我今年估分565，请问贵校在山西招生，高于山西高于一本线多少分？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='山西';
+['查询结果为空！']
+请问贵校对视力是否有要求？药学专业
+select * from admission_plan where school='北京大学医学部' and major='药学';
+['查询结果为空！']
+我的估分是630多分，准备报贵校的医学专业。我的体检是近视配镜900度，贵校会不会退档，若同意上医学，请问医学专业情况？
+select * from admission_plan where school='北京大学医学部' and year='630';
+['查询结果为空！']
+文科高出本省一本线多少分有希望被贵校录取？
+select * from admission_plan where school='北京大学医学部' and classy='文史';
+['查询结果为空！']
+请问：若2012年陕西高考成绩670分，够不够进入贵校医学部？
+select * from admission_plan where school='北京大学医学部' and year='670' and district='陕西';
+['查询结果为空！']
+请问北京大学医学部2012年在河边省招收专科生么？谢谢！！！
+select * from admission_plan where school='北京大学医学部' and year='2012';
+['查询结果为空！']
+1、二本的两个专业都能有保送研究生的机会吗？，2、学完二本的专业能否考取临床医学的研究生？若不能，能考取何专业的研究生？，3、比较而言，医学实验学与医学检验，哪个专业更好？
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+老师好，二本专业只有两个，如果录取到贵校，转到一本专业的机会有多少？辅修本部专业，毕业证书怎样发？可以辅修化学或其他理学专业吗？辅修难度有多少？
+select * from admission_plan where school='北京大学医学部' and major='化学' and classy='理工';
+['查询结果为空！']
+老师好！2012年贵校在陕招生的专业是？招生人数是多少？大致分数段是多少？
+select * from admission_score_pro where school='北京大学医学部' and year='2012';
+['查询结果为空！']
+老师，您好！从招生咨询会上拿到的你们学校的宣传资料上的录取分数要比中学发的历年高考分数统计上的分数要高十分左右，不知道该以哪个为准，为什么会有这么大的差距呢？谢谢！
+select * from admission_score_pro where school='北京大学医学部' and year='None';
+['查询结果为空！']
+请问老师，1、护理和医学英语专业入学后能否转到医学部其他专业？2、护理和医学英语以后保研或考研可以到其他专业嘛？比如说基础医学，药学或预防等，能否保研到北大本部的专业吗？如果有的话，每年能有多少成功的呢？3、二批录取的医学实验和医学检验，有保研的机会吗？有的话是那些专业，医学实验和医学检验可以考基础医学的研究生吗？每年保研或考研成功的有多少？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='基础医学' and classy='理工';
+['查询结果为空！']
+孩子想报考贵校，不知贵校2012年在陕西招生情况怎样？
+select * from admission_plan where school='北京大学医学部' and year='2012' and district='陕西';
+['查询结果为空！']
+请问，1、看前几年的实录人数比计划招生人数多是怎么回事？，2、第一志愿第一专业上线人数多于实录人数，多出的人数如何处理？，3、自主招生加分是只在第一志愿第一专业有效吗？，4、我想报考贵校的第一志愿专业顺序是基础、预防、药学、英语，但这两年这些专业都是第一志愿录满的，如果我第一专业没有被录取，后续几个专业还有可能被录取吗？，5、贵校提档线每年的波动有多大？，谢谢！
+select * from admission_plan where school='北京大学医学部' and year='None' and major='英语' and classy='理工';
+['查询结果为空！']
+老师：您好！我是高三学生的家长，孩子的自主招生已被录取。但是，孩子化学和生物成绩很好，但因孩子的兴趣在数学和物理方面。我担心孩子如果考上医学部，又不喜欢医学专业，能否转到北大的其它学院学习。因为兴趣才能保证未来的成绩。
+select * from admission_plan where school='北京大学医学部' and year='None' and major='化学' and classy='理工';
+['查询结果为空！']
+你好,再问生物医学英语那将来考研只能往哪个专业方向去考?国内其它院校有这个专业方向的硕博点吗?谢谢
+select * from admission_plan where school='北京大学医学部' and year='None' and major='英语';
+['查询结果为空！']
+老师您好！我是贵州学生，理科，二模考了542分，请问我如何填写学专业，才有把握就读本校。盼望您的回复，非常感谢！
+select * from admission_plan where school='北京大学医学部' and year='542' and district='贵州' and classy='理工';
+['查询结果为空！']
+老师好，请问生物医学英语贵校有硕士、博士点吗？，主要就业方向是哪些？就业情况如何？谢谢
+select * from admission_plan where school='北京大学医学部' and major='英语';
+['查询结果为空！']
+老师您好~~我是北京考生。今年624分，请问临床有戏吗~~谢谢
+select * from admission_plan where school='北京大学医学部' and year='624' and district='北京';
+['查询结果为空！']
+老师：请咨询贵校2011年在重庆的文科招生计划、录取专业、各专业录取的最高、最低平均分？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2011' and district='重庆' and classy='文史';
+['查询结果为空！']
+老师好，我是河南考生，理660，能报贵校么？
+select * from admission_plan where school='北京大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+我是山东理科考生，655分，想学临床医学专业，请问是否有希望？谢谢
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='山东' and classy='理工';
+['查询结果为空！']
+您好我是山东理科考生请问550可否报考贵校的本科二批
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+我是河南一位理工类考生，今年考分596，一本线582，如果报考贵校是否可能被录取？有多大希望？，谢谢您的回答！
+select * from admission_plan where school='北京大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+基础医学和临床医学，选哪个？（各自的研究领域，就业前景，工作待遇）
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+老师:请咨询贵校文科就业率最高的专业是什么，2010年在重庆的文科录取平均分是多少？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2010' and district='重庆' and classy='文史';
+['查询结果为空！']
+山东理科674分有没有把握被录取
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+您好！，我是福建理科考生本次高考省排2573，想报临床医学，请问录取几率多大？
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='福建' and classy='理工';
+['查询结果为空！']
+老师：请咨询贵校2010年哪些专业录了二本，最低分是多少？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2010';
+['查询结果为空！']
+请问贵校在河南高职招生分数线一般是多少呢？我今年理科408分，能不能报考贵校？是否可专升本？谢谢老师！
+select * from admission_score_pro where school='北京大学医学部' and year='408' and district='高职' and classy='理工';
+['查询结果为空！']
+我是山东理科考生，考了640分，是否可以被贵校录取？如果能录取，能报哪些专业？
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+江苏考生理科384，物化A+A+，考生排名2019询问：贵校在江苏录取多少名次前的考生？本人有无希望被贵校录取？
+select * from admission_plan where school='北京大学医学部' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，您好！我是河北理科考生，在自主招生过程中取得了贵校B类招生资格，在此次高考中取得了673分实考成绩，请问如按贵校要求填报志愿，能否有100%的把握被贵校录取？另外，我省自主招生在特殊批次报自主招生志愿，是否还可以在一批志愿中按平行志愿规则填报一批志愿？
+select * from admission_plan where school='北京大学医学部' and year='673' and district='河北' and classy='理工';
+['查询结果为空！']
+天津理科考生637分，报考贵校是否有希望
+select * from admission_plan where school='北京大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好：，我是河南理科考生家长，孩子高考估分640左右，预估一本线585，报考贵校有希望吗？假如被贵校录取，而专业不理想，有机会转专业吗？能辅修第二专业吗？如果两个专业都通过，那么辅修的第二专业如果颁发辅修证明，就业时是否与第一专业等级一样？
+select * from admission_plan where school='北京大学医学部' and district='河南' and classy='理工';
+['查询结果为空！']
+浙江理科高一本线多少分才可以被录取？
+select * from admission_plan where school='北京大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+您好！天津考生，1“大厚书”标明2010年线上高分663分，应该就是临床8年的最高分吧，可是《北京大学医学部招生咨询贴吧》中贵校登出的表中临床8年最高分是649，到底哪个对？，2可以修“临床8年”和“基础医学8年”双学位吗？，谢谢！
+select * from admission_plan where school='北京大学医学部' and year='None' and major='基础医学' and district='天津';
+['查询结果为空！']
+请问老师：我生理上有点轻微吐字不清晰（俗称轻微大舌头）。英语口语评分为B。十分想报考贵校医学部，如达到分数贵校能否录取。请回复。。十分感谢！
+select * from admission_score_pro where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+老师您好！我孩子非常喜欢医学专业，请问西城一摸600+20有希望被录取吗？
+select * from admission_plan where school='北京大学医学部' and district='西城';
+['查询结果为空！']
+请问北大医学部2011年在江苏的招生计划以及选修科目等级要求，谢谢！
+select * from admission_plan where school='北京大学医学部' and year='2011' and district='江苏';
+['查询结果为空！']
+1、填志愿时贵校招生老师会不会到江西临川一中来和考生面对面咨询？，2、能否签订预录协议？协议中能否确定具体专业？，3、这样填志愿地否合理：临床医学、基础医学、药学、预防医学、生物医学英语。
+select * from admission_plan where school='北京大学医学部' and major='英语' and district='临川' and classy='理工';
+['查询结果为空！']
+请问老师：海淀理科区排名多少名可以报考贵校。
+select * from admission_plan where school='北京大学医学部' and district='海淀' and classy='理工';
+['查询结果为空！']
+请问贵校基础医学专业和临床医学专业有何区别?就业方向分别是什么?
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+老师好：理科市排名大约多少能进贵校？谢谢！
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+我是江西考生，2011年贵校在我省只有3个临床专业计划，如果报考这个专业的人较多，能否增加这个专业的计划？还有专业录取时，是不是按实考分，要不要考虑政策性加分？
+select * from admission_plan where school='北京大学医学部' and year='2011' and district='江西';
+['查询结果为空！']
+您好！，请问如擦提档线入进贵校，但对于低分数录取的专业（比如护理）不服从调剂，是否即被退档？如退档是否还来得及被二志愿录取？
+select * from admission_score_pro where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+我高考623，报了北大医学部的口腔医学，可能上不了。但我服从调剂。在北京市两千四百名左右，请问上贵校还有希望吗
+select * from admission_plan where school='北京大学医学部' and major='口腔医学' and district='北京';
+['查询结果为空！']
+福建今年的一本线是539，我的分数是643，在福建省排名382，请问我是否有机会上北京大学医学部，
+select * from admission_score_pro where school='北京大学医学部' and year='2019' and district='福建';
+['查询结果为空！']
+我是一名喜欢学医的甘肃考生，今年高考成绩634,2009年获第18届全国中学生生物学竞赛三等奖，能否报贵校？
+select * from admission_plan where school='北京大学医学部' and year='2009' and district='甘肃';
+['查询结果为空！']
+黑龙江理工370分，三本或专科有多大几率？
+select * from admission_plan where school='北京大学医学部' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+在陕西省理科投档线预计是多少？
+select * from admission_plan where school='北京大学医学部' and district='陕西' and classy='理工';
+['查询结果为空！']
+想知道北大医学部和协和医学院哪个专科分数较高，能提供一下07-09的分数线吗？，想知道10年北京计划招生多少，我总分436，三科268，有希望报考贵校吗
+select * from admission_plan where school='北京大学医学部' and year='2010' and district='北京';
+['查询结果为空！']
+你好，我是河南理科应届生，614分，排省2688名，很向往贵校，请问这个分数可不可以上啊？服从专业调剂。
+select * from admission_score_pro where school='北京大学医学部' and year='614' and district='河南' and classy='理工';
+['查询结果为空！']
+我的朋友孩子总分630，没有加分，北京考生。试问临床医学八年制，有希望吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='None' and major='临床医学' and district='北京';
+['查询结果为空！']
+理科626分能否报考贵校
+select * from admission_plan where school='北京大学医学部' and year='626' and classy='理工';
+['查询结果为空！']
+老师您好，我是浙江考生，649分，1405名，不知进贵校可能吗?生物医学英语的发展方向是什么?谢谢！
+select * from admission_plan where school='北京大学医学部' and year='649' and major='英语';
+['查询结果为空！']
+请问北京的理科考生,这次高考成绩是656分(含20分优干加分)是否能被贵校临床医学8年制录取,录取的希望大吗?谢谢!
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='北京' and classy='理工';
+['查询结果为空！']
+我是安徽一考生，高考成绩659，高出一本线97分，请问能否报考贵校本博连读的临床医学专业？
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='安徽';
+['查询结果为空！']
+老师您好！山东理科考生，女，总分651，报考贵校有希望吗？谢谢。
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+高考成绩理科651分有希望被口腔医学录取吗？
+select * from admission_plan where school='北京大学医学部' and year='651' and major='口腔医学';
+['查询结果为空！']
+高考成绩657（含10分加分）上临床专业有希望吗？
+select * from admission_plan where school='北京大学医学部' and year='2010';
+['查询结果为空！']
+老师好!北京理科考生,进临床8年专业今年大概多少分有希望,谢谢!
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='北京';
+['查询结果为空！']
+医学部招生老师：我女儿很想从医，1.裸眼视力左4.7右4.7,矫正视力左5.0右5.0,矫正度数左-200右-200体检合格吗？？？；2.理科在福建省质检653.5分,福州市质检640分，校检，在福州一中都保持年段前50名内是否有希望报考临学医学八年制.
+select * from admission_plan where school='北京大学医学部' and year='None' and district='福建' and classy='理工';
+['查询结果为空！']
+估分640，上下浮动五六分左右，学预防医学是否有希望？麻烦您介绍一下生物医学英语专业，该专业第一次在天津招生没有什么可参考的数据，对该专业也不是很了解，麻烦您回答一下。
+select * from admission_plan where school='北京大学医学部' and major='预防医学' and district='天津';
+['查询结果为空！']
+尊敬的招生办主任：，您好！，请问贵校今年在山东省的招生数量是多少？都有哪些专业？录取的分数是多少？谢谢您了！
+select * from admission_score_pro where school='北京大学医学部' and year='2019' and district='山东';
+['查询结果为空！']
+天津理科考生，估分615，能报考贵校吗？
+select * from admission_plan where school='北京大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+海淀区一模592，二模622，报贵校临床医学有没有希望？
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+东城理科排名多少可以报贵校。小女一摸641分，高一本线141分，排名60，二摸608分，高一本线118分，排名300左右，请问报贵校临床和医学是否可以？谢谢！
+select * from admission_plan where school='北京大学医学部' and district='东城' and classy='理工';
+['查询结果为空！']
+近三年毕业生的工作去向能否展示一下。
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+请问2010年海淀区考生一模627分，二模620分报考贵校有多大把握，无自主招生降分或其它加分。
+select * from admission_plan where school='北京大学医学部' and year='620' and district='海淀区';
+['查询结果为空！']
+八年毕业后还有没有机会出国深造
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+老师:你好!我是北京考生,不是西藏的,海淀区一模614二模627报临床医学有希望吗?
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='海淀区';
+['查询结果为空！']
+老师您好：如果考上北大提前批，能否申请调入你校的临床专业？如可以，具体怎么办理？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+报考临床医学、口腔医学身体条件中要乙肝表面抗原检测，是否是单独检测？我们统一参加的高考体检有这个项目吗？
+select * from admission_plan where school='北京大学医学部' and major='口腔医学';
+['查询结果为空！']
+志愿顺序：医学临床，基础医学，预防医学，药学，合理吗？
+select * from admission_plan where school='北京大学医学部' and major='药学' and classy='理工';
+['查询结果为空！']
+海淀一模理科614二模627报临床医学有希望吗?谢谢！
+select * from admission_plan where school='北京大学医学部' and district='海淀' and classy='理工';
+['查询结果为空！']
+老师您好：海淀一模592,二模610，有自主招生，药学专业录取把握大吗？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='药学' and district='海淀';
+['查询结果为空！']
+请问原来的二批应用药学与现在的检验有何区别?医学检验和医学实验两专业未来的职业包括哪些?
+select * from admission_plan where school='北京大学医学部' and year='None' and major='药学';
+['查询结果为空！']
+东城排名500多名,一批分数达不到贵校,但能够达到二批线上,是否可以一批报其他院校,二批报北医一志愿.
+select * from admission_score_pro where school='北京大学医学部' and district='东城';
+['查询结果为空！']
+贵校基础医学就业情况如何？是否多数为用人单位到学校招聘？主要就业单位有哪些？
+select * from admission_plan where school='北京大学医学部' and major='基础医学';
+['查询结果为空！']
+近两年在江西的录取分数是多少
+select * from admission_score_pro where school='北京大学医学部' and year='None' and district='江西';
+['查询结果为空！']
+请问平行志愿的第二或第三顺序和你招生章程上的非第一志愿意思一样吗？05-09年贵校分省录取的最高分、最低分、平均分是多少？05-09年贵校分省分专业录取的最高分、最低分、平均分是多少？贵校在四川实行大类招生吗？
+select * from admission_plan where school='北京大学医学部' and year='2005' and district='四川';
+['查询结果为空！']
+报考专业志愿顺序为：口腔医学、临床医学、基础医学、预防医学、药学。这样的顺序可以吗？对录取有影响吗？
+select * from admission_plan where school='北京大学医学部' and major='药学';
+['查询结果为空！']
+东城理科，一摸东城排名60名，无任何加分因素，高于一本线140分，报贵校本博连读专业能否被录取？谢谢！
+select * from admission_plan where school='北京大学医学部' and year='140' and district='东城' and classy='理工';
+['查询结果为空！']
+海淀一摸601，二摸636报药学有希望么？，药学、预防医学、英语专业顺序合理么？谢谢！
+select * from admission_plan where school='北京大学医学部' and major='预防医学' and district='海淀' and classy='理工';
+['查询结果为空！']
+以往招过二志愿吗？总共各年招过多少北京理科二志愿学生？请给二志愿报考建议。谢谢！二志愿最高分、最低分、平均分？
+select * from admission_plan where school='北京大学医学部' and year='None' and district='北京' and classy='理工';
+['查询结果为空！']
+尊敬的北大医学部招办老师：，我是四川德阳考生杨济桥，我的成绩全市排位大概在20位，最好是第九名。一般比我市划的重本线高100分的样子，我是省三好生，我很想进入贵部学习，不知有没有可能性？，谢谢！，杨济桥，2010.5.10
+select * from admission_plan where school='北京大学医学部' and year='100' and district='四川';
+['查询结果为空！']
+一模海淀608分、二模636分报贵校第一专业志愿口腔医学专业如何？有10分加分，如一专业录不了，二专业报临床可否？不行的话，报什么专业？
+select * from admission_plan where school='北京大学医学部' and year='2010' and major='口腔医学';
+['查询结果为空！']
+您好：，我是黑龙江省考生，一模考试成绩653分，县级省重点中学六校联考第四名，二模考试成绩775.5分，不知能否报考贵校。谢谢。
+select * from admission_plan where school='北京大学医学部' and year='775' and district='黑龙江';
+['查询结果为空！']
+我是浙江考生，平时模拟考试630分左右，贵校今年招生及我的情况，能被入吗
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='浙江';
+['查询结果为空！']
+我看贵校近三年有扩招情况，今年有吗？为什么基础医学、临床医学、预防医学药学都有扩招，而口腔没有扩招？
+select * from admission_plan where school='北京大学医学部' and year='2019' and major='药学';
+['查询结果为空！']
+一模海淀614分、二模641分报贵校第一专业志愿口腔医学专业如何？如一专业录不了，二专业减几分？
+select * from admission_plan where school='北京大学医学部' and major='口腔医学';
+['查询结果为空！']
+请问高出一本103分今年被贵校录取的概率有多大？谢谢老师
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+请问：高出重点线11分（浙江理科）被贵校录取的可能性大吗？
+select * from admission_plan where school='北京大学医学部' and district='浙江' and classy='理工';
+['查询结果为空！']
+山东淄博理科考生总分659分报考贵校临床医学专业能被录取吗？贵校山东招生组怎么联系?谢谢！
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，山东文科601服从调剂能否被录取
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='文史';
+['查询结果为空！']
+填报贵校为第一志愿时能否填写临床医学八年制为第一专业后填写服从调剂？
+select * from admission_plan where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+甘肃理科分数线为521，考611，省内排540，被贵校录取可能性有多大？
+select * from admission_score_pro where school='北京大学医学部' and district='甘肃' and classy='理工';
+['查询结果为空！']
+请问贵校本科二批的医学实验学和医学检验专业在京招生的提档线，根据往年情况估计大约是多少？
+select * from admission_plan where school='北京大学医学部' and year='None';
+['查询结果为空！']
+请问贵校今年的投档比例是多少？？会比较高么？
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+您好我是甘肃的考生我考了570.5分，在加20（少数民族照顾）为590.5分投挡，请问如果我想上贵校的临床医学专业有希望吗？
+select * from admission_plan where school='北京大学医学部' and year='590' and major='临床医学';
+['查询结果为空！']
+广东省要最快27日下午才公布，我想问，若要电话咨询，请问打哪个电话？
+select * from admission_plan where school='北京大学医学部' and year='None' and district='广东';
+['查询结果为空！']
+护理学的学习内容和就业前景
+select * from admission_plan where school='北京大学医学部' and major='护理学';
+['查询结果为空！']
+请解释贵校的专业志愿设的分数级差。临床医学八年制录取时会优先考虑哪科成绩？
+select * from admission_score_major where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+我想报贵校的临床医学八年制，请问今年该专业的分数线大概是多少？我高考加分（20分）对选专业录取有用吗？
+select * from admission_score_major where school='北京大学医学部' and year='2020' and major='临床医学';
+['查询结果为空！']
+老师你好，我考了677分（理），报考贵校有希望吗？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+理科675全省排名4300报考贵校英才班能进吗？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+您好，贵校去年本一录取最低分是605，该分是为各类加分之后得分，还失裸分?若是裸分，看到的各类成绩是否包含自主招生上贵校的？谢谢回答。
+select * from admission_plan where school='北京大学医学部' and year='2018';
+['查询结果为空！']
+理科675报考贵校能进吗？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+请问临床医学,预防医学,医学检验哪个就业率高,工资好,就业前景好?临床医学,预防医学主要区别是什么??
+select * from admission_plan where school='北京大学医学部' and major='预防医学';
+['查询结果为空！']
+我是河北理科考生,考分649,超一本线80分,能上贵校的本博连读专业吗?口腔医学专业是左里手行码?进了贵校还能转专业吗？
+select * from admission_plan where school='北京大学医学部' and major='口腔医学' and district='河北' and classy='理工';
+['查询结果为空！']
+老师你好：我是甘肃考生607分昨天出来能否报贵校临床专业
+select * from admission_plan where school='北京大学医学部' and year='None' and district='甘肃';
+['查询结果为空！']
+我是吉林考生，670分能进入基础医学专业吗，谢谢
+select * from admission_plan where school='北京大学医学部' and year='670' and major='基础医学';
+['查询结果为空！']
+宁夏理科387可以报考贵校吗？
+select * from admission_plan where school='北京大学医学部' and district='宁夏' and classy='理工';
+['查询结果为空！']
+老师你好，我们吉林省今年实行完全平行志愿，我想咨询一下贵校投档比例，如果我符合投档条件，已经被投档至贵校，且服从调剂，但排名靠后，是否会被退档？贵校是否有双学位培养计划？什么规定？是否允许转系？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='吉林';
+['查询结果为空！']
+医学部护理学历年录取分数是多少?(我是黑龙江理科考生)今年高出一本线多少可能录取?
+select * from admission_score_pro where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+请问：，1.内蒙考生今年多少分可报考贵校？，2.入学后是否可以转专业，需要什么条件
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+河北考生估分600分今年能上北大医学部吗
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='河北';
+['查询结果为空！']
+您好请问，咱们学校的中医学专业去年最低录取分数是多少？
+select * from admission_score_major where school='北京大学医学部' and year='2018' and major='中医学';
+['查询结果为空！']
+我是重庆理科考生自己估分大概在665左右，今年难度略低于去年，请问有可能上线吗？，我很向往北大医学部！，可以顺便咨询一下往年的分数线吗
+select * from admission_score_pro where school='北京大学医学部' and year='None' and district='重庆' and classy='理工';
+['查询结果为空！']
+像贵校的临床医学专业学制是8年毕业后是本科学士学位还是8年学制已包括研究生如果不是研究生还要读几年
+select * from admission_plan where school='北京大学医学部' and year='None' and major='临床医学';
+['查询结果为空！']
+今年天津一本线大概510左右,如果考645左右且有自主招生资格能报贵校哪些专业?报考临床医学机会大吗?
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='天津';
+['查询结果为空！']
+今年在天津大概多少分能够上贵校临床医学?
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='天津';
+['查询结果为空！']
+临床医学每年招收港澳生有多少人、录取分数最低和最高多少？港澳生是否和内地生同班一起上课，学习课程是否一样、难易程度是否相同？港澳生是否和内地生住宿收费一样、每学期多少？
+select * from admission_score_major where school='北京大学医学部' and major='临床医学';
+['查询结果为空！']
+广西考生估625分,请问老师这个分能进医学部吗(护理专业除外)?
+select * from admission_plan where school='北京大学医学部' and year='625' and district='广西' and classy='理工';
+['查询结果为空！']
+谢谢，贵校今年在河南招收文科吗？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='河南';
+['查询结果为空！']
+老师好!河南文科超一本线20分左右,能报考我校那个专业?谢谢!
+select * from admission_plan where school='北京大学医学部' and year='2020' and district='河南' and classy='文史';
+['查询结果为空！']
+您好！我是天津理科考生，我已获本校自主招生资格，请问：如何填报志愿才更有利于贵校录取？
+select * from admission_plan where school='北京大学医学部' and district='天津' and classy='理工';
+['查询结果为空！']
+我是1991.11出生，2008年高中毕业，2009年高考我能报贵校7年制中医或针推专业吗？
+select * from admission_plan where school='北京大学医学部' and year='2009';
+['查询结果为空！']
+老师您好！贵校2006-2008年文史类在山东招生的各专业人数和最低分数线是多少？今年贵校文史类在山东的招生计划是多少？在山东文史类有提前批吗？超出重本线多少分就能被贵校录取？
+select * from admission_plan where school='北京大学医学部' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+请问贵校设专业级差吗？我是广东理科生,651分,可能被贵校的药学专业录取吗？谢谢
+select * from admission_plan where school='北京大学医学部' and major='药学' and district='广东' and classy='理工';
+['查询结果为空！']
+1志愿理理636可否录取
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+二志愿理会636可否录取
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+你好:请问海南省的考生712分和750分能上贵校吗?机会多大?若服从专业调剂呢(想学医)?谢谢!
+select * from admission_plan where school='北京大学医学部' and year='750' and district='海南';
+['查询结果为空！']
+您好～！，我是广西理科考生，今年总分592（区排名505，没有照顾分，参加了英语复试）广西理科一本线501，请问可以被录取吗？
+select * from admission_plan where school='北京大学医学部' and year='2019' and major='[英语' and district='广西' and classy='理工';
+['查询结果为空！']
+山东理科考生640分报考贵校可以吗？专业可以选择吗？谢谢老师回答！
+select * from admission_plan where school='北京大学医学部' and district='山东' and classy='理工';
+['查询结果为空！']
+各位教授下午好！！请问：贵校在湖南是否有招生计划？往年录取分数是多少？是否招专科？能否专升本！！谢谢
+select * from admission_plan where school='北京大学医学部' and year='None' and district='湖南';
+['查询结果为空！']
+您好，我是北京的学生，这次考得很不好，但是对护理以及和医学有关的学科感兴趣。不知有没有希望上这个学校！？
+select * from admission_plan where school='北京大学医学部' and district='北京' and classy='理工';
+['查询结果为空！']
+我是四川理科生，请问:(1)贵校二本有护理、临床医学专业吗？，(2)08年其专业在四川录取分数估计多少？，（3）二本其专业上学在贵校哪个校区？
+select * from admission_score_major where school='北京大学医学部' and year='2008' and major='临床医学' and district='四川' and classy='理工';
+['查询结果为空！']
+请问河南考生估分670可以报临床医学吗？
+select * from admission_plan where school='北京大学医学部' and major='临床医学' and district='河南';
+['查询结果为空！']
+您估计今年你们学校的的录取分是多少
+select * from admission_plan where school='北京大学医学部' and year='2019';
+['查询结果为空！']
+本校今年在天津招生二本吗？大概录取分数？
+select * from admission_score_pro where school='北京大学医学部' and year='2019' and district='天津';
+['查询结果为空！']
+0405年为什么河北省的报考指南上没有分数数据
+select * from admission_score_pro where school='北京大学医学部' and year='405' and district='河北';
+['查询结果为空！']
+请问护理专业毕业后就是当护士吗？
+select * from admission_plan where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+河北理科，估分600，请问被北医录取的可能性？谢谢。
+select * from admission_plan where school='北京大学医学部' and district='河北' and classy='理工';
+['查询结果为空！']
+请问，450分能否填报贵校护理专业。
+select * from admission_plan where school='北京大学医学部' and year='450' and classy='理工';
+['查询结果为空！']
+1.优干加分后达到了调档线,录专业时是否以次为依据?，2.如果以实际考分录取,落在此专业分数之外,贵校如何处理?
+select * from admission_score_pro where school='北京大学医学部' and classy='理工';
+['查询结果为空！']
+模拟考试海淀区排多少名报考贵校最有可能被录取？
+select * from admission_plan where school='北京大学医学部' and district='海淀区';
+['查询结果为空！']
+贵校在网上的许多信息怎么没有？比如：历年招收最低分数线，学校概况等等。还有北大医学部二批的两个专业是只录第一志愿吧？往年的最低、最高及平均录取分数是多少？一般录取比例多少？若考分分数在一批线上一两分报考贵校把握有多大？
+select * from admission_score_pro where school='北京大学医学部' and year='None';
+['查询结果为空！']
+总问题数438	查询语句构造为空数0	只有学校关键词数129	查询结果为空数256	有回答数53

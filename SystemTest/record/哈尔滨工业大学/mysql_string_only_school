@@ -1,0 +1,2140 @@
+老师您好：请问英才学院不同省份怎么选拔是否按照省级排名还是入学再考试？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平时成绩全省6500-7500服从调剂可以报分校吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果报了哈工大高校专项，本科一批志愿还需要填写贵校吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，我高考610,6487名，有望进入贵校吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贫困县分数排名2500多，能考上贵校吗
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问：我通过国家专项计划报考贵校，在调剂时，是在全校所有专业中调剂？还是在国家专项给定专业中调剂呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+选择专业时民族加分是否有效选择专业时是否会逐专业减分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高校专项提档是在已审核的考生中择优提档吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+有色弱，如果投档成功，会不会分到色弱不接受的专业而遭到退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取是分数清还是志愿清？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高校专项考生的录取，是在报考的高校专项已审核的考生中，还是在所有报考考生中，择优录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，高校专项审核通过且分数不低于提档线60分。则一定会被提档吗？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高校专项审核通过后，投档录取时有名额限制吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+打哪个电话咨询呢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好在被贵校提档且服从专业调剂后，会被贵校退档吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，高校专项中的服从调剂是在什么范围内调剂的？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在浏览“招生章程”时，未注意到明确指出的“各招生大类无男女比例限制”因此有些担心。请问贵校招生各大类有无男女比例限制，需要在哪里查看？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈尔滨工业大学隶属于“工业和信息化部”，请问老师认为，相较于隶属于“教育部”的高校，哈尔滨工业大学有什么特色或者说优势吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我是浙江的考生，想咨询下关于体检结果为色盲或色弱的情况，贵校哪些专业不能被录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，有哪些专业比较适合女生选啊？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+少数民族加分，分专业时有区别吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考录取
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我希望通过国家专项被录取，希望大么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂不退档吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+若被录取是否有选择专业的权利
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+成绩方面需要满足什么要求?美术方面呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+考生取得了贵高校的自主招生资格，获得贵校模拟投档线下一定分值的降分优惠，考生高考成绩在贵校降分优惠范围之内，并在自主招生批报考该校，是否一定被该校投档和录取呢？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+进档，服从调剂，身体条件符合，有退档风险吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问色弱考生只能填报贵校的哪些专业？由于所发的招生计划上各校所限并非完全一样，麻烦您详细讲解一下。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈尔滨工业大学有三所校区，这三所校区的教学和专业有什么样区别，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校是否提供保研机会，本科生保研率有多少？2.请问在贵校能否转专业？有几次机会？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批有无特别要求、
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+可以被贵校计算机录取吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生报志愿时志愿填在本科一批A志愿还是在自主招生专栏里
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分数614排名在2499有机会报考吗
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在服从专业分配，体检合格，平行志愿的情况下，贵校是否承诺提档不退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我的分数比较低，大概刚好够提档线，如果我报的六个专业全是工科，被调剂的话会调剂到英语专业吗？（贵校105%提档，如果我省招生计划都满了而外省英语专业未招满）
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校能录取吗?专业怎样?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问上哈工大的较好专业需要比投档线高多少分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，我的成绩是595，排名3329，请问能否被贵校建筑系录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好！高考620能上工大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+服从专业调配的话，报贵校有机会不？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考本部专业后，服从调剂是否会被调剂到深圳校区
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好。如果自主招生因为没有填专业服从被退档，会不会影响随后第一批次的录取。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果被调剂到英语专业，入学后能改专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问色弱不能报考哪些专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+624分进哈尔滨工业大学能吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。我想询问下该校在分配专业的时候认不认民族加分政策？对于有民族加分的学生在服从专业调配的情况下是否予以不退档的承诺？谢谢老师。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，老师。高考604，高一本线85，位次3544，报考贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果选用农村专向，还用把第一志愿写成哈工大吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我获得了哈工大自主招生最后一等优惠，会不会获得较高等级优惠的考生将该模块内专业计划报满，我只能被调剂到其他模块专业呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自招录取按成绩排队选专业，这里的成绩指的是高考成绩还是自主招生考试认定成绩呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考分数608，报考贵校有希望吗？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，哈工大自主招生录取时，是通过自招的学生按成绩排队选专业呢，还是我要加上优惠分以后和所有报考工大的考生（包括普通本一批）竞争呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，自主招生录取和普通本科一批录取是同步进行的吗？另外，自招录取时是按照自招成绩排队确定专业，还是要结合高考成绩来确定呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，国家专项（贫困生）分专业时承认民族分吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+全省排名949名，报贵校几率如何，有否专业限制
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考分数606.5，报考贵校有希望吗？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如报考一级学科什么时候分开
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大在投档和分配专业时都承认少数民族加分吗？请给一个确切答案。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+就业方向好吗、适合女孩子学吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大的研究生是否都在深圳学习
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问工大的少数民族预科班对考生的民族有要求吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿和第二志愿有多少区别？652分放在第二志愿有多大几率录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿存在分数级差吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好：2015考582分可报贵校吗，专业：车辆·电气工程·电子信息·电子科学·通信等方向
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+2015年604可以报贵校吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考645.排名3700左右，通过国家专项计划能否进入贵校较好专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+能否通过国家专项计划进入贵校一级或二级学科
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+省排名8700去贵校且服从调剂不挑专业有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+素描有一定基础,参加高考美术类考试得60多分,高校艺术团西画合格.这个成绩能作为贵校的参考吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+参加贵校自主招生,还能填报本科提前批次吗?本科提前批次未录取,会对自主招生产生影响吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+大一新生寝室是四人一间吗？是否为上床下桌？有独立卫生间吗？有空调吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我高考超一本线仅6分，已经通过国家专项计划，并希望由此进入贵校，您觉得可能性大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好。参加贵校自主招生，还能填报本科提前批（A段）吗？对自主招生录取有无影响？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+简章里说并不保证第一志愿会被录取。志愿的录取是怎么排名的？是给每个省份发放自主招生批的名额，然后按照高考成绩排名吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，如果本人获得降60分优惠，且高考成绩加60到达模拟投档线，但是裸分没有到达投档线，如果想要第一志愿被录取，是要与本省所有自主招生通过者竞争工大的名额吗吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校农村专项降分程度在哪什么时候公布？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生测试合格,如何得知享受什么样的优惠政策?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问1、录取时各专业间是否有级差？2、贵校入校后调专业有哪些政策？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问是否具有报名资格的学生都可以通过初审？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+是盖教务处章还是学校章？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好！填报时只能选一个工科模块，那么具体专业何时才能填报、选择？入选者每人可填报几个专业志愿，会调剂吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！报考系统里只有模块选项，怎么没有具体的模块所含专业，那怎么填报具体模块里的专业啊？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!需要上传的成绩单高一到高三的成绩只传某科达到1%排名的那次或者传期中期末的还是月考的也需要？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！报名系统中让填各科单科成绩排名，但我学校没有单科成绩排名，那没有该统计数据，怎么进行填报？不填还不能进行下一步骤的填报了？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！报名系统里需填的模考成绩，还未进行，那填的高三的月考成绩，需填哪几个月的月考成绩，有要求吗？是必须填满三次的月考成绩吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！工学模块一至六，入学后可以转专业吗？谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问简章中需提交的材料第（2）条中“其他反映学生综合素质发展情况的写实性材料”。这个需要高中学校给学生写一个综合素质评价吗？还是有这方面的就写，没有这方面的材料不用写？是必要材料之一吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，孩子有2个全国数学联赛二等奖，是中国数学会发的证书，从小酷爱数学，请问有资格报贵校吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+考生所在中学(单位)或原毕业中学、社会团体、专家个人等均可实名提供推荐材料并对其真实性负责，推荐材料应由推荐单位加盖公章或推荐人亲笔签名，并单独邮寄。这样可以吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您校规定“单科成绩年级排名前1%的高中毕业生”可以报考，我想问一下具体怎么界定。是每次都考进1%才算，还是只要其中1-2次考进了就算？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！有数学省级三等，数学成绩特别优秀，1200人均能进入前10，但学校提供不了高一及高二上学期的成绩，有高二下学期的高三的成绩，能报贵校吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+个人自述有无字数要求
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请教老师：我孩子围棋业余5段，省赛女子个人第2名，想申报贵校自主招生，可以吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：我想问一下上传的成绩单（高一、高二、高三、一摸、二模）可以打印在一张纸上，盖一个公章，一起上传吗？还是必须单独盖章，分别上传
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+全国奥赛决赛获奖，如申报工大自主招生资格通过，高考时分数线过工大录取线，申报工大的本硕连读专业（也就是进英才学院）会录吗
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！学校刚考一模，二模三模成绩怎么填？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高二参加国赛，是不是可以一本线录取
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许同时申报几所大学？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生报名系统未设上传申请表的窗口，怎么办？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校个人自述有没有什么特殊要求？手写还是打印？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，最终认定的时候，基础模块和其他模块比，哪个模块需要的成绩高一些？就是说按成绩由高到低是先基础模块还是先其他模块？还是按照考生报考的模块顺序取前面的？O(∩_∩)O谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，如果自招报两个模块，自招资格给哪个模块？是给其中的一个还是两个都给？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问系统的编号提示修改的次数，不知道修改次数的多少是否影响初审？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好，请问贵校自主招生笔试与面试具体地点？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在报工大自主招生的同时，在时间允许的情况下工大是否允许同时报别的学校
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+全国奥赛决赛获奖考生必须参加笔试吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，专利证书无法在高中的获奖记录中填写，可否复印后，学校盖章再随其它资料一起上传。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我色弱，是否可以报考模块一？从招生简章上看，没有限制。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，学生平时成绩很好，但是没有参加过全国性的竞赛，也没有比如奥数、新概念等竞赛的奖励，请问有资格自主招生能报名贵校吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的工学模块1-7都为什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+初审通过人数与录取人数分省吗？或者如何考虑区域？有大致比例吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好。我取得信息学省一并进入省队参加了全国决赛，但未获得奖牌。可以直接一本线录取吗？是否还需要参加笔试
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，填志愿时是不是只能在每个模块内选择专业？能跨模块报专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问工学模块一至六是不是只能选一个填报
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+工大老师好。我只能满足单科成绩百分之一的条件，请问报名时怎么准备证明材料？是随机选取成绩排名单么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考哈工大自主招生，限报其他高校麽，如果有限报几所？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问，我家孩子在四个报名条件中，2,3，4都不行，只能选第一项“具有学科特长和创新潜质的优秀高中毕业生”选项，那么我还需要准备什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好老师，全国机器人竞赛二等奖可否参加贵校自主招生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问招生简章中“除工学模块七外，考生可选报两个模块，工学模块一至工学模块六不得兼报”是什么意思？另外学生成绩名列前茅，没有竞赛证书是否只能报考基础学科模块？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生有限报其他高校？几所
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+孩子在学校的成绩一直名列前茅，生物市三等奖，每学期三好学生，这样能报吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，我很向往贵校，我是奥赛省二等奖第一名，与一等奖末名名同分，可以开证明，请问能报吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我想问下1、初审通过后，面试和笔试的录取比例是多少？2、我家孩子有信息学省一等奖的证书，被贵校录取的机会大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！在网上填报自主招生时，需要“备选教育经历”，不知是什么意思？还有填报要写“是否色盲”，我孩子色弱，怎么填写？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问507分，服从专业调剂，有希望被贵校二表分数段录取吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请回复
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+求回复
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+若投档考生属于那0.05学校会不会退档
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是646，排名是747，请问我这样报贵校的话什么专业会比较合适？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对少数民族预科设置的专业有哪些
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！！374A+A报考贵校把握有多大？感恩老师解答！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我612分，全省1068名，报考贵校有什么推荐的强势专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问663报考贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+新收专业收分高吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，成绩619是否可以报考贵校？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我能上贵校什么专业？要是贫困专项的话能上好专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校提前批次录取需要什么条件吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校有希望吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+想了解转专业条件
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+提前批小语种高于一本线多少录取
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校关于“转专业”有哪些具体规定？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分数635，位次2334，能否报考贵校，希望大吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问什么样的条件可以进入贵校的英才学院，招生计划一批A段也没有实验班的招生计划呀
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问提前批影响自主招生吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我分数不够贵校，但有自主招生，我想知道如果用自主招生进入贵校是否影响专业分配。以及专业分配是按高考裸分么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，哈工大选专业看民族分吗，英才学院是怎样录取的，总分全区176名有希望被英才学院录取吗，贵校有什么专业限定性别吗，飞行器设计与制造招女生吗，对视力有要求吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+有希望报考贵校么
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问647能录进贵校么
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我儿子得到贵校艺术特长生优惠到一本线政策，我想问问是不是我过了一本线只填报贵校特殊类招生就行了，不用再报一批次其他院校了。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问自招考生降分录取后，专业怎么调剂，是分数最低的专业吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问，我报考贵校有希望吗，如果服从调剂，贵校调剂后的专业与我所报的专业是否为相近的专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+外语的语种有要求吗？对口语有要求吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生录取分数线如何确定
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果想要转系，需要哪些流程，是否会影响进一步的学习，想要转系的时间一般什么时候
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+获得自招加分的考生在哪一批次入取，录取时占有本一批次的计划名额吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+提档退档吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+1请问贵校热门【或重点】专业都有哪些，录取分数线是多少？就业方向是什么？一般考生需排名多少能被录取？2贵校能否转专业，有什么条件么？3各专业有极差吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问英才学院选拨是在入学后还是按高考成绩？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果我在学校学了一个专业，还想同时再选学一个专业，在学习时间、考试时间上，会不会发生冲突，如果有冲突好解决吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提前批次是不是国防生，或者毕业后要定向
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+大约多少？高出一本线多少？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问如果想报考建筑系，而被调剂到其他专业，开学后是否有机会转入建筑系学习？建筑系要求是有素描基础吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术特长生要在特长生填报系统和正常的高考志愿填报系统两个系统都填报么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问新生入学后可以转专业吗？有什么具体要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校什么专业较好什么专业受色弱限制飞行器专业是航空航天吗电气工程主要学什么
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校哪些专业对女生和视力有限制？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好,请问贵校的特长生的志愿是提前吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大提前批国防生是否招收复读生?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校自主招生通过后，本校和威海分校是否可以自由选报？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问咱们学校提档后百分百录取吗？什么情况下退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，高考分数572，如果选择贵校，专业选择的余地大吗？大一可以调专业吗?谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，前1000不是满足前三个志愿之一吗？前1500名不是六个志愿之一吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+学校的什么专业排位靠前？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，问一下，眼睛近视不超过800度，可以报测控技术与仪器这个专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是如何调剂专业的？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校的生物信息技术和生物科学系主要是学习哪方面？在专业介绍中解释的比较模糊，仍旧不太清楚。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+659省1632建筑OK不？土木呢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问特长生是否可选本硕连读专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我考了580，请问敢报贵校的好专业吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪9个国家一级重点学科？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些好专业？请具体一些，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师提前批学生入学后可否申请转专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些好专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：369AA报考贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业有什么要求
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+矫正视力4.8，刚好等于400度，报贵校飞行器制造专业是否受限
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+少数民族加分后649，排名3028，能否报贵校？适合什么专业?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校对女生有没有什么特殊的要求或限制？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好，我是贵校自主招生通过的考生，高考分、加分共计638分，请问能达到录取分数线吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+辅修期间，对第一主学科的成绩要求是什么？若有几次未达到是否会停止辅修？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有无专业极差？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问一下，（1）辅修期间，对第一主学科的成绩有要求吗？（2）所发学位证上有第一第二学位标注吗？有不同吗？（3）就业时，第二学位只做参考是吗？那若考了辅修的研，性质会有变化吗？望赐教！谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，一下，（1）辅修期间，对第一主学科的成绩有要求吗？（2）所发学位证上有第一第二学位标注吗？有不同吗？（3）就业时，第二学位只做参考是吗？那若考了辅修的研，性质会有变化吗？望赐教！谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问一下，（1）辅修期间，对第一主学科的成绩有要求吗？（2）所发学位证上有第一第二学位标注吗？有不同吗？（3）就业时，第二学位只做参考是吗？那若考了辅修的研，性质会有变化吗？望赐教！谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好老师！请问哈工大同校间的专业可以互相调剂吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问一下，（1）辅修期间，对第一主学科的成绩有要求吗？（2）所发学位证上有第一第二学位标注吗？有不同吗？（3）就业时，第二学位只做参考是吗？那若考了辅修的研，性质会有变化吗？望赐教！谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好请问福建本一批是平行志愿原则，那录取之后专业之间的专业级差是多少？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取专业之间有没有分数级差？理科621分有戏吗?
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，我将哈工大填在了自主招生批次，那还用不用再在普通类型将哈工大填第一志愿？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校在体检方面有哪些专业限制？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想问下专业调剂的范围，是不是就是招生计划里的那些专业里面调？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+好的专业我能报吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考哈工大哪些专业比较好呢？望赐教
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请赐教
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考617，超一本79，排名3250报考贵校希望大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+当转专业未能实现，采取了辅修双学位，面临的困境主要有哪些，例如两专业课课程时间冲撞等等，是一个个人抉择，对吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+能详细介绍一下转专业的流程吗？如果在10%，是否还面临转入院校的笔试考核+面试，它的成功几率，很难？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿地区是不是被提档以后就不会被退档有没有在服从专业调剂后被调到身体条件不符合的专业而被退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取后可调专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+排名5500，有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大的老师你好，我高考分数601，含政策加分，超一本线152分，全省排名730左右，贵校对政策加分一认到底吗？，请问我报考贵校有风险吗？又能选上什么专业？谢谢
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果一表B段报贵校的预科班，贵校会予以考虑吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果一表B段报了贵校，贵校会予以考虑吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优惠政策的排名是怎么确定的？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问优惠政策中前一千名根据什么排名，如果是投档分，又是怎样确定该生在省内的排名？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+能否提供学长的QQ（群）号），谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有双学位制度吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问本学校能够在选了专业之后经过在学校经过考试选择其他专业吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿A填报哈工大，和平行志愿B填报哈工大的考生在录取时是否区别对待？听说哈工大优先录取A志愿考生，此说法是否真实？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分专业的时候是同省考生按分数排名，还是用同一套卷的考生按分数排名？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，服从专业调剂提档后是否一定不退档？？？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校我高考成绩为560，高出一本线43分，全省排名8691.能否考进贵校，服从调剂。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校本科生的住宿条件如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！相同的投档分录取专业时政策性加分与实考分有区别吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校分配专业时是分数清还是专业清？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少？分专业是以实际考分还是含政策加分排序？是否有级差？谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+投档比例是多少？分专业是以实际考分还是含政策加分排序？是否有级差？谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果被贵校调剂专业录取，入学后是否有机会转专业，几率多大？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问英才计划的学生.第一志愿可以不报哈工大么.是否算毁约.
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+实行平行志愿后，自主招生批和本科一批能同时报吗，如何录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！请问是学习什么语言？以后可以选择建筑（我有素描基础）或道路桥梁工程吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈尔滨工业大学校园开放日具体时间
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好：是否有专业级差，如果有，是多少？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+工大招生办网站有个高考志愿预报名系统，是怎么会事。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，哈工大（威海）是哈工大校区还是分校？考研时其他高校是否因为是分校而有异议？有限制？听说高校接受研究生不要分校的学生。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大与哈工大（威海）有什么区别？2个学校为什么代码还不同呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我之前已填写贵校的自主选拔录取考生志愿表，已填写我的志愿，是否填志愿时，也要填写一样的志愿
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问您620分上贵校有戏吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，若我自主招生降档后录取，专业分配时以什么作为标准呢？是否有专业级差？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我是本省考生，贵校录取分数线一般超出一本线多少分？多谢老师
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例是多少，今年有退档吗？谢谢老师
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问贵校的国家一，二级重点学科有几个，分别是什么，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想咨询您，孩子估分603，有希望被该校录取吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我是一位单色可见色盲报考贵校会不会因为视力原因直接刷下，具体有哪些专业可以报？政策上太笼统了，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我是往届考生欲报工大的本硕连读，请问有限制么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下学校的优势专业，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+通过贵校的自主招生了。在录取时，贵校对于自主招生的考生是如何调档（录取程序）？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我通过了自主招生，很想能来贵校，是否就不要报提前批其它学校了，因为提前批先录。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，在专业调剂时您们会打电话给考生吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的专业录取分数，包括了自主招生吗？是加分后的分数吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我报考了你校的自主招生考试，虽然没通过，但接近录取的分数，如第一志愿报你校，分数接近提档线时是否可考虑提档?
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:我校环境以及生物相关专业实力和就业如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+各试点省份的具体政策将在哈尔滨工业大学招生办网站公布,何时公布？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校航天学院的复合材料和材料学院的材料有什么区别？哪个专业就业容易些？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校通信专业考研的比例大概是多少，分配情况如何。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，一般情况下高考成绩高出一本线多少报考贵校才有希望？是志愿填报完之后才确定的吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我是本省的考生，请问咱们学校收二志愿的考生吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校二志愿有专业限制吗？如果服从调剂调到不适合自己的专业怎么办，因为我们是女孩。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，已经获得我校自主招生资格的考生，在录取时占用公布的省内招生计划吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问转专业是前10%的学生都可以任意转专业吗？如果被分到需要加试素描的专业而加试素描不合格会被调整到哪些专业去呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校在招生章程中说“加分政策，，，在调阅考生档案时，承认各省（自治区、直辖市）招生主管部门根据教育部相关政策给予的加分"那么在选专业时看的是加分后的分数还是实考分？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校毕业后就业如何？主要在什么地方？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，588，女生，报考贵校什么专业比较合适？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+588，报考贵校数学类专业，电子信息与科学技术专业空间大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+596分，报考有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+可以本硕连读吧
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+588报考贵校有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师,如果考生已被投档且服从专业调剂,有无退档风险?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+不是说，如果入档后，不服从调剂，会被退档，然后不能接着跳到下一个志愿。你们是招生组吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+这种不服从调剂，是不是如果入档后，被退回，那就不能跳到BCD志愿。，你们是哈工的招生组吗。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，贵校的热门专业和中等专业，大约是指哪些专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师录取贵校后能否换专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我636分2363名能否投档你校本部？若投上，填哪些专业稳妥？你校是否见档不退？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问：投档由考生所在省招办投档吗？按什么比例投档？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校的优势专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我617进贵校能否选专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有专业级差？B志愿填贵校与A志愿填贵校相比会被区别对待吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想在本校双修，我想问问怎样才可以双修，成绩有什么要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+学贵校语言类，是否可选修非语言类专业，拿到双学士学位?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+596分，高出一本线66分，可以报考吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，，您好！请问咋们学校预估线是多少？是根据什么定出来的呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分校只是跨省的差别吗？？那分校分数线不会差别呢么大吧？、请问还有别的什么差别么？？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问如何查找贵校历年各专业分数线
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问分校和总校有什么差别？？为什么分数差那么多啊
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+根据其他省份实行平行志愿前后的情况看，是不是有趋势能说明实行平行志愿后，哈工大在某省的录取线要高于实行平行志愿前？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些热门专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩是592，请问能否被贵校录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+已通过贵校英才计划，第一志愿填报哈工大，平行志愿A填其它院校，影响加分吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专项计划的毕业生工作是由国家分配吗？若分配，必须工作几年？工作地点有何要求？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专项计划毕业生的就业地一定是贫困地吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好:656分，高于一本线74，能报哪个专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+622能报贵校的强势专业？贵校有哪些强势专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+626报考贵校有几成把握被录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，你好！请问学习电气方面专业，以后就业从事什么工作，具体做什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我考了657，超重点64，报考你校有希望么？服从调剂。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校投档时是按裸分，还是按加上照顾分后的成绩，选专业是否按裸分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+往届生可以报专项计划吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+1.请问若提档后服从专业调剂，是否有退档风险。，2.调剂专业是否顾及考生专业意向？及是否根据考生报考的六个专业意向进行调剂？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我通过了贵校的自主招生，高考分数为552，请问我报考贵校什么专业比较稳妥，谢谢
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问：高考632分，排名2966名，能上贵校相对较好的专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+那个英才协议书说的第一志愿报哈工大，是按录取算，还是全程不能修改志愿？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+一般情况国防生能比一批录取分低多少分？贵校呢？我607有希望吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我考了601，有希望被贵校录取吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+英才计划考生报考哈工大时具体的情况是怎么报考，协议书上说要去哈工大网站填信息，那是哪天填呀？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，619分能否报贵校威海分校，什么专业最有把握？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿中如果我在C位置填报贵校被提档，会不会因为是C位置而影响专业志愿的调配。，贵校说无专业级差那么贵校在专业志愿安排时是否像平行学校志愿那样的模式，如果不是那又是如何安排，请老师解答，谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好(1)请问贵学校进入大学后有多少比例可以转专业呢?>(2)专专业能跨大系转吗(3)数学本硕连读可以只把本科读完放弃硕士其他学校的研究生吗谢谢老师
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：如果第一志愿为同济大学，但未达提档线。那么档案就直接被投放第二志愿哈工大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我预估610，考贵校可能吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：有博士授权点的学科或专业是否也一定能授予硕士学位。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:自主招生考生能否报考本省计划外的专业?本省计划内名额也包括自主招生吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师:能不能谈谈英才学院选拔程序,尽量详细些,谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教如果我报哈尔滨工业大学第一志愿未录取但第二志愿与另一位同学第一志愿专业与分数都相同，学校将如何录取？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请教咱校辅修双学位可选专业都有什么？最终成功比例大概是多少？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请教生源好的情况下是否会扩招？如有，大致比例是多少？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教咱校实际录取时政策性加分是否一加到底？谢谢！~
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教咱校提档比例是多少？谢谢！~
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教咱校那些专业有过降分录取？那些专业每年都降分录取？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教咱校研究生外推一般是哪些学校？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请教一下咱校的保研比例大概是多少呢？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，哈工大各专业之间有没有专业级差？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，哈工大提档后，服从专业调剂会不会退档？录取时考不考虑招收第二志愿生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，如果进入哈工大分校以后想转专业，有什么条件？可不可以转总校的专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想了解英才学院的选拔方式，是通过入学后考试（考试时间是啥时候）还是通过高考成绩的排序？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好:校英才学院是录取后选拔，各省录取学生成绩排名15%的学生都能取到该学院吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+需要他们的电话。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+威海校区的强势专业有哪些？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问色弱考生报考贵校哪些专业受限
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大是上线不退档吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我有贵校自主招生优惠资格，提前批本科报考外省大学，一本一志愿报考贵校。如果没被提前批录取，是否还可享受贵校自主招生优惠政策。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问可以转专业的大一优秀学生可以任意选专业吗？若不能，请问那些专业会受限制呢？？谢谢老师.
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问英才学院要求是什么？本硕连读的英才班又是什么条件？如何报名？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+再次打扰老师，我孩子估分在610——620之间，请教报考贵校可有希望？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校的在我省招生的本硕连读班报考有要求和规定吗？按大类招生的专业什么时候分配专业？到时按什么办法分配学生所学专业？贵校招生往届生学生除国防生不能报考以外，还有其他规定专业往届生不能报考吗？谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：贵校直通本硕博、本硕最短在校学习时间几年？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！我看到有咨询专业调剂问题的，我想再咨询下入学后可否跨院系进行专业调剂？感谢回复，辛苦了！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问;英才学院在录取时就已经确定了吗?是如何确定的?包括提前批的自主招生学生吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：入学后可以改专业吗？改专业的要求和程序是什么？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师：贵校英才院一般高出重本线多少？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（比如说中南大学的综合素质测评）
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师解答，再次请教，如果服从调剂，是不是应该调剂到所报专业的相近专业。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师：对不起，想请教一下，一表中还有专业不能同时报的呀。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：没有专业极差，如果我第二专业分比别人第一专业分高，我还是优先录取。谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生的考生，选择专业有什么限制？是否所有专业都可选择？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问英才学院的本硕连读3+2模式，毕业是同时拿工大和国外学校的毕业证吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+取得了贵校自主招生，如何填报自愿，在专业选择上有什么政策？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问本硕连读3+2模式，毕业是同时拿工大和国外学校的毕业证吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我估分614，是否能进入贵校计算机系呢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问贵校的冷门专业有哪些？谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！想咨询贵校的二志愿问题？非常感谢！希望尽快回应，要报志愿，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问一下贵校能够确认一下，超过一本线多少分提档后不退档啊？要肯定的答案。谢谢了
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问我想报关于电力方面的专业,色弱,哪些专业受限不能报?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对外公布的各专业招生最低分数（低于贵校提挡分数）是否包括自主招生分数？谢谢！
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是高等学校创新能力提升计划（2011计划）高校吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我省能报贵校的6个专业志愿，我想知道如果孩子被贵校录取后，贵校如何安排录取学生的专业志愿。谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：填报贵校专业志愿时，本硕连读专业是否与普通本科专业一起填报？本硕连读专业录取时是否享受自主招生政策加分？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：此分数左右可以报威海校区吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我通过贵校的自主招生了，在报考时还需要在贵校网站上再登记吗？还是所有报开贵校的考生都要登记。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承诺提档不退档，是否设专业级差，有本硕连读班吗？保研率如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢回答。请问喜欢人工智能设计，选择贵校哪个专业好？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+读过招生简章，看到了所列举的全部国家重点学科，但是没看明白，究竟一个重，，点学科对应的是一个重点专业？还是几个重点专业？作为一个外行人，有些完全，，无法从字面猜到他们之间的对应关系，再说报考这么严肃的问题也不适合用猜来解决.，，希望可以更细致一些，把每个重点学科下面所涵盖的专业列举清楚，方便考生报考
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+色弱生被高校提档后若所报专业均未被录取，非限报专业又都录满情况下，服从调剂是增加名额录取到非限报专业还是被调剂到限报专业或是被退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：投档加分认可，分专业时按考生高考成绩确定考生专业的政策也同样适用于二志愿录取吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的二志愿多少分保证录取？任何专业都可以报吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是2011计划高校吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好！你校的工科类专业对视力有哪些限制？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题，这两个志愿冲突吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校网站公布的每年专业录取分数是否包含政策加分？录取人数是否包含自主招生人数？谢谢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！贵校承诺对实行平行志愿的省份的并且服从专业调剂的考生进档不退档，那么我想问一下，专业调剂采取什么样的原则？大一以后转专业的几率有多大？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问贵校的国家一级、二级专业以及特色专业分别有哪些？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果是1:1.1的话，那我也有希望了，谢谢老师！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校在一批录取时是否考虑专业级差？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大是不是对省前1800名有一项招生政策，能具体介绍一下吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+进入哈工大的英才班，应具备哪些条件？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问进校后转专业的条件是什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业是？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+已经确定报哈工大了，但是总有些心慌，想知道如果被录取什么时候能收到通知书？可以网上查询录取结果么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿一填报贵校被录取有多大可能？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+一本线582，我641，多59，报贵校有多大希望？说明白点嘛
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+投档比例大于1比1，多投的人如果服从调剂，无德体问题，是否录取？没有参加口试，是否有被调剂到英语专业的危险？这样会不会被退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+630份上贵校如何啊？专业如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+一本线582，我641，多59，报贵校有多大希望？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高出一本线47分几率大么？能报什么样的专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+若服从调剂,提档后是否会退档?，调剂专业时是否会与考生联系?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校热门专业是什么
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在一般情况下提前批是否会录取第二志愿学生？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，平行志愿的1.2.3.4院校是不是都属于第一志愿？学校会不会因为考生没有在平行1填报而不录取啊？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我成绩为642，名次大约为3800，能否进入贵校？专业如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分数如果学校够到学校提档，服从志愿分配，会不会被退档？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+是否高考前体检过关就可以报考？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你们学校的强势专业有哪些?航天类专业有那些
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+填报了贵校专业，并服从调剂，有可能被录取么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+那具体有哪些学院宿舍是4人的，哪些学院宿舍是6人的呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，能不能提供一份2010各专业录取分数
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的特色转于是什麽
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是653，报考贵校能源动力类专业有希望吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校什么专业比较好？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+需要多少分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的两个校区有什么区别
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的住宿环境如何，几人一个宿舍，是否有电扇，空调或暖气等设施。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，653报考贵校有多大把握？，是否会被调剂？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+咨询
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考哈尔滨工业大学的研究生吗？每年有多少外校学生考入哈工大读研？二本生每年占多少?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分校提档线是多少
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+多大年龄以上就不能报考贵校了？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我想知道哈工大每年的出国学生人数是多少？比例是多少？其中公费留学和自费留学的学生的数目和比例是多少？谢谢老师
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+630能上本校吗？可选专业吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在平行志愿的省份.如果考生服从专业调剂.提档以后是否退档？谢谢.
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问:1.威海校区毕业证书是否与本部完全一样?，2.按1:1.2投档后,家长最担心被退档,如何保证投档后一定被录取???，谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：贵校招录体育生吗？如果招录分数线和专业分数各是多少？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问投档投到你们学校后,可是你们学校招生人数已满即被你们学校退档的几率大吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+530到540能上贵校外语系吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:，请问哈尔滨工业大学(威海)校区的毕业证上是否有(威海)字样或毕业证上是否写有:xxx同学在哈尔滨工业大学(威海)xxx专业学习或公章上是否有(威海)字样?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大有什么热门专业，相应的分数线和非常稳定的录取分
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请问贵校转专业比例大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+热能专业主要学习什么以后就业的方向是什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问高水平运动员专业报名受招生计划限制吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的二校区设置有哪些专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我校的一本线什么时候公布
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校预科是否招收二志愿考生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+视力400度眼镜，可否报国防生
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+本省属于平行志愿吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请教，黑龙江民族加分在咱校是否有效？是否加上民族加分参与学校录取和专业录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校提档后且服从专业调剂，贵校是否能确保不被提档，提档比例是多少
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校本硕博连读学费如何收取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我第一志愿报北大医学部，二志愿报贵校可以吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+有国安局到学校招聘吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问一志愿报北大医学部，二志愿报哈工大可以吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在哪里能查到贵校总的招生计划？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+能源动力专业适合女生学习吗，就业方面受歧视吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，请教，，，1、咱校提档后是否退档？，，2、章程“在非平行志愿省份，调档比例为招生计划的110％左右。”，其中的“左右”是什么概念？浮动±范围多大？是否其余10%左右必须退档，还是另有规定？什么规定？，愿闻其详或提供链接。，，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+本部和分校毕业证书是完全一样吗？用人单位能够区分出来吗?学历查询网站上能区别出来吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问，哈工大以前在提前批招小语种吗？一般什么分数能录取？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+1考生被提档后能保证不被退档吗？，2有无志愿级差？，3贵校的优势专业？，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+预科期间主要学习哪些课程?是不是高中课程?结束后是否能顺利进到自己喜欢的专业?"我校预科结束后的测试成绩按3：4：3比例确定预科生专业。"的意思是什么?谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+626分被贵校录取的几率有几成？贵校有什么王牌专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+国防生的录取按什么原则？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校之后，可以转专业吗？转专业的机会多吗？，具体要什么时候可以转？，敬待解答，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校在投档时是先分专业后由分数从高到低排列投档，还是直接将分数又高到低排列投档？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂时是随机调剂还是调剂到相似专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否按1:1提档，提档之后是否有可能退档.，如果所报专业未录取，在调剂专业是按照什么原则？会不会被调剂到高收费专业，有多大可能？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的热门专业有哪些？谢谢回答！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的热点专业有哪些？谢谢回答！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有第二专业预留名额吗？如果有预留名额，是否有志愿级差？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认少数民族照顾分？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+考了652，报考贵校能否？是否能有好的专业。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下贵校英才班和实验班是入学之后定，还是录取时就定。谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在专业录取时,若6个专业均未被录取,是接着对该考生进行调剂呢,还是先进行下一名次考生的录取后再进行调剂?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+651+自主招生，能选什么专业呢？请给个参考。谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我是获得自主招生的考生，1哈工大自主招生报考信息栏内第一志愿是否把第一志愿四个顺位全写，2报考时自主栏不填，报考如下：A.X大学B哈工大C...D...这样报考是先投档X大学还是哈工大,如这样报考被哈工大录取是否加20分分专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂，提档后是否退档，单科成绩是否影响录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我的高考成绩高出1本55，全省2790，报考贵校有几成把握？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,贵校是否为高分退档考生预留二志愿名额?请老师原谅,这样问,很唐突,很不礼貌,但我又不能鱼和熊掌都得到,只能出其下策,请老师谅解,不要生气,学生给您赔不是了.如果老师不方便公开答复,请发邮件到xytcjsa@tom.com
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业级差吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+网上查到的一些贵校专业录取分数是否将威海分校的数据综合在一起计算的？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿将贵校填报到第一顺位有无优惠政策?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校学术氛围应该很浓吧！，男女比例是多少？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好!我想了解一下平行志愿录取问题。假如我A志愿报的是X学校，B志愿报的是Y学校，C志愿报的是Z学校，而且每个学校都不服从专业调剂。当我的A志愿被退档时，有很多同学的A志愿报的是Y学校，而且Y学校的招生计划已满，但我B志愿的分比那些同学A志愿的分还高，那么我会被Y学校录取吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+该校录取二志愿的考生吗？有何要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问往届生可以报考少数民族预科班吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+若以第一志愿报考贵校且成功提档，选专业时是否有优惠？（比如西安交大有五分的优惠分仅在选专业时有用）
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问若进入贵校何时能转专业，转专业要满足什么条件
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我是陕西考生，考了564报贵校被录取的机会有多大？另外，能发下贵校在陕西往届录取各专业分吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好604分二志愿能上贵校吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否在在校生中选拔国防生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问我这个成绩能否报考贵校？录取的把握大么？，，，如果可以录取的话，能够上什么专业呢？报什么专业比较稳妥？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问自主招生中的成绩确认是在网上报名系统中的高考报名信息中填写就好吗，高考考生号是什么？谢谢老师。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问如果学生对自己的专业不满意，贵校能有多少学生调专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我608分，超重点线56分。报考提前批，但不报国防生。，请问有哪些专业？，录取有多大希望？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的主打专业是什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+被提档且服从专业分配会被退档吗?谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我看到序号155和201的问题，意思是否为，如果专业服从调剂，只要被提档就不会退档？谢谢老师。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，老师，能介绍一下哈工大的优势专业有哪些吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的主打专业是什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+假如本科出国留学了是否还能本硕博连读？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校是否仅英才班有机会出国深造，且是否仅大一结束时有机会转业，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些优势学科？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的工科试验班是培养哪一方面的人才？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，有自主招生降分，填报志愿时已将贵校填在特殊类型批，是否还需要将贵校填在平行A栏内？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，，625报考贵校，有望被录取么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,进段且服从分配会退档吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩626，省里排名1200左右，报贵校希望大吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，我有贵校自主招生降分。请问在填报志愿时，已将贵校填在特殊类型批，是否还需要再将贵校填在平行志愿A栏中？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵学校有无专业级差
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问641的成绩是否有较大把握被录取？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好！105%其中的那5%是不是被退到平行志愿B呢？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我考了624有多大希望被录取
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果自主招生通过后，并签署协议，高考后不填报该学校行不行？是否也会被该学校提档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+对于立志航天的考生，就业时是否会因为所选专业过于特色而遇到更大的困难？如果毕业后想进入航天科工等单位，是否需要报考研究生，毕业时应达到怎样的水平才能进入国家的航天系统工作？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校三本的中外合作项目是否有国内毕业证
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：二志愿也有提档比例吗？如果专业志愿服从调剂，有被退档的可能吗？谢谢您。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问：自主招生提档后还会被退档吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生考生专业是不是已填报专业为准？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+达到投档线自主招生加分选专业，达不到投档线降分入取的，是按加分前。还是按加分后分专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师贵校进档还有可能退档吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好，我估分590，请问我被贵校录取的希望大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+该学校是否招收第二志愿考生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+达到贵校录取分数线，有无退档风险？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+招生计划中英才班具体专业是什么？，录取后再分吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大(威海)，贵校的招生章程为什么在阳光信息平台没有颁布？而在本校的网站又颁布？是以哪个为准？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大最低录取分数线是按1:1提档线划定的吗?自主招生合格考生的优惠政策以您校在当地省份按招生计划1:1提档线为基准，这个分数是否是公布的录取最低分。
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+非平行志愿省份自主招生考生加分与非自主招生考生一同划定投档线.录取如果这样的话哈工大大量的自主招生考生岂不是对非自主招生考生造成非常大的冲击，会将投档线抬得非常高？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+建筑环境与设备工程是学什么的及分配去向？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+“在非平行志愿的省份，我校一般不设置单独的自主招生志愿栏，考生如达到我校在当地的录取最低线，则占用我校在当地公布的招生计划，如未达到我校在当地录取线，我校使用预留计划录取，则不占用我校在当地公布的招生计划。”这不是与“非平行志愿省份投档线上不占用计划投档线下占用计划”恰好相反吗？、老师能不能详细解释一下..谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+入校后可以转专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下“非平行志愿省份投档线上不占用计划投档线下占用计划”的政策能否详细解释一下..投档线是怎么划定的：是自主招生学生加分后再与非自主招生考生一起画线吗？假如是如此那么投档线上的自主招生学生不也是占用计划的吗？，请老师详细解释一下...谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，请问贵校在一志愿不满的情况下招收非一志愿生嘛？分数有无限制
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+怎么能找到威海校区的章程
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国家重点专业都有什么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+怎么能找到威海校区的章程
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生信息中从8个学院中选拔165名优秀考生进入英才班一事，与招生计划中代码为37的工科试验班（英才班）是一回事吗？如果想上英才班报专业是从8个学院的专业中上报，还是直接报工科试验班？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题.
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业介绍及专业就业方向和就业状况在哪能查到?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿省份第一志愿第二或第三顺序报考你校是否承认自主招生加分？录取英才班是否承认自主招生加分以及英才班招生细则？是否录取第二志愿考生。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校分志愿时，是以分数高低，还是以专业先后次序录取？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题,会不会把南方人冻坏??学校里开放暖气的地方有哪些??
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：贵校录取二志愿吗？录取二志愿高多少分？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校在调剂专业时与考生联系吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,第一个问题是贵校对自主招生获得加分的考生录取贵校时,是怎样考虑进入院校分数段的?第二个问题是贵校录取的自主招生学生的名额,是否占当地的计划招生指标?特此,感谢.
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校色弱限报专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+是不是，只要进入分数段并报满志愿，不管是否服从专业调剂，都可以按所报考的志愿录取？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我在最好的高考博克里看了相关政策，决定报贵校，但不知道贵校情况，能否介绍一下：http://blog.sina.com.cn/s/blog_6598a8380100hjpm.html
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问:热能与动力工程专业下设4个专业方向：热能工程、热力发动机、流体机械及工程、空调与制冷,学生在校期间是否4个专业方向都要学习,如果是,时间有无顺序.请指教……
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校的<>适合女生吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+建筑环境与设备工程就是与暖通、空冷专业相关的专业吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有中外合作专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大自主招生合格的相应实验学院与英才班加分标准是什么样的标准
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+两眼视力分别为4.1和4.6,有限报的专业吗?能制作机器人的属于哪个学院什么专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+女生报考贵校的什么专业好就业？请给点指导，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+只能是么优惠？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校英才实验板是否实行滚动分流制度？若高考没有进去以后还有机会么？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生入取名单公式中，有一栏中注明只能、达到什么意思，都是哪些优惠
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生中能够、达到是什么意思，高考入取中有么政策？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+招美术类考生么？本省
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+有哪些提前批的专业以和报名时间、方法，是否与普通报考一样
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批有哪些专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生名单中只能。达到什么意思，对报考有么作用？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+第二志愿比第一志愿高多少分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问估分在一本线上80-100分报贵校把握大吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+往届大龄考生可以报考吗？达到分数线的话会被录取吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：国家重点学科一级、二级学科有哪些？往届录取分数是多少？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校非第一志愿是否录取？如何投档？哪个专业最好？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+想报考哈工大（威海），想知道两个校区是否在各方面都享受一样的待遇。比如毕业证，学位证等。谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，哈工大的优势专业有哪些？谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+已经考过贵院的自主招生，平行志愿是否优先招生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师两校是什么关系师资毕业证书等是否一致？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+复读生在专业上有限制吗？谢谢！！！！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+可以进比较好的专业吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校一般预科分数线比录取分数先低多少分？，算照顾分吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校如何录取第二志愿的学生
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂所调剂的专业和本人的分数相符吗？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂如何调剂？会征求考生意见吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师好：贵校的英才班如何选拔？入学后多长时间选拔？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+若所选专业均未被录取，专业调剂如何调剂？会电话询问考生意见吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题，本一线569。，专业服从调剂，会被退档吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大和哈工大（威海）有什么区别，毕业证书一样吗？师资力量差别大不大？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+大龄往届生贵校收不收？？？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大的老师:贵校每年退档的人数都很多,退档对每个学生来说都是一个沉重的打击.原则上不是尽量减少退档吗?请问贵校这样做的原因是什么?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校如何看待加分?安排专业的时候加分有用吗?如果不服从调剂是不是有加分的考生被退档的可能性比较大?谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校优势专业有哪些？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校预科是否招收历届生?，请问贵校是否承认政策加分?分配专业时也承认吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+投档后是否多余的考生会被退档
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是浙江考生，664报考贵校，服从专业调剂，有多少把握进贵校
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我想询问一下贵校在录取后，自主招生通过的学生是否享有优先分配专业的优势；普通学生在分专业时，是按照分数由高到低排列，依照学生的第一志愿、第二志愿......录取，还是由学校分配学院和专业的录取顺序，由学院和专业按照学生分数录取学生。，希望老师能详细解答一下。
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+是否存在极差
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+是否存在极差
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的录取分数线一般比重本线高多少分？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+施行平行志愿，贵校一般能在第几志愿的档上录取完
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大与飞行器有关的专业有那些，就业前景怎样？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+关于专业之间的级差问题，希望老师能够给予较为详细的解释，谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我的高考成绩是606+10，报考贵校风险大吗？投挡后还会被退挡吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想问在报考贵校时,专业的顺序与录取有无关系?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专业之间有级差
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+咨询一下贵校转专业的政策
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势科目是？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+录取几率大吗？专业是否有选择余地？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问:如果我的专业未能录取,需要调剂,但我的视力要求我有限报专业,贵校调剂时是否会按我的实际情况调剂到我可以学习的专业?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问与本部有什么区别
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+成绩602分的少数民族考生能被录取吗？（全省排名次1900名）
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校被录取的希望多大？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。如果我靠加分，被省招办投档到贵校，而在分配专业时，去掉加分，低于贵校提档线，是否会被退档？当然，我的身体合格，且专业服从分配。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的投档分数是多少
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，哈工大的优势专业都有哪些呢？？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校录取时有没有专业级差？谢谢回答。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校入学后有没有转专业的机会？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问不宜就读的专业会被录取吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问报考不宜就读的专业会被录取吗？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，请问：贵校的特色专业有哪些？怎样转专业？比例是多少？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校本硕，本硕博分到各省吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问美术加试的具体考核内容包括哪些？若未通过考试会被调剂到什么专业？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+材料成型及其控制工程专业是否招收色弱的考生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+除了通过高考进入贵校，还能通过什么办法啊？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+女生比较适合贵校的什么专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有什么专业比较适合女生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有志愿级差和专业级差，如果有，是多少？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问英才班招收的专业及人数？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！我校在录取和安排专业时承认各省市招办按照教育部规定制定的加分政策，只要填报自愿时选上服从调剂，一般情况下不作退档！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+镜片400度适全你校所有专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在填报平行志愿时贵校是否只考虑5个平行志愿中的A志愿呢？对于平行志愿第二顺序B报考贵校的考生，是否存在院校级差。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校生物方面的专业有哪些大致需多少分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+分数足够高，又填了愿意专业调剂，还会被调剂吗？？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生毕业后，是否可以直接考研？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占招生计划名额吗谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+对于平行志愿，如果第二顺序报考贵校是否存在院校极差分
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好哈工是北方重校我想了解一下强势专业，如果方便请老师劳神分析谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业有英才班
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+655有希望吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的国家一级重点学科有那些？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我有个困惑的问题希望老师能帮我解决一下,谢谢.如果我第一志愿第一专业填了你校某专业,但被刷下来了,同时我又填了另一专业,但有人第一志愿第一专业就填了该专业,但我的分数比较高,这种情况下你小会录取谁?谢谢.
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+596左右能进入贵校吗，！谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校在考生五个志愿都未能满足的情况下调剂专业是否会提前与考生取得联系，征求考生的意见
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问报考预科必须在一表一志愿报考吗？一表二志愿可以报考吗？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果上了你校的投挡线，能否确保录取？低分段的不退挡有什么条件？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业比较有优势
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我有轻微色弱，请问有何限报专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校法学专业有硕士点和博士点吗？如被调档且专业服从调剂有退档的可能吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校有专业级差吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的分数线与山东考试院公布的相差较大，请问怎么回事，报考时以哪个为准？谢谢
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+民族预科生与一般学生有何不同，第一年学的是什么？毕业时毕业证与一般大学生是否一样？对报考学生有何要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+第三批次的联合办学(代码3020)与第二批次的联合办学(代码2635)的毕业证书有区别吗?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+本部与威海分校的相同专业有什么区别
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师估分620——625报贵校是踩线分吗能进吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我体检结果为第二专业受限.请问贵校哪些专业是第二专业受限制的专业?本人报贵校志愿时好避开受限制专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+08我校三表联合办学最低分数线多少？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否是在计划内招生？分数优先排专业是如何实际操作的？专业各项计划招收人数固定，自主招生如何参与专业分配？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:请问如果二志愿进入贵校,在选拔英才班或实验学院学生时,是按实考分还是总成绩(含政策加分)?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:需要确认一下,进入实验学院所说按高考成绩录取,是含实考分加政策性加分(竞赛)吧?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+单色不辨加色弱可以报哪些专业？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+估分超重点分数线50分报贵校，一志愿未录取服从调剂是否退档？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业间分差是多少
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有本硕和本硕博连读专业？哪些专业能提供连读？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+估分610左右是否有可能报考贵校飞行器动力工程
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校是调档后就不退档吗？到校后能转专业吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问服从调剂，调剂的专业是只在该省的计划范围内，还是在全校的专业范围内？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师我是贵校的艺术特长生，如果我的分数刚够一本线能否报贵校，能录取吗
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+每个学校的调档线是按照该校各专业总招人数在各个省份划线然后按照专业录取呢？还是按照学校的各个专业分别划线调档录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+可否进校后调换专业呵
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我是一名应届考生，估分在640-645之间，想问问可报考贵校哪些强势专业？能否介绍。，对于贵校的保研资格有哪些要求？，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校有那些优势专业谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例是多少，如果服从专业调剂是否退档？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：进入哈工大后，有没有机会选拔新的本硕连读？？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的核专业实力怎样？该专业的毕业生的就业好吗？就业去向及待遇怎样？以后的就业前景如何？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿一比一点零五的比例下，是不是进档不退。在没有什么身体不合条件的情况下.服从调剂
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问报考贵校提前批国防生需要什么条件？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如果我报考一所大学并且被该大学录取，我复读不去了。行不行？2010高考复读生有什么政策与限制？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问哈工大的预科估计高出一本线多少分？志愿是否报在一表里？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校对往届生与应届生同等对待吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我估分615，已取得贵校自主招生，请问报考与航空航天联系较紧密的哪个专业录取的可能性大？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考你校是否有专业间的分数级差，如果有，是多少？
+select * from admission_score_pro where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问如果需要加分进校，会不会被退档
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收二批和三批学生吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校承认少数民族降分政策吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问工大有大专吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在你们学校能在学所报专业同时学其它专业吗或是毕业后还可以在学校选其他专业继续再学呢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校城市规划专业是国家重点学科么？女生报此专业是否受限，就业情况和继续深造的前景怎样？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+获得你校自主招生资格的考生在贵校选专业时是否受限
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校报名时是按系还是按专业？感激不尽
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大老师：你好！，1、什么是教育部特色专业？，2、贵校有哪些特色专业？，3、这些特色专业近年来就业情况怎么样？，4、贵校毕业生主要在军工行业就业吗？，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+对于高考失误但入校后成绩优秀的学生,贵校有何重点培养方案?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问，如果已经进档并服从专业调剂，有无退档风险？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+工大什么专业对4.2视力有要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校国防生如何招生?高考高出一本线20-30分报考贵校国防生有多大把握?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校各专业极差怎样设置？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+能降低多少啊？？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+报考哈工大建筑专业对视力有何要求？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校历年来招生，如果学生填写服从调配都不会被退档吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！我估分600分左右，是否能读贵校的光信息科学与技术专业。如果是服从调配是否会调到很冷门的专业。谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+那些系学习一段之间后可以转系？什么样的条件可以转系？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问：艺术特长生和高水平运动员选专业有限制吗？如果报提前批的学校影响录取吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校对实行平行志愿的省份的提档比例是多少？如果考生刚好达到贵校在该省的最低提档线且服从专业调剂能否保证不退档？谢谢！！！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+每年都有零表的报考不知道零表对以后报考有什么影响吗？还有对身体有要求吗？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+2007为什么比其他年低很多？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+录取线为什么才是一本线？谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+550上下报考那些专业有希望谢谢吉林
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校重点专业都有此什么?重点学科是哪些?
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+在自主招生成绩通知中写有，对没有被录取的同学在招生报考时给予关注，怎么理解。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+术描不合格是不是调到与建筑有关的专业
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：对省招生办在教育部之外增加的优惠照顾项目，如省三好学生，如果省招生办按加分后的成绩投档，贵校录取时（进大门）是否承认，分配专业（进小门）时是否按加分后的投档成绩？谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+如题，谢谢。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我想知道哈工大最好的专业是什么？录取成绩多少？毕业分配去向。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+哈工大的那些专业就业前景好
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校每年在川招生录取线高一本线多少
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+专家你好:，我的孩子一摸620,二摸634能否报考贵校，，谢谢!
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我女儿为哈工大自主招生合格考生如报工的国防生是否有同样的优惠政策。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校某些专业是否会在第1志愿未招满的情况下，招收第2志愿的考生？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+请问二志愿政策，谢谢！
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，贵校美术专业考生是按专业录取还是按文化课录取？
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+定向分配往哪分配?谢谢
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我校招收第二志愿的考生吗
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收二志愿高分考生，想咨询高出一本线过少分才符合贵校二志愿高分条件
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+我女儿为哈工大自主招生合格考生如报工的国防生是否有同样的优惠政策。
+select * from admission_plan where school='哈尔滨工业大学';
+['问句条件词只有学校，查询过宽！']
+总问题数4384	查询语句构造为空数0	只有学校关键词数713	查询结果为空数2002	有回答数1667

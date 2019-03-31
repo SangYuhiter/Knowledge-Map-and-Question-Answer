@@ -1,0 +1,5194 @@
+老师你好~请问综合素质评价里填写的一所学校四个专业之间是否平行？还是学校会考虑在两个学生同分的情况下将X专业作为第一志愿的学生比起将X专业作为第二专业的学生能够优先进入该专业？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦的各类实验班是仅提前批次录取吗？有高考裸分名额吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问民族加分在专业录取时也会有效吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+孩子一心想当英语老师，综评面试选择不调剂，只报考英语系，这样会影响面试成绩吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好：我是浙江的考生，想咨询下关于体检结果为色盲或色弱的情况，贵校哪些专业不能被录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师色盲以及近视800度有哪些专业不能报
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学老师：你们好！咨询下：1.提前批以后有转专业机会吗？是否限制在提前批招生范围内转？2.招生计划中提到有免费出国交流机会，不是每个人都有吧，按什么方式选拔，大概有多大的比例？3.只是体育加分不计入专业录取排序对吧，不是按裸分排志愿对吧.4.承诺体检合格服从调剂的不退档对吧，提前批也是吧。问题多，见谅。盼复，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+675分361名，希望大吗？提前批的哪个比较稳？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我通过了复旦大学的高校专项计划（腾飞计划），接下来有什么步骤和程序
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校高校专项录取是在国家专项录取之前还是之后？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我同时符合复旦大学的国家专项和高校专项的条件，如果填报时同意专业调剂，调剂的专业是在相应的专项计划里招生的专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学高校专项的专业和代码在哪里可以查到，请指点，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我通过贵校的腾飞计划，应在哪一批次报考
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+国家专项计划报复旦,不同意调剂.如果调档后是否会存在被退档?如要调档后被退档会不会影响之后的高校计划(本人已通过复旦高校专项计划)及一本的投档与录取?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+结果不确定时可以报考提前批吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+与提前批次报考有冲突吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+六个专业有没有专业级差
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+腾飞计划限报专业有什么？在各省有什么不同？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的提前批中的技术科学实验班是具体学哪种专业还是都涉及
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问这个提前批次是所有符合等第的学生都能报的吗，我415分112名是否能保证进入？以及这个技术科学实验班的课程设置如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+通过腾飞计划的考生是在本科一批中填写还是提前批中填写复旦大学相关志愿/
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提前批里的专业是怎么分的？技术科技实验班到了大二以后细分专业吗？是我选专业还是随便调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问通过复旦的腾飞计划位次2300有可能被录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+2016招生计划？转专业的要求和标准？双学位的要求的标准？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：如果我高考成绩到了复旦大学的综评控分线，我想进复旦大学，如果进不了那么就想进入复旦医学院，那么综合评价第一志愿填复旦大学，第二志愿填复旦大学医学院，这样填正确吗？我最担心的是如果这样填的话，如果复旦大学没有录取，那么复旦医学院是不是也不可能录取了，还是最保险的填志愿是不是总评第一志愿就是填复旦医学院？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，是否有专业是只按志愿录取，只按志愿录取的专业是否会降分录取？如果降分，会降多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校大二时可以转专业吗？转专业要求是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，腾飞计划的志愿填报会影响正常的志愿填报吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，复旦大学高考专项计划应该填报那一批次高考志愿？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，入读复旦后，转专业容易吗？有什么具体要求？跨院系转有什么要求，容易转吗？不同的专业有不同的要求，这样的回答，不是我们期待的。麻烦您说点具体点，或者举个例子说，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果在提前批次被技术科学实验班录取，可以转到自然科学实验班吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，八年本博连读后还需要规培嘛？另外，博士有学术和专业之分吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是一名来自国家级贫困县的考生，同时拥有国家提前批专项计划和贵校的一批腾飞计划资格，我想用腾飞计划可又有录取不上的风险，该怎么办呢(⊙o⊙)?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批社会科学实验班是什么意思，是大类招生然后分流吗，都包括哪些具体专业，还可以转其他专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+色觉异常二度可以报你校技术科学实验班吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，色弱有哪些专业不能报？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问若被贵校提前批次录取，能否转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！我是山西考生，请问，以普通高考录取后（非英语专业考生），有无面试（如英语听力等），如面试不符合要求是否退回？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想咨询一下，如果参加贵校的提前批次录取后，有没有可能一定时间后转专业？比如，自然科学班转数学？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否设有医学定向生
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂，会被退档吗？可以转专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问通过国家专项计划录取的考生有何限制
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好复旦提前批两个试验班有什么要求吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！对于腾飞计划来说，如果我被录取后在专业认定方面上是不是要看高考裸分啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好参与腾飞计划的考生该如何填报志愿？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果选择的专业招收人数满了且选择服从调剂会被调剂到别的科类的专业吗调剂的范围是什么是其他人数未满的所有专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好：在哪里查询是否得到面试的资格?几点发布？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+为什么提前批录取人数比一批录取人数高？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我实在找不到腾飞计划专业，简章里没有，还请老师帮忙
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提前批有啥特殊规定？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提前录取专业中自然科学实验班，技术科学试验班录取后是否可以转专业？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，复旦大学提前批和1A批的招生有啥不同？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+通过腾飞计划选专业是与同省考生比较还是与其他参加腾飞计划的考生比较？如果是与其他参与腾飞计划的考生比较，省份不同，任何比较？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校的“综合评价录取”只是面向应届生吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校提档后有退档的情况吗？服从专业调剂。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业对获取腾飞计划的考生选择以什么为标准？我是否被这个专业录取看什么？不被专业录取是否可以调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+腾飞计划的专业是否是阳光高考上公布的不分省招生的专业？专业的计划数不确定，是否有被退档的可能性？专业对获取腾飞计划的考生选择以什么为标准？我是否被这个专业录取看什么？不被录取是否可以调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！报考提前批需要向军校一样需要体检和政审么，对孩子视力有要求么。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果是农村单独招生的B20类，但成绩只有615有希望进复旦吗？农村单独招生如果入选后专业还可以再调吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报复旦的提前批有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校在石家庄办事处联系方式是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学腾飞计划填报志愿时也是在本一特殊类型批的高效专项计划吗？为什么有复旦大学除外的字样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问填完”综合评价“批的志愿考生为什么不需要填本科一批次志愿A位置？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批里“自然科学试验班”和“技术科学试验班”专业是什么时候分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+未到贵校模拟录取线的同学，可以报贵校提前批专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是排球特长生，请问能报什么专业？如何填报志愿？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批对近视及其他身体条件是否有要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批里“自然科学试验班”和“技术科学试验班”分别是学的什么课程？大概是什么方向？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问填写“综合评价”批志愿但未被贵校录取的考试有没有可能在第一批次再被贵校录取的机会？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好;请问复旦国防生录取分一般多少？我是重庆地区的，高考成绩637，可以在复旦国防就学吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在教育网站填报的综合评价志愿必须和贵校综合评价填报的志愿一致吗？如果不一致以哪一个为准？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，我欲咨询专业选择方面的问题。请问射击队员在选择专业时有什么需要关注的问题吗？谢谢老师！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问是不是任意参加综合评价或腾飞计划的笔试，两个项目都有成绩？如果这样的话，那腾飞计划的面试成绩是否会计入综合评价里面？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。考生想报名望道计划体验营，能否介绍一下该营较具体的日程，是否有可能插空离营参加一下其它院校的自主招生考试。毕竟太多优秀学生来竞争贵校的资格，自己没有很大的把握，希望有可能争取一点其他机会。非常感谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学的名额是直接按照夏令营成绩高低排序还是有分省分配？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，贵校自然科学试验班都有什么专业，自主招生专业填服从是从自招专业里调剂，还是从全部专业里调剂？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，该校自主招生限报几所学校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！高中阶段相关学科学习成绩特别优秀，如何界定？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，孩子没有竞赛证书，但孩子成绩很优秀，不偏科，爱好广泛，有艺术特长，按照自主条件需要提交的材料具体有哪些能否告知。谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+“奥赛决赛”三等奖是指现场获得的认定吗？如果没有，能报“奥赛决赛”类吗？还有就是“奥赛决赛”获奖的复读生可以报贵校的自主招生吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问自主招生认定的专业入学后可以转专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！弱弱地问一句：除了奥赛决赛现场预录的考生之外，复旦还剩多少自招指标？或者说，已经预录了多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好,自主招生志愿与高考第一志愿的学校必须是同一个?若同一个学校,专业需一样吗?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+孩子最心仪的高校就是复旦，没有奥赛证书，在河北衡水中学就读，学习较优秀，能否报考贵校的自主招生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，高复生是否可同应届生一起参加自招？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师为什么报名系统里没有复旦大学的选项呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：奥赛决赛二等奖是不是不再笔试？面试的时间是什么时候？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生最多可以报几所学校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问获得全国奥林匹克市赛区二等奖,市新知杯一等奖,能否报考贵校自主招生.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！报名需不需要提交纸质资料？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我女儿获得的是中国数学会颁发的全国中学生数学联赛一等奖，不是全国奥林匹克竞赛，能报考贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是省重点中学高三学生,成绩年绩前10以内(近2000人),有"2014全国高中数学联赛二等奖证书(中国数学会章)报望道计划时,需要选条件一,还是条件二呢?再有我们初审通过人员的数量与自招计划是什么比例关系?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！学生通过自招后进入复旦，以后可以根据综合成绩转更好专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校允许同时申报几所大学？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我孩子有两个全国高中数学联合竞赛二等奖是中国数学会发的请问可以报哪类
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+孩子获得信息三等奖项，在校期比较优秀，获得不少学校及其他奖项，可以报考吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+考生视力矫正600度。微电子学、光信息科学与技术是否有视力受限？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我女儿在高中阶段获得奥林匹克竞赛数学全国三等奖，一个省一等奖，一个省二等奖，要如何经你校相关学科院系教学指导委员会认可后才能报名？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校望道计划的笔试科目是千分考吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：是否要推荐信？推荐信有什么要求？笔试考什么科目？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生各省区有名额分配吗？请问，自主招生考试是各地学生在一起选拔，是否对教育不发达省份有点不公平
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请教老师：围棋业余5段，省赛女子个人第2名可否申报贵校？从网上看到贵校原对围棋有自主招生的。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我想报考望道计划，但是在登陆招生网时发现个人身份证号已经申请过报名号（不记得有注册过）。可是报名号已经不记得了，注册时的邮箱也不记得了应该怎么办？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+总体成绩在年级段前十名
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校，学生自招报名，是可报多所呢，还是只限制一所，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问您‘望道计划’学科特长、创新潜质的证明材料具体是指什么？我家孩子是哈三中的学生，孩子学习成绩特别优秀，但无奖项，能否报考？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我看招生简章中对奥赛决赛在哪里报名没有说明，面试时间是什么时候？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我有一个全国数学联赛复赛二等奖，平时成绩稳定在年级前五，其中数学在所有学科中突出，如果报复旦自招审核通过可能性大吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，孩子参加过贵校的信息学夏令营并参加了面试，我看前面的提问说这样的孩子不用再次报名，我还是不太明白，我们静等贵校通知吗？谢谢！还有孩子有获全国铜牌，也参加过很多活动，素质优秀，可以兼报贵校的奥林匹克竞赛全国决赛生吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我女儿在高中阶段获得——实用新型设计专利证书，是否可申报贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你的解答里有二种，第一种是可以报名；第二种是可以报名，不保证通过。------我想问的是，可以报名是否就保证通过（有省级竞赛一等奖）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问望道计划考几科，都是哪几科？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！试点高校自主招生报名系统无法登陆啊，所有环节都已验证无误，但系统仍然提示帐号或密码错误。已经重新设定了密码，仍然无法登陆，平台的服务电话也打不通。不知可否请你们了解一下？我周边的同学均有相同的情况。谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+孩子获得信息学铜牌和数学省一（全省前十几名）是报“望道计划”还是报“国决获奖”
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！初审通过后测试什么科目，科目和竞赛获奖科目相关吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+已在奥赛决赛现场拿到签约的学生还需要再次参加本次自主招生报名吗?已签约的协议是不是还算数呢?谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自招资料是先学校盖章才能上传吗？获奖证书也要上传学校盖章的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，参加自主招生考试后如获得加分，是否有签协议的说法？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报名材料是否只需要上传，不用邮寄？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，学生平时成绩很好，但是没有参加过全国性的竞赛，也没有比如奥数、新概念等竞赛的奖励，请问有资格自主招生能报名贵校吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生加分后和本科一批同时投档吗?录取专业时，自主招生考生和本一批考生以高考实分按从高到低录取吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生条件有没有报名其它高校数量限制？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问通过某一学科进入自然科学实验班，在大一结束选专业时可以选择其他学科么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问获得数学竞赛国家级铜牌的可以申请报考“奥赛决赛”项目吗？招生简章中写到“部分获铜牌(三等奖)的正式参赛选手经我校相关学科院系教学指导委员会认可后也可报名参加”，怎样经相关学科院系认可呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！1、贵校自主招生简章中规定网上报名在复旦大学招生网，其他高校都在阳光高考试点高校自主招生报名系统报名，请明确。2、贵校对考生申报自主招生高校总数有限制？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考网找不到简章
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校限制同时报考其他院校的数量吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！贵校对自招报名学校数目有无要求？是几所？多谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我小孩是全国中学生生物学联赛一等奖，可以报考贵校什么专业为好？初审通过率多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高中期间获全国数学竞赛省一等奖，全国青少年创新大赛三等奖，获实用性新型发明专利一项，可以报名吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我孩子喜爱科技创新高中阶段获得国家知识产权局的实用新型专利证书,能否参加望道计划”体验营
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生简章中未提到要提供纸质资料，是不是只要网上报名无需邮件各类证书的复印件？如要邮寄截止期是几号？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问如果我符合报名条件，是否一定能通过初审，还是需要考虑自身的竞争力，谢谢老师。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，在全国中小学电脑制作活动中获得二等奖的学生，在您校可以获得自主招生资格吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校限报几所学校（包括贵校）？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，请问一下，复旦大学有报其他院校数量限制吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+限制报几所院校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问有省三等奖、市一等奖平时成绩很优秀的可以报贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问第三项奥赛决赛中未包含生物竞赛国决奖项吗？也就是说生物竞赛全国铜牌以上的不符合本条件吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+学生提供学校盖单证明的成绩单，没有专家、学校推荐，学生自荐报名行吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如果我想报复旦上海医学院，也在复旦的“望道计划”里申请自招吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问我在报考贵校的同时还可以报取其他的学校吗？能同时报几个
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+望道计划，提供证明其学科特长、创新潜质的证明材料。证明材料需要什么要求，由学校方面提供吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否包括新闻专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+参加自主招生的学生允许学习临床八年制吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：您好！请问复旦医学院自招简章何时可以出来？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问贵校自主招生网报都要提供那些资料呢？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的上海医学院和贵校的招生章程是否一致，投档成功且服从专业调剂就不会被退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考至少多少分能报考贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问工科试验班录取的学生与1A录取的学生有什么不同？可以转专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问通过腾飞计划录取复旦大学的考生，进校后可否转专业？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：艺术特长生同哪些类型考生排队选专业；可以报经济类、数学类专业吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生怎么填志愿
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师江浙沪预录取的何时能在网上报名系统查询录取信息？何时能收到通知书？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问特长生成绩达到学校要求，志愿就只填复旦，应该没问题吧？能否保复旦医学院？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我想问一下贵校招生如果服从调剂的话还会在什么情况下导致退档吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问：1、贵校公布的招生计划是否包含各项特殊招生的招生计划？2、特殊计划的提前批次是否录取对第一批次的录取是否造成影响？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我是少数民族学生，我在自主招生（艺术特长招生）中享受我省少数民族的加分政策，如果艺术特长生没有录取，我在第一批次中是否还享受我省少数民族加分政策，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请教艺术特长生的录取分数线是以本省的提前批次的贵大学的录取线还是以第一批次贵校的录取线为准，在此基础上进行优惠？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下你校提前批的情况？是国防生吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好老师,请问贵校医学院有类似4+4的培养计划吗,就是我在其他学校拿到本科学位再申请到贵校医学院学习
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好老师,为防止学生将医学院作为跳板转入本部,复旦会出台相关政策保护那些真正想选择医学的学生吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，我想了解少数民族加分能否计入专业录取时的分数中
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，如果加上少数民族分后能过提档线，并且服从专业调剂，那么在专业录取时会因为原始分太低而被退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：贵校录取新生对英语口语成绩有何要求？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+国家二级远动员加分在提档和专业录取时是否考虑
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好：请问入学后转专业有何规定？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：1、技术科学试验班与自然科学试验班的主要区别？两者分别开设的课程主要有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若可行，需要的手续有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问社会科学试验班有何专业？就业怎样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：1、贵校专业志愿录取规则是怎样的？2、假如甲同学（填报的专业未能录取）在没填报某专业而服从专业调剂且分数比填报第一专业志愿的乙同学高的情况下，会优先录取谁？3、是否是优先看所填报的所有专业志愿后再看可调剂专业？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我想问一下，已经被预录取的学生还需填报志愿吗？另外，还可以报考零志愿吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问，在实行平行志愿投档的省份，考生被提档到贵校后，以何种方式录取？是只按分数不分第几志愿都录取呢还是优先录取第一志愿的考生。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我有10分省招办加分，请问在提档和专业录取时，贵校是否都认可？如果提档，专业服从调剂，是否会退档？谢谢您。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问望道计划获得专业加分，我们只是查成绩时查到的，是否需要什么凭据才能用上这个专业加分？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问望道计划自荐生获得专业加分，在报贵校时，是在自主批次还是正常批次报名！谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：进档后专业录取是分数优先还是志愿优先？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一级运动员政策贵校承认吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+16人公用1个卫生间，1个公共浴室？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+宿舍是带卫生间吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：1.考生达到贵校“所在省份1:1录取线”，什么是“所在省份1:1录取线”？2.工科类有没有本硕连读的专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+按大类招生，若不够自己所报专业分数，被调剂到其他与所报专业相差较大的专业，入学后能否马上申请转专业？如果大一大二转专业，课程是公共课吗？用自己单修课程吗？影响毕业时间吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1几人一间？是上床下桌吗？有无暖气与空调？宿舍内有卫生间与浴室吗？舍内有饮水机吗？是需要自己花钱买水吗？有的学校是这样的。每个楼层有公用饮水机吗？2有活动场馆与设施吗？如游泳馆等。3每月伙食费用大概多少？4校内有超市吗？附近有超市与银行吗？这样购买生活用品方便些。谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：1、招生时，专业调剂只能在投放到考生所在地的招生专业范围内调剂吗？还是有可能全校范围调剂？2、就读时，专业调整的大概情况怎样？可以跨院调整吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+少数民族加分后649，排名3028，能否报贵校？适合什么专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问报考复旦大学国防生要考体育吗？像1000m，跳远这些
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好贵校录取时1:1.01吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是被贵校录取的保送生，想请问一下保送生录取通知书的准确发放时间，谢谢~！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好贵校提档之后是否会退档？？咨询下万分感谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校提档后是否退档？服从专业调剂呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自招考生填专业还考虑专业顺序吗，反正都是调剂录取。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！贵校招生简章“经我校审核确定为优秀推荐生的考生，在其第一志愿报考我校并且高考成绩达到我校在当地调档线，加5-10分参与专业录取”中的“优秀推荐生”是指什么？与“推荐生”有什么区别？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！贵校招生简章中的“对于经专家组面试后签署有相关协议的考生，按协议进行录取”是什么意思？专家组面试是否已经举行？如何参加？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+文理类自招，已经达到一本以上二十，但肯定不达复旦线，报考复旦大学，不报医学院，会不会调剂到医学类的专业。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦的老师你好，我高考分数601，含政策加分，超一本线152分，全省排名730左右，贵校对政策加分一认到底吗？，请问我报考贵校有风险吗？又能选上什么专业？谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我看到您前面回答说已经签过自招协议的考生不占当地招生计划，那么我们的专业是怎样安排的呢？会考虑专家组面试时我表述的专业志向吗？谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我自主招生通过了，超一本一百多分，但未达到贵校的录取分数线。请问录取专业的时候是自招类考生在一起竞争？还是和普通考生竞争？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+635考贵校的医学院有希望吗？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校选专业时，是否认可加分政策呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问上贵校的三本，考研时是否有优惠？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的经济系毕业后公派留学的比例多大
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，双专业和双学位的修读是否可以在贵校所以专业自由选择，还是每年的专业会有限制？？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校调剂范围是该省招生计划中有余的专业名额，那么如果没有剩余会被退档吗？如果会，这不是与贵校接档不退矛盾吗？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在专业录取时是否承认加分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的技术试验班哪个专业优势强
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！想问一下如果没有按所报专业录取，专业调剂时是本省招生计划内的专业调剂，还是全学校所有专业调剂，是录取到大类还是某一个具体专业。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校服从专业调剂只在当地招生计划内，那么如果招生计划专业都已招满，又怎么办呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+投档服从调剂是否退档
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿中，如果考生到了贵校的提档线但未进入专业志愿，可招生计划中的所有专业志愿都已录满，这样会不会退档？会不会失去录取机会？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，排名多少录取分多少能上该校，招生计划数
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是竞赛生，有20分加。请问贵校在专业录取时，是按加分（高考分数+20）还是按裸分录取专业
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好：是否有专业级差，如果有，是多少？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自主招生考生接受调剂时，贵校动用预留的都是那些专业，自主招生的分数在调剂专业时作为参考吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+再贵学校上高职可以吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业录取规则是怎样的？是分数优先加专业级差还是志愿优先加专业级差？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问高职（专科）与高职高专是一样的吗？谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校专业录取时承认各省加分吗？保送生和自主招生占公布的招生计划吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对达到贵校最低录取分数线但未进入专业志愿，原则上不退档，就是说愿意服从所有专业调剂就会保证被贵校录取是不是？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一：假设选择服从以下专业调剂，但是分数都达不到所选的专业调剂的要求，是会被退档还是该档案投向该批次的下一所学校？二：是否必须先填满专业志愿方可填写服从专业调剂？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有自考吗？自考需要多少分呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校都有哪些专业有交换生？交换生选拔原则和在国外学习期间的学费等有教育部还是交换双方高校承担？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：听说贵校认同已获清华大学自主招生的优惠，请问是这样吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好：1，从大学正常办理退学手续复读是否录取。2，往届应届是否一视同仁。3，云南平行志愿专业服从调剂是否退档。谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，投档后，按专业优先原则或是按分数优先，确定录取专业？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的实验班是什么意思？指的是本硕连读吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师艺特生除了服从调剂外可以加分选专业吗？如果可以的话，一般加多少分呢？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：假如提前批录取复旦，进校后能不能转专业？第几学期可以转？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问有很多试验班,招生要求是什么?怎么招?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+本一批次是加分录还是裸分录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校，政策性加分在选择专业的时候是否可以加上？还是按照裸分？拟报考专业是“医学试验班”。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我如果填报了贵校的提前批思想政教育专业，如果有幸进入贵校，是否第一志愿填了贵校专业，可以转入第一志愿的专业？或者还是进校以后可以转专业？转专业需要有什么条件吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我通过了复旦大学自主招生，并签订了协议，为什么没有在公示名单中？听复旦老师说北京地区共11人通过自主招生，但公示名单为什么只有3人呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，阳光高考网上公示自主招生名单，怎么只有3名同学，没有我们学校的呢？我们学校有三人通过了的。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生要符合《中国人民解放军院校招收学员体格检查标准》。这是填志愿前检查吗？如有意向在哪里进行体检？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果高考没考好，通过成人高考进入贵校学校能算本校学生吗？谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：调剂录取是否有可能调剂到医学的有关专业上？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校只收第一志愿的么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好请问录取时会不会因为第一志愿退档而第二志愿院校生源已满即使你的分数很高而没有被第二志愿录取
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校的自主招生名额是否占招生计划名额
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请老师务必给予明确答复！！，实在是太喜欢复旦了！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是乒乓球国家二级运动员擅长吉他演奏并能自行创作报的是贫困地区定向招生计划在贵校提档时能否体现我的国家二级运动员身份？能否给予一定优惠？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如何查找贵校历年各专业分数线
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，从哪儿可以看到贵校各专业的录取分数（山西）
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些热门专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+学生成绩n653,排名473，不知道能否有机会进入贵校深造，感谢老师指点。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是不是只需填一个志愿(包括专业)，另外，招生系统上的上报高考报名号及准考证号怎么填，因为不知道报名号，准考证号位数也不对。谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问未通过面试的优秀推荐生如被贵校录取，专业分配时是按照面试之前填报的表还是按高考后本科一批的志愿分配，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问复旦是否承认加分政策？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，你好！请问学习电气方面专业，以后就业从事什么工作，具体做什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校可以转专业吗？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是望到计划优秀推荐生裸分676能否去自然科学实验班
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我想请问一下，投档成功但未被录取会被退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果服从调剂还有风险退档吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿报的是复旦。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+642分，过一本线102分，上贵校有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：肝功正常，表面抗原阳性，能否被贵校录取？能否毕业后进入贵校的附属医院工作？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+填报后是否有机会考上（省184名）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提档后的选专业时，是裸分挑专业吗？，投档后，服从调剂时，是否会退档？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我在贵校的招生计划里有法语1人，德语2人，日语1人，这个事小语种吗，提前招吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！报考贵校填志愿，填专业是填大类还是填细分专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师请问贵校小语种提前批在浙江有那几个专业，招多少人？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校公布的录取成绩是否包含加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+入校后，能否转到金融专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个校区，每个校区专业是怎么分的？新生入哪个校区？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问社会科学试验班的具体专业什么时候分？如何分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生网里个专业的平均分里是否包含省级加分？自主招生通过预录取的学生个数是否含在分省计划招生的生源数里？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+本科期间什么专业有望国际交流学习
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+医学实验班专业方向是什么，是否二年级才定
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，如果在贵校设定的投档线内的投档数量超过了录取最高比例数，在一次投档后是否有退档风险？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，请问：贵校志愿填报是按大类填报还是按具体专业填报？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问学自然科学比以后去哪就业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对进档学生，贵校是分数优先还是专业优先？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么情况下贵校能够确定录取某个学生？和招生组的老师沟通能否明确答复？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好!请问按大类入学,一年后分专业,是按照学生的要求分专业还是通过考试,学校给学生安排专业?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+色弱生被高校提档后若所报专业均未被录取，非限报专业又都录满情况下，服从调剂是增加名额录取到非限报专业还是被调剂到限报专业或是被退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦2012在京提档比例？复旦工科学生在小期间是否有实习？谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.是否可以转专业？是否需要降级？，2.是否提供双学位？双学位毕业后颁发辅修专业毕业证书还是双学士学位？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。如果服从专业调剂，并且投档到贵校，但贵校的招生名额已满，请问会被退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在知道高考成绩以后需要把成绩上报到复旦吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我已经咨询了当地的招生老师，他们也不太清楚，有的说自己选，有的说按裸分成绩排。，我是文科生，高考成绩在文科1000名左右，和你们学校正常录取学生比，肯定要差一些。我想学经济类的专业（因为我数学好），请问可以吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！提前批外语提档后是否忠实于考生所填专业，有无调剂之说？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，艺术特长生如何分配专业？如果是和其他考生按成绩排名，我们岂不是没有选择余地了？？。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我上复旦不太有把握，想作为第一志愿冲一下，请问对后五个平行志愿的录取是否有影响。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，复旦是按照政策性加分后的成绩录取的么？，，谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校美术有专科吗?有的话,是不是按该省的联考成绩?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+全省排名180，报考贵校可以吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好我想请问如果上的是贵校的历史系是否可以转专业呢？转专业有什么要求呀？谢谢老师~~
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+投档后，进行专业排序时，是按照加分后的成绩，还是高考原始分？（省优秀学生加分）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：提前批次录取的考生不能转专业，那么能不能修双学位或辅修其他专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报提前批A非定向，能提挡吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业方向:自然科学实验\电子信息\计算机\材料科学，，另:你们是否承诺绝不退档,并可选专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+想问下老师，提前批外语口试是何时进行？已经结束了吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考复旦大学的研究生吗？每年有多少外校学生考入复旦读研？二本生每年占多少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问贵校开设的第二学位都包括哪些课程？选修第二学位有何要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+经慎重考虑不想读预录取时填报的不能转专业的专业，可以换成另外的专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+志愿之间的级差是多少？通过自主招生的考生是否有专业录取优惠？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业都有哪些？能否提供优势专业在全国的排名情况？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂，退档吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+已到达自主选拔录取资格，但假如分数略低于复旦提档线，在自主招生批次录取时的志愿可以自己选择吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+特长生不占省招生计划名额，但是专业是在招生计划里面选吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+既然填了不服从调剂，还能被调剂录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+“不分来源省市的招生计划”该怎样理解？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问若选择不服从调剂，分数低于投档线，而有自主招生录取优惠且恰能借此被录取，录取时专业如何分配？，另外，校内加分是何意思？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问若选择不服从调剂，而有自主招生加分且符合条件，录取时专业如何分配？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！我是无锡籍考生，已签复旦艺术特长生协议，优惠政策是达一本线即取。请问艺术特长生在专业选择上是否就不以分数排序了，只能服从专业调剂？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果学校在招生中时按高于实际录取人数的比例调档，那不论考生怎样配合和服从，总是要有人被退档。而采用平行志愿的地方，一被退档就只能在补征志愿时才能有机会补填志愿，这样的结果往往凶多吉少了。问：1考生怎样避免被退档？2学校能有什么办法避免这样的退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我获得的复旦大学专业加分10分能在第二志愿中使用吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：你们公布的录取分数是实考分还是含加分？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校是否按投档分（含政策性加分）进行专业录取？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问作为中学校长直推生，高考分数达复旦录取线，在享受专业选择加分时，可加几分？中学校长直推生属于优秀推荐生吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦提前批次的专业有极差吗。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1、进校后，想调换专业怎么办？能不能修双学位？（即在读本专业同时，可以选择读本校其它专业且有无老师辅导？），2、有无应往届之分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是否平行志愿省份服从调剂不退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+投档数一般多于招生计划，政策性落选怎么办？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+推荐生是如何确定的
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业中有哪些对近视有限制呢？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问进校后，是否还有机会转专业？一般大几可以转？转专业的比例有多大？重新考试吗？此外，提前批是否招的都是国防生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+已签约的预录取生高考后可以填报其他学校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！在自主招生时有加分的如何填报志愿？不填提前批会影响第一志愿的录取吗？填了提前批，加分还能起作用吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否占用招生计划
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生名额不含在当地招生名额中，专业却是复旦在当地的招生专业，那末自主招生录取生专业分配是怎样实现的？也应该有相应的指标吧？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问专业录取时有级差吗？如果有级差分是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+参加过千分考，因面试没过关。高考有优惠政策吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:贵校8年制临床专业毕业后颁布的是学术学位还是专业学位?两种学位毕业后均须参加住院医培训吗?培训年限有区别吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,艺术特长生是怎么安排专业的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术特长生的专业安排，一般会满足报考自愿吗？每年对各省有招生办老师吗？怎么能及时了解报考情况？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!分数一样如何看小分排名?谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主生可能更早得到录取消息吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校录取时是否设置专业级差？如果有，专业级差会在何时何处确定并公布？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一志愿有6个专业位置，只有7个专业大类可供选填，因有二三个专业感觉不合适读，如果不填满，那么服从专业调剂是指在已填专业内调剂，还是在未填专业内调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问通过成人高考进入贵校接受成人高等教育的学生能统称为大学生吗谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦分配专业也认可加分吗？自主招生考生会占用计划吗？转专业困难吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业调剂要加试吗？调剂的专业范围可以自己选择吗？单科分数有什么要求吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我填写了专业可调，如果被120%投挡了，会被退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+志愿服从分配，请问此分报复旦有没有希望？谢谢老师。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+敢问服从调配的考生还会累计专业极差吗？，谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!同样的分数都是659,一个有加分(少数民族),另一个没有,复旦大学对这两个学生专业录取如何排名?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生是否占省计划名额
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生咨询电话？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您能否帮我分析一下，复旦大学的材料科学和电子信息科学相比，各有哪些优劣势？对于数学功底并不出众的人来说，报考什么专业比较合适？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有无研究生院意味着什么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+抱歉问一下，高校在此论坛做出的咨询解释是否具有法律效力??如承诺服从调剂不退档
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，我这次高考没考好我想问下通过成人高考进入贵校成教院后，我能算贵校正式的学生吗？谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问投档率是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问医学类专业能否转到其他类别的专业？，转专业的条件是……
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好:，我的裸分是607,有省招办已经确认了的中国象棋二级运动员加分,不知道贵校在进档时,是否认可我的加分.，谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一定要面试才能被录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业服从调配后，怎样的特殊情况才会被退档?，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提前批和本科一批的经济有什么区别吗？提前批是不是国防生，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：调档后多于计划数且服从调剂的考生是否会退档？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+618能上贵校什么专业而风险较小
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：1.一本平行志愿的A志愿有9个专业，是否有一定的优先顺序？2.专业排序时加分是否有效?3.当贵校调整服从专业调配的考生时，是否会询问考生本人的意愿？谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好：，请问入学后，若感觉专业不对口，能否再转专业？应如何转？容易吗？麻烦您了，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有机会上贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校该专业在哪个学院，其中哪个专业好，学院在哪里
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：1.一本平行志愿的A志愿有9个专业，是否有一定的优先顺序？2.专业排序时加分是否有效?3.当贵校调整服从专业调配的考生时，是否会询问考生本人的意愿？谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+614上复旦有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师曾说：“艺术特长生单独排队进行专业录取。”可也有老师说是“自主生与艺术特长生一起单独排队进行专业录取。”哪个说法可信？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+考649分可以报考贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校毕业生在出国读研方面有哪些优势？读研主要去向？是否有报送国内或国外高校的读研机会？本科生是否有机会作为交换生出国学习？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，贵校提前批的录取分数是不是很高？如果被提档，因为不服从调剂，没被贵校录取，是否影响本一批次的录取？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩626，省里排名1200左右，报贵校希望大吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考663分，全省排名358。请问报贵校经济类能取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有预科班吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好请问贵校提前批和一批相同专业有什么不同
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+661分报贵校录取的可能性是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师服从调剂后调剂专业的范围是在该省投放的专业范围内还是所有专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校那些系是全国排名靠前的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问进入贵校后，如果想学第二专业对成绩或其他方面有什么要求？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：提前批10~11号录取但是本科一批5~6日填报，能影响报本校一批志愿吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说全省200以内的考生会接到该校的电话，是否未接到电话的考生基本不会录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问平行志愿怎样确定提档线。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+l老师您好：请问贵校，最多可以报几个专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+前几天在复旦网站上看到师哥师姐们对下届新生必备物品的叮嘱，真是难得这么周到。看到学长们毕业前夕不忍离去，更加深了我对复旦校园生活的憧憬。我想，在复旦我们会收获生命中最美丽的时光。真的很感谢复旦！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问进入复旦后，如果想学第二专业对成绩或其他方面有什么要求？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，请问复旦大学在录取进档后选专业时是按照实考分排队还是按含加分的总分排队？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦的自主招生一定要求会考全拿A吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生部占用招生计划名额，请问自主招生试点生的录取专业，以统考成绩还是以自主招生的成绩为准，或是兼而有之
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的转专业的比率有多大
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是浙江省复旦大学自主招生预录取考生，在网上报名系统的“专业直取生”项目中，需要报名申请码才能打开，但我不知道报名申请码，请问应如何获得？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我已获得其他学校的自主招生资格，而根据估分，感觉敢报贵校，是否可以放弃自主招生资格而报考贵校呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，民考汉被贵校录取以后，专业是根据什么分配的，是不是只要所有的都好，就可以选任何一个专业。我真的非常需要详细的有关详细的内容，麻烦您可以说的具体点吗？谢谢，
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我已被贵校自主招生预录取，如录取专业不满意，以后能否转专业？如能转专业，是否需要考试及2交费
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估分560，可以报贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我是一名安徽考生，请问贵校材料科学专业招生线能比提档线高出多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问民考汉可以报考贵校的金融专业吗?谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+嗅觉不佳可报考医学院吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我是省三好学生，属于政策性加分的范围，同时我考取贵校的艺术特长生。我想咨询一下，贵校录取时是不是把省级三好学生分数加完后，再加特长生签约分数。，谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高出重本线120左右报考贵校有风险吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问估分在610左右报考贵校有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+据称各省的自主生和特长生为单独排队录取，另有扩招生，均不在招生计划内，这些考生的专业录取规则是怎样的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问专业在黑专业级差？645报考贵校的把握有多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问什么条件下会退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:提前批如果录取,可以修第二学位吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问专业调剂有没有可能调进跟医学有关的专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业调剂是在什么范围内进行的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+经济类包含的各个分类是怎样录取和分开学习的？是进入学校后选拔还是学几年后分开？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，，我是名考汉想报考贵校的金融专业，请问我需要念预科班吗？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在贵校是直接读经济学好呢？还是先报数学系再考经济类研究生好？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在皖招国防生有什么政策？国防生招生与普通招生的分数有多大的差别？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我是一名艺考生，想咨询一下在高考报考演练时，填报学校序号时，序号都是4位数，而在《现代教育》中贵校的序号却是5位数，请问这是什么原因？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下，省级优秀学生加分是只在学校录取的时候考虑，专业录取的时候看裸分，还是在学校录取和专业录取的时候都考虑？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+看了以前的问题回答，对于自主生专业调剂的问题，有的说是在本省计划范围内调剂，有的说是复旦所有专业内调剂，到底怎样的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批小语种何时报考
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问近几年大约平均分进入贵校的同学基本上进入什么专业？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的招生章程提到加分录取问题，请问在专业录取时，是否按提档分数排名？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好我想问下通过正规成人高考被贵校录取的学生也是算大学生的对吗谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+不知报什么专业好，我想报一个毕业后好就业的专业，请老师解答一下。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:2010大一新生经济学院招多少人?是否到大二才分专业,是不是大一的成绩为标准定专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我孩子已获复旦自主选拔录取绑定专业资格，现有以下问题咨询：，1.填报专业时应填哪一批次，是否提前批？，2.填报专业时是否只能把绑定专业填在第一位置，其余位置还可不可以填其他学校或专业，或者是其余位置上填了也是白填，干脆空着？，3.是否要求填服从调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校成人高等教育正规吗谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是否允许巳被预录考生放弃预录资格，另填他校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是在本省招生计划内调剂，还是在学校所有专业中进行调剂。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好！贵校的热门专业有哪些？就业如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是自主招生试点生未預录取现在能报考零志愿吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+为什么热线电话里说可以？学校接待日里老师也说可以
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+获试点生的直推生可以报清华北大么？~~未参加专业直取ABC，，如果可以，清华北大落选后还享受试点生政策么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：艺术特长生单独排队进行专业录取是分省进行吧？按各省公布的招生计划填专业志愿就可以了吧？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+假如有一个考生是你校已经确定的自主生，而且考分很高，达到了不是自主生的投档分数线，那么这个考生的录取是算在自主生计划内，还是算在正常招生计划内？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想咨询一下我校艺术生的专业录取原则，协议书上只说明可降到一本线录取，但没说明专业如何录取，有没有可遵循的原则？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦是否采取下述办法？，在高考录取时，各省级招办将根据对外公布的我校招生计划总数，划定除自主招生对象（包括艺术特长生）之外的普通考生的投档线并进行普通考生投档，自主招生对象将另行投档。投档进校的自主招生对象（包括艺术特长生）由我校在对外公布的招生计划总数之外，参照公布计划安排情况补充安排足额的计划数后，再将普通考生和自主招生对象（包括艺术特长生）合并进行统一录取。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否允许转专业，如果允许，条件是是什么。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有哪些提前批的专业以和报名时间、方法,是否与普通报考一样
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，若有甲、乙两考生，甲考生第一志愿未录取、第二志愿降分后分数与乙考生分数一样，且第二志愿与乙考生第一志愿一样，只有一个名额时，优先录取谁？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取按实分还是提档分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生章程规定：“a．省级高招办按我校在当地的招生计划数和投档比例将第一志愿报考我校的生源从高分到低分（含省级加分）进行投档。六、加分政策：我校原则上认可各省级教委（或招办）有关加分投档的政策。”，我的问题是：在专业录取时，认可政策加分吗（或者说政策加分还有效吗）？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：补充一个问题，复旦在北京的专业录取级差是怎样的？谢谢回复。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！我的孩子已经考取了复旦大学的艺术特长生资格，可以根据所在省的专业计划报专业志愿。我想问的是：艺术特长生的志愿如何录取？是与所在省的考生一起按成绩录取吗？如所报志愿不能满足将如何调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我有两个问题想咨询：一是从贵校的网站上了解到入学时的绑定专业以后好像不能转专业，贵校哪些专业是绑定专业？二是甲乙两人高考分数相同，并且超过了复旦在当地最低录取线，他们报考同一专业，甲通过了该校的自主招生考试，乙没有，在录取时甲比乙占有哪些优势？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在体检正常，服从调剂。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取按实分还是提档分，有级差？调剂是否会到医学，提档退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进入最低录取分数线的考生，未进入专业志愿，服从调剂。所有专业是指贵校在考生所在省的招生专业，还是贵校的所有专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好:平行志愿的第二或第三顺序和你招生章程上的非第一志愿意思一样吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦是按大类填报专业志愿，几乎包括了本省所有招生计划，这样一来专业志愿只有顺序差异，服从调剂就是按顺序差异进行调剂吧？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+这对录取有影响吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如上
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！第一志愿填一所院校，其专业志愿可填几个专业，按大类填报专业志愿几乎包括了所有招生计划，这样一来专业志愿只有顺序差异，服从调剂就是按顺序差异进行调剂吧？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我想问一下,复旦大一新生是不是有新生选拔实验班(试验班之类的班如象上财的金融实验班)?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！考生如果已进入贵校的投档线了，因专业填报不妥，但填了服从分配，这种情况会被退档吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好,我是浙自主招生的学生家长,我就是想大一新生要不要配电脑?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生和自主招生人数占用贵校分配给当地的招生计划指标吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好!招生老师我的女儿下肢一条腿有点短!生活不受任何影响!学习非常好想报贵校!请问有限制吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问贵校按专业大类招收的学生，以后分具体专业时，对不同省份招收的学生是否与高考招生时一样，各分流专业对不同省份的学生分别有名额限制？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问贵校按专业大类招收的学生，一、二年后向具体专业分流时，能否满足所有学生的具体专业志愿要求，如不能，哪以什么为标准才具有选择具体专业的优先权？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！我想问一下复旦在北京地区招生办公室的联系方式。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！如果报考贵校的研究生，医学部有哪些专业？本科是临床专业，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:查询栏中的录取查询环节几号开放
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+645能报吗？有多大希望？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有招生协议的考生怎样填报志愿
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问假如我学新闻，想双修经济会不会很困难？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业属于全国重点专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问一下贵校是不是已经不收专升本了？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问复旦的提前批不是自主招生的考生可否填报？是否有其他要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好,请问:，1:贵校各个专业大一学生所学基础课程是否的都一样?，2:成功转专业后是否要与大一新生一起学习(即比原来多读一年)?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+预录取是否占招生名额，未参加预录取能否报考贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+该校法医系招生有什么要求，女生可以吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有“专业级差3，2，1，0”的说法吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我弟弟参加了贵校的自主招生考试，而且也录取了，你们说要达到协议分数，是多少呢？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问在复旦选专业时是按实考分还是按档分排名？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+考分为638报考贵校是否可录用？有哪些好专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+通过面试的学生占得比例大概是多少？他们占招生名额的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师。您好！提前本科批我们招考办的老师说是面试过的同学报，复旦学校又有自主招生批，是现在还可以报名，还是时间已经过了。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好,请问贵校安排专业所看成绩是否有包含加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！学校新生宿舍内有单独卫生间、空调、电脑桌、网络接口吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校转专业的成功比例很高，我想咨询一下转专业是需要考试吗？转专业失败就是因为考试没有通过是吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好填报提前批有什么具体要求没
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦设的有专科？但是我要怎么样才能报考你们的专科，设的有哪些专业，被录取后怎样才能专升本？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复读生与应届生在招生政策上一样吗？大学区间可否跳级？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我说了计算机科学与工程系和计算机与信息技术系网站上写的都一样，看了还是看不懂，不能讲解下吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果已经有绑定协议，但高考分已超复旦分数线，能否放弃优惠政策，按高考成绩重填志愿？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+计算机科学与工程系和计算机与信息技术系，网站上的介绍都一样，为什么还要分2个
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+介绍下软件学院
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+计算机科学与工程系与计算机与信息技术系，有什么区别
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+及时的回复收到，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对不起。我原意是想问贵校还有没有美术考试，作为选学生的条件之一？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投入的档案会退档吗？身体条件合格，服从调剂，我听说有的学校有不退档申明的。我怕投入后又被退回。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+比重本高80多分，报贵校，风险是不是有些大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校可以转专业吗？有何限制几年级能转？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，“仅用于已有预录取专业的我校自主选拔考生填报高考专业志愿”中的“预录取”，是指高考前的“自主招生”还是高考后的“面试预录取”
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校投档线一般是多少？什么时候公布?，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+填了服从所有调配后被退档也是有可能的是吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问你校的招生老师会来桂林吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校给学生排名录取及卡专业时，是按照高考实考分还是加分后的总分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+志愿用填满吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+转换专业有特别的要求吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对于贵校，省优干的加分与地区加分能否重加
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！高考成绩645能否报考复旦？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！取得面试资格的考生不能参加面试是否会影响普通录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问提档后在分配专业时是否连照顾分，还是以实考分数？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问转专业是不是特别难？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校在录取时能否适当调整专业，比如增加经济类的专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校寄过来的自主招生志愿填报表上的“考生号”一栏填什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+651分可能被录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生试点生（就是过重点线20分即录取）不占招生计划的名额，那专业会如何分配？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+招生老师您好，请问贵校录取是志愿优先还是分数优先。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，请问你校在确定考生的专业时，是否考虑照顾分（包括竞赛加分和少数民族加分）？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+627能上你们学校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问重读生可以参加复旦的自主招生考试吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是自主招生的考生，分数已超过与贵校签订的合同线，不知他这类的考生是否参加提前批次录取？如何填写志愿？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业级差吗？如有，是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+380A+A+物化，你是贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问655报贵校有问题吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在录取专业时竞赛加分算吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问你校面试预录取,面试是面试哪些方面?口才,情商,领导能力?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+看到很多问题的答复是请看公告，能具体说一下看什么公告吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+招生计划中名额数包含已录取的保送生吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！色盲考生能否报考核技术专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果被提档且服从调剂被退档的危险性高么?谢谢。录取专业是考虑优惠加分吗？辛苦了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问报考复旦大学，档一旦投进去有被退档的危险么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+麻烦问一声，我在省20多能否上一个好专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么是试点生
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦在专业录取时是以实际考分为准还是以含优惠加分的总分为准?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦专业级差为多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有专业对单科成绩有所限制
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+可以进吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+RT
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+色盲考生能报贵校计算机一类的专业吗？是全部都不能报还是部分可以？希望回答一下，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+除了那100个预录取的人还有多少加分的人啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学是否可以修双学位
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+不到提档线的自招生如何调剂专业呢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!，入学后可否转专业?若行,则在什么时候能转?，谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+录取时，我们所填的那个“服从调剂”是不是在我们所填的专业全部选完都不会进后再进行调剂的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+假如我第一志愿填复旦第二志愿填上海交大，且第一志愿不服从调剂，如果我进了复旦投档线，但未被所选专业录取，我还有机会上交大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能上复旦大学吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问投档比例是多少？，若填志愿服从被推档可能性大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问通过复旦自主招生的考生，在提前批次填报复旦，还是在第一批次填报复旦？，谢谢!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校优势科目是？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，，贵校每年有多少人申请转专业转到每个专业的难度有啥差异
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，若贵校在全国预录取的某一类特长生中，无人达到各自省份的重点线，请问贵校是否会考虑在此类特长生中，进行再降分录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的“自主选拔改革试验录取”和“自主选拔录取”是一样的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+既然复旦预录取的不用填报志愿，怎么又是“如果已经被预录取，那么专业已经确定了，也就不需要填报志愿，在填报志愿时，只需要输入复旦大学的代码即可。”那就是说还是要填报志愿的？请指教！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+绑定专业填报时是否需要服从专业调剂
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦里学生能转专业么?一般有什么要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问本博连读取得的博士学位与考研取得的博士学位是否有区别？转过专业的学生在各方面是否会相对弱势？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考第一志愿填报复旦大学，专业服从。请问在贵校招生网上何时会有录取结果公布？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的专业如何录取,分数如何?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有专业级差吗谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+jinnian638,shuxuexikefouluqu;er628kefouruxiao
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我报了你校,但没填服从志愿调剂.，我又够你校的投挡线,但没达到我填的专业.这样我的档安何时退,我还有机会检索下一个志愿吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+不会有问题的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你校章程上:原则上认可各省教委有关加分投档的政策,请问:你校在正式录取时,是按高考实际分数录取还是按总分(总分=高考实际分+各省政策性加分)录取?请赐教,以便我好填报你校.
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问往届生能爆国防生吗？能的话，大约多少能报上贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+电话邮箱皆可
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+未申报自主选拔的考生是否能在提前批报考贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一定可以录取是不？那样我就不用看其他志愿了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+用报成绩吗？这两天需要做什么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂，这分数报贵校有望吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在复旦上学可以转专业么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问哪些专业不收复读生?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校认可复读生参加自主招生么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名１８３，能否进复旦强势专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。，贵校在什么情况下会退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我想问下预录取的怎么知道已经被正式录取了啊。。。。急~
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+实际录取人数包括计划数，自主招生人数，保送生等所有录取人数，这“等”字又包含那些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有国防生？，有大概取多少分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是广东考生。请问贵校对于申请转专业的学生有什么成绩排名的限制？转的专业是否可任意选？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校预录取具体是什么过程？另外预录取的面试大体有哪些环节
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请解释实际录取人数有那些方面构成？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问第二专业和第二学士学位有何区别？要求有何不同？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问在贵校就读期间，有没有很多出国交流的机会？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果没有发挥好，分数不够，又非常想上贵校，有机会吗
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问第二专业是什么意思，是指可以学习两个专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校认为志愿填报时是以学校为主还是专业优先呢？是否该担心调剂到自己不喜欢的专业或不适合自己的专业？贵校有关进校转专业和选修第二专业的相关要求和步骤以及筛选方式有哪些？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+新闻类的就业情况怎样
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校如何进行冷热门专业间的调剂？，高考成绩较好的学生是否在专业服从上具有优先选择的有利地位？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+上大学后，贵校是否允许转专业？允许的话有什么要求？是根据高考成绩还是大一是的成绩和表现？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，专业调换有什么条件吗？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能报考贵校在我省招生计划以外的专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校招生章程上写“原则上认可各省级教委（或招办）有关加分投档的政策”，那么选专业时是认可加分还是按高考实际分数进行排序？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!我没有参加贵校的艺术特长生考试.，我只参加了本省的艺术类统考.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！我长笛校外音乐考级已达九级水平，请问报考贵校有何优惠政策（不报考音乐专业），谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问被贵校录取后，户口是否一定要迂往上海。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦预录取的是不是高考完了等通知书就好了，志愿要不要填啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+麻烦了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在填志愿时批次中，在第一批提前批填贵校和在第一批中填有什么的区别？，填过第一批提前批后，还可不可以在填第一批？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问不服从走都会被退档吗？会对录取有什么其它的影响吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有开设实验班？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+http://www.ao.fudan.edu.cn/fudan/“复旦大学网上报名系统”是用来做什么的？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校如何录取艺术生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果注册“复旦大学网上报名系统”后，填报第一志愿未被入取，考生是否只能等高考第二志愿了？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+怎么分流？按高考成绩吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校的经济系是学习什么课程的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校提前批是否招收往届学生，有无特殊要求？提前批分数线与一本分数线是否相同？若提前提被退档，对一批录取是否有影响？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,预录取名单是否已经公布完全?，我有一位杭二中同学,自己说已经被贵校预录取.但没有在教育部阳光高考网上看到自己的名字.非常着急.请问原因.谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有自荐系统，倘若有在专业调剂时，是否会将其作为一定的依据？敬谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在招生章程上提到：在投档录取时认可各省加分，老师请问：在专业分配时是否认加分？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+预录取名单有没有在阳光考试网上公布?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校生物专业有什么特色，优势学科，重点发展方向，出国率等情况如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：“博雅杯”获奖者需要参加“复旦水平测试”笔试吗？还是他们象“直推生”那样可以直接进入面试？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是自主招生的考生。特殊类招生（含自主招生）专业只能填一个，若专业未被录取，那么就要被调剂吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:，您好!面试预录取需要高考达到多少分才能参加?，若被确定为预录取的考生是不是只要填报就会被录取了?面试考哪些方面?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，已取得自主招生资格的，专业分流时高考分数还有用吗？是不是完全按照入贵校后的学习成绩进行？另外，我想学习金融专业，金融专业在我省的招生计划是否也包含自主招生的额度在内，比方说，贵校给我省2个金融专业的计划，是不是我们还要和其他非自主招生的考生共同去竞争这2个计划名额？谢谢。，还有一个问题，我是外地学生，同学们都在考外语口语证，如果报考贵校，是否也需要拿到口语证？或那些专业需要提交口语证？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招2本生吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我有个困惑的问题希望老师能帮我解决一下,谢谢.，如果我第一志愿第一专业填了你校某专业,但被刷下来了,同时我又填了另一专业,但有人第一志愿第一专业就填了该专业,但我的分数比较高,这种情况下你小会录取谁?谢谢.
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+插班生是否继续招收
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问山东招生老师的联系电话，，另，我们学校是否可以转专业，跨系可以吗？是否可以选修或辅修，发国家承认的证书吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校的最低录取分数线是怎样定的？？，是先定在某分数区间里选人？还是选了人再定分数区间？？，，2.如贵校在我市招生计划20人，按比例120%则有24人进档？？再在24人中从高低分选20人？？那第24人是进档分线？被选的第20人是最低录取分数线？那其余4人是否退档？？，，3.如贵校在我市不能完成招生计划（人数不够），会怎样？？招生计划（人数够了）会再考虑多招几人吗？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生填报志愿中本科特殊批用不用填，如果填了会怎样
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自主招生时是否考虑各省的优惠加分政策
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问：如果被贵校提档,且服从专业调剂,有退档危险吗?(我们是平行自愿省份)
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问面试预录取有何作用？，在同分的情况下，参加面试预录取何不参加面试预录取有何区别？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问学校选修双学位中，有没有金融专业可供选择？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说贵校办学层次有专科高职有吗？如果有有什么政策要求吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对双学位有什么限制？，转专业时的依据·条件是什么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：进档后同意专业调剂还退档吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦宿舍条件如何教室宿舍有没有空调能上网吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，你院有和光伏产业相关的专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果考生被贵校录取，进校学习后，对所学专业不喜欢，有没有可能调换专业？谢谢答复！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!复旦录专业的排队是按实考分还是含政策加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，复旦录取时有专业级差吗？如果有，是多少？另外，专业调剂是在该省招生计划所列专业范围内调剂还是在贵校全部招生专业范围内调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主生专业确定是否会这样，就是先录取，然后根据本一批次考生个专业的分数线在自主生填报该志愿的考生中录取达该分数线的？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+被录取到贵校，如果对专业不喜欢如何转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+假如我上了您校录取线,但某专业未能录取上,服从专业调到收费很高的某专业,而我家的经济条件不是很好,难支付高昂的学费,有什么办法没有?谢谢老师!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好，如果投档到了贵校,又选择了服从专业调剂,可以保证不退档吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在平行志愿一比一点零五的比例下，是不是进档不退。在没有什么身体不合条件的情况下.服从调剂
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：在复旦招生网中公布的“重点学科”中，哪些是国家重点一级学科？哪些是国家重点二级学科？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！若填服从调剂，是在考生所在省专业计划内调剂，还是在全校所有专业内调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的那些专业是王牌专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：，您好！，我是复旦预录取学生（已确定专业），请问志愿还要不要填。什么时候发正式录取通知。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我在有关资料中看到，贵校调档线一般是在120%左右，如果我就是这高出的20%的考生，会影响我被其他院校录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师进校后，工科和医学专业之间还有没有可能互相转专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校医学类与会计类专业哪个录取分数比较高，另外贵校其他比较好的专业或者比较有前景的专业有哪些?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生考生的扩招计划数正常计划数有什么区别？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好,如被贵校提档,只要服从志愿调剂可保证不退档吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：四川籍考生一般要高出重本多少分填本校能被录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问专业级差是怎么一回事？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校博物馆系录取分数一般为过投档分多少分?该系毕业就业率如何?谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问进入贵校后，学生转专业的机会有没有？成功率是多少？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，如果我超重本线六十分，能否被贵校医学专业录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+零表都有哪些
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我在“复旦水平测试”中750以上，但未签合同，有没奖学金资格？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提档线是不是最低控制线？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校报名时是按系还是按专业？感激不尽
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问，如果已经进档并服从专业调剂，有无退档风险？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：少数民族只有医科专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的女儿很想读你校,请问,你校什么专业比较适合女性?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取时考虑教育部规定的加分吗？（比如全国联赛一等），，或者高考加分只是在提档时承认？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认各省市加分政策？投档时按加分后的成绩可以么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分640，加分20，总660。能否报考贵校，专业录取按实考分，退档的可能性大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+插班生
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+感谢老师的回答！，艺术特长生专业是按高考成绩排的，那么这个“按高考成绩排”是各省内的艺术特长生排，还是全国的一起排？，如果是全国的一起排，各地高考题不同，生源质量不同，又如何保证客观公正性？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否与ACCA有合作？估分在645以上，被贵校录取的可能性多大？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校实行大类招生，以后分具体专业时，对不同省份招收的学生是否与高考招生时一样，各专业有名额限制？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好我估分580左右文科有可能被贵校录取吗？，，如果录取一般会是什么专业比较稳妥？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生的录取分数同其他第一批次的录取分数线相比，哪个更高？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进入复旦大学学习后，能否转换专业？如果可以，有什么条件？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生是否单独成班？入学后是否即入伍？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，复旦大学艺术特长生过提档线后，入学后的专业类别如何分配？，录取专业时会不会和学生商量？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+填报平行志愿时，为何自主招生的学校一栏中写有复旦大学除外，复旦大学的自主生应怎样报志愿？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，投档时如果只认定一个专业类别，不服从调剂，那学校提档是按学校录取线还是专业分数线？我怕万一退档很麻烦。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若未上复旦在本省的投档线，自主生的专业是在本省有招生计划的专业内调剂？还是在全校所有本科招生专业范围调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿的录取规则。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问你们招收第二志愿吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，专业服从调剂，考生不喜欢医学，能调到医学专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：对于省招办给予的政策性降分，贵校是否认可啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问你们学校哪些专业比较好？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是一个即将上大学的高三学生，我想你们也上过大学，请问你们能不能给我一些关于填报志愿的经验?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+获得自主招生资格的学生高考成绩高出重点线20予以录取,请问含不含优惠加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，能否介绍一下贵校为什么每年安排在陕西的招生计划和招生专业都特别少，好像不到贵校总招生计划的1%啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主预录考生还可否报考港校？如港大、港中大等
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若被贵校提档，又服从分配，是否一定能录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问你校在专业录取时按“专业级差”方式，是指第一专业志愿未被录取减一定的分数后按第二专业志愿和其它考生的第一专业志愿一起排队呢，还是补其它考生的第一专业志愿未录满留下的空缺名额。谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+学生成绩达到学校录取分数线就一定能录取吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好：贵校在分专业时是按实际分数还是按投档分数（含政策性加分）录取？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1、基地班如何招生，只在有计划的地区招生吗？，2、不愿意学医，专业服从调剂，能调剂到医学专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，考分高的考生总是想有个好专业,可是自主招生考生,如果达不到所要专业的分数,就只能服从分配了,调剂专业时也不会与考生打招呼,是这样吧,那么在填报志愿前能向咨询老师咨询什么?专业要求的分数可以吗?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问若考生报的志愿都未能如愿，填报了服从，录取其他专业时能与考生商量一下吗，还是学校就定了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好！实行平行志愿省份，自主招生在提前批录取。一批普通高考生与提前批自主招生考生，在专业录取时是依据分数共同排队录取，还是分普通高考生与自主招生考生两类分别录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：复旦大学提前录取的计划和专业有那些？都是国防生吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校在小语种招生中是必须由指定的生源学校推荐，还是重点高中也能推荐？自荐行吗？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我是09自主招生的考生，广西招生考试院网上给的《自主招生填志愿草表》中没有“是否服从调剂”栏，而其它批次都有，复旦自主招生专业是要看高考分的，我不知道我的分数是否达到所报专业要求，如果达不到是不是一定得服从学校调剂，如果不想去不喜欢的专业，怎么办？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我在体检时，肝功检查都正常，就是谷丙转氨酶有点高50多，请问报考你校专业有限制吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问什么是线差、批次线？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有以下问题烦请老师答复：1）专业录取时，承认政策性加分吗？2）调剂专业时，是在本省计划内调剂，还是有可能被调剂到本省计划没有的专业。3）按大类招生的专业分流具体规定是什么？3）如果服从调剂，是否可保证进档不退。4）自主生的专业录取是如何规定的？尤其是未上提档线的自主生，因为计划是增补，其专业如何确定？是否可能被录取到本省计划没有的专业去。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+4、进一步开放转专业的政策，所有学生在入学后第二学期和第四学期有两次机会可以提出申请转专业，全校各专业共提供600余名（约20%）的转专业名额，请问：（约20%）的转专业名额，是占09级入学人数的20%吗？医学生可以转专业吗？医学专业和其它专业头2年的基础课有否不同？转专业是否因基础课不同较困难？，再问：医学按大类招生，自已在什么时候选临床/预防/法医专业？三者选择条件？医学本科直研比例是多少？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！自主招生的考生如没有普通高考考生分数高，在如提档线后，选专业时如何排序？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+希望大吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考531，愿意调剂，请问录取概率大么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+出国的人数与毕业生人数的比例是多少？还有，复旦和哪些国外名校有交换生计划？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问一下每年可以转专业的学生比例
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问一下转专业的人数一般是百分之几
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提档后能否保证不退档?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我很喜欢贵校,但对贵校在我省招生的专业不是很满意,请问入校后是否可以转入其它专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+要报国防生,对学生的身体素质有什么要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否具体介绍一下专业级差?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问成绩排在前42名报考复旦是否有希望?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校服从调剂，录取时会调到省里没有计划招生的院系吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+前线老师估计贵校分是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对两门选修科目有何要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，在贵校读书是否可以同时在上海财经大学选修第二学位
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦转专业的成功比例大概多少?容易吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，“服从调剂”具体是一个怎样的录取方式？比如我所填的志愿没被录取且服从调剂，学校是不是随机帮我选择一个专业？详细回答，感激不尽
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,贵校在专业志愿投档时,是按实考分投档,还是按加分后的投档
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校是否接受第一志愿报清华北大，第二志愿报复旦的考生？若接受的话，级差是多少？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如果第二平行志愿报考贵校考古等冷门专业是否可被优先考虑?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+省优秀学生加分，排专业时是否去掉？，奥赛加分，排专业时是否去掉？，复旦招生网查询到的历年成绩是原始分还是加分后的分数？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+670报考贵校医学院可以吗，能选专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+学生洗澡是在公共大澡堂吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+非常感谢。另外入学后能否转专业？有何条件？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！从贵校招生计划中，有许多专业都是色盲色弱不录取的，如果自己在高考前体检中没有发现色盲色弱这个问题。但是到了学校却发现有色盲或者色弱，不适合专业的要求，是被退学呢？还是转到其它专业呢？如果转专业是学校指定转的专业还是又自己选择呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+《简章》四、录取规则和程序"......2、依据普通高等学校招生全国统一考试成绩的录取程序",是否指按高考实分进行专业选择?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分是否作为选择专业排序分值
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问615分报贵校有把握吗??那如果报不热门的专业呢????请问贵校任何专业大一下学期如果成绩优秀都可以转专业吗????????转专业有限制吗??????
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生章程中的"但对于具备体育或艺术特长的考生，其享受的录取优惠政策须经我校审核认可"是什么意思?是否二级运动员还要通过贵校考试才能享受加分政策?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问信息与计算专业是关于那方面的？计算机吗？这个专业如何？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想请问一下填报志愿时假如学校相同，专业不同，对录取情况是否会有影响？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进入贵校后还可以转专业？麻烦吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业级差?，入学后是否能转专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我有几个问题想请教。1：贵校录取专业时，若某考生加分后的分数与无加分的分数相同，是否优先考虑无加分的或者都要？，2：贵校对应，往届生是否一视同仁？3：一般高出省重点线多少分报贵校希望较大？4：贵校是否录取第二志愿的考生？希望老师能就上述问题作一一的，详细的回答。感激不尽，老师辛苦了，再次谢谢。。。。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在复旦转专业需要符合什么条件？具体转到什么专业是否由学分和学生意愿决定？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+广西606(实考分),报考贵校金融专业有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果参考志愿的第一栏填了贵校，在我未被所填第一志愿录取的情况下，有了高分保护并且达到贵校的抛档分而得以抛档，之后录取过程中是否与其余档案一视同仁（即那些第一志愿填报了贵校的）按照分数高低来录取？，会不会因为降贵校填在参考志愿而受到影响？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦是我从小至今的梦想，高考得612分，是否有望报考贵校。急待！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的录取查询最快要在什么时间？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。我是安徽考生。平行志愿填报贵校ABCD不同位置是否对专业录取有影响？贵校优势专业是什么？一般高学校录取线多少可以报优势专业？专业级差是多少？提档率呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考希望有多大??
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+江苏考生６A的１０分政策性奖励分在专业录取中有效吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果607＋10的A考生与614的B考生同时报贵校的同一专业贵校会选择谁呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的重点专业有那些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若某考生加分后与一无加分考生相同,是否优先考虑无加分的
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+理科642(省排名36,超一本线141分)报贵校金融专业有希望吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否采取不退档，不退档是不是过了提档线就录取。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有自考招生吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，我是一名有声乐特长的艺术特长生,但未能与贵校签约.我在北大声乐测试中获一等奖,清华二等优秀.请问在录取时有无优惠政策.比如可否在上提档线后优先录取.，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+转专业容易吗?比例多少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+外省的也可以作为插班生吗？，作为插班生需要什么？需要做什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问是不是高考成绩不好就一定不能上复旦
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取时是以实际分数还是投档分数？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+理科考生在复旦有哪些专业比较适合?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校带加分选专业,是民族,老少边穷,竞赛都算?还是只认竞赛。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的金融专业学习哪个层次的数学教材（A/B/C/D）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校自主招生有何优惠?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考了659，排名444（置之死地而后生），请问可以被录取吗？我愿意服从专业调配
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果我第一志愿报考你们学校，我报考的专业没有被录取，但分数超过贵校投档线分数，假如我志愿不服从，是否退档到第二志愿？？请问贵校是不是１：１招生？？？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问一下：那个高分2视1是怎么回事？是把第2志愿视为第一志愿吧。。。这第2志愿和原先的第一志愿是否有区别？？？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1贵校是志愿优先还是分数优先？，2有无志愿级差？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，1.被其他学校保送录取的高考考生（省排名前20）还能否报考复旦大学？，2.报考复旦大学的考生在选专业时是看原始分还是加了分后的总分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学对国防生的体检有没有特殊要求?视力要求在多少以上?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时，是否算加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时，是否算加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+这样，谢谢老师了。还是想问下这个成绩希望多大？选专业方面自由度如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的第一自愿的极分差，怎样计算？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师自主招生的同学是填提前批志愿,还是第一批?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是户口所在地加分。谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认照顾分，611＋20上贵校是否有希望？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好。请问贵校专业选择时是否看加分。，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的第一自愿的积分差，怎样计算？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考分668，请问可报考哪些专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+录取，高出一本线多少可报贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问已经是贵校自主招生的同学在填第一批志愿（含A.B.C三所平行志愿)时是不是只需在A院校填复旦大学一所学校，而B.C出空白就行了？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校的优势专业有那些？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取后专业选择是按实考分数算，还是加分以后算？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问文科生报考复旦大学有什么较好的专业选择吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何确定某一考生是否为自主生？，老师可以给一个网址链接吗？，此网址可以具体到名单吗？，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校国际金融和国际经贸哪个专业就业率高？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何联系贵校招生老师？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+招进贵校后,是否有更换专业的机会?条件如何是否很难更换?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否存在级差..
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的高考分数是625，全省排名530左右，报贵校是否有希望，谢谢。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于志愿服从分配和体检过关的考生是否承诺进档不退？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+633能上吗？有级差吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否存在专业级差
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说贵校在大一结束时再选专业,是否真实?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+金融系是经济学院的一部分吗？金融与会计具体课程有哪些，又有什么区别？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是不是高分保护政策内2志愿视为1志愿的学校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师若没有达到复旦大学最低录取分数线,但通过贵校自主招生的考生在专业调剂时,具体是怎样调剂的?是否直接从高分到低分录取,还是要参考自己所填专业录取?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+很多学校微电子专业学费高于普通专业，而贵校的微电子专业为何还是和普通的一样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是665,全省86名,报考贵校风险大吗?，贵校录取本科生是否面试
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+其中20分为学科竞赛加分,专业录取时是否在内?专业有多大选择度?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+愿意服从调剂
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+关于转专业、第二学位、分数级差咨询？1、录取后是否可以转专业，若可以有何条件？2、哪些专业可以作为第二学位，学习第二学位有哪些条件？3、专业间的分数级差是多少？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+平行志愿提档又服从调剂，会被退档吗?，620-630有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校高职专业有哪些?分数不够能否上本科.谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问若总分减去专业级差后参与第二专业的录取,排序时是与第一专业志愿的同学一起排名吗?如果一起排序后分数高于第一专业志愿的同学,先录取第二专业志愿的高分同学,还是录取第一专业志愿的?谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问该校录取时考虑加分（省级三好学生），那么分专业时考虑吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+举个例子，挖井，去实施工程的是劳动力，写过程的是策划，而最初为了饮水方便，想到挖井的是什么职业，这种在大学学什么专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的重点学科是哪些？超过重点线多少报金融专业有被录取的可能？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,在服从专业调剂的情况下,所有考生都进档不退吗?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校微电子专业怎样?一般超过一本线多少分/
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好：省级优秀学生的政策性加分，贵校在提档和专业录取时都认可吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:获得自主招生资格的考生不占所在省的招生计划,但必须在所在省的招生计划专业内选择填报志愿,如果获得自主招生资格的考生的高考成绩低于不具备自主招生资格考生的高考成绩,享受自主招生政策的考生能进入他所选专业吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的第二学位学制几年?有无特殊规定?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下宗教学和就业情况
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师什么叫零志愿?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问已经通过复旦大学自主招生的考生,填报志愿时,是否只要填复旦大学,其他大学不用填?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+参加贵校自主考试获提档不退优惠的考生,在录取时比其他考生有何优惠条件?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想知道复旦大学的招生计划，所招的专业和进入的条件
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校若考生获得钢琴十级证书以及小音乐家称号能否在录取中占优势?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+需具备那些条件
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是专业级差
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+政审和体检都合格，且分数超过提档线，服从调剂提档了是否一定能录取？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问有无2+2、实验班、特殊奖励计划、实习机会之类的设立？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报的全是非医学的专业是否可能被调剂到医学专业，我估分６５０，能在复旦有什么样的排名？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的投档比例是多少,进档后服从调剂且身体正常是否一定能录取?在录取分配专业时是否考虑加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学的专业级差是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若服从调剂将如何调剂呢专业级差怎样
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+前方老师的联系方式除固定电话可以知道手机联系方式吗谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说贵校国防生毕业后学生都很惨真的吗一般都分配到什么地方
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有新生奖学金吗？具体情况是怎样的？，保送生和非保送生在专业分配时有区别没有？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+已看到老师答复，非常感谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,如果被你校录取,可以修外校的第二学位吗?比如上外之类的?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，贵校专业级差是2-1-1-0-0，请您具体解释一下
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+填的是自主招生志愿
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，请问自主招生通过后填报志愿未全服从专业调剂(如个别专业除外)的,如其他专业已满(只剩此个别专业),是否在退档前征求考生意见?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业极差是多少？入校后是否可转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说贵校不承认各种加分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，自主招生也是在提前志愿一批的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提档比例是多少，如果服从调剂提档后是否退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一直搞不懂自主招生的考生怎么录取,您能不能给我讲一讲?不占计划机动名额怎么回事?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否会对某些专业提出选修科目要求?得到A+是否会有加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问:在全国数学联赛获全国三等奖能否加分?若能,加多少分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我服从专业调配被录取，转专业的几率有多大。，要哪些条件呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+以520的重点线计算,大概多少分能进贵校?，550估分的考生有把握被贵校录取吗?，谢谢!感激不尽!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦认可加分吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学有哪几个专业是国家重点(驰名)专业,她们的就业前景如何?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+无
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+640到650有希望上贵学校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校级差怎么设置的？哪些专业比较热门（分经常很高），哪些相对冷一些？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校二志愿平行志愿规定中省级高招办可按第二志愿考生成绩不低于我校已投档平均分、并且人数不超过招生计划剩余数的100%进行投档；什么意思谢谢什么是我校已投档平均分谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+635分报贵校医科可以吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招二志愿吗？如果招，有何规定？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问已经成为贵校自主招生的学生，如果没有进入贵校的录取控制分数线，是否可以自己再选专业？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生大概有几人?他们的专业怎么调配?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果两个考生同样分数，但是其中一个是加分（竞赛）后的分数，那请问贵校会先录取哪个呢？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！麻烦您介绍一下学校各校区的情况？是否研究生都在校本部？比如每个校区面积多大？每个校区都有哪些专业？可能比较繁琐，如果学校网站上有这些内容，给我个链接就行，我自己去找找，谢谢老师了！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在专业的录取上，是否计入优惠分？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是否愿意录取第二志愿考生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何淘汰多出20%的提档考生？按100：120提档后，学院是按什么规则淘汰多出提档20％。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好!请问单招填过志愿的考生,还要填志愿吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取是，第一专业，第二专业，第三专业等之间的分数级差是多少？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+打印省招办公示的体育加分名单（包含：考生号、姓名、性别、项目、测试成绩、加分）寄来可以吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学有二本吗？分数线大概是多少？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业录取时是否计算省级优秀学生的20分加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若在贵校学习一段时间后发现所学专业并不适合自己，可否调专业？有什么条件？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若对被录取的专业不合考生意向，是否可以专业调剂？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好.我在贵校网站上未查到贵校赴皖招生老师联系方法,请告知.谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+625(理)报考贵校什么专业把握大呢?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩达到了贵校a专业的录取分数线，又填了服从调剂。是否可能被调剂b专业。调剂时是否分数优先。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好高考成绩大概两百多分可以上贵校吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请老师给个网址链接，谢谢老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学在其它省份的招生计划什么时候能出来？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听同学说大一的学生也可以报考复旦大学大二，而且只有大一的能报考，我在复旦大学网上没看到关于这方面的消息，请问下有这样的政策吗？有的话对哪些省市开放呢？又有什么要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果考生总分够复旦分数线，所报专业分不够，不服从调剂，贵校招生原则是先看总分够了就提档，之后看到“不服从调剂”再退挡；还是在总分够了的条件下，同时看“不服从调剂”就直接不予提档录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生计划何时公布
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校入校后转专业条件是什么?，2.贵校是否有本硕连读专业?是否有2+2或3+1等培养模式。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,在网上公布了名字的保送什么时候可以拿到录取通知书?谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学老师：您好！，请问1贵校的网站公布的录取的分数是高考实考分？还是已经加上了政策加分？录取专业时是实考分还是政策加分录取？谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问已被贵校预录取的保送生如果高考成绩优异,能否重新选择专业.谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+外语类大学和贵校在外语专业培养上有何不同？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,一眼失明,报考时有何限制
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,对于因视力等原因,考生不宜报考专业,如考生想报考,贵校有何规定,如考生分数够,贵校是否会拒绝录取不宜报考的考生.(注:不是不能报考专业)
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问达到提档线专业服从调剂，是否还会被退挡？是否可以转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想咨询：在全国高中生竞赛获一等奖，有加20分的条件，在贵校各专业录取分是否加20分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+何时能发布？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有身高，外语要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对自主招生和高考成绩都优异的考生,能否选择贵校在本省投放计划外的专业,如金融等.请回答,多谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦招生计划何时在网上公布?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！，估分填报和分数公开以后填报有区别吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若将复旦列为A,被贵校提档，但分数低，在服从志愿被录取时，会否被分配到合并后的分校？若考生不愿意，退档后是否已影响其他学校录取？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校对于实行平行自愿招生的省份，投档比例是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校有何要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问只要拿到两个或两个以上的省级一等奖就可以直接免试保送是真的吗？，保送生是否完全不用参加高考？，保送生的专业是怎么定的？是否还能调整？，保送生在各地区有没有名额分配的限制？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问两个问题:，1.贵校录取时,是否考虑包含省优干加分在内?，2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?，谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我可以去旁听吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如果被不是很喜欢的专业录取,有没有机会转专业?，转专业要经过些什么程序?要交多少钱的手续费?还是要进行考试?，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我高考实考成绩为639，另有十分加分。是否有希望报考贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业被调剂是在全校的未招满的专业之中进行？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校志愿级差是多少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何与前方老师取得联系？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考有希望吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，请问贵校是否设有志愿级差？，谢谢老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校希望大不大，报国际经济与贸易会不会有很大风险
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，贵校在专业录取时是否按照加分后总分排序?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦在陕的提档线是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，贵校在专业录取时是否将"省3好"加分算入总分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1，哪些学校参加？，2，授课专业有否限制？有哪些专业？，3，授课时长为多久？，4，插班生资格条件？时长？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进入该校第一年可否申请留学?，若不行..则最早在第几年可申请留学?，对于申请留学的学生有何要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1，哪些学校参加？，2，授课专业有否限制？有哪些专业？，，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名省410.报考该校.有风险吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生宣传工作是否到宜昌？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有提供，获得条件是什么，还有主要去向是哪些国家，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是一名已获自主招生资格的考生，高考643分，远高于重点线，专业只能由招办任意调配吗？我没有足够高的高考分去挑选，只能被调至冷门专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+回答问题的速度怎么这么慢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请老师介绍一下投档与退档问题好吗??????????谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问那些专业以后能转专业吗。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题，有多大把握，，我在全省排名1100名左右
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，蒙族加分算国家教委承认加分吗？贵校在专业分配是算民族加分吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校希望如何?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+本一线562,在省内排名480左右,有没有希望上贵校?可以上哪写专业?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问617报考贵校有希望吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+总分653能上吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问复旦在川招生老师电话是多少？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自主招生名单
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好,如果有幸被贵校录取,但专业不喜欢,专业可以调吗?你们学校有专业级差吗?谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我想请问一下,如果进了复旦,但是没有我喜欢的专业,以后是否有机会转专业,如果能的话,那么能否跨院系转专业.谢谢了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+刚上本一线，且一志愿报考贵校历史，如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+645能报考贵校一般的专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的最好专业是什么？请直接回答，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考了645能不能被录取？能的话能进什么专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，学校网上有宣传片吗？如果有，网址？在那里可以查的到？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问各位老师：，色盲考生如服从志愿，会被调剂到色盲限报的专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！关于一些国家承认的加分例如竞赛加分在分配专业时是否有效？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校投档比例为1：1.05,投档后又不退档,是否意味着计划招生由44扩大到46?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+入校后转专业困难吗,有多大成功基率
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否与贵校达成0风险协议??
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我647，全省1270名，不知有没有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+624能上投档线吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我已知道在津招生工作结束，请问老师：曾在津招生的老师的联系方式，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题盼答十分感谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+????????????645+10=655?????????У?ж????????????????????????????????4?????????θ??????????????????У?????????÷???????????????????
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+麻烦老师可以告诉我一下负责在津招生的老师的联系方式吗？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+经济专业在津招生大概多少分？是不是分数最高的专业？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我发现你们的回答都是:你好！请直接咨询我们的前方老师。一点敬业精神也没有,冲这一点,我不报考你们学校.88
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想请问贵校哪个专业相对有发展前途一点?相应有无政策之类的?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提档后因为成绩低而被退档的可能性有多大?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问网上报名与学校填表报名是否冲突?参加网上报名的录取影响填表报名的录取吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业会调剂么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+怎么联系不到李之其老师，有其他联系方式吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学插班生07上还招生吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+那么太不负责?!怎么老是:，请与我校前方老师取得联系，他们是最了解情况的，能给你提供最好的建议，，具体方式请参阅http://www.ao.fudan.edu.cn/newsShow.jsp?NewsID=20070604327965
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否进入贵校,若可以可以选择什么专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否进入贵校,若可以可以选择什么专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我能否进入贵校,若可以可上什么专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，贵校是否录取乙肝病毒携带（肝功能正常）的考生，，此种情况继续读研是否可以录取。谢谢！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦每年与其他知名高校的交流生计划怎样?，另:复旦的学分制是否支持双学位,三年毕业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的强势专业有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分在选专业时是要排除的吗?或是有些排除有些不排?请详细答一下,谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，蒙古族的10分分专业时算吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+怎样与贵校前方老师联系?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进贵校风险很大么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+589有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+总分676，排名168进贵校的把握大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校怎样对待加分，专业录取时是否按总分（含加分）进行？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+666的成绩能进贵校吗？，能进的话可供选择的专业如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+645+10可进贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+653能不能进贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+为什么不回答我问题?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+招生章程上说，对达到我校最低录取分数线、但未进入专业志愿且愿意服从所有专业调剂的考生作调剂录取。，，请问，是否存在特殊情况被退档？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：自主招生成绩合格的考生，除了第一志愿填你校外，其他学校还要不要填。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问我考分643，排名全省700能进复旦么？能进什么专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您校的“历史”就业好吗？都干哪些工作啊？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认照顾分？我是复读生，很遗憾没有加分。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势学科有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说交大没有校内加分的话是很难被录取的,你们学校有校内加分这个不公平政策吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有大小年之分吗？那进你是大年还是小年？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，专业调剂是否是在有余下招生名额的专业中调剂，如果该考生的成绩高于其他专业的考生，会不会把原本能录取该专业的较低分考生挤掉？还有，一般什么情况下，已被调档的考生却又不能被录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是６５３，全省排名７００左右，报考贵校有把握吗？报考生物专业是否有把握呢？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，，请问若被提前批次的“职教师资”录取，进校后学习成绩优异，可否转入普通的本科类专业学习？，，谢谢老师，老师辛苦了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦在鲁招生主任电话号码
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦会设有分数级差吗
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名多少可考虑报复旦
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问服从分配，被投档后还有被退档风险吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否估计一下多少分可以报考贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业排名?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校投当比例是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+取消优惠加分？是指取消什么加分？我是应届全国数学奥赛省级一等，是否承认？录取专业时是否承认？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢您的回答也就是说获得自主招生资格的学生与其他学生一样除了享受录取以外排专业时都与其他人同条件排名分专业不存在自选专业一说？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢您的回答！之前有传闻优秀毕业生的优惠政策是自选专业请问此消息是否真实若真实请问是否会占用计划中的录取名额？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！我想请问一下复旦大学自主招生对获得资格的学生有什么优惠政策以及优秀毕业生的优惠政策，自主招生是否会占用正常招生计划中的名额，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问我打游戏又天赋，可以被你们学校破格录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时会优先录取应届生吗，我是复读的，专业对复读生有什么限制吗，是什么专业复读生都能报吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业服从调剂的考生以后可否转专业?因自主招生加分而录取的考生以后能否转专业?谢谢老师回答!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问四人一间的学生公寓里面有没有单独的卫生间?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我的分数超出复旦大学的最低录取分数线，经过减去专业级差的分数后，低于了最低录取分数线，但我服从专业调剂，我是否还能被录取？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在重庆的专业级差是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好!请问国防生与军校的招生有什么区别?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师.本科与专科有什么区别?为什么本科有的专业,专科也有?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如果我报考复旦，但成绩高出提档分不多或恰好在提档分数之上，那么我是否极有可能被退档？还是要看专业填报情况？非常感谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在安排专业录取时排序的总分中是否含照顾政策的加、降分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+大一学生能带电脑吗？还有，学校的网络供应如何收费，住宿条件如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若已经被复旦提档，怎样情况下有可能被退档？试看分数高低，踢低分的人还是其他？麻烦老师详细解释一下。非常感谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校采取通识教育，不知在大一会不会教授有关填报志愿时所选的专业的相关课程？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些优势专业，，我估分640，进复旦有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是省优秀学生干部,中共预备党员,请问在录取时有优惠吗?但我是往届.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+大学期间转系的学生需要什么条件,百分之二十如何选出?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果增加指标，会增加数学专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好我弟估分640你认为有希望报考贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+感谢您耐心地一一解答我的问题.我想问的是复旦能给学生提供的和与其他学校如北大相比不能提供给我们的优惠条件有那些?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+除了对另一专业有强烈的兴趣外,贵校对提出转专业的申请的学生还有什么要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果如您所说,志愿一个一个来,那么第一次录取下来可能出现某专业录取考生数超过计划,如果缩减,又会导致其他专业录取混乱;请问贵校如何协调?会本着给更多的考生更好的受教育的机会的原则调整计划,还是有特定的录取软件一刀切地把符合所有要求的录取结果直接呈现,而无视人性化的要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+录取是第一专业第二专业前后顺位录,还是第一专业,第二专业-3同时录取?希望将详细的录取程序告知.谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好.我想弄清的一个问题是:可不可能存在在服从调剂的情况下分数在录取最底分之上的分数的考生由于专业级差的原因,一而再,再而三的减分而不被录取?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，请问省三好加分在提档后分专业时还算嘛？谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：自主招生因考分不是很高，服从专业调剂，在调剂确定专业时是否还征求学生本人的意见？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一色盲考生能否报考贵校微电子与固体电子方面的专业，是否会有限制？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师.怎么才能确保不被退档?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如果报考贵校选择调剂的话，是否是上了投档线就一定会被录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+分数得知之后如何和您联系,以便咨询?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有专业级差吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分610——620，报考贵校希望大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对复读生有何限制吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好！，1、如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？，2.政策加分在调档时算,还是在选专业时算,或者调档和选专业都算?，谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校承认省“三好”优惠加分吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否提供关于医学专业的介绍
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想报名贵校的计算机专业（专生本）报名是几号？，报名后是否有考前培训？，报名后考试是几号？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我要报名的具体时间？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问高一新生能否带手提？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师。，也就是说，一个专业只能有20％的学生转出到别的专业，是这样吗？，，另外，转专业的考核标准是什么？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是河北衡水中学实验班一名应届生,班里很多同学对贵校很感兴趣,但是12个招生计划实在让我们心里打退堂鼓,不知您是否可以解释一下!谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时按实际分数还是少数民族加分以后的成绩排序？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+同题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！，能否在学校网站上查询到被学校录取为研究生的学生的相关各科成绩？，如可以，网址是？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校有哪些专业对视力有特殊要求。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的最强势专业有哪些?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问若被贵校录取,是否在大一就可转专业?有没有特别的要求?如果读双学位有什么限制吗?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好,贵校的专业级差是3/2/1/1/1吗?按考后105%投档,1如果因专业级差而无法进入报的所有专业,但服从调剂,是否会退档?2如果因专业级差不但进不了报的所有专业,从而使分数减至低于了贵校录取分数线,但服从调剂,是否会退档?谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校专业级差情况
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果我的投档成绩（高考成绩+政策性加分）高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，请问是否将被退档？退档的依据是什么？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的医学专业与其它专业之间可以调剂吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估计分数在630，上贵学校希望多大，选择好专业有风险吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估计分数在６14以上，上贵学校希望多大吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估计分数在６４０以上，上贵学校希望多大，选择好专业有风险吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，本校强势专业是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在我省（河北）投放的名额仅仅12个，即便考取高分也不敢报，除非排名在100左右，如果排名再靠后点报考贵校，如何才能避免落选的可能性。优惠加分分专业取消吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分615,可否?机会多大?谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，是不是就算考分达到贵校要求，但面试未通过，也无法被录取呢？面试通过的概率大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校在津招生的录取分数线大约是多少？要高出重点线多少才有希望？谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何及时得知有关计划外招生的信息？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果因分数原因，没有录取贵校我想学的专业，是否还有机会转专业。
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学有没有开设少数民族预科班？若有请介绍一下详细请况？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校各专业的本科生分别安排在哪些校区就读?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在录取学生时教育部规定的加分会进入录取分，在专业的选择上，是按高考的原始分选择呢或是带加分进行选择？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好,我想请问一下,招收少数民族的学生,是否有优惠政策?比如贵校是否有少数民族预科班?如果有,报考的条件又是怎样的?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我怎样联系招办老师.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我有志于攻克癌症,艾滋.应报什么专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校转专业的程序复杂么?可在什么时间申请,需什么资格?，谢谢老师!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果入学的时候没有被医学院录取.，是否可以在大一大二的时候申请转专业至医学院?，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否有志愿级差？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+国防生收往届毕业生吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问你校对进档考生录取时是志愿优先呀还是分数优先呀？若专业服从一定能被录取吗？谢谢老师！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+药学院和医学专业是否可以转系到其它专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师刚刚的回答.可是复旦预录取通知书上为什么没有明确的关于高考成绩必须到达什么分数线才给予录取的说明,只说是重要参考,感觉挺模糊的...
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,被复旦预录取的学生,高考成绩还要作为正式录取参考吗?也要到达一本分数线吗?(^-^)
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+调档后排序是去掉政策加分么？谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！据贵校在津老师说，调档后几乎不予退档。而06年调档58人，实际录取仅28人，为什么会出现这种现象？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问志愿顺序是如何排列的，即那些志愿要求的分高？那些志愿要求的分低？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学的那些专业对轻微口吃有限制？，，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生办公室电话是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有学生可以以国际交流生的身份出国学习？都在哪些专业有这样的机会？与哪些国家和地区的什么学校有往来？需要达到什么样的标准或符合什么样的条件才可以有这样的机会？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在退档时是否记入竞赛加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在档案被调入贵校之后,进行专业录取时,专业级差是什么意思.如果第一志愿选择冷门专业是不是会增大被贵校录取的机会?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分作参考，还是按加分以后的分数录取？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我色觉有点问题，是色弱，想问下复旦老师我读浙大可以读哪些专业，请不要回答我不宜就读，可不可以回答我哪些可以读？，，我看了下，基本没有可以读的
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好:，孩子估分在630左右,能否报贵校的医学专业.谢谢，一个心急的家长
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在自主招生协议中贵校承诺：若服从专业调剂，只要上本省的重点线，原则上予以录取。“原则上”这种表述是不是意味着还有什么例外可能不被录取，这个例外有什么具体规定吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问下贵校所谓的大学二年级可以申请转专业是不是针对所有专业的学生？可以申请转到贵校任何一个其他专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校好的专业有那些
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+那么在录取第二志愿专业时有没有设级差?怎么设置的?，，还有关于进校后转专业的规则是什么?，，谢谢老师了!!!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+政策性加分加入总分后，在录取时和不加分的有什么区别没有？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+急
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招生简章中说，原则上承认各省加分政策。贵校招办主任解答中说取消加分政策。怎么回事？省奥赛一等奖加二十分政策算数吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+交大有什么校内加分A\B\C\D五档,那么没有加分的就很难被交大录取了!请问贵校有没有这个不公平的加分政策?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+协议上只说了要以复旦为唯一第一志愿没提到提前批次问题怎么办？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+优秀生选拔测试（其他省市）通过者可以填写提前批次吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校能源系如何?可否对其分数线做一下预测?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的招生计划是否含保送生？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于乙肝大三阳但肝功能正常的学生是否录取，在选择专业上有什么限制？谢谢！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校最低录取分数线是否含政策性加分？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生必须要参加高考吗?录取通知书是否发出?发到中学还是报名表中的联系地址?谢谢1
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，我想请问一下，贵校能否报自学考？如果有，可否告知有什么限定条件以及专业？，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生录取通知书发出了吗?如果寄出是寄到考生所在学校还是家庭地址?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对具有身高优势的学生是否有点优惠条件？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:自主招生资格生上了贵校提档线后是不是要加分选择专业?也就是说要占用招生计划?那么,对于没有加分优惠的上档考生就存在很大威胁:谁知道有多少上档的自主招生资格生啊?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+体检专业受限:，请问：贵校对大三阳有无专业限制？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考了其它院校的自主招生被录取为B档，签定协议第一自愿填报他院。请问：高考后，第一自愿填报贵校，贵校能录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好，我想请问一下贵校是否有本科插班生？除了高考和成人考以外还有什么途径可以就读贵校本科？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一理科生想学汽车设计,请问应报什么专业?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+孩子很喜欢贵校的微电子专业，对微电子很有兴趣。请问报该专业要超出重点线多少方有希望？历年超出多少？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的高分子材料是指航空材料还是化工材料或二者皆有.谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我非常有把握考上贵校,非复旦不上！我体检视力矫正达4.8以上,但镜片度数为800度,能否报考贵校信息科学、技术科学学院的相关专业,谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱最好报哪些专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有计划外招生，如有如何招生？与计划内招生有什么区别。有没有与国外的合作办学，如何录取。谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问:复旦出国率如何?哪些专业出国好一些?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好!请问贵校住宿条例如何?几人间?有无空调?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+临床医學招复讀生吗，謝謝
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问汽车设计方面属于什么专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果某省的一名复读生和一名应届生考分相同，都够贵校某专业的分数线，如果在只能选其一的情况下，您会录哪一个？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校在招生时往届生与应届生有区别吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在陕录取时一般高出一本线多少分?入校后能否转专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1、控制线与录取线一般差多少分；2、自主招生是否占招生指标。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！人们常常说“大小年”之说，请问贵校也分大小年吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+再问老师，专业录取时加分是否带到？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请教:生物学专业的发展前景如何?能具体点吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，复旦学院在市中心吗？住宿条件如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生的录取书是否已发出?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校重点专业是什么专业?有经算师专业吗?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分在实际录取中起作用吗？谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，高于重点线70-80分报复旦可以吗？是不是只要上线且服从调剂就一定能被录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问658报考贵校希望如何???
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果没有推荐表，会不会没有优势？？老师录取时，主要看有无推荐表吗？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的推荐表有什么用？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我所选的6个专业都没有录取，而我服从专业调剂，会怎样分配？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+去你校有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+“假设一学生A626分，另一学生B600分，学生A选报的专业已经报满，若服从调剂。学生B选报一冷门专业，没有人报。请问，录取学生A还是学生B？”您的答复是A，请问为什么？假设都进投档线，且只有一个名额了，学生A又没报，干吗录取他？一个专业明明有人报且合格为什么还要调剂录取？，谢谢老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+ger
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+很希望被录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果我在本科一批的第一志愿报贵校，且学校服从调剂，一旦未被贵校录取，那么，我将被调剂到什么学校???会不会调到更好的学校，或是更差的，希望老师一定回答!!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:，提档比例是多少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+抱歉,关于加分2的问题,您的回答是可以,内容是不可以,究竟可不可以啊?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+院系之间可以转吗？？有什么要求？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵学校在学校期间转专业是否可以？？有什么条件？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:，您好!请问贵校是否有收第二志愿?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招非第一志愿考生？院校级差分为多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：在哪里看公告呀？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业之间是否存在分数差呢？若填服从调剂，是否会出现退档的情况呢？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+开学时的英语考试和计算机考试大概涉及什么方面，以什么形式？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考660,可以问一下什么专业最热门
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校第二专业的证书与第一专业有何区别？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么专业最热门
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+新生入学需要考试吗?如果要,考什么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩（628＋20）报贵校的微电子专业有希望吗？转专业的条件？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对申请双学位的学生有什么要求吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+645排名357-386有贵校优秀学生推荐表专业+5分，，被提档有，多大把握，专业以什么标准为主（好中低）是否可以提供一些建议与参考？，，谢谢老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+该校可以攻读双学位吗?如果有,一般什么时候\什么情况下可以?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵学校网上招生计划怎么样的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校如果第一志愿没录满,录不录取第2志愿考生???
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+推荐表能发给个人吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢:)
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+NewZealander
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+Ihavearelativewhoisstudyinginahighschooloverseas.HowcanshegainentrancetoFudanUniversity?Thankyou!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学的最强的专业是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否读贵校的微电子专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师这个分数在贵校读什么专业好？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题，可否明确指出？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校什么专业有级差,为多少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果拿到贵校的推荐表，那么在选择专业的时候是否可以加上5分？还是仅在录取的时候加上5分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提档比例多少??(湖南)
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我们已经通过您给的联系方式联系过招生的老师，但老师已退出原住宾馆的房间，无法联系．请提供最新联系方式，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校希望多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在你们按专业录取时算不算省级加分，还是直接看高考的直接成绩？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+截止日期几号。，收信人是？只要写复旦大学招生办公室就行了是吗？，招办老师叫我另外传真一份比较保险，请问传真号码？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的推荐表是怎么一回事？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,如果录取时有加分后和别人分数一样的,先录取哪一个?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校承认加分(包括省内加分和自主招生加分)是否有上限?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+657(含加分)上贵校希望大吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+实考648分，没有加分，有希望被录取吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，想报考中法合作办我要具体联系谁呢，能告诉我地址和电话吗，谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问中法合作班有分数要求吗
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好!，请问贵校中法合作班是什么样的性质,是2+2吗?，报考有什么条件
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪些专业中等热度，哪些有研究生院，谢谢！！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问663上贵校是否有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校复征志愿的概率大吗?复征考生需要什么条件?会不会把复征志愿看作是第二志愿?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是竞赛一等奖的,十分想报贵校,不知道贵校加分时是否需要手续(如表格)等.这种加分是否算在专业分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学入校后是否可以改换专业？有何要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在鄂有预留计划吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+612能在贵校读什么专业？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,在完成已选专业课程外,是否能选学其他专业,完成后是否能获得双学位.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问是否招收二志愿??有什么条件???谢谢!!!!!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢:)，如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学有无中外合作交流班或者是交换生计划?若有,怎么样报考?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+宿迁地招生老师电话是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！！我的高考成绩594，请问报考贵校有没有十足把握被录取？/如果不是一定可以录取，那有几成把握？？？希望老师能够准确的回答我，不要给我摸棱两可的答案。谢谢了！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问少数民族的加分在排专业的时候起作用吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+政策加分有用吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果有推荐表填，最晚在什么时候之前要到达贵校招生办？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有志愿级差？？？，谢谢！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+520能上贵校大专吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+王牌专业是什么啊一般比调档线高多少啊
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+王牌专业是什么啊一般比调档线高多少啊
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我在贵校招生网上没有找到04.05年的详细的各专业的录取分数,请指点!!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，地方性政策加分、学校加分在选专业的时还承认吗？我没有加分，所以这个问题很重要。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好，659，省内517。请问录取希望大吗？专业选择是否比较难？服从分配希望是否会比较大点？会被退档吗？？谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的考分654，报考贵校有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问铺修专业和双学位有限制吗？可修哪些，修多少？有跨校的铺修专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+640能上不？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问我可报考哪些专业？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+I'manartstudent,mymarksis614,canIgotoFudan?Thanks.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+g
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+o
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如何查询被贵校录取了呢？，谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+621能报读贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+全省357-386名。有优秀学生推荐表。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！！我的高考成绩594，请问报考贵校有没有十足把握被录取？/如果不是一定可以录取，那有几成把握？？？希望老师能够准确的回答我，不要给我摸棱两可的答案。谢谢了！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是如何看待原始分和加分的?贵校是录取原始分高者还是录取加分后分高者?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的分数是629+7.全区排37,高重点线78分,报考贵校是否有希望,能否有个好的专业?谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的考分为650,是否有希望进最好专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校承认少数民族的加分么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的实考分为662,并且是贵校的重点推荐生,是否有希望进最好专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学的较好的专业有哪些??
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+“如果推荐生的成绩很好就不占招生计划”这是一个什么概念，多少分才算“成绩很好”
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问新闻系对考生外貌有无特殊要求？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是按什么比例录取?，是否有退档危险?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有分大类招生的系吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收的大学插班生具体情况是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能有多大把握报考贵校?，填志愿服从是否会有风险?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师们咨询的时间大概是每天的几点到几点？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+麻烦老师告知是什么公告,在哪里能看到?请回复
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,复旦招生组的电话除了021-55666668外还有吗,这个电话老是打不通?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+到底报哪些专业没有100%的把握，谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+总分636不知能报贵校什么专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+录取时的成绩可以加入加分吗？，我６５８分（含１０加分），服从分配，录取的机会大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如有希望能惠赠意向书吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在专业志愿上是否设有级差？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+621+20，排名全省500多，上贵校希望大吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，不知我的成绩能否确保入神圣的复旦大学？若能，是否在专业选择上有优势？，不胜感激！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我很向往贵校,请老师帮忙解答问题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一定要“服从分配”才不退档吗，如果不填服从，会不会退档？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的历年专业招生计划如何？请提供超具体网址。，跪谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+十分感谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么样的分数可以进复旦
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有多大把握?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，我排名135，进您校有多少机会？还有专业大致可以选哪些？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么专业比较合适?1403名
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+服从专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学在进行专业录取时，省优秀学生的加分是否计算入内？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+653
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+653报贵校有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+629，一本503，能上贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一直非常仰慕贵校，不知该分是否能到一个较好的专业，另外请问如果在我填写的所有四个专业都不能被贵校录取，但我填写了“愿意服从调剂”一栏，那么这时候贵校是考虑我的原始分，还是要在原有的分数上继续扣去级差分（3，2，1）
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问653进贵校有希望吗？（重点推荐生）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+三本与一本除了在收费上有差别外,还有什么不同?毕业证书相同吗?与一本在一起上课吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是或有提前批,分数低吗
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+666分山东排名400高一本线83分报贵校金融专业能否录取谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名1035名,有希望被录取吗?还有,贵校是不是大一不分专业,所有学生都一样的啊.请回复.谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果分数高，是否可以在复旦里面任意选专业
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦专业有级差?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我由于错过了招收运动员的测试,请问我该怎么办,我能否以运动员的身份报考贵校?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如上．
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校何专业在全国排名靠前
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+比如如何取得推荐生资格，得到推荐生资格后有什么优惠政策，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+660报考贵校是不是风险很大?咨询电话打不进去,请老师指导!非常感谢!!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+推荐生的问题您还没回答我，能否大概解释一下，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+672能保证第一专业志愿吗?贵校的优势专业是什么?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我高考598分,报贵校是否有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请给个答复,我不感冒险啊
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,博物馆学毕业后就业情况如何,大概会去哪些单位?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,请问报考贵校在省内排名多少希望才大?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问672能否保证第一专业志愿?还有贵校的优势专业是什么?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进入大学后能转专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+654分报考医学专业有无希望？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+热能与动力工程最低分是多少？谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若已上贵校调档线，是否有被退回的危险
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校须多少分有把握?山东理科
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的全省排名是910多，有没有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在全省排78名,报考贵校希望多大?，能否成为贵校推荐生而享受贵校加分政策?，谢谢老师.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果几位考生总分相同，志愿相同，贵校将如何录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+奥赛加分在提档和专业录取时都加入总分吗?，请介绍一下贵校的优势专业，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有哪些专业可以填
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在录取进专业时,是否认可省三好的加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对优秀新生的优惠政策是怎么样的
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我报的博物馆学，能不能录上？大学转专业难吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你们学校的助学政策如何
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+可调剂，可能性有几％
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校承认我省的+分政策(您认为加分政策是否公平.)那为什么不承认高分保护政策?，请给予回答,谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+山东667分报贵校希望大不大，有选专业的余地吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问省优生加分后的成绩能否参与选择专业的录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问专业服从后贵校是安什么原则调配的?或者说是怎么确定调配到哪个专业的?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请解答
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请解答.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请解答
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在专业录取时是否去加分?651有希望?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+最底分是多少
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我第一志愿抱清华,第二志愿抱贵校,那么我要是清华没上,且贵校恰好没满，上贵校要不要被扣院校级差分,如果要,要扣多少分?非常感谢老师能在百忙之中回答我的问题!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提前批对分数有什么要求？是不是只收男生？报考国防生要达到什么条件，有什么测试没有？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:，您好!请问是否在校期间任何时候都可以选修第二专业呢?，还有,贵校既然实行学分制是否只要修满任何时候皆可毕业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+医学专业的录取分数在贵校录取中是高分段还是低分段？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否承认各省的加分政策？！如承认在专业录取时是按高考成绩还是按投档分（高考成绩+加分）进行排队？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！请问贵校就读后转专业有什么要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦的名牌转专业是什么？还有请问专业调剂时有什么要求？是要在本省给出中选还是在全部中选？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果能,请推荐一个适合我的分数的专业
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+上了上海财大参加复旦的插班生考试怎么考？会不会很难？，，谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+指的是政策性加分（如奥赛获奖，华侨子女，教师子女，少数民族等）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+上了上海财大怎么参加复旦的插班生考试？，，会不会很难？谢谢老师。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问是否招三本生？发哪里的证书？每年费用是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+不知道能不能去贵校，专业是不是有选择的余地，谢谢您
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题,省内排名338名.，谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请速回！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是1比1.2?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校有哪些院系不在主校区？分校区学生是否相对独立？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+考672的同学先选专业还是一个考647+20竞赛+20推荐的同学先选专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦老师:我在北大网上看到咨询老师的回答,他们提档后只要服从专业调配,一般不退档.贵校退档吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问报名号和高考报名号有什麽区别?我想查询推荐生表是否已邮到该怎样办?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如复旦录取以后可以转热门专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+647可否填热门专业？风险是否很大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名112，不包含加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+637分,有希望上贵校吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+本人在医学方面没有任何的功底,我在大学期间能赶得上吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！请问你们是招满为限，还是有个一本以上的下限分数？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名488,被贵校录取有几成把握?能被录取的专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！我是一名自主选拔录取生。高考估分670。请问能否报考非本地招生专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校视觉艺术学院的美术专业录取原则是什么??
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，643分报考贵校可否有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学的负责招生的老师的联系电话？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+转系考试成功的概率多少，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在读书的过程中能否转专业?如能,则其条件是什么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否只取第一志愿?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+视觉艺术学院书你们校的二级学院，毕业生的毕业学历证书同复大其它专业的一样吗，
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何保持联系？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+少数民族如何加分？？分专业时是否不加？？，老师辛苦了！！谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦是不是按大类招生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+为什么加分考生还需要另填回执？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我657分，进贵校可能性有多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分的考生专业录取时要去掉加分吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问貴校该专业招不招复课生，是否需要面试和口试，是否全为8年制？，谢谢，老师！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲生可以报哪些专业？不能报哪些专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是否任何专业都能转专业,转专业有什么要求
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+转专业的时候，专业之间是否要有联系？通过考试是否能够转到任何一个专业？转专业限制怎样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校能否转专业？转专业有什么限制或要达到怎样的要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问这个分数进什么专业比较稳妥呢？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+664,335名能进调档线吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+664能进掉档线吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+出去医学只有四个名额吧？我排名186分数654不知有望没？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问法学专业是贵校的优势学科吗？这与我所咨询的结果不大一致。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的老宿舍是否条件较差？房间规格有几种（2人间，4人间……）？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校推荐生实行怎样的加分政策？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有设院校志愿级差吗是否可转专业和修双学位专业调剂是否会通知考生本人
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+排名310，不知道报考贵校有否风险？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请老师回答问题做到内容尽量具体明确一些就更好了,因答复后仍不清楚只好再问,这样既麻烦老师,又占了咨询时间.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有哪些优势专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1、贵校是否有军训？多长时间？校内还是校外？，2、贵校住宿条件如何？有哪几种规格的房间（2人间，4人间？有无热水器），3、在寝室能否带电脑，能否在寝室上网？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校生物专业如何?是否属于高分专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有机会本硕连读如果有分数要比重点线高多少
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问有没有蒋益明老师的手机号码？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+住宿条件具体情况，有分不同的标准吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在杭招生组老师是谁？电话多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是国家二级运动员.我想问一下,报考贵校提档时加分吗?另外录专业时加分吗?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校住宿条件如何请问在贵校可否修双学位
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+志愿级差?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦转系的具体要求怎样
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩是659，能否报考
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好!，不传染的乙肝携带者可不可以报考贵校的国防生。谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦的转系具体情况怎样的?，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问656进贵有希望吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+６２２有没有希望
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+thanks
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+可以录上的几率有多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+重点推荐生除了选系时有加分,其它是否有优惠?，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+材料与工程的就业方向如何?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1000名报考贵校有戏吗,谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问没有报考口试的是否不能被贵校的该专业录取?口试成绩需在多少分以上?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考咨询会时招生老师能给我提供什么帮助？会不会就我的情况做具体分析呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取专业时是否看加分?如果投档进入贵校,填服从调剂,是否退档的可能性极小?各专业有没有单科成绩限制?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校招收第二志愿考生的要求有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你校有没有保送优秀本科生出国深造的政策?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是复旦的"重点推荐生",若上了投档线,但填的6个志愿都没录取,有没有可能被其它专业录取，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问录取线是指录取的最低分数吗?去年是多少啊?，谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:市级三好学生在录取是有没有优先?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校专业间有级差吗?如果有，是几分?，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我表妹估分630，能上什么专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+服从调剂的话有把握吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+万分感谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+再问
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+问
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校设专业级差吗？各专业就业形势如何？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校哪些专业较突出
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦设有双学位吗，有主辅科吗，进校后可转专业吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：招生老师来了吗？怎样与他们联系呢？如若还没来，大概什么时候来呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对加分是否承认
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问到目前为止，贵校的录取分数线预估是多少？６５０上贵校的希望有多大？？？急！！！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦是否招收第二志愿考生?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校是否招收本科二批的学员;2.国际贸易这个专业是否热门;3.对外学员是否有较高要求;4.若为本科三批而报考转科,录取的可能性多大
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否提供些具体数据供参考？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，且服从调剂，但所报专业分数不足，退档机率有多大？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好:，，复旦学院在哪个校区？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提前批次部队录取的学生,毕业后一定要去部队工作吗?还可以考研究生或出国深造吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果第一批投档，我想去的专业有没有可能已经被提前批次的录取了？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批次是否与第一批次一起投档选专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校接不接受我省高分保护政策
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我获得重点推荐生优惠政策，高考成绩超过重点线但没达到贵校调档线，加竞赛加分后达到，可否获得重点推荐生的加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果我是说如果，如果贵校第一志愿未录满，是否考虑录取第二志愿？是否降分？谢谢回答！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问调档线是什么意思
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我获得重点推荐生优惠政策，高考成绩没达到贵校调档线，加竞赛加分后达到，可否获得重点推荐生的加分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业调节是在该省招收的专业范围内吗？少数民族加分对录取有效吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问从那里可以查询到分专业的录取分数情况呢？，第一志愿报博物馆学可以吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师怎样报会减小风险呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+由于我们中学生对专业不甚了解，在确定填报复旦之后该如何填写志愿表？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在录专业时，是否把加分算在内？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好我估分642想请老师指导填何专业并告知贵校05在赣各专，业入取分谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校数学系是否要求学生有很好的数学基础，再问贵校的那些专业出国几率较大，或是那些专业与国外名牌大学联办，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！听说部分政法大学对于考法律系的学生有身高方面的限制，请问贵校是否也有诸如此类的限制呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我比较喜欢你学校，不知道645能不能才上你们学校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问在复旦转专业困难吗？有何具体要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+肝功正常，但为大三阳对可以报考任何专业吗？对就业有影响吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校提前批在闽招收何专业提前批有设专业级差和志愿级差吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦的优势专业有哪些?有关海洋的专业有哪些?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否招收二志愿考生,招收第二志愿考生有何要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+何时面向全国自主招生?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有没有设置级差
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的转系如何操作？成绩和其他的要求以及转系率又怎么样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说复旦大学大一不按专业上课,到了大二可以重新选专业,所以我想问一下具体情况,希望老师们能够指导一下,谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+很想去复旦又担心志愿不能满足，请问贵校对上线考生有什么降低退档率的政策吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂有通知考生本人吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我没有参加英语口语考试也就没能通过口语考试，请问哪些专业不能报考谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！请问贵校哪些专业是较好的，有好的前景，如考研，就业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+到那里查找贵校历年各专业录取分数先情况？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好,我的估分在625-630之间,请问报考贵校的希望有多大?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分590，请问可否报考贵校？机率有多大？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一般咨询都在660，650请问630大概有希望吗？？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校和复旦大学上海视觉艺术学院有什么关系?它的网怎么上不去?打电话也没人接!!!!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+推荐生，保送生在不在招生计划数之内？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如标题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有专业分数级差吗?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分610左右,是否敢报复旦
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+650-660可不可以上复旦大学
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校进行审核认可的艺术特长生相关资料可否待贵校来川现场咨询时现场递交？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的联系方式（总校的也可以）谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+问题同上
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+那么我要想上复旦,专业填报应该主要是哪些呢,是不是尽量选那些较冷的专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问贵校是否有来川咨询的招生组？其具体的时间安排怎样？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+问题同上~谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果报考贵校，并被贵校提档，请问：被录取的比例大约是多少？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问1.甘肃考生估分604，服从调配。报考贵校是否有希望被录取？，2.省一级运动员加20政策，在贵校提档和分专业时。是否有用
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问省招办有艺术特长生加分政策，贵校是否认可？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+一本550我640可以吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您给的联系电话（tel：55666668）无法接通，是否还有其它方式联系？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分600，请问有没有希望报考贵校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有多大风险
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦有二本吗？有三本吗560至570有可能被入取吗。谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对于民族加分,再选专业时是不是算在内?希望上贵校.谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问第一年新生是否要住在老宿舍楼，是不是6—8人一间。为什么不住新宿舍呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些专业比较有名\实力强?那些专业的前景比较好?，我保守估计653分，有多大把握？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报这个学校有多大把握？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些学院实行大类招生？具体的政策怎样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我自己估的最低分是665，怎样？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+..............
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+640报考贵校，但你们专业好像并不如人意，请给予报考建议及专业解释？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+......
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下你们学校是不是还有分校，我想了解你下你们学校的分校的信息.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校如何看待省级优秀学生的加分,是否优先录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问以同等学力资格可否报考此类计划招生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问非自主招生的加分在专业排队时是否有效？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+625能否报
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否可以网上自荐,如可以,请告知自荐方式,谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取是否会考虑第二志愿？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的住宿条件如何
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+提前批有何要求？分数要求呢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，假如我报的5个专业不能被录取，而且同一调剂，是不是可以说我可能被分到一个我不喜欢的的专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业实行大类招生？具体的政策是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业时能否报考研究生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+考了620能上贵校吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考贵校国防生,就全国一卷来说,最低分数是多少?，如果可以走国防生,而且在开学后,若在复审中查出问题,岂不影响一志愿
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果分数到了贵校投档线，而在相同分数的考生中除了看会考成绩还会按照什么标准来录取呢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估了610有没有希望上贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩达到贵校在当地的录取分数线，并且专业服从调剂，是否可确保录取呢，谢谢老师
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+是否有提前批？具体情况如何？非常感谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问你们学校有位成绩不好的学生开放的学院吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+希望能上贵校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的计算机专业是否强势学科？有没有出国机会？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国境经济与贸易的就业方向?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的医学部是不是会比本部的分数低些?谢谢.
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的答复！我父母工作较忙且住地离咨询地点较远，望老师告知何时公布招生老师电话？在哪儿查找？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你校专业级差如何
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+保送生档案已被调走，是否可以报考？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校微电子专业对视力是否有要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好！按照政策，部分考生有加分。请问，贵校是按未加分分数录取还是按加分后的分数录取？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问，，1在投档时，贵校会将省级加分加到高考总分上去吗？，2在专业录取时，贵校会将省级加分加到高考总分上去吗？，，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学专业级差是多少,谢谢老师
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好，我是一名少数民族考生，假若我进入贵校提档线后，录取时是否去除少数民族加分后再择优录取？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+服从专业调剂报贵校，到校后转专业。老师你从个人角度看可行吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师辛苦了
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+620是否有希望?非常想上复旦.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦是否有分数级差?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+到达你们的分数线，但没报，如何补报
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分超出一本20-30,报考有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校有的某些专业有没有不承认高考加分政策???谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校有的某些专业有没有不承认高考优惠政策???谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问乙肝带菌者录取时会不会受到歧视？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在第几个学期后可以转专业？可以跨学院转吗？比例是百分之多少？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校在第几个学期后可以转专业？可以跨学院转吗？比例是百分之多少？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+少数民族考生获得的照顾分参与专业投档吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+成绩在本省排名如何会被录取
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如若考入贵校可否转专业？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦除本科外,是否有专科
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估分在560左右的有希望考取贵学校吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学是否有下属专科学校
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的光便专业毕业时发什么样的证书
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估分650,不知能否进入贵校?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分考生在专业录取时是否考虑
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校重点专业是什么？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，进入贵校后是否可以转专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对往届生在报考时有限制吗?哪些专业不招往届生?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问预估分数在500左右有希望报考贵校吗？，谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是台籍考生,可获得一定的照顾分,请问贵校承认这些分数吗
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问优惠加分在录取排队时是否有效？谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:贵校对报医学专业的考生在"视力"方面有什么要求?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好我是天津考生，高考估分成绩为565左右，有希望进贵校吗？如果可以挑选专业的自主性大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报志愿时在津是否有贵校现场咨询?在哪儿?怎么联系
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！它这样做，你们还能招到好学生吗？各省前三百名的学生清华北大浙大它们全包了呗？考生和家长谁不想求稳呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问；贵校有本硕博（本硕）连读招生吗？如有，招什么专业的？须达到什么条件才能报读？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问以下，贵校转专业是在大一还是大二？不同学院可以相互转吗？所学的课程不同学习上是否能跟上？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，基本上和它分省招生计划持平，是谁给它的名额？为什么不把如此大规模的计划纳入分省招生计划，它到底想招什么样的学生？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做对复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！它这样做，你们还能招到好学生吗？各省前三百名的学生清华北大浙大它们全包了呗？考生和家长谁不想求稳呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我有可能考取北大、清华，因此，我准备第一志愿填报那里，第二志愿填报复旦。如果万一没有被北大、清华录取，复旦是否录取第二志愿？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的重点推荐生、优秀推荐生什么时候推荐，高考前后还可以推荐吗？取得教育部加分政策，在贵校专业录取时是否加分？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦的那些专业在全国是数一数二的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在复旦转专业自由吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有人说大学的录取分数线存在大小年现象，请问对于复旦这样的一流大学来说，这样的现象明显吗？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+那我要上完5年制的医学还可以进一不进修吗?临床具体还分那些专业吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我是天津南开中学应届高中毕业生李晨溪，现已是贵校重点推荐生，请问能在推荐专业之外另选专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+保送生人数是否占招生计划人数？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+最低投档线
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，如果被贵校提前批录取，到校后能否转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校有何热门专业?就业前景如何?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问竞赛加分在专业录取时有用吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业级差是多少？601分的第一志愿没有考上，第二志愿与600分考生的第一志愿相同时，优先录取哪位？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+听说报考您校医学部会有加分，请问是否有加分，加几分
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：如何获得贵校的优秀推荐生资格？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+本校招收国防生吗?国防生录取分数会有所降低吗?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生入取考生的其他加分是否作废
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩是否是重要参考
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：您好！请问一下：是否每一专业都有预留档？预留录取的选拔方式是什么？预留考生是否可以自主选择专业？，望回复！，YZ
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的指示,我还想请问教育部规定的优惠加分与"优秀推荐生"加分累计后是否适用专业选择?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+未参加自主招生的考试的考生,达到招生分数线能否被录取??
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在网上报名系统中如何提交报名号和准考证号？在按下“保存”按钮后并没有成功的提示信息，这样可以吗？还有我省的准考证号还未公布，不填会有影响么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在同一学校的不同批次专业可以转么
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我的孩子是贵校重点推荐生，进复旦是他的梦想，第一志愿复旦，同意志愿调剂，他应该靠多少分才可被录取。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+选择专业时是否适用？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我有几位同学参加了贵校自主招生考试，有的是通过关系托熟人报的名，并且大多获得20分加分（托关系的都有）。现在我也很想报考贵校，但他们有加分，不需要达线就能被录取，而我达线还不一定能被录取，这样公平吗？论成绩平时我绝不比他们差。公平吗？？？？！！！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请提供一份招生宣传画报,行吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，如果被复旦大学录取后调换专业的可能性有多大？贵校又是按什么标准批准学生调换专业的呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时会不会出现考生同分但有些被录取了有些没被录取的情况？如有，原因会是什么呢？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+内容：根据贵校的录取政策，录取线是在投档线上，加上贵校的优惠加分后重新排序确定的，如果某考生的投档分排在招生计划的80%处，但由于排在后面的考生大都有贵校优惠加分，加上贵校的优惠加分重新排序后，排到招生计划的110%处，是否一定会退档?由于贵校没有公布优惠加分名单，考生不能掌握在本省的优惠加分情况，怎样来避免这个风险?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师：，您好！，我想咨询一下，协议书上未上分数线则划拨预留档中的“预留档”是什么？对第二志愿的填报有何影响？，SC
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校高考录取专业时是按实考分还是按加分后得分排序?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在皖是多少？谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+色弱色盲者能否报考建筑专业
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果高考分数上了贵校在本地区的录取分，并且又填报了服从调配，这样被落选机会怎样？谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+电子信息与技术，通讯工程等专业按普通高校招生体检标准色弱是不受限的，为何贵校不招收色弱考生呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时奥赛加分是否承认？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好,请介绍精算学学习课程及对口工作,我的上厂数学较强,是否适合该专业,谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+若召不满,贵校会考虑降分录取吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果孩子就读贵校，能否同时得到双学位？还是要等到学完一门后在去读另外一项。，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校重点专业是那几个?有分校吗,有的话大一在哪个校区?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校在甘招生人数及专业，毕业后的去向。每年招收研究生的比例是多少？贵校在甘招生分数应比本地分数高多少才有可能被录取？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+怎样理解:其高考投档成绩达到我校艺术类同批次录取控制线?是贵校另有一条分数线吗?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦大学校是否招收第二志愿考生，如果有是否还有限制。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+各省市的加分在选专业时还可哦路吗?有没有不考虑加分的专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我们不是考特长生,我们想咨询一下有这项特长的学生参加通招还能否认可?能否加分?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+医学临床专业与贵校医学院各系的关系是怎么回事?，是不是先大类招生,入校后再在分配到各系
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果考生在书法方面有特长,需要提交什么资料?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问:上海视觉艺术学院是复旦的下属院系还是合办的学院?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问参加自主选拔加分考中获得A档优惠政策而不是自主招生的291名,获得A档的在高考达到一本分数后是否能满足第一自愿专业?谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦的自主选拔录取生(A档)达到一本分数线后是否能满足第一自愿专业?听说交大是这样的.谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好老师!，请问入学后,可以转专业或院系学习吗?有什么限制要求?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+艺术类专业对学生的视力有要求吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+自主招生录取的名单是否已确定？我已通过，需要哪些东西，何时上交？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:1.所填专业志愿都没有被贵校录取,但服从调剂,若贵校在当地计划已录满(按志愿),这时怎么调剂.2.多个考生间调剂是什么原则.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校在录取新生时各专业间是否有级差？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：复旦大学和上海交大微电子专业各有什么特点。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+贵校对国家二级运动员的加分在专业排队时是否认可
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收乙肝大三阳的学生?如果是部分招收,都哪些专业可以招收呢?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+历届生是否可以报考武警国防生
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问被贵校录取的几率以及热点专业的几率
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考了640，全省排201，有希望吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+报考你们学校的人有多少，和分数段，大概，谢谢
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问申请复旦各门类转专业的比率是多少？，成功率高吗？，是否只能在录取的系所在学院内转？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+626分排527名报贵校有望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+这些分数,报考复旦有多大把握?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请赐教
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+664+20能否报？报专业是否有优势？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我考607可以上吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+关于录取时，是不是贵校提档算加分，录取不算加分的？，谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+可否告知贵校的招生热线？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+"重点推荐生"指什么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学在选专业时按总分（加分后）还是实考分排序
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+进校后能否再转专业？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问归校本科阶段有导师制吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下６６０可否报考！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+分数为632，没有加分，专业选择广还是窄？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，上海复旦大学与上海复旦大学上海视觉艺术学院有何联系？谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学录取程序中“b点：对投档的考生兑现我校优惠加分政策”中的“优惠加分”是指什么？是高分考生有的吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我是重点推荐生，请问录取分数与投挡线一般差多少？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+某省的调剂范围是只限制于在该省招收学生的专业还是在全校范围内调剂？，进校以后转专业是否也限制在前者范围内？，象历史类的专业是只接受志愿生还是也要接受调剂生？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+要何条件?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,假如我在报考贵校专业第一志愿时落榜了,那么我原有分数扣去级差分后,在专业第二志愿的录取中是否可以与报考这一专业为第一志愿的考生同等排档录取?谢谢!
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招收的国防生对视力有无特殊要求？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问志愿的四个专业应该怎么填才是最好?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+问了几个大学同个测试问题，还是只有复旦回应了，虽然不是回答，还是看出复旦是比较有气度的大学，比较关心考生，恩，分数够就报
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如果上了复旦大学的投挡线，并且服从调剂，会不会被退挡？在实际录取中会不会增加录取名额？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是复旦自主招生的学生，我的高考号已报复旦网，但准考证号一直报不上去，怎么办？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+想测试一下贵校的师资是否只是渊博，教师头脑的灵活度是否够格成为我的教师，很简单的小测试，告诉我你完后有何感想，http://www.xiaoyouxi.com/down/soft/17705.htm，这是双向选择的年代，我不能永远只被选择，谢谢合作
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否为新加坡国立大学代招学生？具体如何操作？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的特色专业是什麽？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+加分在学校录取与专业录取时都有效?，如只在提挡时有效，那么总分够录取线，专业服从调剂，是否退挡？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+什么是国防生？国防生可以转专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+这个学校的调档线大概是多少｀｀
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问若服从专业调剂,那么专业范围是仍为贵校在我省规定的那些,还是扩大到贵校所有专业?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些专业在全国排名靠前（比如前三）
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校以后～转系的要求是什么？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师当今社会什么专业在以后的就业面较广
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,能否介绍一下在贵校学习和获取双学位的简单过程?还有,假设,我为了读贵校,而接受了一个我并不喜欢的专业,那么我能否"喧宾夺主",用双学历来弥补?麻烦老师了.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+你好!你们学校有预科吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+估计630能不能上复旦？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+根据《指导意见》，通讯工程，电子信息专业对色弱无限制。但有些大学明确不招收此类考生。请问贵校是否招收此类考生？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问入学后是否可以调换专业，如果可以，怎样调换，有什么要求,能否给出一个大概的成功调换比例？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！教育部直属院校和非教育部直属院校有何区别
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校本科毕业生哪些专业出国率高？？，谢谢！！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估分差不多620,上贵校可以吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+对于省级三好生，复旦大学是否加分？如果要，在分配专业时是否也算？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:，以我的考分有希望上贵校吗?我的数学成绩一直很好,但是在选专业上很茫然,希望老师给予指点.，，，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+THANKU！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+THANKYOU！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我有贵校艺术生“重点推荐生”政策和省三好优惠条件，请问这两项优惠条件是否重合？还有实际考分若未到达贵校调档线，则“重点推荐生”政策是否还有效？若加上省三好到了呢？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是提前批次?提前批次是什么时间?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问入校后是否可以转专业,可转什么专业,转专业怎样收费,有没有本硕连读
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,各科均衡是不是对录取有影响?如果有3科都很高了,但有一科相对很低,是否会影响录取?谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,各科均衡是不是对录取有影响?如果有3科都很高了,但有一科相对很低,是否会影响录取?谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师估计650，报考贵校的那个专业把握大些，谢谢老师指点
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想问一下：有加分的同学和没有加分的同学在录取过程中，主要是在专业录取工程中有什么区别？它们是加了分后再参加专业录取还是按照高考原始分进行
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请求预测或估计分数差!!!?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问:女生在你校选什么专业好?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校是否有自主招生计划？其中优秀生是如何认定的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校新生入学后是否要进行外语测试或别的科目的测试?谢谢.
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,每一个批次第二志愿都有两到四个并列志愿,这些志愿在录取时是怎么操作的?填报时有什么要注意的吗?是不是也需要有梯度的吗?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+670能上上海交大吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+670能上复旦吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+670能报复旦吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，第一志愿的六个平行志愿是什么意思，填报时要注意什么？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问贵校“不分来源省市的招生计划”实际录取分数线是否比计划内招生录取的分数线要高？如果要高的话，一般要高多少？请求答复，谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师:，你好,在这里我想提出这样的问题,贵校什么专业最具实力呢?，还有就是在我省的招生会不会按照那个计划数来录取呢?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问由专升本拿到的本科毕业证书和读四年本科拿到的本科毕业证书一模一样吗?还是要在证书上注明是由专科升到的本科的?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问贵校传玺制度如何要转系比较困难吗
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+能否提供老师的手机,招生组的电话打不通
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+..
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问,贵校有三本吗?谢谢拉
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问电话为什么都打不通啊？？，一直没人接？？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请老师回答。，谢谢。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+获得贵校自主招生（重点推荐生等）的学生名单的具体网址在哪？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好?，请问自主招生是否已包含在招生名额中??
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，请问自主招生是否已包含在招生名额中??，即实际的录取人数(不包括自主招生在内)会比公布的招生人数少?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问历年的专业分差是由报考某一专业的人数决定还是一个固定的排序？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦的专业录取承认加分吗？，过了调档线，只要服从调配，是不是就不会退档？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校有无专业级差？，2.请问贵校在琼招生组老师的联系方式？，3.请问贵校在琼招收专业中有无单科成绩要求？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+1.请问贵校有无专业级差？，2.请问贵校在琼招生组老师的联系方式？，3.请问贵校在琼招收专业中有无单科成绩要求？，谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：估分667能否上你校？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好！原来还有一个上海医科大学，请问是否与贵校合并了？还是与其他学校合并了？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如果在志愿中只填报了贵校的医学类专业并且服从专业调剂，那么贵校在医学类专业与非医学类专业之间能不能相互调剂？如果医学类专业与非医学类专业都填报了，而且服从调剂，两类专业之间能相互调剂吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+thanksalot
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问复旦的重点学科有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我估分650,报考贵校有多大希望?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+在http://www.ao.fudan.edu.cn/ViewPage.action?siteNodeId=100082&languageId=100000&contentId=100858，上为何只公布了部分保送生名单，却没有推荐生名单？若有，请告诉我具体网址好吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的优势专业都有哪些？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好,请问复旦对于乙肝大小三阳（肝功能正常）的学生的态度?希望明确些,若能考上,他们能不能上复旦?能不能继续读研?谢谢.急切希望回答
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想问一下贵校在津招班的联系方式
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师回答问题，那么名次位于省100多一点，有没有希望接到贵校的招生电话呢？，我觉得填志愿真是件冒风险的事情
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师，是不是贵校有对全省前100名考生电话招生的传统？，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+麻烦您拉~~您给的网站打不开！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我哥估了却645分报贵校国防生有希望吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问复旦大学和那些大学有学生交流？具体的运作过程又是怎么样的？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如果我将清华作为第一志愿而将复旦作为第二志愿，在分数低于清华分数线而高于复旦分数线的情况下能否被复旦录取，或者在录取中是否因此被歧视？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+敬爱的老师，我省的普通高校招生守则中关于录取原则和办法是贯彻德智体美全面考核，综合评价，择优录取的原则。我有朗诵演讲方面的特长，由省级奖项的证书，请问在分数相同或接近的情况下，可否优先考虑？贵校有否这样的先例
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+投档线与最低录取分数线是不是同一个概念？
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我想咨询一下复旦大学在全国比较有名的专业以便填报志愿，希望老师给予解答。谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问如何与贵校在川招生的教师联系
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+复旦附中学生报考复旦大学，至少加多少分，是在原始分还是投挡分上加？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有三本招生么?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我是一个双眼弱视的考生，体检结论是“专业限制”，但我成绩还是不错，如果我的成绩上线，你们能录取我吗？，前几天我有寄《自荐信》到贵校，我的详细情况在信中有介绍。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+可以换专业吗?录取梯度如何?
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+乙肝病毒携带者能否报考医学院？临床专业有无限制？有无不限制的专业？有无报考建议？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问如果以后想做商业企划人员,要报什么专业?谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+高考分数没达到的话花多少钱可以进复旦
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+如何申请推荐生资格？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+招办老师：我想请问，达到调档线是指："实考分数+省级加分+复旦特别推荐生加分"吗？请解答。谢谢！
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+分数很低的你那录取吗?
+select * from admission_score_pro where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问推荐生达到调档线是指实考分＋省级加分吗？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+面部疤痕所包括的范围有哪些?眼角处有一厘米长的疤痕也算面部疤痕吗?谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的工作人员什么时候到本地，能在填报志愿前的什么时候面对面的咨询。如何与之联系帮助我们填报贵校志愿
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳），但肝功正常，你校是否会录取，录取后会休学吗？你校复检时是否查二对半还是只查乙肝表面抗原？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+给各省分配的总数里是否包括自主招生。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳）但肝功正常，你校是否录取，录取后是否会让休学？你校复检是查乙肝表面抗原还是查乙肝五项？谢谢！
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+请问老师在不在
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师您好!我每天都上贵校的网查看情况,我发现在线咨询已经有四天没有回答问题,同时我的问题也没有得到回答,希望及时得到解答,谢谢!
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+有艺术特长（琵琶10级），但错过了你校的特长生测试，入取有优先吗？还有其他优惠吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳），肝功能正常，你校会接收吗？如果入学后会不会让休学呀？你校复检是乙肝五项还是只查乙肝表面抗原，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳），肝功能正常，你校会接收吗？如果入学后会不会让休学呀？你校复检是乙肝五项还是只查乙肝表面抗原，谢谢
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+老师请问：有精算师专业吗？
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+我孩子获得复旦大学“重点推荐生”加分政策，但已经被其他学校作为保送生录取。我们让他参加高考，我们想问：假如他的高考成绩达到复旦大学在当地的录取线，复旦大学生还有可能录取吗？请给我们答复！谢谢。，，，学生家长。
+select * from admission_plan where school='复旦大学';
+['问句条件词只有学校，查询过宽！']
+总问题数8786	查询语句构造为空数0	只有学校关键词数1731	查询结果为空数3260	有回答数3795

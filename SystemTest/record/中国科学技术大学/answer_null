@@ -1,0 +1,3328 @@
+你好：我是山东考生，当时填报贵校农村学生单招时填报的专业顺序在7.5号填报时，能不能变动顺序？比如：当时填报的专业顺序为：1物理类2数学类。。。。。在7月5号的志愿填报能不能这样填报1数学类2电子信息类。。。。？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='电子信息类' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好！我是江苏理科考生，384分，省排名2129名，想报贵校物理系可以吗?
+select * from admission_plan where school='中国科学技术大学' and year='384' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，您好！请问江苏理科考生2129名，可以报贵校吗？能学物理专业吗?我是徐州睢宁考生
+select * from admission_plan where school='中国科学技术大学' and district='睢宁' and classy='理工';
+['查询结果为空！']
+1.我是山东考生，农村专项C，高考分数过了省一本控制线100分，是不是就被贵校录取了？2.当时贵校专业不允许调剂，是不是录取后的专业在这6个专业中录取？如果这六个专业不能录取，是不是就不能被贵校录取了？谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='山东';
+['查询结果为空！']
+今年安徽考生比一本线高多少分可以报贵校？那么如果报贵校优势专业要高出多少分呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师您好，我是四川贫困山区的考生，今年只超重本线6分，我想依靠国家专项计划报考贵校，可能性大吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+尊敬的老师您好；我是广西理科考生，超过一本85分，我很想填报贵校，现有几个问题急需了解，恳请老师尽快回复好吗，谢谢您了老师！一贵校是否承诺进档不退二省招办加入投挡照顾分，贵校在分专业时是否承认照顾分三可否转专业四是否可以辅修双学位，双学位是否单独发毕业证，学位证，学信网是否可查？五分专业是分数优先还是志愿优先，级差为多少？六服从调剂是广西区内调剂还是校内调剂？七贵校近三年在广西预科的分数
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='广西' and classy='理工';
+['查询结果为空！']
+我6月11日参加了贵校的农村单招笔试考试，请问结果什么时间公示，现在网上还查不到呢。
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+请问：2015年英才班在哪个批次招生，辽宁招生多少人数？如何录取？有面试吗？另外，中科大在辽宁的招生老师有联系电话吗？这几天打官网招生电话总是无人接听
+select * from admission_plan where school='中国科学技术大学' and year='2015' and district='辽宁';
+['查询结果为空！']
+您好，我孩获中国化学会奥林匹克（初赛）二等奖、北京化学会2014高中化学奥林匹克北京地区预选赛（高二）一等奖，北京化学会2013高中学生化学竞赛二等奖。看了好多贵校咨询，我实在吃不准这个级别是否够贵校条件，麻烦您百忙中给个回复，谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='北京';
+['查询结果为空！']
+老师您好，有消息说，科大在国决现场签约人数已有74人，按招生数的5%算，科大现在仅余20人不到的名额，这个消息确切吗
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好，获奖如下，可否报考？1.“第三十一届全国中学生物理竞赛中荣获三等奖”.2、28届中国化学奥林匹克竞赛（初赛）中获得国家三等奖，山西省赛区二赛等奖。3全国中小学生素质教育英语知识能力竞赛山西赛区一等奖4、第六届全国中学生数理化学科能力竞赛山西赛区物理学科一等奖.谢谢您！
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='山西' and classy='理工';
+['查询结果为空！']
+我在高中3年中理科成绩在年级始终名列前茅，但因受国家高考政策影响（各种竞赛不加分），因此未参加竞赛辅导班，只是有一次参加了一次省化学竞赛获得二等奖，象我这样是否可以报名。
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and classy='理工';
+['查询结果为空！']
+您好，我孩获中国化学会奥林匹克（初赛）二等奖、北京化学会2014高中化学奥林匹克北京地区预选赛（高二）一等奖，北京化学会2013高中学生化学竞赛二等奖。看了好多贵校咨询，我实在吃不准这个级别是否够贵校条件，麻烦您百忙中给个回复，谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='北京';
+['查询结果为空！']
+老师您好：江苏南通理科考生，获得1.第三十一届全国中学生物理奥林匹克竞赛（江苏赛区）一等奖（盖江苏中学生学科奥林匹克竞赛委员会和江苏物理学会的章）；2.2014年全国高中数学联合竞赛省贰等奖（中国数学会颁发），3.第二届江苏青年物理学家辩论赛银奖（江苏教育厅颁发），请问是否有报名资格？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，您好，在数学、物理、化学学科奥林匹克竞赛决赛中获奖的考生，经我校专家组评审通过，可直接进入面试环节。请问是不是指决赛中现场签约的学生？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师您好，我孩子没有奥赛成绩，获得过1、在教育学会组织的尚德电力杯第五届中国青少年创意大赛暨知识产权宣传教育活动总决赛中，制作的光能水陆两栖小车，荣获个人二等奖。2、河北省科技创新大赛一等奖（社会科学类）。3、参加2014年全国青少年高校科学营江苏科学营夏令营活动。4、中国音乐学院钢琴9级证书。5、班干部，区级文明学生。能报贵校吗？如果能报的话报哪一类？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='知识产权' and district='科学营' and classy='文史';
+['查询结果为空！']
+老师您好，获得全国化学竞赛省级三等奖，全国中小学生创新作文大赛总决赛二等奖，有音乐方面特长，但我非常喜欢物理学科，尤其是天体物理，去年暑假曾参加过在北师大举办的2014年全国青少年天文与航天夏令营，请问有资格申请贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='化学' and classy='文史';
+['查询结果为空！']
+我小孩在2012年获得全国信息学奥林匹克联赛提高组一等奖，发证机关是中国计算机学会，请问符合贵校自主招生报考条件吗？
+select * from admission_plan where school='中国科学技术大学' and year='2012';
+['查询结果为空！']
+请问一模二模成绩还没有考，怎么填写？还有个人陈述是否可以打印？如果可以打印，文末是否要考生本人签字？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师，您好！获得第31届全国中学生奥林匹克物理竞赛江苏赛区省一等奖，且在国家级示范高中年级综合排名前10%，数学、物理成绩优秀，具有艺术特长。有希望通过贵校自主招生初审吗？谢谢。
+select * from admission_plan where school='中国科学技术大学' and district='赛区' and classy='理工';
+['查询结果为空！']
+学生获化奥省一，各科成绩优秀，请问是否可报贵校信息类、自动化类专业？
+select * from admission_plan where school='中国科学技术大学' and major='自动化类' and district='奥省';
+['查询结果为空！']
+老师您好！请问一下，今年自主招生需要学校出推荐书吗？学校说今年不负责出推荐书
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好，我是辽宁省重点高中文科生，去年4月末在高二学业水平测试之后开始学文科，执著于报考法学专业，具备文理综合素质，学习能力强学业成绩优秀，名列学校前五，但没有国家级竞赛奖，可以参加贵校的自主招生吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='高二' and classy='理工';
+['查询结果为空！']
+老师您好，我有实用新型专利，没有竞赛证书，但是对计算机科学与技术专业和物联网工程十分感兴趣，在校成绩也比较好，也三年一直担任班长和学生会副主席，1、可不可以报名？2、初审希望大不大？希望老师能明确告诉我，谢谢。
+select * from admission_plan where school='中国科学技术大学' and major='物联网工程';
+['查询结果为空！']
+你好，我参加了去年化学奥赛，获得广西区第一名，全国铜牌，并在长春与贵校签约了，请问1、签约了是否还需要参加本次自主招生报名？2、是否还需要参加贵校的笔试面试？3、是否还能报名其他学校的自主招生报名？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2018' and major='化学' and district='吉林';
+['查询结果为空！']
+老师您好，请问：我儿子物理一个省二，化学一个省二，英语一个省一，可以申请贵校的自主招生吗？谢谢您！
+select * from admission_plan where school='中国科学技术大学' and major='英语' and classy='理工';
+['查询结果为空！']
+老师您好，贵校优先接受在全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖（含）以上奖项的高中毕业生报名。请问信息奥赛不在优先之列，是么
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='之列' and classy='理工';
+['查询结果为空！']
+老师好，我是北京考生，物理竞赛省一，向往贵校近代力学系理论与应用力学专业，但自主招生专业没有此选择，我是该选择理科试验班还是物理学类，谢谢！另外测试地点会在北京吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='物理学类' and district='北京' and classy='理工';
+['查询结果为空！']
+老师，您好！考生获得:（1）浙江省数学会颁发的2014年全国高中数学联合竞赛省一等奖；（2）2012年全国中学生英语能力竞赛（NEPCS）高一年级组一等奖；（3）2013年全国中学生英语能力竞赛（NEPCS）高二年级组二等奖。请问是否能申请报名参加贵校的自主招生？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2013' and major='英语' and district='浙江';
+['查询结果为空！']
+老师，你好！请问贵校2014年信息安全专业在湖南省招收多少人？录取分数线是多少？今年在湖南招收女生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='信息安全' and district='湖南';
+['查询结果为空！']
+老师您好：孩子是河北理科考生，曾获得第31届全国中学生物理竞赛二等奖（中国物理学会、全国中学生物理竞赛委员会颁发）及2013和2014年全国高中数学联合竞赛二等奖（中国数学会颁发），第28届中国化学奥林匹克初赛（河北赛区）省级二等奖，在校学习成绩优秀，数理成绩好，请问是否具备报考贵校自主招生的条件？谢谢!不符合优先的是不是录取机会很小啊？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='化学' and district='河北' and classy='理工';
+['查询结果为空！']
+你好！全国数学联赛河南省预赛一等奖，省三好学生，市文明学生，物理和化学成绩优秀，能否报贵校自主招生
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='河南' and classy='理工';
+['查询结果为空！']
+请问今年还有试点学院拔尖创新人才选拔计划（考后）吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好！孩子是吉林省的，获得中国化学奥林匹克（初赛）一等奖，数学和物理获得省二等奖，想问一下能否通过，通过后能有什么政策
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='[中国' and classy='理工';
+['查询结果为空！']
+老师，你好。我是湖南考生，所获奖项：（1）2014年获全国中数生生物联赛国家二等奖，颁奖单位：全国中数生生物竟赛委员会，中国植物学会，中国动物学会。（2）第30届全国中数生物理竞赛湖南省一等奖，颁奖单位：湖南省物理学会，湖南省中学生物理中学生物理竞赛委员会。（3）第31届全国中数生物理竞赛国家国家三等奖，颁奖单位：中国物理学会，全国中学生物理中学生物理竞赛委员会。可以报考贵校自主招生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师您好！我的主要条件：1、2014年作为第一发明人获得国家知识产权局颁布的实用新型专利；2、2014全国高中数学联赛浙江赛区省一等奖（浙江数学会颁发）；3、第31届全国中学生物理竞赛三等奖（中国物理学会、全国中学生物理竞赛委员会联合颁发）；4、2014年分别获浙江省数学和物理竞赛一等奖（浙江学会颁奖）；5、高中三年在浙江省一级重点学校就读，数学、物理综合排名年级前1%。请问有机会通过贵校的自主招生资格审核吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好!小孩有:四川高中化学竞赛(预赛)一等奖,全国中学生化学竞赛(省级赛区)二等奖;三十一全国中学生物理竞赛三等奖;可以报贵校物理学院吗?小孩很喜欢贵校物理学院,谢谢回复.
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='四川' and classy='理工';
+['查询结果为空！']
+老师你好，请问我在2014年获得全国科技创新大赛四川省三等奖，宋庆龄科技创新大赛四川省一等奖，高中物理竞赛四川省三等奖，可以参加自主招生考试吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='四川' and classy='理工';
+['查询结果为空！']
+老师，您好！参加贵校元旦物理营获金牌或银牌靠前的有自招优惠吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东的一位考生，全国数学联赛省二等奖（省第74名），学业水平成绩10A，想报考贵校自主招生，不知胜算几何，望指教，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='山东';
+['查询结果为空！']
+老师：您好！我是云南临沧市一名考生的家长，孩子的梦想是上中科大，但是没有参加过任何奥赛，在市一中的名次一般在前50（全级有1800名学生），多数在20名左右，最好是13，理科思维好，数理化一般排在前10，物理、化学在第5，理综排第5，对化学有特殊的爱好，请问他是否能报考贵校自主招生？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='云南' and classy='理工';
+['查询结果为空！']
+河南省实验中学电视台台长，荣获首届“CRI杯全球中学生多语种数字化故事大赛”优胜奖，制作感动校园人物专访视频；制作校园歌手大赛专题片；荣获河南省中学生优秀支教先进者。学生具有较深的新闻专业特长和能力，数学、英语成绩优秀能否报名
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='河南';
+['查询结果为空！']
+1去年毕业生一摸二摸高考成绩、现在就读学校期中期末成绩在申报表中没有此栏，如何填写？可否用纸质材料证明？2是的一本之前录吗
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好：我是山西理科考生，曾获省级英语竞赛二等奖，未参加奥赛，在校担任学生会部长一职，班内任班长一职，可否申请报名贵校的自主招生？初审是否能通过？
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='山西' and classy='理工';
+['查询结果为空！']
+老师，你好！请问贵校今年信息安全专业在湖南省是否招收女生？招多少人？是否可参加贵校的自主招生？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='信息安全' and district='湖南';
+['查询结果为空！']
+老师您好!请问“全国中学生学科奥林匹克竞赛(江苏赛区)获奖证书/XXX同学在第三十一届全国中学生物理学科奥林匹克竞赛中荣获壹等奖/江苏省中学生学科奥林匹克竞赛委员会(印章)+江苏省物理学会(印章)”，能否被贵校确认为符合“省级赛区一等奖”的报名条件？昨天在这里咨询时答复必须是国家学会的印章，但通过电话向贵校咨询又回答说可以确认符合条件。。。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，我在2014年第31届全国中学生物理竞赛三等奖，能否报考贵校呢？盖章：中国物理学会全国中学生物理竞赛委员会。
+select * from admission_plan where school='中国科学技术大学' and year='2014' and classy='理工';
+['查询结果为空！']
+老师你好！在自招过程中化学特长的跟其他特长测试课目一样吗
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+贵校简章写的是6月11日，并没有说其他日期，但咨询解答中说两日内完成。应该明确确切日期。到底是只需要11日一天，还是需要持续到之后的某一天。
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好，请问考生获得生物竞赛省一、化学省二，能否报考回校？
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+你好！我曾参加“DI创新思维”比赛，获得高中组中国区团体文艺复兴奖，个人获得三等奖，此外，本人参加省的学科比赛，获得三等奖，这样的条件可否报名？谢谢！
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师您好！请问考生获得生物省级一等奖、化学省级二等奖，能报考贵校吗？
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+老师您好：我们学校提供的盖学校公章的成绩证明只有高一上下学期、高二上下学期和高三上学期共5个学期的期末成绩。请问我怎么来填写报名系统中的一模、二模、三模成绩？可否把高三上学期期末成绩填写在报名系统中的一模这一栏里？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师：孩子获得数学省二、物理省二、化学省二各一个，高中阶段获得省三好学生称号。成绩省重点中学保持在前1%（1000人左右），有资格报名吗？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师您好！笔试和面试都是6月11日吗
+select * from admission_plan where school='中国科学技术大学' and year='2011';
+['查询结果为空！']
+我是黑龙江省牡丹江一中学生，2014年被中国数学会授予优胜证书，荣获2014年全国高中数学联合竞赛三等奖，有资格报考吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='黑龙江';
+['查询结果为空！']
+老师：您好！山东考生，获得如下证书：《全国中学生数理化学科能力展示活动》证书：1、山东省高一年级化学一等奖；2、数学三等奖；3物理三等奖。校级三好学生、优秀学生。平时成绩在校前一百名内，数学一直在校50名内，本校共2000多学生，以上情况能不能参加贵校自招？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='山东' and classy='理工';
+['查询结果为空！']
+科大一直是孩子最向往的高校，参加了今年元月的物理营，并获得了银牌，请问这种情况在自招中有什么优惠政策？
+select * from admission_plan where school='中国科学技术大学' and year='None' and classy='理工';
+['查询结果为空！']
+理科生获得的奖项：1、三十一届全国中学生物理学科奥林匹克竞赛中一等奖（江苏赛区），发证机关：江苏省中学生学科奥林匹克竞赛委员会、江苏省物理学会。2、2013年度江苏省中学生物理学科奥林匹克竞赛中二等奖，发证机关：江苏省中学生学科奥林匹克竞赛委员会、江苏省物理学会。3、第28届中国化学奥林匹克竞赛（江苏赛区）暨2014年度江苏省中学生化学学科二等奖NO：SC14B3965，发证机关：江苏省中学生学科奥林匹克竞赛委员会、江苏省化学化工学会。成绩年级前十名。能否报考自主招生？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问孩子在高二时（2014年)，被中学推荐参加贵校“少年班创新班”考试，高考分数超过山东一本线近20分，但没有参加过竞赛科目，是否有资格报名？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='2020' and district='山东';
+['查询结果为空！']
+由于一些学校（如上海交通大学）自招测试时间也是6月11日，有些考生同时报了这些学校，最后只能参加1个学校的测试。请问您们是如何确定进入测试人数？因考虑测试条件限制，通过人数并不全部参加测试，会造成测试能力不能发挥最大效果。
+select * from admission_plan where school='中国科学技术大学' and year='2011';
+['查询结果为空！']
+老师，你好。我是山东考生，请问我参加2014年清华“暑期学校”并获“紫荆学员”证书，是山东省优秀学生干部，获全国高中数学联赛省级二等奖，可以报考贵校自主招生吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东';
+['查询结果为空！']
+老师你好，我是广东省广州市的考生，报名系统中要求提供一模、二模成绩，但广州市的一模是在3月19-20日举行，最快要在25日出一模成绩。如何操作？
+select * from admission_plan where school='中国科学技术大学' and year='2025' and district='广东';
+['查询结果为空！']
+你好，我是河北考生，2014年8月参加武汉举办的全国高中生物学竞赛获得二等奖，能报考贵校生物科学类自主招生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='生物科学类' and district='湖北';
+['查询结果为空！']
+老师您好!招生简章第四条第2款第3)项里有:未达模拟投档线须在入选专业范围内服从调剂.请问您这里的入选专也是指:理科试验班类、数学类、物理学类、化学类、材料类、工科试验班、地球物理学类、生物科学类、电子信息类、计算机科学与技术、核工程类、环境科学,所有这些纳入自主招生的专业吗?谢谢
+select * from admission_plan where school='中国科学技术大学' and major='环境科学' and classy='理工';
+['查询结果为空！']
+老师你好，6月11日的数学和物理考试是考竞赛方面的还是学科基础知识？有复习资料吗？
+select * from admission_plan where school='中国科学技术大学' and year='2011' and classy='理工';
+['查询结果为空！']
+老师好：孩子复读，没有在原来学校，填成绩单时高三成绩填今年的还是去年的，另成绩单盖章是现在的学校，还是原来的，谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您校优先接受在全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖（含）以上奖项的高中毕业生报名。是不是可以这样理解：奥赛省赛区一等奖只是优先条件，不是必要条件，其他具有创新特长和潜力的学生也可以报名？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+请问自主招生填报专业时是否必须和学科特长挂钩，例如我是否只能报考和数学与化学相关的专业。如果是，那是报考直接相关的基础学科，还是与学科挂钩的关联学科（比如数学可以报考金融、经济吗？化学可以报考药物化学吗？）
+select * from admission_plan where school='中国科学技术大学' and major='药物化学';
+['查询结果为空！']
+我是山西考生，有化学、信息学奥赛省二等奖和物理奥赛省三等奖，是否符合我校报名条件？另：我校对填报学校数量有限制吗？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='山西' and classy='理工';
+['查询结果为空！']
+老师，您好。我孩子就读学校在河南省实验中学，学籍注册在汝州市一高，成绩单及报名表应加盖哪个学校公章？另外在今年一月份报名贵校数学科学营时(因没举办没有参加)，当时正在协调学籍，报名表上填写的时就读学校名称，现在报名受影响吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='汝州市';
+['查询结果为空！']
+老师，您好。我是河北考生。我的竞赛证书有27届，28届中国化学奥林匹克（初赛）三等奖，与二等奖。科技创新大赛省一等奖。全国中学生英语能力大赛(NEPCS)一等奖。请问我有报考贵校的资格吗？
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='[中国';
+['查询结果为空！']
+老师，您好，有数学。物理。化学。生物省级二等奖，有实用新型专利证书，能否报贵校自招？谢谢
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师，您好，我是浙江省的，2014年获利全国高中数学联合竞赛二等奖，第31届全国中学生物理三等奖，并组织参与获取实用新型专利一项，请问有报名资格吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师你好，高中化学2013年和2014年获得扬子石化杯省一等奖，有资格报贵校的自主招生吗？综合成绩在全校前30名！
+select * from admission_plan where school='中国科学技术大学' and year='2014';
+['查询结果为空！']
+老师，你好！孩子参加过中国化学奥林匹克（初赛），并获得浙江赛区二等奖，不知道能否报名贵校？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='赛区';
+['查询结果为空！']
+老师您好，我是山西考生。2014年中国数学会给山西省的高中数学联赛一等奖名额为46人，我是50名，不在名额范围内，我的证书为“全国高中数学联合竞赛壹等奖”，盖章“中国数学会”，证书没有编号，网上查不到。请问我的奖是什么级别的奖，能报贵校自主招生吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='山西';
+['查询结果为空！']
+老师您好，我小孩获得这些奖：全国高中生数学联赛江苏省级赛区一等奖，28届中国化学学会全国高中生物理竞赛省级赛区一等奖，30/31届全国高中生物理奥林匹克竞赛江苏赛区二等奖，全国高中生生物联赛江苏赛区二等奖，28届全国青少年科技创新大赛江苏赛区一等奖。能报贵校吗。
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='赛区' and classy='理工';
+['查询结果为空！']
+1.全国高中数学联合竞赛：省一等奖（盖章：中国数学会）2014年9月2.江苏省中学生学科奥林匹克竞赛生物学一等奖（盖章：江苏省中学生学科奥林匹克竞赛委员会）2014年8月3.全国中学生学科奥林匹克竞赛（江苏赛区）物理学一等奖（盖章：江苏省中学生学科奥林匹克竞赛委员会）（盖章：江苏省物理学会）2014年9月4.第28届中国化学奥林匹克竞赛（江苏赛区）化学一等奖（盖章：江苏省中学生学科奥林匹克竞赛委员会）（江苏省化学化工学会）2014年10月18日5.第27届中国化学奥林匹克竞赛（江苏赛区）化学二等奖（盖章：江苏省中学生学科奥林匹克竞赛委员会）（江苏省化学化工学会）2013年10月28日请问有资格参加贵校的自主招生吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2013' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+北京物理学会办北京赛区预赛一等奖可以报吗2海淀同步期中期末分别为690分和656分，可以报吗
+select * from admission_plan where school='中国科学技术大学' and year='690' and district='海淀' and classy='理工';
+['查询结果为空！']
+老师您好，我是学生家长，我家孩子获得全国化学奥赛决赛铜牌和全国物理奥赛省级二等奖，请问报考贵校受专业限制吗？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师好：我孩子是化学奥赛省级赛区一等奖，现计划报中科大自主招生，请问孩子的自荐信有没有字数限制？是否需要手写？
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+请问：孩子是参加31届全国中学生物理竞赛（安徽省赛区），荣获二等奖（颁发证书的单位是中国物理学会、全国中学生物理竞赛委员会），在2014年获得中国科技大学高校科学营“优秀营员”称号，请问是否还符合贵校自主招生报名条件？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好：您所说全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖（含）以上奖项，证书上写明2014年全国高中数学联合竞赛一等奖（中国数学学会，无编号），这个符合报名条件吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='化学' and classy='理工';
+['查询结果为空！']
+老师您好：我家娃代表省队参加了2014年第十三届全国女子数学奥林匹克竞赛并获得银牌，请问这个奖项可以参加贵校的自招报名吗？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2014';
+['查询结果为空！']
+老师您好：该学生获得高二物理，数学。化学，生物四大联赛的省赛二等奖，高一阶段获物理，数学省赛三等奖。是否符合具有学科特长，德才兼备，品学兼优，在省赛一等奖优先的前提下，该生符合自招报名条件吗？？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师您好!我是山东数学省一,今年教育部限制名额,我想问下我这种情况初审通过的可能性大吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东';
+['查询结果为空！']
+老师，您好。我参加了贵校今年一月初举办的物理科学营，获金奖。请问，我要报考贵校自主招生，能有什么优惠条件？贵校今年自主招生的总名额是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+尊敬的老师：您好！我是一名山东理科考生。2014年或的全国生物联赛一等奖，且数学成绩名列级部前十名，能否参加报贵校生数学类自主招生？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='数学类' and district='山东' and classy='理工';
+['查询结果为空！']
+您好！我是山西省考生，有一、第31届物理竞赛山西赛区二等奖（有中国物理学会章）二、第28届化学竞赛山西赛区二等奖（有中国化学学会章）三、第31届物理竞赛山西省级一等奖（有山西物理学会章）四、第28届化学竞赛山西省级一等奖（有山西化学学会章）五、第30届物理竞赛山西赛区三等奖（有中国物理学会章）我可以报考贵校吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='山西' and classy='理工';
+['查询结果为空！']
+您好，信息学竞赛全国三等奖能否报贵校自主招生？在贵校的自主招生简章中优先接受物理、化学、数学奥赛学生。
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+今年中科大还有多少自招名额？已经签约的占不占自招名额？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+重庆今年自主招生多少人，多少分可能上线
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='重庆';
+['查询结果为空！']
+您好！我是山西省考生，我有一、31届物理竞赛山西赛区二等奖（有中国物理学会章），物理竞赛山西赛区一等奖取了前30名，而我排名第34名；二、第28届化学竞赛山西赛区二等奖（有中国化学学会章）三、31届物理竞赛山西省级一等奖（山西省物理学会章）四、第28届化学竞赛山西省级一等奖（山西省化学学会章）五、30届物理竞赛山西赛区三等奖（有中国物理学会章）我能报考贵校吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='山西' and classy='理工';
+['查询结果为空！']
+理科女生，去年有参加少年班测试，高考分高出一本线71分，但没有被录取，创新英语华北一等，全国数学联赛省一，物理联赛省二（证上中国物理学会二等奖），对应用经济学类有兴趣，理科实验班是否有包含金融方向学科，请问是否有资格？适合哪一类？是否能选其他专业？
+select * from admission_plan where school='中国科学技术大学' and year='2018' and major='经济学类' and district='华北' and classy='理工';
+['查询结果为空！']
+老师您好，我有化学竞赛省级三等奖，生物竞赛省级三等奖，是否可以申报贵校？（化学有奖状，生物没有奖状只有网络公示）我仔细阅读了招生简章，其中说“【优先接受】在全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖(含)以上奖项的高中毕业生报名。”那么我只是两个三等奖是否有机会？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师您好，我在高二参加华约考试考了101分。2014年物竟或的93分，安徽省二等奖，请问，能不能参加中科大的自主招生报名
+select * from admission_plan where school='中国科学技术大学' and year='2093' and district='安徽';
+['查询结果为空！']
+获得全国中学生物理学科奥林匹克竞赛（江苏赛区）一等奖和中国化学奥林匹克竞赛（江苏赛区）一等奖，颁发单位均为江苏省中学生奥林匹克竞赛委员会，是否具有报名条件？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+优先接受在全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖(含)以上奖项的高中毕业生报名,获得多个省级赛区二等奖的能否被接受？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+第六届全国中学生数理化学科能力山东省高二年级数学学科一等奖、2014年全国中学生生物学奥林匹克竞赛山东省赛区一等奖、2014年全国中学生生物学联赛三等奖、2014年山东省高中数学竞赛三等奖、第31届全国中学生物理竞赛三等奖、第28届中国化学奥林匹克（初赛）二等奖、2014年全国中学生英语能力竞赛（NEPCS）高中三年级组二等奖
+select * from admission_plan where school='中国科学技术大学' and year='2014' and major='英语' and district='[中国' and classy='理工';
+['查询结果为空！']
+老师您好！我是甘肃考生，获全国数学奥赛省赛区二等奖、全国物理联赛省赛区二等奖，CYPT2014（中国高中生物理创新竞赛）优秀奖，可否报考贵校？谢谢！
+select * from admission_plan where school='中国科学技术大学' and district='中国' and classy='理工';
+['查询结果为空！']
+老师您好：看到贵校自招测试时间为6月11日，请问测试时间有多久？是当天结束还是后延多长时间？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您好！我是山西省考生，有31届物理竞赛山西赛区二等奖（有中国物理学会章），28届化学竞赛山西赛区二等奖（有中国化学学会章）有31届物理竞赛山西赛区二等奖（有中国物理学会章），28届化学竞赛山西赛区二等奖（有中国化学学会章），我可以报考贵校吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='[中国' and classy='理工';
+['查询结果为空！']
+测试时间为6月11日，就只有1天能测试完成吗？
+select * from admission_plan where school='中国科学技术大学' and year='2011';
+['查询结果为空！']
+湖北省级高中，没有国家和省级奥林匹克奖（只有预赛省级一等奖），平时成绩在630-650分，可不可以报考贵校自招生？如果可以希望有多大？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='630' and district='湖北';
+['查询结果为空！']
+您校自主招生是“优先接受在全国中学生数学、物理、化学奥林匹克竞赛中获得省级赛区一等奖(含)以上奖项的高中毕业生报名”，这是否意味没有获过奖但其他条件优秀的考生也可报名？我孩子是重庆南开中学的学生，按照目前的成绩，努把力有机会考上您校，但把握不算大，他又特别向往您校物理或天文类专业。他物理成绩较好，正常情况下可以进年级前5%，最好的时候进过年级前10名，是校级三好学生和优秀学生干部，没有参加过奥赛培训和竞赛，不知他是否够你校自主招生报名条件？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and classy='理工';
+['查询结果为空！']
+您好！经过初审通过贵校原定于1月13、14日举办的“数学营”活动，已寄去相关资料，这次自主招生是否还需要重新寄送，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2014';
+['查询结果为空！']
+老师您好！我孩子是河南安阳市一中的学生，他在学校的成绩一直名列前茅，总成绩基本稳定在620分到650分之间，尤其是物理和化学成绩在全年级1300多名学生中排名在前10名，数学成绩在135-140分之间。他在高中阶段获得的奖项有“河南省三好学生”“安阳市三好学生”“安阳市文明学生”“安阳市大中学生暑期社会活动先进个人”“西北工业大学夏令营优秀营员”等荣誉称号。但是他没参加过奥赛。请问他能报你校的自主招生选拔吗？能通过审核吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and district='河南' and classy='文史';
+['查询结果为空！']
+您好我是陕西考生今年高考成绩630请问可以报考贵校的提前批次吗
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西';
+['查询结果为空！']
+你好江苏理科352，物理B+化学A，能报考本校么，需要服从志愿么，有退档风险么
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师你好我是福建文史类考生，今年586分排名4144超本一线25分，报考贵校有机会吗?能报什么专业?
+select * from admission_plan where school='中国科学技术大学' and year='2025' and district='福建' and classy='文史';
+['查询结果为空！']
+老师好，我是山西理科考生，今年考分609分，超一本线75分，全省排名3385名，请问报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2075' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，山西理科612分，超一本线78分，该分数共有123人，排名显示为2993，请问是否可以上贵校？几率有多大？专业选择余地是否大？
+select * from admission_score_pro where school='中国科学技术大学' and year='2078' and district='山西' and classy='理工';
+['查询结果为空！']
+老师您好，我是贵州理科考生640分，超一本156分，全省排名554.请问有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='640' and district='贵州' and classy='理工';
+['查询结果为空！']
+老师好！我是河南理科考生，629分，报考贵校的国防生有希望？
+select * from admission_plan where school='中国科学技术大学' and year='629' and district='河南' and classy='理工';
+['查询结果为空！']
+招生老师：您好，我是陕西考生，今年考分671，位次422，请问能否报考贵校。另外，如果服从专业调剂，是否会被退档？调节范围是否会跨度大？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西';
+['查询结果为空！']
+老师：您好，我是一名山西考生家长，孩子已通过中科大自主招生c档资格，考分为630，山西排名1259，我想问一下，1.被贵校提档后能不能进一个好一点的专业？2.贵校如何安排专业？3.提档后会不会被退档？3.大一下可转专业，跨院系转专业的条件是什么？4.若不搭基准线，加20分后被提档，分专业时是按加分后排序，还是按裸分排序分专业？谢谢您。
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='山西';
+['查询结果为空！']
+我是一名山西的考生，628.省排名1330——1400，想报考中国科大，我够录取线吗？如果狗的话，我能选报说呢么专业呢？谢谢，O(∩_∩)O谢谢！！
+select * from admission_plan where school='中国科学技术大学' and district='628.省';
+['查询结果为空！']
+老师好，我是山东理科生，分数超一本线94分，若报考中科大，服从调剂，录取希望大吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2094' and district='山东' and classy='理工';
+['查询结果为空！']
+您好！我是内蒙古蒙古族考生，理科分数509（含照顾分10分），想报贵校预科班参照往年情况有可能吗？谢谢老师了。
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+老师，您好。我是河北考生，算上省加分（10分）共673分，有可能被提档吗，提档后若各专业都不能录到，会被退档吗？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+考了640分，排名650+，有希望上贵校吗
+select * from admission_plan where school='中国科学技术大学' and year='640';
+['查询结果为空！']
+安徽考生626分，排省444名能报考贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='626' and district='安徽';
+['查询结果为空！']
+请问今年贵校提档线是多少？有扩招吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+在招生简章中提到排名要根据附加分，今年山西该考成绩中有无附加分？附加分具体指什么？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山西';
+['查询结果为空！']
+贵校今年有扩招吗？北京三好生加分承认吗？北京考生。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='北京';
+['查询结果为空！']
+贵校2014年在重庆理科的调档比例是多少？服从专业调配会否退档？专业录取采用什么原则？专业极差是多少？进校后可否转专业？2013年在重庆录取理科生的成绩排位从多少名到多少名？
+select * from admission_plan where school='中国科学技术大学' and year='2013' and district='重庆' and classy='理工';
+['查询结果为空！']
+老师：您好，我是一名山西考生，我已通过中科大自主招生c档资格，估分630左右，估计能被贵校提档，我想问一下，1.被贵校提档后能不能进一个好一点的专业？2.贵校如何安排专业？3.提档后会不会被退档？4.我省实行平行志愿，我非常希望到贵校就读，但害怕退档后会影响其他1A学校的录取，会影响吗？5.大一下可转专业，跨院系转专业的条件是什么？6.若不搭基准线，加20分后被提档，分专业时是按加分后排序，还是按裸分排序分专业？7若不搭基准线，通过自主招生的学生的专业安排是由学校随意安排吗？谢谢您。
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='山西';
+['查询结果为空！']
+我是四川的考生，估分能高一本线80分，能否报考贵校。在四川位次多少可能被录取？贵校对于贫困地区有没有特殊待遇？
+select * from admission_plan where school='中国科学技术大学' and year='2080' and district='四川';
+['查询结果为空！']
+如果服从调配，贵校会不会退档。如果我选择工科，会不会调配到理科甚至文科？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+贵校去年在江苏的录取分数线在江苏所有考生中排名多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and district='江苏';
+['查询结果为空！']
+请问天津考生报考贵校，考生的分数需超过一本线多少分可录取？贵校今年计划在津招收考生的名额有多少和招收专业是什么？贵校在天津招生组的联系方式？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='天津';
+['查询结果为空！']
+今年科大在全国扩招吗？那么在安徽省要考到前多少名呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师您好，四川理科生，请老师指点：1咱们学校在四川是否有招生咨询老师的联系方式？2在实行平行志愿的四川，对于“政审、体检合格，服从专业调剂”的进档生，是否有“进档不退”承诺？3对进档考生分配专业，是按裸分还是投档分？是分数优先还是志愿优先？级差分是多少？4根据往年的录取情况，加分选专业的人数（比如，超过调档线且获得自主招生资格的考生）约为多少名？5平均每年获得“国家留学基金委全额或部分资助”留学人数约有多少？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='四川' and classy='理工';
+['查询结果为空！']
+您好贵校今年在河南计划招生多少人啊预计多少分有望报考贵校
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+老师您好！我是辽宁的理科考生，请问贵校今年在辽宁省计划招收多少人？贵校辽宁2013年各专业最低录取分数线是多少？招生组的老师什么时间来辽宁？怎样联系？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2013' and district='辽宁' and classy='理工';
+['查询结果为空！']
+老师您好！我是吉林的理科考生，请问贵校今年在吉林省计划招收多少人？选专业的时候按裸分还是加分？（我是省三好学生，有5分的加分）招生组的老师什么时间来吉林？怎样联系？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='吉林' and classy='理工';
+['查询结果为空！']
+老师好！我是陕西理科考生，我想问一下贵校今年在陕西的招生人数是多少？还有在陕排多少名有希望？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西';
+['查询结果为空！']
+老师，您好！我是浙江理科考生不知报考贵校哪些专业才适合去国外继续深造，或是读研？今年预计高出一本线多少分可以报考贵校？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江' and classy='理工';
+['查询结果为空！']
+2013年在我省排名多少位可以上贵校？
+select * from admission_plan where school='中国科学技术大学' and year='2013';
+['查询结果为空！']
+2013年贵校在甘肃的招生人数、录取平均分、最高分是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2013' and district='甘肃';
+['查询结果为空！']
+老师你好,我想知道国防生和普通生的区别,以及国防生和提前录取批的区别,报了国防生会不会影响普通生的录取,我视力左眼550度,右眼570度,且有内斜视,有没有专业限制.我参加了全国物理大赛四川赛区的竞赛,获得了全国物理竞赛二等奖,请问有优先考虑的专业吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and district='赛区' and classy='理工';
+['查询结果为空！']
+请问贵校往年在山西录取位次（分数区间）？今年在山西招生计划？是否扩大招？若服从专业调剂是否不退档？专业调剂是在同类型范围内调还是全专业大调剂？调剂前是否与考生联系？是否按分数优先原则？贵校设在几个校区，大一学生是否在本校部？某专业很感兴趣只因视力问题就一定不被录取吗？还是被调到其它专业？若一志愿没被录取，是否二志愿能被录取？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='山西';
+['查询结果为空！']
+您好！我是安徽2014年考生，科大试点的预录取，回执单已经寄到学校，还需要和考试院填写志愿确认表吗？
+select * from admission_plan where school='中国科学技术大学' and year='2014' and district='安徽';
+['查询结果为空！']
+河北唐山一二模670多，唐山辖区理科排名十几名，能报考贵校么？可以选到好专业么？将来就业方向是什么？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河北' and classy='理工';
+['查询结果为空！']
+老师，您好！我是广西理科生，因本人是红绿色盲，报考贵校，也服从专业调剂，如果是最低分被提档，请问有可能被退档吗？如果不是最低分被提档呢？也有可能被退档吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='最低分' and district='广西' and classy='理工';
+['查询结果为空！']
+我儿子今年高三，98年出生，今年如果考上你们学校，能够进少年班吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问：天津理科生上贵校材料专业、化学专业，高考成绩需要在天津市排前多少名？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='天津';
+['查询结果为空！']
+你好，马上要天志愿了，结果在本周前能出吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您好，我是山东的考生，请问贵校天文系今年在山东除了自招，还有招生计划吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+请问今年中科大自招为什么到现在还没有结果？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好，看北京前三年的招生情况，贵校每年实际录取数都大于计划数，是扩招吗？今年还会扩招吗？另外我孩子市排名2000，报考贵校有希望被录取吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='北京';
+['查询结果为空！']
+请问老师在新疆排名多少位有可能录取？今年中科大在新疆增加名额吧？提档后能保证不退档吗？录取是按裸分吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='新疆';
+['查询结果为空！']
+你好，我是辽宁考生，已被贵校试点学院面试通过，本人的测试成绩通知书回执已发往贵校。今年，辽宁省高考改革，知分报志愿，且每档次都是平行志愿。请问，像我这种情况，如何填报志愿？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁';
+['查询结果为空！']
+你好，我是今年山东理科考生，成绩604，过一本50分，全省排名20133，报考你们学校应用物理系，有希望吗，如果专业可调剂呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东理科考生，成绩为659分，高出一本线105分，全省排名1559名，请问报贵校的经济专业有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='105' and district='山东' and classy='理工';
+['查询结果为空！']
+您好！我是云南应届毕业生，理科，今年成绩614分，省排名1691，报考贵校有希望被录取吗？另外，贵校提档比例是多少呢？服从调剂的情况下，是否承诺提档不退档呢？谢谢解答！
+select * from admission_plan where school='中国科学技术大学' and year='614' and district='云南' and classy='理工';
+['查询结果为空！']
+您好，我是一名山东理科考生，684分，在山东排名约为179－194名，比山东省一本线554高出130分，请问报考贵校工科实验班能被录取？
+select * from admission_plan where school='中国科学技术大学' and year='130' and district='山东' and classy='理工';
+['查询结果为空！']
+今年科大在江西有没有贫困地区专项计划招生计划，专业是什么。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江西';
+['查询结果为空！']
+我河南考生627分，省次603名，能上贵校吗，能进物理系吗
+select * from admission_plan where school='中国科学技术大学' and year='627' and district='河南' and classy='理工';
+['查询结果为空！']
+您好我是一名河南考生今年超出本一124分排名495可以报考科大么如果可以是否能上物理学类专业谢谢
+select * from admission_plan where school='中国科学技术大学' and year='124' and district='河南' and classy='理工';
+['查询结果为空！']
+其中理综275分，英语130分，数学平时最强，未料想只有110分。总分631只高出一本57分。但愿意服从专业调剂。
+select * from admission_plan where school='中国科学技术大学' and year='110' and major='英语' and classy='理工';
+['查询结果为空！']
+老师好。我是河南理科考生，高考成绩504分，比一本线低1分。报考贵校国防生有没有希望？
+select * from admission_plan where school='中国科学技术大学' and year='504' and district='河南' and classy='理工';
+['查询结果为空！']
+我是江苏的申请参加中国科学技术大学试点学院选拔的申请表上次没通知提交，？要提交吗
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏';
+['查询结果为空！']
+您好，我是一名河南理科考生，587分，在河南排名约为4632名，比河南省一本线505高出82分，请问报考贵校有多大把握能被录取？
+select * from admission_plan where school='中国科学技术大学' and year='587' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好!我是河南理科考生，572分，高出一本线67分，省次8307。报贵校有把握吗？
+select * from admission_plan where school='中国科学技术大学' and year='572' and district='河南' and classy='理工';
+['查询结果为空！']
+你好，我是江苏考生上次网站报试点班搞错了现在才发现，请问理科377数学169分2852名A+A（和平时成绩相差很多哦）还有面试机会吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师您好，我是四川理科生，已获得贵校自主招生B档资格，考了644分，肯定达不到基准线，需接受专业调配，那我填的志愿专业还有用吗？又是如何调配的？调配到我不喜欢的专业又怎么办？
+select * from admission_plan where school='中国科学技术大学' and year='644' and district='四川' and classy='理工';
+['查询结果为空！']
+您好！请问贵校往年在云南录取的位次情况如何？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='云南';
+['查询结果为空！']
+您好我今年573超一本线80分报考贵校是否有希望
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师：您好！我是云南考生，高考总分663分，省排名146名。请问能否被贵校录取，有专业选择的空间吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='663' and district='云南';
+['查询结果为空！']
+您好，我是一名河南理科考生，高考裸分604分，有政策性加分20分，在河南排名约为719名，比河南省一本线505高出119分，请问报考贵校有多大把握能被录取？选专业时是否还有政策性加分？
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='河南' and classy='理工';
+['查询结果为空！']
+今年安徽理科全省排名第438名，高出一本线131分，报考你校希望大吗
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好，我是今年江西理科的考生，分数631，本科排名464，报考贵校录取的可能性大吗？如果要填贵校，适合放在第一志愿平行志愿的哪个位置？谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='江西' and classy='理工';
+['查询结果为空！']
+老师你好，我是甘肃考生成绩590分，排名1606想报你校，有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='590' and district='甘肃';
+['查询结果为空！']
+你好，1、请问一下你校在河北的录取线是多少，高出一本线108分可以报吗？2、另外，在河北的招生老师电话是多少。
+select * from admission_plan where school='中国科学技术大学' and year='108' and district='河北';
+['查询结果为空！']
+老师您好咨询下列问题贵校今年在四川按大类招生吗？填专业志愿时是不是不填具体专业？专业录取时要取消政策性加分吗？哪些专业对色弱有限制？因有色弱，但体检时未查出，如果遇到专业调剂，被调剂到受限专业怎么办？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+服从专业调剂后被调入专业是招生计划中的一个还是院校全部文史专业中的一个？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+中科大今年是大幅减招了吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是甘肃考生，想进入贵校的电气工程或机械工程及自动化或材料科学工程或能源动力系统及自动化专业学习，曾获甘肃省物理竞赛省级二等奖，预估609，能否进入这些专业，若不能进入，进校后能否转专业?转专业的条件是什么？转专业的概率有多大？
+select * from admission_plan where school='中国科学技术大学' and major='自动化' and district='甘肃' and classy='理工';
+['查询结果为空！']
+老师您好，请问自主招生中的基准线是什么，怎么确定的？我是四川理科生，近几年基准线是多少？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='四川' and classy='理工';
+['查询结果为空！']
+老师：你好！请问2013年试点学院只对江苏、四川招生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2013' and district='四川';
+['查询结果为空！']
+老师您好，我女是济南13岁考生。惠助解答：一、非贵校少年生需多少分方可理学物理类投档录取？二、若成绩不理想明年能否报考贵校？三、贵校少年生有读研读博或者出国机会吗？谢谢您！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+老师：您好！我是四川绵阳2013理科考生，请问今年贵校的调档比例是多少？调档之后退档吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川' and classy='理工';
+['查询结果为空！']
+老师好：宁夏计划数多少？有无级差？预计今年提档线多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='宁夏';
+['查询结果为空！']
+你好，刚收到学校发的有关贵校在江苏招收拔尖人才30人的通知，我平时考试都在学校划的本一想上50分以上，但高考成绩没出来，数学，化学学科奥赛省级三等奖，能否报名
+select * from admission_plan where school='中国科学技术大学' and year='2050' and major='化学' and district='江苏';
+['查询结果为空！']
+老师辛苦了！四川理科生请老师指点：1贵校在实行平行志愿的四川，对于“政审、体检合格，服从专业调剂（未勾选定向调剂）”的进档生，是否有“进档不退”承诺？2贵校通过《阳光高考》平台“高校往年录取分数查询”栏目中公布的--各专业的平均分数是裸分（不含各种加分的各科总成绩）还是各种加分后的投档分？3贵校专业分配时按裸分还是按投档分？4较高分数考生所报专业志愿均未被录取时，是优先调剂安排较高分数考生的专业，还是先安排其他较低分数考生，最后统一调剂？5根据老师您的经验，要想成功被理想专业录取，在“本专业3年平均分”基础上预留多少分较为妥当？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='四川' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东的，请问：一、少年生过一本线多少分才能录取？二、成绩下来后还需要填提前批的志愿吗？我的老师们也不清楚。三、大约什么时间下录取通知书？四、贵校的少年生如果本科毕业出国读研还需要高中毕业证吗？（我现在高二可能以后不会有高中毕业证。）谢谢您，老师辛苦了！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东';
+['查询结果为空！']
+老师：您好！我是四川绵阳理科考生，膜拜贵校已久，目前分数高出2012年四川一本线50分左右，爱好物理学。报读贵校有希望吗。谢谢！
+select * from admission_score_major where school='中国科学技术大学' and year='2050' and district='四川' and classy='理工';
+['查询结果为空！']
+北京考生，一摸海淀400名，二摸661，未出排名，另有10分政策性加分，报考科大可否，能否推荐1-2个专业
+select * from admission_plan where school='中国科学技术大学' and district='海淀';
+['查询结果为空！']
+你好，我是新疆考生，一模分差141，二模分差167，三模分差130（一本线），生物和化学好，想上贵校，有希望吗？哪个专业更有希望？如果已被贵校提档，但所报专业都未满足，若服从分配，调剂时专业与考生填报专业差别会大吗？（要学化学工程或者生物方面的专业）。谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='新疆';
+['查询结果为空！']
+今年北京的招生计划减少了，请问还会如去年一样大幅扩招吗？北京海淀考生排多少名可报呢？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2018' and district='海淀';
+['查询结果为空！']
+我是江苏考生，本周周围同学陆续收到华约大学的自招协议书。昨在贵校招生在线查到：山东和武汉的同学说已拿到并寄出协议。请老师回应下，有点着急。
+select * from admission_plan where school='中国科学技术大学' and year='昨' and district='湖北';
+['查询结果为空！']
+你好，我是河南新乡考生家长，我儿子二模，三模分数是650、670，均高当地一本线100、87分.1)请问能够达到贵校在我省分数线;2)今年通过自主招生B档，请问自主招生选测科目BB是指什么?3）定向生主要分配到哪里？4）自主招生分数能否作为附加分选专业？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+请您帮我看一下西城520，海淀820能上么。这几年高考的时候大概招多少排名呢？谢谢
+select * from admission_plan where school='中国科学技术大学' and district='海淀';
+['查询结果为空！']
+孩子将来想往机器人方面发展，请问报考贵校哪个专业跟机器人关联密切更有利于以后发展！
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+请问老师，北京少数名族加分贵校提档时承认吗？是否提档服从调剂基本不退档？贵校在北京今年招生计划减少，是否会向往年一样扩招？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='北京';
+['查询结果为空！']
+贵校招生章程第十条规定，专业录取时不设专业分数级差，考生以高考各科目总分（不含附加分）依次选择专业志愿，总分相同时，按分项（以附加分、数学、理科综合、语文、英语为序）分数从高到低排序。请问：如果A考生的成绩为650（含30附加分），B考生裸分成绩640分，在同一专业的录取上，按第十条规定，应该是B考生优先，这样理解对吗？
+select * from admission_score_major where school='中国科学技术大学' and year='640' and major='英语' and classy='理工';
+['查询结果为空！']
+老师，您好！有几个问题想请教下：1、请问已通过自主招生得到加分的同学是否占统招或是计划招生的名额？这对我们很重要，因为中科大今年在北京计划招生数额较上年减少22%。2、我的孩子是北京东城区理科考生，一模成绩610，二模成绩638，北京是在高考前先填志愿，有一定风险，想请问您的意见，这个成绩填报中科大会不会填高了？3、孩子有意报中科大管理学院的统计与金融专业，但我们从中科大网站上了解到，该专业由数学学院招生，那我们报志愿是否应该报数学类？数学类在北京只招收1人，如果是，那么想上统计与金融专业的人和想学报数学学院的考生中必然有一人要落榜，该怎么规避这种风险？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='数学类' and district='北京' and classy='理工';
+['查询结果为空！']
+请问今年在四川省的招生人数是多少？理科。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+老师，您好，我是四川成都的考生，二诊超一本线90分，可以报贵校的计算机专业吗？
+select * from admission_plan where school='中国科学技术大学' and year='2090' and district='四川';
+['查询结果为空！']
+我是山西晋城市一名考生，今年高考成绩615，想上贵校请问能否被录取?选择专业的空间如何？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山西';
+['查询结果为空！']
+第一顺位报考贵校，能加10分选专业吗？还有何优惠政策
+select * from admission_plan where school='中国科学技术大学' and year='2010';
+['查询结果为空！']
+请问老师，我是青岛高一的学生，想提前准备咱学校的自招，老师，英语方面都有哪些竞赛可获得加分呢？全国中学生英语能力竞赛（NEPCS）？全国创新英语大赛？希望之星？还是其他的呢？至少需要拿到什么名次？谢谢老师！
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='山东';
+['查询结果为空！']
+老师，您好，我是湖北理科生，高出一本线70分，能否被您校录取？
+select * from admission_plan where school='中国科学技术大学' and year='2070' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师你好;山西理科生，590分，高出重点线60分。省排名3338名，是否可被录取？？？？
+select * from admission_plan where school='中国科学技术大学' and year='2060' and district='山西' and classy='理工';
+['查询结果为空！']
+我是山西考生，考了600分，全省2100名左右，一本是530分，有几成把握能被贵校录取？有没有较大把握选好一点儿的专业？
+select * from admission_plan where school='中国科学技术大学' and year='530' and district='山西';
+['查询结果为空！']
+老师您好，647分，全省排名511，本校录取是否有希望，如果去除加分成绩比较低，专业录取服从调剂，是否有被退档的风险，另外，本校的传播学适合理科男学吗？就业前景如何？
+select * from admission_plan where school='中国科学技术大学' and major='传播学' and classy='理工';
+['查询结果为空！']
+1.贵校今年在福建的投档比例是多少？，2.贵校是否设置专业级差？，3.贵校是否有“在服从专业调剂前提下不退档”政策？，4.被贵校提档后在专业录取是排位是按裸分还是投档分？，5.本人高考647分，省内排名788，报考贵校可选哪些专业？，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建';
+['查询结果为空！']
+我今年的分数是616，能否进入贵校？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+您好，我是河南理科考生，602分，高一本线62分，报贵校提前批专业有没有希望？
+select * from admission_plan where school='中国科学技术大学' and year='2062' and district='河南' and classy='理工';
+['查询结果为空！']
+您好，我有几个问题。，第一：理科湖北610分有希望冲刺进贵校否？，，第二：进入贵校后想做专业调整是什么流程？转专业成功后需要多读一年吗？，，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='湖北' and classy='理工';
+['查询结果为空！']
+我叫吉利，15岁。很想上你们学校，今年高考成绩是637分，理科。请贵校老师告诉我有希望吗。
+select * from admission_plan where school='中国科学技术大学' and year='637' and classy='理工';
+['查询结果为空！']
+今年659分，省排名裸分684，加分748，能否被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='659';
+['查询结果为空！']
+我高考成绩650分，高考志愿保守了，没报中科大，现在很后悔，还有办法和机会被贵校录取吗？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我想知道贵校今年的分数线大概多少,可以吗？？？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是一名山东理科考生，考了626分，超过重点线44分，打算报考贵校会计专业，把握有多大？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2044' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好！，我今年考的605，有可能进入贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是河南考生，今年高考比一本线高了76分，请问报考贵校有希望吗
+select * from admission_plan where school='中国科学技术大学' and year='2076' and district='河南';
+['查询结果为空！']
+河南高二考生，报中科大少儿班，555分能参加复试吗？若不能，得多少分？
+select * from admission_plan where school='中国科学技术大学' and year='555' and district='高二';
+['查询结果为空！']
+老师您好！我是山东考生，如果我靠自主招生（优秀）降分进入科大，那选专业时是采用裸分加10分后与统招生一起选专业呢还是单独和自主批次的学生一起选。
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='山东';
+['查询结果为空！']
+老师好，今年中科大录取时的有专业级差吗？如果有，具体是多少？，谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好！我是甘肃理科类考生，请问贵校今年有提前批次招生吗，都有什么专业？一般要高出一本线多少分才能进入？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='甘肃' and classy='理工';
+['查询结果为空！']
+贵校通信工程专业12年在山东的招生计划是多少？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2012' and major='通信工程' and district='山东';
+['查询结果为空！']
+贵校核工程及核技术专业12年在山东的招生计划是多少？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2012' and district='山东';
+['查询结果为空！']
+老师你好：我是浙江考生平行志愿省份---请问贵校投档比例是1：1吗？--假如贵校提档线是660，我高考裸分651因本人是少数民族加分10分（651+10=661)刚够了提档线，如贵校投档比例不是1：1是否有被退档的可能？？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='浙江';
+['查询结果为空！']
+650分，报信息安全专业，有把握吗
+select * from admission_plan where school='中国科学技术大学' and year='650' and major='信息安全';
+['查询结果为空！']
+新生入学一年后可在全校范围内自主选择学专业有比例限制吗？转的比例是多少？
+select * from admission_plan where school='中国科学技术大学' and year='一年';
+['查询结果为空！']
+老师您好！我是江苏创新班家长，现在江苏教育考试网正在高考志愿模拟填报，但是用创新班学生的高考准考证号和考生号无法登陆，请问创新班的学生需要填报高考志愿吗？另外，创新班的学生能享受小高考的加分吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏';
+['查询结果为空！']
+老师，您好，请问先天性心脏病已治愈16年，可否报考贵校中国工程物理研究院的定向生？
+select * from admission_plan where school='中国科学技术大学' and year='2016' and classy='理工';
+['查询结果为空！']
+科大2011年在天津的录取最低分，网上报的是649，而在http://kaoshi.edu.sina.com.cn/college/c/more_major/10358.shtml上能源动力类的分数只有638，请问以哪个为准呢，这两个差别挺大的呢
+select * from admission_score_major where school='中国科学技术大学' and year='2011' and district='天津';
+['查询结果为空！']
+我，刘鹏宇，1995年8月出生，深圳二模考试成绩是宝安区第1名，深圳市第4名。其中理综296分，位深圳市第1名，数学、物理、化学，是我最强学科。我学得轻松，从来就没有在晚上十点半之后睡觉；我做事迅速，极少出现考试不够时间的现象；我爱好广泛，喜欢中国象棋，唱歌，文艺活动；我热爱集体活动，爱好与人交流，但我动手能力有点薄弱。，现想咨询如下问题，恳望您指导。，1、在贵校本科毕业后，我想到英国、美国、加拿大读研究生，需要哪些条件？有哪些渠道？在上述三个国家读研究生一般需要多长时间毕业？，2、假如我被贵校录取，根据上述简介，您觉得您校哪些专业比较适合我？，3、就读贵校本科期间，国际、国内交流的情况怎么样？，4、要填报贵校，你想提醒我哪些注意事项？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and district='加拿大' and classy='文史';
+['查询结果为空！']
+贵校少数民族加分在专业入取时侯算吗？即裸分660，少数民族10分共670分,专业入取时候是按裸分660分还是670分入取--谢谢
+select * from admission_plan where school='中国科学技术大学' and year='670';
+['查询结果为空！']
+请问，小孩有游泳的20分特征加分，1.如果调档分数满足贵校，是按照裸分成绩录取专业还是按照考生自填专业录取？2.如果服从调剂，会不会有被退档的可能？3.调剂专业是按该校全部专业进行调剂还是按照在当地招收的专业进行调剂？4.进入该校后，换专业的机会有多大？
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+老师，您好！，请问科大的自主招生的学生和保送的学生是否都占我们省的招生指标和计划？今年科大在青海省的录取线是否是大年？估计在全省排名多少可以有希望？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='青海';
+['查询结果为空！']
+请问：贵校今年在黑龙江自主招生入围面试资格的华约联考笔试分数线是多少？我折算后260多分没合格，到底差多少啊？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='黑龙江';
+['查询结果为空！']
+老师您好。请问科大往年在天津招生以裸分被录取的占总录取人数的百分之几？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='裸分' and district='天津';
+['查询结果为空！']
+网上公布的2011年贵校在辽宁最低录取分数线648分，是否与自主招生降分录取有关？实际投档线是多少？今年有没有预估啊
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁';
+['查询结果为空！']
+请问：网上公布的2011年贵校在黑龙江最低录取分数线651分，是含自主招生的。那么不含自主招生的投档线是多少？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='651' and district='黑龙江';
+['查询结果为空！']
+请问：网上公布的2011年贵校在黑龙江最低录取分数线651分，是否与自主招生降分录取有关？实际投档线是多少？
+select * from admission_plan where school='中国科学技术大学' and year='651' and district='黑龙江';
+['查询结果为空！']
+招生老师：您好！我是浙江省的考生家长，有个问题向您请教一下：请问今年贵校在浙江省理科的招生计划是多少人？搞科研的话应该选什么专业？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江' and classy='理工';
+['查询结果为空！']
+如果高考成绩超出山东一本线80分，有没有希望录取？
+select * from admission_plan where school='中国科学技术大学' and year='2080' and district='山东';
+['查询结果为空！']
+请问今年在安徽计划招多少人？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师，您好，我现在就读山东师范大学附属中学，今年参加高考。我很想考取中科大，也希望成为其中的一名学子。现在我想问问老师，今年你们的招生计划和招生专业以及招生方式上有哪些变化，尤其是在山东地区？第二个问题是，今年的招生政策和录取原则与往年有没有不同的地方，我们报考的时候需要注意哪些问题？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东地区';
+['查询结果为空！']
+我是河南考生，分数640，排名3269，报考贵校一定能被录取么？报考贵校建筑学专业一定能被录取么？如果被调剂会被转至哪个专业？
+select * from admission_score_major where school='中国科学技术大学' and major='建筑学' and district='河南';
+['查询结果为空！']
+你好我是福建考生，今年高考考669，排名564，不知报考贵校希望大吗？专业选择余地呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好：我是内蒙古理科考生，分数530分，超一本48分，报考贵校有希望吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2048' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+老师你好！，1.贵校浙江计划内招生物理类6人，对自主招生物理类招生数应不在计划内吧，那么浙江物理类招生总人数多少（含保送生、自主招生、计划内）？，2.假如贵校浙江投档线667分，那么浙江自主招生资格生667以上有10人，再假如这10人全部是A档资格生且第一志愿全部选物理，根据贵校自主招生章程，上线A档资格生满足第一志愿，那么物理类会不会超过计划总人数？，3.自主招生A档资格生没达到投档线加10分选专业，和计划内一起排队选专业，那么这批资格生的物理类指标含在计划内人数吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是河北考生。被贵校录取后，还能不能在大二或大三时调整专业？如果能，需要什么条件？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='大二';
+['查询结果为空！']
+今年贵校在内蒙古理科试验班只招一个指标！请问有可能根据生源状态进行调整吗？例如：调整到2--3人？？？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+630分敢冲贵校吗？又没有一丝希望？
+select * from admission_plan where school='中国科学技术大学' and year='630';
+['查询结果为空！']
+您好，我是山东理科考生，550分可否报考贵校的工业工程
+select * from admission_plan where school='中国科学技术大学' and year='550' and major='工业工程' and district='山东' and classy='理工';
+['查询结果为空！']
+老师你好！我是河南理科考生，考了647分，全省1887——2017名，上贵校有多大希望？我想知道上贵校一般须在全省前多少名？
+select * from admission_plan where school='中国科学技术大学' and year='2017' and district='河南' and classy='理工';
+['查询结果为空！']
+老师，你好！我是河南理科考生，考了647分，上贵校有多大把握？我喜欢机械，电子，自动化等方面的专业，若填同意专业调剂，会不会调到性质差别很大的专业？
+select * from admission_plan where school='中国科学技术大学' and year='647' and major='自动化' and district='河南' and classy='理工';
+['查询结果为空！']
+老师你好，我是山东理科考生，高出一本线19分，报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+听说中科大今年在湖北的预估录取线是663分，不知是否
+select * from admission_plan where school='中国科学技术大学' and year='663' and district='湖北';
+['查询结果为空！']
+老师，我是山东的考生，理科，666分，能不能被贵校材料科学类学院录取？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='666' and district='山东' and classy='理工';
+['查询结果为空！']
+老师，您好．我是四川应届理科考生，高考裸分622分（高重本线103分），预计省排名600名，能被贵校提前批定向生录取的可能性有多大？我有一所大学的自主招生，若填报贵校，对档案投放有影响吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='103' and district='四川' and classy='理工';
+['查询结果为空！']
+我是山东2011理科512分能上贵校吗？能报啥专业？给点建议，跪谢！
+select * from admission_plan where school='中国科学技术大学' and year='512' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好！，1.贵校公布的历年录取人数含自主招生和保送生吗？，2.2010年贵校在浙江计划内招生47人（浙江考试院公布数据），保送生5人，40人自主招生资格生中有13人裸分达到贵校投档线，还有9人在投档线下20分以内，合计74人，贵校2010年浙江录取人数是74人，那么自主招生资格生中还有12人在615-631分之间（投档线下21-40分），难道这12人没有一个是A档资格生？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='浙江';
+['查询结果为空！']
+贵校今年在江苏的预估线约是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江苏';
+['查询结果为空！']
+老师你好，我是安徽省理工科学生考了642分，全省排名880名，由于语文只考了114分。上科大有把握吗？
+select * from admission_plan where school='中国科学技术大学' and year='114' and district='安徽' and classy='文史';
+['查询结果为空！']
+1.我是河北省的考生，考了666分有希望被贵校录取吗？，2.请问贵校女生的就业方向是什么？
+select * from admission_plan where school='中国科学技术大学' and year='666' and district='河北';
+['查询结果为空！']
+您好，我是江苏考生，392分，741名，请问报考贵校有选择专业的余地吗？
+select * from admission_plan where school='中国科学技术大学' and year='392';
+['查询结果为空！']
+老师您好：请问：1、福建理科考生，总分673分，位次全省406可以录取贵校吗？2、可以填报那些专业？3、政策加分贵校有算专业分吗？4、贵校有专业级差吗？5、是按大类招生吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='673' and district='福建' and classy='理工';
+['查询结果为空！']
+请问今年贵校在安徽的国防生招生大概需要多少分？安徽省排名得多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+我是山东理科考生，高考分数651分，省内排名2195名，1、想报考贵校，专业服从调剂，请问有希望被录取吗？2、报考国防生有希望吗？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='651' and district='山东' and classy='理工';
+['查询结果为空！']
+老师您好，我是河南一名理科生，今年考了657分，请问能上贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='657' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东泰安考生，今年高考成绩理科627，超出一本线60分，请问报考贵学希望大吗？可以报考哪些符合的专业，多谢您的指导回复。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+请问老师，河南理科648分报考贵校希望多大？
+select * from admission_plan where school='中国科学技术大学' and year='648' and district='河南' and classy='理工';
+['查询结果为空！']
+您好！我是山东临沂莒南的理科考生，618分报考贵校的理学、工学、经济学的不受限制的专业有多大的把握？另外，我的视力不太好（两眼眼镜均700度左右接近800），而且体重超重（比较严重的超重……），看到体检要求上有不宜报考的专业，但是很喜欢相关专业，请问能不能报考相关专业，报考后会不会因为视力问题作退档或者入学后退学等处分。
+select * from admission_plan where school='中国科学技术大学' and major='经济学' and district='莒南' and classy='理工';
+['查询结果为空！']
+我是河北考生，今年671分，430名。想A报他校，B报贵校。按往年录取线应该可以被录取，但B是不是受影响?另外，贵校招生计划（河北）是怎样的？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河北';
+['查询结果为空！']
+老师您好，我是河南理科考生，626分，报考贵校，有被录取的希望吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='626' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是山东考生，今年高考成绩627，超出一本线60分，请问报考贵学希望大吗？可以报考哪些符合的专业，多谢您的指导回复。
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+尊敬的老师：，您好！，我是一名报考贵校少年班的山东籍考生，今年山东数学、物理较难，影响了正常发挥。山东考生竞争激烈，历来一本线偏高，据我所知除泰安外其他中学的学生都没有经过特殊训练，故在少年班的录取名单中很少能见到山东学生的踪影。去年我校一名学生，虽然高考成绩在报考少年班的考生中是山东省第一，但由于优秀学生太多，省内排名不很理想，结果未能参加面试，今年已是清华、北大的种子选手。恳请贵校从全局考虑，给优秀生源区、给山东的考生一次机会！非常感谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好：1、请问来河南招生的老师什么时间到？2、理科实验班分到河南名额是多少？3、如果成绩优异6月份才满17周岁能否申请进入少年班学院？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，我是吉林考生，估分645，能否进入贵校车辆工程专业，建议报考什么专业？咨询
+select * from admission_plan where school='中国科学技术大学' and major='车辆工程' and district='吉林';
+['查询结果为空！']
+你好！我是新疆双语班考生想报贵校，请问贵校管理科学与工程类具体有哪些专业？
+select * from admission_plan where school='中国科学技术大学' and major='管理科学与工程类' and district='新疆';
+['查询结果为空！']
+请问贵校最有就业竞争力的专业是哪个？薪金能达到多少？哪个专业再出国方面最容易？能申请到美国top10的大学吗？
+select * from admission_plan where school='中国科学技术大学' and district='美国';
+['查询结果为空！']
+请问贵校近三年在河南国防生录取分数线?
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+请问贵校近三年在安徽国防生录取分数线?，国防生是否只能从部队考研?能否出国升造?
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='安徽';
+['查询结果为空！']
+如果今年能被你校录取，能否按年龄（16周岁）进入你校少年班学院？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好，我是辽宁理科考生，估分657，政策加分10分，报科大有希望吗？如能，有希望进什么专业？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='辽宁' and classy='理工';
+['查询结果为空！']
+老师您好！请您告知2005年至2010年贵校在福建理科统招录取线各是多少。真是非常感谢，占用您时间了！
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='福建' and classy='理工';
+['查询结果为空！']
+老师好！，贵校今年在湖北提前本科（理工）中有2个招生计划，报考该计划有无条件？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师好，我儿子有轻微色弱，现估分660左右，非常喜欢贵校的化学类、生物类等专业。但《普通高等学校招生体检工作指导意见》中说学校有关专业可不予录取；不知贵校对此是否有严格要求，是否可以录取到材料、化学、生物等专业？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+报科大主要是想出国，但听说现在签证形势不容乐观。请问：今年科大赴美学生签证有被拒的吗？主要原因是什么？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问贵校今年在河南省有无提前批次招生？如何了解到相关信息？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+我是湖北的一位考生，已取得贵校的自主招生B档资格。湖北今年自主招生录取在提前批后和一本开始前，此时科大在湖北的录取提档线还未划定，自主招生依据多少分数线进行录取？优惠分怎样算？烦请老师给予说明，使我心中有数。，谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='湖北';
+['查询结果为空！']
+1、老师，您好！我是享受国家政策加10份的福建考生，2011年高考本人如能投档进入贵校，而政策加分在选择专业上贵校不予加分，这样投档进入贵校后能确保百分百录取吗（愿意服从专业调剂）？，2、我在相关书籍上看到，贵校公布的历年录取福建考生的录取分（投档分）要比实际录取的最低分高出许多，这是什么原因呢。，3、请告知我2011年贵校在福建负责高招的招生组联系人的姓名，手机号码。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2011' and district='福建';
+['查询结果为空！']
+我是安徽考生，请问今年高考成绩要在全省500-600名左右能被录取中科大吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+贵校公布的2011分省招生计划合计不到900人，还有900多人为保送生、自主招生、少年班及机动名额，请问分省计划的00班和物理学类合计分别为64人、87人，实际00班和物理学类全部分别为多少人？
+select * from admission_plan where school='中国科学技术大学' and year='2011';
+['查询结果为空！']
+我是一名河南考生，今年是一个自主招生志愿和六个一本平行志愿。，通过贵校自主招生后，在高考报名时的一些问题，1.如果选择贵校，填写自主招生志愿之后是否需要再填写平行志愿？，2.如果放弃贵校，是否会被记录档案。，3.如果分数较高，且填报了贵校的自主招生志愿的情况下。但平行志愿第一栏填了分数更高的学校且分数达到，那将被哪所学校录取？，谢谢您的回答。
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+1、你校哪些专业是热门专业？（理工类考生），2、志愿服从调剂，退档与否？专业安排时，是否是调剂到相近相关的专业？打电话与学生确认不？，3、自主招生占不占计划？，4、今年招生计划在什么地方查询？，5、食宿条件怎样？，6、进校后，想调换专业怎么办？能不能修双学位？（即在读本专业同时，可以选择读本校其它专业且有无老师辅导？），7、有无应往届之分？，8、出国是公费还是自费，条件怎样？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+中科大有“临床医学”专业吗？以后想从事相关的研究，今年报考时要报那个系？什么专业呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='临床医学';
+['查询结果为空！']
+浙江2011自主招生资格生专业填报5月13-15日，现在如果第一志愿填00班，专业排队按原始分无加分选专业优惠，如果00班没进，第二志愿其它专业加分优惠应该不变吧？A档资格生如果原始分达到基准线，那么第一志愿00班进不了，应满足第二志愿吧？，00班浙江含自主招生共多少名额？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='浙江';
+['查询结果为空！']
+请问今年在云南的理科招生计划？提档比例？提档后是否会退档？云南理科考生大概在什么排位有希望就读贵校？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='云南' and classy='理工';
+['查询结果为空！']
+请问贵校2010年在河南省招收文科生的录取分数线是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2010' and district='河南' and classy='文史';
+['查询结果为空！']
+新疆今年招生计划目前还没有公布，从以往看，贵校在新疆实际招收都比计划要多,今年也是如此吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='新疆';
+['查询结果为空！']
+在河南三模考了640分报考科大有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='640' and district='河南';
+['查询结果为空！']
+我是新疆的女生，正常考分在620分左右，想上贵校且有机会出国，请问哪几个个专业好些？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='620';
+['查询结果为空！']
+1、2010年四川招生计划39人，贵校网站公布的录取人数达84人，多出的45人是哪些招生类型？，2、贵校网站公布的最高、最低、平均录取分数是否含政策加分？，3、招生章程录取规则的“单科成绩优异”指达到满分的百分比是多少？，4、“理科试验班类”是否含生命科技英才班？通过“生物科学类”计划是否可进生命科技英才班？四川高考裸分达到前200位能否直接进生命科技英才班？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='四川';
+['查询结果为空！']
+中科大今年在河南省招生,在录取时:二级运动员的加分是参考录取?还是按加分后录取?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+您好！我是河北理科考生。请问贵学校（中国科学技术大学）对河北理科“农村独生子女”考生的优惠加分是怎样规定的？贵学校在2011年的招生章程中提到：“对符合享受加分的考生，可按教育部及省招办的主管部门的规定加分提档”。这句话是否说明就是认可“河北省农村独生子女高考加分优惠政策”呢？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2011' and district='河北' and classy='理工';
+['查询结果为空！']
+老师好。报考贵校专业无级差，若我喜欢化学，能将化学报第一专业，理科实验班报第二专业，是否合理？还是将一、二专业调换一下。谢谢
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师，我很喜欢贵校，对您们关注很久了，我今年高出河南一本线33分，请问我报贵校有希望吗？谢谢您。我在全省排名11000多。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+我看前五年您校的录取分数最低高出控制线85分,平均高出79分,我今年656分,704名,请问可以报您校吗?有多大把握?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+您好！我是江西理科生，今年高考603分，如果我把贵校放在A志愿，并且服从专业调剂，是否有被投档的希望？如果被投档而未被录取，又是否有被退档的危险？真诚地期待您的回答，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江西' and classy='理工';
+['查询结果为空！']
+618分报考中科大是否可以
+select * from admission_plan where school='中国科学技术大学' and year='618';
+['查询结果为空！']
+是河南文科考生，今年考了511超出本省2本线22分，报考贵校的二本有希望吗？能上什么专业？
+select * from admission_plan where school='中国科学技术大学' and district='河南' and classy='文史';
+['查询结果为空！']
+实考605分，省级三好生加10分，如贵校提档，且服从专业调剂，是否会被退档？
+select * from admission_plan where school='中国科学技术大学' and year='2010';
+['查询结果为空！']
+尊敬的招生老师：我是安徽淮南二中理科考生，分数609分,高出一本线47分，想上你校，请问有希望吗？急急！！！！
+select * from admission_score_pro where school='中国科学技术大学' and year='609' and district='安徽' and classy='理工';
+['查询结果为空！']
+河南理科577分，超本省一本线25分，不知能否被贵校录取？可以报考什么专业？
+select * from admission_plan where school='中国科学技术大学' and year='2025' and district='河南' and classy='理工';
+['查询结果为空！']
+1。我今年高考成绩640，广东重本线是621，有没有希望被贵校录取？2.按照我的情况，被贵校的哪个专业录取的希望大一些？3.贵校2010年在广东招生的计划是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='广东';
+['查询结果为空！']
+老师，您好，我是广东理科学生，请问广东省排名多少才有可能被贵校录取，广东一本621分，我的高考成绩是661分，报考贵校能否被录取？
+select * from admission_plan where school='中国科学技术大学' and year='661' and district='广东' and classy='理工';
+['查询结果为空！']
+老师好，河南理科640分报考贵校把握大吗？能否进入物理系？
+select * from admission_plan where school='中国科学技术大学' and year='640' and district='河南' and classy='理工';
+['查询结果为空！']
+我是河南的一名理科生考分629分报考贵校的希望有多大?贵校今年在河南的招生比例是多少？是否见档不退档？可以转专业吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+您好！我是河南一理科考生，高考分数627分（超一本线75分，全省排名1138）。请问贵校在我们这里的本科一批，我可以报吗？可以报哪些比较好的专业呢？
+select * from admission_score_pro where school='中国科学技术大学' and year='2075' and district='河南' and classy='理工';
+['查询结果为空！']
+您好！我是安徽理科考生，今年成绩是635分，超出一本线73分。请问如果报考贵校的机械设计制造及其自动化专业，能被录取吗？
+select * from admission_plan where school='中国科学技术大学' and year='635' and major='机械设计制造及其自动化' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师好，我是陕西考生今年596分位次是9602名，一本556分，想问一下能上贵校的哪些好一点的专业，请老师推荐几个。贵校投档后是否退档（服从调剂）？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西';
+['查询结果为空！']
+你好，我是河南理科应届生，614分，排省2688名，很向往贵校，请问这个分数可不可以上啊？服从专业调剂。
+select * from admission_score_pro where school='中国科学技术大学' and year='614' and district='河南' and classy='理工';
+['查询结果为空！']
+广西611+10分照顾分能报哪个专业？
+select * from admission_plan where school='中国科学技术大学' and year='611' and district='广西';
+['查询结果为空！']
+老师你好！河南理科女生594分高出一本线42分少数民族5共599高出一本线47分报贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='594' and district='河南' and classy='理工';
+['查询结果为空！']
+我是一名安徽考生，今年考了628分，可能无法进入贵校，但是我的数学考了144，英语考了130，从小就接触电脑，对电脑知识有一定的基础，而且对电脑专业知识十分感兴趣，请问贵校的老师们，我有可能进入该校吗？
+select * from admission_plan where school='中国科学技术大学' and year='628' and major='英语' and district='安徽';
+['查询结果为空！']
+我今年考了605高一本53分报你们的自动化机械设计电气工程土木工程通讯工程能上么？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='土木工程';
+['查询结果为空！']
+我1994年7月出生，如果有幸被录取能否转到少年班
+select * from admission_plan where school='中国科学技术大学' and year='1994';
+['查询结果为空！']
+今年广东理科报考要多少分
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广东' and classy='理工';
+['查询结果为空！']
+我是山东考生，今年考了657分，高出一本线77分，在全省排名1500多名，报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='657' and district='山东';
+['查询结果为空！']
+老师您好，我是陕西理科考生，今年高考663分，459名。请问能否报考贵校较好专业？贵校在陕咨询会何时举行？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西' and classy='理工';
+['查询结果为空！']
+理科成绩626，高一本线74分，全省排名1235，想报考贵校，是否有希望
+select * from admission_plan where school='中国科学技术大学' and year='2074' and classy='理工';
+['查询结果为空！']
+我为贵校的自主招生资格生,在以前的自主招生信息提交时已填过专业志愿,那么现在的三个专业志愿又该怎样填?以哪个为依据?
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师你好，我今年陕西考生理科661分529名，请问可以报考贵校吗？有多大把握？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西' and classy='理工';
+['查询结果为空！']
+老师好！陕西理科考生633分，位次2427，报考贵校国防生有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='633' and district='陕西' and classy='理工';
+['查询结果为空！']
+我是山东理工科考生，今年考了669分，理综230分，不知报贵校希望多大，如能进入，能选个什么样的专业
+select * from admission_plan where school='中国科学技术大学' and year='230' and district='山东' and classy='理工';
+['查询结果为空！']
+老师,我是山东理科考生,综合成绩649分，在全省排名3184位，想报贵校，能有多大把握，真切希望得老师的指点。谢谢！！！！！！！
+select * from admission_plan where school='中国科学技术大学' and year='649' and district='山东' and classy='理工';
+['查询结果为空！']
+尊敬的老师：我是四川考生，考分630，超重本线118分，请问我报考贵校的录取机会怎样？
+select * from admission_plan where school='中国科学技术大学' and year='118' and district='四川';
+['查询结果为空！']
+河南623分，位次1519,报考贵校希望有多大？
+select * from admission_plan where school='中国科学技术大学' and year='623' and district='河南';
+['查询结果为空！']
+我是科大学生家长,现在出国留学渐成大趋势,今后想出国的学生,还是选科大为上.
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您好，我是河南考生，请问大约多少分今年报考贵校才比较稳妥，再问，专业之间有分数级差吗，最后，在允许调剂专业的情况下贵校可能退档吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+老师您好！内蒙理科考生，裸分612分，高出最低控制分数线102分，报考贵校选择专业是否有余地？被录取可能性有多大？请教老师。如果方便恳请告知贵校在呼和浩特的招生老师联系电话。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='102' and district='内蒙古';
+['查询结果为空！']
+三好学生加10分后才超一本线69分，我是河北的，如果有幸被录取到不喜欢的专业（喜欢的专业分很高），能不能转系，难度呢？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+老师您好！内蒙理科考生，裸分612分，高出最低控制分数线102分，报考贵校选择专业是否有余地？被录取可能性有多大？请教老师。如果方便恳请告知贵校在呼和浩特的招生老师联系电话。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='102' and district='内蒙古';
+['查询结果为空！']
+我是山东考生，分数为613，请问，能报考山大吗。如果有可能的话，报什么专业比较有希望。
+select * from admission_score_pro where school='中国科学技术大学' and district='山大';
+['查询结果为空！']
+河北明年能否增加几个文科计划
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河北' and classy='文史';
+['查询结果为空！']
+提前批7月10~11日录取，但是本科一批7月5~6日填报，我报了提前批但是我又想报本校一批志愿，受影响吗？，谢谢回答！
+select * from admission_plan where school='中国科学技术大学' and year='2010';
+['查询结果为空！']
+http://tieba.baidu.com/f?kz=793399940，在郑州一中贴吧看到：据相关消息透露，中国科大2010年招生政策将继续向郑州一中倾斜。，，6月下旬，赵晗会长将以招生就业处特派的身份与河南招生组一同前往郑州参加招生工作。科大在豫招生的重点地区的志愿者绝大多数也将由郑州一中的毕业生担任。，，拥有科大自主招生资格的同学，即使分数没有达到科大的录取分数线而使用降分录取的优惠，依旧不必为自己的专业。，是真的吗？为什么要对郑州一中倾斜呀？不是分数面前人人平等吗？听说在保送生录取的时候科大就已近向郑州一中倾斜了？为什么会这样呢？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+我是2010年的河北应届考生，高考总分为652（实考成绩），想问一下贵校的重点专业有哪些？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+广西596分报考贵校有希望吗？有专业级差吗？
+select * from admission_plan where school='中国科学技术大学' and year='596';
+['查询结果为空！']
+老师，您好！江西考生，理科高考成绩489分，理科排位34680，填报贵校10年二本，服从专业调剂，是否会被录取？？？特急！请您帮忙回复！谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='489' and district='江西' and classy='理工';
+['查询结果为空！']
+老师：您好！我是浙江的考生高考分数635分，浙江排名2653名，第一批分数线551分，按历年贵校在浙江的录取情况看能否进贵大学，且有哪些优势的专业。顺便问下，拿过全国数学二等奖在贵校录取的时候有优势吗？。静候佳音。谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='551' and district='浙江';
+['查询结果为空！']
+科大今年在河南省理科招生计划有所减少,请问:是出于什么考虑?能否预估一下贵校的录取分数?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南' and classy='理工';
+['查询结果为空！']
+往年公布的分数线含不含自主加分或政策加分？2010年在陕招生计划?
+select * from admission_plan where school='中国科学技术大学' and year='2010';
+['查询结果为空！']
+我是一位四川考生,今年估计考了500分以上,就今年的情况来看,是否能报考您校专业?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+老师您好！我是安徽考生，获得贵校自主招生资格。请问：1、属于自主招生资格考生，6月27日“自主招生志愿”和7月2日的一本志愿，是否都需要填报？，2、这两次志愿，是否把“科大”都必须放在第一序列？，3、顺便请教老师：估计今年在安徽的贵校控制线大约是多少？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好，我是河南理科考生，根据往年经验，在河南排名大概多少名才有可能进入贵校？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南' and classy='理工';
+['查询结果为空！']
+是陕西的考生，有两个问题，一是请问平行志愿中将贵校报在A、B、C、D四个位置是否在录取、专业安排上都同样对待，二是陕西首年实行平行志愿，应怎样参考往年分数线？200名左右如何投档
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='陕西';
+['查询结果为空！']
+贵校有招生组到福建厦门吗？什么时间？
+select * from admission_plan where school='中国科学技术大学' and district='福建厦门';
+['查询结果为空！']
+老师你好！请问本校10年在江苏的理科招生名额是多少？选择科目要求？对考生提档、退档有何规定？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='江苏' and classy='理工';
+['查询结果为空！']
+我看了往年的湖北招生计划，一般都在一百人以上，为什么今年的计划人数只有60多人？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖北';
+['查询结果为空！']
+老师您好！我的儿子（天津理科考生）今年估了620-640，是否有希望报考贵校，请您给一个较明确的答复，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='天津' and classy='理工';
+['查询结果为空！']
+今年在河南招国防生吗？都是什么专业。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+您要像亲人一样回复，我将以亲人的姿态聆听！我，理科，女生，生性活泼、思维敏捷、口齿伶俐，智商还行，就是烦坐冷板凳！请给推荐一些理工科中偏文的专业，适当介绍一些专业情况更好。再问，您校的特色专业有哪些？您的经验最丰富，往往能一语中的。尽量不要给我一个网址，让我去瞎摸，指个兔子让我去撵啊！您和我的时间真的都很宝贵呀！就把我当成您的亲人吧！，诚心感谢您！
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师您好，请问贵校去年数学系在津录取的分数是多少？数学系有什么区别于他校的培养计划么？谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2018';
+['查询结果为空！']
+贵校是如何分配各地招生名额的，今年贵校在内蒙招生人数减少的原因是什么？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='内蒙古';
+['查询结果为空！']
+今年的试卷考650的话能不能录取
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+2010年山东理科省序排名多少能录取到本校？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='山东' and classy='理工';
+['查询结果为空！']
+还是不明白：近三年的专业录取最低分是否包含政策加（降）分或自主招生加（降）分？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师您好。请问：贵校近三年的专业录取最低分是否包含政策加（降）分或自主招生加（降）分？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师好:我是天津理科考生,今年估分高于一本线110分,第一志愿报考贵校的数学系,可以录取吗?录取的概率有多大?天津今年实行大平行志愿贵校提档后还退档吗?谢谢了!!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='天津' and classy='理工';
+['查询结果为空！']
+您好，我是山西理科的一名学生，想报贵校，今天估分是593，不知道有希望敢填报贵校！thanks！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山西' and classy='理工';
+['查询结果为空！']
+老师，我陕西理科平行志愿，女生，估分620到630，敢报贵校吗？我这个分数可以到一个好的专业吗？平行志愿，服从调剂，提档后退档吗？我可是复读生去年596，我好害怕提档在退档，身体都好，就是眼有点近视，谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and district='陕西' and classy='理工';
+['查询结果为空！']
+请问：计算机科学与技术专业历年的出国比例约是多少？
+select * from admission_plan where school='中国科学技术大学' and major='计算机科学与技术';
+['查询结果为空！']
+我是理科生，按性格和爱好，不太适合学习管理类专业，若报考你校，服从专业调剂，会被录取到管理科学专业吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='管理科学' and classy='理工';
+['查询结果为空！']
+今年少年班录取分数大概是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+2009年你校在重庆地区各专业录取情况，计划包含保送生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2009' and district='重庆地区';
+['查询结果为空！']
+我是贵校自主招生B档资格生，预计考分高出本区一本线110--120分，由于新疆实行小平行志愿，贵校今年在我区计划又只招5人，势必会使最低投档线拔高，可能导致这个分数在第一志愿填报贵校时不能被录取，在接下来的平行志愿就很难填报，有可能会非常不合心意，请问老师：我根据这个判断，如果高考实际估分没有把握上贵校，是否第一志愿可以不报贵校？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='新疆';
+['查询结果为空！']
+2010年来看,科大各学科的出国率都不错,今年申请形势不太好,但科大比清北还强,上海\杭州不是读书的地方.科大是读书的地方.家长和学生不要不信.我是科大家长.用事实说话.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+请问2010年对江苏理科考生选测等级要求是什么？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问平行志愿的第二第三顺序志愿与贵校招生章程上的非第一志愿意思一样吗？贵校如何对待平行志愿的第二第三顺序志愿？贵校05-09年分省录取的最高分、最低分、平均分是多少？贵校05-09年分省分专业录取的最高分、最低分、平均分是多少？贵校在四川实行大类招生吗？贵校在四川招生负责人的姓名和联系电话是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='四川';
+['查询结果为空！']
+贵校今年在河北省招收理科生多少人？自主招生算在内吗
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北' and classy='理工';
+['查询结果为空！']
+今年在山东理科计划招多少人？物理计划招多少人？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='理工';
+['查询结果为空！']
+你好，共有三个问题：，1我儿子是东北育才的学生，体检色弱，但单色可以识别，请问你校具体限报的专业？（我知道参考体检标准，但比较笼统，我想知道的是具体专业）。另外，在填写高考志愿的时候色弱限报的专业是不是会明确标出来？，2在几次模拟考中成绩大约635分左右，有没有希望考取你校？，3根据几年来看你校就业前景比较好的专业是什么？此专业比你校最低录取分数线大约高多少分？，谢谢！！
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+去年在湖南招75个，今年只招39。为什么？另自主生有什么优惠。我是自主生B档，还有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖南';
+['查询结果为空！']
+山西高一本线多少可以报??
+select * from admission_plan where school='中国科学技术大学' and district='高一';
+['查询结果为空！']
+你好：，去年孩子比自主招生提档线低，但有考生还低进入科大，今年可否优先录取？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+今年山东省招生计划是多少？物理专业几人？理科试验班招几人？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东';
+['查询结果为空！']
+09年的自主招生资格，今年还能同等优先录取?
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+江苏理科356物理B+化学A+报考贵校本一类有什么建议
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+比如：考生甲（660分），专业顺序一位报化学。考生乙（665分），专业顺序二位报化学。在录取时考生乙的专业一位未被录取，那么在化学类只招一名学生的情况下，甲和乙谁会被化学系录取（甲乙都被提档）？
+select * from admission_plan where school='中国科学技术大学' and year='665' and major='化学类';
+['查询结果为空！']
+科大本科生是否实行英语教学（同香港地区大学一样）？
+select * from admission_plan where school='中国科学技术大学' and district='[香港地区';
+['查询结果为空！']
+比如：，考生甲（660分），专业顺序一位报化学。，考生乙（665分），专业顺序二位报化学。，在录取时考生乙的专业一位未被录取，那么在化学类只招一名学生的情况下，甲和乙谁会被录取（甲乙都被提档）？
+select * from admission_plan where school='中国科学技术大学' and year='665' and major='化学类';
+['查询结果为空！']
+你好，我是广西应届理科考生，今年高考620分，请问贵校在广西今年招生的动态是什么？最近几年贵校在广西招生不断减小，会有什么新的信息？而且，我想得到一个确切的联系方式。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='广西';
+['查询结果为空！']
+660分（含5分加分），位于吉林省第197名。被贵校录取可能性有多大？能上什么专业？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='吉林';
+['查询结果为空！']
+我是海南考生，分数刚出来，我考了830分，全省排名61名，我想报考贵校理科实验班，数学系，物理系，有多大希望，请老师指点。
+select * from admission_score_pro where school='中国科学技术大学' and year='830' and district='海南' and classy='理工';
+['查询结果为空！']
+超福建本一线58分，应该有希望到贵校吧？
+select * from admission_plan where school='中国科学技术大学' and year='2058' and district='福建';
+['查询结果为空！']
+您好我是内蒙古09年应届考生成绩为596本地一本线为501自治区排名1260请问我是否有可能被贵校录取有哪些专业我可以选择麻烦您了谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2009' and district='内蒙古';
+['查询结果为空！']
+我是河南理科考生，今年考了638分，报考了中科大，请问今年科大河南录取预估分数线是多少，我有希望被录取吗
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+老师您好,我是山东理科考生,617分,今年山东一本线586,620分以上15409人,615分以上19214人.请问报考贵校希望大吗,有哪些适合的专业,如果我的分低,那国防生可以吗?谢谢!!
+select * from admission_plan where school='中国科学技术大学' and year='615' and district='山东' and classy='理工';
+['查询结果为空！']
+我是安徽考生，请问贵校提前批（基地班）分数是不是比正常偏低，大概低多少。高一本线40分有没有希望。，请问贵安徽招办的联系方式是多少？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2040' and district='安徽';
+['查询结果为空！']
+我是浙江的考生，今年考了673，全省4614名，进贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+您好!我河北理科考生,646分,高重点77分.我报考科大的希望大吗?请老师在线直接回答,由于一些因素,与当地招办联系不上.谢谢您!
+select * from admission_plan where school='中国科学技术大学' and year='2077' and district='河北' and classy='理工';
+['查询结果为空！']
+请问我今年考了624高重点线103能否有幸进入贵校土木工程专业或城市规划？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='土木工程';
+['查询结果为空！']
+分数高出一本70分被贵校录取希望大吗
+select * from admission_score_pro where school='中国科学技术大学' and year='2070';
+['查询结果为空！']
+老师，您好！我是江苏理科考生，6A（其中物理和化学双A+），现在全省排4156位。请问报考贵校能有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+您好，我是浙江理科应届毕业生，722分，无加分，省168名。请问我报贵校的理科试验班类概率多大。谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='722' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是宁波考生的家长，昨晚和贵校在宁波招生的老师联系了，今天听他的回话，不知你们的承诺是否有书面的材料？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='浙江';
+['查询结果为空！']
+我是浙江考生，理科694分，能进贵校力学类吗？
+select * from admission_plan where school='中国科学技术大学' and major='力学类' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师,我是甘肃理科考生,考分581,超出重点60分,请问能否报考贵校生物工程类
+select * from admission_plan where school='中国科学技术大学' and year='2060' and major='生物工程类' and district='甘肃' and classy='理工';
+['查询结果为空！']
+您好，我是甘肃理工考生，今年639分，能否有幸被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='639' and district='甘肃' and classy='理工';
+['查询结果为空！']
+我今年635可以报贵校么？？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是一名江西考生，今年高考成绩598分，超出一本线80分，请问报考贵校地球物理学，地球化学专业有无希望？贵校在江西省有无咨询安排？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2080' and major='地球化学' and district='江西';
+['查询结果为空！']
+我考了620分(理科)，能否上你们的学校
+select * from admission_plan where school='中国科学技术大学' and year='620' and classy='理工';
+['查询结果为空！']
+甘肃今年一本521请问624能否有幸被贵校录取
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='甘肃';
+['查询结果为空！']
+我是甘肃的一名考生，高考成绩635.5分，全省名次150，我对贵校的数学非常感兴趣，我的第一志愿就是科大，现在我担心的是，以我的成绩会不会造成滑档？另外，如果能顺利进入贵校，从高而下依次划分专业（我的数学成绩118），是否不能到心仪的专业学习？再者，咨询老师的承诺我们是认真对待的，没有忽悠的成分吧？还有竞赛的10分政策加分划专业时，能承认吗？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您好，我是河北理科考生，考分为637，超本一线68分，报考贵校的可能性有多大？贵校河北招生办电话是？期待您的回复。
+select * from admission_plan where school='中国科学技术大学' and year='2068' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好！我的高考成绩出来了，实考分是680，另外还有20分的特征分，请问报考贵校的可能性如何？如果成功投档，选择专业的空间有多大？
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+您好！，广东省27日才公布成绩，请问负责广东的招生老师到广东了吗，还有他们的联系电话是什么？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2027' and district='广东';
+['查询结果为空！']
+您好，我是内蒙古的一名考生，请问贵校今年在内蒙古的提档线是多少，我考了577，超过一本线76分，报贵校被录取的希望大吗
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='内蒙古';
+['查询结果为空！']
+盼进我校！老师好：江西理科606分，过线88分（一本线518），省排名960位（语文痛失手150分只得91分，数学英语理综都考得很好—我一直向往科大！我也真的正在边打字边流泪！）。去年被录取了武汉大学水利专业，今年获得了武汉大学和中山大学的提前自主招生录取。，平行自愿A报考我们科大（我流泪但是我还不死心！）若想进入我们学校并服从调剂，希望老师您按您的丰富经验诚恳回答我一个乡下的孩子：我的几率会怎么样？，27号马上要报自愿了，急盼老师您的点拔。谢谢，老师您辛苦了！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='英语' and classy='理工';
+['查询结果为空！']
+老师好：急！安您的回答我拨打了在景德镇地区老师的电话：13647986422，已经停机！怎么办！十万火急！
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+老师好，我是浙江考生，浙江今年实行平行志愿模式。假如我填报了中科大和上海交大，把中科大填为A志愿，把上海交大填为B志愿。然后因为我考得很好，两所大学的分数线我都超过，那么我是否有选择的余地？还是必须去填为A志愿的大学？，，或者去这两者之中分数较高的？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+急盼进我校！老师好：江西理科606分，过线88分（语文痛失手150分只得91分，数理化英语都很好--流泪！）（一本线518），省排名960位。去年被录取了武汉大学水利专业，今年又获得了武汉大学和中山大学的提前自主招生录取。，1，想进入我们学校服从调剂，几率会怎么样？，2，地市级三好学生，高中化学竞赛省二等奖，数学联赛省三等奖，在专业录取时您会考虑吗？，3，学校招生老师会到江西景德镇地区走访吗？可以告诉我们来招生老师的名字和联系电话吗？，27号马上要报自愿了，急盼老师您的点拔。谢谢，老师您辛苦了！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='英语' and district='地区' and classy='理工';
+['查询结果为空！']
+请问，在河北招生的传播学专业具体是学习哪方面的知识？在什么行业就业？
+select * from admission_plan where school='中国科学技术大学' and major='传播学' and district='河北';
+['查询结果为空！']
+老师您好，我是贵州应届理科考生。贵州1本477分我是594分544名，无加分。请问有机会读贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='477' and district='贵州' and classy='理工';
+['查询结果为空！']
+今年浙江实行平行志愿，但是第一志愿又分为，ABCDE五等。我估计所谓的平行志愿不过是换汤不换药的把戏。，，请问中科大的老师，贵校在招生时是不是基本上只看“第一志愿A”？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+老师您好，我是浙江的考生，今年考了704，高出重点99分，但是含全国联赛一等的加分，所以我知道上贵校就基本上没有选择专业的余地。，我想咨询一下，进了贵校之后，如何才能转系呢？需要满足哪些条件？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+老师您好!我是浙江的考生,高考成绩是694分,在浙江排名大约1600名,报考贵校希望大吗?按往年情况,贵校在浙江录取的排名大约是多少?一般超过一本线多少分?谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='浙江';
+['查询结果为空！']
+在河北超本一线20分有希望报考贵校吗？贵校提档比例是多少？是否服从调剂，不退档？转专业有何规定
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='河北';
+['查询结果为空！']
+老师您好！我知道贵校在提档时承认全国联赛一等的加分，但是专业录取时不承认。若是提档时合到贵校分数线，但是裸分又低于贵校投档线，如果我服从调剂，是否会被退档？
+select * from admission_score_pro where school='中国科学技术大学' and year='裸分';
+['查询结果为空！']
+我是江苏无锡考生,请问负责江苏无锡地区的招生老师的联系电话是多少?谢谢!
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+请问贵校湖北招生老师联系电话以及26.27日在武汉科技学院招生会的联系电话,多谢.
+select * from admission_plan where school='中国科学技术大学' and year='2026' and district='湖北';
+['查询结果为空！']
+我是吉林考生，报理科试验班专业一定要16周岁以下吗？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='吉林' and classy='理工';
+['查询结果为空！']
+请问老师：安徽的提档比例是多少，如果进档，服从自愿，是否还有被退档的可能？650分是否有可能录取？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='安徽';
+['查询结果为空！']
+老师你好，我们吉林省今年实行完全平行志愿，我想咨询一下贵校投档比例，如果我符合投档条件，已经被投档至贵校，且服从调剂，但排名靠后，是否会被退档？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='吉林';
+['查询结果为空！']
+我是吉林考生高考670分能进入理科试验班专业吗
+select * from admission_plan where school='中国科学技术大学' and year='670' and district='吉林' and classy='理工';
+['查询结果为空！']
+老师你好，您辛苦了，我们吉林省今年实行完全平行志愿，我想咨询一下贵校投档比例，如果我符合投档条件，已经被投档至贵校，且服从调剂，但排名靠后，是否会被退档？贵校是否有双学位培养计划？什么规定？是否允许转系？麻烦您了
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='吉林';
+['查询结果为空！']
+请问：，1.内蒙考生今年多少分可报考贵校？，2.入学后是否可以转专业，需要什么条件
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师你好！广西今年本科第一批实行平行志愿，考试院说明“招生院校有权在1:1~1:1.1的比例范围内提出本校的投档比例”。贵校在广西招生提出的投档比例是多少呢？如果不是1:1的话，是否承诺专业服从调剂提档不退档？，谢谢！老师辛苦了~
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+老师，我说湖北考生(理科)，请问今年填报贵校在高出重点线多少有把握（在服从调剂的情况下）？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖北' and classy='理工';
+['查询结果为空！']
+尊敬的招生组老师，您好，我是山东省的一名应届考生，我想咨询一下贵校今年在山东的招生计划，以及在全省排名多少的考生可以录取到贵校。，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东';
+['查询结果为空！']
+今年在河北招理科生几人？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好,我是一名河北考生,我想问几个问题,一是今年河北实行实行志愿贵校提档后是否退档,二是入校后可以转专业吗,三是请将贵校招生办电话及在河北招生老师电话告诉我.谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+今年生物基地班和力学基地班在安徽只招提前批的吗？这二个专业是否比别的专业分数要高一些呢？如果未被录取还可能被第一批的科大其他专业录取吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+请问贵校在浙江的高考招生咨询会具体何时何地开？特别是金华地区有没有？
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+您好！，广东省公布成绩的时间是27或28日，请问在广东公布成绩后到填报志愿（30日）前，贵校还会开展咨询吗？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2030' and district='广东';
+['查询结果为空！']
+河南理科生，体检为绿色盲，高考估分650分，高出预估一本线约70分左右，能填报你校物理学类、核工程与核技术、热能动力工程、安全工程、力学类专业吗？恳请您实话实说。衷心感谢！！！
+select * from admission_plan where school='中国科学技术大学' and year='650' and major='安全工程' and district='河南' and classy='理工';
+['查询结果为空！']
+重庆巴蜀中学"尖子班"200多人全部报成少数民族考生;08年生物奥赛省级赛区一等奖全在巴蜀中学,据查是事先泄密,花重金买的题;还有假二级运动员也多;目的是想享受加20分的政策,这有失公平,伤透了考生的心.我们已向当地反映了,没有人管,因为很多都是干部子女.为了贵校能招收到真正的人才,针对重庆这一特殊情况,建议贵校按实际考分录取新生,减除人为加分.能否实施?
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='重庆';
+['查询结果为空！']
+求贵校近三年在河北省专业录取分数？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河北';
+['查询结果为空！']
+我是浙江的考生请预估一下今年中科大分数线，675有希望上吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+请问贵校有没有提前录取批次？，近三年的最高和最低录取分数线是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+问题：关于加分，内容：您好！我在贵校网站上看到一篇《招生就业处处长蒋一教授作客新浪谈09高招》，里面蒋教授说了这么一段话：“主持人：加分是一加到底？蒋一：这个加分如果说你在提档的时候，这个加分没有用上，比如你的实际考分比我们录取的最低分要高，没有用上，分专业可以再用一次。如果这个加分在提档的时候用了，分专业的时候就不看了。主持人：这个规则挺有意思的，只要原始分就够了，在分专业的时候把这个分加上去。如果当时不够，是靠加分来提档的，分专业的时候看你的原始分数。所有服从调剂，身体上没有问题，你的档案被提上来了，应该不会被退档。”请问是这样的吗？（因为在贵校招生章程里没有提到)谢谢！，回答：关于加分，内容：请问你具体指的是哪种情况？，，，抱歉！我指的是体育尖子加分（航模类）也是这样吗？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+问题：关于往年报考、录取人数，内容：您好！请问2007，2008年报考贵校人数和最终录取人数有吗？谢谢！，回答：回复，内容：请参考这个网页：http://zsb.ustc.edu.cn/lq.php?pro=44，，抱歉！这个网站上只有录取人数，请问有报考人数吗？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2008';
+['查询结果为空！']
+您好！，我在贵校网站上看到一篇《招生就业处处长蒋一教授作客新浪谈09高招》，里面蒋教授说了这么一段话：“主持人：加分是一加到底？，蒋一：这个加分如果说你在提档的时候，这个加分没有用上，比如你的实际考分比我们录取的最低分要高，没有用上，分专业可以再用一次。如果这个加分在提档的时候用了，分专业的时候就不看了。，主持人：这个规则挺有意思的，只要原始分就够了，在分专业的时候把这个分加上去。如果当时不够，是靠加分来提档的，分专业的时候看你的原始分数。所有服从调剂，身体上没有问题，你的档案被提上来了，应该不会被退档。”，请问是这样的吗？（因为在贵校招生章程里没有提到)，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+您好！，请问2007，2008年报考贵校人数和最终录取人数有吗？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2008';
+['查询结果为空！']
+请您介绍一下机械设计与制造工程及其自动化专业。
+select * from admission_plan where school='中国科学技术大学' and major='自动化';
+['查询结果为空！']
+河南理科,估分620.省预估分数线569分,贵校能否录取
+select * from admission_score_pro where school='中国科学技术大学' and district='估分620.省' and classy='理工';
+['查询结果为空！']
+您认为今年贵校在山东的录取平均分与往年相比会有太大变化吗？若有，大约变多少分？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东';
+['查询结果为空！']
+请介绍一下力学类是哪些专业，学习什么及就业情况？
+select * from admission_plan where school='中国科学技术大学' and major='力学类';
+['查询结果为空！']
+机械设计制造及其自动化是干什么的？培养目标是什麽？就业？
+select * from admission_plan where school='中国科学技术大学' and major='机械设计制造及其自动化';
+['查询结果为空！']
+那今年大概考多少，有机会被录取
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+复读生也行？去年力学基地班分数线多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2018';
+['查询结果为空！']
+请问，1、贵校2009年在山东的招生计划数量是否包含有自主招生资格的人数?，2、自主招生是否是单列的计划？
+select * from admission_plan where school='中国科学技术大学' and year='2009' and district='山东';
+['查询结果为空！']
+您好！，我对自动控制，机器人设计（不只是程序方面）十分感兴趣，请问这方面的专业有哪些？自动化包含在内吗？，，谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='自动化';
+['查询结果为空！']
+您好！，我是广东考生，因为航模竞赛获得体育尖子加分20分。但是在贵校的招生章程中指出专业分配时不算附加分，那么请问如果我的高考原始分是630，加20分后650被贵校提档，但是因为在分配专业是我的分数比其他考生低了20分（假定投档线是650，那么其他考生最少也有650分），而且我的实际原始分达不到任何一个专业的分数线，那么请问在服从专业调剂的情况下，我还会被退档吗？如果不会，我将被如何分配？，，谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='2020' and district='广东';
+['查询结果为空！']
+老师：我是辽宁的理科考生，估分最低为630分，有没有希望报考你校。另外，辽宁招生的老师到辽宁了吗，怎么联系。
+select * from admission_plan where school='中国科学技术大学' and year='630' and district='辽宁' and classy='理工';
+['查询结果为空！']
+如果今年河南一本线是580-590我估了650不知上贵校提前批本博连读的可能性有多大？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+江西今年理科高考难度和去年差不多。请问理科610分左右有没希望进学校？招生老师会不会到景德镇地区的”江西省乐平中学“（省重点中学）来走访？请问江西招生老师到江西的驻地及老师的联系电话？谢谢老师您辛苦了！
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='江西' and classy='理工';
+['查询结果为空！']
+今年各大城市名校纷纷减少本埠招生，科大在安徽的招生名额是否也会相应缩水？自主招生可以录取的部分算在招生名额之内吗？本人为了背水一战放弃了科大的自主招生分数，届时若报考贵校会特殊考虑吗？谢谢。
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+660分可以考虑报考中科大数学专业?可以告知招生老师的联系方式吗?
+select * from admission_plan where school='中国科学技术大学' and year='660';
+['查询结果为空！']
+老师您好，我是山东省的一个理科复读生，我有以下几个问题想麻烦老师解答一下：，1.请问中国科学技术大学在山东省今年招生时是否有复读生高考分数减分或提高录取线等类似的政策？是否有专业限制复读生报考？，2.中国科学技术大学对学生转专业有哪些专业选择和时间上的限制，有哪些要求？，4.非小语种专业学生入学后是否可以选修法语和西班牙语课程？，5.有哪些专业可以修双学位？，6.非本硕博连读的学生入学后是否仍有竞争本硕博连读的机会？哪些专业有基地班？本硕博连读的学生中途是否可以出国留学？，谢谢老师，您辛苦了。
+select * from admission_score_major where school='中国科学技术大学' and year='2019' and major='西班牙语' and district='非本' and classy='理工';
+['查询结果为空！']
+能源动力类学什么？就业情况？培养目标？
+select * from admission_plan where school='中国科学技术大学' and major='能源动力类';
+['查询结果为空！']
+机械设计制造及其自动化专业是学什么的？就业？培养目标？能否进入研究所工作？
+select * from admission_plan where school='中国科学技术大学' and major='机械设计制造及其自动化';
+['查询结果为空！']
+请问:已获取(签协议)09年自主招生A档资格的考生,是否不论省份加分一致(都加40分),或者说:全国各省A档生一律是,符合各省招生计划数1:1调档线下40分,即予录取.例如,湖北省也是一致吗?多谢.
+select * from admission_plan where school='中国科学技术大学' and year='2040' and district='湖北';
+['查询结果为空！']
+请问:已获取(签协议)09年自主招生A档资格的考生,是否不论省份加分一致(都加40分),或者说:全国各省A档生一律是,符合各省招生计划数1:1调档线下40分,即予录取.多谢.
+select * from admission_plan where school='中国科学技术大学' and year='2040';
+['查询结果为空！']
+老师您好！我是河北考生家长，我注意到贵校核工程及核技术专业在河北好像不招生，如报考贵校并被录取，是否有机会调到该专业，我听过访谈，好像可以，但是心里感觉不踏实，敬请老师作答。另外，贵校与该专业相近的专业还有那些，请一并作答。谢谢。，另：高出本一线60-80分能报贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='2060' and district='河北';
+['查询结果为空！']
+老师您好：，科大招生只要有许诺就录取，即使超过了计划数也肯定兑现，可见科大对考生是最负责任的名校．，问题是对有自主招生资格的考生是否也实行承诺制？假如说山东考生承诺６６５分肯定录取，那自主招生资格生（Ｂ档）是否６４５分以上也会录取？可万一６６５分以上报考科大考生已超过１：１比例呢？，请老师解答，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东';
+['查询结果为空！']
+今年在四川理科招多少人？分数线大约多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='四川' and classy='理工';
+['查询结果为空！']
+请问：今年河北平行志愿超过招生计划提档的学生还能录取吗?如果提档比例105％，多出的5％是否退档？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+请问贵校今年在黑龙江一共招多少人？有具体的招生计划网址么？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='黑龙江';
+['查询结果为空！']
+你好！我是河南理科考生，二模分数626分，全国物理竞赛二等奖，请问报考贵校希望大吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='626' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好！贵校2006-2008年文史类在山东招生的各专业人数和最低分数线是多少？今年贵校文史类在山东的招生计划是多少？在山东文史类有提前批吗？超出重本线多少分就能被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+老师您好。，（1）获得河南省优秀学生称号的考生和获得中国科技大学自主招生资格的考生，不需加分即可被中国科技大学投档且被录取者是否占2009年中国科技大学在河南的招生计划和专业名额？需加分才可被中国科技大学投档和录取者是否占2009年中国科技大学在河南的计划和专业名额？，（2）中国科技大学2009年在河南招生专业中特色专业主要有哪些？，（3）请告知中国科技大学2005年至2008年在河南录取的最高分，最低分和平均分。，（4）请告知中国科技大学本科生招生办的联系电话，中国科技大学河南招生组老师姓名和联系电话。，谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='河南';
+['查询结果为空！']
+中科院工程物理定向生是否谁都能报,对视力有限制吗?
+select * from admission_plan where school='中国科学技术大学' and major='工程物理';
+['查询结果为空！']
+我是广东仲元中学的一位家长,近三年此校没有录取到贵校的考生,如果我今年考分上了贵校录取线,有希望被录取吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广东';
+['查询结果为空！']
+科大的科学家最牛,出了那么多科研成果,清北干吗去了?所谓排名第三的浙大干吗去了?科大的学生培养很不错.请教:今年科大生院出国情况.谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问如何能查到近几年贵校提前批次（非国防生）的录取分数？是否享受政策加分投档？
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我是河南考生的家长请问08年贵校在河南实际录取了多少（不包括保送生），最低分是多少，根据河南近几年的情况两线差多少分上贵校比较有把握，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+请问一下内蒙古今年预计录取分数吓是多少啊？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='内蒙古';
+['查询结果为空！']
+老师：您好！我是一名家长，现有一问题咨询。，广东自主生今年在提前批录取，此时贵校第一批分数线并未出来，如果自主生实考分数可能超过贵校广东录取分数线，那该自主生是否要使用计划指标？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='广东';
+['查询结果为空！']
+09年科大在山西省招生计划是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2009' and district='山西';
+['查询结果为空！']
+你好！我是江苏的考生，请问贵校今年有对江苏的招生计划吗？有多少名？我在江苏徐州，本市第三次模拟考试的成绩大概是408分，6A，是物生班的（选修的是物理和生物，2A）；进贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='408' and district='江苏';
+['查询结果为空！']
+老师，您好。，我是云南09年应届考生。我想请教一下，我一眼是正常5.1，另一眼只能矫正到4.7。“指导意见”说此部分内容供考生在报考专业志愿时参考。学校不得以此为依据，拒绝录取达到相关要求的考生。那我在填报志愿时仍然填了相关专业，录取时同两眼均正常的其他人比会有影响吗？，，，普通高等学校招生体检工作指导意见，，二、患有下列疾病者，学校有关专业可不予录取，，4、屈光不正(近视眼或远视眼，下同)任何一眼矫正到4.8镜片度数大于400度的，不宜就读海洋技术、海洋科学、测控技术与仪器、核工程与核技术、生物医学工程、服装设计与工程、飞行器制造工程。专科专业：与以上相同或相近专业。，，5、任何一眼矫正到4.8镜片度数大于800度的，不宜就读地矿类、水利类、土建类、动物生产类、水产类、材料类、能源动力类、化工与制药类、武器类、农业工程类、林业工程类、植物生产类、森林资源类、环境生态类、医学类、心理学类、环境与安全类、环境科学类、电子信息科学类、材料科学类、地质学类、大气科学类及地理科学、测绘工程、交通工程、交通运输、油气储运工程、船舶与海洋工程、生物工程、草业科学、动物医学各专业。专科专业：与以上相同或相近专业。，，此部分内容供考生在报考专业志愿时参考。学校不得以此为依据，拒绝录取达到相关要求的考生。
+select * from admission_plan where school='中国科学技术大学' and year='2009' and major='动物医学' and district='云南';
+['查询结果为空！']
+老师，我是湖南理科考生，今年高考626分。请问我有可能被贵校录取么？如果录取，可能性有多大？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖南' and classy='理工';
+['查询结果为空！']
+据说贵校今年在广西提档线607，很高，请问是不是真的？是否还有下调的可能？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+老师您好。我是江苏08年理科考生，投档分345+31，物理A，化学A+。，是否有希望被贵校录取？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2008' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师好！广西理科586+5分，高出一本线90分。请问报考贵校希望大不大？色弱影响大不大？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2090' and district='广西' and classy='理工';
+['查询结果为空！']
+老师您好!我是云南理工考生,考分比一本线高65分,请问有多大可能被贵校录取?谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='2065' and district='云南' and classy='理工';
+['查询结果为空！']
+高分考生为何应选科大?因为科大校风好\学风全国最好,出路最好:美国名校最喜欢科大学子:勤奋\有目标,有潜力
+select * from admission_plan where school='中国科学技术大学' and district='美国';
+['查询结果为空！']
+老师你好我是安徽阜阳的考生考了653分请问报贵校的化学类专业有多大希望
+select * from admission_plan where school='中国科学技术大学' and year='653' and major='化学';
+['查询结果为空！']
+老师：，随着技术的进步，北京市市区现在都提供了免费无线宽带，世界上很多国家更是如此。这必然冲击移动、电信。，学通信工程还有前途吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='通信工程';
+['查询结果为空！']
+我的孩子是文科考生，很希望去贵校学习，请问老师如何和你们联系。谢谢！
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师，今年安徽实行平行志愿，考生被提档后又退档会对考生后续的录取会产生什么样的影响
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师，今年安徽实行平行志愿，考生被提档后又退档会对考生后续的录取会产生什么样的影响
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+尊敬的老师，江苏考生投档分406物理A+，化学A，报考贵校有希望吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是一名广西理科考生，今年考得634分，报考贵校时我能否任选专业？
+select * from admission_plan where school='中国科学技术大学' and year='634' and district='广西' and classy='理工';
+['查询结果为空！']
+专家好，我是广西理科生，今年考得507分，超1批线6分，现在想咨询我报考该校的几率多大，该校，比较有优势的专业是哪几项，我能否报得上优势专业的平均分。我比较喜欢工科专业，请老师专家推荐，几项适合我分数的专业。希望尽快得到您的回答，非常感谢
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='广西' and classy='理工';
+['查询结果为空！']
+我是江苏理科生，特征分368，投档分401，物理A+，化学A，请问能否进贵校？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+尊敬的老师，江苏考生投档分406物理A+，化学A，报考贵校有希望吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+今年高考仅考622分，报考贵校希望不大。但希望考贵校研究生的天体物理，那么今年在报考时报考其他学校的应用物理专业是否与天体物理有联系？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+你好:，请问海南省的考生712分和750分能上贵校的生物科学类\电子信息科学类\理科实验班吗?机会多大?贵校的生物科学类\电子信息科学类\理科实验班具体有哪些内容?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='750' and major='生物科学类' and district='海南' and classy='理工';
+['查询结果为空！']
+请问老师山东理科考生642分报考贵校信息安全专业希望大吗？
+select * from admission_plan where school='中国科学技术大学' and major='信息安全' and district='山东' and classy='理工';
+['查询结果为空！']
+请问老师山东理科考生642分报考贵校信息安全专业希望大吗？
+select * from admission_plan where school='中国科学技术大学' and major='信息安全' and district='山东' and classy='理工';
+['查询结果为空！']
+你好,我是河南理科考生,632分,提前批一志愿报考了贵校生命工程专业,请问录取的机率有多大.
+select * from admission_plan where school='中国科学技术大学' and year='632' and district='河南' and classy='理工';
+['查询结果为空！']
+老师，您好！我是四川理科的的一名考生，超重点80分（其中20分加分），我已知贵校专业不看加分，但录取时看吗？？若我考640，加20分，而另有一考生考650，贵校优先录取哪一个？？若考生服从调配，贵校提档后退档吗？？若退档，根据是什么？？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='四川' and classy='理工';
+['查询结果为空！']
+您好：我是广西的理科考生分数比重点线多了54分，总分是555。我有希望上贵校吗？选择电子信息工程，金融工程，土木工程，车辆工程，机械类及自动化等哪个专业比较有把握？
+select * from admission_score_major where school='中国科学技术大学' and year='2054' and major='自动化' and district='广西' and classy='理工';
+['查询结果为空！']
+我是江苏考生，今年高考投档分为395分，物理和化学都是A+，全省排名5801名。是否够得上填报贵校？什么专业？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='395' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+我考了653，281名，科大提前批基地班有没有希望？一批能选吗？芜湖地区咨询电话多少？我手机13170031634
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+我是江苏省2008级考生,投档分388,物理A,化学A+,问是否可以填报贵校
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是山东临沂理科考生561分过了2本线，报考贵校2本希望有多大？能选择自己喜欢的专业么（高分子材料与工程，会计，机械设计与自动化）？服从调剂的话，有希望么？
+select * from admission_plan where school='中国科学技术大学' and year='561' and district='山东' and classy='理工';
+['查询结果为空！']
+尊敬的老师，江苏考生投档分388物理A，化学A，报考贵校有希望吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+您好，我是广西理科应届考生，567（含20分加分），今年广西一本线为501分，我报考您校是否能够达到条件？贵校对于加分如何看待？调档和选专业是否都承认加分？谢谢~
+select * from admission_plan where school='中国科学技术大学' and year='501' and district='广西' and classy='理工';
+['查询结果为空！']
+老师好！湖北考生639分能填报贵校志愿吗？如果填报有几大把握？
+select * from admission_plan where school='中国科学技术大学' and year='639' and district='湖北';
+['查询结果为空！']
+老师您好。我是湖南应届考生,已知成绩是总分620（湖南理科一本录取线为536）。现在想报考贵校，咨询的是：，1、	应该怎么填写报考平行志愿，我的成绩报考贵校是否可靠？，2、	如果第一专业志愿未被录取，后面的专业级差是多少？，3、	贵校区是否有新老校区，有的话新校区在什么地方？有那些专业在新校区学习？，4、	另外湖南贵校是否有招生联络老师，有的话怎么联系？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖南' and classy='理工';
+['查询结果为空！']
+老师好，江苏邳州理科考生，语数外331,数学附加分34分，物理A,化学B+，请问能报考贵校吗？谢谢，我的联系方式是：13681944907
+select * from admission_plan where school='中国科学技术大学' and district='邳州' and classy='理工';
+['查询结果为空！']
+老师好，我是江苏考生，今年投档分393分，物理A,化学A+,省排名4846名。不知能否报考贵校？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+我认为,客观地说,清华北大是不错的,但真正学风好的当属科大.孩子在科大已大二,我真切地感觉到,连周六周日都用在学习上,假期也用来看书.这并不是说不会休息和娱乐,这是科大好学风传承下来的.出路肯定好.美国名校是非常欢迎科大学生的:勤奋\刻苦,有潜力.
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='美国';
+['查询结果为空！']
+您好，我是江苏理科考生，我的理想是报考贵校。今年我的总分是400分，原始分358分，四科必测均为A奖励分10分，附加分32分，江苏总排名3772名，物理A+,化学A。请问，报考贵校，有多大把握呢？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2010' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问贵校今年在四川非重灾区的招生计划是多少?谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='非';
+['查询结果为空！']
+我是文科考生，查看5月26日贵校招生网上信息，全国有部分高校6月27日在科大集中开展咨询，请问地点在哪个校区，哪个会议室或教室？
+select * from admission_plan where school='中国科学技术大学' and year='2027' and classy='文史';
+['查询结果为空！']
+老师你好,我是广西的理科考生,总分530分,加上照顾分是540分,我想报考贵校,请问录取的希望大么?
+select * from admission_plan where school='中国科学技术大学' and year='540' and district='广西' and classy='理工';
+['查询结果为空！']
+我是淮北考生，打算参加贵校6月27日主办的“部分高校招生咨询会”，请告之准确时间、地点。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2027' and district='安徽';
+['查询结果为空！']
+贵校是否有电子信息工程专业，一本线501我521是否有希望考入贵校，几率多大？
+select * from admission_plan where school='中国科学技术大学' and major='电子信息工程';
+['查询结果为空！']
+您好：，我想咨询下，陕西理科，高考成绩406分，请问要是报贵校的大专录取的几率大不大？，谢谢了
+select * from admission_plan where school='中国科学技术大学' and year='406' and district='陕西' and classy='理工';
+['查询结果为空！']
+644+10（化学奥林匹克竞赛）报贵校有没希望？，加分后名次大概在１８０多
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+各位教授下午好！！请问：贵校在湖南是否有招生计划？往年录取分数是多少？是否招专科？能否专升本！！谢谢（我们明天就出成绩了，可否快点回复，衷心感谢教授）
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖南';
+['查询结果为空！']
+372+31+AA能报机械工程吗,希望大吗?
+select * from admission_plan where school='中国科学技术大学' and major='机械工程';
+['查询结果为空！']
+请问专家,我是今年广西的理科考生,1本线为501,考分为557,请问我报考本学校重点专业希望大不大.还有,请问本校是否能转专业,要满足什么条件才可以.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西' and classy='理工';
+['查询结果为空！']
+请问贵校的地球化学\地球物理学具体是学什么\向什么方向发展?专业名称太抽象了
+select * from admission_plan where school='中国科学技术大学' and major='地球物理学';
+['查询结果为空！']
+老师好,贵校今年在云南录取学生时,可能高出一本线(530)多少分????
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='云南';
+['查询结果为空！']
+老师你好我是今年安徽的理科考生估计能考660分我想上科大请问有希望吗能上什么样的专业
+select * from admission_plan where school='中国科学技术大学' and year='660' and district='安徽' and classy='理工';
+['查询结果为空！']
+我的孩子高二学生，报考贵校少年班，高考成绩590分，少年班说可能不能录取，再包其他学校可以吗？
+select * from admission_plan where school='中国科学技术大学' and year='590';
+['查询结果为空！']
+老师您好。我是江苏08年理科考生，投档345+31，物理A，化学A+。，是否有希望被贵校录取？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2008' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师好，我是广西今年的理科考生，高考实分为579，超过一本线78分，若报考贵校是否有希望被录取？，若有希望，则可以考虑的专业有哪些？，贵校有否派遣咨询老师到广西？，若有，那能否告知他（她）们的联系电话？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西' and classy='理工';
+['查询结果为空！']
+您好，我是广西理科考生，高考成绩603（含10分照顾分），排在广西315名，省重点线为501，报贵校希望大吗？能上较好的专业吗？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='广西' and classy='理工';
+['查询结果为空！']
+我是08内蒙考生，考了610分，请问报考贵校哪些专业把握较大？
+select * from admission_plan where school='中国科学技术大学' and year='610';
+['查询结果为空！']
+浙江的633分，理科，报考贵校能被录取吗？
+select * from admission_plan where school='中国科学技术大学' and year='633' and district='浙江' and classy='理工';
+['查询结果为空！']
+599分，650多名，录取机会大吗？（江西，理工)
+select * from admission_plan where school='中国科学技术大学' and year='599' and district='江西';
+['查询结果为空！']
+我看到招生的书上贵校将力学类分了两类，其中一个后面加了：（外语语种：英语），有什么不同吗？
+select * from admission_plan where school='中国科学技术大学' and major='英语';
+['查询结果为空！']
+今年贵校在广西的招生计划是？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+请问贵校近两年在广西的分数线及今年的预计分数线是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+2008云南理科一本线是530，那贵校今年在云南录取分数预计会是多少
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='云南';
+['查询结果为空！']
+老师，您好！，我是云南理科考生，高考成绩６１３分，预计高出一本线7０分，专业服从调配，是否有望被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='云南' and classy='理工';
+['查询结果为空！']
+请问老师640分能否报考贵校的材料科学专业，如服从专业调剂是否会退档
+select * from admission_plan where school='中国科学技术大学' and year='640';
+['查询结果为空！']
+老师请问我英语考了141在报时是否会被优先录取
+select * from admission_plan where school='中国科学技术大学' and year='报时' and major='英语';
+['查询结果为空！']
+老师，您好。我是来自四川的一名考生。我的成绩比重点线高70分报考贵校化学专业是否有可能被录取？？贵校一般要超重点线多少分才有选者专业的权利？？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2070' and major='化学' and district='四川';
+['查询结果为空！']
+您好：我是浙江文科考生，今年高考成绩521分，想进贵校就读二本专业，不知道有没有希望？
+select * from admission_plan where school='中国科学技术大学' and year='521' and district='浙江' and classy='文史';
+['查询结果为空！']
+今年山东报考少年班的考生数
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东';
+['查询结果为空！']
+08山东理科高出重点线多少分报贵校有把握？贵校的车辆工程在山东有招生吗？该专业是否是热门？收生分数是否高？和车辆工程相关的专业有哪些？来山东招生的老师如何联系？QQ或电话
+select * from admission_plan where school='中国科学技术大学' and major='车辆工程' and district='山东';
+['查询结果为空！']
+安徽今年实行平行志愿，贵校提档比例是多少？提档后若服从专业调剂，是否会退档？另理科620-630，有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽' and classy='理工';
+['查询结果为空！']
+今年贵校在甘肃计划招生多少？理科543分报贵校把握大吗？还有，贵校的重点专业是撒？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='甘肃' and classy='理工';
+['查询结果为空！']
+高考639分，报考贵校是否有希望？
+select * from admission_plan where school='中国科学技术大学' and year='639';
+['查询结果为空！']
+今年吉林招生计划里提前批有没有不是国防生的的计划。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='吉林';
+['查询结果为空！']
+2008年少年班在山东招生计划几人，参加复试者几人，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='山东';
+['查询结果为空！']
+2008年少年班在山东的招生计划是几人，参加复试几人。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='山东';
+['查询结果为空！']
+我一直向往你校,可这次由于理综考的失误,我只估了630分,不知可有希望被调档,全省排名多少才有希望调档?另外我有政策加分,分专业时能算吗?感谢!
+select * from admission_plan where school='中国科学技术大学' and year='630';
+['查询结果为空！']
+对报应用物理学专业有其他要求吗?
+select * from admission_plan where school='中国科学技术大学' and major='应用物理学';
+['查询结果为空！']
+若自主生未到100%投档线下20分,还有可能被录取吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+安徽今年实行平行志愿，填在ABCD不同位置的，贵校是否都按第一志愿对待
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+请问老师，我拥有市级三好学生及化学竞赛省三等奖在录取时是否有优势？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+老师您好！，我是一名刚刚参加完高考的高三文科学生，由于高三一年生病的缘故，，一直在养病，并未在校听课，也为在家系统复习，只参加了高三的几次摸底考试，，高考后保守估计分数在430-450分左右。，其实，我是一名很要强的学生，中考成绩优秀，高中一直拿着全额奖学金，，学习基础扎实牢固，所以在并未进行高三复习的基础上，考到这个分数。，我自己当然希望能上本科，但如若不能，我也希望能上一所可以专科升本科的院校，，我选择的专业是会计学，请老师帮忙分析一下我的情况，看看我能否升入贵校。，注：由于身体和心理状态已调节到最高点，相信我在贵校一定会绽放出光彩，，请您给与我这次宝贵的机会，我一定不会让您失望。
+select * from admission_score_major where school='中国科学技术大学' and year='450' and major='会计学' and classy='理工';
+['查询结果为空！']
+一般高出重点线多少可填报贵校，高出多少被录取的机会较大？若今年广西一本510，估分560能否被贵校录取？另外，贵校有哪些重点工科专业？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+贵州今年是知分填志愿，贵校在贵州的投档比例是多少?若按该比例进档后，服从调剂，身体条件符合要求，会不会被退档？另，贵州考生要超出一本线多少分，才有可能报考贵校？谢谢老师！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='贵州';
+['查询结果为空！']
+老师：您好，我是辽宁考生，请问安全工程专业属于贵校哪个院系？如何能了解该专业的有关情况？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='安全工程' and district='辽宁';
+['查询结果为空！']
+老师好，我是辽宁考生。我想问一下，贵校管理科学与工程专业包括工程管理吗？这个专业是偏向交通还是民建的？是学一段时间后再选的吗？想要报这个专业，分数高出一本线多少希望比较大？是按多少比例提档的？，问题有些多，谢谢老师！o(∩_∩)o...
+select * from admission_score_major where school='中国科学技术大学' and major='工程管理' and district='辽宁';
+['查询结果为空！']
+我是重庆市一名少数民族自治县的考生，重庆市规定:少数民族自治县考生加20分，我报考您校，假如我考了600分，算上加分就是620，如果580调档，我就被调档了，假如您校某专业录取分是610，那我在被录该专业时是按600录呢，还是按620分？若按实考成绩600录我就要落榜。急盼回答。敬请明示600或620。能否不这样回答，如：“原则上认可省市招办加分政策”等。
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='重庆';
+['查询结果为空！']
+贵校最近几年在云南理科录取分数
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='云南' and classy='理工';
+['查询结果为空！']
+江苏实行平行志愿,有ABC三个平行院校可填,假设有甲乙两个考生,甲考生总分更高,且两人都达到各项要求,甲考生是在B院校中才填到贵校,而乙考生在A院校中填了贵校,按照江苏教育考试院的相关说明,甲考生优先投档,是否意味着甲考生优先录取?也就是说,考生所填的ABC3所院校不存在志愿级差?
+select * from admission_plan where school='中国科学技术大学' and district='教育考试院';
+['查询结果为空！']
+河北估计640，还有10分加分报贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+请问往年贵校进中科院比例多少？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+尊敬的老师辛苦了，请问：科大的热能与动力过程专业是什么研究方向？能源动力系统及自动化是属于科大的哪一个系？科大的通信工程是国家二级重点学科，有的学校该专业是国家一级重点学科，请问国家一级、二级重点学科有什么区别？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='通信工程';
+['查询结果为空！']
+贵校的投档比例是多少,上线只要服从调剂是否一定能被录取?还有,贵校今年在贵州招生多少人?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='贵州';
+['查询结果为空！']
+山西考生估分610多分报考中国科大把握多大？提档后专业服从调剂退档吗？
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='山西';
+['查询结果为空！']
+请问:科大05、06、07年在安徽提前批次录取的最低分是多少？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='安徽';
+['查询结果为空！']
+导师您好!，我有化学和生物的竞赛获得奖项。但更想学物理专业。，我报贵校的三个专业①物理学类②生物科学③地球化学，请问导师①这种报法是否可行？②地球化学专业是否更接近于物理学，地球化学专业的学科带头导师情况，学科情况？，再请问导师，理科试验班归属哪个学院？，盼望指导，深表感谢!
+select * from admission_plan where school='中国科学技术大学' and major='地球化学' and classy='理工';
+['查询结果为空！']
+我今年估了630，能不能上中国科技大学？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+今年广西的题特别难,贵校今年在广西招生分数线会降吗?大概会是多少?谢谢.
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+我估了614分，报考贵校国防生，能否被录取？
+select * from admission_plan where school='中国科学技术大学' and year='614';
+['查询结果为空！']
+老师：，您好，我小孩刚刚16岁，是安徽省的高中应届毕业生（女生），学的是理科，今年高考成绩估计在520分左右，应在二本线以上。她是共青团员，身高1.6米以上，体貌端庄，身体健康。她非常向往科技大，不知能否参加贵校的少年班。，切盼您的及时回复。（来函请发：chahwu@126.com），谢谢。，敬礼！，，学生家长，2008年6月12日
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='安徽' and classy='理工';
+['查询结果为空！']
+555分，能否进入贵校？
+select * from admission_plan where school='中国科学技术大学' and year='555';
+['查询结果为空！']
+今年估分570左右，预估重点线515左右，报贵校是否有望分专业情况如何？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好，我是天津文科考生估分545分，报考经济类有没有可能录取，请回答。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='545' and district='天津' and classy='文史';
+['查询结果为空！']
+你好!你校往年在四川招生的分数线
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='四川';
+['查询结果为空！']
+我是一名女生，这次湖南高考估分可能会高于一批线的80分以上（数学140分，外语135、理综250分），想报考贵校，现在咨询贵校在湖南的招生联系电话，还有那些专业对女生有限制或报考没有优势。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖南';
+['查询结果为空！']
+你好我是安徽考生，我一直很喜欢科大，今年我们安徽本科线预计在555（理科）左右，我估分在620-630，请问报贵校国防生有希望吗？另外，我喜欢物理，化学，计算机，但数学基础较差，应该选什么专业好呢？谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='化学' and district='安徽' and classy='理工';
+['查询结果为空！']
+今年什么时候举办校园开放日?
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问贵校去年在云南的录取线？今年590分报地球物理专业有多大把握？
+select * from admission_plan where school='中国科学技术大学' and year='590' and district='云南' and classy='理工';
+['查询结果为空！']
+请问自主生在提前批次最后一天投档所报院校，这算录取吗？我是安徽自主生，今年考了620～630，报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+你好，我是广西理科考生。估分比省一本线高出70分左右，服从调剂，能不能上贵校？能选好一些的专业吗？，在贵校转专业有什么要求和条件？
+select * from admission_plan where school='中国科学技术大学' and year='2070' and district='广西' and classy='理工';
+['查询结果为空！']
+能查一下贵校07年少年班在各省录取的成绩?尤其是河南的考生,谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2007' and district='河南';
+['查询结果为空！']
+请问:，1、我们什么时间能得到你校招生老师在重庆本地的电话号码?如要公布我们在什么地方能第一时间获（查）得?，2、你校招生老师在重庆6月26-28日填志愿期之前或期间来重庆指导考生填志愿吗?，3、填志愿期间你校招生办的电话能24小时接通吗？有无时间段或公休（星期）。如有请告之。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='重庆';
+['查询结果为空！']
+老师好！，我是河南考生，请问有没有往年分专业的录取情况（平均分、人数等）？，刚才问了省招办，回答说要向院校咨询。，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+河南考生，估分６３５，安全一点说６３０，据说分数线是６７０，想上数学类或物理类专业，有可能录吗？
+select * from admission_score_major where school='中国科学技术大学' and district='河南' and classy='理工';
+['查询结果为空！']
+老师好！我是陕西理科生，575分，陕西重点线520左右，请问报考贵校的希望大不？哪些专业更有把握
+select * from admission_plan where school='中国科学技术大学' and year='575' and district='陕西' and classy='理工';
+['查询结果为空！']
+也就是说电子科学信息类是一个大专业,入校学习一年后再根据成绩选择具体专业?，录取时是否承认省优秀学生的20分加分?
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+辽宁今年实行三个平行志愿,贵校在辽宁提档比例是多少?如填报了服从调剂,提档后是否仍有被退档的可能?主要原因是什么?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁';
+['查询结果为空！']
+老师你好：我是今年的考生，也是今年科大自主招生的资格生，我的网络号是８０３４３４，五月十日前已提前填了科大的志愿书，因为高考没能发挥好，现估分５８９，现安徽省省分数线也没有出来，也不知道能否上到科大，现提前批次开始填志愿了，不填科大有影响吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='安徽';
+['查询结果为空！']
+其实江苏选修理化达双A＋也是不容易的，高考本是选拔，A＋的意味是5%，双A＋即理化每门都在5%中，加分应该是一种积极的肯定，而非忽悠吧？，不过今年的高招录取是够麻烦的，不加分也理解，高招嘛，高校自有章程的。，谢谢作答！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+通信工程就业前景如何？
+select * from admission_plan where school='中国科学技术大学' and major='通信工程';
+['查询结果为空！']
+请问贵校今年招收本硕连读专业吗？具体是哪些专业？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问老师，贵校的国防生在考研和保研时是否有所限制？参照以往经验，至少得高出我们河南省重点线多少分才能有希望被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+我于2005年10月通过考级获得省教育厅颁发的“中学体育运动一级证书”。《2008年甘肃省普通高等学校招生工作方案》规定：凡在高中阶段获得由省教育厅颁发的中学体育运动一级证书的应届高中毕业生，录取时文化课加20分投档.请问：，1、	贵校在提档和专业录取时如何对待这20分的加分？，2、	这项加分须经贵校审核认可吗？审核程序是怎样的？，3、	贵校在甘肃提档比例是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='甘肃';
+['查询结果为空！']
+老师,绿色盲可不可以报考法学,经济学类及管理学类专业?
+select * from admission_plan where school='中国科学技术大学' and major='经济学类' and classy='理工';
+['查询结果为空！']
+老师您好:贵校理科数学专业辽宁地区招生多少人?谢谢！
+select * from admission_plan where school='中国科学技术大学' and district='地区' and classy='理工';
+['查询结果为空！']
+数学与应用数学侧重方向为何?光信息与技术\自动化\通讯工程\电子科学与技术\材料物理专业限制色弱报考吗?物理学是否定向?
+select * from admission_plan where school='中国科学技术大学' and major='物理学';
+['查询结果为空！']
+老师您好!，1,贵校的物理学类专业与贵校其他理.工科专业相比录取分算高的还是算低的?，2,烦请详告哪些理.工科专业限制外语是日语的考生?
+select * from admission_plan where school='中国科学技术大学' and major='日语' and classy='理工';
+['查询结果为空！']
+感谢各位招生老师百忙当中抽出时间回答我的问题,我想让贵校给我提供一份近几在河北本科一批A(理工类)的院校录取分数线和各专业录取线,非常感谢!
+select * from admission_score_pro where school='中国科学技术大学' and year='一份' and district='河北' and classy='理工';
+['查询结果为空！']
+贵校招生负责人您好：，我是吉林省的一名应届毕业生，想报考贵校，请问贵校2008年在吉林省的投挡线大概是多少分？2007年在吉林省的投挡线是多少分？谢谢！！
+select * from admission_plan where school='中国科学技术大学' and year='2007' and district='吉林';
+['查询结果为空！']
+请问:贵校2008年的保送生是否要参加高考?
+select * from admission_plan where school='中国科学技术大学' and year='2008';
+['查询结果为空！']
+贵校2008年在新疆招生人数是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='新疆';
+['查询结果为空！']
+我是安徽考生.美术统考成绩196分如果文化课成绩合格的情况下,能报考贵校吗?
+select * from admission_plan where school='中国科学技术大学' and year='196' and district='安徽' and classy='文史';
+['查询结果为空！']
+请问老师：科大的物理学或应用物理招生计划是多少？力学班是否本硕博连读，计划是多少？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='物理学' and classy='理工';
+['查询结果为空！']
+老师好:请老师介绍2008年新增专业有那些?新增专业都归属哪个学院.从近几年新增专业的情况看,新增专业录取分数与相近专业比较是高还是低?
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+请问老师：辽宁今年首次实行平行志愿，贵校提挡比例是多少？如服从专业调剂，提挡后还能否退挡？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁';
+['查询结果为空！']
+老师您好！今年贵州计划是多少名？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='贵州';
+['查询结果为空！']
+谢谢老师的回答，能否再回答07招生问题：07年湖南招生计划65人，后动用预留计划追加了多少人（不含报送生和自主招生数），谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2007' and district='湖南';
+['查询结果为空！']
+安徽省教育招生考试院解读高考“平行志愿”时提及注意投档比例风险。有报道说今年安徽省原则投档比例：省外一二本院校≤105%，省内100%。请问贵校的投档比例是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+08年贵校计划比07年减少了15个（不含国防生，这只是一部分体检符合要求的考生能够实现的梦想），贵校预留的计划中一般在湖南可以追加多少计划，烦请用数字说话，谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2007' and district='湖南';
+['查询结果为空！']
+贵校今年理工科在海南招生计划
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+贵校前几年在全国招生数均为1860人，今年为什么减少100人？能否介绍减招原因或背景。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问：1、今年在安徽的招生计划？贵校已确定的省内保送生和自主招生人数有多少？，2、去年录取分数线是多少？，3、2008年在安徽招生的投档率是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2008' and district='安徽';
+['查询结果为空！']
+请问老师:今年科大本科生物系毕业生出国情况及美国哪些名校录取?谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='美国';
+['查询结果为空！']
+今年贵校在四川有无法语或对外汉语招生计划。我是成都石室中学的毕业生。很希望考入贵校，能否预计贵校今年在四川“文科”的调档分数，与往年比较的水平变化。谢谢！
+select * from admission_score_major where school='中国科学技术大学' and year='None' and major='法语' and district='四川' and classy='文史';
+['查询结果为空！']
+老师您好：，请问该学校今年的高考录取分数线是多少？，我是一名内蒙古乌海的理科生，请问多少分以上可以报这个学校？并且想了解一下学校的专业。，谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+应用物理学教哪些课程？
+select * from admission_plan where school='中国科学技术大学' and major='应用物理学';
+['查询结果为空！']
+老师,您好.福建理科617分,上贵校的希望有多大?请一定用分数表示,请一定要回答
+select * from admission_score_pro where school='中国科学技术大学' and year='617' and district='福建' and classy='理工';
+['查询结果为空！']
+四川考生问提前批的力学基地班和生物科学类读几年,力学基地班定向是中国工程物理研究院绵阳,生物科学类定向是哪?谢谢
+select * from admission_plan where school='中国科学技术大学' and major='生物科学类' and district='四川' and classy='理工';
+['查询结果为空！']
+希望老师根据现在贵校所了解的情况,估计湖北638理科,有多大风险?请作明确的回答,谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖北' and classy='理工';
+['查询结果为空！']
+希望老师根据现在贵校所了解的情况,估计湖北639理科,有多大风险?请作明确的回答,谢谢.急！急！急！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖北' and classy='理工';
+['查询结果为空！']
+请问我理科生620分，报考贵校提前批有希望吗
+select * from admission_plan where school='中国科学技术大学' and year='620' and classy='理工';
+['查询结果为空！']
+老师您好,我是安徽理科考生,今年高考631分1593名,报考贵校希望有多大(专业服从)?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽' and classy='理工';
+['查询结果为空！']
+本硕博连读需要几年
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+四川招生组泸州宜宾自贡地区的号码是多少?谢谢
+select * from admission_plan where school='中国科学技术大学' and district='自贡';
+['查询结果为空！']
+今年高考我发挥失常,考分只比四川重点线高了66分,但我有二极运动员资格(省招办认定加20分),同时考取了中科大的B档自主招生(线下20分即可录取),请问老师:我可否以(高考成绩+20+20)的总成绩资格报考科大?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='四川';
+['查询结果为空！']
+今年高考我发挥失常,考分只比四川重点线高了66分,但我有二极运动员资格(省招办认定加20分),同时考取了中科大的B档自主招生(线下20分即可录取),请问老师:投档分是否以(高考成绩+20+20)投档?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='四川';
+['查询结果为空！']
+文科558能上你们二本吗?希望大吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+我是山西的考生，今年高考分数640，报志愿时报的贵校的物理系，希望进入物理系就读，请问可以吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='山西' and classy='理工';
+['查询结果为空！']
+你好老师，我是青海的考生，我高考实考分525分，能否被贵校录取？青海重点线是467分。
+select * from admission_plan where school='中国科学技术大学' and year='467' and district='青海';
+['查询结果为空！']
+老师你好，我是江苏理科考生，今年分数628，化学147，报考你校有希望么？？谢谢！
+select * from admission_score_major where school='中国科学技术大学' and year='2019' and major='化学' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师您好:，请问电子信息科学类包含哪些本科专业?，另外"电子科学与技术"与"信息与计算科学"有何区别?，"电子信息工程"与"通信工程"分别研究的哪一方面?，谢谢
+select * from admission_plan where school='中国科学技术大学' and major='通信工程';
+['查询结果为空！']
+福建的考生，考了614分，很希望能上贵校，不知道今年应该报什么专业把握更大，谢谢。(一本562)
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建';
+['查询结果为空！']
+1、理科实验班是否只招收竞赛获奖者？，2、物理学类、生物科学类、环境科学、机械设计制造及其自动化专业前三年录取分数是多少？
+select * from admission_score_major where school='中国科学技术大学' and year='None' and major='机械设计制造及其自动化';
+['查询结果为空！']
+考试分数出来居然只有642分，老师您看有希望不？
+select * from admission_score_pro where school='中国科学技术大学' and year='642';
+['查询结果为空！']
+老师您好,我是吉林理科应届考生,考了647分,还有5分政策加分,请问报考了贵校国防生能被录取吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='647' and district='吉林' and classy='理工';
+['查询结果为空！']
+老师我想问一下，我是山东理科的一名考生，成绩616，报考中国科技技术大学有没有希望？往年的分数一般在重点线多少分以上？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='中国' and classy='理工';
+['查询结果为空！']
+科大最好专业是什么?651分能否报科大最好专业
+select * from admission_plan where school='中国科学技术大学' and year='651';
+['查询结果为空！']
+老师：您好！，今年我的分数为649分，请问报考你校，有希望吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='649';
+['查询结果为空！']
+我是一河北理科考生，今年高考分数为660。能否够报考贵校？贵校各个专业之间是否有分数级差。如果有，我最有希望报考那个专业？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河北' and classy='理工';
+['查询结果为空！']
+浙江647分报考贵校有希望吗?
+select * from admission_plan where school='中国科学技术大学' and year='647' and district='浙江';
+['查询结果为空！']
+老师好!我高考是江苏省700多名,分数是665分,能否报贵校,能否给出一点意见,谢谢!
+select * from admission_score_pro where school='中国科学技术大学' and year='665' and district='江苏';
+['查询结果为空！']
+老师好，我是四川考生635分，读贵校的提前批生物科学类专业有多大的把握，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='635' and major='生物科学';
+['查询结果为空！']
+我是黑龙江考生,659分,急切希望知道我在报考贵校考生里的位次,招生老师电话不通.
+select * from admission_plan where school='中国科学技术大学' and year='659' and district='黑龙江';
+['查询结果为空！']
+您好！，我孩子今年高考山东理科664分，并列全省197名，日照市第二名，请问报考贵校胜算几何？请回答！谢谢！，联系电话：13806332956
+select * from admission_plan where school='中国科学技术大学' and year='664' and district='山东' and classy='理工';
+['查询结果为空！']
+老师好:，我是河南理科考生,估了660分第一志愿报的是中科大,希望大吗?谢谢老师!
+select * from admission_plan where school='中国科学技术大学' and year='660' and district='河南' and classy='理工';
+['查询结果为空！']
+请问，我是河北理科考生，今年考了645分，另有10分“侨眷高知子女降10提档”的照顾分。总计655分，如果服从调剂，报考贵校是否有希望？
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='河北' and classy='理工';
+['查询结果为空！']
+请问贵校600分左右能不能上贵校呀！
+select * from admission_plan where school='中国科学技术大学' and year='600';
+['查询结果为空！']
+老师：您好，我是河北理科考生，高考成绩650分，想报考贵校。想咨询一下贵校今年在河北的录取分数线，如果报考能有多大机会被录取？谢谢老师！
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+你好,我是一名广西的考生,我今年的分数是632分,请问我能报中国科技大学吗??假如能,我又能报什么专业??谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='632' and district='广西';
+['查询结果为空！']
+老师：您好！我是湖北（武汉）理科考生，我的考分估计620-630分左右，不知道能否报考贵校以及报什么专业好，请给我一个好的建议，谢谢老师！
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='湖北' and classy='理工';
+['查询结果为空！']
+老师，您好，宁夏重点线划定为531分，我实考560分，请问报考贵校把握多大，专业选择余地大吗？谢谢！！
+select * from admission_plan where school='中国科学技术大学' and year='560' and district='宁夏';
+['查询结果为空！']
+老师您好,我是一名山东考生,爱好数学和物理,想报考贵校的工科专业,将来成为一名工程师,有哪些专业更适合我,恳请老师帮助推荐,并给予明确答复.急盼!
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+浙江07年645分能进中国科技大学吗?如何和您们联系?
+select * from admission_plan where school='中国科学技术大学' and year='2007' and district='浙江';
+['查询结果为空！']
+老师:您好，我是四川理科考生,估分640左右(不含加分10分),估计上贵校可能性大吗?另外,怎样与您校在川老师联系?您们估计四川重本线大约是多少?
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='四川' and classy='理工';
+['查询结果为空！']
+老师您好：，我是黑龙江的理科考生，今年估了662分，来自佳木斯一中重点班，想报考贵校，如果我第二志愿报考贵校，是否能够被录取？谢谢老师。
+select * from admission_plan where school='中国科学技术大学' and year='662' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+贵校今年在河南的其他提前批按多少的比例提档？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+老师:您好，我对贵校非常感兴趣,但细读贵校的招生简章，贵校与上海高校相比，在加分上对待不一样。我被评为四川省优秀学生干部，想把10分加分充分利用。请问：加分进档,录取时按高考实际分,是否可以看着加分无用?如果要填报贵校，需要注意些什么？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='四川';
+['查询结果为空！']
+请问06年在宁夏各专业的录取分数,我在科大招生网上没有找到
+select * from admission_plan where school='中国科学技术大学' and year='2006' and district='宁夏';
+['查询结果为空！']
+老师好:，如果被提前批9年本,硕,博连读录取,是否就意味着必须在贵校读满9年?谢谢老师!
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+00班去年在河南的最低分数线是多少？毕业后的发展方向如何？
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and district='河南';
+['查询结果为空！']
+老师好，我今年估分670，请问贵校最适合女生学的专业是什么？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师您好，我儿子高考估分517分以上，想上贵校，但不知道专业报名顺序，能指导一下吗？他比较喜欢物理学和理化生交叉的学科。谢谢老师。
+select * from admission_plan where school='中国科学技术大学' and year='517' and major='物理学' and classy='理工';
+['查询结果为空！']
+您好!我是山东理科考生,估分在640分左右,想报考贵校的生物医学类的专业,请问有没有把握被录取?谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='640' and district='山东' and classy='理工';
+['查询结果为空！']
+请问贵校计算机科学与技术、电子科学与技术、自动化、电子信息工程这几门专业去年在河南的录取分是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2018' and major='电子信息工程' and district='河南';
+['查询结果为空！']
+请问计算机科学与技术、电子科学与技术、自动化、电子信息工程，这几门专业是否为贵校的强势专业？就业前景如何？
+select * from admission_plan where school='中国科学技术大学' and major='电子信息工程';
+['查询结果为空！']
+老师啊，我今年估分640（理），刚才与招生老师联系，说是这个分已经很危险了，本人今年复读，不想再读一年了，但又一直很向往中科大，很想报考贵校，不想遗憾终生，您说我今年敢不敢报贵校啊？急切地等您答复！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+？我是河南的一名理科考生，今年估计分数650，请问能否报考贵校？被录取的希望有多大？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南' and classy='理工';
+['查询结果为空！']
+今年浙江理科全省排名多少有希望被录取
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是一名河南的理科考生，今年估计分数650，请问能否报考贵校？被录取的希望有多大？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南' and classy='理工';
+['查询结果为空！']
+请问贵校近年的理科提前批的分数?今年655有多大把握?谢谢!
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+在2006年一级学科评比中，科大计算机排11，电子排14，热能排7，通信排19，好像不太理想，请问这些专业实力到底如何
+select * from admission_plan where school='中国科学技术大学' and year='2006' and classy='理工';
+['查询结果为空！']
+请问老师:贵校软件工程专业历年录取分数线是多少？如果我没有被录取到这个专业，进校后，能否有机会调到这个专业？机会大吗？
+select * from admission_score_major where school='中国科学技术大学' and major='软件工程';
+['查询结果为空！']
+您好：，1、请问辽宁理科估计在636分，报你校，录取有多大的把握？，2、本次一共可填报六个专业，是否依次录取？，3、热能与动力工程学习的主要学科有哪些？，4、地球物理学的学习内容都有哪些，就业主要是面向哪些方面？5、今年按大类招生，以材料科学为例，如想到化学材料学科你校是如何确定的？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='地球物理学' and district='辽宁' and classy='理工';
+['查询结果为空！']
+请问贵校物理学毕业生通常到哪些部门就业？
+select * from admission_plan where school='中国科学技术大学' and major='物理学';
+['查询结果为空！']
+请问老师，贵校数学类今年在我们河北招2名，是基础数学还是应用数学，贵校有无应用数学专业，是否是国家重点学科，将来的毕业去向如何？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='数学类' and district='河北';
+['查询结果为空！']
+九年制的生命科学类提前批次应该是先在科大读完本科，后转入北京、上海科学院继续读硕士、博士学位吗？那学费是九年中每年4800元，还是只是读本科期间？读硕士、博士学位期间学费怎么安排？谢谢回答！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='上海';
+['查询结果为空！']
+我是福建南平地区的考生，请问是否有咨询电话
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+我今年估分640报考该专业有一定的机会吗？另外生命科学类提前批次的主要课程方向是什么呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是福建考生，估分620到630左右，不知道报考贵校的机会大不大，本人还想了解有关国防生的事项，请问是否有联系电话等，福建省今年贵校的分数线大概为多少？在贵校学习时是否能申请进香港的大学？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='香港';
+['查询结果为空！']
+您好!我是河南的理科生,今年的估分是603,本地的一本估分是590,请问在电子,通信等专业中哪些专业我被录取的希望较大!今天就要交志愿表了,我快要急死了,占用您几分钟的时间来为我的未来出谋划策,谢谢!如果我服从调剂,会不会被调到文科类专业?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南' and classy='文史';
+['查询结果为空！']
+老师好！请问传播学和环境科学两个专业的学习内容、培养目标、就业方向等情况？
+select * from admission_plan where school='中国科学技术大学' and major='环境科学';
+['查询结果为空！']
+转专业的比率多少？女生报数学系学习有难度吗？另外“省三好”优惠10分，分专业取消吗？
+select * from admission_plan where school='中国科学技术大学' and year='2010';
+['查询结果为空！']
+老师您好:，我是河南理科考生,估了665-670分.我非常向往中科大,今年河南高分考生较多,因此特别担心第一志愿不能录取.希望给予指导.谢谢老师.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南' and classy='理工';
+['查询结果为空！']
+老师您好，据您现在掌握的情况以620-626报考贵校有无较强竞争力，将中国科技大作为第一志愿把握大吗？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='中国';
+['查询结果为空！']
+我是河北考生，想第一志愿报考数学专业，如果被调剂到其他专业，一年后是否可以转到数学专业？
+select * from admission_plan where school='中国科学技术大学' and year='一年' and district='河北';
+['查询结果为空！']
+请问科大老师：如果今年我被录取你们学校，因分数原因没有被录取我想学的专业，能否转专业？比如：我录取在化学系，但我想转到软件工程专业，可不可以？
+select * from admission_score_major where school='中国科学技术大学' and year='2019' and major='软件工程';
+['查询结果为空！']
+贵校的特色专业有哪些？这些专业近三年在河北省的录取分数线分别是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河北';
+['查询结果为空！']
+请问贵校提前批次招收的生物科学技术专业如果被录取，将来还有机会转到其他专业吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='生物科学';
+['查询结果为空！']
+我听说贵校学习强度很大真的吗？未来工作主要面向哪里？好就业吗？？
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+今年科大新生军训时间具体是什么时候？天气会不会很热？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是安徽考生，估630-640，请问报考贵校的生物技术本硕博连读有把握吗？该专业具体情况如何？就业方向如何？谢谢回答！
+select * from admission_plan where school='中国科学技术大学' and major='生物技术' and district='安徽';
+['查询结果为空！']
+老师您好，我是陕西考生，今年估分最低646最高670，请问报考贵校有无把握？目前这个分数段咨询的人多吗？，谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='陕西';
+['查询结果为空！']
+老师：，您好！，今年科大首次在提前批招生，不知贵校提前批招生与一本招生有何不同？仅仅是本硕连读的差异吗？，由于首次招生，提前批也没有往年数据可以参考，那么老师认为，达到什么分数水平可以填报中科大的提前批次呢？，谢谢老师的回答！
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我是河南的今年我学校还有周边的一些地区经统计670到680得特别多我们学校中他们高分区很多都想报中科大我估了650左右是不是没希望拉老师
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='高分区';
+['查询结果为空！']
+我是河南的理科考生，预估的分数是640分，上本校是否有把握
+select * from admission_score_pro where school='中国科学技术大学' and year='640' and district='河南' and classy='理工';
+['查询结果为空！']
+近几年在河南的录取分数线(理科),尤其是通讯工程等电子类?我的估分是603左右,请问报这些专业有多大希望.
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+我是河南的考生,我考过了中科大自主招生的B档.请问如果按去年中科大在河南的分数线638分,我今年如果考620分,按自主招生的政策可以降20分录取.请问我选专业是,620分加10分选专业,还是我没到638所以不能加10分选专业.如果我考了635分,又有少数民族加的5分,这样就是640分了,那我这时是否可以加10分选专业?谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河南';
+['查询结果为空！']
+请问，我是河北考生，今年享有河北省高招办规定的“侨眷高职子女优惠10分提档”的政策，请问贵校执行这一政策吗？是否何其他的降分政策一样对待？（教育部优惠政策里没这一条）
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+贵校今年在云南的计划招生人数是多少?，分数线是多少?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='云南';
+['查询结果为空！']
+我是河南考生,今年估计分数在645左右,能否被录取?，河南分数线在多少分左右?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+老师好！，我想咨询以下今年学校在河南省招生的力学基地班，本硕博连读的情况。这个专业目前什么状况，发展前景怎样，毕业后学生的去向就业范围。因为在河南省属于提前批其他类，不知招生往届生吗？，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+老师您好!，，天津理科考生咨询贵校物理学、材料科学、机械设计制造及其自动化专业的06年最底录取分数线
+select * from admission_score_major where school='中国科学技术大学' and year='2006' and major='机械设计制造及其自动化' and district='天津' and classy='理工';
+['查询结果为空！']
+老师您好:，我是河南理科考生,估了660分-670分想报考提前批的本硕博连读.请老师给予指导.谢谢
+select * from admission_plan where school='中国科学技术大学' and year='670' and district='河南' and classy='理工';
+['查询结果为空！']
+1.请问贵校有无专业志愿级差？，2.我们没有搞到贵校分专业录取统计资料，很难把握专业梯度，能否提供06或05年任意一年理工类天津分专业录取资料。，3.如达到在津提档线且服从专业调剂，会被退档吗？
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='天津' and classy='理工';
+['查询结果为空！']
+每年在辽宁沈阳都有高考咨询会，今年有吗？如果有具体什么时间？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁沈阳';
+['查询结果为空！']
+能否预估一下贵校今年在安徽的录取线,贵校在安徽招生能突破计划的多少?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+请问老师:，贵校"生物科学类"专业在全国高校中位置?具体科目?天津考生近几年招生分数?谢谢!
+select * from admission_score_major where school='中国科学技术大学' and year='None' and major='生物科学类' and district='天津';
+['查询结果为空！']
+预估山西重点线550分,620分有多大把握上贵校.谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='山西';
+['查询结果为空！']
+我是浙江考生今年浙江实行平行志愿而贵校招生章程中B志愿视为第二志愿与我省规则如何统一？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+老师好！二个问题：1、04年、05年、06年理科生提档线分别是多少？，2、今年在我省自主招生中录取了多少人？占计划吗？他们是加分后再排队进入提档线吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+老师您好!我通过该平台的高考志愿填报参考系统查询到贵校从2000年到2006年的各专业录取数据,其中有最低/高分数,录取平均分,还有最低/高位次排名和平均位次排名,我想请问按哪个作参考,填出来的志愿比较有把握?听说通过位次填报比较科学，这里的位次指的就是省市排名吧？
+select * from admission_plan where school='中国科学技术大学' and year='2006';
+['查询结果为空！']
+你好！我是市级三好学生,有生物、化学两门学科获全国竞赛省区二、三等奖，在你校录取时有优惠政策吗？如何自我推荐？
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+中国科学技术大学招生办的老师:，您好，我是广西考生，有几个问题请教：，1、我几次模拟试成绩在630分左右，报考你校可有把握？，2、我理、数成绩比较好，该选什么专业为宜？，3、我有一眼视力为4.5，另一眼正常，对选专业有何影响？，4、贵校在广西是否有机动招生指标？提档的考生是否全部录取？，5、贵校毕业生就业方向如何？，6、对家庭经济困难的考生，有何资助政策？，多谢老师的解答！
+select * from admission_plan where school='中国科学技术大学' and year='630' and district='广西' and classy='理工';
+['查询结果为空！']
+浙江排名多少？能报贵校？贵校今年在浙江录取多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+在浙江排名多少可报贵校？贵校在浙江今年计划招多少？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+希望了解贵校往年在重庆招生分数
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='重庆';
+['查询结果为空！']
+我是天津考生,06年贵校在天津的录取分数是多少?今年高出一本线五十分有把握被贵校录取吗?多谢!
+select * from admission_score_pro where school='中国科学技术大学' and year='5' and district='天津';
+['查询结果为空！']
+老师：您好！，我是辽宁大连的理科考生，市一模652分，比估测一本线（580分）高72分，请问，能否考上贵校？少数民族是否有加分？录取加分，还是分专业加分？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2072' and district='辽宁大连' and classy='理工';
+['查询结果为空！']
+请问贵校往年在湖南省招生的人数及分数线是多少？有定向生计划吗？哪几个专业是比较热门？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='湖南';
+['查询结果为空！']
+我是浙江省理科考生，请问老师：，1、浙江省今年的招生计划，自主招生包含在招生计划以内吗？，2、自主招生考生有多少分可加？，3、专业调剂是按自主招生加分后的总分和一般考生一起排序调剂还是按实考分排序？，4、提档比例是多少？，5、一般在浙江省的排名第几名以前有希望进入贵校？包括：实考分排名？政策加分后排名？，6、假如发生这样的情况，怎样处理：，浙江省是按“分数优先，志愿平行”录取，假如贵校在浙江省的录取线是650分，我实考分650分，另一位同学的实考分和自主招生加分后总分也是650分，两人都报了相同的专业志愿，又都是服从专业调剂，均被提档，请问：，（1）我的计划肯定需要在计划内，但另一位同学的录取是在计划内还是另外追加计划，我怎么知道他是否占计划？，（2）专业安排排序是谁优先？（即专业调剂是按实考分还是加分后的总分排序）；，（3）假如有退档，先退谁？
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='浙江' and classy='理工';
+['查询结果为空！']
+请详细说明一下：本硕博连读与中科院联合培养的具体情况。往年个录取分数如何?
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+请问科大老师:我佷想上中科大,我也查了近三年中科大在陕西省的录取分数,平均高出一本线100分,但去年只有超一本线102分才能录取,如果超一本线100分有多大把握,你校能否增加录取计划?
+select * from admission_score_pro where school='中国科学技术大学' and year='100' and district='陕西';
+['查询结果为空！']
+你好，我是学生家长。我的孩子有全国奥林匹克化学竞赛中获得省级一等奖，请问如果报贵校，能否在录取时预以加分或优先录取。谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+请问：贵校是否录取二志愿考生？数学院是否设金融数学或金融工程专业？
+select * from admission_plan where school='中国科学技术大学' and major='金融工程';
+['查询结果为空！']
+天津考生报考贵校自动化专业需高出重点线多少分？在报考贵校的第一志愿专业未被录取情况下，按照第二志愿专业录取的机会是否和第一志愿专业相同？是否有分数级差？谢谢！
+select * from admission_score_major where school='中国科学技术大学' and major='自动化';
+['查询结果为空！']
+我是山东烟台考生，我的分数在500左右，获得2个全国中学生信息学联赛二等奖。我能否上本大学计算机科学与技术系？我的电话是0535-4981915（小灵通）
+select * from admission_score_pro where school='中国科学技术大学' and district='考生';
+['查询结果为空！']
+我是河南省考生家长：请问贵校往年在河南省招生的人数及分数线是多少？？，谢谢！！！！！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+今年的本科分数线大概要多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问老师:2006\2007年,科大出国率情况..生科院出国情况能详细说说吗?
+select * from admission_plan where school='中国科学技术大学' and year='2007';
+['查询结果为空！']
+老师好！北京理科626分有希望上贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='626' and district='北京' and classy='理工';
+['查询结果为空！']
+我很喜欢中国科技大学，报考了提前批的生物科学，不知机会多大。，希望老师给一些意见！谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='生物科学';
+['查询结果为空！']
+我今年高考成绩是650（高出重本线70多分），我已经报考贵校，有我们高中的推荐表，一直以来中科大都是我梦寐以求的大学，今年高考并没有发挥出我的真实水平，我现在很想知道我是否有可能被录取，希望有多大？谢谢老师
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我的理科成绩是781分，在海南省的排名是65名。有希望被贵学校录取吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='781' and district='海南' and classy='理工';
+['查询结果为空！']
+老师好！，由于“信息技术”是云南省新加入的会考科目，导致云南今年以前毕业的所有学生都没有该科的会考成绩，在网报时该科会考成绩显示为0分。，云南的“招生工作规定”有以下规定：会考成绩有一科不合格的学生可报考一般本科及高职（专科）；有两科不合格的学生只能报考高职（专科）。，这样的话，是不是今年云南的所有复读生都不能填报重点院校，包括中国科学技术大学呢？，这样的情况下，达到重点线，达到科大的录取线，科大会录取吗？，谢谢您！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='云南';
+['查询结果为空！']
+海南今年重点线569,我714分理科,有希望上吗?谢谢!!!海南的,好急!!!!!!!!!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='海南' and classy='理工';
+['查询结果为空！']
+请问：贵校今年对新疆民考汉理科考生的录取分数线是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='新疆' and classy='理工';
+['查询结果为空！']
+我是一名陕西考生，高考考了664分，有省级优秀干部证书，大学四级证书，还有版画特长，请问在第二志愿能否录入贵校？
+select * from admission_plan where school='中国科学技术大学' and year='664' and district='陕西';
+['查询结果为空！']
+我就挺纳闷的,我们县有一学生她找关系说能上了中科大,请解释为什么?山西襄垣的.
+select * from admission_plan where school='中国科学技术大学' and district='襄垣';
+['查询结果为空！']
+我是云南昆明的理科考生,我的高考成绩为663分(没有加分),我想第一志愿报科大,录取希望大吗
+select * from admission_plan where school='中国科学技术大学' and district='云南昆明' and classy='理工';
+['查询结果为空！']
+您好,我考了638分,一本为550分,可以报您校吗?
+select * from admission_plan where school='中国科学技术大学' and year='550';
+['查询结果为空！']
+今年上学四年后毕业的毕业生还有派遣证吗?
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+老师我是理科生考了579分比1本高10分，我一志愿报贵校有多大机会？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and classy='理工';
+['查询结果为空！']
+老师，辛苦了，麻烦问一下，福建理科考生６１８，另加华侨子女２０分，报考贵校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='福建' and classy='理工';
+['查询结果为空！']
+请问如何查询贵校往年分专业分数线
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+文科，今年考636分，年龄27，不知道贵校对年龄相对较大的成人报考有无其他额外限制？若能录取，有无与其他学生相同的奖、贷、助等政策？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='文史';
+['查询结果为空！']
+你好，我是福建理科考生，今年考624，高出本一63分，数学奥赛2等奖，报考你们学校有希望吗？你校的热门专业有哪些？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+福建理科644分,报理科试验班类,能录取吗?
+select * from admission_plan where school='中国科学技术大学' and year='644' and district='福建' and classy='理工';
+['查询结果为空！']
+619分，云南理科一本550。我报考科大能录取吗？
+select * from admission_plan where school='中国科学技术大学' and year='619' and district='云南' and classy='理工';
+['查询结果为空！']
+我是云南理科考生,成绩675(含10分省级优秀学生干部加分),想报贵校经济,工商管理类,希望大吗?
+select * from admission_plan where school='中国科学技术大学' and major='工商管理类' and district='云南' and classy='理工';
+['查询结果为空！']
+浙江理科620分，请问报考贵校有希望吗？哪些专业录取的机会会比较大一点呢？急盼！
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='浙江' and classy='理工';
+['查询结果为空！']
+625分是否有希望就读贵校？专业服从调配
+select * from admission_plan where school='中国科学技术大学' and year='625';
+['查询结果为空！']
+老师您好:，我是四川理科考生,642分(不含附加分10分),报考贵校是否有希望,我在全省排名900左右(不加10分的附加分),四川理科重本线560分,谢谢!!1，那10分是省三好学生的加分
+select * from admission_plan where school='中国科学技术大学' and year='560' and district='四川' and classy='理工';
+['查询结果为空！']
+你好，我是福建理科考生，今年考629，排名1200左右，（高本一58分）数学奥赛2等奖，报考你们学校有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+660分理科有多大把握?，在一就是想报国防生,国防生是什么?
+select * from admission_plan where school='中国科学技术大学' and year='660' and classy='理工';
+['查询结果为空！']
+老师您好:，我是四川理科考生,642分(不含附加分10分),报考贵校是否有希望,我在全省排名900左右(不加10分的附加分),四川理科重本线560分,谢谢!!1
+select * from admission_plan where school='中国科学技术大学' and year='560' and district='四川' and classy='理工';
+['查询结果为空！']
+河南地区招生老师的联系方试?，非常感谢
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+云南今年理科重点550，二本485，考分502是否可以被贵校录取？贵校是否可以修第二专业。或者修双学位？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='云南' and classy='理工';
+['查询结果为空！']
+高出江苏本一分数线23分报考贵校有希望吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2023' and district='江苏';
+['查询结果为空！']
+我想问一下贵校能够录取理工560分的吗?今年云南省的1本线是550分
+select * from admission_plan where school='中国科学技术大学' and year='550' and district='云南';
+['查询结果为空！']
+您好！我是河北省的考生（理科）考了640分！另外还有10分的加分！请问报考贵校有多少把握！谢谢！另外有专业比较强？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北' and classy='理工';
+['查询结果为空！']
+老师，你好，我湖北理科考生，今年总分636分，比一批重点线高出90多分，全省排名600名左右，请问上贵校的可能性大么？谢谢回答！！！
+select * from admission_plan where school='中国科学技术大学' and year='636' and district='湖北' and classy='理工';
+['查询结果为空！']
+请问海南714分能上吗？只要能上,啥俺都中！！！！大小年是真么怎么回事？如何避免或是利用？再谢谢了！
+select * from admission_plan where school='中国科学技术大学' and year='714' and district='海南';
+['查询结果为空！']
+老师：618分能不能上科大？请给个答复。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='618';
+['查询结果为空！']
+江西考生，618分，并填写了贵校优秀学生推荐表有用吗？能上贵校吗？
+select * from admission_plan where school='中国科学技术大学' and year='618' and district='江西';
+['查询结果为空！']
+664分能进哪些专业?
+select * from admission_plan where school='中国科学技术大学' and year='664';
+['查询结果为空！']
+中科大的理科试验班类是什么?贵校在山东过去的分专业录取情况在哪里可以找到?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+你好，亲问理科579分，总分排名14990，报考贵校希望大不大？报什么专业希望较大？谢了
+select * from admission_plan where school='中国科学技术大学' and year='579' and classy='理工';
+['查询结果为空！']
+请问贵校的化学物理系属于招生中的哪类?在湖北有多少名额?谢谢!
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+老师你好请问今年重庆理科646分报贵校有希望吗？大概能上哪些专业啊？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='重庆' and classy='理工';
+['查询结果为空！']
+我想问一贵在云南是几批录取啊？有预科吗？专科生可以专升本吗？我是理工考生今年考咯450分有望被贵校录取？是本科还是专科？
+select * from admission_plan where school='中国科学技术大学' and year='450' and district='云南' and classy='理工';
+['查询结果为空！']
+请问我651能上贵校的化学物理系吗?
+select * from admission_plan where school='中国科学技术大学' and major='化学' and classy='理工';
+['查询结果为空！']
+我考了619分，重点线是577分，报考贵校有多大把握？我有生物竞赛省二等奖，对报考有帮助吗？如报考国防生呢？
+select * from admission_plan where school='中国科学技术大学' and year='577';
+['查询结果为空！']
+老师你好，我是山东考生，今年高考628分（全省排名6600左右），报考贵校的电子信息类专业有希望吗？其他专业呢？谢谢。（山东重点线583）
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='电子信息类' and district='山东';
+['查询结果为空！']
+请问今年贵校在四川的调档分数线是多少？625分是否有希望？
+select * from admission_score_pro where school='中国科学技术大学' and year='625' and district='四川';
+['查询结果为空！']
+我是山东理科考生,成绩658,全省804名.平时(一模,二模)均在全省130名之前.有无希望报考贵校?有幸被录取,将来有无重新选择学院,专业的机会?，盼具体答复.，谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+我是云南考生，文科，分数是５０８，到贵校就读的希望大不大？
+select * from admission_score_pro where school='中国科学技术大学' and district='云南' and classy='文史';
+['查询结果为空！']
+吉林重点线571，今天大约需打多少分能进入贵校
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='吉林';
+['查询结果为空！']
+您好,我是浙江考生,理科655分.请问贵校是否录取第二志愿考生
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='浙江' and classy='理工';
+['查询结果为空！']
+我考了634分，列3729名，有希望被贵校录取吗？请提供南通地区招生老师的联系电话。
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+老师您好，我是一名青海考生，今年考分542，请问报考贵校的可能性有多大，能否上贵校的电子科学与技术或者计算机科学与技术专业？谢谢！（我们省的一本理科分数线为434分）
+select * from admission_score_major where school='中国科学技术大学' and year='434' and major='计算机科学与技术' and district='青海' and classy='理工';
+['查询结果为空！']
+简介，电子工程与信息科学系成立于1958年科大建校之时。建系时定名为无线电电子学系，在科大内部称为六系。根据中国科学院"全院办校，所系结合"的办校原则，著名电子学家、时任中国科学院电子学研究所所长顾德欢先生出任六系首任系主任。六系建系之初共设有无线电技术、无线电物理、电真空技术和声学4个专业。1964年起，又先后增设了自动控制、计算机和遥测遥控3个专业。这7个专业依次简称为一、二、三、四、五、六、七专业。尽管以后的专业设置经历了较大变化，这一简称仍被沿用至今。1982年起，计算机专业和自动控制专业先后从六系分离出去独立建系。1993年，本系改名为电子工程与信息科学系，在科大内部仍称为六系。我系现有教授24人，其中博士生导师15人。设有电子信息工程和通信工程2个本科专业，简介中说分两个本科专业，可有位学长说本科时不细分这两个专业，我们这是按大类招生，我想学通信，那大2分专业时怎么分啊？？？谢谢！！！
+select * from admission_plan where school='中国科学技术大学' and year='1993' and major='通信工程' and classy='理工';
+['查询结果为空！']
+老师，你好，我湖北考生，今年总分636分，请问上贵校的可能性大么？
+select * from admission_plan where school='中国科学技术大学' and year='636' and district='湖北';
+['查询结果为空！']
+老师：您好！我是江苏理科考生６４５分，报考贵校，有希望吗？选择什么专业？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+请问浙江理科考生657分报考贵校生物科学类有把握吗?
+select * from admission_plan where school='中国科学技术大学' and major='生物科学类' and district='浙江' and classy='理工';
+['查询结果为空！']
+高重点80分,省排名480,报考贵校是否有希望被录取?
+select * from admission_plan where school='中国科学技术大学' and year='2080';
+['查询结果为空！']
+您好我是河北考生今年考分为593请问被贵校录取机会有多大，贵校一般在河北录取分数线高出本一线多少分?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+贵校的通信工程在全国大学中排名第2（据《挑大学，选专业》一书），若报考贵校在河北招生计划中的电子信息科学类是否可以就读通信工程专业?还有电子信息科学类是按大类招生，此大类中是否包括通信工程专业？谢谢！！！
+select * from admission_plan where school='中国科学技术大学' and major='通信工程' and district='河北';
+['查询结果为空！']
+我是河北考生，考了619分，由生物省二等奖，报考贵校有无把握?若是国防生呢？
+select * from admission_plan where school='中国科学技术大学' and year='619' and district='河北';
+['查询结果为空！']
+从目前看:浙江611能否进贵校?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='浙江';
+['查询结果为空！']
+贵校今年招大专生吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+如何获取贵校06年福建的招生计划表？
+select * from admission_plan where school='中国科学技术大学' and year='2006' and district='福建';
+['查询结果为空！']
+山东668分，全省320名（原始分），报中科大物理学专业，希望大不大
+select * from admission_plan where school='中国科学技术大学' and year='668' and major='物理学' and district='山东';
+['查询结果为空！']
+您好，我考了638分，想报考贵校的电子信息科学类，有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='638';
+['查询结果为空！']
+要学电子信息工程，通信工程，是要填电子信息科学类吗？
+select * from admission_plan where school='中国科学技术大学' and major='通信工程';
+['查询结果为空！']
+电子信息工程，通信工程是属于哪类的呀？
+select * from admission_plan where school='中国科学技术大学' and major='通信工程';
+['查询结果为空！']
+老师您好，我是河北考生，理科630分，高出重点线53分，全省第1566名，女生。请问我报考贵校有希望录取吗？
+select * from admission_plan where school='中国科学技术大学' and year='2053' and district='河北' and classy='理工';
+['查询结果为空！']
+您好，我是浙江考生，理科655分，请问能进贵校生命科学类（本硕博连读），谢谢
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='浙江' and classy='理工';
+['查询结果为空！']
+高出重点线34分，能进吗，你们公布的温州地区的联系电话打不通
+select * from admission_plan where school='中国科学技术大学' and year='2034' and district='地区';
+['查询结果为空！']
+老师,我是云南理科考生分数是582分，请问是否有希望录取，如何和贵校招生老师联系，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='582' and district='云南' and classy='理工';
+['查询结果为空！']
+我考了619分，重点线是577分，报考贵校有多大把握？我有生物竞赛省二等奖，对报考有帮助吗？若报考国防生呢？
+select * from admission_plan where school='中国科学技术大学' and year='577';
+['查询结果为空！']
+老师，您好！鄙人今年在川高考成绩为627分，不知可否就读于贵校，若能，又可以选择哪些较好的专业，请老师赐教，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+以下是一重庆理科考生信息：，高考成绩:语文115数学135外语124理科综合265总分:63910分"三好生"加分!，2004、2005年获得全国奥林匹克数学竞赛二等奖，2005年获得全国奥林匹克物理三等奖，2005年获得重庆市中学生五学科计算机一等奖(重庆市)
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='重庆' and classy='理工';
+['查询结果为空！']
+你好,我想问一下贵校有无级差?还有贵校软件工程收费如何?
+select * from admission_plan where school='中国科学技术大学' and major='软件工程';
+['查询结果为空！']
+贵学校什么专业出色？再者，我是河北一考生，今年考了621是否有希望报考贵校？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+老师你好,我是重庆考生！我真的想得到山东建筑大学06年的招生资料一份，作为纪念！请问能够满足我这个小小的要求吗？您真的不能回答一下吗？：（邮寄地址是：重庆渝中区临华路小区25号13-7袁宏仁收邮编：400013，谢谢！当然假如很为难的话就算了,打扰了!~
+select * from admission_plan where school='中国科学技术大学' and district='临华路';
+['查询结果为空！']
+我是内蒙的一名考生内蒙今年的一本调控线为557我的成绩是601请问能否报考贵校录取的概率有多大贵校各专业之间是否存在着级差我的分数报考哪些专业录取的概率较大。谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='内蒙古';
+['查询结果为空！']
+627今年能被贵校录取吗
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问老师，中科大今年在重庆有通信工程的计划吗？“电子信息科学类”含不含通信工程专业？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='重庆';
+['查询结果为空！']
+请问贵校在浙江省去年的分数线是多少?贵校生物科学类在浙江省的录取分数线是多少?谢谢!
+select * from admission_score_major where school='中国科学技术大学' and year='2018' and major='生物科学类' and district='浙江';
+['查询结果为空！']
+我是河北考生考了600分，我还享受华侨高知子女降10分提档的优惠政策，请问报贵校有多大录取的可能？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+今年的高考成绩是640分,曾获得全国化学竞赛三等奖,报考贵校有希望吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='640' and major='化学';
+['查询结果为空！']
+老师你好,学"材料"的话,现在眼睛近视但不限考,4年后近视加大了,研究生入学受限吗,敬请指教.
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我想请问贵校今年是否在广西招预科生
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+您好,我是重庆理科考生,对中科大敬仰已久,今年高考文考成绩632,重本线为525,，1,请问贵校是否存在自愿级差分?2,贵校有哪些国家实验室,哪些专业是王牌专业?3,贵校出国率,考研率多大?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='重庆' and classy='文史';
+['查询结果为空！']
+老师好！我是河北省理科考生，高考成绩643+10分，请问第一志愿填报贵校的录取把握有多大？谢谢!!
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北' and classy='理工';
+['查询结果为空！']
+请问河北考生理科639报贵校数学类专业是否有希望。我的数学成绩是147分。并且我高二高三数学竞赛均获省二等奖。河北重点线是577。我对贵校数学非常有兴趣。
+select * from admission_plan where school='中国科学技术大学' and year='147' and district='河北' and classy='理工';
+['查询结果为空！']
+请问贵校在山东是否招收三本生？往年理科招生计划？理科500是否有希望？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+请问：，新疆理科考生比重点线高100分，第一志愿报考贵校，是否有希望被录取？
+select * from admission_plan where school='中国科学技术大学' and year='100' and district='新疆' and classy='理工';
+['查询结果为空！']
+老师您好，我是重庆一名理科考生，今年分数645，请问贵校的通信工程专业怎样以及就业前景怎样？我的分数上贵校机会大吗？
+select * from admission_score_major where school='中国科学技术大学' and year='2019' and major='通信工程' and district='重庆' and classy='理工';
+['查询结果为空！']
+老师你好,我是福建理工类考生,向往贵校,也希望能被贵校录取,请问据往年经验,在全省排名多少名内,才较有可能被贵校录取?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='福建' and classy='理工';
+['查询结果为空！']
+现在广西联系老师在线吗?发邮件给他多长时间会有回复?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='广西';
+['查询结果为空！']
+老师:你好!刚才你们说没有专业级差,那么录入可专业的依据是什么?考生应怎么填专业志愿?
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+现在各个专业名字都很好听，但具体内涵家长考生却不一定清楚，请问在哪里可以了解其内涵
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+科大寝室有空调吗？今年有没有通讯工程专业？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+河北省省级三好学生，按教育部规定加10分，您学校录取时承认加分吗？，比一本线高出多少报考比较有把握？，专业录取时有专业级差吗？，在学校里能修双学位吗？，河北招生联系方式？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+我是一名湖南的理科考生,我的高考成绩大概是640左右,另外我有20分的少数民族加分,我有两个问题:，1.这个加分贵校是否承认?是调档时承认,还是专业时承认?还是都承认?，2假如加分承认,我的分数大概是660,被贵校录取有希望吗?
+select * from admission_score_pro where school='中国科学技术大学' and year='2020' and district='湖南' and classy='理工';
+['查询结果为空！']
+在科大你可以拥有免费的校内邮箱，方便快捷，而且将来毕业后还会拥有校友邮箱；你还可以拥有个人主页、ftp空间、科大个人blog等等。还有就是科大的医疗都是公费的你只需要服10%的医疗费，每次看病大概一般化1快多钱就可以了。而且科大的校医院目前差不多算是国内最先进的，都有专家作诊，很多外面的人都来科大校医院看病呢！呵呵……
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我是广西的文科考生今年的成绩是547分还有20的民族加分，我想问一下报考贵校成功的机率有大？如果被录取一定要是第一志愿么？，谢谢老师的回答
+select * from admission_plan where school='中国科学技术大学' and district='广西' and classy='文史';
+['查询结果为空！']
+请介绍下贵校往年个专业在福建的录取情况,谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='福建';
+['查询结果为空！']
+老师您好！我对贵校倾心已久，今年高考估分570左右，不知可进贵校否？贵校今年在我区招生计划多少？再请问贵校重点专业是什么？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+贵校的天文学录取一般比其他高吗?相关专业还有哪些?
+select * from admission_plan where school='中国科学技术大学' and major='天文学';
+['查询结果为空！']
+科大每年计划在湖北招生105人，但近年却招了一百四十多人，即使加上保送和自主招生也不够呀，是否今年会出现同样情况呢？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='湖北';
+['查询结果为空！']
+请问贵校在山东往年理科招生计划？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+理科估分670分,报该校希望有多大?怎样与贵校联系
+select * from admission_plan where school='中国科学技术大学' and year='670' and classy='理工';
+['查询结果为空！']
+请老师大胆预测一下今年福建贵校会高出重点线几分？理科630多是否有缘上贵校
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+《2003年中国九大著名高校毕业生就业率调查》（新华网新闻报道），全文：http://www.sn.xinhua.org/2003-10/10/content_1034117.htm，，以下统计主要由整理该文数据得出(个别数据来源于各校主页)，，北大清华科大复旦上交浙大人大南开北航，本科毕业生约300017123019350766002246>3000，本科就业率90-95%85-90%97%97%95%96%92.3%97%98.5%，国内外深造70%77%31%15%8%50%，其中出国率25%11%5%，(特别说明：深造率=出国深造率+国内读研率)，，，科大学生进入世界名校深造的优势也比较大。，，２００２年世界顶级名校美国麻省理工学院录取的大陆新生名单，http://web.mit.edu/cssa/www/year01_02/newstudents/studentlist.html，，清华大学(THU)18：物理1核工4化工4海洋3材料2土木1机械1材料1不详1，中国科大(USTC)9：物理3数学2机械1海洋1地空1计算机1，上海交通(SJTU)3：机械1材料1MBA1，北京大学(PKU)2：城规1数学1，南京大学(NJU)2：物理1地空1，北航大学(BUAA)1：航天1，同济大学(TJU)1：建筑1化学1，华中科大(HUST)1：电子1，厦门大学(XMU)1：生物1（GoergiaU），哈工大(HIT)1：土木1（UCSD）
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and district='上海' and classy='理工';
+['查询结果为空！']
+中国科大2003届毕业生去向：，，本科毕业生：1710人,其中77%继续在国内外深造,比例全国第一。，(央视网站新闻)www.cctv.com/education/20030918/100586.shtml，(搜狐网站新闻)learning.sol.sohu.com/46/99/article213399946.shtml，(新华网新闻)www.bj.xinhuanet.com/bjpd-kejiao/2003-09/17/content_952808.htm，，2003年，科大应届本科毕业生中，当年就考取全额奖学金出国深造者有425人，占毕业生总数的25%。科大学生的出国深造比例几十年来一直保持全国第一。http://finance.eastday.com/epublish/gb/paper368/20030506/class036800001/hwz1109335.htm，http://education.online.sh.cn/education/gb/content/2003-05/07/content_584821.htm，，毕业生总数：1710人，全奖出国者：425人(25%)，保送研究生：620人(36%)，考上研究生：268人(16%)，直接就业者：397人(23%)，，科大保送研究生，约220人保送中科院和外校；约400人保送本校。，具体名单，详见科大研究生院主页：gradschool.ustc.edu.cn
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+中国科大2003届毕业生去向：，，本科毕业生：1710人,其中77%继续在国内外深造,比例全国第一。，(央视网站新闻)www.cctv.com/education/20030918/100586.shtml，(搜狐网站新闻)learning.sol.sohu.com/46/99/article213399946.shtml，(新华网新闻)www.bj.xinhuanet.com/bjpd-kejiao/2003-09/17/content_952808.htm，，2003年，科大应届本科毕业生中，当年就考取全额奖学金出国深造者有425人，占毕业生总数的25%。科大学生的出国深造比例几十年来一直保持全国第一。http://finance.eastday.com/epublish/gb/paper368/20030506/class036800001/hwz1109335.htm，http://education.online.sh.cn/education/gb/content/2003-05/07/content_584821.htm，，毕业生总数：1710人，全奖出国者：425人(25%)，保送研究生：620人(36%)，考上研究生：268人(16%)，直接就业者：397人(23%)，，科大保送研究生，约220人保送中科院和外校；约400人保送本校。，具体名单，详见科大研究生院主页：gradschool.ustc.edu.cn，，《2003年中国九大著名高校毕业生就业率调查》（新华网新闻报道），全文：http://www.sn.xinhua.org/2003-10/10/content_1034117.htm
+select * from admission_plan where school='中国科学技术大学' and year='2003' and district='中国' and classy='文史';
+['查询结果为空！']
+1998--2003年，科大的世界顶级论文第一作者数全国第一，科大的高因子论文（即高影响力、高水平论文），连续多年全国第一，科大的成果入选中国年度10大科技进展，全国第一，科大的成果入选中国年度10大基础研究进展，全国第一，科大的纳米科学论文世界第2，而且仅比第一名少3篇。，科大的火灾科学论文世界第2，并作为中国唯一受邀单位参加美国世贸中心重建的国家安全，计划，科大的顶尖物理学论文PRL在国内遥遥领先，并超过了美国排名第10的哥伦比亚，科大是国内唯一有教授入选国际物理学10大科技进展的大学（2003年），科大是全国唯一拥有2个国家实验室（比重点实验室高个档次，全国共9个，高校中5个）的，大学，科大是全国拥有第3世界科学院优秀科学中心和高级研究中心最多的大学......，科大03年一口气增加5位院士，全国第2，仅比清华少1人。，，世界学术排名最高的7所中国大陆大学：，，1清华大学248名75.0分（TsingHuaUniv），2北京大学287名66.9分（PekingUniv），3中国科大312名62.1分（UnivSci&TechChina），4南京大学341名56.3分（NanjingUniv），5复旦大学345名55.9分（FudanUniv），6浙江大学388名50.2分（ZhejiangUniv），7上海交大421名43.0分（ShanghaiJiaotong
+select * from admission_plan where school='中国科学技术大学' and year='2003' and major='物理学' and district='哥伦比亚' and classy='文史';
+['查询结果为空！']
+中国科学技术大学，，学校类型：工科参考类型：理科类、研究型，，，中国科学技术大学各学科、各专业排名情况，，（一）自然科学，，，1、理学：12个学科类17个本科专业。，，数学类：数学与应用数学:A+第6名/249；信息与计算科学:A第11名/249。，物理学类：物理学:A+第5名/176；应用物理学:A+第4名/93。，化学类：化学:A++第3名/170；应用化学:B+第38名/188。，生物科学类：生物科学:A第10名/143；生物技术:A第11名/151。，天文学类：天文学:B+第3名/4。，地质学类：地球化学:A+第2名/9。，地球物理学类：地球物理学:A++第1名/10。大气科学类：大气科学:C+第6名/10。，力学类：理论与应用力学:A++第1名/13。，电子信息科学类：光信息科学与技术:B+第14名/44。，材料科学类：材料物理:A第6名/44；材料化学:A+第5名/52。，统计学类：统计学:A+第4名/106。
+select * from admission_plan where school='中国科学技术大学' and major='统计学' and classy='理工';
+['查询结果为空！']
+科大，因为在大城市“中等偏上的”工作机会更多。选择科大的学生，大都抱着对真理的执著追求、对科学的不懈探索和为国贡献的心理而来到科大。他们并不攀比物质的优劣而是比着成绩的好坏、精神的充实与否以及意识的先进或者落后。尽管大多数科大新生也许只是丑小鸭，但这不影响他们拼命向前冲，因为他们有目标有理想有动力。很多人只追求成名成功，但很少有人梦想成为英雄，但科大人不，他们真正的梦想是成为英雄。名人身边是热闹的，而英雄是寂寞的；撞大运也可以当名人，而当英雄则要付出汗水泪水甚至生命。当初选择来到合肥的学生，在选择寂寞的同时，也选择了拚搏，他们相信自己不会永远寂寞下去，因为他们的宿命就是在某一天从丑小鸭变成天鹅。，科大的历史也造就了科大人的“精英意识”。科技大学是为了造出两弹一星而成立的，刚建校的时候师资力量集中了全国最优秀的科学家，成为不折不扣的中科院王子。即便这个王子在文革受难，科大始终都没有丢掉自己的贵族气质，科大人的血液当中仍然流着“骄傲”。正是这种永不服输的骄傲，科大人才能战胜前进道路上的艰难险阻，谱写出壮美的史诗。目前科大的纳米、量子信息、单分子化学物理、凝聚态物理、绿色化学、火灾科学等方面的研究达到了世界先进水平。正当别人夸耀自己国内第N的时候，科大早就瞄准了国际前沿科技阵地。出产精品科学技术，才是科大人的追求，这就是“追求卓越，拒绝平庸”的精英意识。，，科大精神，是早已溶入科大人血脉当中的气质，也是科大生生不息的源泉。前进的道路有风有雨，但那代代相传的科大精神，必将如永不熄灭的火炬照亮前方的道路。没有什么事情是不可能的，只要科大、科大人还在迈着坚毅的脚步，不断前进。
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='化学' and district='安徽' and classy='理工';
+['查询结果为空！']
+科大人和犹太人非常相似，犹太人的建国历史血泪斑斑，科大的建校历史同样如此。和一些老科大人谈到科大，他们有时会声泪俱下，可想象当时的科大受到了多少的磨难和挫折。每听到《出埃及记》，就感受到一种苍凉、坚毅和不屈的音乐元素，那分明是野地的狂风、沉重的脚步和战鼓的雷鸣。科大人身上缺少那种清灵飘逸的气质，因为科大的历史太沉重太沉重，选择了科大，也就选择了悲剧性英雄的角色。，在经历了几千年来独裁者的追杀屠戮之后，犹太人家破人亡，但这个民族仍然顽强地活下来了，现在的犹太人通过自己的金权操控了世界上最大的强权——美国。科大的发展也同样富有戏剧性。科大这个弃儿搬到合肥的时候，所有仪器在运输途中损坏得所剩无几，许多人也不愿到合肥来。但是科大的第一代精英，在最困难的条件下开始了科大的第二次创业，那时候国家最需要的是国防科技，当时科大出来的毕业生有很多人走向了边陲小城，把自己的青春和生命献给了国家的国防事业。1978年，科大创造性地开办了中国第一个“少年班”；80年代，中国科大和清华、北大、复旦一起成为国家重点支持的四大高校，在中美交流的CUSPEA计划当中笑傲江湖；90年代，科大在朱清时的带领下走出了90年代初的低谷，进入一个群星璀璨的时期。科大早期的毕业生如舒其望、文小刚、张亚勤、杨元庆等，都成为了各自领域的明星；而科大当前的学生如段路明、刘庆锋等，则成为新一代科大人的代表。在最近的重点学科评比、国家自然科学技术奖评比上，科大更取得超乎预期的好成绩。“科大走向衰落”的评语在科大搬迁到合肥之初就早已存在，可是这么多年过去了，科大并没有走向衰落，而是路越走越顺，越走越宽，科大在苏州、上海两地分别设立研究生院就是一个证明。科大人习惯使用行动，而不是语言，来回答别人的质疑。，，“大雪压青松，青松挺且直”，科大人就是这样，不断与命运抗争，不断创造历史，也让不可能成为可能。科大人经历了太多的苦难，也承载了太多的希望与梦想。科大人在不断寻找自己的道路，如果没有路，就在前面建出一条路。不断前进，是科大人的宿命，也是科大人对母校最深沉的爱。“不要命的上科大”，前进的道路如此曲折，可是我们经历的不仅有泪水和汗水，还有欢笑和共同的辉煌。只要这个世界上还有科大人，科大就永不沉沦。3、追求卓越，拒绝平庸——精英意识
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='太多' and classy='文史';
+['查询结果为空！']
+、大雪压青松，青松挺且直——黄山松精神，，“黄山松精神”和科大的历史息息相关。国内许多大学在文革年代都受到整肃，不过恐怕没有哪所学校象科大这么惨的。文革时期清华北大科大都被赶出北京。清华北大头脑灵活一点，他们在北京郊区设立了京郊校区，总算躲过了被永远驱逐出北京的命运。科大就很死心眼，认为科学应该远离政治，这样科大刚刚建立没多久就被迫背井离乡，离开了最初的建校地点——北京。，，1970年，科大从北京一路南下，本来想在郑州市立足，不料郑州拒绝了这帮不受当权派欢迎的科学家。科大就象一个弃儿一样到处流浪，最后还是安徽省接受了这个中国科学院的落难公子。为此安徽师大还被安徽省政府打发到芜湖，腾出地方来给科大落脚。当时的中科大，院系散落在马鞍山、淮南、合肥等地，学生和老师还天天被红卫兵折磨，许多人上吊、卧轨、服毒，以个人卑微的生命来反抗丑恶的社会现实。，，最近中科大校长朱清时用《犹太法典》上的话来激励科大学生：一个要取得成功的人必须具备以下素质：能够容忍那些不能改变的事（“仁”）；要有勇气去改变那些能够改变的事（“勇”）；要有智慧去区别上述两件事（“智”）。
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='安徽' and classy='文史';
+['查询结果为空！']
+求真求实的精神还延伸到其他方面，塑造出丰富而独具特色的“科大精神”：1、蔑视权威的独立创新精神。爱因斯坦说过一段有趣的话：“我竭力告诫自己要蔑视权威，命运却使我成了权威”。科学正是在不断的自我否定当中才能去伪存真，不断得到发展，如果没有蔑视权威的勇气，恐怕永远都当不了权威。追求真理的科大人容易接受理想主义的感召，对“权威”绝不手软，不瞻前顾后、束手束脚，敢于提出自己的创见，具有“独立精神”和“创新精神”。事实上，科大在少年班、四六级、出国热潮上都敢为天下先，在并校大潮当中也坚持“质量优异、特色鲜明”的原则，没有跟风、随波逐流。2、反对专制的民主精神。蔑视权威也就意味着蔑视专制统治下的偶像和权威。集权统治下的领导者必须彻底消灭民众对真理的信仰，才可以建立起自己的权威，而追求真理的知识分子则是专制制度的天敌。科大从建立时开始，就有了民主自由的传统，这就是“学术的民主自由”。学术需要自由民主，因为在一言堂之下，只有偏见和误导，在民主气氛下，才能不断修正错误，得到真知。3、我行我素的反叛精神：一个平时畏首畏尾的孩子，只要到科大磨练一年，往往变得非常善辩，一改昔日唯唯诺诺的作风，喜欢根据自己的独立思考对别人的观点提出各种质疑；甚至我行我素，不会改变自己去迎合大众口味，和上海地区高校毕业生身上的“时髦”有巨大的反差。科大人身上的孩子气很重，或者说有一种“野气”，他们那种无所顾忌的叛逆精神，来自于对真理的追求、对自由的渴望和对生命的热爱。
+select * from admission_plan where school='中国科学技术大学' and year='None' and classy='理工';
+['查询结果为空！']
+大一转系时是否可以转到自己当年高考考不上的系中
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+贵校的招生专业目录上‘生物科学类本硕博连读’后所注‘与中科院联合培养’是什么意思？对本科毕业后去向有何影响？谢谢。
+select * from admission_plan where school='中国科学技术大学' and major='生物科学类' and district='后所';
+['查询结果为空！']
+贵校今年在新疆招10名理科民族预科班考生毕业证是否有区别？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='新疆' and classy='理工';
+['查询结果为空！']
+1、我非常向往科大，根据估分成绩结合科大近三年在湘招生情况，第一志愿准备填报贵校，不知科大在湖南提档比例为多少？如果是１２０％，那么另２０％怎办？如何填报志愿方能保证出档到贵校就能被录取？恳请详细指教？，2、入校后，专业不满意，怎样换专业？科大能否修双学位，怎样修？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='湖南';
+['查询结果为空！']
+我是理科考生，今年估分635分，如果我要报考贵校，并服从专业调剂，会不会录取？可能会被哪些专业录取？另外，贵校博士硕士点有多少？重点专业是什么？
+select * from admission_plan where school='中国科学技术大学' and year='635' and classy='理工';
+['查询结果为空！']
+今年理科估分655-660被贵校录取的可能性有多大？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+仰慕贵校已久.我想请问贵校的理科实验班课程设置及培养方向，师资,科研条件及往年的招生情况（分数要求与其它专业相比，是高还是低）。谢谢!
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and classy='理工';
+['查询结果为空！']
+进入贵校计算机专业是否对计算机功底有要求，若进入前不懂计算机是否今后回吃力
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+理科628分，报考贵校数学类专业，希望多大？
+select * from admission_plan where school='中国科学技术大学' and year='628' and classy='理工';
+['查询结果为空！']
+我做梦都想填报贵校，我是一安徽理科考生，估分是６３５，有多大把握？明天上午要交志愿，我还不敢填，我怕不能录取．麻烦老师指教，，我做梦都想填报贵校，我是一安徽理科考生，估分是６３５，有多大把握？明天上午要交志愿，我还不敢填，我怕不能录取．麻烦老师指教
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='安徽' and classy='理工';
+['查询结果为空！']
+安徽今年的重点线预计在555左右，我估分在580左右是否有希望上贵校？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+我是福建少数民族考生，若考高分数为650，能否可以直接加20分以670的分数投档贵高校，是否按投档分从高到低录取，也就是说和高考实际分数为670的同学机会一样吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2020' and district='福建';
+['查询结果为空！']
+我是河北的考生，今年估分在630，请问报考该校的可能性有多大？，此外，我有河北省的“农村独生子女”加分10分，在录取时还是否有效？河北省的创新大赛二等奖（无加分）在录取时是否会予以考虑？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='河北';
+['查询结果为空！']
+我是辽宁考生，今年高考估分６２０分．请问老师报考贵校有积分把握？，请老师估计贵校录取辽宁理科考生分数底线是多少？谢谢！！！
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='辽宁' and classy='理工';
+['查询结果为空！']
+我是山东考生，分数在一本线上60分报中科大物理学专业070201，录取的可能性有多大
+select * from admission_score_major where school='中国科学技术大学' and major='物理学' and district='山东';
+['查询结果为空！']
+请问中科大物理学专业比起其他专业录取分数线较低还是较高
+select * from admission_score_major where school='中国科学技术大学' and major='物理学';
+['查询结果为空！']
+湖南永州有招生的老师吗
+select * from admission_plan where school='中国科学技术大学' and district='湖南永州';
+['查询结果为空！']
+贵校今年在安徽招生分数大概有多少？本人估分640，能不能上？烦请老师回答一下，谢谢！！！
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+我是一名上海考生,今年高考预估490分,是否有可能达到贵校今年在上海的录取线,谢谢:)
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='上海';
+['查询结果为空！']
+老师您好！，我是黑龙江理科考生，今年估分620，请问报考贵校电子类专业有希望吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='黑龙江' and classy='理工';
+['查询结果为空！']
+老师您好，辛苦啦！我是04届的考生，当时的高考成绩是310，被一专科学校录取。因种种原因错过上学机会。请问贵校有没有我能上的比如插班生，自费生，国际部以类的班级？感谢老师回复！
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+今年估分660报考贵校有无希望，贵校在四川有无预留计划？贵校的地球物理一类的专业就业情况如何？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川' and classy='理工';
+['查询结果为空！']
+黑龙江考生高出重本55分左右是否可以填报你们学校？贵校是否有专业级差？联系电话是多少？谢谢解答~
+select * from admission_plan where school='中国科学技术大学' and year='2055';
+['查询结果为空！']
+科大2007年是否招收保送生？
+select * from admission_plan where school='中国科学技术大学' and year='2007';
+['查询结果为空！']
+老师请您把2005年贵校在四川各专业的平均分给我发一下谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='四川';
+['查询结果为空！']
+请问贵校05年国防生提档线是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2005';
+['查询结果为空！']
+645分进入贵校的把握有多大？
+select * from admission_plan where school='中国科学技术大学' and year='645';
+['查询结果为空！']
+我获得了河北省化学竞赛二等奖,报考贵校时是否给予优先录取
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='河北';
+['查询结果为空！']
+我地区聚居在少数民族地区的少数民族考生加20分，贵校对这种情况是否承认，若填报提前批录取的国防生又怎么对待？？
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+贵校生物专业05年在云南省的录取最高分、最低分是多少？
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='云南';
+['查询结果为空！']
+我非常喜欢化学,我获得了河北省化学竞赛二等奖,但我是红绿色盲,是否能报考贵校的化学理论专业,报考时能否优先录取
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='河北' and classy='理工';
+['查询结果为空！']
+老师您好！我是黑龙江的一名考生，由于今年同学们估分都比较高，我想咨询一下在黑龙江排名多少可以报贵校，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='黑龙江';
+['查询结果为空！']
+科大生物班今年招生理科多少分才有希望？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+老师好,我是一名福建理科考生,很向往该校.这次估分570,估计省重点线为550，1.不知我的成绩报该校的信息安全专业,风险如何??您的建议是?，2.该校哪些专业热门,实力较强,哪些较冷?，3.该校的工商管理会计学专业实力如何?有无物流管理专业?若有,以我的分数希望多大，4.该校在福建招生划是多少?一般要高过本一线多少分?，5.高出重点线20分报该校，依您的经验,有多大把握?最好报哪个专业较稳，谢谢回答!
+select * from admission_plan where school='中国科学技术大学' and major='物流管理' and district='福建' and classy='理工';
+['查询结果为空！']
+你好，请问陕西理工考生今年进入贵校应比重点线高多少分？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='陕西' and classy='理工';
+['查询结果为空！']
+请问中科大的老师今年陕西省估分660-670报考你校可以吗，在高中阶段我还获得了全国化学竞赛（陕西赛区）二等奖全国英语竞赛二等奖全国数学联赛三等奖陕西省优秀团员不知招生时有何优惠政策
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='英语' and district='陕西';
+['查询结果为空！']
+尊敬的老师：我是河北考生，从高一就开始收集中科大信息.我高一以94.5分通过大学英语四级.高考前最近三次大考的数学成绩分别是151(含附加题),150,149.我不是竞赛班的,没经任何专门训练物理奥赛就获省二等奖.高考自感发挥欠佳,估650左右.不知还有否进入贵校机会.急盼指导,万分感激
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='英语' and district='河北' and classy='理工';
+['查询结果为空！']
+老师好，我是一名安徽考生，今年估分630，报考贵校希望大吗？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+老师:我是我是安庆(不是重庆的)一重点中学理科生,估计今年高考分数约为635,请问报考贵校有多大把握?历年你们学校录取分数都比较高,安徽今年重点线高于去年.我还是不敢报,请指导.
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and district='安徽' and classy='理工';
+['查询结果为空！']
+老师您好，我是一名浙江理科考生，能在贵校深造一直是我的梦想！我个人估计今年浙江一本线在560－570，我的高考估计在610－630，不知道报考贵校的可能性有多大？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师您好,我是河北理科考生,请问贵校国防生历年录取分数线(03-05年,最高分数,最低分数和平均分数),麻烦您了,谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2003' and district='河北' and classy='理工';
+['查询结果为空！']
+我是安庆一重点中学理科生,估计今年高考分数约为635,请问报考贵校有多大把握?历年你们学校录取分数都比较高,我还是不敢报,请指导.
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='安徽' and classy='理工';
+['查询结果为空！']
+您好!我是河南理科女考生，希望报考贵校的提前批，估分590分，请问有希望吗？提前批对女生有什么特殊要求吗？谢谢老师！
+select * from admission_plan where school='中国科学技术大学' and year='590' and district='河南' and classy='理工';
+['查询结果为空！']
+亲爱的朋友：，你好：我是河南2006年高考理科考生我今年16岁了，今年估了630分,我的现在成绩基本稳定在高出河南重点线40分到50分之间，不知道报考你学校有多大录取的可能，什么专业最有把握?请你指教！急盼回复！
+select * from admission_plan where school='中国科学技术大学' and year='2050' and district='河南' and classy='理工';
+['查询结果为空！']
+天津考生630分报考贵校生物科学本硕博连读或化学专业有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='630' and major='化学' and district='天津';
+['查询结果为空！']
+亲爱的朋友：，你好：我是河南2006年高考理科考生我今年16岁了，今年估了630分,我的现在成绩基本稳定在高出河南重点线40分到50分之间，不知道报考你学校有多大录取的可能，什么专业最有把握?请你指教！急盼回复！
+select * from admission_plan where school='中国科学技术大学' and year='2050' and district='河南' and classy='理工';
+['查询结果为空！']
+老师你好：浙江理科考生06年高考总分预计在重点线560分以上30分左右，根据贵校历年录取形势分析，被贵校录取可能性多少。若有可能，填报什么专业比较稳妥，真诚等待贵校电邮。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2030' and district='浙江' and classy='理工';
+['查询结果为空！']
+老师,请问贵校今年在贵州招生吗?有哪些系?620分不知是否能上?
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='贵州';
+['查询结果为空！']
+老师好!今年理科635能否上贵校较好专业呢?贵校有没有在福建招收过第二志愿?是什么情况?贵校是按专业招生还是按类招生?我听永春一中的师兄介绍过贵校,说是大一为不分专业教学,那么录取专业对分专业有没有影响?转学院有多少名额,什么条件呢?希望能成为贵校的一分子！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='福建' and classy='理工';
+['查询结果为空！']
+安徽的650分能否上本硕博连读
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='安徽';
+['查询结果为空！']
+贵学校认为我省今年全省排名多少可以进入贵校？，学校将来就业前景（在大城市上海等）怎么样？，学校出国深造怎样？，今年分数江苏640以上可以进入吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='江苏';
+['查询结果为空！']
+老师,辛苦了!我是福建泉州永春一中的,去年我校有不少人上了贵校,请问今年录取分大约多少?录取第二志愿吗?贵校是按专业招生还是按类招生?大一不分专业,而在下半学年选专业时是否受到录取专业的限制?能否跨学院?贵校在福建是否招收本硕连读?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='福建';
+['查询结果为空！']
+我今年高考失误太多,明年报考贵校有什么限制没
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='太多';
+['查询结果为空！']
+老师辛苦了，想问一下根据您现在掌握的资料，估计陕西今年的一本线和二本线大概是多少？陕西是明天填完志愿，所以信息很重要。非常感谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='陕西';
+['查询结果为空！']
+我估计考620-630分，报考你学校怎么样？
+select * from admission_plan where school='中国科学技术大学' and year='620';
+['查询结果为空！']
+老师好：，我理科估分为630分左右，能否报贵校生物类及电子信息类或相近专业吗？近几年专业录取分数多少？请老师指点。
+select * from admission_score_major where school='中国科学技术大学' and year='None' and major='电子信息类' and classy='理工';
+['查询结果为空！']
+高重本线90分左右报贵校把握有多大？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2090';
+['查询结果为空！']
+安徽650分能否进贵校材料科学系
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='安徽';
+['查询结果为空！']
+我芜湖县一中学生，估620分左右，上贵校可有希望？
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='芜湖县';
+['查询结果为空！']
+你好，今年科大在安徽的分数线大概是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+山西今年加分范围有所扩大，包括省级一等奖，请问贵校在录取时会承认么？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山西';
+['查询结果为空！']
+你好我是陕西理工类考生,今年估分是630分,请问可以报考你们大学吗?大概可以上那些理工专业?，有多大把握?今年的录取分数估计会有多高?会比一本录取分数高多少?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='陕西' and classy='理工';
+['查询结果为空！']
+今年我的高考估分为650，请问有希望进入贵校物理专业吗？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+今年我的高考估分为665，请问有希望进入贵校否？
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师你好,我想请问一下贵校今年在山西的理科分数线大概是多少,能否告知一下贵校负责山西招生的老师的联系方式,谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山西' and classy='理工';
+['查询结果为空！']
+您好，我是陕西理科考生，，我估分是588分左右，是否有希望报取贵校建筑系？希望您能回答，谢谢
+select * from admission_plan where school='中国科学技术大学' and year='588' and district='陕西' and classy='理工';
+['查询结果为空！']
+请问今年在河南的招生计划是多少人？分数线大概是多少？谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+请问贵校生物科学8年本硕博连读学习和发展方向.谢谢!
+select * from admission_plan where school='中国科学技术大学' and major='生物科学';
+['查询结果为空！']
+我是陕西理科考生，贵校今年在陕西的录取分数是多少啊？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='陕西';
+['查询结果为空！']
+安徽考生估分600分报考贵校可以吗？招生老师咨询方式？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='600' and district='安徽';
+['查询结果为空！']
+今年预计在山东招收多少人?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东';
+['查询结果为空！']
+老师好：，我是河南的一名考生，想问一下今年在河南的招收分数范围大概是多少？服从调剂后将来是否可以转专业？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河南';
+['查询结果为空！']
+贵校今年在江西的自主招生计划占不占高考录取指标？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江西';
+['查询结果为空！']
+贵校在各专业录取时是按照学生实际考分录取，还是按照已含政策性加分（如蒙古族加10分）的总分录取？贵校公布的各专业2005年（内蒙古）录取分，是学生实际考分？还是已含政策性加分？贵校2006年在内蒙古的理科计划是多少？2006年在内蒙古是否招自主生？如招自主生是否占生源省招生总计划？
+select * from admission_plan where school='中国科学技术大学' and year='2006' and district='内蒙古' and classy='理工';
+['查询结果为空！']
+5月20日在山西体育场举行的山西省2006年普通高校招生咨询会.贵校参加不参加?
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='山西';
+['查询结果为空！']
+老师您好：，您说河北省的招生计划只增未减，但我查了贵校2006年的招生计划是45人，而2004年是52人，2003年是63人，2002年是52人，难道网上公布错了？
+select * from admission_plan where school='中国科学技术大学' and year='2002';
+['查询结果为空！']
+你们学校有动画制作专业吗!，专业分是多少?文化课是多少分??才能被录取啊!
+select * from admission_plan where school='中国科学技术大学' and major='动画' and classy='文史';
+['查询结果为空！']
+假如没有被生物科学类录取，入学一年后可否申请转入该系
+select * from admission_plan where school='中国科学技术大学' and year='一年' and major='生物科学类';
+['查询结果为空！']
+老师，您好，请问色盲但单色能准确识别者能报贵校计算机科学与技术、电子信息以及物理类专业吗？
+select * from admission_plan where school='中国科学技术大学' and major='计算机科学与技术' and classy='理工';
+['查询结果为空！']
+老师:中科大历年(2001-2004)录取分数比较平均,除了2003年以外,基本在650分左右,请问,中科大在此之前出现过大小年的情况吗?
+select * from admission_score_pro where school='中国科学技术大学' and year='650';
+['查询结果为空！']
+老师好！我是兰州市省重点中学的考生，2005年获得全国青少年科技创新大赛二等奖，根据省招生政策加10分。在兰州市高考诊断中排291名（18000考生）。请问：，1．贵校是否认可我省加分政策，是否按加分后的总分专业排序录取。，2．贵校何时派招生宣传组来兰州。贵校在甘肃录取分是多少？我有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='甘肃';
+['查询结果为空！']
+科大老师：好！科大有无电气工程及其自动化专业？或类似的有无？
+select * from admission_plan where school='中国科学技术大学' and major='电气工程及其自动化';
+['查询结果为空！']
+近几年贵校在河北的录取人数和分数情况如何?
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='河北';
+['查询结果为空！']
+老师您好！我是江苏的考生，我想请问一下贵校去年在江苏录取的文科分数线是多少？今年在江苏招收文科名额是多少？有何专业可报？各专业之间录取分数差距是多少？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='江苏' and classy='文史';
+['查询结果为空！']
+我是一名山西考生，我非常想报考科大，请问科大老师，平时模拟成绩在600分左右，有希望被录取吗
+select * from admission_plan where school='中国科学技术大学' and year='600' and district='山西';
+['查询结果为空！']
+老师好:科大在吉林理科往年要超重点线多少分?成绩估计在630分左右可以报考吗?被录取的几率有多大?谢谢
+select * from admission_plan where school='中国科学技术大学' and year='630' and district='吉林' and classy='理工';
+['查询结果为空！']
+老师您好：今年的考生多，为何贵校在河北的的招生计划却减少了？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河北';
+['查询结果为空！']
+孩子在05年全国高中学生化学竞赛获省级赛区二等奖、06年全国青少年科技创新大赛（计算机）中有可能获奖，贵校在专业选择、招生上有优惠政策吗？能否给寄份招生资料。地址：河南省洛阳市电业局市场营销部（纱厂东路7号）满春红
+select * from admission_plan where school='中国科学技术大学' and year='2005' and major='化学' and district='东路';
+['查询结果为空！']
+老师您好！我是江西的考生，我想请问您科大物理系历年在江西的分数线一般比科大当年的提档线高出多少？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='江西' and classy='理工';
+['查询结果为空！']
+我非常想去中科大，我现在的成绩对应去年高考录取情况，有被贵校录取的，我不能确定今年我能否被录取，我担心一旦不能录取，只好去一般院校，我很不甘心，怎么办？帮帮我！
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师好!请问该校今年有招政策性少数民族班吗?如有,政策有何规定?按排在第几批录取?广西有招生计划吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+请问：某考生是机器人世界杯大赛第4名、机器人世界杯大赛最佳设计风格奖、全国生物学联赛二等奖、全国作文奥赛二等奖、省科技创新大赛一等奖、省优秀学生干部获得者（已获某重点大学自主招生资格）报考贵校，在高考分数达到本省重点本科分数线的前提下，贵校录取时是否有自主招生类似的鼓励或优惠政策？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师你好：，请问贵校机械设计制造及其自动化、电子信息科学类以及物理学类往年在湖南的最低录取线是多少？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='物理学类' and district='湖南';
+['查询结果为空！']
+今年陕西考生660分能不能报科大？
+select * from admission_plan where school='中国科学技术大学' and year='660' and district='陕西';
+['查询结果为空！']
+我是重庆一考生的家长请问你校在重庆招生负责人联系的方式?，我小孩不是今年高考,请问明年参加自主招生如何与你们联系,如何报名,请告之好吗?
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='重庆';
+['查询结果为空！']
+贵校是否招收文科生？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+老师，我是一名马上上高三的学生，立志上科大，请问12月份有提前高科大的吗？
+select * from admission_plan where school='中国科学技术大学' and year='2012';
+['查询结果为空！']
+我是名理科生，在贵州省排在1700~1800名之间，全省三模适应性考试580多分，请问以我这个成绩，我是否能填贵校，把握大不大？我有民族加分20分，高中获市级三好学生和优秀干部，这些在录取时有相关优先政策吗？
+select * from admission_plan where school='中国科学技术大学' and year='2020' and district='贵州' and classy='理工';
+['查询结果为空！']
+尊敬的老师，你好！我是重庆的一名考生，我很想报考贵校，为了能更加详细的了解贵校各学院，各专业的情况，我希望能得到一份贵校2006年的招生资料，我的地址是：重庆九龙坡区石坪桥兴隆湾109＃五环大厦重庆国中贸易发展有限公司经营部钟平女士转邮编：400050谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2006' and district='重庆';
+['查询结果为空！']
+我叫杨振雷，是河北高三学生。我对贵校特别感兴趣，想报考贵校，希望您们能向我提供贵校的招生简章，我的联系地址是河北涉县第一中学高三理科复读班，学校的邮政编码是056400
+select * from admission_plan where school='中国科学技术大学' and district='涉县' and classy='理工';
+['查询结果为空！']
+我看了去年的招生简章，中国科学技术大学去年对民考汉的招生分数线是400多，那我想知道那个分数线是怎么规定的？是我们民考汉加50分以后考了400多就能上线，还是按我们没有加分前算？
+select * from admission_score_pro where school='中国科学技术大学' and year='2018';
+['查询结果为空！']
+中科大招文科的学生吗
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+我是安徽考生,今年几次大规模的省内模拟考试都比重点线多100分左右,请问报考贵校有希望吗
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+你好！我是江苏一文科考生家长，孩子今年高考。请问如果第一志愿报考贵校，而且服从专业调剂，大概要多少分可以报考？谢谢您!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江苏' and classy='文史';
+['查询结果为空！']
+请问贵校2006年在河南的招生计划是怎样的？
+select * from admission_plan where school='中国科学技术大学' and year='2006' and district='河南';
+['查询结果为空！']
+中国科学技术大学在新疆招一名生物科学本硕博连读，有啥特殊要求，如何了解的更清楚？
+select * from admission_plan where school='中国科学技术大学' and major='生物科学' and district='新疆';
+['查询结果为空！']
+科大老师：你们好！问几个问题：1、安徽省政府不给科大每年的3亿，而科大却要在安徽招那么多，这值得吗？像浙江省每年给浙大10亿，所以在浙江多招点，很好。2、安全工程专业有读研吗、有出国吗？3、热能工程今年出国怎么样？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and major='安全工程' and district='浙江';
+['查询结果为空！']
+贵校今年在四川招生计划中哪些是国家重点专业?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+今年四川的理科招生计划？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川' and classy='理工';
+['查询结果为空！']
+四川的艺术特长加分15、10、5分认可？若认可，是加分提档？还是提档后加分选专业？
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='四川';
+['查询结果为空！']
+我是四川民族地区的汉族考生,考本省的学校享受加10分的照顾,报考贵校在录取时是看实考分录还是看加分录.
+select * from admission_plan where school='中国科学技术大学' and year='2010' and district='四川';
+['查询结果为空！']
+贵校今年在吉林省招生第二志愿比第一志愿高出多少分？第一志愿留出几个名额给第二志愿？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='吉林';
+['查询结果为空！']
+考分上线或加分后上线的自主生专业录取时是按原始分还是加20分
+select * from admission_plan where school='中国科学技术大学' and year='2020';
+['查询结果为空！']
+重庆一中,实验班,理科,平日前100名上下,(共1200多人),爱好文史,课外知识较丰富,是班上文娱活动的组织者和积极参与者,从小好舞蹈.重庆一诊590(重本线530),二诊630,没划线.可能考入贵校吗?适合什么专业?(他人小,还无明确专业目标,想读基地班,希望直读完博士或更高)
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='重庆' and classy='文史';
+['查询结果为空！']
+贵校一直实行的承诺制令人放心,今年还执行吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是一名今年考生,想报考,特色专业有几个?
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+各位老师您们好！，我是一名安徽阜阳一中06年考生，我在这里想了解一下：我在上次全省模拟考试中，考了632分。从我平时发挥来看上次考试还不是太理想，如果发挥正常应该在655分左右。像我这样的成绩不知能否报考贵校？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='安徽' and classy='理工';
+['查询结果为空！']
+我是山东考生，05年获得全国化学竞赛（省区）一等奖第16名、全国物理竟赛（省区）三等奖。我很想报考到贵校，由于备考时间短，如果达不到贵校的录取分数线，能否对我机动录取？，谢谢！
+select * from admission_score_major where school='中国科学技术大学' and year='2005' and major='化学' and district='山东' and classy='理工';
+['查询结果为空！']
+重点专业有那些？在辽宁有多少招生计划？往年的录取分数线是多少？
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='辽宁';
+['查询结果为空！']
+您好,化学成绩优秀的学生报考贵校什么专业比较好.谢谢.
+select * from admission_plan where school='中国科学技术大学' and major='化学';
+['查询结果为空！']
+我是一名民考汉的考生，去年你校在新疆民考汉招生计划是10人，今年有变化嘛，民考汉的招生计划为什么不单独公布，什么时间公布，我非常想报考贵校
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='新疆';
+['查询结果为空！']
+学校有几个校区,大一在那个?物理学材料科学专业学习方向是什么,就业前景怎样?
+select * from admission_plan where school='中国科学技术大学' and major='物理学';
+['查询结果为空！']
+我儿子是一名理科考生,在一模成绩596,二模成绩576分,可否报考贵校?估计今年考多少分才有希望报考贵校?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+1.贵校在重庆今年招生的理科的孩子的眼睛有限制没有？，2.贵校在工科的强势专业有哪些？，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='重庆' and classy='理工';
+['查询结果为空！']
+我想了解您校2000-2005年在安徽省招生的投档线、入取的最低分和最高分。
+select * from admission_plan where school='中国科学技术大学' and year='2005' and district='安徽';
+['查询结果为空！']
+科大老师您好：，谢谢您的回答，我还有一个问题，我想报考贵校的生物专业，但从往年情况看，生物专业分数要高于入取线20－30分，如未被生物专业入取，贵校第2年可以转专业，不知有什么要求，是否提出后都可以转？另外贵校在辽宁每年是否有扩招？扩招是如何入取的。还有我是当地少儿班学生，今年未满16周岁，对正常入取是否有影响？是否可以补录少儿班？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='辽宁';
+['查询结果为空！']
+我是福建的考生，贵校在那些专业有近视和英语成绩的了限制啊，谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='英语' and district='福建';
+['查询结果为空！']
+科大老师您好：，我是辽宁考生，未来非常想做一名科学家，十分向往科大，请问我对几次模拟考试均高于一本线100分左右，是否可以报科大，科大在辽宁老师的联系方式请告知。谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='100' and district='辽宁';
+['查询结果为空！']
+1、贵校生命科学院各专业今年在安徽投放的指标，2、贵校生命科学院各专业往年在安徽录取的分数线，3、贵校生命科学院各专业招生是否有其他限制条件
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='安徽';
+['查询结果为空！']
+浙大737名自主招生人数，为何有这么多？，，回答：你好，内容：您好，非常感谢您的提问，从往年来看，每年最后进入我们学校的自主招生的学生一般只有50%左右。因此，在这737名同学里，估计只有一半同学最后会就读浙江大学的。
+select * from admission_plan where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+我是北京海淀区一名应届生，“一模”、“二模”均高于重点线100分，我想在贵校和“南大”之间做个选择，能说说贵校的优势吗？多谢！
+select * from admission_plan where school='中国科学技术大学' and year='100' and district='海淀区';
+['查询结果为空！']
+科大老师：你们好！你们辛苦了！请教一个问题：如科大在某省调档线是630分，那么自主招生学生只要在610就能上科大了，然而如科大临时计划外增加招生指标，最低线为620分，那么，自主招生学生是否600分就能上科大了？
+select * from admission_plan where school='中国科学技术大学' and year='600';
+['查询结果为空！']
+您好：，我是江西高四文科考生。请问贵校今年在江西有多少招生计划（文科）？贵校往年的录取分数高重点线多少（大概）？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='江西' and classy='文史';
+['查询结果为空！']
+我是一名湖北考生,这次高考分数为533分,请问有多大可能进入贵校?填报英语专业是否合适????请老师速回答案.
+select * from admission_score_pro where school='中国科学技术大学' and year='533' and district='湖北';
+['查询结果为空！']
+老师你好：，1。请问你贵姓。电话号码？福建招生扬老师要和你联系。，2。福建考生胡值彬：1989年11月22日生。632分省排名285（不含加分生）据扬老师预报生数字悉：632分已超出平均分靠前。，3。获得英。物。化。生奥赛福建赛区预赛一。二等奖。省一摸市二摸考进前3名。市三好生。，参加过县。市。省级中学生乒乓球赛获奖。，4。要求转进少年班有把握？具体程序如何办理？怎样填报？请老师指点。谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='632' and district='海南' and classy='理工';
+['查询结果为空！']
+老师你好：，1。请问你贵姓。电话号码？福建招生扬老师要和你联系。，2。福建考生胡值彬：1989年11月22日生。632分省排名285（不含加分生）据扬老师预报生数字悉：632分已超出平均分靠前。，3。获得英。物。化。生奥赛福建赛区预赛一。二等奖。省一摸市二摸考进前3名。市三好生。，参加过县。市。省级中学生乒乓球赛获奖。，4。要求转进少年班有把握？具体程序如何办理？怎样填报？请老师指点。谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='632' and district='海南' and classy='理工';
+['查询结果为空！']
+理科591分有几层把握上贵校？
+select * from admission_plan where school='中国科学技术大学' and year='591' and classy='理工';
+['查询结果为空！']
+请问一下，531分能进贵校吗？？？第二志愿。浙江省的二本线是508分
+select * from admission_plan where school='中国科学技术大学' and year='508' and district='浙江';
+['查询结果为空！']
+我是江苏考生,今年高考严重失常,只考了637分,不知道是否能上贵校的，自动化或是数学、物理专业。上面提供的江苏联系电话怎么打不通的，或是没人接？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='637' and major='自动化' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是山东理科考生，670分，报考贵校的物理专业有多大把握？往年贵校的物理专业在山东的录取分数线是多少？谢谢，请尽快回复
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+福建，15周岁632分（不含加分生。省285名）据扬老师数字悉：632分约在招生数前20名内。转少年班把握吗？招生老师转向你咨询。谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='632' and district='。省';
+['查询结果为空！']
+你好,，我是广西理科658分,不知道填贵校有无希望.我对专业无太大要求.
+select * from admission_plan where school='中国科学技术大学' and year='658' and district='广西' and classy='理工';
+['查询结果为空！']
+请问老师:江苏考生今年高考成绩为637分排名1803名.，语文125分,数学119分,英语125分,物理144分,化学124分.，欲报考贵校物理学类或数学类专业的录取的可能性多大?，因数学只考了119分,感觉偏低,报考贵校哪些专业受影响?，谢谢你们!
+select * from admission_plan where school='中国科学技术大学' and year='119' and major='物理学类' and district='江苏' and classy='理工';
+['查询结果为空！']
+老师，您好，我是山东泰安的一名文科考生,今年考了515分,请问有没有希望报贵校的本科或专科,如果专科有希望，有哪些专业可以选择,谢谢请回复!
+select * from admission_plan where school='中国科学技术大学' and year='515' and district='山东' and classy='文史';
+['查询结果为空！']
+我是江苏苏州中学的理科考生，高考严重失常，只有６１４分，请问是否有可能报考科大？，，请问科大的宿舍条件如何？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是江苏苏州中学的理科考生，高考严重失常，只有６１４分，请问是否有可能报考科大？，，请问科大的宿舍条件如何？
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='江苏' and classy='理工';
+['查询结果为空！']
+我是福建考生，很想上科大，今年分数607，是否有希望，什么专业较好？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='福建';
+['查询结果为空！']
+请问655分是否有把握进入科大（黑龙江）？
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='黑龙江';
+['查询结果为空！']
+请问655分是否有把握进入科大？（黑龙江）
+select * from admission_plan where school='中国科学技术大学' and year='655' and district='黑龙江';
+['查询结果为空！']
+我是山东理科考生，今年成绩681，报考贵校有多大希望，贵校往年在山东的录取线平均要高于重点线多少分？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+我理科考了646分,上中科大风险大么
+select * from admission_plan where school='中国科学技术大学' and year='646' and classy='理工';
+['查询结果为空！']
+我是一名福建考生，今年高考成绩628分，全省排名433，请问能报考贵校是否有风险？谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='628' and district='福建';
+['查询结果为空！']
+我是一位山东理科考生，分数为６５４分，报贵校有多把握，请勿太过婉转．
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='山东' and classy='理工';
+['查询结果为空！']
+我是浙江文科生.600分.进贵校希望大不大.贵校有哪些国家重点专业.
+select * from admission_plan where school='中国科学技术大学' and district='浙江' and classy='文史';
+['查询结果为空！']
+请问,631分被机械设计制造及其自动化材料科学类生物科学类电子信息科学类录取的把握有多大?
+select * from admission_plan where school='中国科学技术大学' and year='631' and major='生物科学类';
+['查询结果为空！']
+老师，我是浙江理科考生高考成绩657分，请问贵校的理科试验班是如何招生的，我这个分数能否进这个理科试验班
+select * from admission_score_pro where school='中国科学技术大学' and year='657' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是山东理科考生，我的分数是634，请问报考贵校的生物科学类专业有希望吗？
+select * from admission_score_major where school='中国科学技术大学' and major='生物科学' and district='山东' and classy='理工';
+['查询结果为空！']
+老师你好，我是浙江理科621分，请问有无希望被贵校录取？
+select * from admission_plan where school='中国科学技术大学' and year='621' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是广西一个理科考生，分数为638分，请问我报考贵校的计算机或数学专业有希望吗？谢谢老师！
+select * from admission_score_pro where school='中国科学技术大学' and year='638' and district='广西' and classy='理工';
+['查询结果为空！']
+我是广西文史类考生，高考总分为433，报读贵校是否有希望？
+select * from admission_plan where school='中国科学技术大学' and district='广西' and classy='文史';
+['查询结果为空！']
+我是广西文史类考生，高考总分为５１０，报读贵校是否有希望？
+select * from admission_plan where school='中国科学技术大学' and district='广西' and classy='文史';
+['查询结果为空！']
+我是浙江理科考生，高考成绩629分，请问报考贵校统计专业有希望吗，请老师给我一个较合理的建议。
+select * from admission_plan where school='中国科学技术大学' and year='629' and district='浙江' and classy='理工';
+['查询结果为空！']
+我是广西理工科考生，是贵校重点推荐生，考分为635分物理奥赛加分15分，总分650分。我对贵校情有独钟，恳请老师指点有多大把握进贵校。
+select * from admission_plan where school='中国科学技术大学' and year='2015' and classy='理工';
+['查询结果为空！']
+老师,您好.广西出分了.我663分报考贵校有希望吗?大概多少名以前报考贵校有希望?
+select * from admission_plan where school='中国科学技术大学' and year='663' and district='广西';
+['查询结果为空！']
+老师，您好！，我高考估分在590～600，在高中阶段获得过全国中学生数学、物理竞赛省赛区的二等奖，云南省世纪风采文艺大赛少年组琵琶演奏一等奖，昆明市高中化学竞赛一等奖。2005年参加清华大学艺术特长生考试，评定为二级。今年贵校招生是否给予一定照顾。
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='云南' and classy='文史';
+['查询结果为空！']
+老师您好：，我是山东济南的文科考生，请问530-550分能被本校本科录取吗？，谢谢！！
+select * from admission_plan where school='中国科学技术大学' and year='550' and district='山东' and classy='文史';
+['查询结果为空！']
+我是河南文科考生,今年自估分为461(含英语听力21分),请问上贵校专科有希望吗?能专升本吗?
+select * from admission_plan where school='中国科学技术大学' and district='河南' and classy='文史';
+['查询结果为空！']
+河北,文科,570,有多大希望就读贵学府,谢谢!
+select * from admission_plan where school='中国科学技术大学' and district='河北' and classy='文史';
+['查询结果为空！']
+660分报考中科大有多大把握？
+select * from admission_plan where school='中国科学技术大学' and year='660';
+['查询结果为空！']
+660分以上希望有多大？
+select * from admission_plan where school='中国科学技术大学' and year='660';
+['查询结果为空！']
+我想报考贵校，已经过pets-2,估计英语１３５以上想报English，总分超出理科一本８０，有竞争优势没有？想报环境科学，色弱有影响没有？，贵校录取线一般高出一本多少？
+select * from admission_plan where school='中国科学技术大学' and major='环境科学' and classy='理工';
+['查询结果为空！']
+贵校是一所纯粹的理工科院校，那么在人才培养中对学生的人文性教育如文学、艺术和历史等是否有相应的计划？
+select * from admission_plan where school='中国科学技术大学' and classy='文史';
+['查询结果为空！']
+请问，能提供科大毕业读研率最高的几个系吗？，ps:软件工程系的学费是多少？怎么报考？
+select * from admission_plan where school='中国科学技术大学' and major='软件工程';
+['查询结果为空！']
+我是一名云南理科考生，估分在570-590请问报贵校生物科学类、电子信息科学类、管理科学与工程类。
+select * from admission_plan where school='中国科学技术大学' and major='管理科学与工程类' and district='云南' and classy='理工';
+['查询结果为空！']
+老师您好：请提供贵校01-04年理科在山东的最高、最低录取分，谢谢！
+select * from admission_plan where school='中国科学技术大学' and year='2001' and district='山东' and classy='理工';
+['查询结果为空！']
+老师：你好！我是辽宁省考生，我省估计一本线为520分，个人估分为610分左右，能否被贵校录取，专业上有多大可选择空间。另外，请问贵校在辽宁有没有咨询站，如果有请告知地址及联系电话。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='辽宁';
+['查询结果为空！']
+老师好!我是山东省文史类考生,今年估分630左右,报考贵校经济类专业有无希望?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='山东' and classy='文史';
+['查询结果为空！']
+招生网：zsb.ustc.edu.cn，招生论坛：zsb.ustc.edu.cn/bbs（强烈推荐！），，科大毕业生去向统计，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=69，，科大的专业转换：全国最宽松方便，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=71，，看科大人才培养的数一数二！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=156，，科大的特色：精品大学、精英教育！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=67，，了解科大所在的城市，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=76，，清贫学子求学科大，真不用愁！，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=75，，科大的学术水平和地位，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=70，，作为唯一直属中科院的大学，科大的优势？，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=68，，传奇背后的真实---科大的精气神，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=78，，招生组联系方式及常见报考问题答疑，zsb.ustc.edu.cn/bbs/showthread.php?s=&threadid=66，，科大招生组联系方式：zsb.ustc.edu.cn/contact.php，填报志愿期间，务必常查看此链接，了解最新的联系信息。，05年科大在线咨询安排：zsb.ustc.edu.cn/bkzn.php?pid=11，05年科大将参加的现场咨询：zsb.ustc.edu.cn/page/05zx.php，科大历年录取统计：zsb.ustc.edu.cn/bkzn.php?pid=4，05年科大招生计划：www.zsb.ustc.edu.cn/bkzn.php?pid=2
+select * from admission_plan where school='中国科学技术大学' and year='2005';
+['查询结果为空！']
+请问贵校今年在豫招生分数大概在多少？640能保否？把握大么?
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是江苏的考生，我选取的考试科目是语文、数学、英语、化学、生物，不知贵校录取新生是否与所选取的考试科目有关？谢谢！
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='江苏' and classy='文史';
+['查询结果为空！']
+贵校去年在江苏实行的是自主招生,今年考生报考贵校的依据是什么?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江苏';
+['查询结果为空！']
+贵校去年在江苏实行的是自主招生,怎样才能确定贵校在江苏的分数线?
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and district='江苏';
+['查询结果为空！']
+老师,你好.我是广西的一名考生,请问650分可以上中科大吗?，请问调档后学校会如何选择,较低分的就会被抛档吗?
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='广西';
+['查询结果为空！']
+我是安徽理科考生家长，有一对双胞胎女儿，成绩优异，在省重点中学排名靠前，一个估分610分，另一个估570分，且都是少数民族。今年安徽理科分数线估计在530分。可否一同报考贵校？有多大希望？望复。
+select * from admission_score_pro where school='中国科学技术大学' and year='530' and district='安徽' and classy='理工';
+['查询结果为空！']
+请问贵校各专业志愿之间的分数级差？高出本省重点线50分，报考贵校的录取概率多大？
+select * from admission_score_pro where school='中国科学技术大学' and year='2050';
+['查询结果为空！']
+我是辽宁的考生分数预计比一本线高出110分想问一下报考贵校是否有希望能否挑到最好的专业，还有想知道贵校报考是否有专业级差级差有多少分呢
+select * from admission_score_pro where school='中国科学技术大学' and year='110' and district='辽宁';
+['查询结果为空！']
+老师您好：，我是一名安徽理科考生，估分在620分左右（一本估分在530左右），请问被贵校录取的可能性大吗？还请问贵校往年在安徽的录取分数是多少？谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='安徽';
+['查询结果为空！']
+600分可否报贵校?610呢?贵校大致高出一本线多少?
+select * from admission_plan where school='中国科学技术大学' and year='600';
+['查询结果为空！']
+老师,你好.我是一名四川考生,今年高考估计650,不知是否有希望被贵校录取?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='四川';
+['查询结果为空！']
+您好，我是一位来自甘肃的考生，估了610多分，请问是否有被科大录取的希望？谢谢回答。
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='甘肃';
+['查询结果为空！']
+老师您好：，我是一名安徽安庆理科考生，今处估分在620分左右，请问如果填报贵校，被录取的可能性大吗？
+select * from admission_plan where school='中国科学技术大学' and year='620' and district='安徽' and classy='理工';
+['查询结果为空！']
+我是黑龙江考生，得了660分，报考贵校通信工程是否有希望，能否介绍一下专业排序,专业分差为多少。
+select * from admission_plan where school='中国科学技术大学' and year='660' and major='通信工程' and district='黑龙江';
+['查询结果为空！']
+我是想问贵校池州地区招生老师曹老师说的话（科大国防生已经定好）是不是真的？昨天晚上我打电话与他联系时他就是这样讲的！，本人有志于报考国防生。
+select * from admission_plan where school='中国科学技术大学' and district='地区';
+['查询结果为空！']
+据贵校池州地区招生老师曹老师说，科大国防生已经定好。是真的吗？，高考分数还没有出来，怎么定？国防生属于提前批，不是在7月10日左右录取吗？
+select * from admission_score_pro where school='中国科学技术大学' and year='2010' and district='地区';
+['查询结果为空！']
+中国科技大学的往年分数线
+select * from admission_score_pro where school='中国科学技术大学' and year='None';
+['查询结果为空！']
+请问贵校今年在江西录取分数线是多少
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='江西';
+['查询结果为空！']
+中科大的老师好！我是安庆一理科考生，请问你们今年的“承诺线”有了吗？我估分600分，能填报你们的学校吗？
+select * from admission_plan where school='中国科学技术大学' and year='600' and district='安徽' and classy='理工';
+['查询结果为空！']
+中科大是我向往的大学，但高考我估分只有580分。所以我想填提前批次的国防生，请问希望多大？
+select * from admission_plan where school='中国科学技术大学' and year='580';
+['查询结果为空！']
+河南666分报考贵校希望有多大
+select * from admission_plan where school='中国科学技术大学' and year='666' and district='河南';
+['查询结果为空！']
+问题：???????，内容：我是广西的考生今年在体检中我被坚持为肝功能为阳性,不知道还可不可以报贵校.可以的话是哪些专业,谢谢老师!!，，回答：！！，内容：我们严格按照教育部相关规定执行。不客气。，----到底可不可以呢?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='广西';
+['查询结果为空！']
+我是广西的考生，今年在体检中我被坚持为肝功能为阳性,不知道还可不可以报贵校.可以的话是哪些专业,谢谢老师!!
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师：你好！我是辽宁省考生，个人估分为610分左右，辽宁省估计一本分数线为520分，能否被贵校录取，专业上有多大可选择空间。谢谢！
+select * from admission_score_pro where school='中国科学技术大学' and year='520' and district='辽宁';
+['查询结果为空！']
+科大有专科吗今年的录取分数有多少
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+老师,您好,请问今年贵校的分数线会是多少,一般超过一本多少?谢谢!!!
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+请问估分在630左右的福建理科考生，有希望上贵校化学制药专业吗？
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='福建' and classy='理工';
+['查询结果为空！']
+请问老师,贵校今年在江苏招收名额是多少?另外，贵校重点学科有哪些?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='江苏';
+['查询结果为空！']
+如果同一省的一考生高考成绩是640；另一考生高考成绩是630，但有20分加分（加分后650）。两人第一志愿均为，，贵校临床医学8年制。请问，是优先录取高考成绩是640的，还是高考成绩是630的（加分后650）。
+select * from admission_plan where school='中国科学技术大学' and year='None' and major='临床医学';
+['查询结果为空！']
+老师，你好。河南理科650分，报考贵校有希望吗？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='650' and district='河南' and classy='理工';
+['查询结果为空！']
+640分有希望吗？
+select * from admission_plan where school='中国科学技术大学' and year='640';
+['查询结果为空！']
+非常谢谢您的及时回复。，与宣城老师电话联系不上。只好再请教老师，据目前信息安徽一本估分线为537-540。请问理科610分有无希望上科大？谢谢。
+select * from admission_plan where school='中国科学技术大学' and year='610' and classy='理工';
+['查询结果为空！']
+请问中国科学技术大学的生物专业2004年在河南的录取分数线是多少？今年预计情况如何？如果没达到生物专业录取分数线又怎么样？，还有，该学科的教学情况如何？哪一方面是贵校强项？毕业后学生的去向？，另外分子生物学和生物化学具体指的是什么？
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+我是辽宁考生，估分565，报考贵大学有希望吗？，因今年本省语文，数学试题难，对于成绩接近及格的学生，贵大学能否考虑一下？，望尽快回复，多谢！
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='辽宁' and classy='文史';
+['查询结果为空！']
+老师你好。我是陕西理工类考生，估了570分。请问报考你校的把握有多大？？？你校理工类哪些专业比较好？？？
+select * from admission_plan where school='中国科学技术大学' and year='570' and district='陕西' and classy='理工';
+['查询结果为空！']
+老师您好!我是安安徽的一名考生,请问我的分数在600左右是否有被贵校录取的机会!
+select * from admission_score_pro where school='中国科学技术大学' and district='安安徽';
+['查询结果为空！']
+我是一名甘肃理科考生，我们甘肃是估分报志愿，我高考估分为640分，请问报考贵校希望大吗？一般情况下，贵校招甘肃考生应高于本省重点线多少分才能被录取？假若我被录取，那么我被贵校的电子信息类专业录取的机会大吗？，贵校有本硕连读的专业吗？都有哪些专业？我的分数能不能被贵校的本硕连读的专业录取呢？我对贵校仰慕已久，希望贵校老师给出解答！
+select * from admission_score_major where school='中国科学技术大学' and year='640' and major='电子信息类' and district='甘肃' and classy='理工';
+['查询结果为空！']
+本人是89年出生的应届高中毕业生,分数需超重点线多少
+select * from admission_score_pro where school='中国科学技术大学' and year='2089';
+['查询结果为空！']
+我想报考中国科技大，有推荐表可得到加分么？具备什么条件可给推荐表？复读生能得到吗？
+select * from admission_plan where school='中国科学技术大学' and district='中国';
+['查询结果为空！']
+我是黑龙江省考生我想问一下我今年高考估分为630分我们学校给估的分数段大约560至570您觉得我没有机会考取您们学校?希望老师能给点意见我们报成功的机会有多大?还有你们学校的哪些专业适合与我这个分数?前几年是高于黑龙江重点分数线多少分入取的?今年会有多大的变化?谢谢老师!
+select * from admission_score_pro where school='中国科学技术大学' and year='2019' and district='黑龙江';
+['查询结果为空！']
+老师你好,我是新疆的一名考生,属于理工科,今年的估分成绩是630,请问这个成绩报考贵校有希望吗?谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='新疆' and classy='理工';
+['查询结果为空！']
+教师,您好!我是贵州的一名理科考生,估分610分,想报考贵校,请问有希望被录取吗?
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='贵州' and classy='理工';
+['查询结果为空！']
+请问老师,国防生具体在浙江招多少,往年录用的分数线是多少?谢谢!]
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='浙江';
+['查询结果为空！']
+老师你好，我是一名少数民族考生，今年考试估分620分左右，我在全国物理竞赛中获得了二等奖，以及一些省内竞赛的一等奖，不知道贵校是否能优先考虑，少数民，族考生能否享受加分。谢谢
+select * from admission_plan where school='中国科学技术大学' and year='620' and classy='理工';
+['查询结果为空！']
+甘肃考生今年高考成绩估分是640分，请问可以被贵校录取吗?最有把握录取的是哪些专业呢??
+select * from admission_plan where school='中国科学技术大学' and year='640' and district='甘肃';
+['查询结果为空！']
+今年在该校我省入取分数的范围大概多少,谢谢
+select * from admission_score_pro where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+1.贵校的品牌专业有那些专业?，2.安徽630分可以录取吗?(安徽一本分数线530-540分)，3.参加全国数学竞赛安徽赛区二等奖在录取时是不是可以优先？，4.对历届生是不是和应届生一样看待？，5.有没有专业级差分？
+select * from admission_score_pro where school='中国科学技术大学' and year='630' and district='安徽';
+['查询结果为空！']
+安徽宣城考生，估610分，请问报考贵校有无希望？急盼回复。，您有和建议提供参考？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='610' and district='安徽';
+['查询结果为空！']
+我是山东考生，估分在650左右，另有10分为少数民族降分，请问是否能够填报贵校的核物理专业？
+select * from admission_plan where school='中国科学技术大学' and major='核物理' and district='山东';
+['查询结果为空！']
+中国科学技术大学的老师们，同学们：，你们好！，我是一名来自内蒙古大草原的考生，对贵校的盛名早有耳闻，而我对贵校更是心仪已久。，今年高考以后，我估分630分，不知道能否有幸被贵校录取。我想咨询一下，我是一名少数民族考生，又是一名党员，贵校对这些因素在招生的时候是如何考虑的？，另外，请问贵校的专业设置从高到低是如何排序的？专业级差是多少？，就以上问题希望贵校给予答复，因为我的的确确希望在这所著名大学圆自己的大学梦。谢谢各位，希望今年的国庆节我是和你们一起度过！
+select * from admission_plan where school='中国科学技术大学' and year='None' and district='内蒙古';
+['查询结果为空！']
+老师好！，请问贵校有专科吗？我今年考了420分左右，有可能考上吗？
+select * from admission_plan where school='中国科学技术大学' and year='420';
+['查询结果为空！']
+我是安徽凤阳地区理科考生,610报考贵校有把握吗?谢谢!
+select * from admission_plan where school='中国科学技术大学' and district='地区' and classy='理工';
+['查询结果为空！']
+老师,您好.我是河南的一名理科考生.我想问一下628分报考贵校有希望吗?
+select * from admission_plan where school='中国科学技术大学' and year='628' and district='河南' and classy='理工';
+['查询结果为空！']
+老师好，我是一名理科生，估分650左右，有希望被录取吗，今年的分数线和去年比会下降吗，谢谢老师！
+select * from admission_score_pro where school='中国科学技术大学' and year='2018' and classy='理工';
+['查询结果为空！']
+您好，我是一名陕西理科考生，今年估分670-680分，能否报考中科大数学系，有多大把握？需要注意哪些问题？谢谢
+select * from admission_plan where school='中国科学技术大学' and year='670' and district='陕西' and classy='理工';
+['查询结果为空！']
+谢谢老师.在请问一下,河南考生今年634分报贵校有希望吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='河南';
+['查询结果为空！']
+我今年高考估分有601分左右,我想报考贵校,有希望上吗?
+select * from admission_plan where school='中国科学技术大学' and year='2019';
+['查询结果为空！']
+我是一名理科生,在陕西估分是640左右,请问能否报考贵校.另外我还获有化学和计算机省级二等奖物理省级三等奖,不知这些能否对录取有所帮助.
+select * from admission_plan where school='中国科学技术大学' and major='化学' and district='陕西' and classy='理工';
+['查询结果为空！']
+今年高考题不难,若理科高考分670-685报考贵校没问题吧?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and classy='理工';
+['查询结果为空！']
+老师你好，我是一名理科生，我估了672分，上我校的希望大不大。请问一下，我校在陕西招收理科生多少人。是否会扩招。扩招人数大概有多少？
+select * from admission_plan where school='中国科学技术大学' and year='672' and district='陕西' and classy='理工';
+['查询结果为空！']
+老师我估计了500分，上科大一直是我的理想，我知道我考的太差了，很难过很难过，但是我还是想知道，这个分数能否达本科线？能否推荐个专业？
+select * from admission_score_pro where school='中国科学技术大学' and year='500' and classy='理工';
+['查询结果为空！']
+贵校公布的2004年录取最低分为659分,而我拿在手的报考指南上是630分,谁正确?谢谢!
+select * from admission_plan where school='中国科学技术大学' and year='630';
+['查询结果为空！']
+估计今年安徽的重点线是多少?谢谢
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+估计今年安徽的重点线是多少??
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+第一志愿生源足但是未达投档线的120%人数时,省招办同时投二志愿给贵校(分数高于平均分),如何录取?志愿级差分是多少?贵校各专业每年的分数在什么地方可查?贵校4年的平均录取分是646(湖北)可以说高于646分一般来说可以到贵校求学的?谢谢.
+select * from admission_score_pro where school='中国科学技术大学' and year='None' and district='湖北';
+['查询结果为空！']
+老师您好.我是一名浙江考生的家长,据说贵校往年在学生考分出来后,对一定高分的学生有预先联系的做法,以确保报贵校不撞车.请问,该项做法今年是否还将进行,如何操作?
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='浙江';
+['查询结果为空！']
+今年安徽高考英语是多项选择还是单项选择？
+select * from admission_plan where school='中国科学技术大学' and year='2019' and district='安徽';
+['查询结果为空！']
+按4年平均情况下,高于省第一批重点录取线100分左右可到科大什么理工专业求学?谢谢.
+select * from admission_plan where school='中国科学技术大学' and year='100' and classy='理工';
+['查询结果为空！']
+总问题数2913	查询语句构造为空数0	只有学校关键词数652	查询结果为空数1109	有回答数1151

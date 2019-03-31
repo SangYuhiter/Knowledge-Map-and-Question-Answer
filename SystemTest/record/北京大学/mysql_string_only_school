@@ -1,0 +1,4246 @@
+请问在元培实验班学习和在其他专业学习有何区别?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:贵校的双学位有何选择标准?如果我选择法律专业,可以选择哪种第二专业?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+9999
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想报考贵校国家专项计划，在国家专项批次中是否承认加分？例如少数民族加分，边疆加分和其它加分等。谢谢老师解答！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！考生志愿填报已按级差填报6个专业并服从调剂，请问会调剂到未填报的其他专业吗？如需调剂专业，贵校会提前与考生沟通吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的学校录取分数之外，每个专业的录取分数有统计数据吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+博雅降分达到分数线后专业如何安排，是裸分顺序安排专业？是分省安排专业，还是全国协调？如果学生填报的几个专业都没有被录取，学生服从分配，学校调剂非填报的专业时与学生沟通吗
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，如果想报北大的提前批次录取应该从哪里报名，网上好像找不到入口
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批的小语种录取之后是否可以转专业到非语言类专业，是否可以修非语言类专业的双学位？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+仅看位次可以吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，设专业级差的学校，一旦被提档即使服从调剂是否依然有退档可能
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+填报后可以转户口吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部分数线
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问对于学有余力的定向生，可否选修双学位？如果可以，其专业范围是否受限？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，北大医学部二本专业服从分配是否不退档？招生章程中说有专业级差，具体级差是多少？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能够参与从这一届开始实行的自由转专业的政策吗？或者转专业会有不同于裸分考生的要求吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生的专业是不是只有小语种？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！《北京大学招生章程》规定，提前批录取的非通用语种考生，按投档分提档，按实考分录取专业，专业志愿间不设级差，不调剂，录满为止，实考分未达到所报专业录取分数的考生予以退档。老师能举个例子，说明一下，投档分和录取分之间的差别吗？如果退档，是在什么时间退档，会影响自主招生的提档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+孩子手背上有八平方厘米黑色胎记,是否影响国防生报考?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生招生录取，毕业时是北京大学证书吗？毕业后是否是部队分配？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+转专业需要多上一年学吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+招生老师您好，如果孩子够贵校的提档分数线，并被贵校提档，如果被筛选下来，这样会不会影响人大，上交等一些学校的入取呢，时间上贵校与这些名校有冲突吗
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果复检近视，会被取消入学资格吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高中阶段没有获奖证书，数学单科成绩特别优秀，满分或接近满分，可以报自招吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，已经与其他大学签订了自主招生，能不能参加你校提前批录取。谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：是否是选择北大任何一个专业，都可以修双学位呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的提档线是如何确定出来的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分估了625，有可能能上北大么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已经和其他大学签订了自主。能不能参加北大提前批录取。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，报考国防生，专业录取时是按高考实考分还是提档分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校自主招生名单何时能在阳光高考平台公示？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+“您好，贵校的招生章程提到120%提档，请问实行平行志愿的省份提档百分比是多少，如果服从专业调剂，是否提档不退档？【回复】您好：根据生源情况在120%以内提档，一般为100%。”100%即只要服从专业调剂，就不退档吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：1、获得自主招生线下录取优惠，三好生加分累加吗？2、如不累加，选专业有优惠吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+离报考没几天了，招生简章什么时候发布？另外，学校网站不象其他学校一样提供分科录取成绩吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大的录取原则是专业优先还是分数优先？专业之间有没有设置极差？历史和考古是怎么个降分录取法啊，一般调剂的都是些什么专业啊？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考军事国防、公安类院校，眼睛近视不到200度，分数高（分数630左右）会有优势吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，假如艺术特长生考分低于提档线利用加分入选，怎样进行专业录取？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问：1、贵校专业录取规则是怎样的？2、假如甲同学（填报的专业未能录取）在没填报某专业而服从专业调剂且分数比填报第一专业志愿的乙同学高的情况下，会优先录取谁？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问视力镜片度数受限不宜就读专业可以填报吗?专业录取时怎样对待？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，通过自主招生优降分惠考入贵校并服从专业调剂的考生，在填报高考志愿时要局限于自招时填报的专业范围吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问学校有2+3的出国培养模式吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果考生算上政策性加分够提前批的小语种的提档线，但未被录取，考生的1A又没报北大，就没可能被学校录取了吧
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:一批次考生，只要政审合格，专业服从调剂，提档后不退档。对所有省都这样吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好:请问政策性加分与自主招生降分可以累计吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国决银牌生在高考专业录取时，竞赛的专业有没有优先考虑？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+小语种对色盲有限制吗？必须放在一志愿吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问超一本线多少分才能报考北大？省排名多少？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。请问在进行专业调剂时，会通知学生吗？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批的小语种入校后是否可以申请通过考试转到普通批的专业？以前是否有此规定？如可以，以前的转出的成功率是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大在专业录取时是采用分数清还是志愿清？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+校长实名推荐指标占录取指标吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+服从专业调剂会被调到学费高的专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，贵校的招生章程提到120%提档，请问实行平行志愿的省份提档百分比是多少，如果服从专业调剂，是否提档不退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我是海淀家长，现有一个问题请教：提前批如果勾选服从调剂，是不是有可能调到任何专业？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：我孩子想考北大医学院，请问你们的医学院和其它专业分数一般相差多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问获得北大自主招生降分录取资格，降分既适用于北京大学，又适用于北大医学院。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果取得了协议降分录取资格，是在高考分数基础上，加上协议降分额度与裸考同学同等条件（并行）录取吗？或者录取工作在统招录取之前单独录取？填报专业和录取受竞赛科目限制吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果报相关专业，分数不够但又不服从专业调剂会掉档吗？.如果分数达到专业线，又服从专业调剂，那最终会如何安排？非常感谢！！！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，艺术特长生进校后，上课时间与乐团的训练时间是否会冲突？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：请问面向贫困地区招生“专项计划”第一批本科院校是什么概念？招生有什么限制？分配有什么限制？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+相关院系的官网上说先进学院之后自由选专业，但是高考志愿填报表上确实是专业名称而非学院啊，这是怎么回事
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我想咨询一下贵校医学有专科专业没？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我630左右，又把握没？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问北大各专业的录取顺序或录取规则是怎样的？各专业排队顺序是志愿优先还是分数优先？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！孩子取得了贵校自己招生加分资格，我想咨询填报志愿时，在自主招生栏内填报了贵校后，在填报平行志愿栏第一栏时是否需要再填写贵校？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问专业分配是按考试成绩吗？算不算加分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！孩子获得贵校自主招生加分资格，我想咨询填报志愿时，在自主招生一栏里填报了贵校，是否在平行志愿栏内第一个志愿也要填报贵校？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好。有考生估分在北大录取线附近。请负责任的答复：1.提档率带来的风险多大？2.还有前面的答复发现有政审二字政审的风险多大？3.老师对处于临界分数的考生有什么建议或衷告？这些是很多家长焦虑的问题。拜托。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对加分是否有限制，若某一考生拥有自主招生加分20，同时又有体育类加分20，那该生最后被北大认许的加分是多少
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生等录取人员是否占用当年本省投放名额？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问左撇子学医有影响吗？临8招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国防生录取时一般能比普通生低多少分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校专业录取时承认各省加分吗？保送生和自主招生占公布的招生计划吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例是多少，今年有退档吗？谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校的专业录取规则是分数优先加专业级差还是志愿优先加专业级差？山东省今年第一年实行平行志愿，贵校在山东的提档比例是多少？专业服从调剂是否提档不退？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，如果高考成绩未达到北大录取线，但通过自主招生进入，选专业时有什么不利；另：如果这种情况下报信科专业有多大把握被录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问贵校哪些专业是不报不录的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问选专业是看裸分吗？省优秀学生干部加分是否可用。谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，各省招办承认的政策加分贵校在录专业时是否认可？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问2013在四川提前批专业有哪些？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，填服从还会退档吗？调剂的话会通知本人吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问自主招生通过的考生报考贵校不算在省内计划数中，是吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！请问地质基地主要学习科目，以后主要从事的工作方向？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！英语口语成绩是4分，能报考学校的小语种嘛。谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+参加保送考试未通过（406分），报考贵校专业能加分吗？专业录取分数排名在哪能看到？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一志愿报北大，二志愿能报北医吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校提前批的小语种专业，入学后觉得不合适可以转专业吗，是随意转还是有什么限制条件？4年小语种学习，每位学生都有出国交流机会吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大医学部能转专业到北大本部吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大提前批是否可以用自主招生加分降分提档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：期中，期末，一模海淀排名分别为170，80，320。有少数民族加分。有希望报考贵校吗。如果有，有几层？他兴趣是计算机方面。好像没有几个专业可选。报考志愿如果是：1：电子信息科学类，可行吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问：“北大在第一志愿生源不足的情况下，接收非第一志愿考生，其分数应不低于已投档的第一志愿考生的平均分。”这是针对非平行志愿的地区吗？我想平行志愿的省应该不会有这个问题吧！请老师帮忙解答一下，谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师您好：请问贵校专业录取时时按实考分吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问：贵校不报不录，可能降分录取的专业有哪些？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+四个不报不录、可能降分录取的专业,裸考进四专业后，考进后能转系吗？如果不能转，读双学位，北大有限制吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好！请问提前批专业录取采用分数优先还是顺序志愿？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是被2013北京大学校长实名制推荐候选人，参加高考后要同其他考生一样填写志愿吗？如果不，具体程序该怎么办？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生如何报志愿选专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：北大的专业级差是如何定义的？如果我刚到录取线，第一专业志愿未录取，那么一减分，后面专业志愿的分数都达不到了。请指教如何办才好？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+想向精算方向发展应报考贵校什么系？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问小语种专业学生可以修哪些双学位？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！贵校提前批的提档线是怎么确定的？如果同分数的情况下，怎么录取？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+上海考生零志愿报北京大学，有专业级差分吗？就是第一志愿没有录取，第二志愿减分录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：不报不录专业，若生源不足，降分录取的是否是报第一专业的才有机会。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术特长生可以报医学部吗？如果可以报，可以报长学制的专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若被贵校提档后，是按分数优先录取还是按志愿优先录取？请具体说明一下。谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问小语种就业方向？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+关于地质、考古等不报不录专业，入学后可否转专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大提前批是否可以用自主招生加分降分提档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+招生政策中照顾对象的录取中指出：“高级中等教育阶段获国家二级运动员(含)以上称号并通过全市统一测试的应届毕业生”，孩子在初中时就取得了一级运动员证书，可否享受照顾政策？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问一志愿报北大，二志愿能报北医吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果选择调剂,但不想进哲学系,而招生目录上哲学系是普通志愿,该怎么办,
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+视力：近视一眼300、一眼350，无色弱无色差，能报考医学部临床等专业么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，若已被北大认可为艺术特长生，如果高考成绩裸分高于北大录取分数线，可以不作为艺术特长生报考北大吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+四个不报不录、可能降分录取的专业，在降分录取的时候，自主招生获得的加分还有效吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,北大提前批小语种入学后可以转专业吗?如果可以,哪里可以了解到细节问题.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大有哪些是提前批录取的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校可以从医学院转入其他院系吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+身高1米6可以报北大提前批国防生志愿吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校提取批录取时是分数优先还是志愿优先？如果自主招生为线上加分的话，如果提取批录取是否也享受这个政策？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考国防生有哪些要求呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+招生组会一对一联糸排名靠前的和自主招生通过的学生吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我预估610，报考贵校国防生有可能吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校公布的录取分数是否包含加分
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的预科在什么批次填报，预科结束后如何分专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的专业级差是多少？若服从专业调剂会在所有专业范围内调剂吗？是否会征求考生本人的意愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学招生所有专业都必须有口语成绩吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+东北林业大学化学系是否不如哈尔滨师范大学的化学系
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有几个校区，每个校区专业是怎么分的？新生入哪个校区？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是北大艺术特长生，请教如何填报专业。谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，计划数与达线数的区别是什么？达线数高于计划数时怎么办？，谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业录取时按照实考分也就是裸分录取。那自招时为什么还要给专业加分？10分或5分呢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，贵校在专业录取时实行5-3-2-1的分数级差，假如有个考生在贵校进档后总分排名第三，他，报的第一个专业被分数比他高的两个录完了，那是不是他减掉5分后总分在进档考生中排名还是第一，第，二专业是不是优先考虑他。依此类推。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好：请介绍一下专业级差是怎么回事
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+够北大提档线，服从专业调剂，政审合格就不退档，请问政审是什么？不是只有国防生有政审吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢回答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好。贵校医学部录取原则有三个，具体录取有先后顺序吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+听有的老师说，平行志愿按照1:1的比例投档，只要投档就会录取，请问贵校是否是这样？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+640分报北大行吗？，是否会被退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对复读生招生有何要求？录取时是否与应届生一视同仁？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好!甲生实考分为650，自主招生线上专业加10分；乙生裸考分658，第一志愿报相同专业，录取谁？谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的专业选择自由吗？如果服从调剂能否调剂到自己喜欢的专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+简章中是120%提档，填写服从分配能否退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学院对视力有要求吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在高考后是否还有与高校录取有关的测试？（我只知道中南大学的综合素质测评）
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我填了服从分配会退档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎样确定自己是否可能会被贵校录取？如果分数可以，招生组的老师能否给个明确的答复？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好！想问下，保送生的录取通知书是和高考录取的学生同时发吗？如果保送生的通知书提前发送，一般是什么时候发送？打扰了。祝老师身体健康
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+入学多长时间以后可以转专业？需要参加考试吗还是否有其他要求
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业排名的分数含有自主招生或政策性加分吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！如果没能录取到所报专业，调剂到别的专业，以后有可能转专业么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：您在回答前面的问题时说“提前批报考北大一批也报考北大，这个时候如果你分数够北大一批录取线后可以放弃提前批录取转入一批录取。”想知道具体需在什么时机提出放弃，是在提前批开始录取前，还是录取结果出来后？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好国际交流项目（交换生）申请基本条件有哪些（本科生），已申请过交换生的本科生（交换期限已满）能再申请公派留学吗？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好!小语种录取设专业级差吗?如果被录取了,可以选修第二专业吗?相关规定是怎样的?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：北大医学部的学生在本部辅修/双学位，能否按辅修/双学位专业报考研究生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果已经获得其它院校自主招生资格，还能否报考贵校？会有什么障碍没有?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一、有政策加分学生出现两种情况：1、实考分已上贵校提档线。2、加上政策加分才上贵校提档线。这两种分别对我们裸考生的位次有多大影响？，二、有自主加分学生出现两种情况：1、实考分已上贵校提档线。2、加上自主加分才上贵校提档线。这两种分别对我们裸考生的位次有多大影响？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问如报考贵校提前批小语种的提档比例是多少？提档后如所报专业都不能满足是否退档？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果被北大录取后，不满意专业的话有没有什么办法可以调剂？如果不能调剂专业，是否可以选择学修第二学位？希望老师尽快给予答复，翘首期盼~
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业级差5、3、2、1是什么意思
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好！打扰了！想问下，，1）保送生的录取通知书是和高考录取的学生同时发吗？，2）如果保送生的通知书提前发送，一般是什么时候发送？，3）保送生的录取通知书是一般平信投递，还是特快专递啊？，打扰了。祝老师身体健康
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大2011在京统招录多少人
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问有自主招生加分，没到北大的提档线，请问此种情况自主招生录取和北大一批次录取是同时进行吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请教几个问题，1.保送生参加高考，分数达到提档线是否占计划名额？，2.自主招生者高考分数达到提档线是否占计划名额？，3.我同时报了提前批及一批次，如果我的高考分数超过一批次提档线，我想选择一批次的专业，这种情况是否可以？有这样的机会吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有年龄限制吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有时候招办电话很难打通。，有没有比电子邮件更快捷的联系方式？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如果高考时裸分不够，但用上自主加分够北大提档线，能保证所报的第一专业录取吗？如果服从专业调剂，是不是就不能退档，保证被录取，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+由于高考分数没有上北大投挡线但符合北大自主招生优惠政策的考生不占用公布的招生计划数，所以我们就不知道北大用哪些专业及可以招生的人数用于招收上述考生。在这种情况下，北大是怎么的一个招生原则来录取这些考生的专业的？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是专业录取线？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,早上好!请问,北大何时开始录取工作,提前批和一批次是同时进行吗?盼回复.谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+【老师您好】提档了有可能死档么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问全省前十名的新生奖学金有哪几个等级？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！提前批外语提档后是否忠实与学生所选语种，有无调剂专业之说？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是一名乙肝携带者，肝功正常，高考体检一切正常，无专业限制提醒，能否选择贵校医学专业，能否正常读医学硕博，以后的就业如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问,自主生通过降分进入了北大的调档线,是不是都会被调档和录取.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已经得了北大预录取，也已同学校签订预录取协议（预录取协议明确了专业的），最终会变不？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果报定向生志愿，是否会影响到本一志愿的录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我非常希望到贵校学习医学专业，所以打算填报专业时只报考医学类专业，且不服从调剂。请问，如果我的分数不能进入医学专业，但是又达到贵校提档线，在我不服从调剂的前提下，贵校还会提我的档吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问,使用降分上北大调档线的学生,专业录取时用不了北大投放在各省的专业计划,是不是直接在北大所有文科专业中调配.谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已经得了北大预录取，也已同学校签订预录取协议（预录取协议明确了专业的），下一步要注意些什么？在填报志愿时是不是只填北大及这一个专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果我填报了志愿，但没被录取。后又复读一年，影响第二年填报吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：1:1提档政策，我选择了不服从调剂，有退档的风险吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有没有医学部？，是不是分开招生，分数线是单独的吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+普通二本可以报考北京大学的研究生吗？每年有多少外校学生考入北大读研？二本生每年占多少?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么时候发放
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我668分，能考上贵校吗？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校投档比例是多少？是否会退档【在同意调剂情况下】谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主生是否可填报北大所有专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学的夏令营和“北京大学青少年素质教育与才能培养实践基地”组织的夏令营是不是一回事？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：第一志愿填北大，达到提档分数线但未被指定专业录取，在不服从分配的情况下，如果被退档，会不会影响后面的平行志愿录取呢，会不会直接掉到一本B呢？，在分数公布之后再根据分数到您这里咨询还来得及么？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师!请问:1、录取专业时有含政策性加分吗?2、同分考生专业录取顺序政策性加分考生有优先吗?还是按怎样的学科成绩顺序优先录取?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的北大老师：你们好！请问：具有贵校自主招生资格的考生在填报第一批6个平行自愿时，一定要把你校填在6个平行自愿的第一位，其自主招生资格才有效，否则，其他自主招生资格就无效，是这样吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校某专业在某省招生计划1人，同时有3名考生第一志愿报考，考生甲实考分700分，没有加分；考生已实考分685分，省级加分20分；考生丙实考分695分，没有加分。那么在提档时谁会被优先考虑？（假设3人被同事提档）在专业录取时谁的机会更大一些？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问已经获得自主招生资格的考生，是不是只要分数上了当地一本线，就能被录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问夏令营加分生占招生计划名额吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：我高考体检为色弱且有红、绿单色不识别、其它单色均能能识别，可报考贵校的什么专业，要有针对贵校的专业而不是“普通高等学校招生体检工作指导意见”那种笼统的标准。，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在录取过程中，贵校按照百分之多少投档？如果超百分之百，多余的考生退档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已经通过了该校自主招生的笔试和面试，本次填报志愿时不报本校，请问是不是就不会被该校提档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考分保持670分左右有望上贵校吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考分保持670分左右有望上贵校吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+人大自主资生上了贵校录取线怎么办好
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提档后服从调剂，体检没问题会不会退档
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校最低录取线的划分（最后一名），是按实分录取还是可以包括政策加分录取。谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我有其他高校自主生预录取资格，高考时如果发挥得好，填报贵校可以录取吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.自主招生录取时间在提前批还是第一批?，2.可供选择的专业何时公布
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.校长实名推荐面试合格者其录取时间在提前批还是第一批.，2,填志愿时在哪里选择专业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在提前批里有哪些？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生占公布的招生计划吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果我达到你校分数线，一本第一志愿报的你校特色专业（其它一本志愿均未填报），因不服从专业调剂而不能被你校录取，会不会成为“死档”而不能参加第二批录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大每志愿之间的级差分数是多少
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校保送生人数占用招生人数吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报志愿代码从哪里获取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报了北大医学部二批被录取后可以转到一批的专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！请问自主生，艺术特长生占用本省的招生计划名额吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是否平行志愿省份服从调剂不退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生录取的学生占本省的计划吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学部的毕业证是北京大学还是北京大学医学部？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问北大医学部学生可以选修北大本部的双学位吗？具体要求是什么？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，看到北大招生报说明，北大医学部录取后，分数达到北大本部提档分，可以申请转到本部，有什么具体要求吗？谢谢
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，保送生不参加高考对入学后有影响吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！医学部可以和其他专业同时报吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生录取的学生占本省的计划吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的选拔保送生（省一等奖）是不是都没有预录取通知书？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+港大和北大提前批次谁的时间靠前？港大不是单独网上报名吗?难到回出现，北大提前批次录了，港大还没结果的情况吗？怎样避免
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考完分数出来后在测试吗?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问提前批小语种5个志愿的录取顺序如何？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我港大和北大提前批次都报了，会不会出现北大提前批次录了，挡案过不来，港大录了也去不了的情况
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，小语中只能填报5个，如果服从分配，分数低一些，能调剂到其他语种吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，专业梯度5321什么意思呢？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，能提供下小语种的分数排序吗？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果是平行志愿，北大提档线如何确定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我家小孩北京大学自主招生加了20分，要是北大退档了，还可以进入第一批次的院校吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业录取考虑各种加分吗，专业志愿结合分数？级差谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，是5个志愿都没被录取，也就不够提档线了吗？不存在够提档线志愿报高了的情况是吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，小语种不调剂是什么意思？是5个志愿都没录取的话，退档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我提前批次报贵校小语种，第一志愿也为贵校。等成绩出来后，我什么时候申请取消小语种录取？怎样操作？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问北大提前批小语种可报几个专业？录取规则如何？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,自主招生考生录取时，名额指标是另外给呢，还是占用本省的北大招生指标？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大提前批小语种录取提档分是否包括政策加分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，保送生录取通知书什么时候能发下来？还有，有的省份没有公布报送生拟录取名单，这会不会影响到保送录取？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的美术类招生的详细规定有哪些
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:贵校与北大医学部不是同一所学校吗?如是的话为何报了医学部的专业就不能报考贵校的其他专业呢?报考时要注意什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已通过贵校足球高水平测试，并已通过本地二本线，报考贵校能被录取吗，足球是否有指标控制
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校热冷专业是按《专业目录》序号大小排列？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的成绩高一本1分敢报贵校吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问考研报贵校是否有条件限制？比如对第一学历的要求？或者其他要求？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：，请问什么是定向调剂
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，北大招生不求人，设置提前批和一批有什么不同的地方，是否降低要求呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部投档比例是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，我获得了北大自主招生资格，已在提前批次-自主招生志愿中填报了北大，那么在第一批次第一志愿中还要填报北大吗？如果不需要，为什么有些自主招生院校这样要求？请给出确定答复，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的艺术专业招生专业分和文化分各是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，外国语学院转专业的要求是什么？谢谢您的回答！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校法学专业本科毕业学生主要向哪些方面就业？是不是必须要拿到律师资格证才能就业？需要几级？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，报考的专业有6个，分不分先后？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎么和校长联系？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，想问：1我的分数587（实分，无加分）怎样才能考上贵校，能教些报考技巧么？2是否完全服从调剂还会被退档？3贵校接收复读生么，是否一视同仁？问题多了些，谢谢老师（不想再复读）
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+《招生计划上》有每个学校在每个省的专业计划招生不报计划招生内的专业可以吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在提前批中，指挥类和非指挥类是分开的，各为三所学校。请问如果都填的话，在投档时是先投指挥类还是非指挥类？或者是交替投档？谢谢！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,每个平行志愿的六个专业不全填满可以吗?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我成绩位次在北大计划数的边缘，按照1：1.2的投档原则的话可以进入投档线，但退档的几率大，容易导致没被院校录取，有关方面的负责人建议我报北大，可以吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么样的条件能使学生有双修的机会？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批录取分数线是否一定比一本录取分数线高？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大提前批招生承认北大的自主招生加分吗？谢谢老师！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的专业，能提前知道被录取后分在哪个校区吗贵校如设有专科或者高职，一批我填报了专业服从调剂，会被调剂到专科或者高职吗在就读校区住宿还是去哪个区住宿请用肯定语告知谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下工科试验班是做什么的？工作后从事什么工作？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题，请老师指教可能性大不大，并提供建议。万分感谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+获自主招生资格的学生填报提前批次还是第一批次志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我414，A+A+,录取希望多大?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生成绩登录系统中，除了填写高考分数外，还要认真填写院校志愿及专业，这里的志愿一定要与高考志愿一直吗？如果不一致会有什么影响？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，北大有预科生吗？有什么条件吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+眼睛近视300度，可以上贵校的国防生吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+志愿与专业的“冷热搭配”具体是怎样的？麻烦举个例子。谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问校本部和医学部转专业是什么政策或要求
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+*表示目录内需一般控制设制的专业，，w表示目录外专业，y表示引导性专业，还有一个是表示目录内需从严控制的专业，s表示在少数高校试点目录外专业，这些咋能读懂谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北京大学与北京大学医学部学校是在同个地方的么？还是两个分开的。另外北大与北医有什么不同之处？为什么要分开来招生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：过一本线6分（没民族分加），文科，报读贵校法学专业有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问贵校有预科班吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提档比例医学部和本部有机会调剂或转专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+总分698，能够报考北京大学吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+英语专业上写的（外语口语要好）什么意思？你们怎么知道我口语怎么样那?是不是被录取后要面试口语
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问题档后选择服从专业调剂有腿档的可能吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂是否只在本省所分的专业内进行？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+填报志愿的一个选项中要选国防或非对口，请回答关于2者的区别。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在本2征集及本3报志愿之前，肯定能知道之前批次的的录取结果么，去哪能查？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问民考汉可以报考贵校的金融专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差及退档风险各是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+填提前批志愿时“是否服从院校调剂”这一栏应怎样填
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问人大的新生能否辅修北大的数学?如果不能还有什么好办法?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:考生已取得比贵校录取分数低的其他学校的自主招生资格,如果高考实考成绩能达到贵校的录取线,考生能填报贵校吗?贵校会录取该考生吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+选好学校和好专业,哪一个先考虑?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+何时开始录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主批次专业录取怎么进行？各专业名额如何确定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批小语种投档比例是多少？如果是120%，可是一共只招了2、3个人，怎么办？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校老师：往届高中毕业学生或复读生能通过自荐参加贵校的自主招生考试吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取时以高考裸分为主,或是以裸分加政策性加分为主,如果裸分与加分后的分数相同,先录取谁?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问录取时设专业级差是什么意思?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大山东提前批有哪些专业？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好我是名考汉，估分698想报考贵校的金融专业，请问我有机会被录取吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生一般是比一批线降若干份投档，但又是在一批前进行投档，那么在一批投档线还没有确定的前提下怎么确定自主生的投档分数呢？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：报纸上公示的是招18人，可是报考指南上说的是13人。我看了是有5个国防生。请问老师国防生已经提前招了吗？这5个国防生也是在第一志愿报北大的指标里吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考提前批次需要什么条件
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生、定向生能照顾多少分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前录取定向招生的就业方向(单位)是什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我在最好的高考博克里看了相关政策，决定报贵校，但不知道贵校情况，能否介绍一下：http://blog.sina.com.cn/s/blog_6598a8380100hjpm.html
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：被贵校提档后，如果服从专业调剂，是否还会被退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问报考贵校的考生可以在贵校网站上看到录取结果吗？若能何时？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：北大的专业怎样转，辅修的专业给什么样的证书？辅修专业好毕业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：元培学院有什么专业？本院的学生可以随便选还是考试选拔？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，报志愿时，北京大学医学部算一个学校还是算一个专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎样才能尽可能的避免报考时的扎堆、撞车现象呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大是否只在投档时承认政策性加分？（市区三好）那么专业时，若分数偏低，是否有退档可能？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：我家儿子要在省排名多少才有可能被北大录取？北大是他梦寐以求的地方，请老师告诉，谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：您校的数学专业均分很高，是不是每年都录取的是保送生呀？如果没有加分，就几乎没有希望报考数学系？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批服从调剂，若调剂到未填报的小语种，贵校会征求考生意见吗？被提前批录取的学生，入学后能转专业吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是在本省招生计划内的专业调剂，还是在学校所有的专业内进行调剂。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问与贵校签定的自主招生优惠政策是否适用于医学部？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些省市属于自主招生计划单列地区？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!可否详解一下平行志愿的投档与录取顺序？另：色弱与近视是否一会事？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：考生既填报北大提前批，又填报本一批，如果考生所报贵校提前批被录取，但高考分数超过北大本一批分数线，还能否调到本一批录取。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果第一志愿报北大并达到分数线，同时报了香港大学也同意录取，哪个学校先调档？考生能自己决定去哪个学校吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+以平行志愿填报志愿时,在具体录取时,是以志愿优先还是分数优先的原则
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+对于艺术特长生，教育部阳光高考平台上的公示名单与考生所在中学公示名单不一致是怎么回事
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+假如有一个考生是你校已经确定的自主生，而且考分很高，达到了不是自主生的投档分数线，那么这个考生的录取是算在自主生计划内，还是算在正常招生计划内？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你校公布的全国招生计划是多少？你们实际要招多少人？请以去年为例说一下。谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，想同时报考提前批次报考贵校的提前批次和第一批次，如果分数达到了贵校的录取分数线，是否可以放弃提前批次而参加一批的录取？具体怎样操作呢？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请告诉具体的规定----。自主生、保送生比例上限保密吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+教育部让问高校！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你校公布的全国招生计划是多少？你们实际要招多少人？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你校自主生、保送生比例上限是多少？教育部有什么规定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考入本校后，是否可以改专业,
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵省招生考试院规定是按贵校的办法执行，请老师把专业录取的招生规则给予详细说明，公告一下好吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大是否采取下述办法？在高考录取时，各省级招办将根据对外公布的我校招生计划总数，划定除自主招生对象（包括艺术特长生）之外的普通考生的投档线并进行普通考生投档，自主招生对象将另行投档。投档进校的自主招生对象（包括艺术特长生）由我校在对外公布的招生计划总数之外，参照公布计划安排情况补充安排足额的计划数后，再将普通考生和自主招生对象（包括艺术特长生）合并进行统一录取。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大哪些专业对近视有要求?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：1、提前批小语种确定入学后可以转专业吗？有的说不让转，请澄清。，2、小语种学习北外统一安排到相应国家学习一年，北大也是统一安排吗？如果不安排，能学好小语种吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1、提前批看外语口语成绩吗？，2、提前批是加分提档吗？，3、提前批被录取后，能否转专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校：甲考生参加了自主招生获通过，但甲考生第一志愿未录取、第二志愿降分后分数与乙考生分数一样，且第二志愿与乙考生第一志愿一样，只有一个名额时，优先录取谁？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：如果提前批考上本校，能否转专业？有可能转入北大医学部吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+天津能否报考该校，哪些专业有把握？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取时，是专业志愿优先还是分数优先？如：A考生以甲专业为第一志愿，且甲专业的一志愿报考人数不满足招生计划；B考生第二志愿为甲专业，减去专业级差后分数仍大大高于A考生。问：先录A考生，还是先录B考生？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果高考成绩进入省提档线且专业服从调剂，会退档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：小语种在校期间安排到国外学习吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能否详解一下专业级差:5、3、2、1？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！，实行平行自愿后，若第一顺序自愿没达到投档线，而达到了第二顺序自愿的投档线，第二顺序自愿学校会投档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问右无名指末节缺失专业有何影响？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好！录取后在校期间专业是否可以调换？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，北大在专业录取时承认政策加分吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已经与其他学校签订保送协议并公示后,还可以在高考时报考贵校吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我在这里看了但不知道贵校情况，能否介绍一下：，http://blog.sina.com.cn/s/articlelist_1704503352_0_1.html
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：，您好，，如果填报了专业服从调剂，录取到极不喜欢的专业，又不想放弃北大，怎么办？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不报不录取专业适合山东吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如A同学加上自主加分被贵校提档，B同学属于过贵校提档线被正常提档，则贵校对两位同学录入专业时如何操作？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,小语种提前批次提档线与一志愿提档线是否一致?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报你校提前批有加分时提档，录取专业时是不是按实考分？提前批好象不设专业调剂，若是这样会不会有被退档的可能？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，平行志愿中还分第一、第二等志愿吗？是不是同一批次的平行志愿都是第一志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学提前批小语种有分数级差吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！化学系录取的最低分数线是多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题。如可能录取，请告知填报什么专业？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一模海淀614分540名、二模641分有报考希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大专业级差是多少？1/2/3专业之间各是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+取得全国信息技术银牌可以被报送贵校吗？如何进行申报和投递自荐书？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,提前批小语种录取时是按实考分还是包含加分?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!提前批录取结果是在提前批录取后就知道还是要等一批录取完才知道,这中间有几天的时间间隔啊.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问普通二本学生要具备什么条件才能上贵校的研究升？（客观条件）
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+总分651，在全省排名120-140，报考该校有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问贵校有哪些学校有推荐攻读硕士学位的免试权。作为我报考的参考
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的政审合格是什么意思？请通俗点．
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校转专业的要求和时间各是什么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类包括哪些专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问退档=？（通俗点）
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同题目
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+眼睛矫正到4.8，镜片度数超过1000度，请问可以报考贵校的医学类专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大英语系就业率怎样？就业方向如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在川招办电话，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果由于填服从到自己不喜欢的专业，以后可以换专业的吗？，还有，可以读双专业吗，自己随便选的还是有范围的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在拨打过程中一但拨完188就会提示换号
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+刚查出分，麻烦您给我贵校招生人员在青岛地区的联系方式
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批没被录取，会影响一本录取吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问学校一般什么比例提档,如果被提档且服从调剂被退档的危险性高么?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在志愿填报上看到了有北大医学部和北大是分开的，想问下如果到了北大后想转到医学部去可以么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批的定向生是什么意思?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师平行志愿中的A,B,C,D志愿都有6个专业填写,是按顺序依次录取吗?就是上投档线之后第1专业没有录取就转到第2专业,然后依次类推吗?还有调剂专业需要填多少个?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题，有没有限制女生人数的专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是否有专业需要口试？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大医学部的录取分数是否比北大分数低？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的分数为７２１名次１８３。上北大有没有希望？服从专业调
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+往届生报考贵校有限制吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是广东考生。请问转专业中的学习绩点是什么？上限为多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招生网上公布的分专业录取分数是否包含政策性加分，还是实考分？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是广东考生。请问贵校对于申请转专业的学生有什么成绩排名的限制？转的专业是否可任意选？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问若服从调剂还会否退档
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分为395,请问能否报考北大?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+入学后调专业的难度有多大？比如比例大约是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，请问北大的历史专业有降分录取政策吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好：北大医学部招生是不是和北大一起招分数线是否也一样
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问自主招生的录取线会不会略低于投档线
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+保送生还用报志愿吗？如果没有报志愿能否影响改专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问我想报考贵校，是否必须填满所有6个专业，可以不填满吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，录取到贵校是否需要转户口？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有师范类专业吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+虽然每个都很强不过我想咨询一下各个专业以及出路
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我有个困惑的问题希望老师能帮我解决一下,谢谢.如果我第一志愿第一专业填了你校某专业,但被刷下来了,同时我又填了另一专业,但有人第一志愿第一专业就填了该专业,但我的分数比较高,这种情况下你小会录取谁?谢谢.
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+保送生，自主招生，这些人是否划在了招生计划内？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：省招办的照顾政策中降分投档的，贵校在提档时分数如何计算？是按高考实际分数提档吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有级差分？以什么标准？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+通过自主招生享受加分政策的考生，占本省名额吗？录取时是不是按照加分后的成绩排名选专业？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，贵校在加分政策中有对“省级三好学生”加分项，但我省只对“省级优秀学生”加分，那么对报考贵校的“省级三好学生”，贵校是否给予加分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪里可以找到北大历年各专业的录取分数线？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学是否允许在京的其它高校学生在北大修学北大的专业课程？如果可以，可否获得北大的专业学位证？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分326，能否考上贵校？急……………………………………………………………………
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+内容：请北大老师解释一下与准考证号是一回事吗?高考考生編號是准考证下面的条形码对吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，，请问:如果被贵校提档,且服从专业调剂,有退档危险吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果实际高考分（不含加分）在投档线左右，被退档的可能性是否很大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业比较好就业且报考录取率高？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对双学位选修的专业有何限制?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+665能保证经济专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+化工类是北大比清华好吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+经济类就业后薪金怎样
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学经济是不是有门路才好就业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+经济类毕业的就业情况是什么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我已报北大经济系，但不知毕业后的就业情况；您能介绍吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+清华大学主要的主打专业是什么？什么专业可以很容易的找到工作？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校招收国防生有什么身体条件方面的限制吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+08我校三表联合办学最低分数线多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学习什么专业比较好
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问通过贵校自主招生加分的考生填报志愿选北大是在提前批还是第一批
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批进的能转专业吗，我们这是定向的
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在提前批这近几年的录取分数是
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+民考汉计划专业录取时是按实考分还是总分录取，有没有专业级差？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+要是估分６２０分有希望填你们学样吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有提前批专业吗，有哪些，与第一批有什么区别？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，北大录取时有专业级差吗？如果有，是多少？另外，专业调剂是在各省招生计划所列专业范围内调剂还是在贵校全部招生专业范围内调剂？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好,我想学习制药专业,但发现贵校好象没有此专业,请问相关专业是什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+分数级差与调档比例是什么概念
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问平行志愿与第一志愿的关系
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好，请问若加上少数民族加分超过其他学生，但选择同一专业时，是否不考虑加分，直接录取其他？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+补报自愿的条件
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+近两年历史学类就业率多少
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些专业提前批抱？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问色盲色弱限报哪些专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果报考了一个院校并且被录取，但是我想复读不去报到。那我能参加2010高考吗？还是不去报到不可以？再有就是：2010高考关于复读生有什么限制或是政策？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+医学部学生与本校学生有何区别对待？医学部学生能否到本部教学楼听课？挨得近否？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是宝鸡中学的，估分651，有被贵校录取的希望吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+社会类的认证请咨询相关部门。请问是哪些部门谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题，报考贵校国关学院有无身高要求？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果被调到自己不喜欢的专业去了，是否可以调到自己喜欢的专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下，贵校的学校代码是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，如果我高处重本线七十分，报北医有望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校考古专业的就业前景与实践程度？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是不是提档以后再看专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有少数民族加分,贵校认可吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：如果填报的是不报不录专业，以后可以转专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在川招生组的联系方式何时公布?公布方式?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+09高考估分637，有无录取希望？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估641可以报考贵校吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校植物学招生有无特殊要求?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，自主加分对国防生录取有效吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北京大学那些学生万柳公寓居住？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学校公布了招生计划总数及分省市区的招生计划，实际在录取时，自主招生没上提档线的不占计划指标，但这些录取数量是否也有计划限制，是否服从调剂都能录取，入学后是否可以转专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师报考小语种后。能否转入其他专业。什么时候能转。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师不报不录的专业是什么意思
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+2009电子信科类全国招生人数是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+已取得北大校本部保送资格，参加高考报志愿可以报北大医学部吗？还有被北大医学部录取的机会吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校最好的专业及最好就业的专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：请问元培学院是单独的学院吗？都开些什么课程？网上查不到。谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问若第一志愿为北大未录，第二志愿为北大医学部，若我达到了医学部在我省的分数，是否能把我与第一志愿报医学部的人同等录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占不占招生计划？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+医学部校本部待遇相同吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校章程规定：自主招生候选人的分数（实考分加自主招生加分）原则上应达到北大在该省份的录取线，否则予以退档。，“原则上”，是否意味个别在自主招生时表现优异的学生，实考分加自主优惠分离高考录取线稍有差距，还有被录取的希望？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能源与资源工程系是否就是清华的热能系。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好；请问其他高校可以到贵校学习第二学位吗？以前听说有，具体要求什么条件？什么专业？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+弱视专业录取有限制吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问朝阳区一模554分,二模602.5,报咱们学校有没有希望,报什么专业合适.谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，你好。专业本身有没有级差顺序？是否任意一个专业做第一专业，然后任意一个专业减去相应的级差分，作为第二、第三专业？，一批次和二批次之间有没有级差？级差是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生对视力有要求吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生内容是什么高中生除了高考自主招生还有什么途径可上北大上大学
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问高中生除了高考还有什么途经上北大上大学
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同一院校可报四个专业吗？平行志愿如何能报的准确些？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+服从专业调剂,进档后退档吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自招考生是否占用本省的招生计划
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是不是分数虽然达到了，但因为计划招生名额有限制，要从高到低进行录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果通过了自主招生考试，高考裸分达到了提档线，对专业录取时是否有优惠
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果考上清大,要迁户口过来吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，北大医学部二本的专业入学后可以转本部的非医专业吗？有什么条件要求？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好，报考小语种承认政策加分吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有预科班吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好！实行平行志愿省份，自主招生在提前批录取。一批普通高考生与提前批自主招生考生，在专业录取时是依据分数共同排队录取，还是分普通高考生与自主招生考生两类分别录取？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+小语种如何录取？提挡比例是多少?退不退挡?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果高考分数超过本省一本线,是不是填报两份志愿:一份一本院校、一份二本院校？因为一批、二批是同时填报志愿的，万一一本院校落选了，岂不是错过了填报二本院校的时间吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在阳光高考公示平台上公示的高水平运动员高考成绩达到规定分数就会录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我儿子在西工大附中，5次模考在前60名，3次较差，请问老师敢不敢报贵校？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的女儿想学习财经专业，不知道贵校怎么样，能有出国的机会吗，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，已在北京体育局上公示的二级运动员的加分北大承认吗？，谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:学生物专业毕业后好就业吗?哪个学校的生物专业强?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+尽管这个问题不好回答,还是请老师给预估一下,一直徘徊在这两个大学之间,拿不定主意.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问能否大学课程提前修完？如果可以要怎么做？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+小语种也有调剂吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是一名有保送资格的考生（未报送），请问老师如果通过加分后被贵校提档，在选则专业时是按什么成绩录取？如果服从调剂，还存在退档吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问，1.已经被贵校拟录取的高水平运动员，高考成绩要达到当地二本线以上，请问该分数是否包含政策性加分，还是仅指高考实际考分？，2.学校录取高水平运动员时，是否按考生填报的专业录取？，感谢答复!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1）专业级差是多少？，2）招剂专业是否只限于本省计划中的专业？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,体育特长生北大要求达到当地的二本线,请问,达到二本线的成绩含政策性加分吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想请教老师章程第十三条“在第一志愿生源不足的情况下，北京大学接收非第一志愿考生”这条款的适用对象，象本省实行平行志愿的省份是否也得适用此条款？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好！请问：普通高考生与获自主招生资格考生，在专业录取时是依据分数共同排队录取，还是分普通高考生与自主招生考生两类分别录取？普通高考生与获自主招生资格考生之间是否存在专业竞争？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我省是实行平行志愿的省份，我想问的是：贵校招生工作条例“如果清华大学调档分数线上第一志愿报考人数少于招生计划名额，学校接收非第一志愿考生”是不是适用我省的平行志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：假如被提档后，由于分数原因，专业需求得不到满足，先服从调剂，以后是否有机会根据个人志向改变专业？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+648+20（体育）报考贵校有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问具有自主招生考生资格的生源（学生）是否还占用普通计划招生名额？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我爸说国内的大学随便我挑。，我挑来挑去还是觉得北大好。，我家什么都没有，就是有钱。，300多得交多少钱？，我也知道你说不好，您给我个电话咱私聊吧。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北京大学有没有插班生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+670报考贵校医学院可以吗，能选专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校老师回答能否被录取的依据是什么？是根据咨询人数还是根据已经确定报考的人数来回答的呢？是不是到各地的老师在咨询时填上报考表就表示被录取了呢，还要经过入微机一起参加全国录取吗？这其中还有很多没有咨询的人呢，最后的录取分数是不是还不一定，谢谢老师回答！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想咨询一下，志愿专业间的级差是什么情况，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取后可以重选专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+艺术设计综合分是510被录取的机会比较大还是很大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+电话始终打不通，158打通了但叫与137联系，137始终打不通，挺着急，怎么办？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，语言类专业的招生与其他专业的招生是否不同？具体情况是怎样的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大的热门专业是哪些呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在贵校转专业是否困难?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好~！我想知道贵校是否将少数民族加分视为录取分？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是民族预科班，我是汉族能上民族预科班吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！我在上面的留言中看到，有老师说可以去北大旁听，请问去旁听有什么条件？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+695分报贵校哪些专业好呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收由师范院校考进贵校的研究生？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+咨询
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否接收其他高校第一学位的学生报考贵校的二学位？有什么具体规定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想请问一下,进贵校就读后能否换更适合自己的专业?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若一本第二志愿报贵校，是否会降分录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的保送生和自主招生是否会占用计划数
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果不服从调剂怎么办呢？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有自考招生吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+转专业容易吗?比例是多少?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录入中的志愿填报一栏要填什么？还有6A加分算不算政策加分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的语言类是研究型还是实用型？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问本校的投档何况录取原则具体是什么，是分专业投档好是按照总分，另外专业服从调剂是否可能调到一些根本不相关的专业。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+元培计划实验班如何单独招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,北大的网站提供了网上交谈吗??我能通过什么网上的什么方式才能与众老师沟通呢???
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问以前的会考考试成绩好坏与该高校录取有什么直接连系吗??
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大在正式录取前会预估录取分数线吗？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+可不可以
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批次的具体录取时间
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您觉得物流专业有前景吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵学校有金融、经济辅修学位吗?谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,请问艺术特长生知道分数后是主动与北大联系还是到时候北大会主动联系我并协商志愿问题.另外北大招生网上"自主招生,保送生,特长生录入成绩"系统的截止时间是好久?谢谢!!!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大的校园主页是什么??
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的录取方式是从高分到低分录取还是怎么样呢？？支持加分吗》？》谢谢~！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我听说贵校自主招生政策中,有2种不同的降分投档优惠,而且还有加分选专业的优惠。并且已获自主招生资格的同学很多，这会不会影响到没参加自主招生考试的高分同学的志愿填报。请老师解释，谢谢！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问少数民族降分会优先考虑吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+凡是未标明色弱限报专业色弱者均可报吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生占本省招生计划吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部的医学英语专业，学生毕业后可以考执业医师证吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果填了服从调剂会不会被不服从且分比自己低的同学挤出该专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大老师，在贵校如要转专业，按规定什么时候能转？需要什么条件？如转了，所到的新专业未学的课程怎么补？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学医学好出国吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的考了没300该上什么学校？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+589能考上贵校吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我是复习生。请问如果我进入贵校机械专业，在大学期间是否有机会加入国防生队伍！或者毕业后贵校是否有部队来学校招收大学生？请解释一下，不甚感激！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问你校国防生是培养哪个军种的？空军。陆军。还是海军！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+关于转专业、第二学位、分数级差咨询？，1、录取后是否可以转专业，若可以有何条件？，2、哪些专业可以作为第二学位，学习第二学位有哪些条件？，3、专业间的分数级差是多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+假设贵校按1:1.2提档,我的分数超过了贵校提档线,政审合格\体检合格并且专业服从调剂,还是有可能未被录取吗?为什么有人说可以零风险填报?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的双学位制具体如何操作?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不好意思，我对贵校对具备自主招生资格的同学的录取程序不太清楚，这些同学为什么不会影响到高考统招名额？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问通过转专业考试的难度如何?名额是否有所限制?申请从A专业调到B专业,是否是在B专业有同学要求退出的情况下才能提出申请?是否需要交纳一定费用?谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我想咨询一下,贵校是否有高分二视一的政策
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大第一批中的英语专业与小语种是供高考第一批正常报名的，还是属于已经单独录取的名额？我们未经参加小语种单独提前考试的能填报吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校元培班在高年级选专业依据什么条件分配指标名额？是否都能满足所有学生的志向？谢谢老师回答！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校有哪些可以辅修的双学位学士专业，有什么条件限制吗？谢谢老师回答！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+政史基本要求?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大能否学双学历（位）？要什么条件？是否能转专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问政审和体检合格，分数超过提档线，只要服从调剂提档了是否一定能录取？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有二级学院马如果有怎么收费都有哪些专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，能简单介绍一下环境学院有关信息吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自主生能否考虑报考本省计划中没有的专业？转专业的话，须具备什么条件？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自主招生录取人数多于报考指导公布的计划数的话，专业名额如何分配？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的回答，小生在填报时会慎重考虑
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，自主招生的专业是否都在省里报考指导公布的专业中选择？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师我已看到了答复，非常感谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：请问服从调剂提档了是否一定能录取？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+双A+加么?加多少?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好,请问1.艺术特长生入学后可否转专业,以及是否还有其他专业选择限制?，2.在选择专业时参考高考原始分还是降分后的分数?，3.录取后是否具有与其他考生相同的权利和自由?，十分感谢!!!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我可以保证两门选修双A+,必修我都是A,语数外成绩也很好,高考发挥也很好,报考北大有多大把握
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否为零表?，若报考贵校是否影响对一表的录取?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果达到贵校提挡线,退档的可能有多大?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在北大第一批计划中的英语专业与小语种，是供第一批报填的志愿，还是属于已通过小语种测试的提前计划？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是否愿意录取第二志愿考生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如何淘汰多出20%的提档考生？按100：120提档后，学院是按什么规则淘汰多出提档20％。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是不是分数很低的学生就一定与贵校无缘？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+630敢不敢报？一本线在515—520之间
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若在贵校学习一段时间后发现所学专业并不适合自己，能否调专业？有什么条件？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+入藏定向就业是怎么一回事？入藏就业学习的专业只仅仅是教师吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若对被录取的专业不合考生意向，是否可以专业调剂？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同标题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+复读生能否报？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大的分数线会不会和省市的一本线保持同样的涨落呢？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想知道志愿表是怎样的格式，每个志愿可以报几个院校,几个专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有无希望报考贵校，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，自主招生通过，录取时是按照自主招生志愿还是高考时的填报志愿，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的优惠政策是什么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问成绩在中上游的女生在贵校适合何种专业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+呢?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批国防生录取/体健，和正常一批录取时间上是否冲突？，报考其他院校的提前批国防生，被录取后，体健未通过的，是否可以继续享受自主招生优惠政策？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问本校自主招生名额，符合什么条件就能被录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢.第一批可报哪类学校？第一批不是一本吧？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+为什么北大每年实际录取的人数要比招生计划的人数多好多。这种现象在名校尤其突出。北大实际录取人数甚至是计划的两倍。是什么因素导致实际录取人数多？是不是高分考生多？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+第一批录取与第一志愿于什么区别？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我了解到，只有第二志愿可以报几个学校，不知第一志愿是否也可以报两个以上学校？请解答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我如果报了清华没被录取,又报北大能录取吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大医学类是原哪个学校合并而来的?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校医学部的本硕连读专业是否实行淘汰制？另外，报考贵校医学部与校本部学生待遇相同吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校如何看待市优秀学生的加分，是在提挡时加分,专业录取时看实考分数;还是专业录取也看加分后分数?，谢谢
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次院校的具体情况？提前批次院校与其他院校有何区别？该如何填报？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问小语种可以转专业么？在北大修双学位现实么，是否太累？有出国交流机会么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+医学部的专业学生在北大上几年？学什么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是高二的，请问贵校自主招生在外国语有限制名额吗还是根据推荐的优秀生比例确定
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是高二的，我校有提录计划，但不知时间、专业和是否要参加高考
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问小语种可以修第二学位吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问法律专业和新闻传播专业本科毕业后出国深造容易吗(相对金融和国关等专业)?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考古系多少分
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+为什么慢呢？是北大的工作作风吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学信卡上哪买
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若考生按北京大学在各省设点老师辅导的要求填报志愿，北京大学是否一定录取。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+按高考成绩排名填报志愿比较好掌握，但是，无法估计到各类加分的考生人数是多少，这样也就无法准确地知道自己确切的排名，以至就不能知道自己是否能被录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批小语种有专业级差吗?承认加分吗?进专业还考虑加分因素吗?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校入校后转专业条件是什么?，2.贵校是否有本硕连读专业?是否有2+2或3+1等培养模式。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批小语种加试的时间、地点？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一些名牌大学或名牌大学的某些专业在提前批录取,咋规定的?计划咋标注,怎样才能看出来?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考提前批小语种，分数很高是否可以退出，参加一批录取
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！小孩怕学医，请问如果服从调剂，是否会调剂到医科专业？谢谢答复！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好:如果够了二志愿的A的分数，且A校又有没录满的专业，但是我的５个专业都不是它没录满的专业，是否我也会被A校提档?，如果不服从分配就会死档？只能参加补录？那我已经填了不服从调剂为什么还要提我的档呢?这样是不是平行志愿只能都要服从专业调剂了？我觉得平行志愿比以前风险还大，要不就是调到不喜欢的专业，要不就是死档?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+攻读双学位或辅修第二专业学位时,第二专业的收费怎么样计算?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校一本的学院和三本的学院如何区别
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的自主招生录取了1022人，他们都是很优秀的。对不起，我太想知道1022人中大约会有多少人能用到这自主招生？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想报考国防生同时也想报考军校，这有什么问题吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的自主招生录取了1022人，他们都是很优秀的。1、这1022人是要占北大总的计划人数的，是否减少了再其他省份的计划？2、他们中会有多少人能最终走进北大？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,对于因视力等原因,考生不宜报考专业,如考生想报考,贵校有何规定,如考生分数够,贵校是否会拒绝录取不宜报考的考生.
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果我第一志愿填报北大，第二志愿填报北外，如果北大不要，北外能在第一时间得到档案吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好老师:贵校小三阳(肝功正常)的本科毕业生.能到中学或大学任教吗?有过成功例子否?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考入北大元培班后，如果对艺术学感兴趣，可否将艺术学作为专业来读？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+本科二批的两专业，有硕士学位点吗？有机会读研吗？机会有多大？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批有专业级差吗？如果有，是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问调剂时是否会和考生商量专业？调剂时，是按考生的实考分还是按扣除专业级差后的分数排好序后再一个一个进行调剂？会不会没有顺序，先联系到哪位考生就先征求其意见调序？如果没有联系上会不会退档？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次获录取的考生是否占用计划？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+由于体检时过于紧张，血压偏高（90/160）父母及近亲属均无高血压病症，如高考时分数达到，能否被提档
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果专业志愿服从调剂，调剂到自己不喜欢的专业，到学校后能否转专业？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+双学士学位或辅修第二专业学位,收费怎么计算?是一个学位的双倍吗?能在同一个四年内同时毕业吗?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如服从专业调剂，按什么原则分配专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：乙肝大三阳是否能录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：我有政策加分，刚达到贵校调档线。贵校按实考分录取时，我的分数不高，但我服从专业调剂，是否会退档？如果录取，是否会学医？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一个傻问题，但是老困惑我这个家长。孩子在丰台区考试成绩长期处在2-5名，上北大有希望吗？什么专业有希望？我是否该选其他学校，能上一些“热门”专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：贵校小语种学制几年？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若将北大列为A,被贵校提档，但分数低，在服从志愿被录取时，会否被分配到合并后的分校？若考生不愿意，退档后是否已影响其他学校录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校对于实行平行自愿招生的省份，投档比例是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+就读贵校的外国语学院或专业时;能否再同时攻读另一个专业的学士学位.谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有外国语学院或专业吗?如有那毕业时能从事中学或大学的外语教学吗?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问两个问题:1.贵校录取时,是否考虑包含体育特长加分在内?2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!请问两个问题:1.贵校录取时,是否考虑包含体育特长加分在内?2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的关于自主招生的问题为何没有解释呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问只要拿到两个或两个以上的省级一等奖能被保送的可能性有多大？，保送生是否完全不用参加高考？，保送生的专业是怎么定的？是否还能调整？，保送生在各地区有没有名额分配的限制？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想问一下,高考英语听力成绩对报考非外语专业有没有影响?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生招多少名？若加50分考生考多少分能录取？如果填报小语种被录取，第一志原还能录取吧？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果提前批被录取,入学后能有机会转专业吗?大概在入学后几个学期?机率是什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考医学院本硕博连读，授课地点均在北医吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+艺术特长生选专业有无限制?有什么原则?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校提前批小语种专业如被录取，是否征求本人意见？谢谢！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，定向生的录取是否需要事先与哪些单位签约协议?是否直接填写志愿?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问在入学后是否能申请转专业，具体有何规定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+除限报专业外,北大录取有乙肝表面抗原阳性(小三阳)但肝功能正常的考生吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问提前批小语种是直接填志愿报名吗？还有什么其他手续吗？还要口试吗？除去走提前批报名，与正常北大其他专业报考有区别吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取过程中,一旦被北大提挡,考生又服从专业自愿分配,那么退挡的可能性还有么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问两个问题:，1.贵校录取时,是否考虑包含省优干加分在内?，2.如果报考贵校某一专业,比如生物专业,是该专业分数否有特别要求?，谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是否可以公布出来
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业学量子力学？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，英语专业在我省没有计划,我想通过进元培班进学校后一开始就直接读英语专业可以吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪些专业要学量子力学
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，读元培班可以选择英语专业吗,请肯定回答.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有大专吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不愧是北大名校，耐心细致的解答每个问题。不象其他学校解答问题很不耐烦，谢谢您们北大的老师。愿您们健康快乐。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我很向往北大.我的分数加会考847.1分,是否有希望上北大?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+好多专业都只有一个名额，万一有两三人一起报怎么办，会掉下来吗？服从调剂的话，调剂的原则？谢谢老师。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+元培实验班如何招生，招生计划上都没有阿
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+大一和大二的学生不在校本部上课么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想问一下北大医学部可以转专业吗？可以转到本校的专业去吗？如果可以，难度有多大？谢谢回答，急！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大校本部有开设医学专业的吗?学医是不是一定要报北大医学部
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请介绍一下贵校地质基地班，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问经济大类在专业分流时是按自己的志愿分流,还是根据成绩分流,6个分流方向人数必须平均吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+695怎样
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问什么叫二视一？虽然听学校老师讲过了，但还是不太清楚，可否请老师您详细具体的讲一下
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+???????ж????????????У?????????????????????????????????????????????
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂和专业调配有什么不同？一般是随便调还是调到与所报专业有一定联系的专业呢？是否自己选择所调去的专业？谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问一下老师，专业调配是什么意思？一般来说报考贵校的考生大部分是否选择专业调配？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！如报考医学部志愿未被录取服从调剂能否被退档？若调剂是否在医学部调剂。谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+社会考生能否有机会参加全国普通高考，然后考上北大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！，学校网上有宣传片吗？如果有，网址？在那里可以查的到？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+多少分以上建议报考?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问报志愿时第二志愿是否有必要比第一志愿学校劣一等？，第二志愿报名牌大学被录取的可能性多大？，报志愿是第一第二第三专业第一专业不录二三专业录取时是否要减分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我提前批报了清华国防生，如果提前批上线，不去参加参加体检，是不是意味着放弃了提前批录取？放弃了话，对填第一志愿有没有影响
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：复读生与应届生录取有分数区别吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生总人数不超过招生总人数的5%.是只在本省还是全国?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+参加自主招生加分在选择专业时还有效吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大医学院的分数是不是比北大的分数线低？谢谢。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高考分数594,全省排名31,请问包贵校有把握吗?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+别的大学的同学，能否到贵校听课呢？用听课证吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+非常感谢北大老师快速而耐心的回答！是阳光信息做得最好的学校！，名校就是名校！什么地方给人的影象都好！分数低的同学询问也不会讥讽不答！给了同学尊重！这是我特别欣赏的地方！相信有优秀北大老师的努力定会培养出好学生！当然这也不算什么问题，只是想感谢北大老师！，谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+可以上那里？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+很感谢您如此迅速的回复我的提问，我是通辽的考生，应如何与贵校招生教师联系呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我靠了656，有10加分，总分666，想报北大医学部，能进医学英语吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+其他院校保送北大研究生需要具备什么条件?每年有多少名额?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校研究生出国率是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.是不是自主招生的考生用加分后成绩与其他应届生用同样标准进行专业录取？有分数差别吗？，，2.自主招生专业录取有级差吗？，，3.自主招生退档比例如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+665可否进贵校?能就读什么专业?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学类具体包括那些专业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+682上贵校希望大吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问是否有生物功能材料专业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：填报志愿时，医学部的专业与北大校本部的其他专业是作为一个学校下的不同专业填报，还是要作为两个学校填报？对录取有何影响？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+据说你校有一所民办高校，主要教职工是你校退休老师，不知是否有此事，若有他们是怎样招生的。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问小语种的就业出路怎样呢？请老师给一点具体的回答，谢谢啦！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果我的高考实际分数并未达到我报的学校的录取分数线，可是我又有十分的加分，而加上这十分后，又超过了该分数线，那么，我能被录取么？是不是如果这样，服从调剂会好一些呢？？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校哪些专业的报考要考口语？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问“服从调剂”是否是指不管达到多高的分数，学校安排的专业只能服从？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考北大医学部并服从调配，有无可能调到北大本部其它专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问学校校歌是什么？，歌词是？能否在学校网站找到下载或试听？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师一色弱考生报考贵校微电子与固体电子学方面的专业是否有限制，是否会影响到专业学习？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，民族加分在北大提档时有用吗？在专业录取时有用吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！，如果被提档，但我的投档成绩是实考成绩+政策性加分，虽高于贵校在我省的最低录取分数，而实考成绩低于最低录取分数，服从专业调剂，政审，体检合格，是否被录取？如果退档，请问依据是什么？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+教师你好！，北大的“基地班”是怎么回事？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否录取乙肝表面抗原阳性，但是肝功能正常的考生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我准备报北大法学专业，但听说以后研究生考试要考数学，是真的吗？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+假如，我说假如，有一考生一志愿复旦，二志愿北大。北大是不是有优先录取权？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:北大医学部也不限复读生吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能否介绍一下贵校级差
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否对复读升有限制
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您辛苦了!请问每年保送北大的学生专业是如何选择的?是可以任选吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问高一新生能否带手提？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好!，请问北大的国防生体检要参加省内统一体检吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估了685，报考有多大希望？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问在校本科生出国率多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请老师看看我前几天发送到招办电子邮箱的求助信好吗？，看完后麻烦老师回复行吗？，谢谢老师！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，请问北大定向生提前批需要参加专门的面试或体检吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生怎么回事
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好！，能否在学校网站上查询到被学校录取为研究生的学生的相关各科成绩？，如可以，网址是？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+675分上上海交大的基地试验班有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能与您联系上吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+670分上清华有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+该专业如何收费，有导游证吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问若被贵校录取,是否在大一就可转专业?有没有特别的要求?如果读双学位有什么限制吗?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问土木工程系与建筑工程系要学画画不?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好!请问一下,北大国防生的视力要求是多少,还有其他特殊要求吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校近几年国防录取分数线？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估了662，行吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分在665－670能否被入取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部的学位。是由北大发吗？还是直接以北大医学部的名义发。北，医在同行中能排第几？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，我的两眼视力符合体检要求，两眼矫正度数正好是200度，请问北医能录取吗？因为北医的体检要求是“两眼矫正视力>200度”者不予录取。另外，我担心录取后新生体检万一矫正视力>200度，会不会退档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+?????????????7?663??????У????ж??
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大能上吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师贵校一表和二表有相同的专业，请问有什么不同？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师我估分655报考北大有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+那你们体检的人数怎么确定？与招生计划的比例？如果体检合格，录取的可能性有多大？你们会不会考虑多收（体检合格人数较多）？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果被提档，还会不会退档？你们的国防生是先提档还是先体检？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+gfkgk
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如何知道是否提档、退档？退档原因？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问地球与空间科学专业毕业生去向如何?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,我估分660,可以报北京大学么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提招加分的占招生名额吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校设不设专业级差?如果有,一般在几分左右?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校国防生的录取分数和本部比哪个高?能给个大致分数吗??
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！，请问加分在分专业时有用吗？，分专业时分去掉吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好估分660-670想上贵校的计算机信息类专业不想调剂，可能性有多大？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有转科吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学院是不可以转系
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生是否必须为应届毕业生？谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，650有希望吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎么找各学校专业分数，本网站上不会找，麻烦老师详细点
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在商丘的咨询老师的联系方式谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估分665-670能否上北大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部的招生名额算在北大的名额中吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大有双学位吗，有本硕连读吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我孩子估分640分，能否上北邮？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，贵校是否会有照顾山区学生．
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师保送生占当地招生计划吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+几点下啊？？/
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校退档时加分是否记入竞赛加分
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+brdhbweg
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+nishi
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:艺术特长生的考生是怎样录取?是通过加分达到省重线就录取还是高考分要达到省重线才能录取?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在选择专业是是否记入竞赛加分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是对口招生?有关对口招生的所有信息
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+a
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好我估分675能否报考贵校，另外我想问一下，你校什么专业对乙肝表面抗源阳性有限制（转氨酶正常），谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估分665,报生物有希望吗,是不是报化学会比较保险一点?，愿意服从专业调剂,但是可不可以提前申明不去物理系?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估分620身体状况左眼视力0.02度右眼屈光度550度.问:能否报贵校.，那些专业被限报.谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我考了660上北大有喜望吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校转专业要求严格吗？，有什么特殊要求吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵学校有精算专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同标题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+test
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校公布的招生计划中是否含保送生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+医学部有无中西医或中医专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+进入北京大学后，如果想转专业，应具备什么条件？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对于乙肝大三阳但肝功能正常的学生是否录取，在选择专业上有什么限制？谢谢！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对于乙肝大三阳但肝功能正常学生是否正常招生，对此类学生招收时有什么专业限制？希望得到您的答复！！谢谢！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+计划内指标是否自主招生人数
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校最低录取分数线是否含政策性加分？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高考后与贵校招生组老师联系，老师是否能明确答应录取情况？贵校按录取计划的120%提档，是否有退档情况？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问三个平行志愿具体如何操作
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+该大学的重点学科及各学科在国内各大学中的位次.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对具有身高优势的学生是否有点优惠条件？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好：，请问贵校在实施录取时，第一次提档过程中，录取不足的情况下，我们是将分数下降进行提取，还是从第二志愿中依高往低走的办法进行。请予以答复
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:自主招生资格生上了贵校提档线后,是不是要加分选择专业?也就是说要占用招生计划?那么,对于其他没有加分优惠的上档考生就存在很大威胁:谁知道有多少上档自主招生资格生啊!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+多少分能报考贵校
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问八年制本博连续招往届生吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一理科生想学汽车设计,请问应该报什么专业?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：贵校近几年在甘肃各专业的录取分是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题。谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果考生的投档成绩（高考成绩+政策性加分）不低于贵校在我省的最低录取分数线，而高考成绩低于最低录取分数线，服从专业调剂，政审,体检合格，请问能否被贵校录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好!，如果我的成绩同时够提前批和第一批,那我还有可能被第一批录取吗?，谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+尊敬的老师您好，您在百忙当中还打扰，真是有些不好意思！，我儿子学习很好，一直致力于要考贵校。能进入贵校这样有名的大学读书，当然是孩子和我们的福气。但是我们还是生怕报志愿没报好而落榜，因为有好几个专业名词我们都不太懂，因此想请教老师，希望给予回答：，1、什么叫录取批次？录取批次的设置？投档办法及录取程序？分数级差？，2、什么叫加分或降分投档考生？对进档考生的专业安排办法？，谢谢老师！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有没有按非艺术类招生的新媒体专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大在提前批的小语种是招国防生还是普通考生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！请问北大自主生是一批次录取，那么提前批是不是让其空白，不用填报。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术特长生的专业志愿如何填报？专业选择是否与考生所在地的招生计划相同？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：北大在校生是否实行末位淘汰？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果某省的一名复读生和一名应届生考分相同，都够贵校某专业的分数线，如果在只能选其一的情况下，您会录哪一个？谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问如果某省的一名复读生和一名应届生考分相同，都够贵校某专业的分数线，如果在只能选其一的情况下，您会录哪一个？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校有小语种和对外汉语专业吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有医学类国防生么？医学类国防生对视力有特别要求么？就业方向是什么？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好:我腿后侧有面积比较大的烫伤疤,想考北大的国防生,请问体检能合格吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好：北大小语种何时通知被录取。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！请问贵校医学部是否不收往届生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是一位特长生,我想找个有书法系的院校!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有人介绍说这里有书法系我想确实一下!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取分数线是多少
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问保送生的录取通知书什么时候寄出?有个具体时间没有?是按照中学地址邮寄?还是按照家庭地址邮寄?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+按这个平台的志愿填报系统发现位次不能考上贵校，但我的模考分数又超出不少，能报考吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢了.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问提前批的录取分数是要达到贵校本科一批的录取分数吗？还是更高。谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好!请问如果对某专业很感兴趣,就将该专业为第一志愿,而不用考虑志愿梯度问题吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,贵校大一可以使用电脑吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好,请问,北大、清华的保送生和自主招生名额是否包含在公开的招生计划内？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生有关政策及报名条件
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在报考时，怎么知道哪个专业的分数高低
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:贵校在提档及录取专业时对不同的加分,是如何对待的?具体有哪些规定?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考生录取到其他专业,可修信息科学的双学位吗?有什么条件?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对贫困生有何政策
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考生有电子方面二级运动员证书,在录取到相关电子专业时,可有照顾或优先?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+优秀学生加分。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，假如我填了提前批录取学校且被录取了，但我第一志愿填报的北大，如上了北大的招生分数，我想放弃提前批录取读北大，北大是否还收我？，提前批录取前是否征求意见？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+附加分在录取时起作用吗？与原始分一样看待吗？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问大本上小语种的分数是否也带加分
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在分专业的时候只考虑考生的实际高考分数，如果我靠加分才够贵校录取分，我在服从分配的前提下，就类似于补缺状态，这样的话，我被退档的可能性就非常大了？加分的意义就很小，是这样吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么时间填报志愿
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好老师:，，我是应届毕业生家长,上国防生毕业后必须在部队吗?多长时间可以调转,录取了不去可以吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有希望吗？希望老师提供意见！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师网上补报志愿要遵从哪些原则,有何注意事项?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问在北大学园里是否有一所“北大资源学院”，它是不是国家承认的学历。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，如果我在本科一批的第一志愿报贵校，且学校服从调剂，一旦未被贵校录取，那么，我将被调剂到什么学校？？？会不会调到更好的学校，或更差的，希望老师一定回答！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！，我的总分是657，报考了贵校，请问能被录取吗（专业服从调剂）？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问法学院的地址及交通路线?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我已获得北大自主招生资格，如被北大录取，通知书是寄往高中毕业学校，还是寄往高考报名表上填写的地址
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+调专业的比例有多大.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+工学类好吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在大一下期和大二下期能调专业吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问平行一志愿会不会与第一志愿抢录,谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大对复读生有无限制
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+656分报北大医学部能录取吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大国际关系学院的毕业生主要到哪里工作
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+非常感谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，贵校对于转专业的政策是怎样的？入学后多久可以申请转专业？有什么要求？院系之间的转调有限制吗？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，录取时考生的专业调剂服从怎样的原则？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问651分报人大的什么专业把握较大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的分数两所学校都能上,但可能达不到我想学的专业.我可不可以在第一志愿里先填北大,再填清华,如果实在专业不行,被退档,还是能被清华录取?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果要报考贵校,那怎么样查询贵校的专业代码呢?(填志愿的时候)不知道怎么办???
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果被你校录取可不可以不转户口？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+试验班学什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+670+20参与专业录取么?各个专业级差大概是多少呢?，谢谢您
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，我的分数怎么样？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的总成绩是354，能否被贵校录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能否读贵校？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+特殊录取需要什么条件?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校地质基地班培养方向？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大录取是否应往届一样对待?请问老师高校肄业生又参加高考报北大可以录取么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的一个同学考了688报北大还是清华好呢，他不懂报哪个学校你说他该报哪个好呢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+刚好在本一线的我想报北京大学???，好象很渺茫?或者根本不可能????，但是我不会放弃的,，坚持就是胜利,，没关系??哈哈哈哈哈哈，仰天大笑出门去,我辈岂是蓬蒿人.，天生我才必有用,千金散尽还复来.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+632可以上贵校吗，？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+急需解答,谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取新生何时报到？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，北大医学部二本您估计在多少分，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考志愿时同一院校的几个专业之间有无顺序
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+本部和医学部调档线是否一致
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少~~？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部收分和地质收分哪个更高
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师学校每年的分数是怎么划出来的为什么达线人数会远远高出计划人数呢是不是其中人多人因专业问题会被退档很多
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校按１比几提档？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问排在４９名还有希望？贵校只招２８个，那么我还会不会被录？，历年的都是全省前２０多报了并且被录吧？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果我没有政审,身体和单科不及格的问题,而且完全服从调配,是否100%不会被退档?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次小语种的提档线和第一批录取的其他专业的提档线一致吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+主要是想问一下专业调剂要扣分吗？，还有调剂的专业怎么选的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问北大提前批次小语种的提档线和第一批录取的其他专业的提档线一致吗？小语种的提档线是怎么定的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+680能不能报清华组好的专业,我是湖北的
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，我是问在学习过程中视力具体有何不利影响，不是录取时。，因为体检要求中说“不宜”
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部在浙江有哪些专业招生?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问我的分数已达到一本但我喜欢的专业属于本科院校里的专科专业，假如我报考了该专业，是否吃亏？这种情况下学位如何给？本科院校里怎么会有专科专业？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师贵校每年保研和外校考入研究生的比例分别有多大谢谢！！！！！！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业极差是多少?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果第一志愿未被录取，第二志愿录取时会将分数压低几分？2到3呢？谢谢
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校有无辅修其他学科的???那么双学位呢???谢谢老师!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高考指南下册51页北京大学电子信息科学类录取分数线为697而北大网站：http://www.gotopku.cn/images/form/lixian2005.htm处电子信息科学类最低分为683
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+还有数学竞赛省一等奖（65名），能否有优惠？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校元培班是否绝大部分招收的是状元?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是报考医学部的考生，请问：招生情况能否在贵校的网站上看到结果。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+招不招转科?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校在专业录取时,对我省的政策性加分(如三好生\优干加分)是否将加分计算在内后,按分数高低排序录取?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问为什么有些本科学校会有专科专业？假如本科的分数报了专科专业是不是吃亏了？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的历年专业招生计划如何？请提供超具体网址。，跪谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校的历年招生计划如何？请提供超具体网址。，跪谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校在滇招生组的联系方式。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问在报志愿时最忌讳什么,应当注意什么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校有没有音乐系?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+‘
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+每给志愿中有4个专业，其中专业顺序有什么关系
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好.请问北大对转专业有无限制?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，北大医学部与北大本部的关系，如课程设置，上课地点，学生活动，宿舍情况等，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业调剂的情况多不多，如果被调配到不喜欢的专业，能否换
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学院属不属于北大的，还是无关联的
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+595能上什么大学
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请尽快回答,谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：有的学校一志愿上了78人，却录了85人，还有7人是怎么来的？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大招收专科的分数线是多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提档比例如何确定
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请您预估一个北大招生线
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校医学部每年生源状况如何，请详细介绍
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否承认加分？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校还可不可能增加招生计划
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+642能进那些专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+增加的计划名额会投放到哪些专业呢?是看未被满足的考生的第一志愿还是别的什么?，谢谢:)
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，报考贵校是否各科必须及格？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,自主招生的考生会占用计划名额吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部有望吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大有哪些专业全国第一
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有希望上北大医学部吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+获得你校艺术特长生资格，录取时到底加多少分？20分还是50分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一般要在全省排几名,才比较有把握被贵校录取,谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+冒昧一问:北大冷门专业有哪些生源足吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提挡分和最低分数线的关系?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问你们北大艺术生录取分数线是多少？谢谢了!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+归校是否实行该制度啊。考研还要身体要求吗。谢谢回答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+奥赛加分选专业时是否有效？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问生命科学院的课程安排,生物是否需要经常用动物活体做实验,有能不用动物活体做实验的科研方向吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好!，想问一下,文科方面,北大易于出国深造的专业有哪些?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+气象专业就业如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢~~~！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在下的高考分数为664（加分后），若报读贵校是否有选专业的优势，万望老师真诚答复。，在下感激不尽！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好!元培班学制几年?有没有学士,硕士连读?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢了！！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+由于我乙肝阳性，肝功不好，医院的高考体检意见为可以不录取。想知道如果我成绩可以，是否还有机会被录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+填报志愿时同一院校内专业间能否填服从调剂
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我对地空学院并不感兴趣，但由于分数不够，要进北大只能选地空学院，我很矛盾，是选专业重要还是学校重要，如果我选择了北大，那么如何解决专业和学校的矛盾呢，谢谢指教。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想学——激光武器制造，保卫国家，那学什么专业呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请速回!!!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢您百忙之中回答我的问题，不胜感激！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：我对经济很感兴趣，并且数学一直比较优秀，高考149，但总分相对不太高。经济专业一直收分很高，那在录取时，贵校会考虑单科成绩吗？着重总分还是单科？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问06年北大招生章程在网上什么地方可以查询？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大专业级差到底是5，3，2，1，还是3～10?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校医学部的医学英语专业具体教授哪些课程?就业方向如何?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考设计类专业需不需要美术特长？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我女儿是国家2级运动员，高考能加多少分。有特殊院校招这种学生吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大院系之间有级差吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校医学部录取有何特殊的身体要求
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是三校生，分数是597，我不知道那些学校适合我，你能给我些建议吗？请尽快给我回复，好吗？我很着急，谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生算在正常的招生计划内吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学对考生的各科成绩有何要求。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问该校有哪些专业需要面试?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大有专科生吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+该班学生入学时有多大比例是属于降分录取?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考北京大学医学部学生,表面抗原阳性,肝功正常,可以报考吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我报了国防生，如果录取了，体检何时开始？，影响不影响一本的录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+住在校外亲戚家行吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+该班学生中途是否会被分流至其他专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么叫数空技术？有什么用？毕业之后做什么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果被贵校录为定向生,本科毕业后考研，是否会受到影响？如有，是什么影响？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好:我是在贵校招生计划目录下看到的."另外，北京大学还有不分来源省市的招生计划，，点击查看招生专业>>".请问老师:"不分来源省市的招生计划"是什么意思?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我如何才能上你校的招生网论坛呀，请指明
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是不是大学生只要积满学分就可以毕业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问貴校该专业招不招复课生，是否需要面试和口试。谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取结束以后，贵校一定会公布实际录取线(最低录取分数)？我的高考分数如果超过实际录取线，是否一定被录取？未被录取可能是什么原因?有什么补救办法吗?，另外,在网上录取中，是否完全由计算机通过既定的规则录取？有没有人为干预？谢谢!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿有三个专业选择,录取时按顺序吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想请教老师，是否北大所有专业都属于调剂范围内。如果不是，有哪些专业可调剂，哪些不可。谢谢老师的解答。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想考北大的自考，请问如何才能报名，上哪里报名...？是不是还要参加考试？毕业生的就业状况怎么样？请老师给予解答谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的排名前十的专业是哪十个专业,我的考分是640,请问报考哪些专业比较有把握
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+大学类型里面有个介绍说某某大学是研究1型或者研究2型，这是什么意思？，望您解答！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，我想请教以下几个问题。，1）	贵校的专业级差，2）	在湖南招生老师的联系方式，3）	是否对所有达到投档线且服从调剂考生决不退档，4）	高出重点线多少比较有把握被录取，5）	有无代招生，具体要求如何，期待您的答复，谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若考生对某一专业有非常强烈的愿望,北大是否会予以考虑?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师:不分来源省市招生计划是什么意思?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+为北大放弃其他大学心仪专业报一个差专业值吗?以后会有转专业的机会吗?转专业难吗?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!我想了解一下数学专业出国深造的前景如何?可不可以选择数学专业的同时辅修其他专业,打下数学基础再向别的方向发展?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+被其他学校录取后可否修贵校医学部的第二学位,望回答,谢谢!!!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+色盲生具体可报哪些专业？不能报哪些专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，如果需要使用加分才能达到北大调档线，那么在专业录取时是否不具有优势？如果服从调配，是否有被录取的可能？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，请问什么是网上填报志愿？与交到招生办的志愿不一致可否？以哪种为准？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，志愿已交，填写了科大，若分数达北大录取线再申请进入贵校，能否被贵校录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好,我还想问一个问题,贵校医学院有哪些限报条件,色弱的话报考允不允许?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是专业级差，什么是志愿级差
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+是不是学分够了就可以毕业?，怎样才能得多点学分?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同上．＋会得到本部的图书证吗？我向往北大图书馆很久了．
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+根据兴趣选的4个专业，排序时主要考虑的，是兴趣大小，还是历年专业分数的相对高低？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+想请教老师，报您校医科类专业，对身高有限制吗？盼老师给予回答，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:贵校的保研率是多少?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问双学位是什么时候,怎么样申请的?都有哪些可供选择?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+以兴趣为主还是以各专业历年的分数高低为主?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：北大为啥没有艺术类（指音乐、美术）的招生啊？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,填志愿是要怎样分析?谢谢老师.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+THANKS
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果第一专业未录取，扣去专业级差后分数低于调档线，这种情况是退档还是进行专业调剂?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+可以问个问题吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师.我校每年都有不少学长升入贵校,据说贵校会和部分优秀考生签约.是吗?需要怎样条件?不胜感激
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大招收单科状元吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大国防生属于北大吗?录取分数线有没有北大高?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果分数不是绝对的高，不就几乎只能指望第一个专业了?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提档=录取?是这样吗?贵校调剂考生时遵循怎样原则?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+历史专业的就业方向是那里呢????
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有哪些学校可以同时读两个学位
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问贵校医学部招收的国防生是否设定了最低分数控制线?，是否考生分数在本省区一本线以上就可填报?，有无特殊规定?，谢谢老师!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+625-630报考希望大吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+630、635报北大有多大把握？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校生命科学研究条件如何?谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+复读生可以报元培实验班吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+被医学部录取后还能否选专业和选修双学位？谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若被录若被录取到医学部，可否转到本部专业？或是选择本部的课程修双学位？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+可否转系？可否修双学位？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：录取到国防生，又同时达到一本录取线，请问入学后能否转为统招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不同学校同一专业所学课程是否一样？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：招生老师来了吗？怎样与他们联系呢？如若还没来，大概什么时候来呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：录取到国防生，又同时达到一本录取线，请问入学后能否转为统招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是线上加分,什么是线下分?贵校是如何加分?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+五个专业（志愿表）都要添么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+石老师，谢谢您！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+敬请百忙回复！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,如果的我的实际考分已达到提档线,那么我的加分对我的录取还有作用吗?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎么进
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能上北大吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：录取到国防生，又同时达到一本录取线，请问入学后能否转为统招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+上北大难吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问光华管理学院和经济学院在培养目标和就业方向等方面有什么区别？，另外，“当地状元可在全校范围内选择专业”中的“当地”是指本市还是本省？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若进入贵校投档线，且服从调剂，但所报专业分数不足，退档机率有多大？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+为什么医学部招生办老师的电话打通后，又说拨的电话忙呢。是不是老师不想接受咨询了？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果拥有其他学校的自主招生资格，是否就无法报考北大？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问光华和经济学院在培养目标和就业等方面有何区别？，另外，“当地状元可在所有专业里任选”中“当地”是指本市还是本省？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业级差5321是否是按顺序减除?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问第一志愿可报几个学校？一个学校可报几个专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否设专业级差?如果有的话,是多少?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师北大在录取专业时是去掉加分再录取还是把加分算上呢/?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,展望未来,报什么专业好呢?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好！听说有一些政法大学对于考法律系的学生有身高的限制，北京大学也有诸如此类的要求吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问2001，2002，2003，2004，2005贵校法学专业录取控制分数线是多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问咱们学校招收三本吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+辛苦了
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+转专业：接收目标院系考核前，对参加考核的学生有何条件要求？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+专业调节是在所有专业范围内调呢还是在该省招收的专业范围内调节？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：学那些专业能从事外交工作？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：从法律或经济专业进入北大是否可以转到国际关系学院？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在专业录取时，一个实考分数680与一个实考分数670但有20分加分的考生，那个优先安排专业
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,象省优秀学生这种加分,水分很多,有些甚至是花几十万买来的,我知道你们还是会承认的,但是我希望老师在招生时能慎重考虑
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是复读生,又考砸了,又不甘心,但是平时成绩不错,我在上&不上之间选择,您有什么意见?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我如果改系，没有被录取，保送资格会取消吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是保送生，录取的系北大在我省没有招生计划，我如何填志愿表？，我填其它系，如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问估分630报北大药学院有多大把握？，为什么医学部的电话打不通？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问无学籍应届生可否报考
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是省级优秀学生干部,贵校是否承认加分?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问艺术特长生报考有没有加分或降分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否招收第二志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+肝功能正常，但为大三阳，能否报考医学专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果再贵校学医学是否需要重学高中生物
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+选择贵校医学专业是否要求必选生物
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估计660报考贵校有无希望录取，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师，外向的学生报什么专业好？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请大家跟自己所在省的招生老师联系，他们会告诉你相关信息
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢您的回答，您辛苦了！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我要报贵校，我的考生信息卡如何写
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有双学位或双专业的相关政策吗?北大出国相关的信息可以到哪查?不同院系间可以转专业否?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+RT
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,您好.我是一位患有乙肝的考生,体检制度中提到有此疾病的学校可以不予录取,我很担心,请问在分数上线的情况下,学校会拒绝招收这样的考生吗?我真的真的很想继续念书,请老师一定告诉我,辛苦了,谢谢你.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问680有望上贵校吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我625,请问报哪个专业有希望
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+毕竟本部和医学部合称北京大学，我说的对不对？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+最低分数线是多少？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+当考生填了服从志愿调剂时：1。贵校供选择的专业是否都列在招生计划里？2。若计划数已经录取满，如何调剂？会不会被退档？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想请问进入贵学校如需改专业需要什么条件？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校对复读生没有什莫限制吧？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.请问北大医学部与北大本部的地址在哪?相距远吗?，2.两部合并后,北大医学部有什么变化?什么课程在北大本部上?，3.请介绍一下北大医学部学生毕业后的分配情况,和与国外大学、科研机构的交流情况。，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想了解北大工学院的情况.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分670能上北大吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大有自费生么，若有，费用多少呀/
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问非自主招生加分在专业排队中是否有效？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校对复读生没有什莫限制吧？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学英语专业主要学习什末?毕业后从事何行业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+进入大学后能否转系
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师谢谢，请快回复
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校那些专业比较有名?那些专业的前景比较好?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好，我同学说他爸的一朋友在北大任职，可让他去上北大，北大对教授有这种优惠么。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，如果同一调剂专业，而且自己报的5个专业不能录取，是不是说自己可能被条到一个自己不喜欢的专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的分数可能不够上光华但是我很喜欢经济我是个很调皮的人工科枯燥的课程我很不喜欢不知道我先随便报个专业再转系这种想法是否现实转系的限制是什么是否会耽误前一年的学习
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分610多分，获得北大艺术周民乐一级证书，报考贵校能否加分或者优先录取。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问我报提前批被贵校录取，上大学后发现专业不适合自己还可以再转专业吗？谢谢老师！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生毕业后去向如，何能否继续深造？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，我是女生，胆小，怕解剖、怕血淋淋的手术场面，但喜欢生物，也愿为病人减轻、解除病痛，可否报考医学专业，请您指点
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+通过自主招生者的加分是只能在投档时使用还是可用于选专业？获自招加分才到贵校提档线者是否占贵校在当地的录取名额？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大双学位的选择有没什么限制？，双学位和辅修有什么区别?，xiexie
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一般加分都是给成績已经很好的學生加,對那些跟他们差不多的學生沒得到加分的同學是不是不太公平?北大本來就很难考啊,只一分就会失之交臂啊?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如分数和自主招生考生一样,是否优生录取自主生?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿的专业未录取,服从调剂到第二志愿,是否会减分
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估计分数650--675之间，报考有希望吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好我估分645，不知道能填北大吗？我们老师说一本分数线估计在560-570间啊，
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我有近视450度，有哪些专业不能报？谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+听说非北大学生也可选修北大的专业,能否具体介绍一下,谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有医学部吗？大概多少分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我考了698，能上吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大英语专业招生对于获得过奥赛英语的学生是否有优先录取权或其它什么优惠政策？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好,我估分720,可以报贵校吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+那教学区呢？是在一起还是分开的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：北大成立了艺术学院，为什么不招艺术类考生呢？，谢谢。。。。。。。。。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问你校政策加分只在提档时有用，分专业时只看原始成绩，是否意味着这样的考生落选的可能性更大。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部录取时省级加分分专业时是否计算在内？专业极差为多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我古分640，能否报北大医学部
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部所发的录取通知书是“北京大学”还是“北京大学医学部”？毕业证书呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问本地自主网上报名与北大本校网上招生有什么区别
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分689，但双腿残废可报贵校。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好,自主招生加分可以与其他如省三好加分同时累加吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+网上报名是否有效，能否与学校报名发生冲突，是否有数量限制，若有冲突，以什么为准
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我想问你们能给我什么特殊的条件
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+通过了贵校的自主招生，不管高考分数多少是否一定会被录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+通过了贵校的自主招生高考加多少分？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，650，怎么样！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我这次考试估分:630,问:可否报考贵校?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：保送生参加高考后可否重新填报志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大医学部录取时省级加分是否承认？分专业时是否记入总分？专业极差为多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+应用数学系出来干什么的?能举几家出这种人才的公司,企业吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高中二年级的考生，报考北京大学时，分数上有优惠吗！！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的自主招生占不占当地招生计划？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+听说往届有招偏科生,请问本届还有么??，标准是什么??谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+联系招生组可以大概获得哪些信息或指导？会不会透露报考的情况？谢谢回答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！请问贵校在排队录取时，优惠加分是否有效？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+650报北大有点不稳，请问填志愿的时候，应该怎么填写。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考外语专业,如果第一表各志愿均未填报,是否必须在二表的第一志愿中填报?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+一表与二表之间是否有级差?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师的爱心回答。孩子在衡水中学就读。两次摸拟考试年级前30名。不知什么条件算优异
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+烦请回答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+口试时间?地点?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好：请问：提前批次是怎样录取？一般应届考生高考后可否报提前批次？，如果报提前批次对填报其它一类院校有没有影响？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!提前批次小语种,我看前面说过要:口试.面试.但考试报专业目录只说明要口试一项,请问老师:要加面试吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问“北大”的2006招生简章何时出台？若出台了，如何查询？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，辛苦了！谢谢您回答以上问题。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批小语种能同时修二学位吗？能修什么专业？二学位最后拿到的是北大的正式学位证书吗?谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好,忙于应付高考的我对大学的经济金融专业只是一知半解,十分感谢您给我详细解答,但愿经过不懈努力能成为您的学生,谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我三次摸底成绩：634，635，644。我想报北京大学医学部临床系，是否可以？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+烦请解答详细一些。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，浙大为什么在各省有哪么多的自主招生名额，是谁给它的名额？而且让这些学生签订第二志愿报考书，是何用意？它的这些自主招生没有什么正规的程序，很多考生不了解不知道它还有这种招生形式，浙大到底在搞什么名堂？这样做复读考生来说，根本就无公正性可言！浙大是不是在开全国高校，全国考生，全国人民的玩笑！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师:您好提前批指哪些院校及专业谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+级差是不同专业造成的吗？从高到低是怎么排定的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大有什么专业在录取时对数学单科成绩有要求吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问选学校与选专业哪个重要?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不好意思，再问一个问题，贵校录取时是按志愿清还是专业清，或者是分数优先还是专业优先
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大工学院报考参考分数
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪些院、系、专业招收校外生读第二学位？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师：提档线与省招办编的填报志愿指南书中写的投档线是否同一回事？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同标题。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+8个专业只录取有志愿的考生,请问这8个专业的招生人数在总的招生计划中吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问外语保送生可报那些专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高考加分和降分录取有什么区别?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校录取非第一志愿考生吗？各志愿间存在分数差吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次语种的口试要达到多少分才有可能录取?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+何处可以查到保送生是否被正式录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+口试的时间和地点?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批的小语种口试,要达到多少分才有希望录取?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问金融专业的就业方向主要是些什么性质的单位，学该专业对哪些学科有比较高的要赤求吗。谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大工科的实力如何！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问哪些专业的生源情况最好?高考状元集中在哪些专业?哪些是贵校优势专业和重点发展专业?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大地质系的分配方向?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问加分进档的自主生是否只能选择贵校在本省招收的专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好！请问：是不是只有报考特殊专业和特殊语种的考生才需填写提前批次志愿，而其他考生只需填写一、二、三、四批次志愿？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+经政策加分调档后,体检合格,是否一定能录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好，请问在是否在达到贵校提档线且勾了服从分配，其他方面均合格就一定会被录取？，贵校转专业的名额比例是多少？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你校在录取时，是按加分以后的成绩，还是按加分前。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我是一名浙江省的考生，如果我的高考分上了北大的投档线，专业填服从调剂，是否一定能保证录取
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学的提前批次小语种是属全国重点学科吗?再学双学位能选法学吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+省30名,,可以报?!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问对各省的各市有无指标？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有计划外招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有计划外招生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问竞赛加分在专业录取时有用吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：你好！，我有两个问题。1、请问自主招生考生是否占用各省的统招计划；2、如果自主招生考生高考成绩超过提档线是否占用各省的统招计划。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好对于上过大专的学生想重新考一次，是否可以报考贵校，或者说贵校对这类考生有没有相关的规定？？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+听说，有的人分数不够上北大，可以用钱买，是这样吗？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如何报考北大工学院，专业代码如何填写？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+第一志愿北大，第二志愿北大医学部，如果高考分数未达到北大提档线，是否会被北大医学部录取？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次小语种英语考试什么时间在那里考
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大自主招生是不是只降20分？有无可能超过，如30?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+定向生在学业上和统招生有什么不同，是否会影响考研？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+定向生和国防定向生有什么区别？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问该校每年招收几个小提琴特长生，录取方面有那些优惠
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校小语种提前批次就业前景怎样？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校在天津有无提前批？若有是什么专业？招几名？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生的考生是否占贵校在本省的计划名额？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果考的分数到了录取范围，乙肝病毒携带者能上您的学校吗?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在同一学校的不同批次专业可以转么
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请邮招生材料,以便了解细情,谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你好！我想问下高考报考指南上专业代码后有“*”还有“Y”还有带三角号的，是什么意思？请您给解释一下我好方便报考
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问近年来考古系毕业生去向
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！取得自主招生资格的考生最大可以在录取线下多少分之内录取？这好象属于降分录取，与各省的加分在本质上是否相同？在考后贵校统计确定提档线时，已取得自主招生资格的考生的总分是否将其实际考分加上20分（假定）后同其他报考贵校的考生一道参加统计确定？还是只对省确定的加分加上实际考分后统计确定提档线？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好：，我是一名考生，我患有乙肝小山阳，我想咨询一下那些专业我不能报考。，我听说了一种情况，有的学校在开学初查出了学生有着种病，就让他们回来了，说并不是学校不受。而是等你们把病医治好了再来。，请问老师我们学校存在这样的情况吗？，麻烦老师给详细解答一下，谢谢您们
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+调剂专业与学生联系提供专业选择吗？是一个还是多个？马上选择吗？还是有时间。谢谢老师！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的国防生的备用名额在江西是否有
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果报考北大提前批次的小语种,第一专业没有录取上,到第二个专业时是否会相应降分?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+咨询两个问题：1、加分提档的自主生是否占计划名额？，2、加分提档的自主生如被录取，进校时是不是要多交费（若是，会交多少？）？以后的学费是否也会比正常录取生高？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+1.贵校有身高限制的专业吗？，2.其中8个专业只录取有志愿的考生，服从分配算改志愿吗？，3.填专业时就按招生计划的专业填吗？有代码吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是一名艺术考生.我的父亲是一名3级残疾警察,请问贵校有录取优惠政策吗?术科要多少分能报贵校?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+软件与微电子学院对眼睛有无特殊要求
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢老师，那请问在同样的分数下（如都是660）会录取没加分的还是加过分的？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:志愿调剂是在招生省区内还是全国范围内的专业之间进行调剂?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好对于有些问题无论是提问还是回答都很笼统我想了解一些实际的情况能否就以下两个问题给个详细的说明：，1、学分制：就某学院或某个专业的规定为例，，2、录取规则：以北大在某省对某专业录取两个人为例给各详细地说明，，，多谢！！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！，请问医学部本科二批的两个专业与一批的专业有何不同？两批次的学生在在校期间的待遇、本科毕业证书、可否考研、就业方向等方面有何区别？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+色弱考生报贵校有何障碍?哪些专业可报?哪些专业不能报?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取率如何？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大对外公布的各专业招生人数中是否包括自主招生和特长生的人数?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自我推荐都会有回音吗？，一般什么标准才有比较好的答复？，在自荐表提交后多长时间会答复？，答复是以什么方式？，如果有意外没有接收到答复怎么办？，一下提这么多问题，不好意思。谢谢老师！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+想通过定向进入北大。所以希望老师能回答，，要是有定向生，如何才能通过这个进入北大呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我的一个同学想报考北大医学部的专科，目标是专升本，请问专升本的比例是多少？，如果入校后成绩优异，是否可以申请转本？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题。，以前不是由生命科学学院代培吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+没有考入元培实验班的同学可否在以后的学习中通过其他方式进入?比如说,成绩优异重新考入(转专业形式)?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么情况下调剂？110%提档是怎么回事？调剂一般都到什么样的专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我体检时ALT76U，医生说超标。不知道能否报北大，专业是否有限制？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生如何选专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校按招生计划的110%提档，并承诺只要专业服从调剂就不会退档，是否就意味着贵校实际招生人数又可能会比计划数多呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我喜欢经济、会计、金融、数学、应该怎样排序？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校录取分数线很高.我想问的是:有没有由于贵校录取分数线高造成贵校开设的某些冷门专业招生不足而降低此类专业招生分数线招生的情况?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：提档线的确定是按填报贵校的考生的实际考分统计计算，还是先加上加分后再统计计算确定？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+按110%提档时如果同一分数人数大大超出或不足这个比例时会不会参照学生的档案中其他内容？比如该生的获奖、特长等情况。否则该怎样操作？是不是就严格按分数恰人数？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问被你校录取后,有改专业的机会吗?机率有多大?另,请问贵校有软件专业吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好!我孩子成绩在580-620分之间,不知道能否被录取?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报考定向生的条件
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校国防生毕业后的分配去向如何？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+通常我们所说的定向生都是指的国防定向生么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+提前批次中，专业后未注明国防生的是什么性质考生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在山东省高考报志愿常出现大小年,如果06年高考排名在清华北大的招生计划人数总和里,可是赶上二个学校之间的大小年出现分数差较大问题不是可惜?怎样才能做到分高一定能被录取?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如有是多少？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！国防生招生男生和女生是否条件一样？或者说国防生招不招女生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：如第一、二志愿均未入取，添了志愿服从调剂，招办是如何操作调剂生的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好!，请问对外汉语的培养方向是什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题，全省排名1285？？？？？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的专业级差是多少?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+进入投档线是否有希望?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同标题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校是否有自主招生?若有请老师介绍一下具体情况.谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问什么样的条件符合自主招生,是提前录取吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+什么是不分来源省市招生计划,不明白
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+数学专业对高考数学分数作要求吗
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：数学系对高考数学分数作要求吗
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好,我想问问你们学校是不是开设北京大学法律自考部是不是真的,那个是不是很难考的.谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校是否招收围棋特长生（2级运动员），我是天津人，获得过天津市冠军，我明年参加高考，请问是否有提前签约，或政策照顾？~~~~？还有明年什么时候可以开始咨询此事？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部对视力有要求吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请老师赐教
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，老师在北大各省招生计划栏目下方有这样一行字:另外,北京大学还有不分来源省市的招生计划.，不明白是什么意思，是自主招生还是高收费.谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问我的分数是599，不知能否被贵校录取（一本是572）。谢谢！
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问如何能查到专业排名呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我高考没考好，想去北大资源学院就读。请问是不是您们学校出题考试，那个学校和网站上宣传的属不属实？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师,假如我在报考贵校专业第一志愿时落榜了,那么我原有分数扣去级差分后,在专业第二志愿的录取中是否可以与报考这一专业为第一志愿的考生同等排档录取?谢谢!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+700够不够贵校法律专业？？？？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，你在吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请老师查询该网址http://www.edu.cn/20020911/3067298.shtml，我想问的是上面“本专科生培养”的评分细则是什么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好！北京大学医学部的招生工作是不是独立的呀？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，北大医学部与北大其他各个院系是否单独招生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好！请问北大医学部在录取时，是否采用专业级差分，望能告知，非常感谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如果上了贵校的抛档线，有可能被退档吗？录取线估计过一本多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好.请问我对人体的衰老的奥秘,细胞的癌变很感兴趣,应该读什么专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好.我对人体疾病和衰老,细胞的癌变很感兴趣,应该读什么专业?，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+该校录取算不算加分
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,能否介绍一下在贵校学习和获取双学位的简单过程?还有,假设,我为了读贵校,而接受了一个我并不喜欢的专业,那么我能否"喧宾夺主",用双学历来弥补?麻烦老师了.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学院本博连读和本科专业的录取分数线是怎么掌握的
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校国防生录取是否与一般考生录取分数一样的标准。
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,请问如果就读北大医学系,以后可否转专业呢?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问高三得二等奖，高招政策是否有倾斜
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问进655法学专业的话，可以选修第二专业吗？在选修第二专业时有什么限制没有呢？能够选英语专业作为第二专业吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校的分校师资如何?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+这样的话是不是只有实分高才可能上北大
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是竞赛加分的考生,请问贵校录取时，用原始分还是加完的分数
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估了690不知能不能被录
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我估分680左右，报北大希望大吗？谢谢老师！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问国防生毕业之后能否不服役，如果服役，那按有关政策服役年限是多少，毕业后能否考研，考研后是否服役，服役年限与毕业后直接服役有何区别，学校是否提倡考研
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问是不是任何学校的本科毕业生都能报考北大研究生
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校本科毕业生哪些专业出国率高？？，谢谢！！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问：贵校的少数民族预科班是怎样录取，录取后要怎样才能读到本科，是怎样的体制；专业怎样选择;学费有规定吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同上
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+同标题，THANKYOU
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+新生入学后进行的英语考试的内容？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，对于清华，北大这样的高校，照顾加分在录取过程中是仅做参考，还是作为高考分的一部分
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问在其他大学学习期间能否跨校选修贵校专业?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+电子信息科学的学习内容是什么就业方向是？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+自主招生计划的专业是怎样确定的，谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师请你回答如此说何填报？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问什么是不分来源省市的招生计划
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部跟北大是在一起的么？为什么给它单提出来呢？最低分是多少，660-670有可能去么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+若肝功能正常，但有大三阳的可否就读医学类的专业，还有什么专业受到限制？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,各科均衡是不是对录取有影响?如果有3科都很高了,但有一科相对很低,是否会影响录取?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+多少分报考贵校把握大?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,虽然外语复试不计入总分,但是否会影响贵校对学生的选择?谢谢.
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+准确估分642能录吗？，还是心里没底啊
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大医学部的招生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+http://www1.bjmu.edu.cn/jiaoyuchu/index.htm，进入网站后想打开叶子的时候都是打不开的。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+估分６９５－７０３可以选择哪些专业？，您推荐的专业有多少人有报的意向？，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问:1进校后哪些专业限制转专业?2请提示女生适合的专业?3本人的专业第一志愿如退级差后我的第二志愿仍高于其他人第一志愿的分数,是否我优先录取?谢!
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+有身高限制吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好:，请问,糖尿病患者如何报考院校及专业?，，以及国家有何相关规定?，，，谢谢!!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好，请问贵校招生组在山西的邮箱是多少？谢谢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+考研的具体情况我可以从那里得到？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+贵校最厉害的专业是什么？，本人估分704，请问可以随便报了吗？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师，您好，我妹在西安交大附中就读，这次考试没考好，只估了650，不知道这个分数上北大的几率大吗？，谢谢答复
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+645风险大吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+不知667可否报贵校
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请帮忙
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问我希望上数学专业而我的父母希望我上一个好工作的专业
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+哪几个专业最热门？？最难录取？？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问教育系的培养目标和就业去向如何?谢谢!
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问你校专业级差具体是多少
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好?，请问自主招生是否已包含在招生名额中??
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+石河子大学的学生有机会进入北大学习吗？如考研时是否有优惠政策？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+清华和北大对西部高校的对口支援有什么实质性的好处？具体内容有哪些？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师请问：贵校那些专业不招收复读生？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你们什么时候可以把问题解决？得我提交后多少小时？我想知道。方便我尽早看自己问题的回答。谢谢哟1！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好，我还想请问一下，如果成绩能达到645左右，能不能报贵校?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+670行吗
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如题
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+可以之从网上或之从学校填报志愿吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学生填报志愿时‘志愿栏’应添啥？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+学校分数线是在学生填报志愿之前出还是之后出？谢谢
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+终于等到我考北大了，我300多需要什么条件才能进你们学校呢。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大转专业困难吗?需要什么条件才能转?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校出国、考研率为多少？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问如果上了调档线,而且服从调配,会不会被退档?或者还是在其他专业都招满了,再增加名额?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大地质类的收费情况怎样?考研的比例是多少?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北大的老师们您好：我想问个可以说是私人问题吧，望老师可以回答我。我想问一下，你觉得女生比较适合选什么样的专业呢？这里不谈兴趣的问题，就“女生”本身来谈。谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校国际经贸系的毕业生就业率怎么样？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好！我进入北大招生网后想链接进入北大医学部的招生网，但是总是提示“该页无法显示”。医学部的招生信息该如何查看？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+问一下。专接本毕业以后毕业证是怎末写的？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+680行不行?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问我省招生老师电话及网上联系方式?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+怎样呀老师？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+???
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问北大有没有专科，如有请问是什么专业？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+高考成绩预计670-685有希望报考贵校吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我是一个双眼弱视的考生，体检结论是“专业限制”，但我成绩还是不错，如果我的成绩上线，你们能录取我吗？，前几天我有寄《自荐信》到贵校，我的详细情况在信中有介绍。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+浙江考生估分640,考贵校医学,有几成把握?有那些专业并可能考进?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+录取梯度怎么样?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能转专业吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+与国外合作情况怎么样呢?，有没有可以出国的机会啊?，谢谢老师
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,你好,请问北大对于乙肝大小三阳的学生的态度?希望明确些,若能考上,他们能不能上北大?读研?谢谢.急切希望回答
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好,请问国防生按什么标准定分数?
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+你们学校干什么的,毕业能做些什么?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问贵校法学专业招生对考生身高有无要求???
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+国防生(技术类)的眼睛标准可否下降点啊?谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+如有省级一等奖以下的学科竞赛荣誉（比如省级二等奖），录取时是否有优惠政策？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+以前问过问题发不上去是什么原因？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师你好：请问你校专业第一志愿与第二志愿有分差吗？如果有是多少？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问自主招生选拔是怎样进行的
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,不分来源省市的招生计划是什么意思?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师您好；，请您介绍一下北大哲学系的情况。以及毕业后的去向？，谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好,请问国防生按什么标准录取,对视力或身上有明显标记的是否有什么限制
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+您好：我想报考你校如果是乙肝携带者（大三阳）但肝功正常，你校是否录取，录取后是否会让休学？你校复检是查乙肝表面抗原还是查乙肝五项？谢谢！
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+我已经考上了北大的特长生，请问往界的特长生专业分配一般都分到哪些学科？？（分数加分后超出提档线不多的）
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：，我想问一下，我其他科目不怎么样，但政治可能有把握考在省1。2名，能被贵校录取吗？谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问医学系招生要求英语语种是指什么？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问，什么时候公布各地招生组长名单和联系方式。
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师好恩我想问一下下上你们学校一年需要多少MONEY啊？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在填志愿中，是报一个好的学校选一个次的专业，还是报一个次的学校选一个好的专业呢？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+报在同一个学校时，各个专业是不是平行录取？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问老师报考北大可否同时报考香港大学。报考香港大学影响北大入取吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师,在本校的排位好确定,如何确定在本省范围内排多少名呢?有什么简便和比较准确的方法吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+在录取过程中同样分数是否优先录取应届生？，，在专业方面对往届生又有何政策？
+select * from admission_score_pro where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+能不能告诉我一下国防生什么时候报名啊，谢谢
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+老师：您好！请问北大对复课生和应届生在招录时一样吗？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+请问,应届大学本科毕业生可以参加高考吗?
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+北京大学在京投档比例？
+select * from admission_plan where school='北京大学';
+['问句条件词只有学校，查询过宽！']
+总问题数5508	查询语句构造为空数0	只有学校关键词数1415	查询结果为空数2058	有回答数2035
