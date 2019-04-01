@@ -9,11 +9,12 @@ from Log.Logger import MyLog
 import sys
 from openpyxl import load_workbook
 import re
+import pickle
 
 
 # 求列表元素的子集(二进制法)
 # print(get_subset_binary([1, 2, 3]))
-def get_subset_binary(item: list)->list:
+def get_subset_binary(item: list) -> list:
     """
     求列表元素的子集(二进制法)
     :param item: 元素列表
@@ -117,7 +118,7 @@ def build_template_by_fields_score_major(template_path: str):
     :param template_path: 模板路径
     :return:
     """
-    fields_question_condition = ["school 学校", "year 年份", "major 专业", "district 省份 地区",  "classy 类别"]
+    fields_question_condition = ["school 学校", "year 年份", "major 专业", "district 省份 地区", "classy 类别"]
     fields_question_target = ["highest 最高分 最高分是多少",
                               "average 平均分 平均分是多少",
                               "lowest 最低分 最低分是多少 分数线 分数线是多少",
@@ -149,54 +150,54 @@ def build_template_by_infos(template_path: str, fields_question_condition: list,
     """
     function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     function_logger.info("开始构造%s的问题模板..." % template_path.split("\\")[-1])
-    with open(template_path, "w", encoding="utf-8") as t_file:
-        # 写入问句条件词数量、中英文对应字段，并获取英文字段列表，用于构造问句
-        t_file.write(str(len(fields_question_condition)) + "\n")
-        template_fields_en = []
-        for fq_condition in fields_question_condition:
-            template_fields_en.append(fq_condition.split(" ")[0])
-            t_file.write(fq_condition+"\n")
-        # 写入问句目标词数量、中英文对应字段
-        t_file.write(str(len(fields_question_target)) + "\n")
+    # 使用pickle存储模板文件
+    template_dict = {}
+    template_dict["fq_conditon"] = fields_question_condition
+    template_dict["fq_target"] = fields_question_target
+    template_dict["ts_answers"] = template_sentence_answers
+    build_question_sentences = []
+    # 获取问句条件词的英文字段
+    template_fields_en = []
+    for fq_condition in fields_question_condition:
+        template_fields_en.append(fq_condition.split(" ")[0])
+    # 利用问句条件词英文字段构造子集，使用替换的方法构造所有全排列的问句
+    fields_en_subset = get_subset_binary(template_fields_en)
+    print(len(fields_en_subset))
+    for i_question in range(len(template_sentence_questions)):
+        # 查询当前模板问句包含多少问句目标词
+        match_question_target = []
         for fq_target in fields_question_target:
-            t_file.write(fq_target+"\n")
-        # 写入模板答句
-        t_file.write(str(len(template_sentence_answers)) + "\n")
-        for ts_answer in template_sentence_answers:
-            t_file.write(ts_answer + "\n")
-        # 利用问句条件词英文字段构造子集，使用替换的方法构造所有全排列的问句
-        fields_en_subset = get_subset_binary(template_fields_en)
-        for i_question in range(len(template_sentence_questions)):
-            # 查询当前问句的问句目标词
-            match_question_target = []
-            for fq_target in fields_question_target:
-                if fq_target.split(" ")[0] in template_sentence_questions[i_question]:
-                    match_question_target = fq_target.split(" ")
-                    break
-            # 对问句目标词中对应的每一个询问方式进行替换
-            target_word = match_question_target[0]
-            for question_mode in match_question_target[1:]:
-                # 对子集中的每一个集合进行替换
-                for subset in fields_en_subset:
-                    sentence = template_sentence_questions[i_question].replace("(" + target_word + ")", question_mode) \
-                               + "--" + str(i_question)
-                    # 子集为空，不缺省参数
-                    if not subset:
-                        t_file.write(sentence + "\n")
-                    # 子集为原集合，不添加
-                    elif len(subset) == len(template_fields_en):
-                        continue
-                    # 子集有缺省，去除子集中的元素后再添加
-                    else:
-                        for field_en in subset:
-                            sentence = sentence.replace("("+field_en+")", "")
-                        t_file.write(sentence + "\n")
+            if fq_target.split(" ")[0] in template_sentence_questions[i_question]:
+                match_question_target = fq_target.split(" ")
+                # 找到一个问句目标词即退出，默认问句中只有一个问句目标词
+                break
+        # 对问句目标词中对应的每一个询问方式进行替换
+        target_word = match_question_target[0]
+        for question_mode in match_question_target[1:]:
+            # 对子集中的每一个集合进行替换
+            for subset in fields_en_subset:
+                sentence = template_sentence_questions[i_question].replace("(" + target_word + ")", question_mode) \
+                           + "--" + str(i_question)
+                # 子集为空，不缺省参数
+                if not subset:
+                    build_question_sentences.append(sentence)
+                # 子集为原集合，不添加
+                elif len(subset) == len(template_fields_en):
+                    continue
+                # 子集有缺省，去除子集中的元素后再添加
+                else:
+                    for field_en in subset:
+                        sentence = sentence.replace("(" + field_en + ")", "")
+                    build_question_sentences.append(sentence)
+    template_dict["ts_questions"] = build_question_sentences
+    with open(template_path, "wb")as p_file:
+        pickle.dump(template_dict, p_file)
     function_logger.info("%s的问题模板构建完成!" % template_path.split("\\")[-1])
 
 
 # 通过模板类型（槽位）构造MySQL语句
 # noinspection PyProtectedMember
-def build_mysql_string_by_template(template_question: str, template_question_type: str)->str:
+def build_mysql_string_by_template(template_question: str, template_question_type: str) -> str:
     """
     通过模板类型（槽位）构造MySQL语句
     :param template_question: 模板问句
@@ -214,17 +215,17 @@ def build_mysql_string_by_template(template_question: str, template_question_typ
     mysql_string = "select * from " + search_table + " where "
 
     for i_slot in range(len(slots)):
-        if i_slot == len(slots)-1:
-            mysql_string += "["+slots[i_slot][1:-1] + "='" + slots[i_slot] + "'"+"]"
+        if i_slot == len(slots) - 1:
+            mysql_string += "[" + slots[i_slot][1:-1] + "='" + slots[i_slot] + "'" + "]"
         else:
-            mysql_string += "["+slots[i_slot][1:-1]+"='"+slots[i_slot]+"' and "+"]"
+            mysql_string += "[" + slots[i_slot][1:-1] + "='" + slots[i_slot] + "' and " + "]"
     mysql_string += ";"
     function_logger.info("MySQL语句构造完成！")
     return mysql_string
 
 
 # 通过模板类型（槽位）构造答句
-def build_mysql_answer_string_by_template(template_answer: str, query_result_item: tuple)->str:
+def build_mysql_answer_string_by_template(template_answer: str, query_result_item: tuple) -> str:
     """
     通过模板类型（槽位）构造mysql答句
     :param template_answer: 模板答句
@@ -243,7 +244,8 @@ def build_mysql_answer_string_by_template(template_answer: str, query_result_ite
 
 # 通过模板类型及关键词键值映射返回mysql语句
 # noinspection PyProtectedMember
-def build_mysql_string_by_template_and_keymap(template_question: str, template_question_type: str, keyword_dict: dict)->str:
+def build_mysql_string_by_template_and_keymap(template_question: str, template_question_type: str,
+                                              keyword_dict: dict) -> str:
     """
     通过模板类型及关键词键值映射返回mysql语句
     :param template_question: 模板问题
@@ -262,7 +264,7 @@ def build_mysql_string_by_template_and_keymap(template_question: str, template_q
     mysql_string = ""
     for i_slot in range(len(slots)):
         # function_logger.debug("slot:"+slots[i_slot][1:-1])
-        key = keyword_dict["search_"+slots[i_slot][1:-1]]
+        key = keyword_dict["search_" + slots[i_slot][1:-1]]
         # function_logger.debug("key"+key)
         if key == "":
             continue
@@ -281,25 +283,10 @@ def load_template_by_file(file_path: str) -> tuple:
     :param file_path: 模板路径
     :return: 问句条件词、问句目标词、模板答句、模板问句集
     """
-    with open(file_path, "r", encoding="utf-8") as t_file:
-        lines = t_file.readlines()
-        # 读取问句条件词
-        fields_question_condition_count = int(lines[0].strip())
-        fields_question_condition = [fqc.strip() for fqc in lines[1:1 + fields_question_condition_count]]
-        read_index = 1 + fields_question_condition_count
-        # 读取问句目标词
-        fields_question_target_count = int(lines[read_index].strip())
-        fields_question_target = [fqt.strip()
-                                  for fqt in lines[1 + read_index:1 + read_index + fields_question_target_count]]
-        read_index += 1 + fields_question_target_count
-        # 读取答句集
-        template_sentence_answers_count = int(lines[read_index].strip())
-        template_sentence_answers = [tsa.strip()
-                                     for tsa in lines[1 + read_index:1 + read_index + template_sentence_answers_count]]
-        read_index += 1 + template_sentence_answers_count
-        # 读取问句集
-        template_sentence_questions = [tsq.strip() for tsq in lines[read_index:]]
-        return fields_question_condition, fields_question_target, template_sentence_answers, template_sentence_questions
+    with open(file_path, "rb") as p_file:
+        template_dict = pickle.load(p_file)
+    return template_dict["fq_conditon"], template_dict["fq_target"], \
+           template_dict["ts_answers"], template_dict["ts_questions"]
 
 
 if __name__ == '__main__':
@@ -308,12 +295,16 @@ if __name__ == '__main__':
     # build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？")
     # print(build_mysql_string_by_template("(school)(year)(major)在(province)招生人数是多少？"))
     test_template_path = "Template"
-    fq_condition, fq_target, ts_answers, ts_questions \
-        = load_template_by_file(test_template_path + "/admission_score_major")
-    print(fq_condition)
-    print(fq_target)
-    print(ts_answers)
-    print(ts_questions)
+    # fq_condition, fq_target, ts_answers, ts_questions \
+    #     = load_template_by_file(test_template_path + "/admission_score_major")
+    # print(fq_condition)
+    # print(fq_target)
+    # print(ts_answers)
+    # print(ts_questions)
     # test_template_path = "Template"
-    # build_template_by_fields(test_template_path + "/admission_score_major")
+    build_template_by_fields(test_template_path + "/admission_score_major")
+    with open("Template/admission_score_major", "rb")as p_file:
+        data = pickle.load(p_file)
+    print(data)
+    print(len(data["ts_questions"]))
     main_logger.info("end...")
