@@ -10,19 +10,13 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction,
                              QLabel, QLineEdit, QWidget, QTextEdit, QComboBox, QHBoxLayout, QVBoxLayout,
                              QMessageBox, QDesktopWidget, QPushButton)
 from PyQt5.QtGui import QIcon
-
-from LTP.LTPInterface import ltp_segmentor, ltp_postagger, ltp_name_entity_recognizer
 from InformationGet.MysqlOperation import mysql_query_sentence
 from pypinyin import lazy_pinyin
-
-from QuestionAnalysis.QuestionPretreatment import question_segment_hanlp, question_analysis_to_keyword, \
-    question_keyword_normalize
-from QuestionQuery.MysqlQuery import mysql_table_query
 from TemplateLoad.QuestionTemplate import load_template_by_file, build_template_by_infos
 from FileRead.FileNameRead import read_all_file_list
 from QuestionAnswer.TemplateAnswerQuestion import answer_question_by_template
-
-LTP_DATA_DIR = "../LTP/ltp_data"
+import fastText.FastText as ff
+import jieba
 
 
 # 主界面
@@ -127,11 +121,7 @@ class QAWidgets(QWidget):
     # 构造方法
     def __init__(self):
         super().__init__()
-        self.ltp_result_dict = None
         self.clear_btn = None
-        self.seg_btn = None
-        self.pos_btn = None
-        self.ner_btn = None
         self.qa_btn = None
         self.question_edit = None
         self.answer_edit = None
@@ -139,8 +129,6 @@ class QAWidgets(QWidget):
 
     # GUI创建
     def init_ui(self):
-        # 保存ltp处理结果
-        self.ltp_result_dict = {}
         self.create_qa_widgets()
 
     # 创建问答控件
@@ -151,21 +139,13 @@ class QAWidgets(QWidget):
         # 按钮
         self.clear_btn = QPushButton('清空')
         self.clear_btn.clicked.connect(self.clear_button)
-        self.seg_btn = QPushButton('ltp分词')
-        self.seg_btn.setCheckable(True)
-        self.seg_btn.clicked[bool].connect(self.ltp_op)
-        self.pos_btn = QPushButton('ltp词性标注')
-        self.pos_btn.setCheckable(True)
-        self.pos_btn.clicked[bool].connect(self.ltp_op)
-        self.ner_btn = QPushButton('ltp命名实体识别')
-        self.ner_btn.setCheckable(True)
-        self.ner_btn.clicked[bool].connect(self.ltp_op)
         self.qa_btn = QPushButton('回答提问')
         self.qa_btn.clicked.connect(self.question_answer)
 
         # 编辑文本框
         self.question_edit = QLineEdit(self)
         self.answer_edit = QTextEdit(self)
+        self.question_edit.returnPressed.connect(self.question_answer)
 
         # 布局方式
         question_hbox = QHBoxLayout()
@@ -179,9 +159,6 @@ class QAWidgets(QWidget):
         button_box = QHBoxLayout()
         button_box.addStretch(1)
         button_box.addWidget(self.clear_btn)
-        button_box.addWidget(self.seg_btn)
-        button_box.addWidget(self.pos_btn)
-        button_box.addWidget(self.ner_btn)
         button_box.addWidget(self.qa_btn)
 
         vbox = QVBoxLayout()
@@ -191,95 +168,34 @@ class QAWidgets(QWidget):
 
         self.setLayout(vbox)
 
-    # ltp操作（分词、词性标注、命名实体识别）
-    def ltp_op(self, pressed):
-        source = self.sender()
-        sentence = self.question_edit.text()
-        words = ltp_segmentor(LTP_DATA_DIR, sentence)
-        postags = ltp_postagger(LTP_DATA_DIR, words)
-        nertags = ltp_name_entity_recognizer(LTP_DATA_DIR, words, postags)
-        if source.text() == "分词":
-            if pressed:
-                self.ltp_result_dict["seg"] = list(words)
-            else:
-                if self.ltp_result_dict.__len__() != 0:
-                    self.ltp_result_dict.pop("seg")
-        elif source.text() == "词性标注":
-            if pressed:
-                self.ltp_result_dict["pos"] = list(postags)
-            else:
-                if self.ltp_result_dict.__len__() != 0:
-                    self.ltp_result_dict.pop("pos")
-        else:
-            if pressed:
-                self.ltp_result_dict["ner"] = list(nertags)
-            else:
-                if self.ltp_result_dict.__len__() != 0:
-                    self.ltp_result_dict.pop("ner")
-        dict_list_str = ""
-        for key, value in self.ltp_result_dict.items():
-            dict_list_str += '{k}:{v}'.format(k=key, v=value) + "\n"
-        self.answer_edit.setText(dict_list_str)
-
     # 回答提出的问题
     def question_answer(self):
         self.answer_edit.clear()
         sentence = self.question_edit.text()
-        # hanlp方法
-        mid_result, result_edit = answer_question_by_template(sentence)
-        self.answer_edit.append("分词列表："+str(mid_result["segment_list"]))
-        self.answer_edit.append("问题抽象结果：" + str(mid_result["ab_question"]))
-        self.answer_edit.append("关键词列表：" + str(mid_result["keyword"]))
-        self.answer_edit.append("正则化处理：" + str(mid_result["keyword_normalize"]))
-        self.answer_edit.append("匹配问句模板：" + str(mid_result["match_template_question"]))
-        self.answer_edit.append("匹配答句模板：" + str(mid_result["match_template_answer"]))
-        self.answer_edit.append("查询语句：" + str(mid_result["mysql_string"]))
-        self.answer_edit.append("查询结果：" + str(mid_result["search_result"]))
-        self.answer_edit.append("回答如下：")
-        # segment_list = question_segment_hanlp(sentence)
-        # keyword = question_analysis_to_keyword(segment_list)
-        # search_table = keyword["search_table"]
-        # search_year = keyword["search_year"]
-        # search_school = keyword["search_school"]
-        # search_major = keyword["search_major"]
-        # search_district = keyword["search_district"]
-        # search_classy = keyword["search_classy"]
-        # self.answer_edit.append("问句分析结果为：" + str(segment_list))
-        # self.answer_edit.append("直接信息如下：")
-        # self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
-        # self.answer_edit.append("查询年份为：" + search_year)
-        # self.answer_edit.append("查询高校为：" + search_school)
-        # self.answer_edit.append("查询专业为：" + search_major)
-        # self.answer_edit.append("查询地区为：" + search_district)
-        # self.answer_edit.append("查询类别为：" + search_classy)
-        # keyword_normalize = question_keyword_normalize(keyword)
-        # search_table = keyword_normalize["search_table"]
-        # search_year = keyword_normalize["search_year"]
-        # search_school = keyword_normalize["search_school"]
-        # search_major = keyword_normalize["search_major"]
-        # search_district = keyword_normalize["search_district"]
-        # search_classy = keyword_normalize["search_classy"]
-        # self.answer_edit.append("信息规范后如下：")
-        # self.answer_edit.append("查询类型为（mysql表（招生计划、录取分数）、图数据库）：" + search_table)
-        # self.answer_edit.append("查询年份为：" + search_year)
-        # self.answer_edit.append("查询高校为：" + search_school)
-        # self.answer_edit.append("查询专业为：" + search_major)
-        # self.answer_edit.append("查询地区为：" + search_district)
-        # self.answer_edit.append("查询类别为：" + search_classy)
-        # # 对关键词元组进行mysql查询，并将查询结果输出
-        # result_edit = mysql_table_query(keyword_normalize)
-        for item in result_edit:
-            self.answer_edit.append(item)
+        # 问题预处理
+        sentence_type = question_pretreatment(sentence)
+        if sentence_type not in question_can_answer:
+            self.answer_edit.append("抱歉，当前系统无法回答关于%s的问题，尝试问问其它问题！"%sentence_type)
+        else:
+            # hanlp方法
+            mid_result, result_edit = answer_question_by_template(sentence)
+            self.answer_edit.append("问句类型："+sentence_type)
+            self.answer_edit.append("分词列表："+str(mid_result["segment_list"]))
+            self.answer_edit.append("问题抽象结果：" + str(mid_result["ab_question"]))
+            self.answer_edit.append("关键词列表：" + str(mid_result["keyword"]))
+            self.answer_edit.append("正则化处理：" + str(mid_result["keyword_normalize"]))
+            self.answer_edit.append("匹配问句模板：" + str(mid_result["match_template_question"]))
+            self.answer_edit.append("匹配答句模板：" + str(mid_result["match_template_answer"]))
+            if "mysql_string" in mid_result:
+                self.answer_edit.append("查询语句：" + str(mid_result["mysql_string"]))
+            if "search_result" in mid_result:
+                self.answer_edit.append("查询结果：" + str(mid_result["search_result"]))
+            self.answer_edit.append("回答如下：")
+            for item in result_edit:
+                self.answer_edit.append(item)
 
     # 清空按钮状态
     def clear_button(self):
-        self.ltp_result_dict.clear()
-        if self.seg_btn.isChecked():
-            self.seg_btn.click()
-        if self.pos_btn.isChecked():
-            self.pos_btn.click()
-        if self.ner_btn.isChecked():
-            self.ner_btn.click()
         self.question_edit.clear()
         self.answer_edit.clear()
 
@@ -837,7 +753,54 @@ class TemplateBuildWidgets(QWidget):
                 self.template_build_result_edit.append(sentence)
 
 
+def load_stop_word_list(file_path):
+    """
+    加载停用词表
+    :param file_path: 停用词表路径
+    :return:
+    """
+    stop_words = set()
+    with open(file_path, "r", encoding="utf-8") as f_stopwords:
+        for line in f_stopwords:
+            stop_words.add(line.strip())
+    return stop_words
+
+
+def load_label_name_map(file_path):
+    """
+    加载标签名，标签映射关系
+    :return:
+    """
+    label_to_name = {}
+    name_to_label = {}
+    with open(file_path, "r", encoding="utf-8") as f_label_map:
+        for line in f_label_map:
+            label = line.strip().split("\t")[0]
+            name = line.strip().split("\t")[-1]
+            label_to_name[label] = name
+            name_to_label[name] = label
+    return label_to_name, name_to_label
+
+
+def question_pretreatment(question):
+    seg_line = jieba.cut(question)
+    add_str = ""
+    for word in seg_line:
+        if word not in stop_words:
+            add_str += word + " "
+    predict = classifier.predict(add_str.strip())
+    return label_to_name[predict[0][0]]
+
 if __name__ == "__main__":
+    # 预加载停用词表、标签对应关系、分类吗，模型
+    stop_words = load_stop_word_list("../QuestionAnalysis/stopwords.txt")
+    label_to_name = load_label_name_map("../QuestionAnalysis/label_name_map")[0]
+    classifier = ff.load_model("../QuestionAnalysis/model_w2_e24")
+
+    # 当前能够回答的问题
+    question_can_answer = ["录取分数", "招生计划"]
+
+    # 界面开始执行
     app = QApplication(sys.argv)
     QAPage = QASystemMainWindow()
     sys.exit(app.exec_())
