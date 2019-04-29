@@ -6,17 +6,18 @@
 @Desc  : 问答系统界面
 """
 import sys
-from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction,
+from PyQt5.QtWidgets import (QMainWindow, QApplication, QAction, qApp,
                              QLabel, QLineEdit, QWidget, QTextEdit, QComboBox, QHBoxLayout, QVBoxLayout,
-                             QMessageBox, QDesktopWidget, QPushButton)
-from PyQt5.QtGui import QIcon
+                             QMessageBox, QDesktopWidget, QPushButton, QSplashScreen)
+from PyQt5.QtGui import QIcon, QPixmap, QFont
+from PyQt5.QtCore import Qt
 from InformationGet.MysqlOperation import mysql_query_sentence
 from pypinyin import lazy_pinyin
 from TemplateLoad.QuestionTemplate import load_template_by_file, build_template_by_infos
 from FileRead.FileNameRead import read_all_file_list
 from QuestionAnswer.TemplateAnswerQuestion import answer_question_by_template
-import fastText.FastText as ff
-import jieba
+import time
+from QuestionAnalysis.QuestionTypePredict import QuestionTypePredict
 
 
 # 主界面
@@ -28,6 +29,7 @@ class QASystemMainWindow(QMainWindow):
         self.main_wid = None
         self.mysql_wid = None
         self.template_wid = None
+        self.question_type_predict = None
         self.init_ui()
 
     # GUI创建
@@ -48,7 +50,6 @@ class QASystemMainWindow(QMainWindow):
         self.center()
         self.setWindowTitle("自动问答系统")
         self.setWindowIcon(QIcon("images/cat.jpg"))
-        self.show()
 
     # 窗口居中
     def center(self):
@@ -94,6 +95,21 @@ class QASystemMainWindow(QMainWindow):
 
         toolbar = self.addToolBar('Exit')
         toolbar.addAction(exit_act)
+
+    def pre_load_data(self, sp):
+        self.question_type_predict = QuestionTypePredict()
+        self.question_type_predict.pre_load_jieba()
+        sp.showMessage("加载结巴字典树...25%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
+        self.question_type_predict.pre_load_stop_words()
+        sp.showMessage("加载停用词典...50%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
+        self.question_type_predict.pre_load_label_name_map()
+        sp.showMessage("加载标签名字映射...75%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
+        self.question_type_predict.pre_load_fastText_model()
+        sp.showMessage("加载分类模型...100%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
 
     # 跳转到数据库查询界面
     def turn_page_mysql(self):
@@ -173,14 +189,14 @@ class QAWidgets(QWidget):
         self.answer_edit.clear()
         sentence = self.question_edit.text()
         # 问题预处理
-        sentence_type = question_pretreatment(sentence)
+        sentence_type = QAPage.question_type_predict.question_predict_by_fastText(sentence)
         if sentence_type not in question_can_answer:
-            self.answer_edit.append("抱歉，当前系统无法回答关于%s的问题，尝试问问其它问题！"%sentence_type)
+            self.answer_edit.append("抱歉，当前系统无法回答关于%s的问题，尝试问问其它问题！" % sentence_type)
         else:
             # hanlp方法
             mid_result, result_edit = answer_question_by_template(sentence)
-            self.answer_edit.append("问句类型："+sentence_type)
-            self.answer_edit.append("分词列表："+str(mid_result["segment_list"]))
+            self.answer_edit.append("问句类型：" + sentence_type)
+            self.answer_edit.append("分词列表：" + str(mid_result["segment_list"]))
             self.answer_edit.append("问题抽象结果：" + str(mid_result["ab_question"]))
             self.answer_edit.append("关键词列表：" + str(mid_result["keyword"]))
             self.answer_edit.append("正则化处理：" + str(mid_result["keyword_normalize"]))
@@ -753,54 +769,24 @@ class TemplateBuildWidgets(QWidget):
                 self.template_build_result_edit.append(sentence)
 
 
-def load_stop_word_list(file_path):
-    """
-    加载停用词表
-    :param file_path: 停用词表路径
-    :return:
-    """
-    stop_words = set()
-    with open(file_path, "r", encoding="utf-8") as f_stopwords:
-        for line in f_stopwords:
-            stop_words.add(line.strip())
-    return stop_words
-
-
-def load_label_name_map(file_path):
-    """
-    加载标签名，标签映射关系
-    :return:
-    """
-    label_to_name = {}
-    name_to_label = {}
-    with open(file_path, "r", encoding="utf-8") as f_label_map:
-        for line in f_label_map:
-            label = line.strip().split("\t")[0]
-            name = line.strip().split("\t")[-1]
-            label_to_name[label] = name
-            name_to_label[name] = label
-    return label_to_name, name_to_label
-
-
-def question_pretreatment(question):
-    seg_line = jieba.cut(question)
-    add_str = ""
-    for word in seg_line:
-        if word not in stop_words:
-            add_str += word + " "
-    predict = classifier.predict(add_str.strip())
-    return label_to_name[predict[0][0]]
-
 if __name__ == "__main__":
-    # 预加载停用词表、标签对应关系、分类吗，模型
-    stop_words = load_stop_word_list("../QuestionAnalysis/stopwords.txt")
-    label_to_name = load_label_name_map("../QuestionAnalysis/label_name_map")[0]
-    classifier = ff.load_model("../QuestionAnalysis/model_w2_e24")
-
     # 当前能够回答的问题
     question_can_answer = ["录取分数", "招生计划"]
 
-    # 界面开始执行
     app = QApplication(sys.argv)
+    # 预加载数据界面
+    splash = QSplashScreen(QPixmap("images/cat.jpg"))
+    splash.show()  # 显示启动界面
+    font = QFont()
+    font.setPointSize(16)
+    font.setBold(True)
+    font.setWeight(75)
+    splash.setFont(font)
+    splash.showMessage("加载... 0%", Qt.AlignCenter, Qt.black)
+    qApp.processEvents()  # 处理主进程事件
+    # 界面开始执行
     QAPage = QASystemMainWindow()
+    QAPage.pre_load_data(splash)
+    QAPage.show()
+    splash.finish(QAPage)
     sys.exit(app.exec_())
