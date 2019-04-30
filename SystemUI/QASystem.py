@@ -17,7 +17,7 @@ from TemplateLoad.QuestionTemplate import load_template_by_file, build_template_
 from FileRead.FileNameRead import read_all_file_list
 from QuestionAnswer.TemplateAnswerQuestion import answer_question_by_template
 import time
-from QuestionAnalysis.QuestionTypePredict import QuestionTypePredict
+from QuestionAnalysis.QuestionTypePredict import QTPredictKeyword, QTPredictTemplate, QTPredictModel
 
 
 # 主界面
@@ -29,7 +29,9 @@ class QASystemMainWindow(QMainWindow):
         self.main_wid = None
         self.mysql_wid = None
         self.template_wid = None
-        self.question_type_predict = None
+        self.question_type_predict_keyword = None
+        self.question_type_predict_template = None
+        self.question_type_predict_model = None
         self.init_ui()
 
     # GUI创建
@@ -97,17 +99,26 @@ class QASystemMainWindow(QMainWindow):
         toolbar.addAction(exit_act)
 
     def pre_load_data(self, sp):
-        self.question_type_predict = QuestionTypePredict()
-        self.question_type_predict.pre_load_jieba()
-        sp.showMessage("加载结巴字典树...25%", Qt.AlignCenter, Qt.black)
+        self.question_type_predict_keyword = QTPredictKeyword()
+        self.question_type_predict_template = QTPredictTemplate()
+        self.question_type_predict_model = QTPredictModel()
+        # 加载数据
+        self.question_type_predict_keyword.pre_load_keyword()
+        sp.showMessage("加载关键词标签映射...20%", Qt.AlignCenter, Qt.black)
         qApp.processEvents()
-        self.question_type_predict.pre_load_stop_words()
-        sp.showMessage("加载停用词典...50%", Qt.AlignCenter, Qt.black)
+        self.question_type_predict_template.pre_load_question_template()
+        sp.showMessage("加载问题模板标签映射...40%", Qt.AlignCenter, Qt.black)
         qApp.processEvents()
-        self.question_type_predict.pre_load_label_name_map()
-        sp.showMessage("加载标签名字映射...75%", Qt.AlignCenter, Qt.black)
+        self.question_type_predict_model.pre_load_jieba()
+        sp.showMessage("加载结巴字典树...50%", Qt.AlignCenter, Qt.black)
         qApp.processEvents()
-        self.question_type_predict.pre_load_fastText_model()
+        self.question_type_predict_model.pre_load_stop_words()
+        sp.showMessage("加载停用词典...60%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
+        self.question_type_predict_model.pre_load_label_name_map()
+        sp.showMessage("加载标签名字映射...70%", Qt.AlignCenter, Qt.black)
+        qApp.processEvents()
+        self.question_type_predict_model.pre_load_fastText_model()
         sp.showMessage("加载分类模型...100%", Qt.AlignCenter, Qt.black)
         qApp.processEvents()
 
@@ -188,8 +199,7 @@ class QAWidgets(QWidget):
     def question_answer(self):
         self.answer_edit.clear()
         sentence = self.question_edit.text()
-        # 问题预处理
-        sentence_type = QAPage.question_type_predict.question_predict_by_fastText(sentence)
+        sentence_type = self.question_type_predict(sentence)
         if sentence_type not in question_can_answer:
             self.answer_edit.append("抱歉，当前系统无法回答关于%s的问题，尝试问问其它问题！" % sentence_type)
         else:
@@ -209,6 +219,22 @@ class QAWidgets(QWidget):
             self.answer_edit.append("回答如下：")
             for item in result_edit:
                 self.answer_edit.append(item)
+
+    # 判断问题类型,优先级：关键词>模板>模型
+    def question_type_predict(self, sentence):
+        # 使用关键词判断
+        sentence_type = QAPage.question_type_predict_keyword.question_predict_by_keyword(sentence)
+        if sentence_type:
+            return sentence_type
+        else:
+            # 使用模板判断
+            sentence_type = QAPage.question_type_predict_template.question_predict_by_template(sentence)
+            if sentence_type:
+                return sentence_type
+            else:
+                # 使用模型判断
+                sentence_type = QAPage.question_type_predict_model.question_predict_by_fastText(sentence)
+                return sentence_type
 
     # 清空按钮状态
     def clear_button(self):
