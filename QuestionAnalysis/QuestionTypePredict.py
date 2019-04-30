@@ -107,6 +107,7 @@ class QTPredictKeyword:
         for word in jieba.cut(question):
             if word in self.keywords_label_map:
                 return self.keywords_label_map[word]
+        return ""
 
 
 class QTPredictTemplate:
