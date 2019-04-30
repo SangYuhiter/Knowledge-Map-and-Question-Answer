@@ -5,7 +5,6 @@
 @Date  : 2018/12/25 15:32
 @Desc  : 自然语言问句的预处理
 """
-from LTP.LTPInterface import ltp_segmentor, ltp_postagger, ltp_name_entity_recognizer
 from HanLP.HanLPTest import hanlp_nlp_segmentor
 from TemplateLoad.QuestionTemplate import load_template_by_file
 from SimilarityCalculate.SemanticSimilarity import deepintell_api_asy
@@ -16,56 +15,6 @@ import copy
 import time
 
 
-# ltp对关键词的抽取与识别
-# noinspection PyShadowingNames
-def question_to_keyword_ltp(question):
-    words = list(ltp_segmentor(LTP_DATA_DIR, question))
-    postags = list(ltp_postagger(LTP_DATA_DIR, words))
-    nertags = list(ltp_name_entity_recognizer(LTP_DATA_DIR, words, postags))
-    # 先考虑命名实体的存在,组合分散的命名实体
-    ner_dict = []
-    for i_ner in range(len(nertags)):
-        if nertags[i_ner] == "O":
-            continue
-        elif nertags[i_ner].find("S") != -1:
-            ner_dict.append(words[i_ner] + "-" + nertags[i_ner].split("-")[-1])
-    i_ner = 0
-    while i_ner < len(nertags):
-        if nertags[i_ner].find("B") != -1:
-            end_ner = nertags.index("E-" + nertags[i_ner].split("-")[-1])
-            ner_words = words[i_ner]
-            for i in range(i_ner + 1, end_ner + 1):
-                ner_words += words[i]
-            ner_words += "-" + nertags[i_ner].split("-")[-1]
-            ner_dict.append(ner_words)
-            i_ner = end_ner + 1
-        else:
-            i_ner += 1
-
-    search_year = ""
-    # 输出查询的年份
-    if "nt" in postags:
-        search_year = words[postags.index("nt")]
-
-    # 输出查询的学校,地区
-    # 先查看命名实体内
-    search_school = ""
-    search_district = ""
-    if len(ner_dict) != 0:
-        for item in ner_dict:
-            if item.find("Ni") != -1:
-                search_school = item.split("-")[0]
-            if item.find("Ns") != -1:
-                search_district = item.split("-")[0]
-    # 再查看命名缩写
-    if search_school == "" and "j" in postags:
-        search_school = words[postags.index("j")]
-        print(search_school)
-    if search_district == "" and "ns" in postags:
-        search_district = words[postags.index("ns")]
-    return search_year, search_school, search_district
-
-
 # 使用hanlp平台对问答界面传入的问句进行分词预处理，返回分词及词性列表
 # noinspection PyShadowingNames
 def question_segment_hanlp(question):
@@ -74,7 +23,7 @@ def question_segment_hanlp(question):
 
 # 加载问题模板并返回最匹配的模板及相应的答句模板
 # noinspection PyShadowingNames
-def find_question_match_template(ab_question, template_sentence_type):
+def find_question_match_template(ab_question, template_sentence_type, calculate_type = 0):
     main_path = "../TemplateLoad/Template"
     template_path = main_path + "/" + template_sentence_type
     fq_condition, fq_target, ts_answers, ts_questions = load_template_by_file(template_path)
@@ -87,15 +36,15 @@ def find_question_match_template(ab_question, template_sentence_type):
             sentence = sentence.replace("(" + key_en + ")", key_ch).split("--")[0]
         temp_sentence.append(sentence)
     # deepintellAPI
-    # input_pairs = [{"sent1": ab_question, "sent2": sentence} for sentence in temp_sentence]
-    # score_list = deepintell_api_asy(input_pairs)
-    # score_list.sort()
-    # highest_index = score_list[-1][1]
-    # match_template_sentence = ts_questions[highest_index]
-
-    # 编辑距离
-    score_list = edit_distance(ab_question, temp_sentence)
-    highest_index = score_list[0][1]
+    if calculate_type:
+        input_pairs = [{"sent1": ab_question, "sent2": sentence} for sentence in temp_sentence]
+        score_list = deepintell_api_asy(input_pairs)
+        score_list.sort()
+        highest_index = score_list[-1][1]
+    else:
+        # 编辑距离
+        score_list = edit_distance(ab_question, temp_sentence)
+        highest_index = score_list[0][1]
     match_template_sentence = ts_questions[highest_index]
     return fq_condition, fq_target, match_template_sentence.split("--")[0], ts_answers[
         int(match_template_sentence.split("--")[1])]
