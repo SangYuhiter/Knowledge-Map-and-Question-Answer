@@ -15,6 +15,8 @@ import pickle
 from threading import Thread
 import threading
 from queue import Queue
+import os
+import random
 
 
 # 从阳光高考网获取常见问题集
@@ -135,11 +137,14 @@ class DownloadPageInfo(Thread):
                 question_time = ""
                 question_text = "q_text"
                 answer_text = "a_text"
-                question_title = str(tr_list[i_qa_pair].find("a", class_="question_t_txt").string).strip()
+                question_title = str(tr_list[i_qa_pair].find("a", class_="question_t_txt").string).strip().replace(",",
+                                                                                                                   "，")
                 # self.thread_logger.debug("标题:%s" % question_title)
-                question_from = str(tr_list[i_qa_pair].find("i", title="提问人").next_sibling.string).strip()
+                question_from = str(tr_list[i_qa_pair].find("i", title="提问人").next_sibling.string).strip().replace(",",
+                                                                                                                   "，")
                 # self.thread_logger.debug("来源:%s" % question_from)
-                question_time = str(tr_list[i_qa_pair].find("td", class_="question_t ch-table-center").text).strip()
+                question_time = str(
+                    tr_list[i_qa_pair].find("td", class_="question_t ch-table-center").text).strip().replace(",", "，")
                 # self.thread_logger.debug("时间:%s" % question_time)
                 # 问题与答案可能出现本页无法写下的情况，需要进行页面跳转获取信息
                 question_text_class = tr_list[i_qa_pair + 1].find("div", class_="question")
@@ -151,6 +156,7 @@ class DownloadPageInfo(Thread):
                 replace_str = ["回复", "\n", "\r", "\t", "\xa0", "\ue63c", "\ue5e5", "\u3000" "[", "]", " "]
                 for r_str in replace_str:
                     question_text = question_text.replace(r_str, "")
+                question_text.replace(",", "，")
                 # self.thread_logger.debug("问题:%s" % question_text)
                 answer_text_class = tr_list[i_qa_pair + 1].find("div", class_="question_a")
                 if answer_text_class.find(text='[详细]') is None:
@@ -284,16 +290,184 @@ def get_consultation_forum_id():
             print(info)
 
 
+# 对抓取的985，211常用问题集进行预处理,去除不满足条件的记录（不足五个字段）
+def pretreat_crawl_questions():
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    data_dir = "Information/大学/常问问题集/Data"
+    pickle_dir = "Information/大学/常问问题集/Pickle"
+    file_list = os.listdir(data_dir)
+    function_logger.debug("大学数量：%d" % len(file_list))
+    for file in file_list:
+        university_name = file[:-9]
+        function_logger.debug(university_name)
+        function_logger.info("开始读取%s的常问问题集..." % university_name)
+        with open(data_dir + "/" + file, "r", encoding="utf-8") as csvfile:
+            csv_reader = csv.reader(csvfile)
+            fqa_lines = []
+            for row in csv_reader:
+                if len(row) == 5:
+                    line = {}
+                    line["title"] = row[0]
+                    line["from"] = row[1]
+                    line["time"] = row[2]
+                    line["question"] = row[3]
+                    line["answer"] = row[4]
+                    fqa_lines.append(line)
+            fqa_lines.pop(0)
+        function_logger.info("读取%s的常用问题集完成！" % university_name)
+        function_logger.info("开始写入%s的常用问题集..." % university_name)
+        with open(pickle_dir + "/" + university_name, "wb")as p_file:
+            pickle.dump(fqa_lines, p_file)
+        function_logger.info("写入%s的常用问题集完成！" % university_name)
+    function_logger.info("数据处理完成！")
+
+
+# 随机抽取数据，人工进行打分并放入相应的文件中
+def label_data():
+    function_logger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
+    data_dir = "Information/大学/常问问题集/Data"
+    pickle_dir = "Information/大学/常问问题集/Pickle"
+    label_dir = "Information/大学/常问问题集/label"
+    file_list = os.listdir(pickle_dir)
+    function_logger.debug("大学数量：%d" % len(file_list))
+    line_1 = []
+    line_2 = []
+    line_3 = []
+    line_4 = []
+    line_5 = []
+    line_6 = []
+    line_7 = []
+    all_count = 0
+    for file in file_list:
+        print(file)
+        university_name = file
+        with open(pickle_dir + "/" + university_name, "rb") as p_file:
+            lines = pickle.load(p_file)
+        lines_count = len(lines)
+        all_count += lines_count
+    print(all_count)
+    #     group_size = 100
+    #     for i_line in range(0, lines_count, 100):
+    #         random_end = min(group_size, lines_count - i_line)
+    #         random_index = random.randrange(0, random_end)
+    #         print_line = lines[i_line + random_index]
+    #         # print(print_line)
+    #         print("\n%d/%d:\t%s" % (i_line+random_index,lines_count,print_line["question"]))
+    #         print("0:不进行标记\t1:录取希望\t2:招生计划\t3:录取分数\t4:毕业去向\t5:专业相关\t6:谢谢回复\t7:志愿填报\t8:进行存储")
+    #         print("标签数量：\t\t%6.d\t\t%6.d\t\t%6.d\t\t%6.d\t\t%6.d\t\t%6.d\t\t%6.d" %
+    #               (len(line_1), len(line_2), len(line_3), len(line_4), len(line_5), len(line_6), len(line_7)))
+    #         label = input("输入标签：")
+    #         if label == "1":
+    #             line_1.append(print_line)
+    #         elif label == "2":
+    #             line_2.append(print_line)
+    #         elif label == "3":
+    #             line_3.append(print_line)
+    #         elif label == "4":
+    #             line_4.append(print_line)
+    #         elif label == "5":
+    #             line_5.append(print_line)
+    #         elif label == "6":
+    #             line_6.append(print_line)
+    #         elif label == "7":
+    #             line_7.append(print_line)
+    #         elif label == "8":
+    #             with open(label_dir+"/admission_hope", "wb")as f:
+    #                 f.truncate()
+    #                 pickle.dump(line_1, f)
+    # with open(label_dir+"/admission_hope", "w", encoding="utf-8") as f:
+    #     f.truncate()
+    #     pickle.dump(line_1, f)
+        # function_logger.debug(university_name)
+
+
+# 对数据进行处理，选出参与标注数据的文本
+def brat_label_data():
+    pickle_dir = "Information/大学/常问问题集/Pickle"
+    brat_dir = "Information/大学/常问问题集/Brat"
+    all_count = 0
+    all_count_brat = 0
+    all_count_else = 0
+    file_list = os.listdir(pickle_dir)
+    for i_file in range(len(file_list)):
+        print(file_list[i_file])
+        university_name = file_list[i_file]
+        with open(pickle_dir + "/" + university_name, "rb") as p_file:
+            lines = pickle.load(p_file)
+        lines_count = len(lines)
+        group_size = 100
+        brat_index = []
+        brat_datas = []
+        all_count += lines_count
+        for i_line in range(0, lines_count, 100):
+            random_end = min(group_size, lines_count - i_line)
+            random_index = random.randrange(0, random_end)
+            brat_index.append(i_line+random_index)
+        for i in brat_index:
+            brat_datas.append(lines[i])
+        all_count_brat += len(brat_datas)
+        # 去除选出的数据
+        for line in brat_datas:
+            lines.remove(line)
+        all_count_else += len(lines)
+        with open(brat_dir+"/"+str(i_file)+".txt","w",encoding="utf-8") as f_bdata:
+            for data in brat_datas:
+                f_bdata.write(data["question"]+"\t"+data["answer"]+"\n")
+        fp = open(brat_dir + "/" + str(i_file) + ".ann", "w")
+        fp.close()
+        with open(pickle_dir+"/"+university_name,"wb")as p_file:
+            pickle.dump(lines, p_file)
+    print(all_count)
+    print(all_count_brat)
+    print(all_count_else)
+
+
+# 创建存储标注数据的文件.ann
+def create_label_file():
+    brat_dir = "Information/大学/常问问题集/Brat"
+    for file in os.listdir(brat_dir):
+        university_name = file[:-4]
+        fp = open(brat_dir+"/"+university_name+".ann", "w")
+        fp.close()
+        print(university_name)
+
 if __name__ == '__main__':
     main_logger = MyLog(__name__).getlog()
     main_logger.debug("start...")
     # get_undergraduate_university_info()
     # get_consultation_forum_id()
-    get_question_yggk()
+    # get_question_yggk()
+    # pretreat_crawl_questions()
 
     # with open("Information/大学/university_info", "rb")as p_file:
     #     university_infos = pickle.load(p_file)
     # for info in university_infos:
-    #     if "985" in info["院校特性"] or "211" in info["院校特性"]:
+    #     if "985" in info["院校特性"] and "211" in info["院校特性"]:
     #         print(info)
+
+    # label_data()
+
+    # pretreat_crawl_questions()
+
+    # pickle_dir = "Information/大学/常问问题集/Pickle"
+    # data_count = 0
+    # for file in os.listdir(pickle_dir):
+    #     print(file)
+    #     with open(pickle_dir + "/" + file, "rb")as p_file:
+    #         data = pickle.load(p_file)
+    #     data_count+=len(data)
+    #     for line in data:
+    #         if len(line)!=5:
+    #             print(line)
+    # print("总记录数：%d" % data_count)
+
+    # label_dir = "Information/大学/常问问题集/label"
+    # with open(label_dir+"/admission_hope","rb") as p_file:
+    #     data = pickle.load(p_file)
+    # for line in data:
+    #     print(line)
+
+    brat_label_data()
+    # create_label_file()
+
     main_logger.debug("end...")
