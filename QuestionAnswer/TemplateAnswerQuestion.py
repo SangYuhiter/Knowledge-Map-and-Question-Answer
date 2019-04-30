@@ -15,7 +15,7 @@ from InformationGet.MysqlOperation import mysql_query_sentence
 
 
 # 传入问题使用模板回答问题
-def answer_question_by_template(question: str, school_flag: int = 0, school_name: str = "")->tuple:
+def answer_question_by_template(question: str, school_flag: int = 0, school_name: str = "")->(dict, list):
     """
     分词-》提取关键词、抽象问句-》抽象问句匹配模板-》模板构造sql语句-》sql语句返回查询结果-》查询结果构造模板输出
     :param question: 问题
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     main_logger.info("start...")
     test_question = "哈工大前年软件工程石家庄招生人数？"
     main_logger.debug(test_question)
-    test_mid_result, test_result = answer_question_by_template(test_question, 1, "清华大学")
+    test_mid_result, test_result = answer_question_by_template(test_question)
     for mid in test_mid_result:
         main_logger.debug(str(mid)+":"+str(test_mid_result[mid]))
     main_logger.debug("查询结果：")
