@@ -6,7 +6,7 @@
 @Desc  : 地点词识别
 """
 import json
-from HanLP.HanLPTest import hanlp_nlp_segmentor
+from HanLP.HanLPAPI import hanlp_nlp_segmentor
 import os
 
 

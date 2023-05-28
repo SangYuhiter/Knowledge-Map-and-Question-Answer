@@ -5,7 +5,8 @@
 @Date  : 2018/12/25 15:32
 @Desc  : 自然语言问句的预处理
 """
-from HanLP.HanLPTest import hanlp_nlp_segmentor
+# from HanLP.HanLPTest import hanlp_nlp_segmentor
+from HanLP.HanLPAPI import hanlp_nlp_segmentor
 from TemplateLoad.QuestionTemplate import load_template_by_file
 from SimilarityCalculate.SemanticSimilarity import deepintell_api_asy
 from QuestionAnalysis.KeywordNormalize import (time_word_normalize_local, time_word_normalize_web,

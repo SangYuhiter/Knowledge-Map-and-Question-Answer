@@ -5,14 +5,14 @@
 @Date  : 2018/12/21 11:22
 @Desc  : Mysql连接、数据表创建、增删查改
 """
-import mysql.connector
+import pymysql
 import sys
 from Log.Logger import MyLog
 
 
 # 数据库连接（事先不确定数据库）
 def connect_mysql_without_db():
-    mydb = mysql.connector.connect(
+    mydb = pymysql.Connect(
         host="localhost",
         user="root",
         passwd="123456",
@@ -21,13 +21,13 @@ def connect_mysql_without_db():
 
 
 # 数据库连接(已知数据库名)
-def connect_mysql_with_db(db_name: str)->mysql.connector.connect:
+def connect_mysql_with_db(db_name: str)->pymysql.Connect:
     """
     数据库连接(已知数据库名)
     :param db_name: 数据库名
     :return: 数据库连接
     """
-    mydb = mysql.connector.connect(
+    mydb = pymysql.Connect(
         host="localhost",
         user="root",
         passwd="123456",

@@ -6,7 +6,7 @@
 @Desc  : 时间词识别
 """
 
-from HanLP.HanLPTest import hanlp_nlp_segmentor
+from HanLP.HanLPAPI import hanlp_nlp_segmentor
 from datetime import datetime
 import re
 

@@ -6,7 +6,8 @@
 @Desc  : 问题类型预测
 """
 import jieba
-import fastText.FastText as ff
+# import fastText.FastText as ff
+import fasttext.FastText as ff
 import time
 import os
 from SimilarityCalculate.SentenceSimilartity import edit_distance
