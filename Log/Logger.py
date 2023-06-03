@@ -9,6 +9,7 @@
 import logging
 import logging.handlers
 import datetime
+import os
 
 log_path = "../Logs/"
 
@@ -22,6 +23,9 @@ class MyLog:
         # 检查当前logger是否存在，若存在，直接调用即可，不必再次创建
         if not self.logger.handlers:
             self.logger.setLevel(logging.DEBUG)
+
+            if not os.path.exists(log_path):
+                os.mkdir(log_path)
 
             # all.log文件中记录所有的日志信息，日志格式为：日期和时间 - 日志名 - 日志级别 - 日志信息
             rf_handler = logging.handlers.TimedRotatingFileHandler(log_path + 'all.log', when='midnight', interval=1,

@@ -1,5 +1,33 @@
 # Knowledge-Map-and-Question-Answer
 毕业设计--面向高考招生咨询的问答系统设计与实现
+
+## 如何导入该项目？
+```shell
+# 1. git clone 当前项目
+git clone https://github.com/SangYuhiter/Knowledge-Map-and-Question-Answer.git
+
+# 2. 新建Python 环境
+python -m venv .venv
+
+# 3.安装依赖库
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# 4.准备数据库信息
+# 确定数据库链接的信息，默认是root@localhost 密码:123456
+# 执行 InfomationGet/InsertAdmissionData.py 插入数据
+cd InfomationGet
+# create database and sheet
+python MysqlOperation.py
+# insert data
+python InsertAdmissionData.py
+
+# 5.打开软件
+cd SystemUi
+python QASystem.py
+```
+
+
 ##### 【原题：毕业设计--基于知识图谱的大学领域知识自动问答系统的设计与实现】
 ### 一、InfomationGet:完成领域知识的获取和数据库构建工作
 #### 1、Infomation:存储获取到的信息

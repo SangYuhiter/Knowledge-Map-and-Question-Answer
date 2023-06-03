@@ -56,7 +56,7 @@ def create_database(db_name: str):
     if db_name in dbs:
         function_logger.info("数据库" + db_name + "已存在!")
     else:
-        mycursor.execute("CREATE DATABASE " + db_name)
+        mycursor.execute("CREATE DATABASE " + db_name + "DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci")
         function_logger.info(db_name + "已创建!")
 
 
@@ -169,6 +169,7 @@ def mysql_query_sentence(mysql_string: str)->list:
     dbname = "university_admission"
     mydb = connect_mysql_with_db(dbname)
     mycursor = mydb.cursor()
+    print(mysql_string)
     mycursor.execute(mysql_string)
     des = mycursor.description
     column_name = [column[0] for column in des]
@@ -202,12 +203,12 @@ def query_table_head(table_name: str)->list:
 if __name__ == "__main__":
     main_logger = MyLog(logger=__name__).getlog()
     main_logger.info("begin...")
-    # db_name = "university_admission"
-    # create_database(db_name)
-    # search_table_in_db(db_name)
-    # create_admission_plan_table()
-    # create_admission_score_pro_table()
-    # create_admission_score_major_table()
+    db_name = "university_admission"
+    create_database(db_name)
+    search_table_in_db(db_name)
+    create_admission_plan_table()
+    create_admission_score_pro_table()
+    create_admission_score_major_table()
     # noinspection SqlResolve
     test_myresult = mysql_query_sentence("select * from admission_plan where id='1';")
     for item in test_myresult:

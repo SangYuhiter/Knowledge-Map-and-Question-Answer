@@ -5,6 +5,8 @@
 @Date  : 2018/12/25 14:03
 @Desc  : 此程序用于将招生数据插入数据库
 """
+import os.path
+
 from InformationGet import MysqlOperation
 from FileRead.FileNameRead import read_all_file_list
 from Log.Logger import MyLog
@@ -23,7 +25,7 @@ def plan_doc_to_mysql_table_tuple(file_path, school):
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     mylogger.info("插入文件" + file_path)
     file_content = read_file_content(file_path)
-    file_name = file_path.split("\\")[-1]
+    file_name = os.path.basename(file_path)
     year = file_name.split("-")[0]
     district = file_name.split("-")[1]
     # mylogger.debug("年份：" + year + "地区：" + district)
@@ -61,6 +63,7 @@ def insert_table_admission_plan(mysql_tuple_list):
     mycursor = mydb.cursor()
     sql_string = "INSERT INTO admission_plan(school,district,year,major,classy,numbers) " \
                  "VALUES (%s,%s,%s,%s,%s,%s)"
+    print(mysql_tuple_list)
     mycursor.executemany(sql_string, mysql_tuple_list)
     mydb.commit()
 
@@ -89,7 +92,7 @@ def insert_all_school_table_admission_plan():
 def score_major_doc_to_mysql_table_tuple(file_path, school):
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_content = read_file_content(file_path)
-    file_name = file_path.split("\\")[-1]
+    file_name = os.path.basename(file_path)
     year = file_name.split("-")[0]
     district = file_name.split("-")[1]
     table_format = file_name.split("-")[-1]
@@ -138,7 +141,7 @@ def insert_table_admission_score_major(mysql_tuple_list):
 def score_pro_doc_to_mysql_table_tuple(file_path, school):
     mylogger = MyLog(logger=sys._getframe().f_code.co_name).getlog()
     file_content = read_file_content(file_path)
-    file_name = file_path.split("\\")[-1]
+    file_name = os.path.basename(file_path)
     year = file_name.split("-")[0]
     table_format = file_name.split("-")[-1]
     # mylogger.debug("年份：" + year + "表类型：" + table_format)
@@ -202,5 +205,5 @@ if __name__ == "__main__":
     mylogger.info("插入所有学校的招生计划数据...")
     insert_all_school_table_admission_plan()
     mylogger.info("插入所有学校的录取分数数据...")
-    # insert_all_school_table_admission_score()
+    insert_all_school_table_admission_score()
     mylogger.info("end...")
